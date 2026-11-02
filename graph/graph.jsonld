@@ -1,0 +1,88 @@
+{
+ "@context": {
+  "aif": "http://www.arg.dundee.ac.uk/aif#",
+  "ct": "https://github.com/john1hsu/critical-thinking-graph/id/",
+  "cto": "https://github.com/john1hsu/critical-thinking-graph/ontology#",
+  "dcterms": "http://purl.org/dc/terms/",
+  "owl": "http://www.w3.org/2002/07/owl#",
+  "prov": "http://www.w3.org/ns/prov#",
+  "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+  "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+  "schema": "https://schema.org/",
+  "skos": "http://www.w3.org/2004/02/skos/core#",
+  "wd": "http://www.wikidata.org/entity/",
+  "xsd": "http://www.w3.org/2001/XMLSchema#"
+ },
+ "@graph": [
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Argumentation theory and argument mapping"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Cognitive biases"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Debiasing, metacognition and intellectual virtues"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Structured decision making and analytic techniques"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Evidence evaluation and information literacy"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Formal fallacies"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Formal logic"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Foundations of critical thinking"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Heuristics and dual-process theories"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "History, thinkers and landmark works"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Informal fallacies"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Philosophy of reasoning and knowledge"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Probabilistic and statistical reasoning"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning",
+   "@type": "skos:ConceptScheme",
+   "skos:prefLabel": "Scientific reasoning and research methods"
+  }
+ ]
+}

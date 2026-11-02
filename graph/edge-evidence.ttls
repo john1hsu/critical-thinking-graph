@@ -1,0 +1,5 @@
+# Turtle-star (RDF 1.2): each typed edge annotated with the source that supports it and a confidence.
+@prefix cto: <https://github.com/john1hsu/critical-thinking-graph/ontology#> .
+@prefix ct: <https://github.com/john1hsu/critical-thinking-graph/id/> .
+
+

@@ -1,0 +1,7 @@
+# title: Formal fallacies not linked to the valid form they imitate
+# question: Which written formal fallacies have no invalidFormOf edge to the valid reasoning form they mimic?
+# gap: true
+SELECT ?fallacy WHERE {
+  ?fallacy a cto:FormalFallacy ; cto:file ?f .
+  FILTER NOT EXISTS { ?fallacy cto:invalidFormOf ?validForm }
+} ORDER BY ?fallacy

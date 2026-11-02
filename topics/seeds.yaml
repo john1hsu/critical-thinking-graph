@@ -1,0 +1,54 @@
+# Domains the hourly run draws from. Edit freely: add domains, remove ones you
+# don't want, or add seed slugs to steer what gets written next. Seeds are
+# suggestions, not a queue: skip any that already exist.
+# Each domain becomes a SKOS ConceptScheme (ct:scheme/<domain>) in the graph.
+#
+# Scope: reasoning and logic, argumentation, fallacies, cognitive biases,
+# probabilistic and scientific reasoning, evidence and information literacy,
+# structured decision making, debiasing and metacognition, and the history of
+# the ideas. Practitioner depth on structured analytic techniques used in
+# consulting, intelligence analysis and government decision making.
+
+domains:
+  foundations:
+    label: Foundations of critical thinking
+    seeds: [critical-thinking, argument, premise-and-conclusion, validity, soundness, cogency, deductive-reasoning, inductive-reasoning, abductive-reasoning, burden-of-proof, necessary-and-sufficient-conditions]
+  formal-logic:
+    label: Formal logic
+    seeds: [propositional-logic, predicate-logic, modus-ponens, modus-tollens, hypothetical-syllogism, disjunctive-syllogism, categorical-syllogism, contrapositive, truth-table, logical-equivalence]
+  argumentation:
+    label: Argumentation theory and argument mapping
+    seeds: [toulmin-model, argument-mapping, argumentation-schemes, argument-from-expert-opinion, argument-from-analogy, argument-from-consequences, pragma-dialectics, principle-of-charity, steelmanning, dialectical-argument, informal-logic]
+  formal-fallacies:
+    label: Formal fallacies
+    seeds: [affirming-the-consequent, denying-the-antecedent, undistributed-middle, illicit-major, affirming-a-disjunct, existential-fallacy]
+  informal-fallacies:
+    label: Informal fallacies
+    seeds: [ad-hominem, straw-man, false-dilemma, slippery-slope, appeal-to-authority, begging-the-question, post-hoc-ergo-propter-hoc, red-herring, equivocation, tu-quoque, hasty-generalization, motte-and-bailey, appeal-to-ignorance, no-true-scotsman, gish-gallop, whataboutism]
+  probabilistic-reasoning:
+    label: Probabilistic and statistical reasoning
+    seeds: [bayesian-reasoning, base-rate-fallacy, conjunction-fallacy, gamblers-fallacy, prosecutors-fallacy, regression-to-the-mean, conditional-probability, calibration, expected-value, simpsons-paradox, law-of-small-numbers]
+  cognitive-biases:
+    label: Cognitive biases
+    seeds: [confirmation-bias, anchoring-effect, hindsight-bias, overconfidence-effect, sunk-cost-fallacy, framing-effect, motivated-reasoning, survivorship-bias, fundamental-attribution-error, dunning-kruger-effect, status-quo-bias, planning-fallacy, groupthink, belief-bias, bias-blind-spot]
+  heuristics-and-dual-process:
+    label: Heuristics and dual-process theories
+    seeds: [heuristics-and-biases-program, availability-heuristic, representativeness-heuristic, affect-heuristic, dual-process-theory, system-1-and-system-2, bounded-rationality, satisficing, fast-and-frugal-heuristics, ecological-rationality]
+  scientific-reasoning:
+    label: Scientific reasoning and research methods
+    seeds: [falsifiability, hypothesis-testing, correlation-versus-causation, confounding, randomized-controlled-trial, replication-crisis, p-hacking, preregistration, occams-razor, inference-to-the-best-explanation, hierarchy-of-evidence, null-hypothesis-significance-testing]
+  evidence-and-information-literacy:
+    label: Evidence evaluation and information literacy
+    seeds: [lateral-reading, sift-method, source-credibility, primary-and-secondary-sources, misinformation-and-disinformation, cherry-picking, statistical-literacy, prebunking, media-literacy, conflict-of-interest]
+  decision-making:
+    label: Structured decision making and analytic techniques
+    seeds: [premortem, analysis-of-competing-hypotheses, structured-analytic-techniques, key-assumptions-check, red-team-analysis, devils-advocacy, decision-journal, expected-utility-theory, reference-class-forecasting, second-order-thinking, reversible-and-irreversible-decisions, delphi-method]
+  debiasing-and-metacognition:
+    label: Debiasing, metacognition and intellectual virtues
+    seeds: [metacognition, debiasing, consider-the-opposite, actively-open-minded-thinking, intellectual-humility, need-for-cognition, outside-view, superforecasting, cognitive-reflection-test, epistemic-vigilance]
+  philosophy-of-reasoning:
+    label: Philosophy of reasoning and knowledge
+    seeds: [epistemology, justified-true-belief, gettier-problem, philosophical-skepticism, problem-of-induction, socratic-method, paul-elder-critical-thinking-framework, blooms-taxonomy, delphi-report-on-critical-thinking]
+  history-and-thinkers:
+    label: History, thinkers and landmark works
+    seeds: [aristotle, organon, sophistical-refutations, francis-bacon, idols-of-the-mind, john-dewey, how-we-think, karl-popper, daniel-kahneman, amos-tversky, judgment-under-uncertainty, thinking-fast-and-slow, douglas-walton, stephen-toulmin]

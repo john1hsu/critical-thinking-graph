@@ -1,0 +1,7 @@
+# title: Heuristic -> bias -> remedy chains
+# question: For each heuristic, which biases can it produce and what counteracts them?
+# gap: false
+SELECT ?heuristic ?bias ?remedy WHERE {
+  ?heuristic cto:produces ?bias .
+  OPTIONAL { ?bias cto:counteractedBy ?remedy }
+} ORDER BY ?heuristic ?bias ?remedy

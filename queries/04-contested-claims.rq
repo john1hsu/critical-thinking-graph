@@ -1,0 +1,8 @@
+# title: Contested or failed-replication claims
+# question: Which empirical claims in the graph are disputed, and by what?
+# gap: false
+SELECT ?node ?status ?challenger WHERE {
+  ?node cto:evidenceStatus ?status .
+  FILTER(?status IN ("contested", "failed-replication", "mixed"))
+  OPTIONAL { ?node cto:challengedBy ?challenger }
+} ORDER BY ?status ?node

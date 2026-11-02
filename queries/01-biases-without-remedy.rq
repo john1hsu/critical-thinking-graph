@@ -1,0 +1,9 @@
+# title: Biases and fallacies with no countermeasure
+# question: Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?
+# gap: true
+SELECT ?node ?type WHERE {
+  ?node cto:file ?f ; a ?type .
+  VALUES ?type { cto:CognitiveBias cto:Heuristic cto:FormalFallacy cto:InformalFallacy cto:ProbabilisticFallacy }
+  FILTER NOT EXISTS { ?node cto:counteractedBy ?x }
+  FILTER NOT EXISTS { ?node cto:detectedBy ?y }
+} ORDER BY ?node

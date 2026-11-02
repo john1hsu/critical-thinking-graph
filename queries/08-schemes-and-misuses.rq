@@ -1,0 +1,8 @@
+# title: Argumentation schemes and their fallacious misuses
+# question: For each argumentation scheme, how many critical questions does it carry and which fallacies misuse it?
+# gap: false
+SELECT ?scheme (COUNT(DISTINCT ?cq) AS ?criticalQuestions) (GROUP_CONCAT(DISTINCT STR(?f); separator=", ") AS ?misusedAs) WHERE {
+  ?scheme a cto:ArgumentScheme ; cto:file ?file .
+  OPTIONAL { ?cq cto:questionFor ?scheme }
+  OPTIONAL { ?scheme cto:misusedAs ?f }
+} GROUP BY ?scheme ORDER BY ?scheme

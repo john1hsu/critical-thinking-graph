@@ -1,0 +1,8 @@
+# title: Most useful remedies
+# question: Which techniques, principles and dispositions counteract or detect the most failure modes?
+# gap: false
+SELECT ?remedy (COUNT(DISTINCT ?target) AS ?covers) (GROUP_CONCAT(DISTINCT STR(?label); separator=", ") AS ?targets) WHERE {
+  { ?remedy cto:counteracts ?target } UNION { ?remedy cto:detects ?target }
+  OPTIONAL { ?target skos:prefLabel ?l }
+  BIND(COALESCE(?l, REPLACE(STR(?target), "^.*/", "")) AS ?label)
+} GROUP BY ?remedy ORDER BY DESC(?covers) ?remedy

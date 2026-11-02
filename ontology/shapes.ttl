@@ -1,0 +1,66 @@
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix schema:  <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix cto:     <https://github.com/john1hsu/critical-thinking-graph/ontology#> .
+@prefix cts:     <https://github.com/john1hsu/critical-thinking-graph/shapes#> .
+
+# =============================================================================
+# SHACL shapes: the semantic contract for the exported RDF graph.
+# `scripts/kg.py build` runs these with pySHACL against graph/triples.nt plus
+# the ontology (RDFS inference on), so subclass membership counts.
+# =============================================================================
+
+cts:NodeShape a sh:NodeShape ;
+    sh:targetSubjectsOf cto:file ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+    sh:property [ sh:path skos:definition ; sh:minCount 1 ; sh:maxCount 1 ; sh:minLength 40 ] ;
+    sh:property [ sh:path dcterms:created ; sh:minCount 1 ; sh:datatype xsd:date ] ;
+    sh:property [ sh:path dcterms:modified ; sh:maxCount 1 ; sh:datatype xsd:date ] ;
+    sh:property [ sh:path cto:domain ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path cto:level ; sh:minCount 1 ; sh:in ( "introductory" "intermediate" "advanced" ) ] ;
+    sh:property [ sh:path cto:evidenceStatus ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:in ( "normative" "robust" "mixed" "contested" "failed-replication" "historical" ) ] ;
+    sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 3 ; sh:class cto:Source ] ;
+    sh:property [ sh:path skos:inScheme ; sh:minCount 1 ] .
+
+cts:SourceShape a sh:NodeShape ;
+    sh:targetClass cto:Source ;
+    sh:property [ sh:path dcterms:title ; sh:minCount 1 ] ;
+    sh:property [ sh:path dcterms:publisher ; sh:minCount 1 ] ;
+    sh:property [ sh:path schema:url ; sh:minCount 1 ; sh:nodeKind sh:IRI ; sh:pattern "^https://" ] ;
+    sh:property [ sh:path cto:sourceType ; sh:minCount 1 ] ;
+    sh:property [ sh:path dcterms:date ; sh:minCount 1 ; sh:datatype xsd:date ] .
+
+# Domain-specific completeness: these are what make the graph *useful* for
+# thinking better, not just well-formed.
+cts:FallacyShape a sh:NodeShape ;
+    sh:targetClass cto:Fallacy ;
+    sh:property [ sh:path [ sh:inversePath cto:questionFor ] ; sh:minCount 2 ;
+                  sh:message "A fallacy needs at least 2 criticalQuestions that help detect it." ] ;
+    sh:property [ sh:path cto:example ; sh:minCount 1 ;
+                  sh:message "A fallacy needs a worked example (argumentMap)." ] .
+
+cts:SchemeShape a sh:NodeShape ;
+    sh:targetClass cto:ArgumentScheme ;
+    sh:property [ sh:path [ sh:inversePath cto:questionFor ] ; sh:minCount 3 ;
+                  sh:message "An argumentation scheme needs at least 3 critical questions." ] .
+
+cts:BiasShape a sh:NodeShape ;
+    sh:targetClass cto:CognitiveBias ;
+    sh:property [ sh:path cto:evidenceStatus ; sh:not [ sh:hasValue "normative" ] ;
+                  sh:message "Cognitive biases are empirical claims: evidenceStatus cannot be 'normative'." ] .
+
+cts:WorkShape a sh:NodeShape ;
+    sh:targetClass cto:Work ;
+    sh:property [ sh:path cto:evidenceStatus ; sh:in ( "historical" "normative" "robust" "mixed" "contested" "failed-replication" ) ] .
+
+cts:CriticalQuestionShape a sh:NodeShape ;
+    sh:targetClass cto:CriticalQuestion ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:pattern "\\?$" ;
+                  sh:message "Critical questions must be phrased as questions." ] ;
+    sh:property [ sh:path cto:questionFor ; sh:minCount 1 ; sh:maxCount 1 ] .

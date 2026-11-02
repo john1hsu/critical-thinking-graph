@@ -1,0 +1,181 @@
+@prefix ct:      <https://github.com/john1hsu/critical-thinking-graph/id/> .
+@prefix cto:     <https://github.com/john1hsu/critical-thinking-graph/ontology#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix schema:  <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix aif:     <http://www.arg.dundee.ac.uk/aif#> .
+
+# =============================================================================
+# Critical Thinking Graph ontology (OWL 2 RL profile)
+#
+#  * Every article is a node; its class comes from frontmatter `type`.
+#  * `broader` / `related`         -> skos:broader / skos:related
+#  * `relations[].predicate`       -> the typed object properties below
+#  * `requires`                    -> cto:requires (transitive; learning paths)
+#  * `criticalQuestions`           -> cto:CriticalQuestion nodes
+#  * `argumentMap`                 -> AIF I-nodes / RA-nodes / CA-nodes
+#  * provenance                    -> PROV-O; edge evidence -> RDF-star
+#
+# Property characteristics (inverse, symmetric, transitive) and class
+# disjointness are used by `scripts/kg.py build` to materialise inferred
+# triples (OWL-RL) and to detect contradictions. Domain/range declarations
+# are enforced by the validator for every edge whose target is written.
+# Add a class or property here BEFORE using it. Reuse first.
+# =============================================================================
+
+cto: a owl:Ontology ;
+    rdfs:label "Critical Thinking Graph ontology" ;
+    dcterms:description "Classes and typed relations for a citation-backed knowledge graph of reasoning, argumentation, fallacies, cognitive biases, evidence evaluation and decision making." ;
+    owl:versionInfo "1.0.0" .
+
+# ---- Upper classes ----------------------------------------------------------
+cto:Entity  a owl:Class ; rdfs:label "Entity" .
+cto:Concept a owl:Class ; rdfs:subClassOf cto:Entity , skos:Concept ; rdfs:label "Concept" ;
+    rdfs:comment "A reasoning idea: argument, validity, soundness, burden of proof, falsifiability." .
+
+# ---- Reasoning ----------------------------------------------------------------
+cto:ReasoningForm a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Reasoning form" ;
+    rdfs:comment "A valid or cogent pattern of inference: modus ponens, modus tollens, disjunctive syllogism, inference to the best explanation." .
+cto:ReasoningMode a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Reasoning mode" ;
+    rdfs:comment "A broad kind of reasoning: deductive, inductive, abductive, analogical, Bayesian, counterfactual." .
+cto:ArgumentScheme a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Argumentation scheme" ;
+    rdfs:comment "A defeasible, presumptive pattern of everyday argument with critical questions (Walton): argument from expert opinion, from analogy, from consequences." .
+cto:CriticalQuestion a owl:Class ; rdfs:subClassOf cto:Entity ; rdfs:label "Critical question" ;
+    rdfs:comment "A question that tests whether an argument scheme or suspected fallacy holds in a given case. Generated from frontmatter `criticalQuestions`." .
+
+# ---- Failure modes ------------------------------------------------------------
+cto:Fallacy a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Fallacy" ;
+    rdfs:comment "A defective pattern of argument that can seem persuasive." .
+cto:FormalFallacy a owl:Class ; rdfs:subClassOf cto:Fallacy ; rdfs:label "Formal fallacy" ;
+    rdfs:comment "Invalid because of its logical form: affirming the consequent, undistributed middle." .
+cto:InformalFallacy a owl:Class ; rdfs:subClassOf cto:Fallacy ; rdfs:label "Informal fallacy" ;
+    rdfs:comment "Defective because of content, context or relevance: straw man, ad hominem, false dilemma." .
+cto:ProbabilisticFallacy a owl:Class ; rdfs:subClassOf cto:Fallacy ; rdfs:label "Probabilistic fallacy" ;
+    rdfs:comment "A misuse of probability or statistics: base-rate neglect, conjunction fallacy, gambler's fallacy, prosecutor's fallacy." .
+cto:CognitiveBias a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Cognitive bias" ;
+    rdfs:comment "A systematic deviation of judgment from a normative standard: confirmation bias, anchoring, hindsight bias." .
+cto:Heuristic a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Heuristic" ;
+    rdfs:comment "A mental shortcut that is often useful but can produce bias: availability, representativeness, recognition, affect." .
+
+# ---- Remedies and methods -----------------------------------------------------
+cto:Technique a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Technique" ;
+    rdfs:comment "A practical method for thinking better: premortem, consider-the-opposite, steelmanning, lateral reading, analysis of competing hypotheses." .
+cto:Framework a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Framework / model" ;
+    rdfs:comment "A structured model of reasoning or critical thinking: Toulmin model, Paul-Elder framework, dual-process theory, Bloom's taxonomy." .
+cto:Principle a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Principle" ;
+    rdfs:comment "A normative rule of good reasoning: Occam's razor, principle of charity, Hitchens's razor, proportioning belief to evidence." .
+cto:Method a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Method" ;
+    rdfs:comment "A formal research or inquiry method: randomized controlled trial, hypothesis testing, Socratic method, Delphi method." .
+cto:Disposition a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Disposition / virtue" ;
+    rdfs:comment "A thinking trait or intellectual virtue: intellectual humility, open-mindedness, need for cognition, actively open-minded thinking." .
+cto:Phenomenon a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Phenomenon" ;
+    rdfs:comment "An observed pattern in reasoning, information or science: replication crisis, misinformation, regression to the mean, filter bubbles." .
+cto:Field a owl:Class ; rdfs:subClassOf cto:Concept ; rdfs:label "Field" ;
+    rdfs:comment "A discipline: logic, epistemology, argumentation theory, judgment and decision making, informal logic." .
+
+# ---- Things in the world ------------------------------------------------------
+cto:Person a owl:Class ; rdfs:subClassOf cto:Entity , schema:Person ; rdfs:label "Person" .
+cto:Organization a owl:Class ; rdfs:subClassOf cto:Entity , schema:Organization ; rdfs:label "Organization" .
+cto:Work a owl:Class ; rdfs:subClassOf cto:Entity , schema:CreativeWork ; rdfs:label "Work" ;
+    rdfs:comment "A landmark book or paper: Organon, Thinking, Fast and Slow, 'Judgment under Uncertainty'." .
+cto:Study a owl:Class ; rdfs:subClassOf cto:Entity , schema:ScholarlyArticle ; rdfs:label "Study / experiment" ;
+    rdfs:comment "A landmark empirical study or paradigm: the Linda problem, Wason selection task, Asch conformity experiments." .
+cto:Event a owl:Class ; rdfs:subClassOf cto:Entity , schema:Event ; rdfs:label "Event" .
+cto:Source a owl:Class ; rdfs:subClassOf prov:Entity , schema:CreativeWork ; rdfs:label "Cited source" .
+
+# ---- Disjointness (contradiction detection) -----------------------------------
+[] a owl:AllDisjointClasses ; owl:members ( cto:Fallacy cto:ReasoningForm cto:ArgumentScheme ) .
+[] a owl:AllDisjointClasses ; owl:members ( cto:CognitiveBias cto:Technique cto:Principle cto:Disposition ) .
+[] a owl:AllDisjointClasses ; owl:members ( cto:FormalFallacy cto:InformalFallacy cto:ProbabilisticFallacy ) .
+[] a owl:AllDisjointClasses ; owl:members ( cto:Concept cto:Person cto:Organization cto:Work cto:Study cto:Event ) .
+
+# ---- SKOS axioms (so the reasoner materialises narrower / symmetric related) --
+skos:broader owl:inverseOf skos:narrower ; rdfs:subPropertyOf skos:broaderTransitive .
+skos:narrower rdfs:subPropertyOf skos:narrowerTransitive .
+skos:broaderTransitive a owl:TransitiveProperty ; owl:inverseOf skos:narrowerTransitive .
+skos:related a owl:SymmetricProperty .
+
+# ---- Typed relations ----------------------------------------------------------
+# Structure
+cto:partOf a owl:ObjectProperty , owl:TransitiveProperty ; owl:inverseOf cto:hasPart ; rdfs:label "part of" .
+cto:hasPart a owl:ObjectProperty ; rdfs:label "has part" .
+cto:requires a owl:ObjectProperty , owl:TransitiveProperty ; owl:inverseOf cto:prerequisiteOf ;
+    rdfs:label "requires understanding of (learning prerequisite)" .
+cto:prerequisiteOf a owl:ObjectProperty ; rdfs:label "prerequisite of" .
+cto:instanceOf a owl:ObjectProperty ; owl:inverseOf cto:hasInstance ; rdfs:label "instance / variant of" .
+cto:hasInstance a owl:ObjectProperty ; rdfs:label "has instance" .
+
+# Logic and argument
+cto:invalidFormOf a owl:ObjectProperty ; rdfs:domain cto:FormalFallacy ; rdfs:range cto:ReasoningForm ;
+    owl:inverseOf cto:hasInvalidCounterpart ; rdfs:label "invalid look-alike of (valid form)" .
+cto:hasInvalidCounterpart a owl:ObjectProperty ; rdfs:label "has invalid look-alike" .
+cto:misusesScheme a owl:ObjectProperty ; rdfs:domain cto:Fallacy ; rdfs:range cto:ArgumentScheme ;
+    owl:inverseOf cto:misusedAs ; rdfs:label "misuses argumentation scheme" .
+cto:misusedAs a owl:ObjectProperty ; rdfs:label "can be misused as (fallacy)" .
+cto:formalizedBy a owl:ObjectProperty ; owl:inverseOf cto:formalizes ; rdfs:label "formalized by" .
+cto:formalizes a owl:ObjectProperty ; rdfs:label "formalizes" .
+cto:contrastsWith a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "contrasts with" .
+cto:confusedWith a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "commonly confused with" .
+
+# Biases and their mechanisms
+cto:explainedBy a owl:ObjectProperty ; owl:inverseOf cto:explains ; rdfs:label "explained by (mechanism / theory)" .
+cto:explains a owl:ObjectProperty ; rdfs:label "explains" .
+cto:produces a owl:ObjectProperty ; rdfs:domain cto:Heuristic ; rdfs:range cto:CognitiveBias ; owl:inverseOf cto:producedBy ;
+    rdfs:label "can produce (bias)" .
+cto:producedBy a owl:ObjectProperty ; rdfs:label "produced by (heuristic)" .
+cto:exploits a owl:ObjectProperty ; rdfs:range cto:CognitiveBias ; owl:inverseOf cto:exploitedBy ;
+    rdfs:label "exploits (bias)" .
+cto:exploitedBy a owl:ObjectProperty ; rdfs:label "exploited by" .
+cto:amplifies a owl:ObjectProperty ; owl:inverseOf cto:amplifiedBy ; rdfs:label "amplifies" .
+cto:amplifiedBy a owl:ObjectProperty ; rdfs:label "amplified by" .
+
+# Remedies
+cto:counteracts a owl:ObjectProperty ; owl:inverseOf cto:counteractedBy ;
+    rdfs:label "counteracts / debiases" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( cto:Technique cto:Principle cto:Method cto:Disposition cto:Framework ) ] ;
+    rdfs:range  [ a owl:Class ; owl:unionOf ( cto:CognitiveBias cto:Fallacy cto:Heuristic cto:Phenomenon ) ] .
+cto:counteractedBy a owl:ObjectProperty ; rdfs:label "counteracted by" .
+cto:detects a owl:ObjectProperty ; owl:inverseOf cto:detectedBy ; rdfs:label "helps detect" ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( cto:Technique cto:Principle cto:Method cto:Disposition cto:Framework ) ] ;
+    rdfs:range  [ a owl:Class ; owl:unionOf ( cto:CognitiveBias cto:Fallacy cto:Heuristic cto:Phenomenon ) ] .
+cto:detectedBy a owl:ObjectProperty ; rdfs:label "detected by" .
+cto:appliedIn a owl:ObjectProperty ; rdfs:label "applied in (field or setting)" .
+
+# Evidence
+cto:demonstratedBy a owl:ObjectProperty ; rdfs:range cto:Study ; owl:inverseOf cto:demonstrates ;
+    rdfs:label "demonstrated by (study)" .
+cto:demonstrates a owl:ObjectProperty ; rdfs:label "demonstrates" .
+cto:challengedBy a owl:ObjectProperty ; owl:inverseOf cto:challenges ; rdfs:label "challenged by (critique, failed replication)" .
+cto:challenges a owl:ObjectProperty ; rdfs:label "challenges" .
+cto:supportedBy a owl:ObjectProperty ; owl:inverseOf cto:supports ; rdfs:label "supported by (evidence)" .
+cto:supports a owl:ObjectProperty ; rdfs:label "supports" .
+
+# History and attribution
+cto:introducedBy a owl:ObjectProperty ; rdfs:range cto:Person ; owl:inverseOf cto:introduced ; rdfs:label "introduced / named by" .
+cto:introduced a owl:ObjectProperty ; rdfs:label "introduced" .
+cto:introducedIn a owl:ObjectProperty ; rdfs:range cto:Work ; owl:inverseOf cto:introduces ; rdfs:label "introduced in (work)" .
+cto:introduces a owl:ObjectProperty ; rdfs:label "introduces" .
+cto:authoredBy a owl:ObjectProperty ; rdfs:domain cto:Work ; rdfs:range cto:Person ; owl:inverseOf cto:authored ; rdfs:label "authored by" .
+cto:authored a owl:ObjectProperty ; rdfs:label "authored" .
+cto:influencedBy a owl:ObjectProperty ; owl:inverseOf cto:influenced ; rdfs:label "influenced by" .
+cto:influenced a owl:ObjectProperty ; rdfs:label "influenced" .
+cto:studiedIn a owl:ObjectProperty ; rdfs:range cto:Field ; rdfs:label "studied in (field)" .
+
+# ---- Datatype properties written by scripts/kg.py -----------------------------
+cto:domain a owl:DatatypeProperty ; rdfs:label "domain" .
+cto:level a owl:DatatypeProperty ; rdfs:label "learning level: introductory, intermediate, advanced" .
+cto:evidenceStatus a owl:DatatypeProperty ;
+    rdfs:label "evidence status: normative, robust, mixed, contested, failed-replication, historical" .
+cto:sourceType a owl:DatatypeProperty ; rdfs:label "source type" .
+cto:confidence a owl:DatatypeProperty ; rdfs:label "edge confidence: high, medium, low" .
+cto:evidence a owl:ObjectProperty ; rdfs:label "edge evidence (source), used on RDF-star quoted triples" .
+cto:example a owl:ObjectProperty ; rdfs:label "worked example (AIF argument map)" .
+cto:verdict a owl:DatatypeProperty ; rdfs:label "argument verdict: valid, invalid, strong, weak, fallacious" .
+cto:file a owl:DatatypeProperty ; rdfs:label "source file in the repo" .
+cto:questionFor a owl:ObjectProperty ; rdfs:domain cto:CriticalQuestion ; rdfs:label "critical question for" .
+cto:illustrates a owl:ObjectProperty ; rdfs:label "argument map illustrates" .

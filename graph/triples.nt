@@ -1,0 +1,28 @@
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Argumentation theory and argument mapping" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cognitive biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> <http://www.w3.org/2004/02/skos/core#prefLabel> "Debiasing, metacognition and intellectual virtues" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> <http://www.w3.org/2004/02/skos/core#prefLabel> "Structured decision making and analytic techniques" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Evidence evaluation and information literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formal fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formal logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> <http://www.w3.org/2004/02/skos/core#prefLabel> "Foundations of critical thinking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heuristics and dual-process theories" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> <http://www.w3.org/2004/02/skos/core#prefLabel> "History, thinkers and landmark works" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Informal fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Philosophy of reasoning and knowledge" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Probabilistic and statistical reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scientific reasoning and research methods" .
