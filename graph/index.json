@@ -158,6 +158,86 @@
   ]
  },
  {
+  "id": "ct:daniel-kahneman",
+  "title": "Daniel Kahneman",
+  "aliases": [
+   "Kahneman",
+   "Danny Kahneman"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/daniel-kahneman.md",
+  "created": "2026-11-03",
+  "summary": "Israeli-American psychologist (1934-2024) who co-founded the heuristics-and-biases program with Amos Tversky, won the 2002 Nobel Prize in economics, and popularized the fast/slow (System 1 / System 2) account of intuition and deliberation.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:amos-tversky"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:attribute-substitution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:peak-end-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:behavioral-economics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.princeton.edu/news/2024/03/28/daniel-kahneman-pioneering-behavioral-psychologist-nobel-laureate-and-giant-field",
+   "https://kahneman.scholar.princeton.edu/document/8",
+   "https://pubmed.ncbi.nlm.nih.gov/19739881/",
+   "https://ius.uzh.ch/dam/jcr:5ae9adc9-61ec-4174-b37c-4b752f36c23b/Kahnemann%20et%20al.%20-%20When%20More%20Pain%20is%20Preferred%20to%20Less%20(1993).pdf",
+   "https://www.scientificamerican.com/article/psychology-receives-challenge-to-clean-up-its-act",
+   "https://bps.org.uk/psychologist/i-am-certain-psychology-will-see-many-more-train-wrecks"
+  ]
+ },
+ {
   "id": "ct:toulmin-model",
   "title": "Toulmin model of argument",
   "aliases": [

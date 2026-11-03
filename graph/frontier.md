@@ -4,29 +4,32 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `ct:daniel-kahneman` | 3.19 | Person | `ct:amos-tversky`, `ct:anchoring-effect` |
-| `ct:heuristics-and-biases-program` | 3.19 | - | `ct:amos-tversky`, `ct:anchoring-effect` |
-| `ct:availability-heuristic` | 1.84 | - | `ct:amos-tversky` |
-| `ct:conjunction-fallacy` | 1.84 | - | `ct:amos-tversky` |
-| `ct:framing-effect` | 1.84 | - | `ct:amos-tversky` |
-| `ct:representativeness-heuristic` | 1.84 | - | `ct:amos-tversky` |
-| `ct:consider-the-opposite` | 1.84 | - | `ct:anchoring-effect` |
-| `ct:argument` | 1.82 | - | `ct:toulmin-model` |
-| `ct:argument-mapping` | 1.82 | - | `ct:toulmin-model` |
-| `ct:argumentation-schemes` | 1.82 | - | `ct:toulmin-model` |
-| `ct:deductive-reasoning` | 1.82 | - | `ct:toulmin-model` |
-| `ct:stephen-toulmin` | 1.82 | Person | `ct:toulmin-model` |
-| `ct:behavioral-economics` | 1.34 | - | `ct:amos-tversky` |
-| `ct:gerd-gigerenzer` | 1.34 | - | `ct:amos-tversky` |
-| `ct:judgment-and-decision-making` | 1.34 | Field | `ct:amos-tversky` |
-| `ct:prospect-theory` | 1.34 | - | `ct:amos-tversky` |
-| `ct:anchoring-and-adjustment-heuristic` | 1.34 | - | `ct:anchoring-effect` |
-| `ct:cognitive-bias` | 1.34 | - | `ct:anchoring-effect` |
-| `ct:englich-2006-judicial-anchoring-study` | 1.34 | Study | `ct:anchoring-effect` |
-| `ct:many-labs-1-replication-project` | 1.34 | - | `ct:anchoring-effect` |
-| `ct:roseler-2025-insufficient-adjustment-test` | 1.34 | - | `ct:anchoring-effect` |
-| `ct:selective-accessibility-model` | 1.34 | - | `ct:anchoring-effect` |
-| `ct:argumentation-theory` | 1.32 | - | `ct:toulmin-model` |
-| `ct:defeasible-reasoning` | 1.32 | - | `ct:toulmin-model` |
-| `ct:the-uses-of-argument` | 1.32 | Work | `ct:toulmin-model` |
-| `ct:yeh-1998-argumentative-writing-study` | 1.32 | - | `ct:toulmin-model` |
+| `ct:heuristics-and-biases-program` | 4.47 | - | `ct:amos-tversky`, `ct:anchoring-effect`, `ct:daniel-kahneman` |
+| `ct:framing-effect` | 3.15 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:behavioral-economics` | 2.65 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:judgment-and-decision-making` | 2.65 | Field | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:prospect-theory` | 2.65 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:availability-heuristic` | 1.82 | - | `ct:amos-tversky` |
+| `ct:conjunction-fallacy` | 1.82 | - | `ct:amos-tversky` |
+| `ct:dual-process-theory` | 1.82 | - | `ct:daniel-kahneman` |
+| `ct:replication-crisis` | 1.82 | - | `ct:daniel-kahneman` |
+| `ct:representativeness-heuristic` | 1.82 | - | `ct:amos-tversky` |
+| `ct:consider-the-opposite` | 1.82 | - | `ct:anchoring-effect` |
+| `ct:argument` | 1.77 | - | `ct:toulmin-model` |
+| `ct:argument-mapping` | 1.77 | - | `ct:toulmin-model` |
+| `ct:argumentation-schemes` | 1.77 | - | `ct:toulmin-model` |
+| `ct:deductive-reasoning` | 1.77 | - | `ct:toulmin-model` |
+| `ct:stephen-toulmin` | 1.77 | Person | `ct:toulmin-model` |
+| `ct:attribute-substitution` | 1.32 | - | `ct:daniel-kahneman` |
+| `ct:gerd-gigerenzer` | 1.32 | - | `ct:amos-tversky` |
+| `ct:peak-end-rule` | 1.32 | - | `ct:daniel-kahneman` |
+| `ct:anchoring-and-adjustment-heuristic` | 1.32 | - | `ct:anchoring-effect` |
+| `ct:cognitive-bias` | 1.32 | - | `ct:anchoring-effect` |
+| `ct:englich-2006-judicial-anchoring-study` | 1.32 | Study | `ct:anchoring-effect` |
+| `ct:many-labs-1-replication-project` | 1.32 | - | `ct:anchoring-effect` |
+| `ct:roseler-2025-insufficient-adjustment-test` | 1.32 | - | `ct:anchoring-effect` |
+| `ct:selective-accessibility-model` | 1.32 | - | `ct:anchoring-effect` |
+| `ct:argumentation-theory` | 1.27 | - | `ct:toulmin-model` |
+| `ct:defeasible-reasoning` | 1.27 | - | `ct:toulmin-model` |
+| `ct:the-uses-of-argument` | 1.27 | Work | `ct:toulmin-model` |
+| `ct:yeh-1998-argumentative-writing-study` | 1.27 | - | `ct:toulmin-model` |
