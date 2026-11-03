@@ -439,6 +439,89 @@
   ]
  },
  {
+  "id": "ct:premortem",
+  "title": "Premortem",
+  "aliases": [
+   "pre-mortem",
+   "project premortem",
+   "premortem analysis",
+   "pre-mortem analysis"
+  ],
+  "type": "Technique",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/premortem.md",
+  "created": "2026-11-03",
+  "summary": "A plan-evaluation technique in which a team, before committing to a plan, imagines that it has already been carried out and has failed, then has each member independently write down the reasons it failed so those risks can be addressed in advance.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hindsight-bias"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:gary-klein",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:prospective-hindsight",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:overconfidence-effect",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:groupthink",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:gallop-bischoff-2016-premortem-risk-study",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:worst-case-scenario-analysis",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://cronfa.swan.ac.uk/Record/cronfa37562/Download/0037562-10012018105306.pdf",
+   "https://digitalcommons.mtu.edu/etdr/374",
+   "https://corporate.jcx.au/premortem",
+   "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/strategic-decisions-when-can-you-trust-your-gut",
+   "https://dlab.sauder.ubc.ca/sjdm/presentations/2021-Poster-Gandhi-Linnea-debiasing-premortem-selfserving~.pdf"
+  ]
+ },
+ {
   "id": "ct:toulmin-model",
   "title": "Toulmin model of argument",
   "aliases": [

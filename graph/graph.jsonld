@@ -434,6 +434,86 @@
    ]
   },
   {
+   "@id": "ct:premortem",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:worst-case-scenario-analysis"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:gallop-bischoff-2016-premortem-risk-study"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:prospective-hindsight"
+   },
+   "cto:file": "articles/decision-making/premortem.md",
+   "cto:introducedBy": {
+    "@id": "ct:gary-klein"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s5"
+    }
+   ],
+   "rdfs:label": "Premortem",
+   "skos:altLabel": [
+    "pre-mortem analysis",
+    "pre-mortem",
+    "premortem analysis",
+    "project premortem"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    }
+   ],
+   "skos:definition": "A plan-evaluation technique in which a team, before committing to a plan, imagines that it has already been carried out and has failed, then has each member independently write down the reasons it failed so those risks can be addressed in advance.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Premortem",
+   "skos:related": [
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:hindsight-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:toulmin-model",
    "@type": "cto:Framework",
    "cto:contrastsWith": {
@@ -1001,6 +1081,76 @@
    "dcterms:title": "Daniel Kahneman, Prize Lecture: Maps of Bounded Rationality (8 December 2002)",
    "schema:url": {
     "@id": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "British Journal of Hospital Medicine 78(10), 584-585 (Mills & McKimm, 2017), Swansea University Cronfa repository",
+   "dcterms:title": "Pre-empting project failure by using a premortem technique",
+   "schema:url": {
+    "@id": "https://cronfa.swan.ac.uk/Record/cronfa37562/Download/0037562-10012018105306.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Michigan Technological University, MS thesis (Peabody, 2017; advisor E. Veinott)",
+   "dcterms:title": "Improving Planning: Quantitative Evaluation of the Premortem Technique in Field and Laboratory Settings",
+   "schema:url": {
+    "@id": "https://digitalcommons.mtu.edu/etdr/374"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Jason Collins, Course notes on behavioural economics and corporate decision making, ch. 30",
+   "dcterms:title": "The premortem",
+   "schema:url": {
+    "@id": "https://corporate.jcx.au/premortem"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "McKinsey Quarterly (interview of Daniel Kahneman and Gary Klein by Sibony & Lovallo, March 2010)",
+   "dcterms:title": "Strategic decisions: When can you trust your gut?",
+   "schema:url": {
+    "@id": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/strategic-decisions-when-can-you-trust-your-gut"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Gandhi, Duke & Schweitzer (2021), SJDM poster archive hosted by the UBC Sauder Decision Lab",
+   "dcterms:title": "Premortem debiasing and self-serving attributions (conference poster)",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/presentations/2021-Poster-Gandhi-Linnea-debiasing-premortem-selfserving~.pdf"
    }
   },
   {
