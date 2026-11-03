@@ -342,6 +342,98 @@
    ]
   },
   {
+   "@id": "ct:heuristics-and-biases-program",
+   "@type": "cto:Framework",
+   "cto:challengedBy": {
+    "@id": "ct:gerd-gigerenzer"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:attribute-substitution"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/heuristics-and-biases-program.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:introducedIn": {
+    "@id": "ct:judgment-under-uncertainty-heuristics-and-biases"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:cognitive-bias"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:many-labs-1-replication-project"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6"
+    }
+   ],
+   "rdfs:label": "Heuristics and biases program",
+   "skos:altLabel": [
+    "heuristics and biases approach",
+    "heuristics and biases tradition",
+    "heuristics-and-biases research program"
+   ],
+   "skos:broader": {
+    "@id": "ct:bounded-rationality"
+   },
+   "skos:definition": "The research program, launched by Amos Tversky and Daniel Kahneman around 1970, that explains intuitive judgment under uncertainty as the use of a few general-purpose heuristics (such as representativeness, availability and anchoring) which are usually serviceable but produce predictable, systematic errors when compared with normative rules.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Heuristics and biases program",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:conjunction-fallacy"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    }
+   ]
+  },
+  {
    "@id": "ct:toulmin-model",
    "@type": "cto:Framework",
    "cto:contrastsWith": {
@@ -825,6 +917,90 @@
    "dcterms:title": "'I am certain psychology will see many more train wrecks'",
    "schema:url": {
     "@id": "https://bps.org.uk/psychologist/i-am-certain-psychology-will-see-many-more-train-wrecks"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Psychological Review 103(3), 582-591 (Kahneman & Tversky, 1996), copy hosted on an NC State course page",
+   "dcterms:title": "On the reality of cognitive illusions",
+   "schema:url": {
+    "@id": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Kahneman+Tversky-cognitive-illusions-1996.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Psychological Review 103(3), 592-596 (Gigerenzer, 1996), copy hosted on an NC State course page",
+   "dcterms:title": "On narrow norms and vague heuristics: A reply to Kahneman and Tversky (1996)",
+   "schema:url": {
+    "@id": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1996.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "In Gilovich, Griffin & Kahneman (eds.), Heuristics and Biases: The Psychology of Intuitive Judgment, Cambridge University Press, 49-81 (Kahneman & Frederick, 2002)",
+   "dcterms:title": "Representativeness revisited: Attribute substitution in intuitive judgment",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/abs/heuristics-and-biases/representativeness-revisited-attribute-substitution-in-intuitive-judgment/AAB5D933A3F944CFB5CB02265D376C8F"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Social Psychology 45(3), 142-152 (Klein et al., 2014), Tilburg University research portal",
+   "dcterms:title": "Investigating variation in replicability: A \"Many Labs\" replication project",
+   "schema:url": {
+    "@id": "https://research.tilburguniversity.edu/en/publications/investigating-variation-in-replicability-a-many-labs-replication-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Polish Psychological Bulletin 53(3), 138-151 (Sobkow et al., 2022)",
+   "dcterms:title": "Conceptual replication study of fifteen JDM effects: Insights from the Polish sample",
+   "schema:url": {
+    "@id": "https://journals.pan.pl//Content/124284/PDF/2022-03-PPB-02-Sobkow.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "The Nobel Foundation, nobelprize.org",
+   "dcterms:title": "Daniel Kahneman, Prize Lecture: Maps of Bounded Rationality (8 December 2002)",
+   "schema:url": {
+    "@id": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1"
    }
   },
   {

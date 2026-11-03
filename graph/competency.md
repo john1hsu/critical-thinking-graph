@@ -29,6 +29,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | node | status | challenger |
 |---|---|---|
 | `ct:consider-the-opposite` | mixed |  |
+| `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

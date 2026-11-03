@@ -338,6 +338,107 @@
   ]
  },
  {
+  "id": "ct:heuristics-and-biases-program",
+  "title": "Heuristics and biases program",
+  "aliases": [
+   "heuristics and biases approach",
+   "heuristics-and-biases research program",
+   "heuristics and biases tradition"
+  ],
+  "type": "Framework",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/heuristics-and-biases-program.md",
+  "created": "2026-11-03",
+  "summary": "The research program, launched by Amos Tversky and Daniel Kahneman around 1970, that explains intuitive judgment under uncertainty as the use of a few general-purpose heuristics (such as representativeness, availability and anchoring) which are usually serviceable but produce predictable, systematic errors when compared with normative rules.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:judgment-under-uncertainty-heuristics-and-biases",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:attribute-substitution",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:many-labs-1-replication-project",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Kahneman+Tversky-cognitive-illusions-1996.pdf",
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1996.pdf",
+   "https://www.cambridge.org/core/books/abs/heuristics-and-biases/representativeness-revisited-attribute-substitution-in-intuitive-judgment/AAB5D933A3F944CFB5CB02265D376C8F",
+   "https://research.tilburguniversity.edu/en/publications/investigating-variation-in-replicability-a-many-labs-replication-/",
+   "https://journals.pan.pl//Content/124284/PDF/2022-03-PPB-02-Sobkow.pdf",
+   "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1"
+  ]
+ },
+ {
   "id": "ct:toulmin-model",
   "title": "Toulmin model of argument",
   "aliases": [
