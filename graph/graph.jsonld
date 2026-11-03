@@ -510,6 +510,87 @@
    ]
   },
   {
+   "@id": "ct:lateral-reading",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:vertical-reading"
+   },
+   "cto:counteracts": {
+    "@id": "ct:misinformation-and-disinformation"
+   },
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:breakstone-2021-online-course-lateral-reading-study"
+    },
+    {
+     "@id": "ct:wineburg-2022-lateral-reading-classroom-experiment"
+    }
+   ],
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/evidence-and-information-literacy/lateral-reading.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:sam-wineburg"
+    },
+    {
+     "@id": "ct:sarah-mcgrew"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:partOf": {
+    "@id": "ct:sift-method"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6"
+    }
+   ],
+   "rdfs:label": "Lateral reading",
+   "skos:altLabel": [
+    "read laterally",
+    "reading laterally"
+   ],
+   "skos:broader": {
+    "@id": "ct:source-evaluation"
+   },
+   "skos:definition": "A source-evaluation technique, borrowed from professional fact checkers, in which you leave an unfamiliar website early and search other sources about who is behind it before judging its content, instead of scrutinising the page itself.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Lateral reading",
+   "skos:related": [
+    {
+     "@id": "ct:click-restraint"
+    },
+    {
+     "@id": "ct:sift-method"
+    },
+    {
+     "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
    "@id": "ct:premortem",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -1314,6 +1395,90 @@
    "dcterms:title": "Ward Edwards: Biographical profile",
    "schema:url": {
     "@id": "https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Edwards-Ward"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stanford History Education Group Working Paper No. 2017.A1 (Wineburg & McGrew, 2017), copy hosted by Hendrix College",
+   "dcterms:title": "Lateral Reading: Reading Less and Learning More When Evaluating Digital Information",
+   "schema:url": {
+    "@id": "https://www.hendrix.edu/uploadedFiles/Academics/Faculty_Resources/Teaching_and_Learning/EvaluatingDigitalInformation.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stanford Digital Repository, Graduate School of Education Open Archive (Wineburg & McGrew; published in Teachers College Record)",
+   "dcterms:title": "Lateral Reading and the Nature of Expertise: Reading Less and Learning More When Evaluating Digital Information",
+   "schema:url": {
+    "@id": "https://purl.stanford.edu/yk133ht8603"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Harvard Kennedy School Misinformation Review 2(1) (Breakstone, Smith, Connors, Ortega, Kerr & Wineburg, 2021)",
+   "dcterms:title": "Lateral reading: College students learn to critically evaluate internet sources in an online course",
+   "schema:url": {
+    "@id": "https://misinforeview.hks.harvard.edu/wp-content/uploads/2021/02/breakstone_lateral_reading_online_course_20210223.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Journal of Educational Psychology (Wineburg, Breakstone, McGrew, Smith & Ortega, 2022), Digital Inquiry Group research page",
+   "dcterms:title": "Lateral Reading on the Open Internet",
+   "schema:url": {
+    "@id": "https://cor.inquirygroup.org/research/lateral-reading-on-the-open-internet"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Web Literacy for Student Fact-Checkers (Caulfield, 2017), open textbook",
+   "dcterms:title": "Four Moves",
+   "schema:url": {
+    "@id": "https://pressbooks.pub/webliteracy/chapter/four-strategies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "MediaWell, Social Science Research Council",
+   "dcterms:title": "Lateral Reading on the Open Internet (citation record)",
+   "schema:url": {
+    "@id": "https://mediawell.ssrc.org/?p=510382"
    }
   },
   {

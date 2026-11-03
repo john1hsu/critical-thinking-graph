@@ -4,55 +4,65 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `ct:gerd-gigerenzer` | 3.57 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
-| `ct:behavioral-economics` | 3.55 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
-| `ct:prospect-theory` | 3.55 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
-| `ct:selective-accessibility-model` | 3.53 | - | `ct:anchoring-effect`, `ct:consider-the-opposite` |
-| `ct:availability-heuristic` | 2.89 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
-| `ct:conjunction-fallacy` | 2.89 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
-| `ct:dual-process-theory` | 2.89 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| `ct:representativeness-heuristic` | 2.89 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
-| `ct:bounded-rationality` | 2.88 | - | `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
-| `ct:framing-effect` | 2.87 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
-| `ct:debiasing` | 2.82 | - | `ct:consider-the-opposite`, `ct:premortem` |
-| `ct:devils-advocacy` | 2.82 | - | `ct:consider-the-opposite`, `ct:premortem` |
-| `ct:hindsight-bias` | 2.82 | - | `ct:consider-the-opposite`, `ct:premortem` |
-| `ct:overconfidence-effect` | 2.82 | - | `ct:consider-the-opposite`, `ct:premortem` |
-| `ct:deductive-reasoning` | 2.82 | - | `ct:stephen-toulmin`, `ct:toulmin-model` |
-| `ct:cognitive-bias` | 2.40 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
-| `ct:many-labs-1-replication-project` | 2.40 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
-| `ct:attribute-substitution` | 2.39 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| `ct:argumentation-theory` | 2.32 | Field | `ct:stephen-toulmin`, `ct:toulmin-model` |
-| `ct:the-uses-of-argument` | 2.32 | Work | `ct:stephen-toulmin`, `ct:toulmin-model` |
-| `ct:fast-and-frugal-heuristics` | 1.70 | - | `ct:heuristics-and-biases-program` |
-| `ct:replication-crisis` | 1.68 | - | `ct:daniel-kahneman` |
-| `ct:expected-utility-theory` | 1.68 | - | `ct:judgment-and-decision-making` |
-| `ct:argument` | 1.66 | - | `ct:toulmin-model` |
-| `ct:argument-mapping` | 1.66 | - | `ct:toulmin-model` |
-| `ct:argumentation-schemes` | 1.66 | - | `ct:toulmin-model` |
-| `ct:informal-logic` | 1.66 | - | `ct:stephen-toulmin` |
-| `ct:groupthink` | 1.65 | - | `ct:premortem` |
-| `ct:structured-analytic-techniques` | 1.65 | - | `ct:premortem` |
-| `ct:judgment-under-uncertainty-heuristics-and-biases` | 1.20 | Work | `ct:heuristics-and-biases-program` |
-| `ct:anchoring-and-adjustment-heuristic` | 1.19 | - | `ct:anchoring-effect` |
-| `ct:englich-2006-judicial-anchoring-study` | 1.19 | Study | `ct:anchoring-effect` |
-| `ct:roseler-2025-insufficient-adjustment-test` | 1.19 | - | `ct:anchoring-effect` |
-| `ct:peak-end-rule` | 1.18 | - | `ct:daniel-kahneman` |
-| `ct:cognitive-psychology` | 1.18 | - | `ct:judgment-and-decision-making` |
-| `ct:decision-analysis` | 1.18 | - | `ct:judgment-and-decision-making` |
-| `ct:the-theory-of-decision-making` | 1.18 | Work | `ct:judgment-and-decision-making` |
-| `ct:ward-edwards` | 1.18 | Person | `ct:judgment-and-decision-making` |
-| `ct:biased-assimilation` | 1.17 | - | `ct:consider-the-opposite` |
-| `ct:charles-lord` | 1.17 | Person | `ct:consider-the-opposite` |
-| `ct:ease-of-retrieval-effect` | 1.17 | - | `ct:consider-the-opposite` |
-| `ct:mark-lepper` | 1.17 | Person | `ct:consider-the-opposite` |
-| `ct:nagtegaal-2020-public-managers-anchoring-study` | 1.17 | Study | `ct:consider-the-opposite` |
-| `ct:defeasible-reasoning` | 1.16 | - | `ct:toulmin-model` |
-| `ct:yeh-1998-argumentative-writing-study` | 1.16 | - | `ct:toulmin-model` |
-| `ct:casuistry` | 1.16 | - | `ct:stephen-toulmin` |
-| `ct:ludwig-wittgenstein` | 1.16 | - | `ct:stephen-toulmin` |
-| `ct:philosophy-of-science` | 1.16 | Field | `ct:stephen-toulmin` |
-| `ct:gallop-bischoff-2016-premortem-risk-study` | 1.15 | Study | `ct:premortem` |
-| `ct:gary-klein` | 1.15 | Person | `ct:premortem` |
-| `ct:prospective-hindsight` | 1.15 | - | `ct:premortem` |
-| `ct:worst-case-scenario-analysis` | 1.15 | - | `ct:premortem` |
+| `ct:gerd-gigerenzer` | 3.49 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
+| `ct:behavioral-economics` | 3.47 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
+| `ct:prospect-theory` | 3.47 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
+| `ct:selective-accessibility-model` | 3.46 | - | `ct:anchoring-effect`, `ct:consider-the-opposite` |
+| `ct:availability-heuristic` | 2.83 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
+| `ct:conjunction-fallacy` | 2.83 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
+| `ct:dual-process-theory` | 2.83 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
+| `ct:representativeness-heuristic` | 2.83 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
+| `ct:bounded-rationality` | 2.83 | - | `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
+| `ct:framing-effect` | 2.82 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:debiasing` | 2.78 | - | `ct:consider-the-opposite`, `ct:premortem` |
+| `ct:devils-advocacy` | 2.78 | - | `ct:consider-the-opposite`, `ct:premortem` |
+| `ct:hindsight-bias` | 2.78 | - | `ct:consider-the-opposite`, `ct:premortem` |
+| `ct:overconfidence-effect` | 2.78 | - | `ct:consider-the-opposite`, `ct:premortem` |
+| `ct:deductive-reasoning` | 2.77 | - | `ct:stephen-toulmin`, `ct:toulmin-model` |
+| `ct:sift-method` | 2.74 | - | `ct:lateral-reading` |
+| `ct:cognitive-bias` | 2.34 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
+| `ct:many-labs-1-replication-project` | 2.34 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
+| `ct:attribute-substitution` | 2.33 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
+| `ct:argumentation-theory` | 2.27 | Field | `ct:stephen-toulmin`, `ct:toulmin-model` |
+| `ct:the-uses-of-argument` | 2.27 | Work | `ct:stephen-toulmin`, `ct:toulmin-model` |
+| `ct:fast-and-frugal-heuristics` | 1.67 | - | `ct:heuristics-and-biases-program` |
+| `ct:replication-crisis` | 1.66 | - | `ct:daniel-kahneman` |
+| `ct:expected-utility-theory` | 1.66 | - | `ct:judgment-and-decision-making` |
+| `ct:argument` | 1.64 | - | `ct:toulmin-model` |
+| `ct:argument-mapping` | 1.64 | - | `ct:toulmin-model` |
+| `ct:argumentation-schemes` | 1.64 | - | `ct:toulmin-model` |
+| `ct:informal-logic` | 1.63 | - | `ct:stephen-toulmin` |
+| `ct:groupthink` | 1.63 | - | `ct:premortem` |
+| `ct:structured-analytic-techniques` | 1.63 | - | `ct:premortem` |
+| `ct:misinformation-and-disinformation` | 1.62 | - | `ct:lateral-reading` |
+| `ct:source-credibility` | 1.62 | - | `ct:lateral-reading` |
+| `ct:judgment-under-uncertainty-heuristics-and-biases` | 1.17 | Work | `ct:heuristics-and-biases-program` |
+| `ct:anchoring-and-adjustment-heuristic` | 1.17 | - | `ct:anchoring-effect` |
+| `ct:englich-2006-judicial-anchoring-study` | 1.17 | Study | `ct:anchoring-effect` |
+| `ct:roseler-2025-insufficient-adjustment-test` | 1.17 | - | `ct:anchoring-effect` |
+| `ct:peak-end-rule` | 1.16 | - | `ct:daniel-kahneman` |
+| `ct:cognitive-psychology` | 1.16 | - | `ct:judgment-and-decision-making` |
+| `ct:decision-analysis` | 1.16 | - | `ct:judgment-and-decision-making` |
+| `ct:the-theory-of-decision-making` | 1.16 | Work | `ct:judgment-and-decision-making` |
+| `ct:ward-edwards` | 1.16 | Person | `ct:judgment-and-decision-making` |
+| `ct:biased-assimilation` | 1.15 | - | `ct:consider-the-opposite` |
+| `ct:charles-lord` | 1.15 | Person | `ct:consider-the-opposite` |
+| `ct:ease-of-retrieval-effect` | 1.15 | - | `ct:consider-the-opposite` |
+| `ct:mark-lepper` | 1.15 | Person | `ct:consider-the-opposite` |
+| `ct:nagtegaal-2020-public-managers-anchoring-study` | 1.15 | Study | `ct:consider-the-opposite` |
+| `ct:defeasible-reasoning` | 1.14 | - | `ct:toulmin-model` |
+| `ct:yeh-1998-argumentative-writing-study` | 1.14 | - | `ct:toulmin-model` |
+| `ct:casuistry` | 1.13 | - | `ct:stephen-toulmin` |
+| `ct:ludwig-wittgenstein` | 1.13 | - | `ct:stephen-toulmin` |
+| `ct:philosophy-of-science` | 1.13 | Field | `ct:stephen-toulmin` |
+| `ct:gallop-bischoff-2016-premortem-risk-study` | 1.13 | Study | `ct:premortem` |
+| `ct:gary-klein` | 1.13 | Person | `ct:premortem` |
+| `ct:prospective-hindsight` | 1.13 | - | `ct:premortem` |
+| `ct:worst-case-scenario-analysis` | 1.13 | - | `ct:premortem` |
+| `ct:breakstone-2021-online-course-lateral-reading-study` | 1.12 | Study | `ct:lateral-reading` |
+| `ct:click-restraint` | 1.12 | - | `ct:lateral-reading` |
+| `ct:sam-wineburg` | 1.12 | Person | `ct:lateral-reading` |
+| `ct:sarah-mcgrew` | 1.12 | Person | `ct:lateral-reading` |
+| `ct:source-evaluation` | 1.12 | - | `ct:lateral-reading` |
+| `ct:vertical-reading` | 1.12 | - | `ct:lateral-reading` |
+| `ct:wineburg-2022-lateral-reading-classroom-experiment` | 1.12 | Study | `ct:lateral-reading` |

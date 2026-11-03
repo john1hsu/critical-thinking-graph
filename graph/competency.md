@@ -16,6 +16,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 |---|---|---|
 | `ct:consider-the-opposite` | 4 | Anchoring effect, biased-assimilation, hindsight-bias, overconfidence-effect |
 | `ct:premortem` | 2 | groupthink, overconfidence-effect |
+| `ct:lateral-reading` | 1 | misinformation-and-disinformation |
 
 ## Heuristic -> bias -> remedy chains
 
@@ -31,6 +32,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 |---|---|---|
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
+| `ct:lateral-reading` | mixed |  |
 | `ct:premortem` | mixed |  |
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
@@ -49,7 +51,9 @@ _No results._
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/07-orphans.rq`
 
-_No results._
+| node |
+|---|
+| `ct:lateral-reading` |
 
 ## Argumentation schemes and their fallacious misuses
 

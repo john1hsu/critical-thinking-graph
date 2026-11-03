@@ -183,6 +183,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/the-theory-of-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2000/01/rdf-schema#label> "Lateral reading" .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#altLabel> "read laterally" .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#altLabel> "reading laterally" .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#definition> "A source-evaluation technique, borrowed from professional fact checkers, in which you leave an unfamiliar website early and search other sources about who is behind it before judging its content, instead of scrutinising the page itself." .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lateral reading" .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/click-restraint> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/vertical-reading> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/breakstone-2021-online-course-lateral-reading-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/wineburg-2022-lateral-reading-classroom-experiment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/lateral-reading.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sam-wineburg> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/2000/01/rdf-schema#label> "Premortem" .
@@ -463,6 +492,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6> <https://schema.org/url> <https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Edwards-Ward> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> <http://purl.org/dc/terms/publisher> "Stanford History Education Group Working Paper No. 2017.A1 (Wineburg & McGrew, 2017), copy hosted by Hendrix College" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> <http://purl.org/dc/terms/title> "Lateral Reading: Reading Less and Learning More When Evaluating Digital Information" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> <https://schema.org/url> <https://www.hendrix.edu/uploadedFiles/Academics/Faculty_Resources/Teaching_and_Learning/EvaluatingDigitalInformation.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s2> <http://purl.org/dc/terms/publisher> "Stanford Digital Repository, Graduate School of Education Open Archive (Wineburg & McGrew; published in Teachers College Record)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s2> <http://purl.org/dc/terms/title> "Lateral Reading and the Nature of Expertise: Reading Less and Learning More When Evaluating Digital Information" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s2> <https://schema.org/url> <https://purl.stanford.edu/yk133ht8603> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s3> <http://purl.org/dc/terms/publisher> "Harvard Kennedy School Misinformation Review 2(1) (Breakstone, Smith, Connors, Ortega, Kerr & Wineburg, 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s3> <http://purl.org/dc/terms/title> "Lateral reading: College students learn to critically evaluate internet sources in an online course" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s3> <https://schema.org/url> <https://misinforeview.hks.harvard.edu/wp-content/uploads/2021/02/breakstone_lateral_reading_online_course_20210223.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s4> <http://purl.org/dc/terms/publisher> "Journal of Educational Psychology (Wineburg, Breakstone, McGrew, Smith & Ortega, 2022), Digital Inquiry Group research page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s4> <http://purl.org/dc/terms/title> "Lateral Reading on the Open Internet" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s4> <https://schema.org/url> <https://cor.inquirygroup.org/research/lateral-reading-on-the-open-internet> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s5> <http://purl.org/dc/terms/publisher> "Web Literacy for Student Fact-Checkers (Caulfield, 2017), open textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s5> <http://purl.org/dc/terms/title> "Four Moves" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s5> <https://schema.org/url> <https://pressbooks.pub/webliteracy/chapter/four-strategies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <http://purl.org/dc/terms/publisher> "MediaWell, Social Science Research Council" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <http://purl.org/dc/terms/title> "Lateral Reading on the Open Internet (citation record)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <https://schema.org/url> <https://mediawell.ssrc.org/?p=510382> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s1> <http://purl.org/dc/terms/publisher> "British Journal of Hospital Medicine 78(10), 584-585 (Mills & McKimm, 2017), Swansea University Cronfa repository" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s1> <http://purl.org/dc/terms/title> "Pre-empting project failure by using a premortem technique" .

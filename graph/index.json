@@ -515,6 +515,90 @@
   ]
  },
  {
+  "id": "ct:lateral-reading",
+  "title": "Lateral reading",
+  "aliases": [
+   "reading laterally",
+   "read laterally"
+  ],
+  "type": "Technique",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/lateral-reading.md",
+  "created": "2026-11-03",
+  "summary": "A source-evaluation technique, borrowed from professional fact checkers, in which you leave an unfamiliar website early and search other sources about who is behind it before judging its content, instead of scrutinising the page itself.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sift-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:click-restraint"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:sam-wineburg",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:sarah-mcgrew",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:vertical-reading",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:sift-method",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:misinformation-and-disinformation",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:breakstone-2021-online-course-lateral-reading-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:wineburg-2022-lateral-reading-classroom-experiment",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.hendrix.edu/uploadedFiles/Academics/Faculty_Resources/Teaching_and_Learning/EvaluatingDigitalInformation.pdf",
+   "https://purl.stanford.edu/yk133ht8603",
+   "https://misinforeview.hks.harvard.edu/wp-content/uploads/2021/02/breakstone_lateral_reading_online_course_20210223.pdf",
+   "https://cor.inquirygroup.org/research/lateral-reading-on-the-open-internet",
+   "https://pressbooks.pub/webliteracy/chapter/four-strategies/",
+   "https://mediawell.ssrc.org/?p=510382"
+  ]
+ },
+ {
   "id": "ct:premortem",
   "title": "Premortem",
   "aliases": [
