@@ -1155,6 +1155,98 @@
   ]
  },
  {
+  "id": "ct:straw-man-fallacy",
+  "title": "Straw man fallacy",
+  "aliases": [
+   "straw man argument",
+   "strawman",
+   "straw-manning",
+   "man of straw"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/straw-man-fallacy.md",
+  "created": "2026-11-03",
+  "summary": "The fallacy of replacing an opponent's actual position with a distorted, weaker or invented version, refuting that substitute, and presenting the refutation as if it defeated the real position.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:red-herring"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:ignoratio-elenchi",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:isaac-watts",
+    "source": "s1",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:wrenching-from-context",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:amplifies",
+    "object": "ct:group-polarization",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:steelmanning",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Would the other side recognise this description as their own position, stated in their own terms?",
+   "Is the view being refuted what was actually said, or an exaggerated, absolute or invented version of it?",
+   "If the weakest argument has been answered, have the stronger arguments for the same conclusion been addressed too?",
+   "Who exactly holds the position being attacked, or is it attributed only to a vague \"some people\"?",
+   "Does refuting this version leave the original claim standing?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://www.academia.edu/2609857",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.03%3A_Straw_Man_Fallacy",
+   "https://philarchive.org/rec/WALWFC",
+   "https://rozenbergquarterly.com/issa-proceedings-2014-dont-feed-the-trolls-straw-men-and-iron-men/?print=pdf",
+   "https://neiudc.neiu.edu/phil-pub/7"
+  ]
+ },
+ {
   "id": "ct:toulmin-model",
   "title": "Toulmin model of argument",
   "aliases": [

@@ -1139,6 +1139,93 @@
    ]
   },
   {
+   "@id": "ct:straw-man-fallacy",
+   "@type": "cto:InformalFallacy",
+   "cto:amplifies": {
+    "@id": "ct:group-polarization"
+   },
+   "cto:confusedWith": {
+    "@id": "ct:wrenching-from-context"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:steelmanning"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map"
+   },
+   "cto:file": "articles/informal-fallacies/straw-man-fallacy.md",
+   "cto:instanceOf": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:isaac-watts"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6"
+    }
+   ],
+   "rdfs:label": "Straw man fallacy",
+   "skos:altLabel": [
+    "man of straw",
+    "straw man argument",
+    "straw-manning",
+    "strawman"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "skos:definition": "The fallacy of replacing an opponent's actual position with a distorted, weaker or invented version, refuting that substitute, and presenting the refutation as if it defeated the real position.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Straw man fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:red-herring"
+    }
+   ]
+  },
+  {
    "@id": "ct:toulmin-model",
    "@type": "cto:Framework",
    "cto:contrastsWith": {
@@ -2735,6 +2822,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Argumentation 25, 87-105 (Aikin & Casey, 2011), author's copy on Academia.edu",
+   "dcterms:title": "Straw Men, Weak Men, and Hollow Men",
+   "schema:url": {
+    "@id": "https://www.academia.edu/2609857"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Logical Reasoning (Dowden), Humanities LibreTexts",
+   "dcterms:title": "8.3: Straw Man Fallacy",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.03%3A_Straw_Man_Fallacy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Argumentation 24(3), 283-317 (Walton & Macagno, 2010), PhilArchive record",
+   "dcterms:title": "Wrenching from Context: The Manipulation of Commitments",
+   "schema:url": {
+    "@id": "https://philarchive.org/rec/WALWFC"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2014 (Aikin & Casey), Rozenberg Quarterly",
+   "dcterms:title": "Don't Feed the Trolls: Straw Men and Iron Men",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-dont-feed-the-trolls-straw-men-and-iron-men/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Bad Arguments: 50 Common Fallacies and How to Avoid Them (Aikin & Casey, 2017), NEIU Digital Commons",
+   "dcterms:title": "Straw man",
+   "schema:url": {
+    "@id": "https://neiudc.neiu.edu/phil-pub/7"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1",
    "@type": "cto:Source",
    "cto:sourceType": "primary",
@@ -2858,6 +3029,117 @@
    "dcterms:title": "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.3758/s13423-018-1460-7/fulltext.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:straw-man-fallacy"
+   },
+   "rdfs:label": "Would the other side recognise this description as their own position, stated in their own terms?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:straw-man-fallacy"
+   },
+   "rdfs:label": "Is the view being refuted what was actually said, or an exaggerated, absolute or invented version of it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:straw-man-fallacy"
+   },
+   "rdfs:label": "If the weakest argument has been answered, have the stronger arguments for the same conclusion been addressed too?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:straw-man-fallacy"
+   },
+   "rdfs:label": "Who exactly holds the position being attacked, or is it attributed only to a vague \"some people\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:straw-man-fallacy"
+   },
+   "rdfs:label": "Does refuting this version leave the original claim standing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:straw-man-fallacy"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the work-from-home proposal should be rejected."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The proposal covers one day a week, not abolishing the office; the refuted position is not the one put forward."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Even if full remote work harmed collaboration, that says little about the effect of one remote day."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "A colleague proposes letting staff work from home on Fridays to cut commuting time."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Running the company with nobody ever in the office would destroy collaboration and training."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map"
    }
   }
  ]

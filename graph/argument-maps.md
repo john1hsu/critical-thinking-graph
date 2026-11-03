@@ -33,3 +33,14 @@ flowchart TD
   o1["The form is valid, but the conclusion is only as good as the policy premise: if urgent tickets also require an on-call engineer to be reachable, the stated conditional is incomplete."] -. attacks .-> ra
 ```
 
+## Straw man fallacy (`ct:straw-man-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["A colleague proposes letting staff work from home on Fridays to cut commuting time."] --> ra{{"fallacious"}}
+  p2["Running the company with nobody ever in the office would destroy collaboration and training."] --> ra{{"fallacious"}}
+  ra --> c["So the work-from-home proposal should be rejected."]
+  o1["The proposal covers one day a week, not abolishing the office; the refuted position is not the one put forward."] -. attacks .-> ra
+  o2["Even if full remote work harmed collaboration, that says little about the effect of one remote day."] -. attacks .-> ra
+```
+

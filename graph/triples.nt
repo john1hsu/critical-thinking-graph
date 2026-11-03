@@ -993,6 +993,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s7> <https://schema.org/url> <https://www.neh.gov/award/stephen-toulmin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/fallacies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s2> <http://purl.org/dc/terms/publisher> "Argumentation 25, 87-105 (Aikin & Casey, 2011), author's copy on Academia.edu" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s2> <http://purl.org/dc/terms/title> "Straw Men, Weak Men, and Hollow Men" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s2> <https://schema.org/url> <https://www.academia.edu/2609857> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s3> <http://purl.org/dc/terms/publisher> "Logical Reasoning (Dowden), Humanities LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s3> <http://purl.org/dc/terms/title> "8.3: Straw Man Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s3> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.03%3A_Straw_Man_Fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s4> <http://purl.org/dc/terms/publisher> "Argumentation 24(3), 283-317 (Walton & Macagno, 2010), PhilArchive record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s4> <http://purl.org/dc/terms/title> "Wrenching from Context: The Manipulation of Commitments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s4> <https://schema.org/url> <https://philarchive.org/rec/WALWFC> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s5> <http://purl.org/dc/terms/publisher> "ISSA Proceedings 2014 (Aikin & Casey), Rozenberg Quarterly" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s5> <http://purl.org/dc/terms/title> "Don't Feed the Trolls: Straw Men and Iron Men" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s5> <https://schema.org/url> <https://rozenbergquarterly.com/issa-proceedings-2014-dont-feed-the-trolls-straw-men-and-iron-men/?print=pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <http://purl.org/dc/terms/publisher> "Bad Arguments: 50 Common Fallacies and How to Avoid Them (Aikin & Casey, 2017), NEIU Digital Commons" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <http://purl.org/dc/terms/title> "Straw man" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <https://schema.org/url> <https://neiudc.neiu.edu/phil-pub/7> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/publisher> "Cambridge University Press (Toulmin, 2003)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/title> "The Uses of Argument (Updated Edition): Preface to the Updated Edition" .
@@ -1074,6 +1110,78 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Would the other side recognise this description as their own position, stated in their own terms?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is the view being refuted what was actually said, or an exaggerated, absolute or invented version of it?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "If the weakest argument has been answered, have the stronger arguments for the same conclusion been addressed too?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Who exactly holds the position being attacked, or is it attributed only to a vague \"some people\"?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Does refuting this version leave the original claim standing?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So the work-from-home proposal should be rejected." .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The proposal covers one day a week, not abolishing the office; the refuted position is not the one put forward." .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Even if full remote work harmed collaboration, that says little about the effect of one remote day." .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "A colleague proposes letting staff work from home on Fridays to cut commuting time." .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Running the company with nobody ever in the office would destroy collaboration and training." .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2000/01/rdf-schema#label> "Straw man fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "man of straw" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "straw man argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "straw-manning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "strawman" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of replacing an opponent's actual position with a distorted, weaker or invented version, refuting that substitute, and presenting the refutation as if it defeated the real position." .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Straw man fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifies> <https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/wrenching-from-context> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/straw-man-fallacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/isaac-watts> .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2000/01/rdf-schema#label> "Toulmin model of argument" .
