@@ -15,6 +15,85 @@
  },
  "@graph": [
   {
+   "@id": "ct:anchoring-effect",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": {
+    "@id": "ct:roseler-2025-insufficient-adjustment-test"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:englich-2006-judicial-anchoring-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:anchoring-and-adjustment-heuristic"
+    },
+    {
+     "@id": "ct:selective-accessibility-model"
+    }
+   ],
+   "cto:file": "articles/cognitive-biases/anchoring-effect.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:supportedBy": {
+    "@id": "ct:many-labs-1-replication-project"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6"
+    }
+   ],
+   "rdfs:label": "Anchoring effect",
+   "skos:altLabel": [
+    "anchoring and adjustment bias",
+    "anchoring bias",
+    "anchoring"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency for a numerical estimate or judgment to be pulled toward a previously encountered value (the anchor), even when that value is uninformative or plainly arbitrary.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Anchoring effect",
+   "skos:related": [
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    }
+   ]
+  },
+  {
    "@id": "ct:toulmin-model",
    "@type": "cto:Framework",
    "cto:contrastsWith": {
@@ -149,6 +228,90 @@
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Scientific reasoning and research methods"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Science 185(4157), 1124-1131 (Tversky & Kahneman, 1974), PubMed record",
+   "dcterms:title": "Judgment under Uncertainty: Heuristics and Biases",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/17835457/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Journal of Socio-Economics 40(1), 35-42 (Furnham & Boo, 2011), RePEc record",
+   "dcterms:title": "A literature review of the anchoring effect",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/eee/soceco/v40y2011i1p35-42.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Social Psychology 45(3), 142-152 (Klein et al., 2014), Penn State research portal",
+   "dcterms:title": "Investigating variation in replicability: A \"many labs\" replication project",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/investigating-variation-in-replicability-a-many-labs-replication-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Bulletin 32, 188-200 (Englich, Mussweiler & Strack, 2006)",
+   "dcterms:title": "Playing Dice With Criminal Sentences: The Influence of Irrelevant Anchors on Experts' Judicial Decision Making",
+   "schema:url": {
+    "@id": "https://journals.sagepub.com/doi/abs/10.1177/0146167205282152"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Meta-Psychology 9 (Röseler, Incerti, Rebholz, Seida & Papenmeier, 2025)",
+   "dcterms:title": "Falsifying the Insufficient Adjustment Model: No Evidence for Unidirectional Adjustment from Anchors",
+   "schema:url": {
+    "@id": "https://open.lnu.se/index.php/metapsychology/article/view/4137/4300"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "FORRT Replication Atlas",
+   "dcterms:title": "Measures of Anchoring in Estimation Tasks (replication record)",
+   "schema:url": {
+    "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/01461672952111004/"
+   }
   },
   {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1",

@@ -4,12 +4,22 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `ct:argument` | 2.42 | - | `ct:toulmin-model` |
-| `ct:argument-mapping` | 2.42 | - | `ct:toulmin-model` |
-| `ct:argumentation-schemes` | 2.42 | - | `ct:toulmin-model` |
-| `ct:deductive-reasoning` | 2.42 | - | `ct:toulmin-model` |
-| `ct:stephen-toulmin` | 2.42 | Person | `ct:toulmin-model` |
-| `ct:argumentation-theory` | 1.92 | - | `ct:toulmin-model` |
-| `ct:defeasible-reasoning` | 1.92 | - | `ct:toulmin-model` |
-| `ct:the-uses-of-argument` | 1.92 | Work | `ct:toulmin-model` |
-| `ct:yeh-1998-argumentative-writing-study` | 1.92 | - | `ct:toulmin-model` |
+| `ct:amos-tversky` | 1.94 | Person | `ct:anchoring-effect` |
+| `ct:argument` | 1.94 | - | `ct:toulmin-model` |
+| `ct:argument-mapping` | 1.94 | - | `ct:toulmin-model` |
+| `ct:argumentation-schemes` | 1.94 | - | `ct:toulmin-model` |
+| `ct:consider-the-opposite` | 1.94 | - | `ct:anchoring-effect` |
+| `ct:daniel-kahneman` | 1.94 | Person | `ct:anchoring-effect` |
+| `ct:deductive-reasoning` | 1.94 | - | `ct:toulmin-model` |
+| `ct:heuristics-and-biases-program` | 1.94 | - | `ct:anchoring-effect` |
+| `ct:stephen-toulmin` | 1.94 | Person | `ct:toulmin-model` |
+| `ct:anchoring-and-adjustment-heuristic` | 1.44 | - | `ct:anchoring-effect` |
+| `ct:argumentation-theory` | 1.44 | - | `ct:toulmin-model` |
+| `ct:cognitive-bias` | 1.44 | - | `ct:anchoring-effect` |
+| `ct:defeasible-reasoning` | 1.44 | - | `ct:toulmin-model` |
+| `ct:englich-2006-judicial-anchoring-study` | 1.44 | Study | `ct:anchoring-effect` |
+| `ct:many-labs-1-replication-project` | 1.44 | - | `ct:anchoring-effect` |
+| `ct:roseler-2025-insufficient-adjustment-test` | 1.44 | - | `ct:anchoring-effect` |
+| `ct:selective-accessibility-model` | 1.44 | - | `ct:anchoring-effect` |
+| `ct:the-uses-of-argument` | 1.44 | Work | `ct:toulmin-model` |
+| `ct:yeh-1998-argumentative-writing-study` | 1.44 | - | `ct:toulmin-model` |

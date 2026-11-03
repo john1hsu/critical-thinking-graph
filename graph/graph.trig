@@ -7,6 +7,15 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/cognitive-biases/anchoring-effect.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> .
 
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -61,14 +70,102 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/yeh-1998-argumentative-writing-study> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2000/01/rdf-schema#label> "Anchoring effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "anchoring and adjustment bias" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "anchoring bias" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "anchoring" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#definition> "The tendency for a numerical estimate or judgment to be pulled toward a previously encountered value (the anchor), even when that value is uninformative or plainly arbitrary." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anchoring effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/roseler-2025-insufficient-adjustment-test> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/englich-2006-judicial-anchoring-study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-and-adjustment-heuristic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/selective-accessibility-model> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/anchoring-effect.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> <http://purl.org/dc/terms/publisher> "Science 185(4157), 1124-1131 (Tversky & Kahneman, 1974), PubMed record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> <http://purl.org/dc/terms/title> "Judgment under Uncertainty: Heuristics and Biases" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/17835457/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2> <http://purl.org/dc/terms/publisher> "Journal of Socio-Economics 40(1), 35-42 (Furnham & Boo, 2011), RePEc record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2> <http://purl.org/dc/terms/title> "A literature review of the anchoring effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s2> <https://schema.org/url> <https://ideas.repec.org/a/eee/soceco/v40y2011i1p35-42.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3> <http://purl.org/dc/terms/publisher> "Social Psychology 45(3), 142-152 (Klein et al., 2014), Penn State research portal" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3> <http://purl.org/dc/terms/title> "Investigating variation in replicability: A \"many labs\" replication project" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s3> <https://schema.org/url> <https://pure.psu.edu/en/publications/investigating-variation-in-replicability-a-many-labs-replication-/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4> <http://purl.org/dc/terms/publisher> "Personality and Social Psychology Bulletin 32, 188-200 (Englich, Mussweiler & Strack, 2006)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4> <http://purl.org/dc/terms/title> "Playing Dice With Criminal Sentences: The Influence of Irrelevant Anchors on Experts' Judicial Decision Making" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s4> <https://schema.org/url> <https://journals.sagepub.com/doi/abs/10.1177/0146167205282152> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5> <http://purl.org/dc/terms/publisher> "Meta-Psychology 9 (Röseler, Incerti, Rebholz, Seida & Papenmeier, 2025)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5> <http://purl.org/dc/terms/title> "Falsifying the Insufficient Adjustment Model: No Evidence for Unidirectional Adjustment from Anchors" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s5> <https://schema.org/url> <https://open.lnu.se/index.php/metapsychology/article/view/4137/4300> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> <http://purl.org/dc/terms/publisher> "FORRT Replication Atlas" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> <http://purl.org/dc/terms/title> "Measures of Anchoring in Estimation Tasks (replication record)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> <https://schema.org/url> <https://forrt.org/flora-replication-atlas/doi/10.1177/01461672952111004/> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/inferred> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-and-adjustment-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/englich-2006-judicial-anchoring-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/englich-2006-judicial-anchoring-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/englich-2006-judicial-anchoring-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/roseler-2025-insufficient-adjustment-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/selective-accessibility-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
