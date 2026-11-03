@@ -644,6 +644,78 @@
    ]
   },
   {
+   "@id": "ct:gettier-problem",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:science-education"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/gettier-problem.md",
+   "cto:introducedBy": {
+    "@id": "ct:edmund-gettier"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:is-justified-true-belief-knowledge"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:justified-true-belief"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:epistemology"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:machery-2017-gettier-intuition-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s4"
+    }
+   ],
+   "rdfs:label": "Gettier problem",
+   "skos:altLabel": [
+    "Gettier cases",
+    "Gettier counterexamples",
+    "problem of epistemic luck in the analysis of knowledge"
+   ],
+   "skos:broader": {
+    "@id": "ct:epistemology"
+   },
+   "skos:definition": "The problem, raised by Edmund Gettier in 1963, that a person can hold a justified, true belief that still falls short of knowledge because it is true only by luck; it shows that justified true belief is not sufficient for knowing.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Gettier problem",
+   "skos:related": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:justified-true-belief"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:plato"
+    }
+   ]
+  },
+  {
    "@id": "ct:heuristics-and-biases-program",
    "@type": "cto:Framework",
    "cto:challengedBy": {
@@ -2513,6 +2585,62 @@
    "dcterms:title": "On the conflict between logic and belief in syllogistic reasoning",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.3758/BF03196976"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Stephen Hetherington)",
+   "dcterms:title": "Gettier Problems",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/gettier/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Edmund L. Gettier, Analysis 23(6), 121-123 (1963); course copy hosted by Joel Velasco",
+   "dcterms:title": "Is Justified True Belief Knowledge?",
+   "schema:url": {
+    "@id": "https://mail.joelvelasco.net/teaching/hum9/gettier63-jtb.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Machery, Stich, Rose et al., Journal of Indian Council of Philosophical Research (2017), author's copy",
+   "dcterms:title": "The Gettier Intuition from South America to Asia",
+   "schema:url": {
+    "@id": "https://www.stephenstich.com/_files/ugd/0ad9d7_b90ba78c9e9a4765b2787aff36e07c2c.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "R. Brock, Science & Education 27, 247-258 (2018)",
+   "dcterms:title": "Lucky Belief in Science Education",
+   "schema:url": {
+    "@id": "https://link.springer.com/10.1007/s11191-018-9972-0"
    }
   },
   {

@@ -650,6 +650,85 @@
   ]
  },
  {
+  "id": "ct:gettier-problem",
+  "title": "Gettier problem",
+  "aliases": [
+   "Gettier cases",
+   "Gettier counterexamples",
+   "problem of epistemic luck in the analysis of knowledge"
+  ],
+  "type": "Concept",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/gettier-problem.md",
+  "created": "2026-11-03",
+  "summary": "The problem, raised by Edmund Gettier in 1963, that a person can hold a justified, true belief that still falls short of knowledge because it is true only by luck; it shows that justified true belief is not sufficient for knowing.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:justified-true-belief"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:plato"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:justified-true-belief"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:edmund-gettier",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:is-justified-true-belief-knowledge",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:machery-2017-gettier-intuition-study",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:science-education",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/gettier/",
+   "https://mail.joelvelasco.net/teaching/hum9/gettier63-jtb.pdf",
+   "https://www.stephenstich.com/_files/ugd/0ad9d7_b90ba78c9e9a4765b2787aff36e07c2c.pdf",
+   "https://link.springer.com/10.1007/s11191-018-9972-0"
+  ]
+ },
+ {
   "id": "ct:heuristics-and-biases-program",
   "title": "Heuristics and biases program",
   "aliases": [
