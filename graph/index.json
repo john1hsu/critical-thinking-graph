@@ -1240,6 +1240,78 @@
   ]
  },
  {
+  "id": "ct:soundness",
+  "title": "Soundness",
+  "aliases": [
+   "sound argument",
+   "sound deductive argument"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/soundness.md",
+  "created": "2026-11-03",
+  "summary": "The property of a deductive argument that is valid and whose premises are all actually true; a sound argument therefore guarantees a true conclusion.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:cogency",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:soundness-theorem",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:argument-evaluation",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/page/val-snd/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Introduction_to_Logic_and_Critical_Thinking_2e_(van_Cleave)/01%3A_Reconstructing_and_Analyzing_Arguments/1.07%3A_Soundness",
+   "https://logic.tamu.edu/Primer/1.1.html",
+   "https://oercollective.caul.edu.au/howtothinkcritically/?p=103",
+   "https://users.cecs.anu.edu.au/~jks/LogicNotes/soundness.html",
+   "https://www.ellopos.net/elpenor/greek-texts/ancient-Greece/aristotle/posterior-analytics.asp?pg=3"
+  ]
+ },
+ {
   "id": "ct:stephen-toulmin",
   "title": "Stephen Toulmin",
   "aliases": [

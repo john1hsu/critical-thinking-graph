@@ -92,6 +92,15 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/foundations/soundness.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/foundations/validity.md" .
@@ -958,6 +967,73 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6> <https://schema.org/url> <https://revistaschilenas.uchile.cl/handle/2250/15306?show=full> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/soundness#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2000/01/rdf-schema#label> "Soundness" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#altLabel> "sound argument" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#altLabel> "sound deductive argument" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#definition> "The property of a deductive argument that is valid and whose premises are all actually true; a sound argument therefore guarantees a true conclusion." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#prefLabel> "Soundness" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/soundness-theorem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "foundations" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/foundations/soundness.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://purl.org/dc/terms/title> "Validity and Soundness" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <https://schema.org/url> <https://iep.utm.edu/page/val-snd/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s2> <http://purl.org/dc/terms/publisher> "Matthew Van Cleave, Humanities LibreTexts" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s2> <http://purl.org/dc/terms/title> "1.7: Soundness, in Introduction to Logic and Critical Thinking (2nd ed.)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s2> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Introduction_to_Logic_and_Critical_Thinking_2e_(van_Cleave)/01%3A_Reconstructing_and_Analyzing_Arguments/1.07%3A_Soundness> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s3> <http://purl.org/dc/terms/publisher> "Logic Primer (MIT Press), online edition hosted by Texas A&M University" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s3> <http://purl.org/dc/terms/title> "Logic Primer, section 1.1: Sentences, arguments, validity and soundness" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s3> <https://schema.org/url> <https://logic.tamu.edu/Primer/1.1.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s4> <http://purl.org/dc/terms/publisher> "CAUL OER Collective (Council of Australian University Librarians)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s4> <http://purl.org/dc/terms/title> "Introduction: soundness and cogency, in How to Think Critically" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s4> <https://schema.org/url> <https://oercollective.caul.edu.au/howtothinkcritically/?p=103> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s5> <http://purl.org/dc/terms/publisher> "Australian National University" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s5> <http://purl.org/dc/terms/title> "Soundness, in The Logic Notes" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s5> <https://schema.org/url> <https://users.cecs.anu.edu.au/~jks/LogicNotes/soundness.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> <http://purl.org/dc/terms/publisher> "Aristotle, Elpenor Greek texts library" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> <http://purl.org/dc/terms/title> "Posterior Analytics, Book I (trans. G. R. G. Mure)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> <https://schema.org/url> <https://www.ellopos.net/elpenor/greek-texts/ancient-Greece/aristotle/posterior-analytics.asp?pg=3> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/validity#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
@@ -1571,12 +1647,14 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasPart> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
@@ -1590,6 +1668,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
@@ -1617,6 +1696,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cleanthes> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
   <https://github.com/john1hsu/critical-thinking-graph/id/click-restraint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cogency> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
@@ -1645,9 +1725,11 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
@@ -1736,6 +1818,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/michael-scriven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/michael-scriven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -1778,6 +1861,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
@@ -1792,6 +1876,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
@@ -1814,8 +1899,11 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
@@ -1863,6 +1951,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/vertical-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .

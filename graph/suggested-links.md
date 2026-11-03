@@ -5,27 +5,27 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 2.60 | `ct:principle-of-charity` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:informal-logic`, `ct:toulmin-model` |
-| 1.78 | `ct:straw-man-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-theory`, `ct:principle-of-charity` |
-| 1.71 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
-| 1.23 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
-| 1.21 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
-| 1.21 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
+| 1.70 | `ct:straw-man-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-theory`, `ct:principle-of-charity` |
+| 1.69 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
+| 1.67 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:soundness` |
+| 1.63 | `ct:affirming-the-consequent` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
+| 1.45 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
+| 1.34 | `ct:soundness` | `ct:toulmin-model` | `ct:argument`, `ct:deductive-reasoning`, `ct:principle-of-charity` |
+| 1.21 | `ct:modus-ponens` | `ct:soundness` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
 | 1.20 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| 1.06 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:toulmin-model` |
-| 0.98 | `ct:toulmin-model` | `ct:validity` | `ct:argument`, `ct:deductive-reasoning` |
+| 1.19 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
+| 1.19 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
+| 1.01 | `ct:principle-of-charity` | `ct:validity` | `ct:argument`, `ct:soundness` |
+| 0.98 | `ct:soundness` | `ct:straw-man-fallacy` | `ct:argument`, `ct:principle-of-charity` |
+| 0.92 | `ct:toulmin-model` | `ct:validity` | `ct:argument`, `ct:deductive-reasoning` |
 | 0.91 | `ct:deductive-reasoning` | `ct:judgment-and-decision-making` | `ct:cognitive-psychology` |
 | 0.91 | `ct:judgment-and-decision-making` | `ct:modus-ponens` | `ct:cognitive-psychology` |
+| 0.78 | `ct:chrysippus` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning` |
 | 0.78 | `ct:chrysippus` | `ct:validity` | `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 0.72 | `ct:stephen-toulmin` | `ct:straw-man-fallacy` | `ct:argumentation-theory` |
-| 0.62 | `ct:deductive-reasoning` | `ct:straw-man-fallacy` | `ct:argument` |
-| 0.62 | `ct:principle-of-charity` | `ct:validity` | `ct:argument` |
-| 0.62 | `ct:straw-man-fallacy` | `ct:validity` | `ct:argument` |
-| 0.46 | `ct:affirming-the-consequent` | `ct:consider-the-opposite` | `ct:method-of-counterexample` |
-| 0.46 | `ct:aristotle` | `ct:consider-the-opposite` | `ct:method-of-counterexample` |
-| 0.46 | `ct:consider-the-opposite` | `ct:deductive-reasoning` | `ct:method-of-counterexample` |
-| 0.46 | `ct:consider-the-opposite` | `ct:modus-ponens` | `ct:method-of-counterexample` |
-| 0.46 | `ct:consider-the-opposite` | `ct:validity` | `ct:method-of-counterexample` |
+| 0.56 | `ct:deductive-reasoning` | `ct:straw-man-fallacy` | `ct:argument` |
+| 0.56 | `ct:straw-man-fallacy` | `ct:validity` | `ct:argument` |
+| 0.46 | `ct:aristotle` | `ct:principle-of-charity` | `ct:soundness` |
+| 0.46 | `ct:method-of-counterexample` | `ct:principle-of-charity` | `ct:soundness` |
+| 0.43 | `ct:affirming-the-consequent` | `ct:consider-the-opposite` | `ct:method-of-counterexample` |
 | 0.43 | `ct:amos-tversky` | `ct:consider-the-opposite` | `ct:anchoring-effect` |
-| 0.43 | `ct:consider-the-opposite` | `ct:daniel-kahneman` | `ct:anchoring-effect` |
-| 0.43 | `ct:consider-the-opposite` | `ct:heuristics-and-biases-program` | `ct:anchoring-effect` |
-| 0.39 | `ct:anchoring-effect` | `ct:method-of-counterexample` | `ct:consider-the-opposite` |
