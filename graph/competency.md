@@ -46,7 +46,6 @@ _Which written articles does nothing else in the graph point to (after inference
 
 | node |
 |---|
-| `ct:anchoring-effect` |
 | `ct:toulmin-model` |
 
 ## Argumentation schemes and their fallacious misuses

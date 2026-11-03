@@ -1,5 +1,82 @@
 [
  {
+  "id": "ct:amos-tversky",
+  "title": "Amos Tversky",
+  "aliases": [
+   "Tversky"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/amos-tversky.md",
+  "created": "2026-11-03",
+  "summary": "Israeli-American cognitive psychologist (1937-1996) who, largely with Daniel Kahneman, showed that intuitive judgment under uncertainty relies on a few heuristics that produce systematic biases, and who co-created prospect theory.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:behavioral-economics",
+    "source": "s7",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s6",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://news.stanford.edu/pr/96/960605tversky.html",
+   "https://www.macfound.org/fellows/class-of-november-1984/amos-tversky",
+   "https://pubmed.ncbi.nlm.nih.gov/17835457/",
+   "https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk",
+   "https://pages.ucsd.edu/~mckenzie/TverskyKahneman1983PsychRev.pdf",
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1996.pdf",
+   "https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/",
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Kahneman+Tversky-cognitive-illusions-1996.pdf"
+  ]
+ },
+ {
   "id": "ct:anchoring-effect",
   "title": "Anchoring effect",
   "aliases": [

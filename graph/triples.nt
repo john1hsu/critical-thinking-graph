@@ -1,3 +1,33 @@
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2000/01/rdf-schema#label> "Amos Tversky" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#altLabel> "Tversky" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#definition> "Israeli-American cognitive psychologist (1937-1996) who, largely with Daniel Kahneman, showed that intuitive judgment under uncertainty relies on a few heuristics that produce systematic biases, and who co-created prospect theory." .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amos Tversky" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/amos-tversky.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2000/01/rdf-schema#label> "Anchoring effect" .
@@ -55,6 +85,54 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Probabilistic and statistical reasoning" .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scientific reasoning and research methods" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> <http://purl.org/dc/terms/publisher> "Stanford University News Service (5 June 1996)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> <http://purl.org/dc/terms/title> "News release on the death of Amos Tversky" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> <https://schema.org/url> <https://news.stanford.edu/pr/96/960605tversky.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s2> <http://purl.org/dc/terms/publisher> "John D. and Catherine T. MacArthur Foundation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s2> <http://purl.org/dc/terms/title> "Amos Tversky, MacArthur Fellow, class of November 1984" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s2> <https://schema.org/url> <https://www.macfound.org/fellows/class-of-november-1984/amos-tversky> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s3> <http://purl.org/dc/terms/publisher> "Science 185(4157), 1124-1131 (Tversky & Kahneman, 1974), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s3> <http://purl.org/dc/terms/title> "Judgment under Uncertainty: Heuristics and Biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s3> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/17835457/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s4> <http://purl.org/dc/terms/publisher> "Econometrica 47(2), 263-292 (Kahneman & Tversky, 1979), Econometric Society" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s4> <http://purl.org/dc/terms/title> "Prospect Theory: An Analysis of Decision under Risk" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s4> <https://schema.org/url> <https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s5> <http://purl.org/dc/terms/publisher> "Psychological Review 90(4) (Tversky & Kahneman, 1983), author copy hosted at UC San Diego" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s5> <http://purl.org/dc/terms/title> "Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s5> <https://schema.org/url> <https://pages.ucsd.edu/~mckenzie/TverskyKahneman1983PsychRev.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s6> <http://purl.org/dc/terms/publisher> "Psychological Review 103(3), 592-596 (Gigerenzer, 1996)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s6> <http://purl.org/dc/terms/title> "On narrow norms and vague heuristics: A reply to Kahneman and Tversky (1996)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s6> <https://schema.org/url> <https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1996.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s7> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s7> <http://purl.org/dc/terms/publisher> "NobelPrize.org (Royal Swedish Academy of Sciences)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s7> <http://purl.org/dc/terms/title> "The Prize in Economic Sciences 2002 - Press release" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s7> <https://schema.org/url> <https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> <http://purl.org/dc/terms/publisher> "Psychological Review 103(3), 582-591 (Kahneman & Tversky, 1996)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> <http://purl.org/dc/terms/title> "On the reality of cognitive illusions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> <https://schema.org/url> <https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Kahneman+Tversky-cognitive-illusions-1996.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> <http://purl.org/dc/terms/publisher> "Science 185(4157), 1124-1131 (Tversky & Kahneman, 1974), PubMed record" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s1> <http://purl.org/dc/terms/title> "Judgment under Uncertainty: Heuristics and Biases" .
