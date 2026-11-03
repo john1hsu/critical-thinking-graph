@@ -42,7 +42,9 @@ _No results._
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/07-orphans.rq`
 
-_No results._
+| node |
+|---|
+| `ct:toulmin-model` |
 
 ## Argumentation schemes and their fallacious misuses
 

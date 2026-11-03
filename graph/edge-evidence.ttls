@@ -2,4 +2,7 @@
 @prefix cto: <https://github.com/john1hsu/critical-thinking-graph/ontology#> .
 @prefix ct: <https://github.com/john1hsu/critical-thinking-graph/id/> .
 
-
+<< <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> >> cto:evidence <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> ; cto:confidence "medium" .
+<< <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> >> cto:evidence <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> ; cto:confidence "high" .
+<< <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/the-uses-of-argument> >> cto:evidence <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2> ; cto:confidence "high" .
+<< <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/yeh-1998-argumentative-writing-study> >> cto:evidence <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> ; cto:confidence "medium" .

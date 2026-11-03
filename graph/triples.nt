@@ -26,3 +26,53 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Probabilistic and statistical reasoning" .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scientific reasoning and research methods" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/publisher> "Cambridge University Press (Toulmin, 2003)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/title> "The Uses of Argument (Updated Edition): Preface to the Updated Edition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <https://schema.org/url> <https://www.cambridge.org/core/books/uses-of-argument/preface-to-the-updated-edition/2E27FEAD653FE4544990935850FC817C> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2> <http://purl.org/dc/terms/publisher> "Springer, author copy at University of Groningen (Hitchcock & Verheij, 2006)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2> <http://purl.org/dc/terms/title> "Introduction, in Arguing on the Toulmin Model: New Essays in Argument Analysis and Evaluation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2> <https://schema.org/url> <https://www.ai.rug.nl/~verheij/publications/pdf/intro.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3> <http://purl.org/dc/terms/publisher> "Dictionnaire de l'argumentation, CNRS ICAR (Plantin, 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3> <http://purl.org/dc/terms/title> "Layout of Argument (Toulmin)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3> <https://schema.org/url> <https://icar.cnrs.fr/dicoplantin/layout-of-argument-toulmin-e/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <http://purl.org/dc/terms/publisher> "Research in the Teaching of English 33(1), 49-83 (Yeh, 1998)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <http://purl.org/dc/terms/title> "Empowering education: Teaching argumentative writing to cultural minority middle-school students" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <https://schema.org/url> <https://experts.umn.edu/en/publications/empowering-education-teaching-argumentative-writing-to-cultural-m/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2000/01/rdf-schema#label> "Toulmin model of argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#altLabel> "Toulmin layout of argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#altLabel> "Toulmin method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#altLabel> "claim-data-warrant model" .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#definition> "Stephen Toulmin's six-part layout for analysing practical arguments: a claim supported by data, licensed by a warrant that rests on backing, tempered by a qualifier and open to rebuttal." .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#prefLabel> "Toulmin model of argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/toulmin-model.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/the-uses-of-argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/yeh-1998-argumentative-writing-study> .

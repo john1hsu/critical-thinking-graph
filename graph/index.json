@@ -1,1 +1,71 @@
-[]
+[
+ {
+  "id": "ct:toulmin-model",
+  "title": "Toulmin model of argument",
+  "aliases": [
+   "Toulmin method",
+   "Toulmin layout of argument",
+   "claim-data-warrant model"
+  ],
+  "type": "Framework",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/toulmin-model.md",
+  "created": "2026-11-03",
+  "summary": "Stephen Toulmin's six-part layout for analysing practical arguments: a claim supported by data, licensed by a warrant that rests on backing, tempered by a qualifier and open to rebuttal.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:stephen-toulmin",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-uses-of-argument",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:deductive-reasoning",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:yeh-1998-argumentative-writing-study",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cambridge.org/core/books/uses-of-argument/preface-to-the-updated-edition/2E27FEAD653FE4544990935850FC817C",
+   "https://www.ai.rug.nl/~verheij/publications/pdf/intro.pdf",
+   "https://icar.cnrs.fr/dicoplantin/layout-of-argument-toulmin-e/",
+   "https://experts.umn.edu/en/publications/empowering-education-teaching-argumentative-writing-to-cultural-m/"
+  ]
+ }
+]

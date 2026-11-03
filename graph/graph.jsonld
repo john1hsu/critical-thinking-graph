@@ -15,6 +15,72 @@
  },
  "@graph": [
   {
+   "@id": "ct:toulmin-model",
+   "@type": "cto:Framework",
+   "cto:contrastsWith": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/toulmin-model.md",
+   "cto:introducedBy": {
+    "@id": "ct:stephen-toulmin"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:the-uses-of-argument"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:yeh-1998-argumentative-writing-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4"
+    }
+   ],
+   "rdfs:label": "Toulmin model of argument",
+   "skos:altLabel": [
+    "Toulmin layout of argument",
+    "Toulmin method",
+    "claim-data-warrant model"
+   ],
+   "skos:broader": {
+    "@id": "ct:argumentation-theory"
+   },
+   "skos:definition": "Stephen Toulmin's six-part layout for analysing practical arguments: a claim supported by data, licensed by a warrant that rests on backing, tempered by a qualifier and open to rebuttal.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Toulmin model of argument",
+   "skos:related": [
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:defeasible-reasoning"
+    }
+   ]
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Argumentation theory and argument mapping"
@@ -83,6 +149,62 @@
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Scientific reasoning and research methods"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Cambridge University Press (Toulmin, 2003)",
+   "dcterms:title": "The Uses of Argument (Updated Edition): Preface to the Updated Edition",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/uses-of-argument/preface-to-the-updated-edition/2E27FEAD653FE4544990935850FC817C"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Springer, author copy at University of Groningen (Hitchcock & Verheij, 2006)",
+   "dcterms:title": "Introduction, in Arguing on the Toulmin Model: New Essays in Argument Analysis and Evaluation",
+   "schema:url": {
+    "@id": "https://www.ai.rug.nl/~verheij/publications/pdf/intro.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Dictionnaire de l'argumentation, CNRS ICAR (Plantin, 2021)",
+   "dcterms:title": "Layout of Argument (Toulmin)",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/layout-of-argument-toulmin-e/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Research in the Teaching of English 33(1), 49-83 (Yeh, 1998)",
+   "dcterms:title": "Empowering education: Teaching argumentative writing to cultural minority middle-school students",
+   "schema:url": {
+    "@id": "https://experts.umn.edu/en/publications/empowering-education-teaching-argumentative-writing-to-cultural-m/"
+   }
   }
  ]
 }
