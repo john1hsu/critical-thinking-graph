@@ -275,6 +275,10 @@
    },
    {
     "predicate": "skos:related",
+    "object": "ct:posterior-analytics"
+   },
+   {
+    "predicate": "skos:related",
     "object": "ct:sophistical-refutations"
    },
    {
@@ -1152,6 +1156,92 @@
   ]
  },
  {
+  "id": "ct:posterior-analytics",
+  "title": "Posterior Analytics",
+  "aliases": [
+   "Analytica Posteriora",
+   "Aristotle's theory of demonstration"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/posterior-analytics.md",
+  "created": "2026-11-03",
+  "summary": "Aristotle's two-book treatise (4th century BCE) on demonstration and scientific knowledge, which argues that a proof yields knowledge only when its premises are true, primary and explanatory, and that the chain of proof must end in first principles grasped without demonstration.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:foundationalism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemic-regress-problem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:organon",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:prior-analytics",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://classics.mit.edu/Aristotle/posterior.html",
+   "https://plato.stanford.edu/entries/aristotle-logic/",
+   "https://iep.utm.edu/aristotle-logic/",
+   "https://iep.utm.edu/found-ep/",
+   "https://classics.mit.edu/Aristotle/posterior.1.i.html",
+   "https://classics.mit.edu/Aristotle/posterior.2.ii.html"
+  ]
+ },
+ {
   "id": "ct:premortem",
   "title": "Premortem",
   "aliases": [
@@ -1354,6 +1444,10 @@
     "object": "ct:principle-of-charity"
    },
    {
+    "predicate": "skos:related",
+    "object": "ct:posterior-analytics"
+   },
+   {
     "predicate": "cto:requires",
     "object": "ct:argument"
    },
@@ -1377,6 +1471,12 @@
     "predicate": "cto:partOf",
     "object": "ct:argument-evaluation",
     "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:posterior-analytics",
+    "source": "s6",
     "confidence": "medium"
    }
   ],

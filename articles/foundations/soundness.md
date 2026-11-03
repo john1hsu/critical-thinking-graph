@@ -10,12 +10,13 @@ summary: >-
 level: introductory
 evidenceStatus: normative
 broader: [ct:deductive-reasoning]
-related: [ct:validity, ct:method-of-counterexample, ct:aristotle, ct:principle-of-charity]
+related: [ct:validity, ct:method-of-counterexample, ct:aristotle, ct:principle-of-charity, ct:posterior-analytics]
 requires: [ct:argument, ct:validity]
 relations:
   - {predicate: contrastsWith, object: ct:cogency, source: s4, confidence: high}
   - {predicate: confusedWith, object: ct:soundness-theorem, source: s1, confidence: medium}
   - {predicate: partOf, object: ct:argument-evaluation, source: s1, confidence: medium}
+  - {predicate: introducedIn, object: ct:posterior-analytics, source: s6, confidence: medium}
 sameAs: []
 sources:
   - id: s1

@@ -49,7 +49,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
-| `ct:soundness` | cto:Concept |
 | `ct:validity` | cto:Concept |
 
 ## Orphan articles (gap)

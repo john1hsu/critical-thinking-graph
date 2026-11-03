@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: historical
 broader: []
-related: [ct:organon, ct:sophistical-refutations, ct:syllogism, ct:square-of-opposition, ct:deductive-reasoning, ct:method-of-counterexample, ct:affirming-the-consequent, ct:chrysippus]
+related: [ct:organon, ct:posterior-analytics, ct:sophistical-refutations, ct:syllogism, ct:square-of-opposition, ct:deductive-reasoning, ct:method-of-counterexample, ct:affirming-the-consequent, ct:chrysippus]
 requires: []
 relations:
   - {predicate: influencedBy, object: ct:plato, source: s3, confidence: high}

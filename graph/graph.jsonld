@@ -319,6 +319,9 @@
      "@id": "ct:organon"
     },
     {
+     "@id": "ct:posterior-analytics"
+    },
+    {
      "@id": "ct:sophistical-refutations"
     },
     {
@@ -1126,6 +1129,91 @@
    ]
   },
   {
+   "@id": "ct:posterior-analytics",
+   "@type": "cto:Work",
+   "cto:authoredBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:prior-analytics"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/posterior-analytics.md",
+   "cto:level": "intermediate",
+   "cto:partOf": {
+    "@id": "ct:organon"
+   },
+   "cto:requires": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:epistemology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s6"
+    }
+   ],
+   "rdfs:label": "Posterior Analytics",
+   "skos:altLabel": [
+    "Analytica Posteriora",
+    "Aristotle's theory of demonstration"
+   ],
+   "skos:broader": {
+    "@id": "ct:organon"
+   },
+   "skos:definition": "Aristotle's two-book treatise (4th century BCE) on demonstration and scientific knowledge, which argues that a proof yields knowledge only when its premises are true, primary and explanatory, and that the chain of proof must end in first principles grasped without demonstration.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Posterior Analytics",
+   "skos:related": [
+    {
+     "@id": "ct:epistemic-regress-problem"
+    },
+    {
+     "@id": "ct:foundationalism"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    },
+    {
+     "@id": "ct:prior-analytics"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:syllogism"
+    }
+   ]
+  },
+  {
    "@id": "ct:premortem",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -1299,6 +1387,9 @@
    "cto:domain": "foundations",
    "cto:evidenceStatus": "normative",
    "cto:file": "articles/foundations/soundness.md",
+   "cto:introducedIn": {
+    "@id": "ct:posterior-analytics"
+   },
    "cto:level": "introductory",
    "cto:partOf": {
     "@id": "ct:argument-evaluation"
@@ -1354,6 +1445,9 @@
     },
     {
      "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:posterior-analytics"
     },
     {
      "@id": "ct:principle-of-charity"
@@ -3061,6 +3155,90 @@
    "dcterms:title": "Crísipo de Solos y los indemostrables (Chrysippus of Soli and the Indemonstrables)",
    "schema:url": {
     "@id": "https://revistaschilenas.uchile.cl/handle/2250/15306?show=full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "Posterior Analytics, Books I and II (trans. G. R. G. Mure)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/posterior.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Robin Smith)",
+   "dcterms:title": "Aristotle's Logic (rev. 2022)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Aristotle: Logic",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Foundationalism",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/found-ep/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "Posterior Analytics, Book I (trans. G. R. G. Mure)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/posterior.1.i.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "Posterior Analytics, Book II (trans. G. R. G. Mure)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/posterior.2.ii.html"
    }
   },
   {
