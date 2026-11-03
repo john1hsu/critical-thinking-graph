@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:affirming-the-consequent` | cto:FormalFallacy |
 
 ## Most useful remedies
 
@@ -53,6 +55,7 @@ _Which written articles does nothing else in the graph point to (after inference
 
 | node |
 |---|
+| `ct:affirming-the-consequent` |
 | `ct:lateral-reading` |
 
 ## Argumentation schemes and their fallacious misuses

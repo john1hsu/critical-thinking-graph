@@ -1,5 +1,102 @@
 [
  {
+  "id": "ct:affirming-the-consequent",
+  "title": "Affirming the consequent",
+  "aliases": [
+   "fallacy of the consequent",
+   "converse error",
+   "fallacy of the converse"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/affirming-the-consequent.md",
+  "created": "2026-11-03",
+  "summary": "The deductively invalid inference that takes a conditional \"if P then Q\" together with the truth of Q and concludes P, treating a sufficient condition as if it were also a necessary one.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:modus-ponens",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:modus-ponens",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:modus-tollens",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:sophistical-refutations",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:conditional-perfection",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inference-to-the-best-explanation",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Besides the stated antecedent, what else could make the consequent true?",
+   "Does the conditional really run both ways, or has a one-way \"if\" been heard as \"if and only if\"?",
+   "How often does the consequent occur when the antecedent is false, and has that rate been checked?",
+   "Have rival explanations of the observed consequent been compared before accepting the antecedent?"
+  ],
+  "source_urls": [
+   "https://www.ellopos.net/elpenor/greek-texts/ancient-Greece/aristotle/sophistical-refutations.asp?pg=8",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/03%3A_Conditionals_and_Conditional_Arguments/3.03%3A_Conditional_Arguments",
+   "https://oercollective.caul.edu.au/howtothinkcritically/?p=63",
+   "https://doaj.org/article/bc10621a4113470790144634f8b69ebc",
+   "https://modeltheory.org/papers/2019meta-conditionals.pdf"
+  ]
+ },
+ {
   "id": "ct:amos-tversky",
   "title": "Amos Tversky",
   "aliases": [
