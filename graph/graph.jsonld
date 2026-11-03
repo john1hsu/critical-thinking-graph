@@ -262,6 +262,74 @@
    ]
   },
   {
+   "@id": "ct:aristotle",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/aristotle.md",
+   "cto:influencedBy": {
+    "@id": "ct:plato"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s4"
+    }
+   ],
+   "rdfs:label": "Aristotle",
+   "skos:altLabel": [
+    "Aristotle of Stagira",
+    "the Stagirite"
+   ],
+   "skos:definition": "Greek philosopher (384-322 BCE), student of Plato and founder of the Lyceum, who created the first systematic formal logic, the syllogistic, and wrote the first classification of fallacies; his logical treatises, later collected as the Organon, set the agenda for logic for two thousand years.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Aristotle",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:chrysippus"
+    },
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:organon"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:syllogism"
+    }
+   ]
+  },
+  {
    "@id": "ct:chrysippus",
    "@type": "cto:Person",
    "cto:contrastsWith": {
@@ -1923,6 +1991,62 @@
    "dcterms:title": "Measures of Anchoring in Estimation Tasks (replication record)",
    "schema:url": {
     "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/01461672952111004/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Smith, rev. 2011; Spring 2015 edition)",
+   "dcterms:title": "Aristotle's Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2015/entries/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Groarke)",
+   "dcterms:title": "Aristotle: Logic",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Humphreys)",
+   "dcterms:title": "Aristotle (384-322 B.C.E.)",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/aristotle/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Aristotle summary",
+   "schema:url": {
+    "@id": "https://www.britannica.com/summary/Aristotle"
    }
   },
   {

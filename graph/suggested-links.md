@@ -4,9 +4,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
+| 1.71 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
 | 1.63 | `ct:straw-man-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-theory` |
-| 1.50 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
-| 1.50 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
+| 1.23 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
+| 1.21 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
+| 1.21 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.20 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 1.08 | `ct:toulmin-model` | `ct:validity` | `ct:argument`, `ct:deductive-reasoning` |
 | 0.91 | `ct:deductive-reasoning` | `ct:judgment-and-decision-making` | `ct:cognitive-psychology` |
@@ -16,6 +18,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 0.72 | `ct:deductive-reasoning` | `ct:straw-man-fallacy` | `ct:argument` |
 | 0.72 | `ct:straw-man-fallacy` | `ct:validity` | `ct:argument` |
 | 0.46 | `ct:affirming-the-consequent` | `ct:consider-the-opposite` | `ct:method-of-counterexample` |
+| 0.46 | `ct:aristotle` | `ct:consider-the-opposite` | `ct:method-of-counterexample` |
 | 0.46 | `ct:consider-the-opposite` | `ct:deductive-reasoning` | `ct:method-of-counterexample` |
 | 0.46 | `ct:consider-the-opposite` | `ct:modus-ponens` | `ct:method-of-counterexample` |
 | 0.46 | `ct:consider-the-opposite` | `ct:validity` | `ct:method-of-counterexample` |
@@ -26,6 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 0.39 | `ct:anchoring-effect` | `ct:premortem` | `ct:consider-the-opposite` |
 | 0.39 | `ct:method-of-counterexample` | `ct:premortem` | `ct:consider-the-opposite` |
 | 0.36 | `ct:affirming-the-consequent` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
-| 0.36 | `ct:affirming-the-consequent` | `ct:toulmin-model` | `ct:deductive-reasoning` |
-| 0.36 | `ct:chrysippus` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
-| 0.36 | `ct:chrysippus` | `ct:toulmin-model` | `ct:deductive-reasoning` |

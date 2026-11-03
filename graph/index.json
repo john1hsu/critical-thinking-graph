@@ -255,6 +255,74 @@
   ]
  },
  {
+  "id": "ct:aristotle",
+  "title": "Aristotle",
+  "aliases": [
+   "Aristotle of Stagira",
+   "the Stagirite"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/aristotle.md",
+  "created": "2026-11-03",
+  "summary": "Greek philosopher (384-322 BCE), student of Plato and founder of the Lyceum, who created the first systematic formal logic, the syllogistic, and wrote the first classification of fallacies; his logical treatises, later collected as the Organon, set the agenda for logic for two thousand years.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:chrysippus"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:plato",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:logic",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/spr2015/entries/aristotle-logic/",
+   "https://iep.utm.edu/aristotle-logic/",
+   "https://iep.utm.edu/aristotle/",
+   "https://www.britannica.com/summary/Aristotle"
+  ]
+ },
+ {
   "id": "ct:chrysippus",
   "title": "Chrysippus",
   "aliases": [
