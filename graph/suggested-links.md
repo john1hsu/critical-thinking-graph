@@ -4,6 +4,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
+| 1.20 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 0.43 | `ct:amos-tversky` | `ct:consider-the-opposite` | `ct:anchoring-effect` |
 | 0.43 | `ct:consider-the-opposite` | `ct:daniel-kahneman` | `ct:anchoring-effect` |
 | 0.43 | `ct:consider-the-opposite` | `ct:heuristics-and-biases-program` | `ct:anchoring-effect` |

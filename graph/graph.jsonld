@@ -434,6 +434,82 @@
    ]
   },
   {
+   "@id": "ct:judgment-and-decision-making",
+   "@type": "cto:Field",
+   "cto:challengedBy": {
+    "@id": "ct:gerd-gigerenzer"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/decision-making/judgment-and-decision-making.md",
+   "cto:influencedBy": {
+    "@id": "ct:expected-utility-theory"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:ward-edwards"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:the-theory-of-decision-making"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6"
+    }
+   ],
+   "rdfs:label": "Judgment and decision making",
+   "skos:altLabel": [
+    "JDM",
+    "behavioral decision research",
+    "behavioral decision theory",
+    "judgment and decision research"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "skos:definition": "The interdisciplinary research field, rooted in psychology, that studies how people form judgments (estimates, predictions, probabilities) and make choices, typically by comparing actual behavior with normative standards such as probability theory and expected utility and then designing ways to close the gap.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Judgment and decision making",
+   "skos:related": [
+    {
+     "@id": "ct:behavioral-economics"
+    },
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:decision-analysis"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    }
+   ]
+  },
+  {
    "@id": "ct:premortem",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -1154,6 +1230,90 @@
    "dcterms:title": "Daniel Kahneman, Prize Lecture: Maps of Bounded Rationality (8 December 2002)",
    "schema:url": {
     "@id": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Annual Review of Psychology 49, 447-477 (Mellers, Schwartz & Cooke, 1998), author copy on a Wharton faculty page",
+   "dcterms:title": "Judgment and decision making",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/1998---judgment-and-decision-making.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Current Contents (Slovic, 27 January 1986), Eugene Garfield archive, University of Pennsylvania Library",
+   "dcterms:title": "This Week's Citation Classic: Slovic, Fischhoff & Lichtenstein, Behavioral decision theory (1977)",
+   "schema:url": {
+    "@id": "https://garfield.library.upenn.edu/classics1986/A1986A161500001.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Annual Review of Psychology 32, 53-88 (Einhorn & Hogarth, 1981), copy on a UC San Diego faculty page",
+   "dcterms:title": "Behavioral decision theory: Processes of judgment and choice",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mckenzie/Einhorn&Hogarth1981AnnualReview.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Behavioral and Brain Sciences 17(1), 1-10 (Baron, 1994), author's preprint, University of Pennsylvania",
+   "dcterms:title": "Nonconsequentialist decisions",
+   "schema:url": {
+    "@id": "https://www.sas.upenn.edu/~baron/papers.htm/bbs.baron.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Society for Judgment and Decision Making newsletter (Shanteau, 2003)",
+   "dcterms:title": "History of our Society (SJDM Newsletter, June 2003)",
+   "schema:url": {
+    "@id": "https://www.decisionsciencenews.com/sjdm/newsletters/03-jun.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "INFORMS, History of O.R. Excellence",
+   "dcterms:title": "Ward Edwards: Biographical profile",
+   "schema:url": {
+    "@id": "https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Edwards-Ward"
    }
   },
   {

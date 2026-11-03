@@ -439,6 +439,82 @@
   ]
  },
  {
+  "id": "ct:judgment-and-decision-making",
+  "title": "Judgment and decision making",
+  "aliases": [
+   "JDM",
+   "behavioral decision theory",
+   "behavioral decision research",
+   "judgment and decision research"
+  ],
+  "type": "Field",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/decision-making/judgment-and-decision-making.md",
+  "created": "2026-11-03",
+  "summary": "The interdisciplinary research field, rooted in psychology, that studies how people form judgments (estimates, predictions, probabilities) and make choices, typically by comparing actual behavior with normative standards such as probability theory and expected utility and then designing ways to close the gap.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behavioral-economics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:decision-analysis"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ward-edwards",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-theory-of-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:expected-utility-theory",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/1998---judgment-and-decision-making.pdf",
+   "https://garfield.library.upenn.edu/classics1986/A1986A161500001.pdf",
+   "https://pages.ucsd.edu/~mckenzie/Einhorn&Hogarth1981AnnualReview.pdf",
+   "https://www.sas.upenn.edu/~baron/papers.htm/bbs.baron.html",
+   "https://www.decisionsciencenews.com/sjdm/newsletters/03-jun.pdf",
+   "https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Edwards-Ward"
+  ]
+ },
+ {
   "id": "ct:premortem",
   "title": "Premortem",
   "aliases": [
