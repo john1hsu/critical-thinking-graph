@@ -1156,6 +1156,90 @@
   ]
  },
  {
+  "id": "ct:principle-of-charity",
+  "title": "Principle of charity",
+  "aliases": [
+   "charitable interpretation",
+   "interpretive charity",
+   "charity principle"
+  ],
+  "type": "Principle",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/principle-of-charity.md",
+  "created": "2026-11-03",
+  "summary": "The interpretive norm that, before criticising what someone has argued, you should reconstruct their claims and reasoning in the most reasonable form the text and context plausibly allow, rather than in a weaker or distorted form.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:steelmanning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:enthymeme"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:straw-man-fallacy",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:n-l-wilson",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:michael-scriven",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:donald-davidson",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:informal-logic",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://distantreader.org/stacks/journals/il/il-3620.pdf",
+   "https://link.springer.com/10.1007/s11245-025-10235-y",
+   "https://opus.uleth.ca/items/2428937c-3fb2-426f-bb5a-53bc574b5196",
+   "https://ijoc.org/index.php/ijoc/article/download/817/574",
+   "https://www.csus.edu/indiv/m/mayesgr/phl4/Because/StrawMan.htm"
+  ]
+ },
+ {
   "id": "ct:stephen-toulmin",
   "title": "Stephen Toulmin",
   "aliases": [

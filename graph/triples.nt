@@ -493,6 +493,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/premortem.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gary-klein> .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2000/01/rdf-schema#label> "Principle of charity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#altLabel> "charitable interpretation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#altLabel> "charity principle" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#altLabel> "interpretive charity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#definition> "The interpretive norm that, before criticising what someone has argued, you should reconstruct their claims and reasoning in the most reasonable form the text and context plausibly allow, rather than in a weaker or distorted form." .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Principle of charity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/principle-of-charity.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/donald-davidson> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/michael-scriven> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/n-l-wilson> .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Argumentation theory and argument mapping" .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
@@ -1001,6 +1031,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "preprint" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s5> <https://schema.org/url> <https://dlab.sauder.ubc.ca/sjdm/presentations/2021-Poster-Gandhi-Linnea-debiasing-premortem-selfserving~.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s1> <http://purl.org/dc/terms/publisher> "Informal Logic 32(4), 403-439 (Lewiński, 2012), Distant Reader archive copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s1> <http://purl.org/dc/terms/title> "The Paradox of Charity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s1> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-3620.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s2> <http://purl.org/dc/terms/publisher> "Topoi 44, 1375-1388 (Macagno, 2025), Springer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s2> <http://purl.org/dc/terms/title> "Argument Interpretation and the Implicit Side of Enthymemes, Beyond and Before the Charity Principle" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s2> <https://schema.org/url> <https://link.springer.com/10.1007/s11245-025-10235-y> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s3> <http://purl.org/dc/terms/publisher> "Topoi (Stevens, 2025), University of Lethbridge repository record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s3> <http://purl.org/dc/terms/title> "Avoiding toxic charity in argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s3> <https://schema.org/url> <https://opus.uleth.ca/items/2428937c-3fb2-426f-bb5a-53bc574b5196> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s4> <http://purl.org/dc/terms/publisher> "International Journal of Communication 5, 969-982 (Dresner, 2011)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s4> <http://purl.org/dc/terms/title> "The Principle of Charity and Intercultural Communication" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s4> <https://schema.org/url> <https://ijoc.org/index.php/ijoc/article/download/817/574> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> <http://purl.org/dc/terms/publisher> "G. Randolph Mayes, Department of Philosophy, Sacramento State University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> <http://purl.org/dc/terms/title> "Violations of the Principle of Charity: The Straw Man Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> <https://schema.org/url> <https://www.csus.edu/indiv/m/mayesgr/phl4/Because/StrawMan.htm> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1> <http://purl.org/dc/terms/publisher> "University of Southern California Libraries, University Archives" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1> <http://purl.org/dc/terms/title> "Stephen E. Toulmin papers, biographical note" .
