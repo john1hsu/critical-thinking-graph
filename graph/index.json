@@ -1222,5 +1222,83 @@
    "https://icar.cnrs.fr/dicoplantin/layout-of-argument-toulmin-e/",
    "https://experts.umn.edu/en/publications/empowering-education-teaching-argumentative-writing-to-cultural-m/"
   ]
+ },
+ {
+  "id": "ct:validity",
+  "title": "Validity",
+  "aliases": [
+   "deductive validity",
+   "logical validity",
+   "valid argument"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/validity.md",
+  "created": "2026-11-03",
+  "summary": "The property of a deductive argument whose form makes it impossible for all the premises to be true and the conclusion false; validity concerns the link between premises and conclusion, not whether the premises are actually true.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:soundness",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:logical-consequence",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inductive-reasoning",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:formal-logic",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/val-snd",
+   "https://plato.stanford.edu/archives/sum2006/entries/logical-consequence/",
+   "https://forallx.openlogicproject.org/html/A2a.html",
+   "https://link.springer.com/article/10.3758/BF03196976",
+   "https://link.springer.com/article/10.3758/s13423-018-1460-7/fulltext.html"
+  ]
  }
 ]

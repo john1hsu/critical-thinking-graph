@@ -1205,6 +1205,83 @@
    ]
   },
   {
+   "@id": "ct:validity",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:inductive-reasoning"
+    },
+    {
+     "@id": "ct:soundness"
+    }
+   ],
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/validity.md",
+   "cto:formalizedBy": {
+    "@id": "ct:logical-consequence"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:formal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5"
+    }
+   ],
+   "rdfs:label": "Validity",
+   "skos:altLabel": [
+    "deductive validity",
+    "logical validity",
+    "valid argument"
+   ],
+   "skos:broader": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "skos:definition": "The property of a deductive argument whose form makes it impossible for all the premises to be true and the conclusion false; validity concerns the link between premises and conclusion, not whether the premises are actually true.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Validity",
+   "skos:related": [
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:truth-table"
+    }
+   ]
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -2711,6 +2788,76 @@
    "dcterms:title": "Empowering education: Teaching argumentative writing to cultural minority middle-school students",
    "schema:url": {
     "@id": "https://experts.umn.edu/en/publications/empowering-education-teaching-argumentative-writing-to-cultural-m/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Validity and Soundness",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/val-snd"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (JC Beall & Greg Restall)",
+   "dcterms:title": "Logical Consequence (Summer 2006 edition)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2006/entries/logical-consequence/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Open Logic Project",
+   "dcterms:title": "forall x: Calgary, solutions to Chapter 2: The scope of logic",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/html/A2a.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Memory & Cognition 11, 295-306 (Evans, Barston & Pollard, 1983)",
+   "dcterms:title": "On the conflict between logic and belief in syllogistic reasoning",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.3758/BF03196976"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Psychonomic Bulletin & Review 25(6), 2141-2174 (Trippas, Kellen, Singmann, Pennycook, Koehler, Fugelsang & Dubé, 2018)",
+   "dcterms:title": "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.3758/s13423-018-1460-7/fulltext.html"
    }
   }
  ]

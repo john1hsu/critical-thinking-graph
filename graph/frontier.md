@@ -4,87 +4,87 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `ct:validity` | 6.06 | - | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
-| `ct:aristotle` | 4.95 | Person | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
-| `ct:modus-tollens` | 3.86 | - | `ct:affirming-the-consequent`, `ct:modus-ponens` |
-| `ct:denying-the-antecedent` | 3.83 | - | `ct:affirming-the-consequent`, `ct:method-of-counterexample`, `ct:modus-ponens` |
-| `ct:cognitive-psychology` | 3.38 | Field | `ct:deductive-reasoning`, `ct:judgment-and-decision-making`, `ct:modus-ponens` |
-| `ct:gerd-gigerenzer` | 3.35 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
+| `ct:aristotle` | 4.96 | Person | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
+| `ct:soundness` | 3.91 | - | `ct:deductive-reasoning`, `ct:validity` |
+| `ct:argument` | 3.88 | - | `ct:deductive-reasoning`, `ct:toulmin-model`, `ct:validity` |
+| `ct:modus-tollens` | 3.87 | - | `ct:affirming-the-consequent`, `ct:modus-ponens` |
+| `ct:denying-the-antecedent` | 3.85 | - | `ct:affirming-the-consequent`, `ct:method-of-counterexample`, `ct:modus-ponens` |
+| `ct:cognitive-psychology` | 3.40 | Field | `ct:deductive-reasoning`, `ct:judgment-and-decision-making`, `ct:modus-ponens` |
+| `ct:gerd-gigerenzer` | 3.34 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
 | `ct:selective-accessibility-model` | 3.34 | - | `ct:anchoring-effect`, `ct:consider-the-opposite` |
-| `ct:behavioral-economics` | 3.34 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
-| `ct:prospect-theory` | 3.34 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
-| `ct:argument` | 2.74 | - | `ct:deductive-reasoning`, `ct:toulmin-model` |
-| `ct:availability-heuristic` | 2.74 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
-| `ct:conjunction-fallacy` | 2.74 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
-| `ct:dual-process-theory` | 2.74 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| `ct:representativeness-heuristic` | 2.74 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
-| `ct:bounded-rationality` | 2.74 | - | `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
-| `ct:framing-effect` | 2.73 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
-| `ct:debiasing` | 2.71 | - | `ct:consider-the-opposite`, `ct:premortem` |
-| `ct:devils-advocacy` | 2.71 | - | `ct:consider-the-opposite`, `ct:premortem` |
-| `ct:hindsight-bias` | 2.71 | - | `ct:consider-the-opposite`, `ct:premortem` |
-| `ct:overconfidence-effect` | 2.71 | - | `ct:consider-the-opposite`, `ct:premortem` |
+| `ct:behavioral-economics` | 3.33 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
+| `ct:prospect-theory` | 3.33 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
+| `ct:belief-bias` | 2.78 | - | `ct:deductive-reasoning`, `ct:validity` |
+| `ct:inductive-reasoning` | 2.78 | - | `ct:deductive-reasoning`, `ct:validity` |
+| `ct:availability-heuristic` | 2.73 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
+| `ct:conjunction-fallacy` | 2.73 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
+| `ct:dual-process-theory` | 2.73 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
+| `ct:representativeness-heuristic` | 2.73 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
+| `ct:bounded-rationality` | 2.73 | - | `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
+| `ct:truth-table` | 2.72 | - | `ct:method-of-counterexample`, `ct:validity` |
+| `ct:framing-effect` | 2.72 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:debiasing` | 2.70 | - | `ct:consider-the-opposite`, `ct:premortem` |
+| `ct:devils-advocacy` | 2.70 | - | `ct:consider-the-opposite`, `ct:premortem` |
+| `ct:hindsight-bias` | 2.70 | - | `ct:consider-the-opposite`, `ct:premortem` |
+| `ct:overconfidence-effect` | 2.70 | - | `ct:consider-the-opposite`, `ct:premortem` |
 | `ct:sift-method` | 2.67 | - | `ct:lateral-reading` |
+| `ct:logical-consequence` | 2.28 | - | `ct:deductive-reasoning`, `ct:validity` |
 | `ct:cognitive-bias` | 2.24 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
 | `ct:many-labs-1-replication-project` | 2.24 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
-| `ct:attribute-substitution` | 2.24 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| `ct:stoic-logic` | 2.22 | - | `ct:chrysippus`, `ct:modus-ponens` |
+| `ct:stoic-logic` | 2.23 | - | `ct:chrysippus`, `ct:modus-ponens` |
+| `ct:attribute-substitution` | 2.23 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | `ct:argumentation-theory` | 2.19 | Field | `ct:stephen-toulmin`, `ct:toulmin-model` |
 | `ct:the-uses-of-argument` | 2.19 | Work | `ct:stephen-toulmin`, `ct:toulmin-model` |
-| `ct:belief-bias` | 1.65 | - | `ct:deductive-reasoning` |
-| `ct:inductive-reasoning` | 1.65 | - | `ct:deductive-reasoning` |
-| `ct:soundness` | 1.65 | - | `ct:deductive-reasoning` |
 | `ct:fast-and-frugal-heuristics` | 1.62 | - | `ct:heuristics-and-biases-program` |
 | `ct:inference-to-the-best-explanation` | 1.62 | - | `ct:affirming-the-consequent` |
 | `ct:sophistical-refutations` | 1.62 | Work | `ct:affirming-the-consequent` |
 | `ct:replication-crisis` | 1.61 | - | `ct:daniel-kahneman` |
 | `ct:expected-utility-theory` | 1.61 | - | `ct:judgment-and-decision-making` |
 | `ct:propositional-logic` | 1.60 | Field | `ct:chrysippus` |
-| `ct:argument-mapping` | 1.60 | - | `ct:toulmin-model` |
-| `ct:argumentation-schemes` | 1.60 | - | `ct:toulmin-model` |
-| `ct:informal-logic` | 1.60 | - | `ct:stephen-toulmin` |
+| `ct:argument-mapping` | 1.59 | - | `ct:toulmin-model` |
+| `ct:argumentation-schemes` | 1.59 | - | `ct:toulmin-model` |
+| `ct:informal-logic` | 1.59 | - | `ct:stephen-toulmin` |
 | `ct:groupthink` | 1.59 | - | `ct:premortem` |
 | `ct:structured-analytic-techniques` | 1.59 | - | `ct:premortem` |
-| `ct:misinformation-and-disinformation` | 1.59 | - | `ct:lateral-reading` |
-| `ct:source-credibility` | 1.59 | - | `ct:lateral-reading` |
-| `ct:truth-table` | 1.59 | - | `ct:method-of-counterexample` |
-| `ct:logical-consequence` | 1.15 | - | `ct:deductive-reasoning` |
-| `ct:mental-model-theory` | 1.15 | - | `ct:deductive-reasoning` |
-| `ct:reasoning` | 1.15 | - | `ct:deductive-reasoning` |
-| `ct:a-counterexample-to-modus-ponens` | 1.13 | - | `ct:modus-ponens` |
-| `ct:suppression-effect` | 1.13 | - | `ct:modus-ponens` |
+| `ct:misinformation-and-disinformation` | 1.58 | - | `ct:lateral-reading` |
+| `ct:source-credibility` | 1.58 | - | `ct:lateral-reading` |
+| `ct:mental-model-theory` | 1.16 | - | `ct:deductive-reasoning` |
+| `ct:reasoning` | 1.16 | - | `ct:deductive-reasoning` |
+| `ct:a-counterexample-to-modus-ponens` | 1.14 | - | `ct:modus-ponens` |
+| `ct:suppression-effect` | 1.14 | - | `ct:modus-ponens` |
+| `ct:formal-logic` | 1.13 | Field | `ct:validity` |
 | `ct:judgment-under-uncertainty-heuristics-and-biases` | 1.12 | Work | `ct:heuristics-and-biases-program` |
 | `ct:anchoring-and-adjustment-heuristic` | 1.12 | - | `ct:anchoring-effect` |
 | `ct:englich-2006-judicial-anchoring-study` | 1.12 | Study | `ct:anchoring-effect` |
 | `ct:roseler-2025-insufficient-adjustment-test` | 1.12 | - | `ct:anchoring-effect` |
 | `ct:conditional-perfection` | 1.12 | - | `ct:affirming-the-consequent` |
 | `ct:formal-fallacy` | 1.12 | - | `ct:affirming-the-consequent` |
-| `ct:peak-end-rule` | 1.11 | - | `ct:daniel-kahneman` |
 | `ct:biased-assimilation` | 1.11 | - | `ct:consider-the-opposite` |
 | `ct:charles-lord` | 1.11 | Person | `ct:consider-the-opposite` |
 | `ct:ease-of-retrieval-effect` | 1.11 | - | `ct:consider-the-opposite` |
 | `ct:mark-lepper` | 1.11 | Person | `ct:consider-the-opposite` |
 | `ct:nagtegaal-2020-public-managers-anchoring-study` | 1.11 | Study | `ct:consider-the-opposite` |
+| `ct:peak-end-rule` | 1.11 | - | `ct:daniel-kahneman` |
 | `ct:decision-analysis` | 1.11 | - | `ct:judgment-and-decision-making` |
 | `ct:the-theory-of-decision-making` | 1.11 | Work | `ct:judgment-and-decision-making` |
 | `ct:ward-edwards` | 1.11 | Person | `ct:judgment-and-decision-making` |
 | `ct:cleanthes` | 1.10 | - | `ct:chrysippus` |
 | `ct:liar-paradox` | 1.10 | - | `ct:chrysippus` |
 | `ct:sorites-paradox` | 1.10 | - | `ct:chrysippus` |
-| `ct:defeasible-reasoning` | 1.10 | - | `ct:toulmin-model` |
-| `ct:yeh-1998-argumentative-writing-study` | 1.10 | - | `ct:toulmin-model` |
-| `ct:casuistry` | 1.10 | - | `ct:stephen-toulmin` |
-| `ct:ludwig-wittgenstein` | 1.10 | - | `ct:stephen-toulmin` |
-| `ct:philosophy-of-science` | 1.10 | Field | `ct:stephen-toulmin` |
+| `ct:prior-analytics` | 1.10 | Work | `ct:method-of-counterexample` |
+| `ct:defeasible-reasoning` | 1.09 | - | `ct:toulmin-model` |
+| `ct:yeh-1998-argumentative-writing-study` | 1.09 | - | `ct:toulmin-model` |
+| `ct:casuistry` | 1.09 | - | `ct:stephen-toulmin` |
+| `ct:ludwig-wittgenstein` | 1.09 | - | `ct:stephen-toulmin` |
+| `ct:philosophy-of-science` | 1.09 | Field | `ct:stephen-toulmin` |
 | `ct:gallop-bischoff-2016-premortem-risk-study` | 1.09 | Study | `ct:premortem` |
 | `ct:gary-klein` | 1.09 | Person | `ct:premortem` |
 | `ct:prospective-hindsight` | 1.09 | - | `ct:premortem` |
 | `ct:worst-case-scenario-analysis` | 1.09 | - | `ct:premortem` |
-| `ct:breakstone-2021-online-course-lateral-reading-study` | 1.09 | Study | `ct:lateral-reading` |
-| `ct:click-restraint` | 1.09 | - | `ct:lateral-reading` |
-| `ct:prior-analytics` | 1.09 | Work | `ct:method-of-counterexample` |
-| `ct:sam-wineburg` | 1.09 | Person | `ct:lateral-reading` |
-| `ct:sarah-mcgrew` | 1.09 | Person | `ct:lateral-reading` |
-| `ct:source-evaluation` | 1.09 | - | `ct:lateral-reading` |
-| `ct:vertical-reading` | 1.09 | - | `ct:lateral-reading` |
-| `ct:wineburg-2022-lateral-reading-classroom-experiment` | 1.09 | Study | `ct:lateral-reading` |
+| `ct:breakstone-2021-online-course-lateral-reading-study` | 1.08 | Study | `ct:lateral-reading` |
+| `ct:click-restraint` | 1.08 | - | `ct:lateral-reading` |
+| `ct:sam-wineburg` | 1.08 | Person | `ct:lateral-reading` |
+| `ct:sarah-mcgrew` | 1.08 | Person | `ct:lateral-reading` |
+| `ct:source-evaluation` | 1.08 | - | `ct:lateral-reading` |
+| `ct:vertical-reading` | 1.08 | - | `ct:lateral-reading` |
+| `ct:wineburg-2022-lateral-reading-classroom-experiment` | 1.08 | Study | `ct:lateral-reading` |

@@ -6,12 +6,15 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 |---|---|---|---|
 | 1.50 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.50 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
+| 1.27 | `ct:toulmin-model` | `ct:validity` | `ct:argument`, `ct:deductive-reasoning` |
 | 1.20 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 0.91 | `ct:deductive-reasoning` | `ct:judgment-and-decision-making` | `ct:cognitive-psychology` |
 | 0.91 | `ct:judgment-and-decision-making` | `ct:modus-ponens` | `ct:cognitive-psychology` |
+| 0.78 | `ct:chrysippus` | `ct:validity` | `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 0.46 | `ct:affirming-the-consequent` | `ct:consider-the-opposite` | `ct:method-of-counterexample` |
 | 0.46 | `ct:consider-the-opposite` | `ct:deductive-reasoning` | `ct:method-of-counterexample` |
 | 0.46 | `ct:consider-the-opposite` | `ct:modus-ponens` | `ct:method-of-counterexample` |
+| 0.46 | `ct:consider-the-opposite` | `ct:validity` | `ct:method-of-counterexample` |
 | 0.43 | `ct:amos-tversky` | `ct:consider-the-opposite` | `ct:anchoring-effect` |
 | 0.43 | `ct:consider-the-opposite` | `ct:daniel-kahneman` | `ct:anchoring-effect` |
 | 0.43 | `ct:consider-the-opposite` | `ct:heuristics-and-biases-program` | `ct:anchoring-effect` |

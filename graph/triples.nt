@@ -1017,6 +1017,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <https://schema.org/url> <https://experts.umn.edu/en/publications/empowering-education-teaching-argumentative-writing-to-cultural-m/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <http://purl.org/dc/terms/title> "Validity and Soundness" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <https://schema.org/url> <https://iep.utm.edu/val-snd> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (JC Beall & Greg Restall)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s2> <http://purl.org/dc/terms/title> "Logical Consequence (Summer 2006 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2006/entries/logical-consequence/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s3> <http://purl.org/dc/terms/publisher> "Open Logic Project" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s3> <http://purl.org/dc/terms/title> "forall x: Calgary, solutions to Chapter 2: The scope of logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s3> <https://schema.org/url> <https://forallx.openlogicproject.org/html/A2a.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s4> <http://purl.org/dc/terms/publisher> "Memory & Cognition 11, 295-306 (Evans, Barston & Pollard, 1983)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s4> <http://purl.org/dc/terms/title> "On the conflict between logic and belief in syllogistic reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s4> <https://schema.org/url> <https://link.springer.com/article/10.3758/BF03196976> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <http://purl.org/dc/terms/publisher> "Psychonomic Bulletin & Review 25(6), 2141-2174 (Trippas, Kellen, Singmann, Pennycook, Koehler, Fugelsang & Dubé, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <http://purl.org/dc/terms/title> "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <https://schema.org/url> <https://link.springer.com/article/10.3758/s13423-018-1460-7/fulltext.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/2000/01/rdf-schema#label> "Stephen Toulmin" .
@@ -1070,3 +1100,32 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/yeh-1998-argumentative-writing-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2000/01/rdf-schema#label> "Validity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#altLabel> "deductive validity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#altLabel> "logical validity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#altLabel> "valid argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#definition> "The property of a deductive argument whose form makes it impossible for all the premises to be true and the conclusion false; validity concerns the link between premises and conclusion, not whether the premises are actually true." .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Validity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/foundations/validity.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
