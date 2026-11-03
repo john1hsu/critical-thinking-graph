@@ -4,10 +4,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
+| 1.44 | `ct:deductive-reasoning` | `ct:judgment-and-decision-making` | `ct:cognitive-psychology` |
 | 1.20 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| 0.91 | `ct:affirming-the-consequent` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
-| 0.91 | `ct:affirming-the-consequent` | `ct:toulmin-model` | `ct:deductive-reasoning` |
 | 0.43 | `ct:amos-tversky` | `ct:consider-the-opposite` | `ct:anchoring-effect` |
 | 0.43 | `ct:consider-the-opposite` | `ct:daniel-kahneman` | `ct:anchoring-effect` |
 | 0.43 | `ct:consider-the-opposite` | `ct:heuristics-and-biases-program` | `ct:anchoring-effect` |
 | 0.40 | `ct:anchoring-effect` | `ct:premortem` | `ct:consider-the-opposite` |
+| 0.38 | `ct:affirming-the-consequent` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
+| 0.38 | `ct:affirming-the-consequent` | `ct:toulmin-model` | `ct:deductive-reasoning` |

@@ -13,3 +13,13 @@ flowchart TD
   o2["The slowdown matches the leak hypothesis but does not rule out any rival cause."] -. attacks .-> ra
 ```
 
+## Deductive reasoning (`ct:deductive-reasoning`)
+
+```mermaid
+flowchart TD
+  p1["Every purchase over the department's approval limit needs sign-off from finance."] --> ra{{"valid"}}
+  p2["This laptop order is over the department's approval limit."] --> ra{{"valid"}}
+  ra --> c["This laptop order needs sign-off from finance."]
+  o1["The conclusion is only as reliable as the premises: if the limit was raised last quarter, the argument stays valid but becomes unsound."] -. attacks .-> ra
+```
+

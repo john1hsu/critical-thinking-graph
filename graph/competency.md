@@ -55,7 +55,6 @@ _Which written articles does nothing else in the graph point to (after inference
 
 | node |
 |---|
-| `ct:affirming-the-consequent` |
 | `ct:lateral-reading` |
 
 ## Argumentation schemes and their fallacious misuses

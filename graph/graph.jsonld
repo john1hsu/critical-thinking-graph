@@ -430,6 +430,87 @@
    ]
   },
   {
+   "@id": "ct:deductive-reasoning",
+   "@type": "cto:ReasoningMode",
+   "cto:contrastsWith": {
+    "@id": "ct:inductive-reasoning"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:mental-model-theory"
+   },
+   "cto:file": "articles/formal-logic/deductive-reasoning.md",
+   "cto:formalizedBy": {
+    "@id": "ct:logical-consequence"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s5"
+    }
+   ],
+   "rdfs:label": "Deductive reasoning",
+   "skos:altLabel": [
+    "deduction",
+    "deductive argument",
+    "deductive inference"
+   ],
+   "skos:broader": {
+    "@id": "ct:reasoning"
+   },
+   "skos:definition": "Reasoning in which the premises are meant to guarantee the conclusion, so that if the argument is valid it is impossible for the premises to be true and the conclusion false.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Deductive reasoning",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:heuristics-and-biases-program",
    "@type": "cto:Framework",
    "cto:challengedBy": {
@@ -1004,6 +1085,65 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "cto:verdict": "valid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "This laptop order needs sign-off from finance."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The conclusion is only as reliable as the premises: if the limit was raised last quarter, the argument stays valid but becomes unsound."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Every purchase over the department's approval limit needs sign-off from finance."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "This laptop order is over the department's approval limit."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:modus-ponens"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Argumentation theory and argument mapping"
@@ -1491,6 +1631,76 @@
    "dcterms:title": "'I am certain psychology will see many more train wrecks'",
    "schema:url": {
     "@id": "https://bps.org.uk/psychologist/i-am-certain-psychology-will-see-many-more-train-wrecks"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Shanahan)",
+   "dcterms:title": "Deductive and Inductive Arguments",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/deductive-inductive-arguments/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Sagi; Beall, Restall & Sagi; rev. 2024)",
+   "dcterms:title": "Logical Consequence",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRiES/logical-consequence/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "An Introduction to Philosophy (W. Russ Payne), Humanities LibreTexts",
+   "dcterms:title": "2.4: Deductive Validity",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Introduction_to_Philosophy/An_Introduction_to_Philosophy_(Payne)/02%3A_How_Philosophy_is_Done/2.04%3A_Deductive_Validity"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Annual Review of Psychology 50, 109-135 (Johnson-Laird, 1999), course copy",
+   "dcterms:title": "Deductive Reasoning",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~scoulson/203/johnson-laird.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Memory & Cognition 11, 295-306 (Evans, Barston & Pollard, 1983)",
+   "dcterms:title": "On the conflict between logic and belief in syllogistic reasoning",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.3758/BF03196976"
    }
   },
   {
