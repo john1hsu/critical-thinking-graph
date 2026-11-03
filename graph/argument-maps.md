@@ -23,3 +23,13 @@ flowchart TD
   o1["The conclusion is only as reliable as the premises: if the limit was raised last quarter, the argument stays valid but becomes unsound."] -. attacks .-> ra
 ```
 
+## Modus ponens (`ct:modus-ponens`)
+
+```mermaid
+flowchart TD
+  p1["If a support ticket is marked urgent, it must get a first response within one hour."] --> ra{{"valid"}}
+  p2["This support ticket is marked urgent."] --> ra{{"valid"}}
+  ra --> c["This support ticket must get a first response within one hour."]
+  o1["The form is valid, but the conclusion is only as good as the policy premise: if urgent tickets also require an on-call engineer to be reachable, the stated conditional is incomplete."] -. attacks .-> ra
+```
+

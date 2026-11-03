@@ -780,6 +780,80 @@
   ]
  },
  {
+  "id": "ct:modus-ponens",
+  "title": "Modus ponens",
+  "aliases": [
+   "affirming the antecedent",
+   "modus ponendo ponens",
+   "first indemonstrable"
+  ],
+  "type": "ReasoningForm",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/modus-ponens.md",
+  "created": "2026-11-03",
+  "summary": "The valid inference form \"if P then Q; P; therefore Q\", which concludes the consequent of a conditional from the conditional together with its antecedent.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:suppression-effect"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:stoic-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:affirming-the-consequent",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:a-counterexample-to-modus-ponens",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/logic-ancient/",
+   "https://www.uvm.edu/%7Ejbailly/courses/196Stoicism/notes/StoicLogic.html",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/03%3A_Conditionals_and_Conditional_Arguments/3.03%3A_Conditional_Arguments",
+   "https://joelvelasco.net/teaching/4310/McGee-CounterexampleModusPonens-1985.pdf",
+   "https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-neth-3/1999_nethbeller_how-knowledge-interferes-with-reasoning_suppression-effects-by-content-and-context.pdf"
+  ]
+ },
+ {
   "id": "ct:premortem",
   "title": "Premortem",
   "aliases": [
