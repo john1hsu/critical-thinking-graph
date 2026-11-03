@@ -18,6 +18,7 @@ relations:
   - {predicate: contrastsWith, object: ct:affirming-the-consequent, source: s3, confidence: high}
   - {predicate: challengedBy, object: ct:a-counterexample-to-modus-ponens, source: s4, confidence: medium}
   - {predicate: studiedIn, object: ct:cognitive-psychology, source: s5, confidence: high}
+  - {predicate: introducedBy, object: ct:chrysippus, source: s6, confidence: medium}
 argumentMap:
   premises:
     - "If a support ticket is marked urgent, it must get a first response within one hour."
@@ -57,6 +58,12 @@ sources:
     url: https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-neth-3/1999_nethbeller_how-knowledge-interferes-with-reasoning_suppression-effects-by-content-and-context.pdf
     type: peer-reviewed
     accessed: 2026-11-03
+  - id: s6
+    title: "Crísipo de Solos y los indemostrables (Chrysippus of Soli and the Indemonstrables)"
+    publisher: Revista de Filosofía 74, 193-214, Universidad de Chile (Ramírez Figueroa, 2018)
+    url: https://revistaschilenas.uchile.cl/handle/2250/15306?show=full
+    type: peer-reviewed
+    accessed: 2026-11-03
 created: 2026-11-03
 ---
 
@@ -86,6 +93,7 @@ Philosophers have also asked whether modus ponens holds for every natural-langua
 - **Contrasts with affirming the consequent.** The valid form affirms the antecedent; its invalid counterpart affirms the consequent and concludes the antecedent.[^s3]
 - **Challenged by McGee's "A Counterexample to Modus Ponens".** McGee's 1985 paper argues that the form fails for some nested English conditionals.[^s4]
 - **Studied in cognitive psychology.** Reasoning research uses it as the baseline conditional inference and studies how background knowledge suppresses it.[^s5]
+- **Introduced by Chrysippus.** Specialist work on the Stoic indemonstrables credits Chrysippus's treatment of the five basic forms, of which this is the first, as the foundation of the Stoic system; many ancient reports name only "the Stoics", so the attribution is medium-confidence.[^s6]
 - **Related forms.** Modus tollens, which denies the consequent, is the other valid conditional form; denying the antecedent is the invalid look-alike of modus tollens.[^s3]
 
 ## Sources
@@ -95,3 +103,4 @@ Philosophers have also asked whether modus ponens holds for every natural-langua
 [^s3]: Southworth & Swoyer, "Conditional Arguments", *Critical Reasoning: A User's Manual*, LibreTexts. https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/03%3A_Conditionals_and_Conditional_Arguments/3.03%3A_Conditional_Arguments (accessed 2026-11-03)
 [^s4]: McGee, "A Counterexample to Modus Ponens", *The Journal of Philosophy* 82(9), 1985, 462-471. https://joelvelasco.net/teaching/4310/McGee-CounterexampleModusPonens-1985.pdf (accessed 2026-11-03)
 [^s5]: Neth & Beller, "How knowledge interferes with reasoning: Suppression effects by content and context", *Proceedings of the 21st Annual Conference of the Cognitive Science Society*, 1999. https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-neth-3/1999_nethbeller_how-knowledge-interferes-with-reasoning_suppression-effects-by-content-and-context.pdf (accessed 2026-11-03)
+[^s6]: Ramírez Figueroa, "Crísipo de Solos y los indemostrables", *Revista de Filosofía* 74 (2018), 193-214. https://revistaschilenas.uchile.cl/handle/2250/15306?show=full (accessed 2026-11-03)

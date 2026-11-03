@@ -262,6 +262,71 @@
    ]
   },
   {
+   "@id": "ct:chrysippus",
+   "@type": "cto:Person",
+   "cto:contrastsWith": {
+    "@id": "ct:aristotle"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/chrysippus.md",
+   "cto:influencedBy": {
+    "@id": "ct:cleanthes"
+   },
+   "cto:level": "intermediate",
+   "cto:studiedIn": {
+    "@id": "ct:propositional-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s6"
+    }
+   ],
+   "rdfs:label": "Chrysippus",
+   "skos:altLabel": "Chrysippus of Soli",
+   "skos:definition": "Greek Stoic philosopher (c. 280-207 BCE) and third head of the Stoa, the main architect of Stoic logic, whose system of five indemonstrable arguments, starting with \"if p then q; p; therefore q\", made him one of the first to organise propositional logic as a discipline.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Chrysippus",
+   "skos:related": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:liar-paradox"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:sorites-paradox"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    }
+   ]
+  },
+  {
    "@id": "ct:consider-the-opposite",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -857,6 +922,9 @@
    "cto:formalizedBy": {
     "@id": "ct:stoic-logic"
    },
+   "cto:introducedBy": {
+    "@id": "ct:chrysippus"
+   },
    "cto:level": "introductory",
    "cto:requires": {
     "@id": "ct:validity"
@@ -883,6 +951,9 @@
     },
     {
      "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6"
     }
    ],
    "rdfs:label": "Modus ponens",
@@ -1691,6 +1762,90 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Kirby)",
+   "dcterms:title": "Chrysippus (c. 280-207 B.C.E.)",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/chrysippus/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Bobzien, rev. 2020)",
+   "dcterms:title": "Ancient Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/logic-ancient/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Revista de Filosofía 74, 193-214, Universidad de Chile (Ramírez Figueroa, 2018)",
+   "dcterms:title": "Crísipo de Solos y los indemostrables (Chrysippus of Soli and the Indemonstrables)",
+   "schema:url": {
+    "@id": "https://revistaschilenas.uchile.cl/handle/2250/15306?show=full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "MacTutor History of Mathematics Archive, University of St Andrews",
+   "dcterms:title": "Chrysippus of Soli",
+   "schema:url": {
+    "@id": "https://mathshistory.st-andrews.ac.uk/Biographies/Chrysippus/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Chrysippus",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/Chrysippus"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Routledge Encyclopedia of Philosophy (Sedley, 1998)",
+   "dcterms:title": "Stoicism: Inferential logic",
+   "schema:url": {
+    "@id": "https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/consider-the-opposite/s1",
    "@type": "cto:Source",
    "cto:sourceType": "primary",
@@ -2318,6 +2473,20 @@
    "dcterms:title": "How knowledge interferes with reasoning: Suppression effects by content and context",
    "schema:url": {
     "@id": "https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-neth-3/1999_nethbeller_how-knowledge-interferes-with-reasoning_suppression-effects-by-content-and-context.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Revista de Filosofía 74, 193-214, Universidad de Chile (Ramírez Figueroa, 2018)",
+   "dcterms:title": "Crísipo de Solos y los indemostrables (Chrysippus of Soli and the Indemonstrables)",
+   "schema:url": {
+    "@id": "https://revistaschilenas.uchile.cl/handle/2250/15306?show=full"
    }
   },
   {

@@ -255,6 +255,69 @@
   ]
  },
  {
+  "id": "ct:chrysippus",
+  "title": "Chrysippus",
+  "aliases": [
+   "Chrysippus of Soli"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/chrysippus.md",
+  "created": "2026-11-03",
+  "summary": "Greek Stoic philosopher (c. 280-207 BCE) and third head of the Stoa, the main architect of Stoic logic, whose system of five indemonstrable arguments, starting with \"if p then q; p; therefore q\", made him one of the first to organise propositional logic as a discipline.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:stoic-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:liar-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sorites-paradox"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:cleanthes",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:propositional-logic",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/chrysippus/",
+   "https://plato.stanford.edu/entries/logic-ancient/",
+   "https://revistaschilenas.uchile.cl/handle/2250/15306?show=full",
+   "https://mathshistory.st-andrews.ac.uk/Biographies/Chrysippus/",
+   "https://www.britannica.com/biography/Chrysippus",
+   "https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic"
+  ]
+ },
+ {
   "id": "ct:consider-the-opposite",
   "title": "Consider the opposite",
   "aliases": [
@@ -923,6 +986,12 @@
     "object": "ct:cognitive-psychology",
     "source": "s5",
     "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:chrysippus",
+    "source": "s6",
+    "confidence": "medium"
    }
   ],
   "criticalQuestions": [],
@@ -931,7 +1000,8 @@
    "https://www.uvm.edu/%7Ejbailly/courses/196Stoicism/notes/StoicLogic.html",
    "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/03%3A_Conditionals_and_Conditional_Arguments/3.03%3A_Conditional_Arguments",
    "https://joelvelasco.net/teaching/4310/McGee-CounterexampleModusPonens-1985.pdf",
-   "https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-neth-3/1999_nethbeller_how-knowledge-interferes-with-reasoning_suppression-effects-by-content-and-context.pdf"
+   "https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-neth-3/1999_nethbeller_how-knowledge-interferes-with-reasoning_suppression-effects-by-content-and-context.pdf",
+   "https://revistaschilenas.uchile.cl/handle/2250/15306?show=full"
   ]
  },
  {

@@ -4,6 +4,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
+| 1.50 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
+| 1.50 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.20 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 0.91 | `ct:deductive-reasoning` | `ct:judgment-and-decision-making` | `ct:cognitive-psychology` |
 | 0.91 | `ct:judgment-and-decision-making` | `ct:modus-ponens` | `ct:cognitive-psychology` |
@@ -16,9 +18,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 0.39 | `ct:anchoring-effect` | `ct:method-of-counterexample` | `ct:consider-the-opposite` |
 | 0.39 | `ct:anchoring-effect` | `ct:premortem` | `ct:consider-the-opposite` |
 | 0.39 | `ct:method-of-counterexample` | `ct:premortem` | `ct:consider-the-opposite` |
-| 0.37 | `ct:affirming-the-consequent` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
-| 0.37 | `ct:affirming-the-consequent` | `ct:toulmin-model` | `ct:deductive-reasoning` |
-| 0.37 | `ct:method-of-counterexample` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
-| 0.37 | `ct:method-of-counterexample` | `ct:toulmin-model` | `ct:deductive-reasoning` |
-| 0.37 | `ct:modus-ponens` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
-| 0.37 | `ct:modus-ponens` | `ct:toulmin-model` | `ct:deductive-reasoning` |
+| 0.36 | `ct:affirming-the-consequent` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
+| 0.36 | `ct:affirming-the-consequent` | `ct:toulmin-model` | `ct:deductive-reasoning` |
+| 0.36 | `ct:chrysippus` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
+| 0.36 | `ct:chrysippus` | `ct:toulmin-model` | `ct:deductive-reasoning` |
+| 0.36 | `ct:method-of-counterexample` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
+| 0.36 | `ct:method-of-counterexample` | `ct:toulmin-model` | `ct:deductive-reasoning` |
+| 0.36 | `ct:modus-ponens` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
+| 0.36 | `ct:modus-ponens` | `ct:toulmin-model` | `ct:deductive-reasoning` |
