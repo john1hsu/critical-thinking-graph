@@ -760,6 +760,86 @@
    ]
   },
   {
+   "@id": "ct:method-of-counterexample",
+   "@type": "cto:Technique",
+   "cto:counteracts": {
+    "@id": "ct:affirming-the-consequent"
+   },
+   "cto:detects": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    }
+   ],
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/method-of-counterexample.md",
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:prior-analytics"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:validity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s6"
+    }
+   ],
+   "rdfs:label": "Method of counterexample",
+   "skos:altLabel": [
+    "counterexample method",
+    "refutation by counterexample",
+    "refutation by logical analogy"
+   ],
+   "skos:broader": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "skos:definition": "A test for invalidity: to show that an argument form does not guarantee its conclusion, describe a case or substitution instance of the same form in which every premise is true and the conclusion is false.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Method of counterexample",
+   "skos:related": [
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:truth-table"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:modus-ponens",
    "@type": "cto:ReasoningForm",
    "cto:challengedBy": {
@@ -2084,6 +2164,90 @@
    "dcterms:title": "Lateral Reading on the Open Internet (citation record)",
    "schema:url": {
     "@id": "https://mediawell.ssrc.org/?p=510382"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Robin Smith, rev. 2022)",
+   "dcterms:title": "Aristotle's Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "A Modern Formal Logic Primer (Teller), LibreTexts",
+   "dcterms:title": "2.4.02: Invalidity and Counter Examples",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/A_Modern_Formal_Logic_Primer_(Teller)/02%3A_Volume_I-_Sentence_Logic/2.04%3A_Validity_and_Conditionals/2.4.02%3A_Invalidity_and_Counter_Examples"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Texas A&M University, PHIL 240 Introduction to Logic",
+   "dcterms:title": "1.3 Counterexamples and Invalidity (lecture notes)",
+   "schema:url": {
+    "@id": "https://phil240.tamu.edu/LectureNotes/1.3.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Memory & Cognition 31, 581-595 (De Neys, Schaeken & d'Ydewalle, 2003)",
+   "dcterms:title": "Inference suppression and semantic memory retrieval: Every counterexample counts",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.3758/BF03196099"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Memory & Cognition 19(3), 274-282 (Cummins, Lubart, Alksnis & Rist, 1991), MEDLINE record",
+   "dcterms:title": "Conditional reasoning and causation",
+   "schema:url": {
+    "@id": "https://busqueda.bvsalud.org/portal/resource/es/mdl-1861613"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Informal Logic 19(1), 67-76 (George Bowles, 1999)",
+   "dcterms:title": "The Asymmetry Thesis and the Diversity of 'Invalid' Argument-Forms",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2316.pdf"
    }
   },
   {

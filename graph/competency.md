@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:affirming-the-consequent` | cto:FormalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -17,6 +15,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | remedy | covers | targets |
 |---|---|---|
 | `ct:consider-the-opposite` | 4 | Anchoring effect, biased-assimilation, hindsight-bias, overconfidence-effect |
+| `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
 | `ct:premortem` | 2 | groupthink, overconfidence-effect |
 | `ct:lateral-reading` | 1 | misinformation-and-disinformation |
 

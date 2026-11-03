@@ -780,6 +780,87 @@
   ]
  },
  {
+  "id": "ct:method-of-counterexample",
+  "title": "Method of counterexample",
+  "aliases": [
+   "counterexample method",
+   "refutation by counterexample",
+   "refutation by logical analogy"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/method-of-counterexample.md",
+  "created": "2026-11-03",
+  "summary": "A test for invalidity: to show that an argument form does not guarantee its conclusion, describe a case or substitution instance of the same form in which every premise is true and the conclusion is false.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:affirming-the-consequent",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:denying-the-antecedent",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:affirming-the-consequent",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:prior-analytics",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/aristotle-logic/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/A_Modern_Formal_Logic_Primer_(Teller)/02%3A_Volume_I-_Sentence_Logic/2.04%3A_Validity_and_Conditionals/2.4.02%3A_Invalidity_and_Counter_Examples",
+   "https://phil240.tamu.edu/LectureNotes/1.3.pdf",
+   "https://link.springer.com/article/10.3758/BF03196099",
+   "https://busqueda.bvsalud.org/portal/resource/es/mdl-1861613",
+   "https://distantreader.org/stacks/journals/il/il-2316.pdf"
+  ]
+ },
+ {
   "id": "ct:modus-ponens",
   "title": "Modus ponens",
   "aliases": [

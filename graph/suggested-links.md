@@ -7,11 +7,18 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.20 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 0.91 | `ct:deductive-reasoning` | `ct:judgment-and-decision-making` | `ct:cognitive-psychology` |
 | 0.91 | `ct:judgment-and-decision-making` | `ct:modus-ponens` | `ct:cognitive-psychology` |
+| 0.46 | `ct:affirming-the-consequent` | `ct:consider-the-opposite` | `ct:method-of-counterexample` |
+| 0.46 | `ct:consider-the-opposite` | `ct:deductive-reasoning` | `ct:method-of-counterexample` |
+| 0.46 | `ct:consider-the-opposite` | `ct:modus-ponens` | `ct:method-of-counterexample` |
 | 0.43 | `ct:amos-tversky` | `ct:consider-the-opposite` | `ct:anchoring-effect` |
 | 0.43 | `ct:consider-the-opposite` | `ct:daniel-kahneman` | `ct:anchoring-effect` |
 | 0.43 | `ct:consider-the-opposite` | `ct:heuristics-and-biases-program` | `ct:anchoring-effect` |
-| 0.40 | `ct:anchoring-effect` | `ct:premortem` | `ct:consider-the-opposite` |
-| 0.38 | `ct:affirming-the-consequent` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
-| 0.38 | `ct:affirming-the-consequent` | `ct:toulmin-model` | `ct:deductive-reasoning` |
-| 0.38 | `ct:modus-ponens` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
-| 0.38 | `ct:modus-ponens` | `ct:toulmin-model` | `ct:deductive-reasoning` |
+| 0.39 | `ct:anchoring-effect` | `ct:method-of-counterexample` | `ct:consider-the-opposite` |
+| 0.39 | `ct:anchoring-effect` | `ct:premortem` | `ct:consider-the-opposite` |
+| 0.39 | `ct:method-of-counterexample` | `ct:premortem` | `ct:consider-the-opposite` |
+| 0.37 | `ct:affirming-the-consequent` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
+| 0.37 | `ct:affirming-the-consequent` | `ct:toulmin-model` | `ct:deductive-reasoning` |
+| 0.37 | `ct:method-of-counterexample` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
+| 0.37 | `ct:method-of-counterexample` | `ct:toulmin-model` | `ct:deductive-reasoning` |
+| 0.37 | `ct:modus-ponens` | `ct:stephen-toulmin` | `ct:deductive-reasoning` |
+| 0.37 | `ct:modus-ponens` | `ct:toulmin-model` | `ct:deductive-reasoning` |

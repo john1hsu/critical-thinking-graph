@@ -332,6 +332,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> .
 <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2000/01/rdf-schema#label> "Method of counterexample" .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#altLabel> "counterexample method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#altLabel> "refutation by counterexample" .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#altLabel> "refutation by logical analogy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#definition> "A test for invalidity: to show that an argument form does not guarantee its conclusion, describe a case or substitution instance of the same form in which every premise is true and the conclusion is false." .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#prefLabel> "Method of counterexample" .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/method-of-counterexample.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "This support ticket must get a first response within one hour." .
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens/map/ra> .
@@ -756,6 +786,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <https://schema.org/url> <https://mediawell.ssrc.org/?p=510382> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Robin Smith, rev. 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s1> <http://purl.org/dc/terms/title> "Aristotle's Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/aristotle-logic/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s2> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s2> <http://purl.org/dc/terms/publisher> "A Modern Formal Logic Primer (Teller), LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s2> <http://purl.org/dc/terms/title> "2.4.02: Invalidity and Counter Examples" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s2> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/A_Modern_Formal_Logic_Primer_(Teller)/02%3A_Volume_I-_Sentence_Logic/2.04%3A_Validity_and_Conditionals/2.4.02%3A_Invalidity_and_Counter_Examples> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s3> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s3> <http://purl.org/dc/terms/publisher> "Texas A&M University, PHIL 240 Introduction to Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s3> <http://purl.org/dc/terms/title> "1.3 Counterexamples and Invalidity (lecture notes)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s3> <https://schema.org/url> <https://phil240.tamu.edu/LectureNotes/1.3.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s4> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s4> <http://purl.org/dc/terms/publisher> "Memory & Cognition 31, 581-595 (De Neys, Schaeken & d'Ydewalle, 2003)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s4> <http://purl.org/dc/terms/title> "Inference suppression and semantic memory retrieval: Every counterexample counts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s4> <https://schema.org/url> <https://link.springer.com/article/10.3758/BF03196099> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s5> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s5> <http://purl.org/dc/terms/publisher> "Memory & Cognition 19(3), 274-282 (Cummins, Lubart, Alksnis & Rist, 1991), MEDLINE record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s5> <http://purl.org/dc/terms/title> "Conditional reasoning and causation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s5> <https://schema.org/url> <https://busqueda.bvsalud.org/portal/resource/es/mdl-1861613> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s6> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s6> <http://purl.org/dc/terms/publisher> "Informal Logic 19(1), 67-76 (George Bowles, 1999)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s6> <http://purl.org/dc/terms/title> "The Asymmetry Thesis and the Diversity of 'Invalid' Argument-Forms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/method-of-counterexample/s6> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2316.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Bobzien, rev. 2020)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s1> <http://purl.org/dc/terms/title> "Ancient Logic" .
