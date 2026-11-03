@@ -514,6 +514,79 @@
    ]
   },
   {
+   "@id": "ct:stephen-toulmin",
+   "@type": "cto:Person",
+   "cto:contrastsWith": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/stephen-toulmin.md",
+   "cto:influencedBy": {
+    "@id": "ct:ludwig-wittgenstein"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": [
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s7"
+    }
+   ],
+   "rdfs:label": "Stephen Toulmin",
+   "skos:altLabel": [
+    "Stephen E. Toulmin",
+    "Stephen Edelston Toulmin"
+   ],
+   "skos:definition": "British-born philosopher (1922-2009) whose book The Uses of Argument (1958) challenged the idea that good reasoning must take the form of formal deduction and gave argumentation theory its claim-data-warrant layout.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Stephen Toulmin",
+   "skos:related": [
+    {
+     "@id": "ct:casuistry"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:the-uses-of-argument"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:toulmin-model",
    "@type": "cto:Framework",
    "cto:contrastsWith": {
@@ -1151,6 +1224,104 @@
    "dcterms:title": "Premortem debiasing and self-serving attributions (conference poster)",
    "schema:url": {
     "@id": "https://dlab.sauder.ubc.ca/sjdm/presentations/2021-Poster-Gandhi-Linnea-debiasing-premortem-selfserving~.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "University of Southern California Libraries, University Archives",
+   "dcterms:title": "Stephen E. Toulmin papers, biographical note",
+   "schema:url": {
+    "@id": "https://archives.usc.edu/repositories/3/resources/335"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Stephen Toulmin",
+   "schema:url": {
+    "@id": "https://www.britannica.com/print/article/600670"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "The Gifford Lectures archive",
+   "dcterms:title": "Stephen Toulmin (Gifford Lecturer, Edinburgh 2005)",
+   "schema:url": {
+    "@id": "https://giffordarchives.org/node/343"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Cambridge University Press (Toulmin, 2003)",
+   "dcterms:title": "The Uses of Argument (Updated Edition): Preface to the Updated Edition",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/uses-of-argument/preface-to-the-updated-edition/2E27FEAD653FE4544990935850FC817C"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "Springer, author copy at University of Groningen (Hitchcock & Verheij, 2006)",
+   "dcterms:title": "Introduction, in Arguing on the Toulmin Model: New Essays in Argument Analysis and Evaluation",
+   "schema:url": {
+    "@id": "https://www.ai.rug.nl/~verheij/publications/pdf/intro.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "University of California Press (Jonsen & Toulmin, 1988; paperback 1990)",
+   "dcterms:title": "The Abuse of Casuistry: A History of Moral Reasoning",
+   "schema:url": {
+    "@id": "https://www.ucpress.edu/books/the-abuse-of-casuistry/paper"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-03"
+   },
+   "dcterms:publisher": "National Endowment for the Humanities",
+   "dcterms:title": "Stephen Toulmin, Jefferson Lecture 1997",
+   "schema:url": {
+    "@id": "https://www.neh.gov/award/stephen-toulmin"
    }
   },
   {

@@ -522,6 +522,73 @@
   ]
  },
  {
+  "id": "ct:stephen-toulmin",
+  "title": "Stephen Toulmin",
+  "aliases": [
+   "Stephen Edelston Toulmin",
+   "Stephen E. Toulmin"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/stephen-toulmin.md",
+  "created": "2026-11-03",
+  "summary": "British-born philosopher (1922-2009) whose book The Uses of Argument (1958) challenged the idea that good reasoning must take the form of formal deduction and gave argumentation theory its claim-data-warrant layout.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:the-uses-of-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:casuistry"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:ludwig-wittgenstein",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:deductive-reasoning",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://archives.usc.edu/repositories/3/resources/335",
+   "https://www.britannica.com/print/article/600670",
+   "https://giffordarchives.org/node/343",
+   "https://www.cambridge.org/core/books/uses-of-argument/preface-to-the-updated-edition/2E27FEAD653FE4544990935850FC817C",
+   "https://www.ai.rug.nl/~verheij/publications/pdf/intro.pdf",
+   "https://www.ucpress.edu/books/the-abuse-of-casuistry/paper",
+   "https://www.neh.gov/award/stephen-toulmin"
+  ]
+ },
+ {
   "id": "ct:toulmin-model",
   "title": "Toulmin model of argument",
   "aliases": [
