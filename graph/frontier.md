@@ -4,32 +4,41 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `ct:heuristics-and-biases-program` | 4.47 | - | `ct:amos-tversky`, `ct:anchoring-effect`, `ct:daniel-kahneman` |
-| `ct:framing-effect` | 3.15 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
-| `ct:behavioral-economics` | 2.65 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
-| `ct:judgment-and-decision-making` | 2.65 | Field | `ct:amos-tversky`, `ct:daniel-kahneman` |
-| `ct:prospect-theory` | 2.65 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
-| `ct:availability-heuristic` | 1.82 | - | `ct:amos-tversky` |
-| `ct:conjunction-fallacy` | 1.82 | - | `ct:amos-tversky` |
-| `ct:dual-process-theory` | 1.82 | - | `ct:daniel-kahneman` |
-| `ct:replication-crisis` | 1.82 | - | `ct:daniel-kahneman` |
-| `ct:representativeness-heuristic` | 1.82 | - | `ct:amos-tversky` |
-| `ct:consider-the-opposite` | 1.82 | - | `ct:anchoring-effect` |
-| `ct:argument` | 1.77 | - | `ct:toulmin-model` |
-| `ct:argument-mapping` | 1.77 | - | `ct:toulmin-model` |
-| `ct:argumentation-schemes` | 1.77 | - | `ct:toulmin-model` |
-| `ct:deductive-reasoning` | 1.77 | - | `ct:toulmin-model` |
-| `ct:stephen-toulmin` | 1.77 | Person | `ct:toulmin-model` |
-| `ct:attribute-substitution` | 1.32 | - | `ct:daniel-kahneman` |
-| `ct:gerd-gigerenzer` | 1.32 | - | `ct:amos-tversky` |
-| `ct:peak-end-rule` | 1.32 | - | `ct:daniel-kahneman` |
-| `ct:anchoring-and-adjustment-heuristic` | 1.32 | - | `ct:anchoring-effect` |
-| `ct:cognitive-bias` | 1.32 | - | `ct:anchoring-effect` |
-| `ct:englich-2006-judicial-anchoring-study` | 1.32 | Study | `ct:anchoring-effect` |
-| `ct:many-labs-1-replication-project` | 1.32 | - | `ct:anchoring-effect` |
-| `ct:roseler-2025-insufficient-adjustment-test` | 1.32 | - | `ct:anchoring-effect` |
-| `ct:selective-accessibility-model` | 1.32 | - | `ct:anchoring-effect` |
-| `ct:argumentation-theory` | 1.27 | - | `ct:toulmin-model` |
-| `ct:defeasible-reasoning` | 1.27 | - | `ct:toulmin-model` |
-| `ct:the-uses-of-argument` | 1.27 | Work | `ct:toulmin-model` |
-| `ct:yeh-1998-argumentative-writing-study` | 1.27 | - | `ct:toulmin-model` |
+| `ct:heuristics-and-biases-program` | 4.26 | - | `ct:amos-tversky`, `ct:anchoring-effect`, `ct:daniel-kahneman` |
+| `ct:selective-accessibility-model` | 3.73 | - | `ct:anchoring-effect`, `ct:consider-the-opposite` |
+| `ct:framing-effect` | 3.00 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:behavioral-economics` | 2.50 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:judgment-and-decision-making` | 2.50 | Field | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:prospect-theory` | 2.50 | - | `ct:amos-tversky`, `ct:daniel-kahneman` |
+| `ct:availability-heuristic` | 1.75 | - | `ct:amos-tversky` |
+| `ct:conjunction-fallacy` | 1.75 | - | `ct:amos-tversky` |
+| `ct:dual-process-theory` | 1.75 | - | `ct:daniel-kahneman` |
+| `ct:replication-crisis` | 1.75 | - | `ct:daniel-kahneman` |
+| `ct:representativeness-heuristic` | 1.75 | - | `ct:amos-tversky` |
+| `ct:debiasing` | 1.73 | - | `ct:consider-the-opposite` |
+| `ct:devils-advocacy` | 1.73 | - | `ct:consider-the-opposite` |
+| `ct:hindsight-bias` | 1.73 | - | `ct:consider-the-opposite` |
+| `ct:overconfidence-effect` | 1.73 | - | `ct:consider-the-opposite` |
+| `ct:premortem` | 1.73 | - | `ct:consider-the-opposite` |
+| `ct:argument` | 1.71 | - | `ct:toulmin-model` |
+| `ct:argument-mapping` | 1.71 | - | `ct:toulmin-model` |
+| `ct:argumentation-schemes` | 1.71 | - | `ct:toulmin-model` |
+| `ct:deductive-reasoning` | 1.71 | - | `ct:toulmin-model` |
+| `ct:stephen-toulmin` | 1.71 | Person | `ct:toulmin-model` |
+| `ct:anchoring-and-adjustment-heuristic` | 1.26 | - | `ct:anchoring-effect` |
+| `ct:cognitive-bias` | 1.26 | - | `ct:anchoring-effect` |
+| `ct:englich-2006-judicial-anchoring-study` | 1.26 | Study | `ct:anchoring-effect` |
+| `ct:many-labs-1-replication-project` | 1.26 | - | `ct:anchoring-effect` |
+| `ct:roseler-2025-insufficient-adjustment-test` | 1.26 | - | `ct:anchoring-effect` |
+| `ct:attribute-substitution` | 1.25 | - | `ct:daniel-kahneman` |
+| `ct:gerd-gigerenzer` | 1.25 | - | `ct:amos-tversky` |
+| `ct:peak-end-rule` | 1.25 | - | `ct:daniel-kahneman` |
+| `ct:biased-assimilation` | 1.23 | - | `ct:consider-the-opposite` |
+| `ct:charles-lord` | 1.23 | Person | `ct:consider-the-opposite` |
+| `ct:ease-of-retrieval-effect` | 1.23 | - | `ct:consider-the-opposite` |
+| `ct:mark-lepper` | 1.23 | Person | `ct:consider-the-opposite` |
+| `ct:nagtegaal-2020-public-managers-anchoring-study` | 1.23 | Study | `ct:consider-the-opposite` |
+| `ct:argumentation-theory` | 1.21 | - | `ct:toulmin-model` |
+| `ct:defeasible-reasoning` | 1.21 | - | `ct:toulmin-model` |
+| `ct:the-uses-of-argument` | 1.21 | Work | `ct:toulmin-model` |
+| `ct:yeh-1998-argumentative-writing-study` | 1.21 | - | `ct:toulmin-model` |

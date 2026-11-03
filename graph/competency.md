@@ -6,15 +6,15 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:anchoring-effect` | cto:CognitiveBias |
+_No results._
 
 ## Most useful remedies
 
 _Which techniques, principles and dispositions counteract or detect the most failure modes?_ — `queries/02-remedy-coverage.rq`
 
-_No results._
+| remedy | covers | targets |
+|---|---|---|
+| `ct:consider-the-opposite` | 4 | Anchoring effect, biased-assimilation, hindsight-bias, overconfidence-effect |
 
 ## Heuristic -> bias -> remedy chains
 
@@ -26,7 +26,9 @@ _No results._
 
 _Which empirical claims in the graph are disputed, and by what?_ — `queries/04-contested-claims.rq`
 
-_No results._
+| node | status | challenger |
+|---|---|---|
+| `ct:consider-the-opposite` | mixed |  |
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

@@ -158,6 +158,106 @@
   ]
  },
  {
+  "id": "ct:consider-the-opposite",
+  "title": "Consider the opposite",
+  "aliases": [
+   "considering the opposite",
+   "consider-the-opposite strategy",
+   "consider-an-alternative strategy"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/consider-the-opposite.md",
+  "created": "2026-11-03",
+  "summary": "A debiasing technique in which a person deliberately generates reasons why their current judgment, hypothesis or reference value might be wrong, so that evidence pointing the other way becomes as available as the evidence that supports it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selective-accessibility-model"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:charles-lord",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:mark-lepper",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:biased-assimilation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:anchoring-effect",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:hindsight-bias",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:overconfidence-effect",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:selective-accessibility-model",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:nagtegaal-2020-public-managers-anchoring-study",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:ease-of-retrieval-effect",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://causeweb.org/cause/node/7638",
+   "https://synapsesocial.com/papers/W1992970544",
+   "https://pure.eur.nl/en/publications/designing-to-debias-measuring-and-reducing-public-managers-anchor/",
+   "https://dornsife.usc.edu/norbert-schwarz/wp-content/uploads/sites/231/2023/11/07_aep_schwarz_et_al_setting-people-straight.pdf",
+   "https://www.london.edu/faculty-and-research/academic-research/o/overcoming-the-inevitable-anchoring-effect--considering-the-opposi"
+  ]
+ },
+ {
   "id": "ct:daniel-kahneman",
   "title": "Daniel Kahneman",
   "aliases": [
