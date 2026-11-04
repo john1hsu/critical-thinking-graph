@@ -1184,6 +1184,108 @@
   ]
  },
  {
+  "id": "ct:informal-logic",
+  "title": "Informal logic",
+  "aliases": [
+   "non-formal logic of argument",
+   "Windsor school of argument"
+  ],
+  "type": "Field",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/informal-logic.md",
+  "created": "2026-11-04",
+  "summary": "The branch of logic that develops non-formal standards and procedures for identifying, interpreting, evaluating and constructing the arguments people actually make in natural language, in settings such as public debate, law, medicine, education and the workplace.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:logic"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:formal-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ralph-h-johnson",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:j-anthony-blair",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:logical-self-defense",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:charles-hamblin",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:critical-thinking-movement",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/logic-informal/",
+   "https://distantreader.org/stacks/journals/il/il-2262.pdf",
+   "https://uwindsor.ca/crrar/327/history-informal-logic-university-windsor",
+   "https://philarchive.org/archive/PUPILA"
+  ]
+ },
+ {
   "id": "ct:judgment-and-decision-making",
   "title": "Judgment and decision making",
   "aliases": [

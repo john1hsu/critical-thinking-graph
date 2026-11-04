@@ -1137,6 +1137,98 @@
    ]
   },
   {
+   "@id": "ct:informal-logic",
+   "@type": "cto:Field",
+   "cto:contrastsWith": {
+    "@id": "ct:formal-logic"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/informal-logic.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:critical-thinking-movement"
+    }
+   ],
+   "cto:introducedBy": [
+    {
+     "@id": "ct:j-anthony-blair"
+    },
+    {
+     "@id": "ct:ralph-h-johnson"
+    }
+   ],
+   "cto:introducedIn": {
+    "@id": "ct:logical-self-defense"
+   },
+   "cto:level": "introductory",
+   "cto:partOf": {
+    "@id": "ct:logic"
+   },
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s4"
+    }
+   ],
+   "rdfs:label": "Informal logic",
+   "skos:altLabel": [
+    "Windsor school of argument",
+    "non-formal logic of argument"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:logic"
+    }
+   ],
+   "skos:definition": "The branch of logic that develops non-formal standards and procedures for identifying, interpreting, evaluating and constructing the arguments people actually make in natural language, in settings such as public debate, law, medicine, education and the workplace.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Informal logic",
+   "skos:related": [
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:judgment-and-decision-making",
    "@type": "cto:Field",
    "cto:challengedBy": {
@@ -3659,6 +3751,62 @@
    "dcterms:title": "Daniel Kahneman, Prize Lecture: Maps of Bounded Rationality (8 December 2002)",
    "schema:url": {
     "@id": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Groarke, rev. 2026)",
+   "dcterms:title": "Informal Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/logic-informal/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Informal Logic 20(2), 93-107 (Johnson & Blair, 2000), Distant Reader archive copy",
+   "dcterms:title": "Informal Logic: An Overview",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2262.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Centre for Research in Reasoning, Argumentation and Rhetoric, University of Windsor (Blair & Johnson, 2017)",
+   "dcterms:title": "History of Informal Logic at the University of Windsor",
+   "schema:url": {
+    "@id": "https://uwindsor.ca/crrar/327/history-informal-logic-university-windsor"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Windsor Studies in Argumentation, University of Windsor (Puppo, ed., 2019), PhilArchive copy",
+   "dcterms:title": "Informal Logic: A 'Canadian' Approach to Argument",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/PUPILA"
    }
   },
   {
