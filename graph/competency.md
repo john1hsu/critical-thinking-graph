@@ -19,6 +19,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:consider-the-opposite` | 4 | Anchoring effect, biased-assimilation, hindsight-bias, overconfidence-effect |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
 | `ct:premortem` | 2 | groupthink, overconfidence-effect |
+| `ct:actively-open-minded-thinking` | 1 | overconfidence-effect |
 | `ct:lateral-reading` | 1 | misinformation-and-disinformation |
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
@@ -35,6 +36,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 | node | status | challenger |
 |---|---|---|
+| `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |

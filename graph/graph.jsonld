@@ -15,6 +15,83 @@
  },
  "@graph": [
   {
+   "@id": "ct:actively-open-minded-thinking",
+   "@type": "cto:Disposition",
+   "cto:appliedIn": {
+    "@id": "ct:geopolitical-forecasting"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:need-for-cognition"
+   },
+   "cto:counteracts": {
+    "@id": "ct:overconfidence-effect"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:haran-2013-aot-information-acquisition-study"
+   },
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/actively-open-minded-thinking.md",
+   "cto:introducedBy": {
+    "@id": "ct:jonathan-baron"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s5"
+    }
+   ],
+   "rdfs:label": "Actively open-minded thinking",
+   "skos:altLabel": [
+    "AOT",
+    "actively openminded thinking"
+   ],
+   "skos:broader": {
+    "@id": "ct:thinking-dispositions"
+   },
+   "skos:definition": "A thinking disposition, named by Jonathan Baron, in which a person searches thoroughly and fairly for possibilities, evidence and goals, gives weight to evidence against a favoured view, and holds confidence in proportion to the search actually done.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Actively open-minded thinking",
+   "skos:related": [
+    {
+     "@id": "ct:bias-blind-spot"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:metacognition"
+    },
+    {
+     "@id": "ct:myside-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:affirming-the-consequent",
    "@type": "cto:FormalFallacy",
    "cto:confusedWith": [
@@ -2803,6 +2880,76 @@
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Scientific reasoning and research methods"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "University of Pennsylvania Almanac 42(24), 19 March 1996 (Jonathan Baron)",
+   "dcterms:title": "Actively Open-minded Thinking (Talk About Teaching)",
+   "schema:url": {
+    "@id": "https://almanac.upenn.edu/archive/v42/n24/teach.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 8(3), 188-201 (Haran, Ritov & Mellers, 2013), SJDM journal archive",
+   "dcterms:title": "The role of actively open-minded thinking in information acquisition, accuracy, and calibration",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/13/13124a/jdm13124a.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Journal of Intelligence 11(2), 27 (Stanovich & Toplak, 2023), MDPI",
+   "dcterms:title": "Actively Open-Minded Thinking and Its Measurement",
+   "schema:url": {
+    "@id": "https://mdpi.com/2079-3200/11/2/27"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology Applied 21(1) (Mellers et al., 2015), library catalogue record",
+   "dcterms:title": "The psychology of intelligence analysis: drivers of prediction accuracy in world politics",
+   "schema:url": {
+    "@id": "https://ersearch2.cvtisr.sk/vufind/SummonRecord/FETCH-LOGICAL-a419t-70102a1f7b80ef5b069691a7d8ae9268f25813a4a5573c99cfc94f20b17e739f2?lng=en"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Decision Making Individual Differences Inventory, Society for Judgment and Decision Making",
+   "dcterms:title": "Actively Open-Minded Thinking Beliefs (AOT)",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/dmidi/Actively_Open-Minded_Thinking_Beliefs.html"
+   }
   },
   {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s1",

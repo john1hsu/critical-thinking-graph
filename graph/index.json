@@ -1,5 +1,90 @@
 [
  {
+  "id": "ct:actively-open-minded-thinking",
+  "title": "Actively open-minded thinking",
+  "aliases": [
+   "AOT",
+   "actively openminded thinking"
+  ],
+  "type": "Disposition",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/actively-open-minded-thinking.md",
+  "created": "2026-11-04",
+  "summary": "A thinking disposition, named by Jonathan Baron, in which a person searches thoroughly and fairly for possibilities, evidence and goals, gives weight to evidence against a favoured view, and holds confidence in proportion to the search actually done.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:thinking-dispositions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:myside-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:jonathan-baron",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:overconfidence-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:haran-2013-aot-information-acquisition-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:need-for-cognition",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:geopolitical-forecasting",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://almanac.upenn.edu/archive/v42/n24/teach.html",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/13/13124a/jdm13124a.html",
+   "https://mdpi.com/2079-3200/11/2/27",
+   "https://ersearch2.cvtisr.sk/vufind/SummonRecord/FETCH-LOGICAL-a419t-70102a1f7b80ef5b069691a7d8ae9268f25813a4a5573c99cfc94f20b17e739f2?lng=en",
+   "https://dlab.sauder.ubc.ca/sjdm/dmidi/Actively_Open-Minded_Thinking_Beliefs.html"
+  ]
+ },
+ {
   "id": "ct:affirming-the-consequent",
   "title": "Affirming the consequent",
   "aliases": [

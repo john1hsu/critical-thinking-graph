@@ -5,6 +5,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 2.78 | `ct:informal-logic` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:informal-fallacy`, `ct:principle-of-charity` |
+| 2.73 | `ct:actively-open-minded-thinking` | `ct:premortem` | `ct:consider-the-opposite`, `ct:groupthink`, `ct:overconfidence-effect` |
 | 2.46 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:validity` |
 | 2.18 | `ct:aristotle` | `ct:gettier-problem` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:plato` |
 | 2.12 | `ct:alfred-tarski` | `ct:deductive-reasoning` | `ct:logical-consequence`, `ct:method-of-counterexample`, `ct:soundness`, `ct:validity` |
@@ -16,6 +17,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.65 | `ct:chrysippus` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:stoic-logic` |
 | 1.65 | `ct:method-of-counterexample` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics` |
 | 1.64 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
+| 1.54 | `ct:bias-blind-spot` | `ct:consider-the-opposite` | `ct:actively-open-minded-thinking`, `ct:anchoring-effect`, `ct:debiasing` |
 | 1.53 | `ct:affirming-the-consequent` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
 | 1.48 | `ct:argument` | `ct:aristotle` | `ct:deductive-reasoning`, `ct:logic`, `ct:soundness` |
 | 1.44 | `ct:alfred-tarski` | `ct:chrysippus` | `ct:liar-paradox` |
@@ -27,5 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.26 | `ct:deductive-reasoning` | `ct:informal-logic` | `ct:argument`, `ct:stephen-toulmin`, `ct:toulmin-model` |
 | 1.25 | `ct:modus-ponens` | `ct:organon` | `ct:deductive-reasoning`, `ct:stoic-logic` |
 | 1.19 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
-| 1.17 | `ct:anchoring-effect` | `ct:base-rate-neglect` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| 1.17 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
