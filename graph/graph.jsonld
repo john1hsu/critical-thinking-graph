@@ -3347,6 +3347,90 @@
    ]
   },
   {
+   "@id": "ct:tu-quoque",
+   "@type": "cto:InformalFallacy",
+   "cto:challengedBy": {
+    "@id": "ct:why-there-is-no-argumentum-ad-hominem-fallacy"
+   },
+   "cto:confusedWith": {
+    "@id": "ct:straw-man-fallacy"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:false-signaling-theory-of-hypocrisy"
+   },
+   "cto:file": "articles/informal-fallacies/tu-quoque.md",
+   "cto:instanceOf": {
+    "@id": "ct:ad-hominem"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s5"
+    }
+   ],
+   "rdfs:label": "Tu quoque",
+   "skos:altLabel": [
+    "appeal to hypocrisy",
+    "tu quoque ad hominem",
+    "you do it too",
+    "you-too fallacy"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "skos:definition": "The fallacy of rejecting a claim, advice or criticism on the grounds that the person making it does not act in line with it, as if the speaker's inconsistency showed the claim itself to be false.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Tu quoque",
+   "skos:related": [
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:red-herring"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:validity",
    "@type": "cto:Concept",
    "cto:contrastsWith": [
@@ -6936,6 +7020,76 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Informal Logic 28(2), 155-169 (Aikin, 2008)",
+   "dcterms:title": "Tu Quoque Arguments and the Significance of Hypocrisy",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-543.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Psychological Science 28(3) (Jordan, Sommers, Bloom & Rand, 2017)",
+   "dcterms:title": "Why Do We Hate Hypocrites? Evidence for a Theory of False Signaling",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/psychological-science/0956797616685771/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Logical Reasoning (Dowden), Humanities LibreTexts",
+   "dcterms:title": "8.1: Ad Hominem Fallacy",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.01%3A_Ad_Hominem_Fallacy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "David Hitchcock, McMaster University (author's page)",
+   "dcterms:title": "Why there is no argumentum ad hominem fallacy",
+   "schema:url": {
+    "@id": "https://humanities.mcmaster.ca/%7Ehitchckd/adhominemissa.htm"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1",
    "@type": "cto:Source",
    "cto:sourceType": "scholarly-encyclopedia",
@@ -7173,6 +7327,117 @@
    },
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:tu-quoque"
+   },
+   "rdfs:label": "Does the speaker's conduct actually bear on whether the claim is true, or only on the speaker's character?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:tu-quoque"
+   },
+   "rdfs:label": "Are the speaker's situation and the situation the advice addresses really alike, or is the \"inconsistency\" a false double standard?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:tu-quoque"
+   },
+   "rdfs:label": "Is the lapse a settled habit, or a one-off failure, a past choice, or a matter of weak will that the speaker admits?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:tu-quoque"
+   },
+   "rdfs:label": "Is the claim resting on the speaker's own authority, or is it supported by independent evidence that the charge leaves untouched?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:tu-quoque"
+   },
+   "rdfs:label": "Does the speaker's failure to follow the advice suggest the advice is impractical, and if so, is that the point being made?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:tu-quoque"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the Friday logging rule is pointless and the team can ignore it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Whether timely logging keeps invoices accurate does not depend on the team lead's own habits."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Her lateness may justify asking her to explain herself or to follow the rule too, not dropping the rule."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "A team lead asks everyone to log project hours by Friday so client invoices are accurate."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The team lead often logs her own hours late."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map"
    }
   }
  ]

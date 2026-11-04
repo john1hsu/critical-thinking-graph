@@ -76,3 +76,14 @@ flowchart TD
   o1["The form (Barbara) is valid, but if some migrations run outside the deployment pipeline, the second premise is false and the argument is unsound."] -. attacks .-> ra
 ```
 
+## Tu quoque (`ct:tu-quoque`)
+
+```mermaid
+flowchart TD
+  p1["A team lead asks everyone to log project hours by Friday so client invoices are accurate."] --> ra{{"fallacious"}}
+  p2["The team lead often logs her own hours late."] --> ra{{"fallacious"}}
+  ra --> c["So the Friday logging rule is pointless and the team can ignore it."]
+  o1["Whether timely logging keeps invoices accurate does not depend on the team lead's own habits."] -. attacks .-> ra
+  o2["Her lateness may justify asking her to explain herself or to follow the rule too, not dropping the rule."] -. attacks .-> ra
+```
+

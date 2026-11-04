@@ -10,6 +10,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 |---|---|
 | `ct:availability-heuristic` | cto:Heuristic |
 | `ct:illicit-major` | cto:FormalFallacy |
+| `ct:tu-quoque` | cto:InformalFallacy |
 
 ## Most useful remedies
 
@@ -69,6 +70,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:prebunking` | cto:Technique |
+| `ct:tu-quoque` | cto:InformalFallacy |
 
 ## Orphan articles (gap)
 

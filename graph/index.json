@@ -3495,6 +3495,95 @@
   ]
  },
  {
+  "id": "ct:tu-quoque",
+  "title": "Tu quoque",
+  "aliases": [
+   "appeal to hypocrisy",
+   "you-too fallacy",
+   "you do it too",
+   "tu quoque ad hominem"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/tu-quoque.md",
+  "created": "2026-11-04",
+  "summary": "The fallacy of rejecting a claim, advice or criticism on the grounds that the person making it does not act in line with it, as if the speaker's inconsistency showed the claim itself to be false.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:red-herring"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:charles-hamblin"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:ad-hominem",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:straw-man-fallacy",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:why-there-is-no-argumentum-ad-hominem-fallacy",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:false-signaling-theory-of-hypocrisy",
+    "source": "s3",
+    "confidence": "low"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the speaker's conduct actually bear on whether the claim is true, or only on the speaker's character?",
+   "Are the speaker's situation and the situation the advice addresses really alike, or is the \"inconsistency\" a false double standard?",
+   "Is the lapse a settled habit, or a one-off failure, a past choice, or a matter of weak will that the speaker admits?",
+   "Is the claim resting on the speaker's own authority, or is it supported by independent evidence that the charge leaves untouched?",
+   "Does the speaker's failure to follow the advice suggest the advice is impractical, and if so, is that the point being made?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://distantreader.org/stacks/journals/il/il-543.pdf",
+   "https://www.psychologicalscience.org/journals/psychological-science/0956797616685771/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.01%3A_Ad_Hominem_Fallacy",
+   "https://humanities.mcmaster.ca/%7Ehitchckd/adhominemissa.htm"
+  ]
+ },
+ {
   "id": "ct:validity",
   "title": "Validity",
   "aliases": [

@@ -2520,6 +2520,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <https://schema.org/url> <https://experts.umn.edu/en/publications/empowering-education-teaching-argumentative-writing-to-cultural-m/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/fallacies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 28(2), 155-169 (Aikin, 2008)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s2> <http://purl.org/dc/terms/title> "Tu Quoque Arguments and the Significance of Hypocrisy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-543.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s3> <http://purl.org/dc/terms/publisher> "Psychological Science 28(3) (Jordan, Sommers, Bloom & Rand, 2017)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s3> <http://purl.org/dc/terms/title> "Why Do We Hate Hypocrites? Evidence for a Theory of False Signaling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s3> <https://schema.org/url> <https://www.psychologicalscience.org/journals/psychological-science/0956797616685771/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s4> <http://purl.org/dc/terms/publisher> "Logical Reasoning (Dowden), Humanities LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s4> <http://purl.org/dc/terms/title> "8.1: Ad Hominem Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s4> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.01%3A_Ad_Hominem_Fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s5> <http://purl.org/dc/terms/publisher> "David Hitchcock, McMaster University (author's page)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s5> <http://purl.org/dc/terms/title> "Why there is no argumentum ad hominem fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s5> <https://schema.org/url> <https://humanities.mcmaster.ca/%7Ehitchckd/adhominemissa.htm> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1> <http://purl.org/dc/terms/title> "Validity and Soundness" .
@@ -2795,6 +2825,77 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/yeh-1998-argumentative-writing-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the speaker's conduct actually bear on whether the claim is true, or only on the speaker's character?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Are the speaker's situation and the situation the advice addresses really alike, or is the \"inconsistency\" a false double standard?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is the lapse a settled habit, or a one-off failure, a past choice, or a matter of weak will that the speaker admits?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is the claim resting on the speaker's own authority, or is it supported by independent evidence that the charge leaves untouched?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Does the speaker's failure to follow the advice suggest the advice is impractical, and if so, is that the point being made?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So the Friday logging rule is pointless and the team can ignore it." .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Whether timely logging keeps invoices accurate does not depend on the team lead's own habits." .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Her lateness may justify asking her to explain herself or to follow the rule too, not dropping the rule." .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "A team lead asks everyone to log project hours by Friday so client invoices are accurate." .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "The team lead often logs her own hours late." .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2000/01/rdf-schema#label> "Tu quoque" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#altLabel> "appeal to hypocrisy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#altLabel> "tu quoque ad hominem" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#altLabel> "you do it too" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#altLabel> "you-too fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of rejecting a claim, advice or criticism on the grounds that the person making it does not act in line with it, as if the speaker's inconsistency showed the claim itself to be false." .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tu quoque" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/why-there-is-no-argumentum-ad-hominem-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/false-signaling-theory-of-hypocrisy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/tu-quoque.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2000/01/rdf-schema#label> "Validity" .
