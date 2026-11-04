@@ -2201,6 +2201,80 @@
   ]
  },
  {
+  "id": "ct:modus-tollens",
+  "title": "Modus tollens",
+  "aliases": [
+   "denying the consequent",
+   "modus tollendo tollens",
+   "second indemonstrable"
+  ],
+  "type": "ReasoningForm",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/modus-tollens.md",
+  "created": "2026-11-04",
+  "summary": "The valid inference form \"if P then Q; not Q; therefore not P\", which concludes the denial of a conditional's antecedent from the conditional together with the denial of its consequent.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:contraposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:stoic-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:denying-the-antecedent",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:a-counterexample-to-modus-tollens",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/logic-ancient/",
+   "https://open.lib.umn.edu/goodreasoning/chapter/if-then-arguments/",
+   "https://static1.squarespace.com/static/551f03bce4b0bf9fbfefa27c/t/5aae05db8a922d6d3cc98e7f/1521354204788/yalcin+2012+counterexampleMT.pdf",
+   "https://link.springer.com/content/pdf/10.3758/BF03193231.pdf",
+   "https://iep.utm.edu/pop-sci/"
+  ]
+ },
+ {
   "id": "ct:natural-frequencies",
   "title": "Natural frequency format",
   "aliases": [

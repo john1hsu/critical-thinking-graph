@@ -68,6 +68,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 |---|---|
 | `ct:epistemology` | cto:Field |
 | `ct:illicit-major` | cto:FormalFallacy |
+| `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:prebunking` | cto:Technique |
 | `ct:tu-quoque` | cto:InformalFallacy |
@@ -76,9 +77,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 _Which written articles does nothing else in the graph point to (after inference)?_ — `queries/07-orphans.rq`
 
-| node |
-|---|
-| `ct:falsifiability` |
+_No results._
 
 ## Argumentation schemes and their fallacious misuses
 

@@ -55,6 +55,16 @@ flowchart TD
   o1["The form is valid, but the conclusion is only as good as the policy premise: if urgent tickets also require an on-call engineer to be reachable, the stated conditional is incomplete."] -. attacks .-> ra
 ```
 
+## Modus tollens (`ct:modus-tollens`)
+
+```mermaid
+flowchart TD
+  p1["If the nightly backup job ran successfully, there is a backup file stamped with today's date."] --> ra{{"valid"}}
+  p2["There is no backup file stamped with today's date."] --> ra{{"valid"}}
+  ra --> c["The nightly backup job did not run successfully."]
+  o1["The form is valid, but the conditional premise may be false: the job could have succeeded while writing to a different folder or stamping the file in another time zone."] -. attacks .-> ra
+```
+
 ## Straw man fallacy (`ct:straw-man-fallacy`)
 
 ```mermaid

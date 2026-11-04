@@ -922,6 +922,54 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The nightly backup job did not run successfully." .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The form is valid, but the conditional premise may be false: the job could have succeeded while writing to a different folder or stamping the file in another time zone." .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "If the nightly backup job ran successfully, there is a backup file stamped with today's date." .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "There is no backup file stamped with today's date." .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "valid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ReasoningForm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2000/01/rdf-schema#label> "Modus tollens" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#altLabel> "denying the consequent" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#altLabel> "modus tollendo tollens" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#altLabel> "second indemonstrable" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#definition> "The valid inference form \"if P then Q; not Q; therefore not P\", which concludes the denial of a conditional's antecedent from the conditional together with the denial of its consequent." .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modus tollens" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/contraposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/a-counterexample-to-modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/modus-tollens.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2000/01/rdf-schema#label> "Natural frequency format" .
@@ -2040,6 +2088,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6> <https://schema.org/url> <https://revistaschilenas.uchile.cl/handle/2250/15306?show=full> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Bobzien, rev. 2020)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s1> <http://purl.org/dc/terms/title> "Ancient Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/logic-ancient/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s2> <http://purl.org/dc/terms/publisher> "A Guide to Good Reasoning: Cultivating Intellectual Virtues (Wilson), University of Minnesota Libraries Publishing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s2> <http://purl.org/dc/terms/title> "Chapter Eleven: If-Then Arguments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s2> <https://schema.org/url> <https://open.lib.umn.edu/goodreasoning/chapter/if-then-arguments/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s3> <http://purl.org/dc/terms/publisher> "Journal of Philosophical Logic 41, 1001-1024 (Yalcin, 2012), author's copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s3> <http://purl.org/dc/terms/title> "A Counterexample to Modus Tollens" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s3> <https://schema.org/url> <https://static1.squarespace.com/static/551f03bce4b0bf9fbfefa27c/t/5aae05db8a922d6d3cc98e7f/1521354204788/yalcin+2012+counterexampleMT.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s4> <http://purl.org/dc/terms/publisher> "Memory & Cognition 33(7), 1315-1323 (Markovits & Handley, 2005)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s4> <http://purl.org/dc/terms/title> "Is inferential reasoning just probabilistic reasoning in disguise?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s4> <https://schema.org/url> <https://link.springer.com/content/pdf/10.3758/BF03193231.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s5> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Shea)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s5> <http://purl.org/dc/terms/title> "Popper, Karl: Philosophy of Science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/modus-tollens/s5> <https://schema.org/url> <https://iep.utm.edu/pop-sci/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://purl.org/dc/terms/publisher> "Psychological Review 102(4), 684-704 (Gigerenzer & Hoffrage, 1995), UC San Diego course copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://purl.org/dc/terms/title> "How to improve Bayesian reasoning without instruction: Frequency formats" .
