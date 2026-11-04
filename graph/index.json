@@ -324,6 +324,94 @@
   ]
  },
  {
+  "id": "ct:argument",
+  "title": "Argument",
+  "aliases": [
+   "logical argument",
+   "premise-conclusion argument"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/argument.md",
+  "created": "2026-11-04",
+  "summary": "A set of statements in which one or more premises are offered as reasons in support of a further statement, the conclusion; the basic unit that logic and critical thinking evaluate.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:enthymeme"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:explanation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inference",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/argument/",
+   "https://iep.utm.edu/argument/",
+   "https://openwa.pressbooks.pub/howtothinkforyourself/?p=69",
+   "https://classics.mit.edu/Aristotle/prior.1.i.html"
+  ]
+ },
+ {
   "id": "ct:aristotle",
   "title": "Aristotle",
   "aliases": [

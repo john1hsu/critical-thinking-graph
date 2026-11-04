@@ -4,28 +4,28 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 2.60 | `ct:principle-of-charity` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:informal-logic`, `ct:toulmin-model` |
+| 2.50 | `ct:principle-of-charity` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:informal-logic`, `ct:toulmin-model` |
 | 2.46 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:validity` |
 | 2.18 | `ct:aristotle` | `ct:gettier-problem` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:plato` |
 | 2.12 | `ct:alfred-tarski` | `ct:deductive-reasoning` | `ct:logical-consequence`, `ct:method-of-counterexample`, `ct:soundness`, `ct:validity` |
 | 1.99 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:posterior-analytics`, `ct:soundness` |
+| 1.87 | `ct:argument` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:soundness`, `ct:validity` |
 | 1.78 | `ct:gettier-problem` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:epistemology` |
-| 1.70 | `ct:straw-man-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-theory`, `ct:principle-of-charity` |
+| 1.67 | `ct:argument` | `ct:aristotle` | `ct:deductive-reasoning`, `ct:logic`, `ct:soundness` |
 | 1.65 | `ct:affirming-the-consequent` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:sophistical-refutations` |
 | 1.65 | `ct:chrysippus` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:stoic-logic` |
 | 1.65 | `ct:method-of-counterexample` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics` |
 | 1.64 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
 | 1.53 | `ct:affirming-the-consequent` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
 | 1.44 | `ct:alfred-tarski` | `ct:chrysippus` | `ct:liar-paradox` |
-| 1.41 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
-| 1.31 | `ct:soundness` | `ct:toulmin-model` | `ct:argument`, `ct:deductive-reasoning`, `ct:principle-of-charity` |
+| 1.41 | `ct:straw-man-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-theory`, `ct:principle-of-charity` |
+| 1.40 | `ct:argument` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:toulmin-model` |
+| 1.25 | `ct:argument` | `ct:organon` | `ct:deductive-reasoning`, `ct:logic` |
 | 1.25 | `ct:modus-ponens` | `ct:organon` | `ct:deductive-reasoning`, `ct:stoic-logic` |
+| 1.22 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
 | 1.17 | `ct:anchoring-effect` | `ct:base-rate-neglect` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 1.17 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 1.16 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.16 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.16 | `ct:organon` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:posterior-analytics` |
-| 1.13 | `ct:affirming-the-consequent` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:validity` |
-| 1.13 | `ct:modus-ponens` | `ct:soundness` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
-| 1.12 | `ct:amos-tversky` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:gerd-gigerenzer` |
-| 1.12 | `ct:heuristics-and-biases-program` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:gerd-gigerenzer` |
+| 1.15 | `ct:argument` | `ct:method-of-counterexample` | `ct:deductive-reasoning`, `ct:soundness`, `ct:validity` |
