@@ -4,9 +4,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 2.72 | `ct:actively-open-minded-thinking` | `ct:premortem` | `ct:consider-the-opposite`, `ct:groupthink`, `ct:overconfidence-effect` |
 | 2.45 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:validity` |
 | 2.37 | `ct:debiasing-training-games` | `ct:premortem` | `ct:consider-the-opposite`, `ct:debiasing`, `ct:structured-analytic-techniques` |
+| 2.23 | `ct:actively-open-minded-thinking` | `ct:premortem` | `ct:consider-the-opposite`, `ct:groupthink`, `ct:overconfidence-effect` |
 | 2.18 | `ct:aristotle` | `ct:gettier-problem` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:plato` |
 | 2.12 | `ct:alfred-tarski` | `ct:deductive-reasoning` | `ct:logical-consequence`, `ct:method-of-counterexample`, `ct:soundness`, `ct:validity` |
 | 2.03 | `ct:informal-logic` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:informal-fallacy`, `ct:principle-of-charity` |
@@ -26,6 +26,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.44 | `ct:alfred-tarski` | `ct:chrysippus` | `ct:liar-paradox` |
 | 1.44 | `ct:falsifiability` | `ct:stephen-toulmin` | `ct:philosophy-of-science` |
 | 1.44 | `ct:prebunking` | `ct:straw-man-fallacy` | `ct:ad-hominem` |
-| 1.31 | `ct:bias-blind-spot` | `ct:heuristics-and-biases-program` | `ct:anchoring-effect`, `ct:cognitive-bias` |
 | 1.26 | `ct:deductive-reasoning` | `ct:informal-logic` | `ct:argument`, `ct:stephen-toulmin`, `ct:toulmin-model` |
 | 1.25 | `ct:modus-ponens` | `ct:organon` | `ct:deductive-reasoning`, `ct:stoic-logic` |
+| 1.19 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |

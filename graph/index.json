@@ -2130,6 +2130,85 @@
   ]
  },
  {
+  "id": "ct:overconfidence-effect",
+  "title": "Overconfidence effect",
+  "aliases": [
+   "overconfidence bias",
+   "overconfidence"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/cognitive-biases/overconfidence-effect.md",
+  "created": "2026-11-04",
+  "summary": "The tendency for confidence in one's judgments, performance or estimates to exceed their actual accuracy, studied in three forms: overestimation of one's own performance, overplacement relative to others, and overprecision (excessive certainty that one's beliefs are correct).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hard-easy-effect"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:soll-klayman-2004-interval-estimates-study",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:haran-2010-spies-experiments",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:regression-to-the-mean",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:probabilistic-mental-models-theory",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:juslin-2000-hard-easy-critique",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.asc.ohio-state.edu/economics/healy/papers/Moore_Healy-TroubleWithOverconfidence.pdf",
+   "https://core.ac.uk/download/285615452.pdf",
+   "https://core.ac.uk/download/193675108.pdf",
+   "https://scholars.duke.edu/publication/799402",
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf"
+  ]
+ },
+ {
   "id": "ct:posterior-analytics",
   "title": "Posterior Analytics",
   "aliases": [

@@ -2035,6 +2035,84 @@
    ]
   },
   {
+   "@id": "ct:overconfidence-effect",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": {
+    "@id": "ct:juslin-2000-hard-easy-critique"
+   },
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:haran-2010-spies-experiments"
+    },
+    {
+     "@id": "ct:soll-klayman-2004-interval-estimates-study"
+    }
+   ],
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:probabilistic-mental-models-theory"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    }
+   ],
+   "cto:file": "articles/cognitive-biases/overconfidence-effect.md",
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5"
+    }
+   ],
+   "rdfs:label": "Overconfidence effect",
+   "skos:altLabel": [
+    "overconfidence bias",
+    "overconfidence"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency for confidence in one's judgments, performance or estimates to exceed their actual accuracy, studied in three forms: overestimation of one's own performance, overplacement relative to others, and overprecision (excessive certainty that one's beliefs are correct).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Overconfidence effect",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:hard-easy-effect"
+    },
+    {
+     "@id": "ct:premortem"
+    }
+   ]
+  },
+  {
    "@id": "ct:posterior-analytics",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -4987,6 +5065,76 @@
    "dcterms:title": "Boethius",
    "schema:url": {
     "@id": "https://iep.utm.edu/boethius/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Psychological Review 115(2), 502-517 (Moore & Healy, 2008), author's copy at Ohio State University",
+   "dcterms:title": "The trouble with overconfidence",
+   "schema:url": {
+    "@id": "https://www.asc.ohio-state.edu/economics/healy/papers/Moore_Healy-TroubleWithOverconfidence.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Psychological Review 98(4), 506-528 (Gigerenzer, Hoffrage & Kleinbölting, 1991), CORE repository copy",
+   "dcterms:title": "Probabilistic Mental Models: A Brunswikian Theory of Confidence",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/285615452.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Psychological Review 107(2), 384-396 (Juslin, Winman & Olsson, 2000), CORE repository copy",
+   "dcterms:title": "Naive Empiricism and Dogmatism in Confidence Research: A Critical Examination of the Hard-Easy Effect",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/193675108.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology - Learning, Memory, and Cognition 30(2), 299-314 (Soll & Klayman, 2004), Duke Scholars record",
+   "dcterms:title": "Overconfidence in interval estimates",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/799402"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 5(7), 467-476 (Haran, Moore & Morewedge, 2010)",
+   "dcterms:title": "A simple remedy for overprecision in judgment",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf"
    }
   },
   {

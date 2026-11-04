@@ -14,12 +14,12 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 
 | remedy | covers | targets |
 |---|---|---|
-| `ct:consider-the-opposite` | 4 | Anchoring effect, biased-assimilation, hindsight-bias, overconfidence-effect |
+| `ct:consider-the-opposite` | 4 | Anchoring effect, Overconfidence effect, biased-assimilation, hindsight-bias |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, confirmation-bias, fundamental-attribution-error |
 | `ct:prebunking` | 3 | ad-hominem, false-dilemma, misinformation-and-disinformation |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
-| `ct:premortem` | 2 | groupthink, overconfidence-effect |
-| `ct:actively-open-minded-thinking` | 1 | overconfidence-effect |
+| `ct:premortem` | 2 | Overconfidence effect, groupthink |
+| `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
 | `ct:lateral-reading` | 1 | misinformation-and-disinformation |
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
@@ -43,6 +43,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 | `ct:lateral-reading` | mixed |  |
 | `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
+| `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
 | `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
 | `ct:premortem` | mixed |  |
 
@@ -60,6 +61,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 |---|---|
 | `ct:argument` | cto:Concept |
 | `ct:argumentation-theory` | cto:Field |
+| `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:prebunking` | cto:Technique |
 
 ## Orphan articles (gap)
