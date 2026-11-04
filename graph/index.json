@@ -2798,6 +2798,102 @@
   ]
  },
  {
+  "id": "ct:prior-analytics",
+  "title": "Prior Analytics",
+  "aliases": [
+   "Analytica Priora",
+   "Aristotle's syllogistic treatise"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/prior-analytics.md",
+  "created": "2026-11-04",
+  "summary": "Aristotle's two-book treatise (c. 350 BCE) that founded formal logic: it classifies two-premise deductions into three figures, proves the imperfect ones by reducing them to a handful of self-evident first-figure moods, shows invalidity by counterexample, and extends the system to necessity and possibility.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:topics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modal-syllogistic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:organon",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:formal-logic",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:posterior-analytics",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:natural-deduction",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://classics.mit.edu/Aristotle/prior.1.i.html",
+   "https://classics.mit.edu/Aristotle/prior.2.ii.html",
+   "https://plato.stanford.edu/entries/aristotle-logic/",
+   "https://philarchive.org/archive/CORTFO-2",
+   "https://ndpr.nd.edu/reviews/aristotle-s-modal-syllogistic/",
+   "https://britannica.com/topic/Prior-Analytics"
+  ]
+ },
+ {
   "id": "ct:soundness",
   "title": "Soundness",
   "aliases": [

@@ -2684,6 +2684,95 @@
    ]
   },
   {
+   "@id": "ct:prior-analytics",
+   "@type": "cto:Work",
+   "cto:authoredBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:posterior-analytics"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/prior-analytics.md",
+   "cto:formalizedBy": {
+    "@id": "ct:natural-deduction"
+   },
+   "cto:level": "intermediate",
+   "cto:partOf": {
+    "@id": "ct:organon"
+   },
+   "cto:requires": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:formal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s6"
+    }
+   ],
+   "rdfs:label": "Prior Analytics",
+   "skos:altLabel": [
+    "Analytica Priora",
+    "Aristotle's syllogistic treatise"
+   ],
+   "skos:broader": {
+    "@id": "ct:organon"
+   },
+   "skos:definition": "Aristotle's two-book treatise (c. 350 BCE) that founded formal logic: it classifies two-premise deductions into three figures, proves the imperfect ones by reducing them to a handful of self-evident first-figure moods, shows invalidity by counterexample, and extends the system to necessity and possibility.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Prior Analytics",
+   "skos:related": [
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:modal-syllogistic"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:topics"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:soundness",
    "@type": "cto:Concept",
    "cto:confusedWith": {
@@ -6242,6 +6331,90 @@
    "dcterms:title": "Violations of the Principle of Charity: The Straw Man Fallacy",
    "schema:url": {
     "@id": "https://www.csus.edu/indiv/m/mayesgr/phl4/Because/StrawMan.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "Prior Analytics, Book I (trans. A. J. Jenkinson)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/prior.1.i.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "Prior Analytics, Book II (trans. A. J. Jenkinson)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/prior.2.ii.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Robin Smith)",
+   "dcterms:title": "Aristotle's Logic (substantive revision 2022)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "John Corcoran, Ancient Philosophy 14 (1994), author's copy on PhilArchive",
+   "dcterms:title": "The Founding of Logic: Modern Interpretations of Aristotle's Logic",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/CORTFO-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Jacob Rosen, Notre Dame Philosophical Reviews 2014.08.33",
+   "dcterms:title": "Review of Marko Malink, Aristotle's Modal Syllogistic (Harvard UP, 2013)",
+   "schema:url": {
+    "@id": "https://ndpr.nd.edu/reviews/aristotle-s-modal-syllogistic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Prior Analytics",
+   "schema:url": {
+    "@id": "https://britannica.com/topic/Prior-Analytics"
    }
   },
   {
