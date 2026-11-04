@@ -2926,6 +2926,90 @@
    ]
   },
   {
+   "@id": "ct:syllogism",
+   "@type": "cto:ReasoningForm",
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map"
+   },
+   "cto:file": "articles/formal-logic/syllogism.md",
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:prior-analytics"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:validity"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4"
+    }
+   ],
+   "rdfs:label": "Syllogism",
+   "skos:altLabel": [
+    "sullogismos",
+    "syllogistic reasoning",
+    "syllogistic"
+   ],
+   "skos:broader": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "skos:definition": "A deductive argument with two premises and a conclusion in which the premises share a linking element (in the categorical case, a middle term) that drops out of the conclusion; the family includes categorical, hypothetical and disjunctive syllogisms.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Syllogism",
+   "skos:related": [
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:disjunctive-syllogism"
+    },
+    {
+     "@id": "ct:hypothetical-syllogism"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:organon"
+    }
+   ]
+  },
+  {
    "@id": "ct:the-new-rhetoric",
    "@type": "cto:Work",
    "cto:authoredBy": [
@@ -6427,6 +6511,62 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Smith, Spring 2006 archive edition)",
+   "dcterms:title": "Aristotle's Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2006/entries/aristotle-logic/index.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Lagerlund, Spring 2006 archive edition)",
+   "dcterms:title": "Medieval Theories of the Syllogism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2006/entries/medieval-syllogism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Carveth Read (1914), Lit2Go, University of South Florida",
+   "dcterms:title": "Logic: Deductive and Inductive, Chapter XII: Conditional Syllogisms",
+   "schema:url": {
+    "@id": "https://etc.usf.edu/lit2go/37/logic-deductive-and-inductive/467/chapter-12/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Psychological Bulletin 138(3), 427-457 (Khemlani & Johnson-Laird, 2012), authors' copy",
+   "dcterms:title": "Theories of the Syllogism: A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1",
    "@type": "cto:Source",
    "cto:sourceType": "textbook",
@@ -6801,6 +6941,65 @@
    ],
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:syllogism"
+   },
+   "cto:verdict": "valid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "All database migrations need an approved code review."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The form (Barbara) is valid, but if some migrations run outside the deployment pipeline, the second premise is false and the argument is unsound."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "All production deployments need an approved code review."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "All database migrations are production deployments."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map"
    }
   }
  ]

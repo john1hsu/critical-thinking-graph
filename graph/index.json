@@ -3039,6 +3039,93 @@
   ]
  },
  {
+  "id": "ct:syllogism",
+  "title": "Syllogism",
+  "aliases": [
+   "syllogistic",
+   "sullogismos",
+   "syllogistic reasoning"
+  ],
+  "type": "ReasoningForm",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/syllogism.md",
+  "created": "2026-11-04",
+  "summary": "A deductive argument with two premises and a conclusion in which the premises share a linking element (in the categorical case, a middle term) that drops out of the conclusion; the family includes categorical, hypothetical and disjunctive syllogisms.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothetical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:disjunctive-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:prior-analytics",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/spr2006/entries/aristotle-logic/index.html",
+   "https://plato.stanford.edu/archives/spr2006/entries/medieval-syllogism/",
+   "https://etc.usf.edu/lit2go/37/logic-deductive-and-inductive/467/chapter-12/",
+   "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf"
+  ]
+ },
+ {
   "id": "ct:the-new-rhetoric",
   "title": "The New Rhetoric",
   "aliases": [

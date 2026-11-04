@@ -2343,6 +2343,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <https://schema.org/url> <https://neiudc.neiu.edu/phil-pub/7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Smith, Spring 2006 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> <http://purl.org/dc/terms/title> "Aristotle's Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2006/entries/aristotle-logic/index.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Lagerlund, Spring 2006 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s2> <http://purl.org/dc/terms/title> "Medieval Theories of the Syllogism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2006/entries/medieval-syllogism/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s3> <http://purl.org/dc/terms/publisher> "Carveth Read (1914), Lit2Go, University of South Florida" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s3> <http://purl.org/dc/terms/title> "Logic: Deductive and Inductive, Chapter XII: Conditional Syllogisms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s3> <https://schema.org/url> <https://etc.usf.edu/lit2go/37/logic-deductive-and-inductive/467/chapter-12/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 138(3), 427-457 (Khemlani & Johnson-Laird, 2012), authors' copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> <http://purl.org/dc/terms/title> "Theories of the Syllogism: A Meta-Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> <https://schema.org/url> <https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1> <http://purl.org/dc/terms/publisher> "Springer (van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij & Wagemans, 2014)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1> <http://purl.org/dc/terms/title> "The New Rhetoric (chapter 5), in Handbook of Argumentation Theory" .
@@ -2556,6 +2580,58 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/isaac-watts> .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "All database migrations need an approved code review." .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The form (Barbara) is valid, but if some migrations run outside the deployment pipeline, the second premise is false and the argument is unsound." .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "All production deployments need an approved code review." .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "All database migrations are production deployments." .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "valid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ReasoningForm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2000/01/rdf-schema#label> "Syllogism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#altLabel> "sullogismos" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#altLabel> "syllogistic reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#altLabel> "syllogistic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#definition> "A deductive argument with two premises and a conclusion in which the premises share a linking element (in the categorical case, a middle term) that drops out of the conclusion; the family includes categorical, hypothetical and disjunctive syllogisms." .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#prefLabel> "Syllogism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothetical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/syllogism.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://www.w3.org/2000/01/rdf-schema#label> "The New Rhetoric" .

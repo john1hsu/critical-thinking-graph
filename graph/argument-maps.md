@@ -66,3 +66,13 @@ flowchart TD
   o2["Even if full remote work harmed collaboration, that says little about the effect of one remote day."] -. attacks .-> ra
 ```
 
+## Syllogism (`ct:syllogism`)
+
+```mermaid
+flowchart TD
+  p1["All production deployments need an approved code review."] --> ra{{"valid"}}
+  p2["All database migrations are production deployments."] --> ra{{"valid"}}
+  ra --> c["All database migrations need an approved code review."]
+  o1["The form (Barbara) is valid, but if some migrations run outside the deployment pipeline, the second premise is false and the argument is unsound."] -. attacks .-> ra
+```
+
