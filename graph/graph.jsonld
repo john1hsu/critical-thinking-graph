@@ -2035,6 +2035,91 @@
    ]
   },
   {
+   "@id": "ct:prebunking",
+   "@type": "cto:Technique",
+   "cto:challengedBy": {
+    "@id": "ct:modirrousta-galian-higham-2023-roc-reanalysis"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:false-dilemma"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    }
+   ],
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:cook-2017-fake-experts-inoculation-experiments"
+    },
+    {
+     "@id": "ct:roozenbeek-2022-youtube-inoculation-study"
+    }
+   ],
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:inoculation-theory"
+   },
+   "cto:file": "articles/evidence-and-information-literacy/prebunking.md",
+   "cto:influencedBy": {
+    "@id": "ct:william-j-mcguire"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s6"
+    }
+   ],
+   "rdfs:label": "Prebunking",
+   "skos:altLabel": [
+    "inoculation against misinformation",
+    "psychological inoculation",
+    "technique-based inoculation"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A pre-emptive misinformation countermeasure that warns people they may be misled and shows them, with a weakened example, the technique or false claim they are likely to meet, so that they resist it when the real attempt comes.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Prebunking",
+   "skos:related": [
+    {
+     "@id": "ct:debunking"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
    "@id": "ct:premortem",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -4817,6 +4902,90 @@
    "dcterms:title": "Posterior Analytics, Book II (trans. G. R. G. Mure)",
    "schema:url": {
     "@id": "https://classics.mit.edu/Aristotle/posterior.2.ii.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Science Advances 8(34) (Roozenbeek, van der Linden, Goldberg, Rathje & Lewandowsky, 2022), PubMed Central",
+   "dcterms:title": "Psychological inoculation improves resilience against misinformation on social media",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9401631"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 7 (Compton, Jackson & Dimmock, 2016)",
+   "dcterms:title": "Persuading Others to Avoid Persuasion: Inoculation Theory and Resistant Health Attitudes",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00122/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "PLOS ONE 12(5) (Cook, Lewandowsky & Ecker, 2017), PubMed Central",
+   "dcterms:title": "Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5419564/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "American Psychological Association, summarising Maertens, Roozenbeek, Basol & van der Linden (2021), Journal of Experimental Psychology Applied",
+   "dcterms:title": "Long-term effectiveness of inoculation against misinformation: Three longitudinal experiments (research spotlight)",
+   "schema:url": {
+    "@id": "https://www.apa.org/pubs/highlights/spotlight/issue-243"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Nature Communications 16 (Maertens et al., 2025), Cambridge Memory Lab publication page",
+   "dcterms:title": "Psychological booster shots targeting memory increase long-term resistance against misinformation",
+   "schema:url": {
+    "@id": "https://www.memlab.psychol.cam.ac.uk/pubs/Maertens2025%20NatureComms.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology General (Modirrousta-Galian & Higham, 2023), University of Southampton accepted manuscript",
+   "dcterms:title": "Gamified Inoculation Interventions Do Not Improve Discrimination Between True and Fake News: Reanalyzing Existing Research With Receiver Operating Characteristic Analysis",
+   "schema:url": {
+    "@id": "https://eprints.soton.ac.uk/475360/2/2023_JEPG_Accepted_Manuscript.pdf"
    }
   },
   {

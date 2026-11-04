@@ -18,14 +18,14 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.64 | `ct:affirming-the-consequent` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:sophistical-refutations` |
 | 1.64 | `ct:chrysippus` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:stoic-logic` |
 | 1.64 | `ct:method-of-counterexample` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics` |
-| 1.54 | `ct:bias-blind-spot` | `ct:consider-the-opposite` | `ct:actively-open-minded-thinking`, `ct:anchoring-effect`, `ct:debiasing` |
 | 1.52 | `ct:affirming-the-consequent` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
 | 1.46 | `ct:argument` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:informal-logic`, `ct:toulmin-model` |
 | 1.44 | `ct:alfred-tarski` | `ct:chrysippus` | `ct:liar-paradox` |
 | 1.44 | `ct:falsifiability` | `ct:stephen-toulmin` | `ct:philosophy-of-science` |
+| 1.44 | `ct:prebunking` | `ct:straw-man-fallacy` | `ct:ad-hominem` |
+| 1.44 | `ct:bias-blind-spot` | `ct:consider-the-opposite` | `ct:actively-open-minded-thinking`, `ct:anchoring-effect`, `ct:debiasing` |
 | 1.33 | `ct:bias-blind-spot` | `ct:heuristics-and-biases-program` | `ct:anchoring-effect`, `ct:cognitive-bias` |
 | 1.26 | `ct:deductive-reasoning` | `ct:informal-logic` | `ct:argument`, `ct:stephen-toulmin`, `ct:toulmin-model` |
 | 1.25 | `ct:modus-ponens` | `ct:organon` | `ct:deductive-reasoning`, `ct:stoic-logic` |
 | 1.19 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
 | 1.17 | `ct:argumentation-theory` | `ct:soundness` | `ct:argument`, `ct:aristotle`, `ct:principle-of-charity` |
-| 1.17 | `ct:anchoring-effect` | `ct:base-rate-neglect` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |

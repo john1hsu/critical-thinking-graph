@@ -2125,6 +2125,97 @@
   ]
  },
  {
+  "id": "ct:prebunking",
+  "title": "Prebunking",
+  "aliases": [
+   "psychological inoculation",
+   "inoculation against misinformation",
+   "technique-based inoculation"
+  ],
+  "type": "Technique",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/prebunking.md",
+  "created": "2026-11-04",
+  "summary": "A pre-emptive misinformation countermeasure that warns people they may be misled and shows them, with a weakened example, the technique or false claim they are likely to meet, so that they resist it when the real attempt comes.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:inoculation-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:william-j-mcguire",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:misinformation-and-disinformation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:ad-hominem",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:false-dilemma",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:roozenbeek-2022-youtube-inoculation-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:cook-2017-fake-experts-inoculation-experiments",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:modirrousta-galian-higham-2023-roc-reanalysis",
+    "source": "s6",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9401631",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00122/full",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5419564/",
+   "https://www.apa.org/pubs/highlights/spotlight/issue-243",
+   "https://www.memlab.psychol.cam.ac.uk/pubs/Maertens2025%20NatureComms.htm",
+   "https://eprints.soton.ac.uk/475360/2/2023_JEPG_Accepted_Manuscript.pdf"
+  ]
+ },
+ {
   "id": "ct:premortem",
   "title": "Premortem",
   "aliases": [

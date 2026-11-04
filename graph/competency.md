@@ -17,6 +17,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | remedy | covers | targets |
 |---|---|---|
 | `ct:consider-the-opposite` | 4 | Anchoring effect, biased-assimilation, hindsight-bias, overconfidence-effect |
+| `ct:prebunking` | 3 | ad-hominem, false-dilemma, misinformation-and-disinformation |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
 | `ct:premortem` | 2 | groupthink, overconfidence-effect |
 | `ct:actively-open-minded-thinking` | 1 | overconfidence-effect |
@@ -42,6 +43,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 | `ct:lateral-reading` | mixed |  |
 | `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
+| `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
 | `ct:premortem` | mixed |  |
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
@@ -58,6 +60,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 |---|---|
 | `ct:argument` | cto:Concept |
 | `ct:argumentation-theory` | cto:Field |
+| `ct:prebunking` | cto:Technique |
 
 ## Orphan articles (gap)
 
@@ -66,7 +69,6 @@ _Which written articles does nothing else in the graph point to (after inference
 | node |
 |---|
 | `ct:falsifiability` |
-| `ct:lateral-reading` |
 
 ## Argumentation schemes and their fallacious misuses
 

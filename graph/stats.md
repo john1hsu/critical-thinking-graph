@@ -1,13 +1,13 @@
 # Graph statistics
 
-- Articles (nodes written): **32**
-- Frontier nodes (referenced, unwritten): **154**
-- Asserted edges: **376** (typed + evidenced: **164**)
-- Asserted triples: **2155**; inferred by OWL-RL: **567**
-- Citations: **170**
+- Articles (nodes written): **33**
+- Frontier nodes (referenced, unwritten): **161**
+- Asserted edges: **388** (typed + evidenced: **172**)
+- Asserted triples: **2222**; inferred by OWL-RL: **587**
+- Citations: **176**
 - Critical questions: **13**; argument maps: **5**
-- Weakly connected components: **2**
-- Communities (Louvain): **7**; max k-core: **4**
+- Weakly connected components: **1**
+- Communities (Louvain): **6**; max k-core: **4**
 
 ## Most central nodes
 
@@ -15,21 +15,21 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `ct:deductive-reasoning` | 0.0124 | 0.2491 | yes |
-| `ct:validity` | 0.0095 | 0.0406 | yes |
-| `ct:aristotle` | 0.0093 | 0.0897 | yes |
-| `ct:argument` | 0.0091 | 0.1042 | yes |
-| `ct:modus-ponens` | 0.0081 | 0.0959 | yes |
-| `ct:soundness` | 0.0076 | 0.0741 | yes |
-| `ct:method-of-counterexample` | 0.0075 | 0.2739 | yes |
-| `ct:argumentation-theory` | 0.0075 | 0.0924 | yes |
-| `ct:affirming-the-consequent` | 0.0074 | 0.0634 | yes |
-| `ct:inductive-reasoning` | 0.0072 | 0.0008 | no |
-| `ct:logic` | 0.0069 | 0.0065 | no |
-| `ct:heuristics-and-biases-program` | 0.0069 | 0.0522 | yes |
-| `ct:toulmin-model` | 0.0068 | 0.0499 | yes |
-| `ct:anchoring-effect` | 0.0067 | 0.0907 | yes |
-| `ct:logical-consequence` | 0.0066 | 0.0007 | no |
+| `ct:deductive-reasoning` | 0.0119 | 0.2265 | yes |
+| `ct:validity` | 0.0091 | 0.0365 | yes |
+| `ct:aristotle` | 0.0089 | 0.0836 | yes |
+| `ct:argument` | 0.0087 | 0.1010 | yes |
+| `ct:modus-ponens` | 0.0078 | 0.0964 | yes |
+| `ct:soundness` | 0.0073 | 0.0656 | yes |
+| `ct:method-of-counterexample` | 0.0072 | 0.2787 | yes |
+| `ct:argumentation-theory` | 0.0072 | 0.1059 | yes |
+| `ct:affirming-the-consequent` | 0.0071 | 0.0660 | yes |
+| `ct:inductive-reasoning` | 0.0069 | 0.0010 | no |
+| `ct:logic` | 0.0067 | 0.0065 | no |
+| `ct:heuristics-and-biases-program` | 0.0066 | 0.0523 | yes |
+| `ct:toulmin-model` | 0.0066 | 0.0483 | yes |
+| `ct:anchoring-effect` | 0.0064 | 0.0929 | yes |
+| `ct:logical-consequence` | 0.0063 | 0.0006 | no |
 
 ## Communities
 
@@ -37,9 +37,8 @@ PageRank = authority; betweenness = bridges between areas.
 2. `ct:ad-hominem`, `ct:argument`, `ct:argument-mapping`, `ct:argumentation`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:argumentative-theory-of-reasoning`, `ct:artificial-intelligence`, `ct:casuistry`, `ct:charles-hamblin`, `ct:critical-thinking-movement`, `ct:defeasible-reasoning` …
 3. `ct:actively-open-minded-thinking`, `ct:anchoring-and-adjustment-heuristic`, `ct:anchoring-effect`, `ct:bias-blind-spot`, `ct:biased-assimilation`, `ct:chandrashekar-2021-bias-blind-spot-replication`, `ct:charles-lord`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:devils-advocacy`, `ct:ease-of-retrieval-effect`, `ct:emily-pronin` …
 4. `ct:amos-tversky`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:base-rate-neglect`, `ct:bayesian-reasoning`, `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:conditional-probability`, `ct:conjunction-fallacy`, `ct:daniel-kahneman`, `ct:debiasing`, `ct:decision-analysis` …
-5. `ct:ad-hoc-hypothesis`, `ct:duhem-quine-thesis`, `ct:falsifiability`, `ct:hypothesis-testing`, `ct:karl-popper`, `ct:methodology-of-scientific-research-programmes`, `ct:problem-of-induction`, `ct:pseudoscience`, `ct:scientific-method`, `ct:the-logic-of-scientific-discovery`, `ct:verifiability-criterion`
-6. `ct:breakstone-2021-online-course-lateral-reading-study`, `ct:click-restraint`, `ct:lateral-reading`, `ct:misinformation-and-disinformation`, `ct:sam-wineburg`, `ct:sarah-mcgrew`, `ct:sift-method`, `ct:source-credibility`, `ct:source-evaluation`, `ct:vertical-reading`, `ct:wineburg-2022-lateral-reading-classroom-experiment`
-7. `ct:edmund-gettier`, `ct:epistemology`, `ct:gettier-problem`, `ct:is-justified-true-belief-knowledge`, `ct:justified-true-belief`, `ct:machery-2017-gettier-intuition-study`, `ct:plato`, `ct:science-education`
+5. `ct:breakstone-2021-online-course-lateral-reading-study`, `ct:click-restraint`, `ct:cook-2017-fake-experts-inoculation-experiments`, `ct:debunking`, `ct:false-dilemma`, `ct:inoculation-theory`, `ct:lateral-reading`, `ct:misinformation-and-disinformation`, `ct:modirrousta-galian-higham-2023-roc-reanalysis`, `ct:prebunking`, `ct:roozenbeek-2022-youtube-inoculation-study`, `ct:sam-wineburg` …
+6. `ct:ad-hoc-hypothesis`, `ct:duhem-quine-thesis`, `ct:falsifiability`, `ct:hypothesis-testing`, `ct:karl-popper`, `ct:methodology-of-scientific-research-programmes`, `ct:problem-of-induction`, `ct:pseudoscience`, `ct:scientific-method`, `ct:the-logic-of-scientific-discovery`, `ct:verifiability-criterion`
 
 ## By type
 
@@ -55,7 +54,7 @@ PageRank = authority; betweenness = bridges between areas.
 - ProbabilisticFallacy: 1
 - ReasoningForm: 1
 - ReasoningMode: 1
-- Technique: 5
+- Technique: 6
 - Work: 2
 
 ## By domain
@@ -64,7 +63,7 @@ PageRank = authority; betweenness = bridges between areas.
 - cognitive-biases: 2
 - debiasing-and-metacognition: 2
 - decision-making: 2
-- evidence-and-information-literacy: 1
+- evidence-and-information-literacy: 2
 - formal-fallacies: 1
 - formal-logic: 3
 - foundations: 3
@@ -78,18 +77,17 @@ PageRank = authority; betweenness = bridges between areas.
 ## By level
 
 - intermediate: 3
-- introductory: 29
+- introductory: 30
 
 ## By evidence status
 
 - historical: 9
-- mixed: 7
+- mixed: 8
 - normative: 14
 - robust: 2
 
 ## Domain coverage (breadth runs pick the lowest)
 
-- evidence-and-information-literacy: 1
 - formal-fallacies: 1
 - heuristics-and-dual-process: 1
 - informal-fallacies: 1
@@ -98,6 +96,7 @@ PageRank = authority; betweenness = bridges between areas.
 - cognitive-biases: 2
 - debiasing-and-metacognition: 2
 - decision-making: 2
+- evidence-and-information-literacy: 2
 - probabilistic-reasoning: 2
 - formal-logic: 3
 - foundations: 3
