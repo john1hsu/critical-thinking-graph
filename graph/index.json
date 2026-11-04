@@ -1225,6 +1225,87 @@
   ]
  },
  {
+  "id": "ct:organon",
+  "title": "Organon",
+  "aliases": [
+   "Aristotle's Organon",
+   "Aristotle's logical works"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/organon.md",
+  "created": "2026-11-04",
+  "summary": "The collection of Aristotle's six logical treatises (Categories, On Interpretation, Prior Analytics, Posterior Analytics, Topics and On Sophistical Refutations), assembled and named \"tool\" by later Peripatetic commentators, which served as the standard textbook of logic in the Arabic and Latin traditions for some two thousand years.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:posterior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stoic-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:novum-organum",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:stoic-logic",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:logic",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/aristotle-logic/",
+   "https://plato.stanford.edu/entries/logic-ancient/",
+   "https://iep.utm.edu/aristotle-logic/",
+   "https://plato.stanford.edu/entries/francis-bacon/",
+   "https://iep.utm.edu/boethius/"
+  ]
+ },
+ {
   "id": "ct:posterior-analytics",
   "title": "Posterior Analytics",
   "aliases": [

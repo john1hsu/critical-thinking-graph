@@ -1199,6 +1199,85 @@
    ]
   },
   {
+   "@id": "ct:organon",
+   "@type": "cto:Work",
+   "cto:authoredBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:novum-organum"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    }
+   ],
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/organon.md",
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5"
+    }
+   ],
+   "rdfs:label": "Organon",
+   "skos:altLabel": [
+    "Aristotle's Organon",
+    "Aristotle's logical works"
+   ],
+   "skos:definition": "The collection of Aristotle's six logical treatises (Categories, On Interpretation, Prior Analytics, Posterior Analytics, Topics and On Sophistical Refutations), assembled and named \"tool\" by later Peripatetic commentators, which served as the standard textbook of logic in the Arabic and Latin traditions for some two thousand years.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Organon",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:posterior-analytics"
+    },
+    {
+     "@id": "ct:prior-analytics"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    },
+    {
+     "@id": "ct:syllogism"
+    }
+   ]
+  },
+  {
    "@id": "ct:posterior-analytics",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -3295,6 +3374,76 @@
    "dcterms:title": "Crísipo de Solos y los indemostrables (Chrysippus of Soli and the Indemonstrables)",
    "schema:url": {
     "@id": "https://revistaschilenas.uchile.cl/handle/2250/15306?show=full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Robin Smith)",
+   "dcterms:title": "Aristotle's Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy",
+   "dcterms:title": "Ancient Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/logic-ancient/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Aristotle: Logic",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy",
+   "dcterms:title": "Francis Bacon",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/francis-bacon/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Boethius",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/boethius/"
    }
   },
   {

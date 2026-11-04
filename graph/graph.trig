@@ -162,6 +162,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/daniel-kahneman/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/daniel-kahneman/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/daniel-kahneman/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/organon#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/organon#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/organon#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/organon.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/organon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/organon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/organon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/organon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/organon#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/posterior-analytics.md" .
@@ -1522,6 +1530,68 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/daniel-kahneman/s6> <https://schema.org/url> <https://bps.org.uk/psychologist/i-am-certain-psychology-will-see-many-more-train-wrecks> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/organon#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2000/01/rdf-schema#label> "Organon" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#altLabel> "Aristotle's Organon" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#altLabel> "Aristotle's logical works" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#definition> "The collection of Aristotle's six logical treatises (Categories, On Interpretation, Prior Analytics, Posterior Analytics, Topics and On Sophistical Refutations), assembled and named \"tool\" by later Peripatetic commentators, which served as the standard textbook of logic in the Arabic and Latin traditions for some two thousand years." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organon" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/novum-organum> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/organon.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Robin Smith)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://purl.org/dc/terms/title> "Aristotle's Logic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/aristotle-logic/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2> <http://purl.org/dc/terms/title> "Ancient Logic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s2> <https://schema.org/url> <https://plato.stanford.edu/entries/logic-ancient/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3> <http://purl.org/dc/terms/title> "Aristotle: Logic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s3> <https://schema.org/url> <https://iep.utm.edu/aristotle-logic/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4> <http://purl.org/dc/terms/title> "Francis Bacon" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/francis-bacon/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5> <http://purl.org/dc/terms/title> "Boethius" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s5> <https://schema.org/url> <https://iep.utm.edu/boethius/> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
@@ -1882,6 +1952,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
@@ -1949,6 +2020,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gettier-problem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
@@ -2086,9 +2158,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/nagtegaal-2020-public-managers-anchoring-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nagtegaal-2020-public-managers-anchoring-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nagtegaal-2020-public-managers-anchoring-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/novum-organum> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/organon> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasPart> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
@@ -2101,6 +2174,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -2114,6 +2188,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
@@ -2149,6 +2224,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
@@ -2162,12 +2238,15 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stanislaw-lesniewski> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> .
   <https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -2184,6 +2263,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/suppression-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-theory-of-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-theory-of-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
