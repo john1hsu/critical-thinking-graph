@@ -688,6 +688,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2000/01/rdf-schema#label> "Hypothesis testing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#altLabel> "H-D method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#altLabel> "hypothetico-deductive method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#altLabel> "hypothetico-deductivism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#altLabel> "testing hypotheses" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#definition> "The method of evaluating a conjecture by deducing observable consequences (\"test implications\") from it, together with auxiliary assumptions, and then checking whether they occur: a failed prediction counts against the hypothesis, a successful one lends it support without proving it." .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hypothesis testing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/positive-test-strategy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/hypothesis-testing.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the conclusion's predicate about all members of its class while the premise spoke only of some of them?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
@@ -1896,6 +1928,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6> <https://schema.org/url> <https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Crupi, rev. 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> <http://purl.org/dc/terms/title> "Confirmation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/confirmation/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Andersen, rev. 2026)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s2> <http://purl.org/dc/terms/title> "Scientific Method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s2> <https://schema.org/url> <https://plato.stanford.edu/entries/scientific-method/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s3> <http://purl.org/dc/terms/publisher> "Psychological Review 94(2), 211-228 (Klayman & Ha, 1987)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s3> <http://purl.org/dc/terms/title> "Confirmation, disconfirmation, and information in hypothesis testing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s3> <https://schema.org/url> <https://pages.ucsd.edu/~mckenzie/KlaymanHaPsychReview1987.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <http://purl.org/dc/terms/publisher> "Quarterly Journal of Experimental Psychology 12(3), 129-140 (Wason, 1960)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <http://purl.org/dc/terms/title> "On the failure to eliminate hypotheses in a conceptual task" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <https://schema.org/url> <https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1> <http://purl.org/dc/terms/publisher> "Philosophy 103: Introduction to Logic, Lander University" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1> <http://purl.org/dc/terms/title> "Syllogistic Fallacies: Illicit Major and Illicit Minor" .

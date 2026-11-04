@@ -24,6 +24,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
 | `ct:premortem` | 2 | Overconfidence effect, groupthink |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
+| `ct:hypothesis-testing` | 1 | confirmation-bias |
 | `ct:lateral-reading` | 1 | misinformation-and-disinformation |
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
@@ -67,6 +68,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | node | type |
 |---|---|
 | `ct:epistemology` | cto:Field |
+| `ct:hypothesis-testing` | cto:Method |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:overconfidence-effect` | cto:CognitiveBias |
