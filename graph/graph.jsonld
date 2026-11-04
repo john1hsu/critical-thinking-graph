@@ -518,11 +518,18 @@
      "@id": "ct:the-new-rhetoric"
     }
    ],
+   "cto:introducedIn": {
+    "@id": "ct:the-new-rhetoric"
+   },
    "cto:level": "introductory",
    "cto:requires": {
     "@id": "ct:argument"
    },
    "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:modified": {
     "@type": "xsd:date",
     "@value": "2026-11-04"
    },
@@ -538,6 +545,9 @@
     },
     {
      "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s5"
     }
    ],
    "rdfs:label": "Argumentation theory",
@@ -2746,6 +2756,93 @@
    ]
   },
   {
+   "@id": "ct:the-new-rhetoric",
+   "@type": "cto:Work",
+   "cto:authoredBy": [
+    {
+     "@id": "ct:chaim-perelman"
+    },
+    {
+     "@id": "ct:lucie-olbrechts-tyteca"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:logical-empiricism"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/the-new-rhetoric.md",
+   "cto:influencedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s4"
+    }
+   ],
+   "rdfs:label": "The New Rhetoric",
+   "skos:altLabel": [
+    "La nouvelle rhétorique",
+    "Perelman and Olbrechts-Tyteca's treatise",
+    "The New Rhetoric - A Treatise on Argumentation",
+    "Traité de l'argumentation"
+   ],
+   "skos:definition": "Chaïm Perelman and Lucie Olbrechts-Tyteca's 1958 treatise on argumentation (English translation 1969), which recasts argument as an effort to win an audience's adherence rather than to prove truths, and which catalogues the starting points and argument schemes used in practical and value-laden reasoning; it is one of the founding works of modern argumentation theory.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "The New Rhetoric",
+   "skos:related": [
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:quasi-logical-argument"
+    },
+    {
+     "@id": "ct:rhetoric"
+    },
+    {
+     "@id": "ct:the-uses-of-argument"
+    },
+    {
+     "@id": "ct:universal-audience"
+    }
+   ]
+  },
+  {
    "@id": "ct:topics",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -3889,6 +3986,20 @@
    "dcterms:title": "Who's Afraid of Adversariality? Conflict and Cooperation in Argumentation",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.1007/s11245-020-09736-9"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Springer (van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij & Wagemans, 2014)",
+   "dcterms:title": "The New Rhetoric (chapter 5), in Handbook of Argumentation Theory",
+   "schema:url": {
+    "@id": "https://link.springer.com/rwe/10.1007/978-94-007-6883-3_5-1"
    }
   },
   {
@@ -5905,6 +6016,62 @@
    "dcterms:title": "Straw man",
    "schema:url": {
     "@id": "https://neiudc.neiu.edu/phil-pub/7"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Springer (van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij & Wagemans, 2014)",
+   "dcterms:title": "The New Rhetoric (chapter 5), in Handbook of Argumentation Theory",
+   "schema:url": {
+    "@id": "https://link.springer.com/rwe/10.1007/978-94-007-6883-3_5-1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "University of Notre Dame Press (Perelman & Olbrechts-Tyteca)",
+   "dcterms:title": "The New Rhetoric: A Treatise on Argumentation (publisher's page)",
+   "schema:url": {
+    "@id": "https://undpress.nd.edu/9780268004460/new-rhetoric-the/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Argumentation 33(1), 75-106 (Svačinová, 2019)",
+   "dcterms:title": "The Thesis of the Effectiveness of Quasi-logical Arguments",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s10503-018-9464-z"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Argumentation 7(4), 385-402 (Crosswhite, 1993)",
+   "dcterms:title": "Being unreasonable: Perelman and the problem of fallacies",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/BF00711057"
    }
   },
   {

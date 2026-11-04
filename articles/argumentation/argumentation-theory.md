@@ -19,6 +19,7 @@ relations:
   - {predicate: influencedBy, object: ct:stephen-toulmin, source: s1, confidence: high}
   - {predicate: influencedBy, object: ct:charles-hamblin, source: s1, confidence: high}
   - {predicate: influencedBy, object: ct:the-new-rhetoric, source: s1, confidence: high}
+  - {predicate: introducedIn, object: ct:the-new-rhetoric, source: s5, confidence: medium}
   - {predicate: contrastsWith, object: ct:formal-logic, source: s2, confidence: medium}
   - {predicate: appliedIn, object: ct:artificial-intelligence, source: s1, confidence: medium}
 sameAs: []
@@ -47,7 +48,14 @@ sources:
     url: https://link.springer.com/article/10.1007/s11245-020-09736-9
     type: peer-reviewed
     accessed: 2026-11-04
+  - id: s5
+    title: "The New Rhetoric (chapter 5), in Handbook of Argumentation Theory"
+    publisher: Springer (van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij & Wagemans, 2014)
+    url: https://link.springer.com/rwe/10.1007/978-94-007-6883-3_5-1
+    type: textbook
+    accessed: 2026-11-04
 created: 2026-11-04
+modified: 2026-11-04
 ---
 
 # Argumentation theory
@@ -79,7 +87,7 @@ A live normative debate concerns adversariality. Some critics, including feminis
 ## Connections
 
 - **Influenced by Aristotle.** His syllogistic, dialectic, rhetoric and fallacy theory are the field's main classical source.[^s2]
-- **Influenced by Stephen Toulmin and by *The New Rhetoric*.** The two 1958 works are the starting points of the modern field.[^s1]
+- **Influenced by Stephen Toulmin and by *The New Rhetoric*.** The two 1958 works are the starting points of the modern field.[^s1] The handbook's chapter on Perelman and Olbrechts-Tyteca's treatise calls it a seminal work of the field, so the graph records the modern field as introduced in it, alongside Toulmin's book.[^s5]
 - **Influenced by Charles Hamblin.** His 1970 critique of the standard treatment of fallacies reshaped fallacy theory and dialectic.[^s1]
 - **Contrasts with formal logic.** It studies real, defeasible, natural-language arguments in context instead of abstract logical form.[^s2]
 - **Applied in artificial intelligence.** Computational models of argument are a recognised branch of the field.[^s1]
@@ -91,3 +99,4 @@ A live normative debate concerns adversariality. Some critics, including feminis
 [^s2]: Bodlović, "Suvremena teorija argumentacije: normativna slojevitost svakodnevnih argumenata", *Prolegomena* 23(1), 2024, 91-159. https://hrcak.srce.hr/file/458927 (accessed 2026-11-04)
 [^s3]: Mercier & Sperber, "Why do humans reason? Arguments for an argumentative theory", *Behavioral and Brain Sciences* 34(2), 2011, 57-74. https://pubmed.ncbi.nlm.nih.gov/21447233/ (accessed 2026-11-04)
 [^s4]: Dutilh Novaes, "Who's Afraid of Adversariality? Conflict and Cooperation in Argumentation", *Topoi*, 2020. https://link.springer.com/article/10.1007/s11245-020-09736-9 (accessed 2026-11-04)
+[^s5]: van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij & Wagemans, "The New Rhetoric", ch. 5 of *Handbook of Argumentation Theory*, Springer, 2014. https://link.springer.com/rwe/10.1007/978-94-007-6883-3_5-1 (accessed 2026-11-04)

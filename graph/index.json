@@ -576,6 +576,12 @@
     "confidence": "high"
    },
    {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-new-rhetoric",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
     "predicate": "cto:contrastsWith",
     "object": "ct:formal-logic",
     "source": "s2",
@@ -593,7 +599,8 @@
    "https://link.springer.com/10.1007/978-90-481-9473-5_1",
    "https://hrcak.srce.hr/file/458927",
    "https://pubmed.ncbi.nlm.nih.gov/21447233/",
-   "https://link.springer.com/article/10.1007/s11245-020-09736-9"
+   "https://link.springer.com/article/10.1007/s11245-020-09736-9",
+   "https://link.springer.com/rwe/10.1007/978-94-007-6883-3_5-1"
   ]
  },
  {
@@ -2850,6 +2857,102 @@
    "https://philarchive.org/rec/WALWFC",
    "https://rozenbergquarterly.com/issa-proceedings-2014-dont-feed-the-trolls-straw-men-and-iron-men/?print=pdf",
    "https://neiudc.neiu.edu/phil-pub/7"
+  ]
+ },
+ {
+  "id": "ct:the-new-rhetoric",
+  "title": "The New Rhetoric",
+  "aliases": [
+   "La nouvelle rhétorique",
+   "Traité de l'argumentation",
+   "The New Rhetoric - A Treatise on Argumentation",
+   "Perelman and Olbrechts-Tyteca's treatise"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/the-new-rhetoric.md",
+  "created": "2026-11-04",
+  "summary": "Chaïm Perelman and Lucie Olbrechts-Tyteca's 1958 treatise on argumentation (English translation 1969), which recasts argument as an effort to win an audience's adherence rather than to prove truths, and which catalogues the starting points and argument schemes used in practical and value-laden reasoning; it is one of the founding works of modern argumentation theory.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:the-uses-of-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:universal-audience"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:quasi-logical-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:chaim-perelman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:lucie-olbrechts-tyteca",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:aristotle",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:logical-empiricism",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://link.springer.com/rwe/10.1007/978-94-007-6883-3_5-1",
+   "https://undpress.nd.edu/9780268004460/new-rhetoric-the/",
+   "https://link.springer.com/article/10.1007/s10503-018-9464-z",
+   "https://link.springer.com/article/10.1007/BF00711057"
   ]
  },
  {
