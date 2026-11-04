@@ -1210,6 +1210,65 @@
    ]
   },
   {
+   "@id": "ct:epistemology",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:critical-thinking-education"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/epistemology.md",
+   "cto:influencedBy": {
+    "@id": "ct:plato"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3"
+    }
+   ],
+   "rdfs:label": "Epistemology",
+   "skos:altLabel": [
+    "philosophy of knowledge",
+    "theory of knowledge"
+   ],
+   "skos:broader": {
+    "@id": "ct:philosophy"
+   },
+   "skos:definition": "The branch of philosophy that studies knowledge and justified belief: what knowing is, what makes a belief justified, where knowledge comes from (perception, memory, reason, testimony) and how far it can reach in the face of skeptical challenges.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Epistemology",
+   "skos:related": [
+    {
+     "@id": "ct:epistemic-regress-problem"
+    },
+    {
+     "@id": "ct:gettier-problem"
+    },
+    {
+     "@id": "ct:justified-true-belief"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    },
+    {
+     "@id": "ct:problem-of-induction"
+    }
+   ]
+  },
+  {
    "@id": "ct:falsifiability",
    "@type": "cto:Principle",
    "cto:challengedBy": [
@@ -4337,6 +4396,48 @@
    "dcterms:title": "On the conflict between logic and belief in syllogistic reasoning",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.3758/BF03196976"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (David A. Truncellito)",
+   "dcterms:title": "Epistemology",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/epistemo/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy, Fall 2020 Edition (Ram Neta, rev. 2020)",
+   "dcterms:title": "Epistemology",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/fall2020/entries/epistemology/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Informal Logic 19(2&3), 161-170 (Sharon Bailin, 1999), Distant Reader archive copy",
+   "dcterms:title": "The Problem With Percy: Epistemology, Understanding and Critical Thinking",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2325.pdf"
    }
   },
   {

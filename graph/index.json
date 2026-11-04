@@ -1253,6 +1253,65 @@
   ]
  },
  {
+  "id": "ct:epistemology",
+  "title": "Epistemology",
+  "aliases": [
+   "theory of knowledge",
+   "philosophy of knowledge"
+  ],
+  "type": "Field",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/epistemology.md",
+  "created": "2026-11-04",
+  "summary": "The branch of philosophy that studies knowledge and justified belief: what knowing is, what makes a belief justified, where knowledge comes from (perception, memory, reason, testimony) and how far it can reach in the face of skeptical challenges.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gettier-problem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:justified-true-belief"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:problem-of-induction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemic-regress-problem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-science"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:plato",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:critical-thinking-education",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/epistemo/",
+   "https://plato.stanford.edu/archives/fall2020/entries/epistemology/",
+   "https://distantreader.org/stacks/journals/il/il-2325.pdf"
+  ]
+ },
+ {
   "id": "ct:falsifiability",
   "title": "Falsifiability criterion",
   "aliases": [
