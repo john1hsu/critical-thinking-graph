@@ -47,9 +47,7 @@ _No results._
 
 _Which written concepts have no introducedBy / introducedIn edge (who named it, where)?_ — `queries/06-unattributed.rq`
 
-| node | type |
-|---|---|
-| `ct:validity` | cto:Concept |
+_No results._
 
 ## Orphan articles (gap)
 

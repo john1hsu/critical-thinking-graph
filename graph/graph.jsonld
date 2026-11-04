@@ -103,6 +103,76 @@
    ]
   },
   {
+   "@id": "ct:alfred-tarski",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/alfred-tarski.md",
+   "cto:influencedBy": {
+    "@id": "ct:stanislaw-lesniewski"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:convention-t"
+    },
+    {
+     "@id": "ct:logical-consequence"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s5"
+    }
+   ],
+   "rdfs:label": "Alfred Tarski",
+   "skos:altLabel": [
+    "Alfred Tajtelbaum",
+    "Alfred Teitelbaum"
+   ],
+   "skos:definition": "Polish-American logician and mathematician (1901-1983) whose 1933 definition of truth for formal languages and 1936 model-theoretic definition of logical consequence gave modern logic its standard account of what it means for an argument to be valid.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Alfred Tarski",
+   "skos:related": [
+    {
+     "@id": "ct:formal-logic"
+    },
+    {
+     "@id": "ct:liar-paradox"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:amos-tversky",
    "@type": "cto:Person",
    "cto:appliedIn": {
@@ -2119,6 +2189,76 @@
    "dcterms:title": "A Meta-Analysis of Conditional Reasoning",
    "schema:url": {
     "@id": "https://modeltheory.org/papers/2019meta-conditionals.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Gómez-Torrente, rev. 2023)",
+   "dcterms:title": "Alfred Tarski",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/tarski/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "MacTutor History of Mathematics, University of St Andrews (O'Connor & Robertson)",
+   "dcterms:title": "Alfred Tarski (biography)",
+   "schema:url": {
+    "@id": "https://mathshistory.st-andrews.ac.uk/Biographies/Tarski/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hodges, rev. 2022)",
+   "dcterms:title": "Tarski's Truth Definitions",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/tarski-truth/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Logical Consequence, Model-Theoretic Conceptions",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/logcon-m/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Semantic Theory of Truth",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/s-truth/"
    }
   },
   {

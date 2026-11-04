@@ -97,6 +97,75 @@
   ]
  },
  {
+  "id": "ct:alfred-tarski",
+  "title": "Alfred Tarski",
+  "aliases": [
+   "Alfred Tajtelbaum",
+   "Alfred Teitelbaum"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/alfred-tarski.md",
+  "created": "2026-11-04",
+  "summary": "Polish-American logician and mathematician (1901-1983) whose 1933 definition of truth for formal languages and 1936 model-theoretic definition of logical consequence gave modern logic its standard account of what it means for an argument to be valid.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:liar-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:logical-consequence",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:validity",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:convention-t",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:stanislaw-lesniewski",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/tarski/",
+   "https://mathshistory.st-andrews.ac.uk/Biographies/Tarski/",
+   "https://plato.stanford.edu/ENTRIES/tarski-truth/",
+   "https://iep.utm.edu/logcon-m/",
+   "https://iep.utm.edu/s-truth/"
+  ]
+ },
+ {
   "id": "ct:amos-tversky",
   "title": "Amos Tversky",
   "aliases": [

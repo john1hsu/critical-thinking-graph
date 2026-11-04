@@ -67,6 +67,32 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
 <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2000/01/rdf-schema#label> "Alfred Tarski" .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#altLabel> "Alfred Tajtelbaum" .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#altLabel> "Alfred Teitelbaum" .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#definition> "Polish-American logician and mathematician (1901-1983) whose 1933 definition of truth for formal languages and 1936 model-theoretic definition of logical consequence gave modern logic its standard account of what it means for an argument to be valid." .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alfred Tarski" .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/alfred-tarski.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stanislaw-lesniewski> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/convention-t> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <http://www.w3.org/2000/01/rdf-schema#label> "Amos Tversky" .
@@ -671,6 +697,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s5> <https://schema.org/url> <https://modeltheory.org/papers/2019meta-conditionals.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Gómez-Torrente, rev. 2023)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s1> <http://purl.org/dc/terms/title> "Alfred Tarski" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/tarski/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s2> <http://purl.org/dc/terms/publisher> "MacTutor History of Mathematics, University of St Andrews (O'Connor & Robertson)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s2> <http://purl.org/dc/terms/title> "Alfred Tarski (biography)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s2> <https://schema.org/url> <https://mathshistory.st-andrews.ac.uk/Biographies/Tarski/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hodges, rev. 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s3> <http://purl.org/dc/terms/title> "Tarski's Truth Definitions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s3> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/tarski-truth/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s4> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s4> <http://purl.org/dc/terms/title> "Logical Consequence, Model-Theoretic Conceptions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s4> <https://schema.org/url> <https://iep.utm.edu/logcon-m/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s5> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s5> <http://purl.org/dc/terms/title> "Semantic Theory of Truth" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/alfred-tarski/s5> <https://schema.org/url> <https://iep.utm.edu/s-truth/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> <http://purl.org/dc/terms/publisher> "Stanford University News Service (5 June 1996)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s1> <http://purl.org/dc/terms/title> "News release on the death of Amos Tversky" .

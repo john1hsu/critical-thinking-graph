@@ -4,28 +4,28 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 3.03 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:validity` |
+| 3.00 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:validity` |
 | 2.60 | `ct:principle-of-charity` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:informal-logic`, `ct:toulmin-model` |
-| 2.21 | `ct:aristotle` | `ct:gettier-problem` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:plato` |
-| 2.03 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:posterior-analytics`, `ct:soundness` |
+| 2.19 | `ct:aristotle` | `ct:gettier-problem` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:plato` |
+| 2.12 | `ct:alfred-tarski` | `ct:deductive-reasoning` | `ct:logical-consequence`, `ct:method-of-counterexample`, `ct:soundness`, `ct:validity` |
+| 2.00 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:posterior-analytics`, `ct:soundness` |
 | 1.79 | `ct:gettier-problem` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:epistemology` |
 | 1.70 | `ct:straw-man-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-theory`, `ct:principle-of-charity` |
-| 1.66 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
-| 1.57 | `ct:affirming-the-consequent` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
-| 1.43 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
+| 1.65 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
+| 1.54 | `ct:affirming-the-consequent` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
+| 1.44 | `ct:alfred-tarski` | `ct:chrysippus` | `ct:liar-paradox` |
+| 1.41 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
 | 1.32 | `ct:soundness` | `ct:toulmin-model` | `ct:argument`, `ct:deductive-reasoning`, `ct:principle-of-charity` |
 | 1.20 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 1.17 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.17 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
-| 1.17 | `ct:modus-ponens` | `ct:soundness` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
-| 1.15 | `ct:affirming-the-consequent` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:validity` |
-| 0.99 | `ct:principle-of-charity` | `ct:validity` | `ct:argument`, `ct:soundness` |
+| 1.14 | `ct:affirming-the-consequent` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:validity` |
+| 1.14 | `ct:modus-ponens` | `ct:soundness` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
+| 0.98 | `ct:principle-of-charity` | `ct:validity` | `ct:argument`, `ct:soundness` |
 | 0.98 | `ct:soundness` | `ct:straw-man-fallacy` | `ct:argument`, `ct:principle-of-charity` |
 | 0.91 | `ct:deductive-reasoning` | `ct:judgment-and-decision-making` | `ct:cognitive-psychology` |
 | 0.91 | `ct:judgment-and-decision-making` | `ct:modus-ponens` | `ct:cognitive-psychology` |
 | 0.90 | `ct:toulmin-model` | `ct:validity` | `ct:argument`, `ct:deductive-reasoning` |
-| 0.76 | `ct:affirming-the-consequent` | `ct:gettier-problem` | `ct:deductive-reasoning`, `ct:method-of-counterexample` |
-| 0.76 | `ct:chrysippus` | `ct:validity` | `ct:deductive-reasoning`, `ct:modus-ponens` |
-| 0.76 | `ct:gettier-problem` | `ct:modus-ponens` | `ct:deductive-reasoning`, `ct:method-of-counterexample` |
-| 0.76 | `ct:gettier-problem` | `ct:soundness` | `ct:deductive-reasoning`, `ct:method-of-counterexample` |
-| 0.76 | `ct:gettier-problem` | `ct:validity` | `ct:deductive-reasoning`, `ct:method-of-counterexample` |
+| 0.82 | `ct:alfred-tarski` | `ct:aristotle` | `ct:method-of-counterexample`, `ct:soundness` |
+| 0.81 | `ct:alfred-tarski` | `ct:posterior-analytics` | `ct:soundness`, `ct:validity` |
+| 0.79 | `ct:affirming-the-consequent` | `ct:alfred-tarski` | `ct:method-of-counterexample`, `ct:validity` |

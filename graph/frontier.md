@@ -7,20 +7,21 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:argument` | 7.08 | - | `ct:deductive-reasoning`, `ct:principle-of-charity`, `ct:soundness`, `ct:straw-man-fallacy`, `ct:toulmin-model`, `ct:validity` |
 | `ct:argumentation-theory` | 4.29 | Field | `ct:principle-of-charity`, `ct:stephen-toulmin`, `ct:straw-man-fallacy`, `ct:toulmin-model` |
 | `ct:inductive-reasoning` | 3.85 | - | `ct:deductive-reasoning`, `ct:posterior-analytics`, `ct:validity` |
-| `ct:modus-tollens` | 3.81 | - | `ct:affirming-the-consequent`, `ct:modus-ponens` |
 | `ct:denying-the-antecedent` | 3.81 | - | `ct:affirming-the-consequent`, `ct:method-of-counterexample`, `ct:modus-ponens` |
+| `ct:modus-tollens` | 3.81 | - | `ct:affirming-the-consequent`, `ct:modus-ponens` |
 | `ct:organon` | 3.77 | - | `ct:aristotle`, `ct:posterior-analytics` |
 | `ct:informal-logic` | 3.72 | - | `ct:principle-of-charity`, `ct:stephen-toulmin` |
-| `ct:epistemology` | 3.71 | Field | `ct:gettier-problem`, `ct:posterior-analytics` |
+| `ct:epistemology` | 3.70 | Field | `ct:gettier-problem`, `ct:posterior-analytics` |
 | `ct:cognitive-psychology` | 3.34 | Field | `ct:deductive-reasoning`, `ct:judgment-and-decision-making`, `ct:modus-ponens` |
-| `ct:selective-accessibility-model` | 3.26 | - | `ct:anchoring-effect`, `ct:consider-the-opposite` |
-| `ct:prior-analytics` | 3.25 | Work | `ct:method-of-counterexample`, `ct:posterior-analytics` |
+| `ct:logical-consequence` | 3.33 | - | `ct:alfred-tarski`, `ct:deductive-reasoning`, `ct:validity` |
+| `ct:prior-analytics` | 3.26 | Work | `ct:method-of-counterexample`, `ct:posterior-analytics` |
+| `ct:selective-accessibility-model` | 3.25 | - | `ct:anchoring-effect`, `ct:consider-the-opposite` |
 | `ct:gerd-gigerenzer` | 3.25 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
-| `ct:behavioral-economics` | 3.25 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
-| `ct:prospect-theory` | 3.25 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
+| `ct:behavioral-economics` | 3.24 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
+| `ct:prospect-theory` | 3.24 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
 | `ct:belief-bias` | 2.77 | - | `ct:deductive-reasoning`, `ct:validity` |
-| `ct:sophistical-refutations` | 2.72 | Work | `ct:affirming-the-consequent`, `ct:aristotle` |
-| `ct:truth-table` | 2.71 | - | `ct:method-of-counterexample`, `ct:validity` |
+| `ct:truth-table` | 2.72 | - | `ct:method-of-counterexample`, `ct:validity` |
+| `ct:sophistical-refutations` | 2.71 | Work | `ct:affirming-the-consequent`, `ct:aristotle` |
 | `ct:availability-heuristic` | 2.67 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
 | `ct:conjunction-fallacy` | 2.67 | - | `ct:amos-tversky`, `ct:heuristics-and-biases-program` |
 | `ct:dual-process-theory` | 2.67 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
@@ -31,21 +32,22 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:devils-advocacy` | 2.65 | - | `ct:consider-the-opposite`, `ct:premortem` |
 | `ct:hindsight-bias` | 2.65 | - | `ct:consider-the-opposite`, `ct:premortem` |
 | `ct:overconfidence-effect` | 2.65 | - | `ct:consider-the-opposite`, `ct:premortem` |
-| `ct:steelmanning` | 2.65 | - | `ct:principle-of-charity`, `ct:straw-man-fallacy` |
-| `ct:justified-true-belief` | 2.63 | - | `ct:gettier-problem` |
-| `ct:sift-method` | 2.63 | - | `ct:lateral-reading` |
-| `ct:logical-consequence` | 2.27 | - | `ct:deductive-reasoning`, `ct:validity` |
+| `ct:steelmanning` | 2.64 | - | `ct:principle-of-charity`, `ct:straw-man-fallacy` |
+| `ct:justified-true-belief` | 2.62 | - | `ct:gettier-problem` |
+| `ct:sift-method` | 2.62 | - | `ct:lateral-reading` |
 | `ct:syllogism` | 2.19 | - | `ct:aristotle`, `ct:posterior-analytics` |
 | `ct:stoic-logic` | 2.19 | - | `ct:chrysippus`, `ct:modus-ponens` |
-| `ct:plato` | 2.18 | - | `ct:aristotle`, `ct:gettier-problem` |
-| `ct:cognitive-bias` | 2.18 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
-| `ct:many-labs-1-replication-project` | 2.18 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
+| `ct:formal-logic` | 2.18 | Field | `ct:alfred-tarski`, `ct:validity` |
+| `ct:plato` | 2.17 | - | `ct:aristotle`, `ct:gettier-problem` |
+| `ct:cognitive-bias` | 2.17 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
+| `ct:many-labs-1-replication-project` | 2.17 | - | `ct:anchoring-effect`, `ct:heuristics-and-biases-program` |
 | `ct:attribute-substitution` | 2.17 | - | `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| `ct:the-uses-of-argument` | 2.15 | Work | `ct:stephen-toulmin`, `ct:toulmin-model` |
+| `ct:the-uses-of-argument` | 2.14 | Work | `ct:stephen-toulmin`, `ct:toulmin-model` |
+| `ct:liar-paradox` | 2.14 | - | `ct:alfred-tarski`, `ct:chrysippus` |
 | `ct:ignoratio-elenchi` | 2.14 | - | `ct:straw-man-fallacy` |
 | `ct:inference-to-the-best-explanation` | 1.60 | - | `ct:affirming-the-consequent` |
+| `ct:cogency` | 1.60 | - | `ct:soundness` |
 | `ct:fast-and-frugal-heuristics` | 1.59 | - | `ct:heuristics-and-biases-program` |
-| `ct:cogency` | 1.59 | - | `ct:soundness` |
 | `ct:replication-crisis` | 1.58 | - | `ct:daniel-kahneman` |
 | `ct:propositional-logic` | 1.58 | Field | `ct:chrysippus` |
 | `ct:expected-utility-theory` | 1.58 | - | `ct:judgment-and-decision-making` |
@@ -59,27 +61,25 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:source-credibility` | 1.56 | - | `ct:lateral-reading` |
 | `ct:mental-model-theory` | 1.15 | - | `ct:deductive-reasoning` |
 | `ct:reasoning` | 1.15 | - | `ct:deductive-reasoning` |
-| `ct:formal-logic` | 1.11 | Field | `ct:validity` |
 | `ct:logic` | 1.11 | Field | `ct:aristotle` |
 | `ct:square-of-opposition` | 1.11 | - | `ct:aristotle` |
 | `ct:a-counterexample-to-modus-ponens` | 1.11 | - | `ct:modus-ponens` |
 | `ct:suppression-effect` | 1.11 | - | `ct:modus-ponens` |
 | `ct:conditional-perfection` | 1.10 | - | `ct:affirming-the-consequent` |
 | `ct:formal-fallacy` | 1.10 | - | `ct:affirming-the-consequent` |
+| `ct:argument-evaluation` | 1.10 | - | `ct:soundness` |
+| `ct:soundness-theorem` | 1.10 | - | `ct:soundness` |
 | `ct:judgment-under-uncertainty-heuristics-and-biases` | 1.09 | Work | `ct:heuristics-and-biases-program` |
-| `ct:argument-evaluation` | 1.09 | - | `ct:soundness` |
-| `ct:soundness-theorem` | 1.09 | - | `ct:soundness` |
-| `ct:anchoring-and-adjustment-heuristic` | 1.09 | - | `ct:anchoring-effect` |
-| `ct:englich-2006-judicial-anchoring-study` | 1.09 | Study | `ct:anchoring-effect` |
-| `ct:roseler-2025-insufficient-adjustment-test` | 1.09 | - | `ct:anchoring-effect` |
-| `ct:biased-assimilation` | 1.09 | - | `ct:consider-the-opposite` |
-| `ct:charles-lord` | 1.09 | Person | `ct:consider-the-opposite` |
-| `ct:ease-of-retrieval-effect` | 1.09 | - | `ct:consider-the-opposite` |
-| `ct:mark-lepper` | 1.09 | Person | `ct:consider-the-opposite` |
-| `ct:nagtegaal-2020-public-managers-anchoring-study` | 1.09 | Study | `ct:consider-the-opposite` |
+| `ct:anchoring-and-adjustment-heuristic` | 1.08 | - | `ct:anchoring-effect` |
+| `ct:englich-2006-judicial-anchoring-study` | 1.08 | Study | `ct:anchoring-effect` |
+| `ct:roseler-2025-insufficient-adjustment-test` | 1.08 | - | `ct:anchoring-effect` |
+| `ct:biased-assimilation` | 1.08 | - | `ct:consider-the-opposite` |
+| `ct:charles-lord` | 1.08 | Person | `ct:consider-the-opposite` |
+| `ct:ease-of-retrieval-effect` | 1.08 | - | `ct:consider-the-opposite` |
+| `ct:mark-lepper` | 1.08 | Person | `ct:consider-the-opposite` |
+| `ct:nagtegaal-2020-public-managers-anchoring-study` | 1.08 | Study | `ct:consider-the-opposite` |
 | `ct:peak-end-rule` | 1.08 | - | `ct:daniel-kahneman` |
 | `ct:cleanthes` | 1.08 | - | `ct:chrysippus` |
-| `ct:liar-paradox` | 1.08 | - | `ct:chrysippus` |
 | `ct:sorites-paradox` | 1.08 | - | `ct:chrysippus` |
 | `ct:decision-analysis` | 1.08 | - | `ct:judgment-and-decision-making` |
 | `ct:the-theory-of-decision-making` | 1.08 | Work | `ct:judgment-and-decision-making` |
@@ -88,10 +88,10 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:foundationalism` | 1.08 | - | `ct:posterior-analytics` |
 | `ct:defeasible-reasoning` | 1.08 | - | `ct:toulmin-model` |
 | `ct:yeh-1998-argumentative-writing-study` | 1.08 | - | `ct:toulmin-model` |
-| `ct:donald-davidson` | 1.08 | - | `ct:principle-of-charity` |
-| `ct:enthymeme` | 1.08 | - | `ct:principle-of-charity` |
-| `ct:michael-scriven` | 1.08 | Person | `ct:principle-of-charity` |
-| `ct:n-l-wilson` | 1.08 | Person | `ct:principle-of-charity` |
+| `ct:donald-davidson` | 1.07 | - | `ct:principle-of-charity` |
+| `ct:enthymeme` | 1.07 | - | `ct:principle-of-charity` |
+| `ct:michael-scriven` | 1.07 | Person | `ct:principle-of-charity` |
+| `ct:n-l-wilson` | 1.07 | Person | `ct:principle-of-charity` |
 | `ct:casuistry` | 1.07 | - | `ct:stephen-toulmin` |
 | `ct:ludwig-wittgenstein` | 1.07 | - | `ct:stephen-toulmin` |
 | `ct:philosophy-of-science` | 1.07 | Field | `ct:stephen-toulmin` |
@@ -105,6 +105,7 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:worst-case-scenario-analysis` | 1.07 | - | `ct:premortem` |
 | `ct:breakstone-2021-online-course-lateral-reading-study` | 1.06 | Study | `ct:lateral-reading` |
 | `ct:click-restraint` | 1.06 | - | `ct:lateral-reading` |
+| `ct:convention-t` | 1.06 | - | `ct:alfred-tarski` |
 | `ct:edmund-gettier` | 1.06 | Person | `ct:gettier-problem` |
 | `ct:is-justified-true-belief-knowledge` | 1.06 | Work | `ct:gettier-problem` |
 | `ct:machery-2017-gettier-intuition-study` | 1.06 | - | `ct:gettier-problem` |
@@ -112,5 +113,6 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:sarah-mcgrew` | 1.06 | Person | `ct:lateral-reading` |
 | `ct:science-education` | 1.06 | - | `ct:gettier-problem` |
 | `ct:source-evaluation` | 1.06 | - | `ct:lateral-reading` |
+| `ct:stanislaw-lesniewski` | 1.06 | - | `ct:alfred-tarski` |
 | `ct:vertical-reading` | 1.06 | - | `ct:lateral-reading` |
 | `ct:wineburg-2022-lateral-reading-classroom-experiment` | 1.06 | Study | `ct:lateral-reading` |
