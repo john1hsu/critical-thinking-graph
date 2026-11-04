@@ -1078,6 +1078,97 @@
   ]
  },
  {
+  "id": "ct:debiasing-training-games",
+  "title": "Debiasing training games",
+  "aliases": [
+   "serious games for bias mitigation",
+   "game-based bias training",
+   "Sirius debiasing games"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/debiasing-training-games.md",
+  "created": "2026-11-04",
+  "summary": "Interactive \"serious games\" that teach people to recognise and reduce specific cognitive biases by having them make biased-prone judgments inside a story, then giving personalised feedback, explanation and practice; a single session has reduced biases such as the bias blind spot in laboratory tests for weeks afterwards.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:bias-blind-spot",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:confirmation-bias",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:fundamental-attribution-error",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:anchoring-effect",
+    "source": "s1",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:carey-morewedge",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:morewedge-2015-debiasing-training-experiments",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:sellier-2019-debiasing-transfer-field-study",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:intelligence-analysis",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://openaccess.city.ac.uk/id/eprint/12324/1/Debiasing_Decisions_PIBBS.pdf",
+   "https://openaccess.city.ac.uk/id/eprint/22233/1/DebiasingTrainingTransfers_InPress.pdf",
+   "https://api.crossref.org/works/10.1177%2F1555412016673262",
+   "https://api.crossref.org/works/10.1177%2F1555412016686642",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8397507",
+   "https://www.mitre.org/sites/default/files/publications/pr-16-0956-the-assessment-of-biases-in-cognition.pdf"
+  ]
+ },
+ {
   "id": "ct:deductive-reasoning",
   "title": "Deductive reasoning",
   "aliases": [

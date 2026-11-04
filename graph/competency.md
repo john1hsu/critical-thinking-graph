@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:bias-blind-spot` | cto:CognitiveBias |
+_No results._
 
 ## Most useful remedies
 
@@ -17,6 +15,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | remedy | covers | targets |
 |---|---|---|
 | `ct:consider-the-opposite` | 4 | Anchoring effect, biased-assimilation, hindsight-bias, overconfidence-effect |
+| `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, confirmation-bias, fundamental-attribution-error |
 | `ct:prebunking` | 3 | ad-hominem, false-dilemma, misinformation-and-disinformation |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
 | `ct:premortem` | 2 | groupthink, overconfidence-effect |
@@ -40,6 +39,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:consider-the-opposite` | mixed |  |
+| `ct:debiasing-training-games` | mixed |  |
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 | `ct:lateral-reading` | mixed |  |
 | `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
