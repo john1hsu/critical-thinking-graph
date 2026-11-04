@@ -905,6 +905,101 @@
   ]
  },
  {
+  "id": "ct:falsifiability",
+  "title": "Falsifiability criterion",
+  "aliases": [
+   "falsifiability",
+   "refutability",
+   "falsificationism",
+   "Popper's demarcation criterion",
+   "criterion of falsifiability"
+  ],
+  "type": "Principle",
+  "domain": "scientific-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/falsifiability.md",
+  "created": "2026-11-04",
+  "summary": "Karl Popper's proposal that a claim or theory counts as scientific only if some possible observation could show it to be false; a theory that is compatible with every conceivable outcome tells us nothing testable about the world.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:problem-of-induction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pseudoscience"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:karl-popper",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-logic-of-scientific-discovery",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:verifiability-criterion",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:duhem-quine-thesis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:methodology-of-scientific-research-programmes",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/popper/",
+   "https://plato.stanford.edu/entries/pseudo-science/",
+   "https://iep.utm.edu/pop-sci/",
+   "https://plato.stanford.edu/entries/scientific-underdetermination/"
+  ]
+ },
+ {
   "id": "ct:gettier-problem",
   "title": "Gettier problem",
   "aliases": [

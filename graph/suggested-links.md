@@ -18,6 +18,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.64 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
 | 1.53 | `ct:affirming-the-consequent` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
 | 1.44 | `ct:alfred-tarski` | `ct:chrysippus` | `ct:liar-paradox` |
+| 1.44 | `ct:falsifiability` | `ct:stephen-toulmin` | `ct:philosophy-of-science` |
 | 1.41 | `ct:straw-man-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-theory`, `ct:principle-of-charity` |
 | 1.40 | `ct:argument` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:toulmin-model` |
 | 1.25 | `ct:argument` | `ct:organon` | `ct:deductive-reasoning`, `ct:logic` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.16 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.16 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.16 | `ct:organon` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:posterior-analytics` |
-| 1.15 | `ct:argument` | `ct:method-of-counterexample` | `ct:deductive-reasoning`, `ct:soundness`, `ct:validity` |

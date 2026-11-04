@@ -885,6 +885,91 @@
    ]
   },
   {
+   "@id": "ct:falsifiability",
+   "@type": "cto:Principle",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:duhem-quine-thesis"
+    },
+    {
+     "@id": "ct:methodology-of-scientific-research-programmes"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:verifiability-criterion"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/falsifiability.md",
+   "cto:introducedBy": {
+    "@id": "ct:karl-popper"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:the-logic-of-scientific-discovery"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:modus-tollens"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s4"
+    }
+   ],
+   "rdfs:label": "Falsifiability criterion",
+   "skos:altLabel": [
+    "Popper's demarcation criterion",
+    "criterion of falsifiability",
+    "falsifiability",
+    "falsificationism",
+    "refutability"
+   ],
+   "skos:broader": {
+    "@id": "ct:scientific-method"
+   },
+   "skos:definition": "Karl Popper's proposal that a claim or theory counts as scientific only if some possible observation could show it to be false; a theory that is compatible with every conceivable outcome tells us nothing testable about the world.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Falsifiability criterion",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:problem-of-induction"
+    },
+    {
+     "@id": "ct:pseudoscience"
+    }
+   ]
+  },
+  {
    "@id": "ct:gettier-problem",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -3378,6 +3463,62 @@
    "dcterms:title": "On the conflict between logic and belief in syllogistic reasoning",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.3758/BF03196976"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Thornton, rev. 2026)",
+   "dcterms:title": "Karl Popper",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/popper/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansson, rev. 2025)",
+   "dcterms:title": "Science and Pseudo-Science",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/pseudo-science/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Popper, Karl: Philosophy of Science",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/pop-sci/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Stanford, rev. 2023)",
+   "dcterms:title": "Underdetermination of Scientific Theory",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/scientific-underdetermination/"
    }
   },
   {
