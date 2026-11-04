@@ -57,6 +57,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | node | type |
 |---|---|
 | `ct:argument` | cto:Concept |
+| `ct:argumentation-theory` | cto:Field |
 
 ## Orphan articles (gap)
 

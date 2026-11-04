@@ -493,6 +493,96 @@
    ]
   },
   {
+   "@id": "ct:argumentation-theory",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:artificial-intelligence"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:formal-logic"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/argumentation-theory.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:stephen-toulmin"
+    },
+    {
+     "@id": "ct:the-new-rhetoric"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s4"
+    }
+   ],
+   "rdfs:label": "Argumentation theory",
+   "skos:altLabel": [
+    "argumentation studies",
+    "theory of argumentation"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:logic"
+    },
+    {
+     "@id": "ct:rhetoric"
+    }
+   ],
+   "skos:definition": "The interdisciplinary study of how people use arguments to resolve differences of opinion, combining a description of real argumentative discourse with standards of reasonableness for analysing, evaluating and producing it; it draws on logic, dialectic and rhetoric.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Argumentation theory",
+   "skos:related": [
+    {
+     "@id": "ct:argumentation"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:argumentative-theory-of-reasoning"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:aristotle",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -3341,6 +3431,62 @@
    "dcterms:title": "Prior Analytics, Book I (trans. A. J. Jenkinson)",
    "schema:url": {
     "@id": "https://classics.mit.edu/Aristotle/prior.1.i.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Springer (van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij & Wagemans, 2014)",
+   "dcterms:title": "Argumentation Theory (chapter 1), in Handbook of Argumentation Theory",
+   "schema:url": {
+    "@id": "https://link.springer.com/10.1007/978-90-481-9473-5_1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Prolegomena 23(1), 91-159 (Bodlović, 2024)",
+   "dcterms:title": "Suvremena teorija argumentacije: normativna slojevitost svakodnevnih argumenata (Contemporary argumentation theory: the normative layering of everyday arguments)",
+   "schema:url": {
+    "@id": "https://hrcak.srce.hr/file/458927"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Behavioral and Brain Sciences 34(2), 57-74 (Mercier & Sperber, 2011), PubMed record",
+   "dcterms:title": "Why do humans reason? Arguments for an argumentative theory",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/21447233/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Topoi (Dutilh Novaes, 2020)",
+   "dcterms:title": "Who's Afraid of Adversariality? Conflict and Cooperation in Argumentation",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s11245-020-09736-9"
    }
   },
   {

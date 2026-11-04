@@ -497,6 +497,106 @@
   ]
  },
  {
+  "id": "ct:argumentation-theory",
+  "title": "Argumentation theory",
+  "aliases": [
+   "argumentation studies",
+   "theory of argumentation"
+  ],
+  "type": "Field",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/argumentation-theory.md",
+  "created": "2026-11-04",
+  "summary": "The interdisciplinary study of how people use arguments to resolve differences of opinion, combining a description of real argumentative discourse with standards of reasonableness for analysing, evaluating and producing it; it draws on logic, dialectic and rhetoric.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:logic"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentative-theory-of-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:aristotle",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:stephen-toulmin",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:charles-hamblin",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:the-new-rhetoric",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:formal-logic",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:artificial-intelligence",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://link.springer.com/10.1007/978-90-481-9473-5_1",
+   "https://hrcak.srce.hr/file/458927",
+   "https://pubmed.ncbi.nlm.nih.gov/21447233/",
+   "https://link.springer.com/article/10.1007/s11245-020-09736-9"
+  ]
+ },
+ {
   "id": "ct:aristotle",
   "title": "Aristotle",
   "aliases": [

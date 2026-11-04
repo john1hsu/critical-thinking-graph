@@ -4,28 +4,28 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 2.78 | `ct:informal-logic` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:informal-fallacy`, `ct:principle-of-charity` |
 | 2.73 | `ct:actively-open-minded-thinking` | `ct:premortem` | `ct:consider-the-opposite`, `ct:groupthink`, `ct:overconfidence-effect` |
-| 2.46 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:validity` |
+| 2.45 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:validity` |
 | 2.18 | `ct:aristotle` | `ct:gettier-problem` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:plato` |
 | 2.12 | `ct:alfred-tarski` | `ct:deductive-reasoning` | `ct:logical-consequence`, `ct:method-of-counterexample`, `ct:soundness`, `ct:validity` |
+| 2.03 | `ct:informal-logic` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:informal-fallacy`, `ct:principle-of-charity` |
 | 1.99 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:posterior-analytics`, `ct:soundness` |
 | 1.87 | `ct:argument` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:soundness`, `ct:validity` |
 | 1.78 | `ct:gettier-problem` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:epistemology` |
-| 1.68 | `ct:argument` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:informal-logic`, `ct:toulmin-model` |
-| 1.65 | `ct:affirming-the-consequent` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:sophistical-refutations` |
-| 1.65 | `ct:chrysippus` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:stoic-logic` |
-| 1.65 | `ct:method-of-counterexample` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics` |
+| 1.72 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:logic`, `ct:soundness` |
+| 1.65 | `ct:argumentation-theory` | `ct:deductive-reasoning` | `ct:argument`, `ct:aristotle`, `ct:stephen-toulmin`, `ct:toulmin-model` |
 | 1.64 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample` |
+| 1.64 | `ct:affirming-the-consequent` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:sophistical-refutations` |
+| 1.64 | `ct:chrysippus` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:stoic-logic` |
+| 1.64 | `ct:method-of-counterexample` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics` |
 | 1.54 | `ct:bias-blind-spot` | `ct:consider-the-opposite` | `ct:actively-open-minded-thinking`, `ct:anchoring-effect`, `ct:debiasing` |
-| 1.53 | `ct:affirming-the-consequent` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
-| 1.48 | `ct:argument` | `ct:aristotle` | `ct:deductive-reasoning`, `ct:logic`, `ct:soundness` |
+| 1.52 | `ct:affirming-the-consequent` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
+| 1.46 | `ct:argument` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:informal-logic`, `ct:toulmin-model` |
 | 1.44 | `ct:alfred-tarski` | `ct:chrysippus` | `ct:liar-paradox` |
 | 1.44 | `ct:falsifiability` | `ct:stephen-toulmin` | `ct:philosophy-of-science` |
-| 1.34 | `ct:principle-of-charity` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:informal-logic`, `ct:toulmin-model` |
-| 1.34 | `ct:straw-man-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-theory`, `ct:principle-of-charity` |
 | 1.33 | `ct:bias-blind-spot` | `ct:heuristics-and-biases-program` | `ct:anchoring-effect`, `ct:cognitive-bias` |
-| 1.27 | `ct:informal-logic` | `ct:validity` | `ct:argument`, `ct:formal-logic` |
 | 1.26 | `ct:deductive-reasoning` | `ct:informal-logic` | `ct:argument`, `ct:stephen-toulmin`, `ct:toulmin-model` |
 | 1.25 | `ct:modus-ponens` | `ct:organon` | `ct:deductive-reasoning`, `ct:stoic-logic` |
 | 1.19 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
+| 1.17 | `ct:argumentation-theory` | `ct:soundness` | `ct:argument`, `ct:aristotle`, `ct:principle-of-charity` |
+| 1.17 | `ct:anchoring-effect` | `ct:base-rate-neglect` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
