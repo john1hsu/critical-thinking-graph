@@ -1598,6 +1598,90 @@
   ]
  },
  {
+  "id": "ct:illicit-major",
+  "title": "Illicit major",
+  "aliases": [
+   "illicit process of the major term",
+   "illicit process of the major"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/illicit-major.md",
+  "created": "2026-11-04",
+  "summary": "The syllogistic fallacy committed when the major term (the predicate of the conclusion) is distributed in the conclusion but undistributed in the major premise, so the conclusion says something about the whole of a class that the premises described only in part.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-minor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:categorical-syllogism",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:distribution-of-terms",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:illicit-minor",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:undistributed-middle",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the conclusion's predicate about all members of its class while the premise spoke only of some of them?",
+   "Could something outside the subject class still have the property the conclusion denies?",
+   "Does a Venn diagram of the premises leave room for the conclusion to be false?"
+  ],
+  "source_urls": [
+   "https://philosophy.lander.edu/logic/illicit_fall.html",
+   "https://phil240.tamu.edu/LectureNotes/6.5.pdf",
+   "https://etc.usf.edu/lit2go/189/deductive-logic/3917/part-3-chapter-11/",
+   "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf"
+  ]
+ },
+ {
   "id": "ct:informal-logic",
   "title": "Informal logic",
   "aliases": [

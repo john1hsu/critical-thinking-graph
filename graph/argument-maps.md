@@ -34,6 +34,17 @@ flowchart TD
   o1["The conclusion is only as reliable as the premises: if the limit was raised last quarter, the argument stays valid but becomes unsound."] -. attacks .-> ra
 ```
 
+## Illicit major (`ct:illicit-major`)
+
+```mermaid
+flowchart TD
+  p1["All senior engineers have production access."] --> ra{{"invalid"}}
+  p2["No contractors are senior engineers."] --> ra{{"invalid"}}
+  ra --> c["No contractors have production access."]
+  o1["The first premise says senior engineers are among those with access, not that they are the only ones."] -. attacks .-> ra
+  o2["A contractor on the on-call rota could have been granted access through another route."] -. attacks .-> ra
+```
+
 ## Modus ponens (`ct:modus-ponens`)
 
 ```mermaid

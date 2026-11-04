@@ -1531,6 +1531,87 @@
    ]
   },
   {
+   "@id": "ct:illicit-major",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:illicit-minor"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    }
+   ],
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:distribution-of-terms"
+   },
+   "cto:file": "articles/formal-fallacies/illicit-major.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s4"
+    }
+   ],
+   "rdfs:label": "Illicit major",
+   "skos:altLabel": [
+    "illicit process of the major term",
+    "illicit process of the major"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The syllogistic fallacy committed when the major term (the predicate of the conclusion) is distributed in the conclusion but undistributed in the major premise, so the conclusion says something about the whole of a class that the premises described only in part.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Illicit major",
+   "skos:related": [
+    {
+     "@id": "ct:illicit-minor"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    }
+   ]
+  },
+  {
    "@id": "ct:informal-logic",
    "@type": "cto:Field",
    "cto:contrastsWith": {
@@ -3345,6 +3426,104 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-major"
+   },
+   "rdfs:label": "Is the conclusion's predicate about all members of its class while the premise spoke only of some of them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-major"
+   },
+   "rdfs:label": "Could something outside the subject class still have the property the conclusion denies?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-major"
+   },
+   "rdfs:label": "Does a Venn diagram of the premises leave room for the conclusion to be false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:illicit-major"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "No contractors have production access."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The first premise says senior engineers are among those with access, not that they are the only ones."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "A contractor on the on-call rota could have been granted access through another route."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "All senior engineers have production access."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "No contractors are senior engineers."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -4840,6 +5019,62 @@
    "dcterms:title": "Daniel Kahneman, Prize Lecture: Maps of Bounded Rationality (8 December 2002)",
    "schema:url": {
     "@id": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University",
+   "dcterms:title": "Syllogistic Fallacies: Illicit Major and Illicit Minor",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/illicit_fall.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "PHIL 240 lecture notes, Texas A&M University",
+   "dcterms:title": "6.5 Rules for Evaluating Syllogisms",
+   "schema:url": {
+    "@id": "https://phil240.tamu.edu/LectureNotes/6.5.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "G. W. J. Stock (1888), Lit2Go, University of South Florida",
+   "dcterms:title": "Deductive Logic, Part III, Chapter XI: Of the General Rules of Syllogism",
+   "schema:url": {
+    "@id": "https://etc.usf.edu/lit2go/189/deductive-logic/3917/part-3-chapter-11/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "History and Philosophy of Logic (Martin, 2012), author's copy",
+   "dcterms:title": "Distributive Terms, Truth, and the Port Royal Logic",
+   "schema:url": {
+    "@id": "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf"
    }
   },
   {

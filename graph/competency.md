@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:illicit-major` | cto:FormalFallacy |
 
 ## Most useful remedies
 
@@ -60,6 +62,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | node | type |
 |---|---|
 | `ct:epistemology` | cto:Field |
+| `ct:illicit-major` | cto:FormalFallacy |
 | `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:prebunking` | cto:Technique |
 
