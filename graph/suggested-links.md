@@ -22,10 +22,10 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.44 | `ct:falsifiability` | `ct:stephen-toulmin` | `ct:philosophy-of-science` |
 | 1.34 | `ct:principle-of-charity` | `ct:stephen-toulmin` | `ct:argumentation-theory`, `ct:informal-logic`, `ct:toulmin-model` |
 | 1.34 | `ct:straw-man-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-theory`, `ct:principle-of-charity` |
+| 1.33 | `ct:bias-blind-spot` | `ct:heuristics-and-biases-program` | `ct:anchoring-effect`, `ct:cognitive-bias` |
 | 1.27 | `ct:informal-logic` | `ct:validity` | `ct:argument`, `ct:formal-logic` |
 | 1.26 | `ct:deductive-reasoning` | `ct:informal-logic` | `ct:argument`, `ct:stephen-toulmin`, `ct:toulmin-model` |
 | 1.25 | `ct:modus-ponens` | `ct:organon` | `ct:deductive-reasoning`, `ct:stoic-logic` |
 | 1.19 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
 | 1.17 | `ct:anchoring-effect` | `ct:base-rate-neglect` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 1.17 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| 1.16 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |

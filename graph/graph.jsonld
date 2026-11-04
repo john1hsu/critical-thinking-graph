@@ -571,6 +571,79 @@
    ]
   },
   {
+   "@id": "ct:bias-blind-spot",
+   "@type": "cto:CognitiveBias",
+   "cto:demonstratedBy": {
+    "@id": "ct:pronin-lin-ross-2002-bias-blind-spot-studies"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:introspection-illusion"
+    },
+    {
+     "@id": "ct:naive-realism"
+    }
+   ],
+   "cto:file": "articles/cognitive-biases/bias-blind-spot.md",
+   "cto:introducedBy": {
+    "@id": "ct:emily-pronin"
+   },
+   "cto:level": "introductory",
+   "cto:supportedBy": {
+    "@id": "ct:chandrashekar-2021-bias-blind-spot-replication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6"
+    }
+   ],
+   "rdfs:label": "Bias blind spot",
+   "skos:altLabel": [
+    "blind spot bias",
+    "self-other asymmetry in perceived bias"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to see cognitive and motivational biases more readily in other people's judgments than in one's own, so that people rate themselves as less biased than their peers.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Bias blind spot",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:metacognition"
+    }
+   ]
+  },
+  {
    "@id": "ct:chrysippus",
    "@type": "cto:Person",
    "cto:contrastsWith": {
@@ -3247,6 +3320,90 @@
    "dcterms:title": "Why Can Only 24% Solve Bayesian Reasoning Problems in Natural Frequencies: Frequency Phobia in Spite of Probability Blindness",
    "schema:url": {
     "@id": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Bulletin 28(3), 369-381 (Pronin, Lin & Ross, 2002), Princeton University research portal",
+   "dcterms:title": "The bias blind spot: Perceptions of bias in self versus others",
+   "schema:url": {
+    "@id": "https://collaborate.princeton.edu/en/publications/the-bias-blind-spot-perceptions-of-bias-in-self-versus-others/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Trends in Cognitive Sciences 11(1), 37-43 (Pronin, 2007), author's copy hosted by UC San Diego",
+   "dcterms:title": "Perception and misperception of bias in human judgment",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mboyle//COGS2/readings/Perception%20and%20misperception%20of%20bias%20in%20human%20judgment.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Bulletin 31(5), 680-692 (Ehrlinger, Gilovich & Ross, 2005), author's copy hosted by Washington State University",
+   "dcterms:title": "Peering into the bias blind spot: People's assessments of bias in themselves and others",
+   "schema:url": {
+    "@id": "https://s3.wp.wsu.edu/uploads/sites/252/2014/10/EhrlingerGilovichRoss2005.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Management Science 61(10), 2468-2486 (Scopelliti, Morewedge, McCormick, Min, LeBrecht & Kassam, 2015), City Research Online",
+   "dcterms:title": "Bias Blind Spot: Structure, Measurement, and Consequences",
+   "schema:url": {
+    "@id": "https://openaccess.city.ac.uk/id/eprint/5901/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Judgment and Decision Making (Chandrashekar et al., 2021), DOAJ record",
+   "dcterms:title": "Agency and self-other asymmetries in perceived bias and shortcomings: Replications of the Bias Blind Spot and link to free will beliefs",
+   "schema:url": {
+    "@id": "https://doaj.org/article/4546ceb599b04b1fb8530d51ffa4821c"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "FORRT Replication Atlas",
+   "dcterms:title": "The Bias Blind Spot: Perceptions of Bias in Self Versus Others (replication record)",
+   "schema:url": {
+    "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/0146167202286008/"
    }
   },
   {

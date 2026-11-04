@@ -578,6 +578,78 @@
   ]
  },
  {
+  "id": "ct:bias-blind-spot",
+  "title": "Bias blind spot",
+  "aliases": [
+   "blind spot bias",
+   "self-other asymmetry in perceived bias"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/bias-blind-spot.md",
+  "created": "2026-11-04",
+  "summary": "The tendency to see cognitive and motivational biases more readily in other people's judgments than in one's own, so that people rate themselves as less biased than their peers.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:emily-pronin",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:pronin-lin-ross-2002-bias-blind-spot-studies",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:naive-realism",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:introspection-illusion",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:chandrashekar-2021-bias-blind-spot-replication",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://collaborate.princeton.edu/en/publications/the-bias-blind-spot-perceptions-of-bias-in-self-versus-others/",
+   "https://pages.ucsd.edu/~mboyle//COGS2/readings/Perception%20and%20misperception%20of%20bias%20in%20human%20judgment.pdf",
+   "https://s3.wp.wsu.edu/uploads/sites/252/2014/10/EhrlingerGilovichRoss2005.pdf",
+   "https://openaccess.city.ac.uk/id/eprint/5901/",
+   "https://doaj.org/article/4546ceb599b04b1fb8530d51ffa4821c",
+   "https://forrt.org/flora-replication-atlas/doi/10.1177/0146167202286008/"
+  ]
+ },
+ {
   "id": "ct:chrysippus",
   "title": "Chrysippus",
   "aliases": [

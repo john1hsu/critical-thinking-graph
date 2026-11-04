@@ -276,6 +276,33 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2000/01/rdf-schema#label> "Bias blind spot" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#altLabel> "blind spot bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#altLabel> "self-other asymmetry in perceived bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#definition> "The tendency to see cognitive and motivational biases more readily in other people's judgments than in one's own, so that people rate themselves as less biased than their peers." .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bias blind spot" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pronin-lin-ross-2002-bias-blind-spot-studies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/introspection-illusion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/naive-realism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/bias-blind-spot.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/emily-pronin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/chandrashekar-2021-bias-blind-spot-replication> .
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <http://www.w3.org/2000/01/rdf-schema#label> "Chrysippus" .
@@ -1113,6 +1140,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5> <https://schema.org/url> <https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> <http://purl.org/dc/terms/publisher> "Personality and Social Psychology Bulletin 28(3), 369-381 (Pronin, Lin & Ross, 2002), Princeton University research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> <http://purl.org/dc/terms/title> "The bias blind spot: Perceptions of bias in self versus others" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> <https://schema.org/url> <https://collaborate.princeton.edu/en/publications/the-bias-blind-spot-perceptions-of-bias-in-self-versus-others/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s2> <http://purl.org/dc/terms/publisher> "Trends in Cognitive Sciences 11(1), 37-43 (Pronin, 2007), author's copy hosted by UC San Diego" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s2> <http://purl.org/dc/terms/title> "Perception and misperception of bias in human judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s2> <https://schema.org/url> <https://pages.ucsd.edu/~mboyle//COGS2/readings/Perception%20and%20misperception%20of%20bias%20in%20human%20judgment.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s3> <http://purl.org/dc/terms/publisher> "Personality and Social Psychology Bulletin 31(5), 680-692 (Ehrlinger, Gilovich & Ross, 2005), author's copy hosted by Washington State University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s3> <http://purl.org/dc/terms/title> "Peering into the bias blind spot: People's assessments of bias in themselves and others" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s3> <https://schema.org/url> <https://s3.wp.wsu.edu/uploads/sites/252/2014/10/EhrlingerGilovichRoss2005.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s4> <http://purl.org/dc/terms/publisher> "Management Science 61(10), 2468-2486 (Scopelliti, Morewedge, McCormick, Min, LeBrecht & Kassam, 2015), City Research Online" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s4> <http://purl.org/dc/terms/title> "Bias Blind Spot: Structure, Measurement, and Consequences" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s4> <https://schema.org/url> <https://openaccess.city.ac.uk/id/eprint/5901/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s5> <http://purl.org/dc/terms/publisher> "Judgment and Decision Making (Chandrashekar et al., 2021), DOAJ record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s5> <http://purl.org/dc/terms/title> "Agency and self-other asymmetries in perceived bias and shortcomings: Replications of the Bias Blind Spot and link to free will beliefs" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s5> <https://schema.org/url> <https://doaj.org/article/4546ceb599b04b1fb8530d51ffa4821c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> <http://purl.org/dc/terms/publisher> "FORRT Replication Atlas" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> <http://purl.org/dc/terms/title> "The Bias Blind Spot: Perceptions of Bias in Self Versus Others (replication record)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> <https://schema.org/url> <https://forrt.org/flora-replication-atlas/doi/10.1177/0146167202286008/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Kirby)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s1> <http://purl.org/dc/terms/title> "Chrysippus (c. 280-207 B.C.E.)" .
