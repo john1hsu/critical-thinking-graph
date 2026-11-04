@@ -1286,6 +1286,90 @@
    ]
   },
   {
+   "@id": "ct:natural-frequencies",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:risk-communication"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:nested-sets-hypothesis"
+   },
+   "cto:counteracts": {
+    "@id": "ct:base-rate-neglect"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:gigerenzer-hoffrage-1995-frequency-formats-study"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/probabilistic-reasoning/natural-frequencies.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:ulrich-hoffrage"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:mcdowell-jacobs-2017-natural-frequencies-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5"
+    }
+   ],
+   "rdfs:label": "Natural frequency format",
+   "skos:altLabel": [
+    "frequency formats",
+    "natural frequencies",
+    "natural frequency representation",
+    "natural sampling format"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A way of presenting or re-expressing risk information as counts of cases drawn from one concrete reference group (for example \"8 of the 10 people with the condition test positive\") instead of as conditional probabilities, so that the base rate stays visible and Bayesian updating becomes simple counting.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Natural frequency format",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:nested-sets-hypothesis"
+    },
+    {
+     "@id": "ct:risk-communication"
+    }
+   ]
+  },
+  {
    "@id": "ct:organon",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -3630,6 +3714,76 @@
    "dcterms:title": "Crísipo de Solos y los indemostrables (Chrysippus of Soli and the Indemonstrables)",
    "schema:url": {
     "@id": "https://revistaschilenas.uchile.cl/handle/2250/15306?show=full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Psychological Review 102(4), 684-704 (Gigerenzer & Hoffrage, 1995), UC San Diego course copy",
+   "dcterms:title": "How to improve Bayesian reasoning without instruction: Frequency formats",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~scoulson/203/GG_How_1995.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Science 290(5500), 2261-2262 (Hoffrage, Lindsey, Hertwig & Gigerenzer, 2000), Max Planck Society repository",
+   "dcterms:title": "Communicating statistical information",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2102628_7/component/file_2102627/UH_Communicating_2000.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 9, 1833 (Weber, Binder & Krauss, 2018)",
+   "dcterms:title": "Why Can Only 24% Solve Bayesian Reasoning Problems in Natural Frequencies: Frequency Phobia in Spite of Probability Blindness",
+   "schema:url": {
+    "@id": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Cognition 245, 105722 (Sirota, Navarrete & Juanchich, 2024), University of Essex repository",
+   "dcterms:title": "When intuitive Bayesians need to be good readers: The problem-wording effect on Bayesian reasoning",
+   "schema:url": {
+    "@id": "https://repository.essex.ac.uk/37751/1/1-s2.0-S0010027724000088-main.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Behavioral and Brain Sciences 30(3) (Barbey & Sloman, 2007, authors' response), Cambridge University Press",
+   "dcterms:title": "Base-rate respect: From statistical formats to cognitive structures",
+   "schema:url": {
+    "@id": "https://core-cms.cambridgecore.org/core/journals/behavioral-and-brain-sciences/article/baserate-respect-from-statistical-formats-to-cognitive-structures/9DAADA1F4F18D0E10457D548E02A78F1"
    }
   },
   {

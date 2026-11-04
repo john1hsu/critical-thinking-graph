@@ -586,6 +586,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2000/01/rdf-schema#label> "Natural frequency format" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#altLabel> "frequency formats" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#altLabel> "natural frequencies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#altLabel> "natural frequency representation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#altLabel> "natural sampling format" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#definition> "A way of presenting or re-expressing risk information as counts of cases drawn from one concrete reference group (for example \"8 of the 10 people with the condition test positive\") instead of as conditional probabilities, so that the base rate stays visible and Bayesian updating becomes simple counting." .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural frequency format" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/nested-sets-hypothesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/nested-sets-hypothesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gigerenzer-hoffrage-1995-frequency-formats-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/natural-frequencies.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ulrich-hoffrage> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mcdowell-jacobs-2017-natural-frequencies-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2000/01/rdf-schema#label> "Organon" .
@@ -1298,6 +1330,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modus-ponens/s6> <https://schema.org/url> <https://revistaschilenas.uchile.cl/handle/2250/15306?show=full> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://purl.org/dc/terms/publisher> "Psychological Review 102(4), 684-704 (Gigerenzer & Hoffrage, 1995), UC San Diego course copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://purl.org/dc/terms/title> "How to improve Bayesian reasoning without instruction: Frequency formats" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <https://schema.org/url> <https://pages.ucsd.edu/~scoulson/203/GG_How_1995.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s2> <http://purl.org/dc/terms/publisher> "Science 290(5500), 2261-2262 (Hoffrage, Lindsey, Hertwig & Gigerenzer, 2000), Max Planck Society repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s2> <http://purl.org/dc/terms/title> "Communicating statistical information" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s2> <https://schema.org/url> <https://pure.mpg.de/pubman/item/item_2102628_7/component/file_2102627/UH_Communicating_2000.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s3> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 9, 1833 (Weber, Binder & Krauss, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s3> <http://purl.org/dc/terms/title> "Why Can Only 24% Solve Bayesian Reasoning Problems in Natural Frequencies: Frequency Phobia in Spite of Probability Blindness" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s3> <https://schema.org/url> <https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s4> <http://purl.org/dc/terms/publisher> "Cognition 245, 105722 (Sirota, Navarrete & Juanchich, 2024), University of Essex repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s4> <http://purl.org/dc/terms/title> "When intuitive Bayesians need to be good readers: The problem-wording effect on Bayesian reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s4> <https://schema.org/url> <https://repository.essex.ac.uk/37751/1/1-s2.0-S0010027724000088-main.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> <http://purl.org/dc/terms/publisher> "Behavioral and Brain Sciences 30(3) (Barbey & Sloman, 2007, authors' response), Cambridge University Press" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> <http://purl.org/dc/terms/title> "Base-rate respect: From statistical formats to cognitive structures" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> <https://schema.org/url> <https://core-cms.cambridgecore.org/core/journals/behavioral-and-brain-sciences/article/baserate-respect-from-statistical-formats-to-cognitive-structures/9DAADA1F4F18D0E10457D548E02A78F1> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Robin Smith)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://purl.org/dc/terms/title> "Aristotle's Logic" .

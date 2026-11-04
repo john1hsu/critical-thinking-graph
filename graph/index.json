@@ -1323,6 +1323,99 @@
   ]
  },
  {
+  "id": "ct:natural-frequencies",
+  "title": "Natural frequency format",
+  "aliases": [
+   "natural frequencies",
+   "frequency formats",
+   "natural frequency representation",
+   "natural sampling format"
+  ],
+  "type": "Technique",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/probabilistic-reasoning/natural-frequencies.md",
+  "created": "2026-11-04",
+  "summary": "A way of presenting or re-expressing risk information as counts of cases drawn from one concrete reference group (for example \"8 of the 10 people with the condition test positive\") instead of as conditional probabilities, so that the base rate stays visible and Bayesian updating becomes simple counting.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:nested-sets-hypothesis"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:base-rate-neglect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ulrich-hoffrage",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:gigerenzer-hoffrage-1995-frequency-formats-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:risk-communication",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:nested-sets-hypothesis",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:mcdowell-jacobs-2017-natural-frequencies-meta-analysis",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pages.ucsd.edu/~scoulson/203/GG_How_1995.pdf",
+   "https://pure.mpg.de/pubman/item/item_2102628_7/component/file_2102627/UH_Communicating_2000.pdf",
+   "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text",
+   "https://repository.essex.ac.uk/37751/1/1-s2.0-S0010027724000088-main.pdf",
+   "https://core-cms.cambridgecore.org/core/journals/behavioral-and-brain-sciences/article/baserate-respect-from-statistical-formats-to-cognitive-structures/9DAADA1F4F18D0E10457D548E02A78F1"
+  ]
+ },
+ {
   "id": "ct:organon",
   "title": "Organon",
   "aliases": [

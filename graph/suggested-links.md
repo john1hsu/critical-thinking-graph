@@ -27,5 +27,5 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.16 | `ct:organon` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:posterior-analytics` |
 | 1.13 | `ct:affirming-the-consequent` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:validity` |
 | 1.13 | `ct:modus-ponens` | `ct:soundness` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
-| 0.98 | `ct:principle-of-charity` | `ct:validity` | `ct:argument`, `ct:soundness` |
-| 0.98 | `ct:soundness` | `ct:straw-man-fallacy` | `ct:argument`, `ct:principle-of-charity` |
+| 1.12 | `ct:amos-tversky` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:gerd-gigerenzer` |
+| 1.12 | `ct:heuristics-and-biases-program` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:gerd-gigerenzer` |

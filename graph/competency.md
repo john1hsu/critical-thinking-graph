@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:base-rate-neglect` | cto:ProbabilisticFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -20,6 +18,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
 | `ct:premortem` | 2 | groupthink, overconfidence-effect |
 | `ct:lateral-reading` | 1 | misinformation-and-disinformation |
+| `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
 
 ## Heuristic -> bias -> remedy chains
@@ -38,6 +37,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 | `ct:lateral-reading` | mixed |  |
+| `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
 | `ct:premortem` | mixed |  |
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
