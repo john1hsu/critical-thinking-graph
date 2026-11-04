@@ -676,6 +676,101 @@
   ]
  },
  {
+  "id": "ct:availability-heuristic",
+  "title": "Availability heuristic",
+  "aliases": [
+   "availability",
+   "availability bias",
+   "availability rule"
+  ],
+  "type": "Heuristic",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/availability-heuristic.md",
+  "created": "2026-11-04",
+  "summary": "The mental shortcut of judging how frequent or probable something is by how easily instances or associations come to mind, which works when ease of recall tracks real frequency and misleads when vividness, recency or media exposure drive recall instead.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-and-adjustment-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:produces",
+    "object": "ct:illusory-correlation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:lichtenstein-1978-judged-frequency-of-lethal-events",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:ease-of-retrieval-effect",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:yeager-2019-national-sample-replications",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://noorsiddiqui.com/papers/TverskyKahneman.pdf",
+   "https://scholarsbank.uoregon.edu/xmlui/handle/1794/22549",
+   "https://api.isr.umich.edu/?p=190598",
+   "https://repository.upenn.edu/marketing_papers/382",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6918461",
+   "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf"
+  ]
+ },
+ {
   "id": "ct:base-rate-neglect",
   "title": "Base-rate neglect",
   "aliases": [

@@ -664,6 +664,95 @@
    ]
   },
   {
+   "@id": "ct:availability-heuristic",
+   "@type": "cto:Heuristic",
+   "cto:challengedBy": {
+    "@id": "ct:yeager-2019-national-sample-replications"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:lichtenstein-1978-judged-frequency-of-lethal-events"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:ease-of-retrieval-effect"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/availability-heuristic.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:produces": {
+    "@id": "ct:illusory-correlation"
+   },
+   "cto:requires": {
+    "@id": "ct:heuristics-and-biases-program"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s6"
+    }
+   ],
+   "rdfs:label": "Availability heuristic",
+   "skos:altLabel": [
+    "availability bias",
+    "availability rule",
+    "availability"
+   ],
+   "skos:broader": {
+    "@id": "ct:heuristic"
+   },
+   "skos:definition": "The mental shortcut of judging how frequent or probable something is by how easily instances or associations come to mind, which works when ease of recall tracks real frequency and misleads when vividness, recency or media exposure drive recall instead.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Availability heuristic",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-and-adjustment-heuristic"
+    },
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    }
+   ]
+  },
+  {
    "@id": "ct:base-rate-neglect",
    "@type": "cto:ProbabilisticFallacy",
    "cto:challengedBy": {
@@ -4235,6 +4324,90 @@
    "dcterms:title": "Aristotle summary",
    "schema:url": {
     "@id": "https://www.britannica.com/summary/Aristotle"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Cognitive Psychology 5(2), 207-232 (Tversky & Kahneman, 1973), author-hosted copy",
+   "dcterms:title": "Availability: A heuristic for judging frequency and probability",
+   "schema:url": {
+    "@id": "https://noorsiddiqui.com/papers/TverskyKahneman.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology - Human Learning and Memory 4, 551-578 (Lichtenstein, Slovic, Fischhoff, Layman & Combs, 1978), University of Oregon Scholars' Bank",
+   "dcterms:title": "Judged frequency of lethal events",
+   "schema:url": {
+    "@id": "https://scholarsbank.uoregon.edu/xmlui/handle/1794/22549"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 61(2), 195-202 (Schwarz, Bless, Strack, Klumpp, Rittenauer-Schatka & Simons, 1991), University of Michigan ISR record",
+   "dcterms:title": "Ease of retrieval as information: Another look at the availability heuristic",
+   "schema:url": {
+    "@id": "https://api.isr.umich.edu/?p=190598"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Psychological Bulletin (Weingarten & Hutchinson, 2018), University of Pennsylvania ScholarlyCommons",
+   "dcterms:title": "Does ease mediate the ease-of-retrieval effect? A meta-analysis",
+   "schema:url": {
+    "@id": "https://repository.upenn.edu/marketing_papers/382"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 117(6), e84-e99 (Yeager, Krosnick, Visser, Holbrook & Tahk, 2019), PubMed Central",
+   "dcterms:title": "Moderation of classic social psychological effects by demographics in the U.S. adult population",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6918461"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Center for the Study of Intelligence, CIA (Heuer, 1999)",
+   "dcterms:title": "Psychology of Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf"
    }
   },
   {

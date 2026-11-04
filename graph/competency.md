@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:availability-heuristic` | cto:Heuristic |
 | `ct:illicit-major` | cto:FormalFallacy |
 
 ## Most useful remedies
@@ -30,7 +31,9 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 
 _For each heuristic, which biases can it produce and what counteracts them?_ — `queries/03-heuristic-bias-remedy-chains.rq`
 
-_No results._
+| heuristic | bias | remedy |
+|---|---|---|
+| `ct:availability-heuristic` | `ct:illusory-correlation` |  |
 
 ## Contested or failed-replication claims
 
@@ -39,6 +42,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | node | status | challenger |
 |---|---|---|
 | `ct:actively-open-minded-thinking` | mixed |  |
+| `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:debiasing-training-games` | mixed |  |
