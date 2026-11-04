@@ -1355,6 +1355,110 @@
   ]
  },
  {
+  "id": "ct:deliberate-reflection",
+  "title": "Deliberate reflection",
+  "aliases": [
+   "structured reflection",
+   "diagnostic reflection",
+   "guided reflection",
+   "reflective reasoning procedure"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/deliberate-reflection.md",
+  "created": "2026-11-04",
+  "summary": "A structured debiasing procedure, developed in research on medical diagnosis, in which a person who has formed a first impression lists the findings that support and contradict it, then assumes it is wrong and tests alternative explanations the same way before committing to a final judgment.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:availability-heuristic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:mamede-2010-availability-bias-reflection-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:silvia-mamede",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:henk-schmidt",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:salient-distracting-features",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:prakash-2019-reflective-strategies-meta-analysis",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:lambe-2018-guided-reflection-null-study",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:clinical-diagnostic-reasoning",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/20841533/",
+   "https://repub.eur.nl/pub/17793",
+   "https://qualitysafety.bmj.com/content/21/4/295",
+   "https://repub.eur.nl/pub/118085/Repub_118085_O-A.pdf",
+   "https://researchnow.flinders.edu.au/en/publications/interventions-to-improve-diagnostic-decision-making-a-systematic-/",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02297/pdf"
+  ]
+ },
+ {
   "id": "ct:epistemology",
   "title": "Epistemology",
   "aliases": [
