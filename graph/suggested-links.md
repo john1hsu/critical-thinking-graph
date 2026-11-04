@@ -20,7 +20,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.41 | `ct:deductive-reasoning` | `ct:principle-of-charity` | `ct:argument`, `ct:soundness`, `ct:toulmin-model` |
 | 1.31 | `ct:soundness` | `ct:toulmin-model` | `ct:argument`, `ct:deductive-reasoning`, `ct:principle-of-charity` |
 | 1.25 | `ct:modus-ponens` | `ct:organon` | `ct:deductive-reasoning`, `ct:stoic-logic` |
-| 1.20 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
+| 1.17 | `ct:anchoring-effect` | `ct:base-rate-neglect` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
+| 1.17 | `ct:anchoring-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 1.16 | `ct:affirming-the-consequent` | `ct:chrysippus` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.16 | `ct:chrysippus` | `ct:method-of-counterexample` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:modus-ponens` |
 | 1.16 | `ct:organon` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:posterior-analytics` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.13 | `ct:modus-ponens` | `ct:soundness` | `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:validity` |
 | 0.98 | `ct:principle-of-charity` | `ct:validity` | `ct:argument`, `ct:soundness` |
 | 0.98 | `ct:soundness` | `ct:straw-man-fallacy` | `ct:argument`, `ct:principle-of-charity` |
-| 0.91 | `ct:deductive-reasoning` | `ct:judgment-and-decision-making` | `ct:cognitive-psychology` |

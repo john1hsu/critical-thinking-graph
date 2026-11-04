@@ -396,6 +396,100 @@
   ]
  },
  {
+  "id": "ct:base-rate-neglect",
+  "title": "Base-rate neglect",
+  "aliases": [
+   "base rate fallacy",
+   "base-rate fallacy",
+   "base rate neglect",
+   "prior neglect"
+  ],
+  "type": "ProbabilisticFallacy",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/probabilistic-reasoning/base-rate-neglect.md",
+  "created": "2026-11-04",
+  "summary": "The error of judging how likely something is from case-specific evidence alone while ignoring or underweighting how common it is in the first place (its base rate or prior probability).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:probabilistic-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:representativeness-heuristic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:kahneman-tversky-1972-lawyer-engineer-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:bayesian-reasoning",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:koehler-1996-base-rate-fallacy-reconsidered",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Before looking at this evidence, how common is the outcome in the relevant population?",
+   "How often would this same evidence show up if the outcome were absent (the false-positive rate)?",
+   "Out of 1,000 comparable cases, how many would show the evidence and actually have the outcome?",
+   "Is the base rate I am using drawn from a reference class that really fits this case?"
+  ],
+  "source_urls": [
+   "https://scholarsbank.uoregon.edu//bitstreams/2fbae090-7a99-4301-8402-26e6e3a4c00c/download",
+   "https://cris.huji.ac.il/en/publications/the-base-rate-fallacy-in-probability-judgments/",
+   "https://pages.ucsd.edu/~scoulson/203/GG_How_1995.pdf",
+   "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/base-rate-fallacy-reconsidered-descriptive-normative-and-methodological-challenges/5C0138815B364140B87110364055683B",
+   "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text"
+  ]
+ },
+ {
   "id": "ct:chrysippus",
   "title": "Chrysippus",
   "aliases": [
@@ -844,6 +938,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
    },
    {
     "predicate": "cto:requires",

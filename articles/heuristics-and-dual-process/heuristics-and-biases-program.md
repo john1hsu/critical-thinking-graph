@@ -13,7 +13,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [ct:bounded-rationality]
-related: [ct:anchoring-effect, ct:representativeness-heuristic, ct:availability-heuristic, ct:dual-process-theory, ct:fast-and-frugal-heuristics, ct:conjunction-fallacy]
+related: [ct:anchoring-effect, ct:representativeness-heuristic, ct:availability-heuristic, ct:dual-process-theory, ct:fast-and-frugal-heuristics, ct:conjunction-fallacy, ct:base-rate-neglect]
 requires: [ct:cognitive-bias]
 relations:
   - {predicate: introducedBy, object: ct:amos-tversky, source: s1, confidence: high}

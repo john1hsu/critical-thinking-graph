@@ -403,6 +403,90 @@
    ]
   },
   {
+   "@id": "ct:base-rate-neglect",
+   "@type": "cto:ProbabilisticFallacy",
+   "cto:challengedBy": {
+    "@id": "ct:koehler-1996-base-rate-fallacy-reconsidered"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:kahneman-tversky-1972-lawyer-engineer-study"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:representativeness-heuristic"
+   },
+   "cto:file": "articles/probabilistic-reasoning/base-rate-neglect.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5"
+    }
+   ],
+   "rdfs:label": "Base-rate neglect",
+   "skos:altLabel": [
+    "base rate fallacy",
+    "base rate neglect",
+    "base-rate fallacy",
+    "prior neglect"
+   ],
+   "skos:broader": {
+    "@id": "ct:probabilistic-fallacy"
+   },
+   "skos:definition": "The error of judging how likely something is from case-specific evidence alone while ignoring or underweighting how common it is in the first place (its base rate or prior probability).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Base-rate neglect",
+   "skos:related": [
+    {
+     "@id": "ct:conjunction-fallacy"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    }
+   ]
+  },
+  {
    "@id": "ct:chrysippus",
    "@type": "cto:Person",
    "cto:contrastsWith": {
@@ -865,6 +949,9 @@
     },
     {
      "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:base-rate-neglect"
     },
     {
      "@id": "ct:conjunction-fallacy"
@@ -2016,6 +2103,105 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:base-rate-neglect"
+   },
+   "rdfs:label": "Before looking at this evidence, how common is the outcome in the relevant population?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:base-rate-neglect"
+   },
+   "rdfs:label": "How often would this same evidence show up if the outcome were absent (the false-positive rate)?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:base-rate-neglect"
+   },
+   "rdfs:label": "Out of 1,000 comparable cases, how many would show the evidence and actually have the outcome?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:base-rate-neglect"
+   },
+   "rdfs:label": "Is the base rate I am using drawn from a reference class that really fits this case?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:base-rate-neglect"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "This account is about 98% likely to be compromised."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Only about 1 in 1,000 accounts is compromised, so most flags are false alarms and the real probability is under 5%."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The screening tool flags 99% of compromised accounts."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "It wrongly flags only 2% of legitimate accounts."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/p3",
+   "@type": "aif:I-node",
+   "aif:claimText": "This account was flagged."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/p2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map/p3"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -2590,6 +2776,76 @@
    "dcterms:title": "Aristotle summary",
    "schema:url": {
     "@id": "https://www.britannica.com/summary/Aristotle"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Oregon Research Institute Research Bulletin 12(4) (Kahneman & Tversky, 1972), University of Oregon Scholars' Bank",
+   "dcterms:title": "On the Psychology of Prediction",
+   "schema:url": {
+    "@id": "https://scholarsbank.uoregon.edu//bitstreams/2fbae090-7a99-4301-8402-26e6e3a4c00c/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Acta Psychologica 44(3), 211-233 (Bar-Hillel, 1980), Hebrew University research portal",
+   "dcterms:title": "The base-rate fallacy in probability judgments",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/the-base-rate-fallacy-in-probability-judgments/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Psychological Review 102(4), 684-704 (Gigerenzer & Hoffrage, 1995), UC San Diego course copy",
+   "dcterms:title": "How to improve Bayesian reasoning without instruction: Frequency formats",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~scoulson/203/GG_How_1995.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Behavioral and Brain Sciences 19(1), 1-17 (Koehler, 1996), Cambridge University Press",
+   "dcterms:title": "The base rate fallacy reconsidered: Descriptive, normative, and methodological challenges",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/base-rate-fallacy-reconsidered-descriptive-normative-and-methodological-challenges/5C0138815B364140B87110364055683B"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 9, 1833 (Weber, Binder & Krauss, 2018)",
+   "dcterms:title": "Why Can Only 24% Solve Bayesian Reasoning Problems in Natural Frequencies: Frequency Phobia in Spite of Probability Blindness",
+   "schema:url": {
+    "@id": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text"
    }
   },
   {

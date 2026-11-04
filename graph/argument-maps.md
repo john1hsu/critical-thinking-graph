@@ -13,6 +13,17 @@ flowchart TD
   o2["The slowdown matches the leak hypothesis but does not rule out any rival cause."] -. attacks .-> ra
 ```
 
+## Base-rate neglect (`ct:base-rate-neglect`)
+
+```mermaid
+flowchart TD
+  p1["The screening tool flags 99% of compromised accounts."] --> ra{{"fallacious"}}
+  p2["It wrongly flags only 2% of legitimate accounts."] --> ra{{"fallacious"}}
+  p3["This account was flagged."] --> ra{{"fallacious"}}
+  ra --> c["This account is about 98% likely to be compromised."]
+  o1["Only about 1 in 1,000 accounts is compromised, so most flags are false alarms and the real probability is under 5%."] -. attacks .-> ra
+```
+
 ## Deductive reasoning (`ct:deductive-reasoning`)
 
 ```mermaid
