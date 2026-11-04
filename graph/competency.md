@@ -59,7 +59,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
-| `ct:argument` | cto:Concept |
 | `ct:argumentation-theory` | cto:Field |
 | `ct:epistemology` | cto:Field |
 | `ct:overconfidence-effect` | cto:CognitiveBias |

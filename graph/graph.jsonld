@@ -2746,6 +2746,101 @@
    ]
   },
   {
+   "@id": "ct:topics",
+   "@type": "cto:Work",
+   "cto:authoredBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:prior-analytics"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/topics.md",
+   "cto:hasPart": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:influenced": {
+    "@id": "ct:argumentation-schemes"
+   },
+   "cto:introduces": {
+    "@id": "ct:argument"
+   },
+   "cto:level": "intermediate",
+   "cto:partOf": {
+    "@id": "ct:organon"
+   },
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s6"
+    }
+   ],
+   "rdfs:label": "Topics",
+   "skos:altLabel": [
+    "Aristotle's Topics",
+    "Topica"
+   ],
+   "skos:broader": {
+    "@id": "ct:organon"
+   },
+   "skos:definition": "Aristotle's eight-book treatise (4th century BCE) on dialectic, the question-and-answer practice of attacking and defending a thesis from generally accepted opinions, which gives the earliest surviving systematic account of how arguments are found, built and tested, and whose catalogue of argument strategies (topoi) is the ancestor of modern argumentation schemes.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Topics",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:boethius"
+    },
+    {
+     "@id": "ct:dialectic"
+    },
+    {
+     "@id": "ct:endoxa"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    },
+    {
+     "@id": "ct:posterior-analytics"
+    },
+    {
+     "@id": "ct:predicables"
+    },
+    {
+     "@id": "ct:prior-analytics"
+    }
+   ]
+  },
+  {
    "@id": "ct:toulmin-model",
    "@type": "cto:Framework",
    "cto:contrastsWith": {
@@ -5810,6 +5905,90 @@
    "dcterms:title": "Straw man",
    "schema:url": {
     "@id": "https://neiudc.neiu.edu/phil-pub/7"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "Topics, Book I (trans. W. A. Pickard-Cambridge)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/topics.1.i.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Robin Smith)",
+   "dcterms:title": "Aristotle's Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Catarina Dutilh Novaes)",
+   "dcterms:title": "Argument and Argumentation, Historical Supplement: Argumentation in the history of philosophy",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/argument/supplement.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Aristotle: Logic",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Douglas Walton, Christopher Reed and Fabrizio Macagno, Cambridge University Press (2008)",
+   "dcterms:title": "The History of Schemes, in Argumentation Schemes (ch. 8)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/argumentation-schemes/history-of-schemes/B615DD4E60186C0A192A5B2C75523DA1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy",
+   "dcterms:title": "Anicius Manlius Severinus Boethius",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/boethius/"
    }
   },
   {

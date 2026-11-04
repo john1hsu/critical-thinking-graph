@@ -2853,6 +2853,114 @@
   ]
  },
  {
+  "id": "ct:topics",
+  "title": "Topics",
+  "aliases": [
+   "Topica",
+   "Aristotle's Topics"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/topics.md",
+  "created": "2026-11-04",
+  "summary": "Aristotle's eight-book treatise (4th century BCE) on dialectic, the question-and-answer practice of attacking and defending a thesis from generally accepted opinions, which gives the earliest surviving systematic account of how arguments are found, built and tested, and whose catalogue of argument strategies (topoi) is the ancestor of modern argumentation schemes.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:posterior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:endoxa"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:predicables"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:boethius"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:aristotle",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:organon",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:argument",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:hasPart",
+    "object": "ct:sophistical-refutations",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:argumentation-schemes",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:prior-analytics",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://classics.mit.edu/Aristotle/topics.1.i.html",
+   "https://plato.stanford.edu/entries/aristotle-logic/",
+   "https://plato.stanford.edu/entries/argument/supplement.html",
+   "https://iep.utm.edu/aristotle-logic/",
+   "https://www.cambridge.org/core/books/argumentation-schemes/history-of-schemes/B615DD4E60186C0A192A5B2C75523DA1",
+   "https://plato.stanford.edu/entries/boethius/"
+  ]
+ },
+ {
   "id": "ct:toulmin-model",
   "title": "Toulmin model of argument",
   "aliases": [

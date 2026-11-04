@@ -2178,6 +2178,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s6> <https://schema.org/url> <https://neiudc.neiu.edu/phil-pub/7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive (MIT)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <http://purl.org/dc/terms/title> "Topics, Book I (trans. W. A. Pickard-Cambridge)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <https://schema.org/url> <https://classics.mit.edu/Aristotle/topics.1.i.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s2> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Robin Smith)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s2> <http://purl.org/dc/terms/title> "Aristotle's Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s2> <https://schema.org/url> <https://plato.stanford.edu/entries/aristotle-logic/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s3> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Catarina Dutilh Novaes)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s3> <http://purl.org/dc/terms/title> "Argument and Argumentation, Historical Supplement: Argumentation in the history of philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s3> <https://schema.org/url> <https://plato.stanford.edu/entries/argument/supplement.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s4> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s4> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s4> <http://purl.org/dc/terms/title> "Aristotle: Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s4> <https://schema.org/url> <https://iep.utm.edu/aristotle-logic/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s5> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s5> <http://purl.org/dc/terms/publisher> "Douglas Walton, Christopher Reed and Fabrizio Macagno, Cambridge University Press (2008)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s5> <http://purl.org/dc/terms/title> "The History of Schemes, in Argumentation Schemes (ch. 8)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s5> <https://schema.org/url> <https://www.cambridge.org/core/books/argumentation-schemes/history-of-schemes/B615DD4E60186C0A192A5B2C75523DA1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s6> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s6> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s6> <http://purl.org/dc/terms/title> "Anicius Manlius Severinus Boethius" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s6> <https://schema.org/url> <https://plato.stanford.edu/entries/boethius/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/publisher> "Cambridge University Press (Toulmin, 2003)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s1> <http://purl.org/dc/terms/title> "The Uses of Argument (Updated Edition): Preface to the Updated Edition" .
@@ -2331,6 +2367,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/isaac-watts> .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2000/01/rdf-schema#label> "Topics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#altLabel> "Aristotle's Topics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#altLabel> "Topica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#definition> "Aristotle's eight-book treatise (4th century BCE) on dialectic, the question-and-answer practice of attacking and defending a thesis from generally accepted opinions, which gives the earliest surviving systematic account of how arguments are found, built and tested, and whose catalogue of argument strategies (topoi) is the ancestor of modern argumentation schemes." .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Topics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/boethius> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endoxa> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predicables> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/topics.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasPart> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2000/01/rdf-schema#label> "Toulmin model of argument" .
