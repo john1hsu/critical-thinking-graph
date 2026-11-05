@@ -171,6 +171,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-fallacies/undistributed-middle.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-logic/deductive-reasoning.md" .
@@ -1840,6 +1847,98 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s4> <https://schema.org/url> <https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1> <http://purl.org/dc/terms/publisher> "Philosophy 103: Introduction to Logic, Lander University" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1> <http://purl.org/dc/terms/title> "Syllogistic Fallacy 2: Fallacy of the Undistributed Middle Term" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1> <https://schema.org/url> <https://philosophy.lander.Edu/logic/middle_fall.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2> <http://purl.org/dc/terms/publisher> "Philosophy 3304: Introduction to Logic, Dallas Baptist University (Naugle)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2> <http://purl.org/dc/terms/title> "Rules of the Categorical Syllogism" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2> <https://schema.org/url> <https://www3.dbu.edu/Naugle/pdf/2302_handouts/categorical_syllogisms.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Lagerlund, rev. 2026)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3> <http://purl.org/dc/terms/title> "Medieval Theories of the Syllogism" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3> <https://schema.org/url> <https://plato.stanford.edu/entries/medieval-syllogism/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> <http://purl.org/dc/terms/publisher> "Psychonomic Bulletin & Review 25, 2141–2174 (Trippas et al., 2018)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> <http://purl.org/dc/terms/title> "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> <https://schema.org/url> <https://link.springer.com/10.3758/s13423-018-1460-7> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the shared term ever used to speak about every member of its class, in either premise?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Could the two groups in the conclusion each overlap a different part of the shared class?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Would I still accept this form if the conclusion were something I believed to be false?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The new printing vendor is one of our certified suppliers." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Neither premise is about everyone who uses encrypted file transfer, so the vendor may belong to a part of that group that contains no certified supplier." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Plenty of uncertified firms use encrypted transfer; the shared trait does not establish membership." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "All of our certified suppliers use encrypted file transfer." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "The new printing vendor uses encrypted file transfer." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/c> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2000/01/rdf-schema#label> "Undistributed middle" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of the undistributed middle" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#altLabel> "undistributed middle term" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#definition> "The syllogistic fallacy committed when the middle term, the term shared by both premises, is not distributed in either premise, so each premise may be about a different part of its class and nothing links the conclusion's two terms." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Undistributed middle" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#exploits> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/undistributed-middle.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#invalidFormOf> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning#graph> {
@@ -4010,6 +4109,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
@@ -4061,6 +4161,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
@@ -4127,9 +4228,13 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#exploitedBy> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
@@ -4160,7 +4265,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInvalidCounterpart> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInvalidCounterpart> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -4310,7 +4417,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/donald-davidson> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
@@ -4352,8 +4461,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
@@ -4430,6 +4541,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illusory-correlation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
@@ -4577,6 +4689,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/methodology-of-scientific-research-programmes> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
@@ -4862,6 +4975,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-scientific-discovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -4909,9 +5023,15 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/ulrich-hoffrage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ulrich-hoffrage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ulrich-hoffrage> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/universal-audience> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
@@ -4932,6 +5052,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/van-eemeren-garssen-meuffels-2002-freedom-rule-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -4939,6 +5060,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/diagrammatic-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/verifiability-criterion> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/vertical-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .

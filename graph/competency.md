@@ -18,7 +18,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, confirmation-bias, fundamental-attribution-error |
 | `ct:pragma-dialectics` | 3 | Straw man fallacy, Tu quoque, ad-hominem |
 | `ct:prebunking` | 3 | ad-hominem, false-dilemma, misinformation-and-disinformation |
-| `ct:venn-diagram-test` | 3 | Illicit major, illicit-minor, undistributed-middle |
+| `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:debiasing` | 2 | Overconfidence effect, confirmation-bias |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
@@ -81,6 +81,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:prebunking` | cto:Technique |
 | `ct:tu-quoque` | cto:InformalFallacy |
+| `ct:undistributed-middle` | cto:FormalFallacy |
 
 ## Orphan articles (gap)
 

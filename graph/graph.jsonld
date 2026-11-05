@@ -4019,6 +4019,91 @@
    ]
   },
   {
+   "@id": "ct:undistributed-middle",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:illicit-major"
+   },
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:distribution-of-terms"
+   },
+   "cto:exploits": {
+    "@id": "ct:belief-bias"
+   },
+   "cto:file": "articles/formal-fallacies/undistributed-middle.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4"
+    }
+   ],
+   "rdfs:label": "Undistributed middle",
+   "skos:altLabel": [
+    "fallacy of the undistributed middle",
+    "undistributed middle term"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The syllogistic fallacy committed when the middle term, the term shared by both premises, is not distributed in either premise, so each premise may be about a different part of its class and nothing links the conclusion's two terms.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Undistributed middle",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:illicit-minor"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:validity",
    "@type": "cto:Concept",
    "cto:contrastsWith": [
@@ -8300,6 +8385,62 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University",
+   "dcterms:title": "Syllogistic Fallacy 2: Fallacy of the Undistributed Middle Term",
+   "schema:url": {
+    "@id": "https://philosophy.lander.Edu/logic/middle_fall.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Philosophy 3304: Introduction to Logic, Dallas Baptist University (Naugle)",
+   "dcterms:title": "Rules of the Categorical Syllogism",
+   "schema:url": {
+    "@id": "https://www3.dbu.edu/Naugle/pdf/2302_handouts/categorical_syllogisms.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Lagerlund, rev. 2026)",
+   "dcterms:title": "Medieval Theories of the Syllogism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/medieval-syllogism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Psychonomic Bulletin & Review 25, 2141–2174 (Trippas et al., 2018)",
+   "dcterms:title": "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data",
+   "schema:url": {
+    "@id": "https://link.springer.com/10.3758/s13423-018-1460-7"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s1",
    "@type": "cto:Source",
    "cto:sourceType": "scholarly-encyclopedia",
@@ -8732,6 +8873,104 @@
    ],
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:undistributed-middle"
+   },
+   "rdfs:label": "Is the shared term ever used to speak about every member of its class, in either premise?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:undistributed-middle"
+   },
+   "rdfs:label": "Could the two groups in the conclusion each overlap a different part of the shared class?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:undistributed-middle"
+   },
+   "rdfs:label": "Would I still accept this form if the conclusion were something I believed to be false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:undistributed-middle"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The new printing vendor is one of our certified suppliers."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Neither premise is about everyone who uses encrypted file transfer, so the vendor may belong to a part of that group that contains no certified supplier."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Plenty of uncertified firms use encrypted transfer; the shared trait does not establish membership."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "All of our certified suppliers use encrypted file transfer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The new printing vendor uses encrypted file transfer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map"
    }
   }
  ]

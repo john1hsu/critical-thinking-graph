@@ -4216,6 +4216,98 @@
   ]
  },
  {
+  "id": "ct:undistributed-middle",
+  "title": "Undistributed middle",
+  "aliases": [
+   "fallacy of the undistributed middle",
+   "undistributed middle term"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/undistributed-middle.md",
+  "created": "2026-11-05",
+  "summary": "The syllogistic fallacy committed when the middle term, the term shared by both premises, is not distributed in either premise, so each premise may be about a different part of its class and nothing links the conclusion's two terms.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-minor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:categorical-syllogism",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:distribution-of-terms",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:illicit-major",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:exploits",
+    "object": "ct:belief-bias",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the shared term ever used to speak about every member of its class, in either premise?",
+   "Could the two groups in the conclusion each overlap a different part of the shared class?",
+   "Would I still accept this form if the conclusion were something I believed to be false?"
+  ],
+  "source_urls": [
+   "https://philosophy.lander.Edu/logic/middle_fall.html",
+   "https://www3.dbu.edu/Naugle/pdf/2302_handouts/categorical_syllogisms.pdf",
+   "https://plato.stanford.edu/entries/medieval-syllogism/",
+   "https://link.springer.com/10.3758/s13423-018-1460-7"
+  ]
+ },
+ {
   "id": "ct:validity",
   "title": "Validity",
   "aliases": [

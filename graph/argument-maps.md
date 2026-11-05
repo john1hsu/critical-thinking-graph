@@ -97,3 +97,14 @@ flowchart TD
   o2["Her lateness may justify asking her to explain herself or to follow the rule too, not dropping the rule."] -. attacks .-> ra
 ```
 
+## Undistributed middle (`ct:undistributed-middle`)
+
+```mermaid
+flowchart TD
+  p1["All of our certified suppliers use encrypted file transfer."] --> ra{{"invalid"}}
+  p2["The new printing vendor uses encrypted file transfer."] --> ra{{"invalid"}}
+  ra --> c["The new printing vendor is one of our certified suppliers."]
+  o1["Neither premise is about everyone who uses encrypted file transfer, so the vendor may belong to a part of that group that contains no certified supplier."] -. attacks .-> ra
+  o2["Plenty of uncertified firms use encrypted transfer; the shared trait does not establish membership."] -. attacks .-> ra
+```
+
