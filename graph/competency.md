@@ -49,8 +49,9 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | node | status | challenger |
 |---|---|---|
 | `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
-| `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
 | `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
+| `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
+| `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
@@ -88,6 +89,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:hypothesis-testing` | cto:Method |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:informal-fallacy` | cto:Concept |
+| `ct:justified-true-belief` | cto:Concept |
 | `ct:key-assumptions-check` | cto:Technique |
 | `ct:misinformation-and-disinformation` | cto:Phenomenon |
 | `ct:modus-tollens` | cto:ReasoningForm |

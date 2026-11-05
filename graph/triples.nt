@@ -1128,6 +1128,33 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/the-theory-of-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2000/01/rdf-schema#label> "Justified true belief" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#altLabel> "JTB account of knowledge" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#altLabel> "JTB analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#altLabel> "tripartite analysis of knowledge" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#definition> "The proposal that a person knows a claim if and only if the claim is true, they believe it, and they are justified in believing it; long treated as the standard analysis of propositional knowledge until Gettier cases showed the three conditions are not jointly sufficient." .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#prefLabel> "Justified true belief" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/edmund-gettier> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemic-regress-problem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gettier-problem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gettier-problem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/classical-infallibilism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/reliabilism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/justified-true-belief.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2000/01/rdf-schema#label> "Key assumptions check" .
@@ -2764,6 +2791,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6> <https://schema.org/url> <https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Edwards-Ward> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Steup, Fall 2005 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s1> <http://purl.org/dc/terms/title> "The Analysis of Knowledge" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/fall2005/entries/knowledge-analysis/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Chappell, Summer 2024 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s2> <http://purl.org/dc/terms/title> "Plato on Knowledge in the Theaetetus" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2024/entries/plato-theaetetus/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s3> <http://purl.org/dc/terms/publisher> "Julien Dutant, Philosophical Perspectives 29(1), 95-145 (2015), PhilArchive record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s3> <http://purl.org/dc/terms/title> "The Legend of the Justified True Belief Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s3> <https://schema.org/url> <https://philarchive.org/rec/DUTTLO-3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <http://purl.org/dc/terms/publisher> "Edmund L. Gettier, Analysis 23(6), 121-123 (1963); course copy, University of Illinois" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <http://purl.org/dc/terms/title> "Is Justified True Belief Knowledge?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <https://schema.org/url> <https://courses.grainger.illinois.edu/PHYS419/sp2021/Gettier.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://purl.org/dc/terms/publisher> "US Government, Central Intelligence Agency, Center for the Study of Intelligence (March 2009)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://purl.org/dc/terms/title> "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis" .

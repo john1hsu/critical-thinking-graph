@@ -2753,6 +2753,79 @@
   ]
  },
  {
+  "id": "ct:justified-true-belief",
+  "title": "Justified true belief",
+  "aliases": [
+   "JTB analysis",
+   "tripartite analysis of knowledge",
+   "JTB account of knowledge"
+  ],
+  "type": "Concept",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/philosophy-of-reasoning/justified-true-belief.md",
+  "created": "2026-11-05",
+  "summary": "The proposal that a person knows a claim if and only if the claim is true, they believe it, and they are justified in believing it; long treated as the standard analysis of propositional knowledge until Gettier cases showed the three conditions are not jointly sufficient.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gettier-problem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:plato"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:edmund-gettier"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemic-regress-problem"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gettier-problem",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:reliabilism",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:classical-infallibilism",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/fall2005/entries/knowledge-analysis/",
+   "https://plato.stanford.edu/archives/sum2024/entries/plato-theaetetus/",
+   "https://philarchive.org/rec/DUTTLO-3",
+   "https://courses.grainger.illinois.edu/PHYS419/sp2021/Gettier.pdf"
+  ]
+ },
+ {
   "id": "ct:key-assumptions-check",
   "title": "Key assumptions check",
   "aliases": [
