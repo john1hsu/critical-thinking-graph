@@ -3103,6 +3103,74 @@
    ]
   },
   {
+   "@id": "ct:pope-sixtus-v",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/pope-sixtus-v.md",
+   "cto:influencedBy": {
+    "@id": "ct:council-of-trent"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:congregation-of-rites"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    }
+   ],
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s7"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8"
+    }
+   ],
+   "rdfs:label": "Pope Sixtus V",
+   "skos:altLabel": [
+    "Cardinal Montalto",
+    "Felice Peretti",
+    "Sixtus V"
+   ],
+   "skos:definition": "Franciscan pope (reigned 1585-1590) whose reorganisation of the Roman Curia created the Congregation of Rites in 1588 and is credited with establishing, in 1587, the office of Promoter of the Faith, the \"devil's advocate\" whose job was to argue against every candidate for sainthood.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Pope Sixtus V",
+   "skos:related": [
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:groupthink"
+    }
+   ]
+  },
+  {
    "@id": "ct:posterior-analytics",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -7985,6 +8053,118 @@
    "dcterms:title": "A simple remedy for overprecision in judgment",
    "schema:url": {
     "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Sixtus V",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/Sixtus-V"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "The Catholic Encyclopedia, vol. 1 (Richard Burtsell, 1907), New Advent transcription",
+   "dcterms:title": "Advocatus Diaboli",
+   "schema:url": {
+    "@id": "https://newadvent.org/cathen/01168b.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "The Catholic Encyclopedia, vol. 14 (Michael Ott, 1912), New Advent transcription",
+   "dcterms:title": "Pope Sixtus V",
+   "schema:url": {
+    "@id": "https://www.newadvent.org/cathen/14033a.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "The Holy See (vatican.va), Roman Curia",
+   "dcterms:title": "Congregation for the Causes of Saints: Profile",
+   "schema:url": {
+    "@id": "https://www.vatican.va/roman_curia/congregations/csaints/documents/rc_con_csaints_pro_20051996_en.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "New Catholic Encyclopedia (D. R. Campbell), via Encyclopedia.com",
+   "dcterms:title": "Sixtus V, Pope",
+   "schema:url": {
+    "@id": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sixtus-v-pope"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Academy of Management Review 2(4), 662- (Herbert & Estes, 1977), Scilit record, doi:10.2307/257518",
+   "dcterms:title": "Improving Executive Decisions by Formalizing Dissent: The Corporate Devil's Advocate",
+   "schema:url": {
+    "@id": "https://www.scilit.net/publications/421f8d9a7571d8307347b7d84f17abf0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Catholic Answers Encyclopedia (from The Catholic Encyclopedia, 1907)",
+   "dcterms:title": "Devil's Advocate",
+   "schema:url": {
+    "@id": "https://catholic.com/encyclopedia/devils-advocate"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Journal of Management Studies 21(2), 153-168 (Schwenk, 1984), Scilit record, doi:10.1111/j.1467-6486.1984.tb00229.x",
+   "dcterms:title": "Devil's Advocacy in Managerial Decision-Making",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/213a03e52ace334ef8a3eb67752b9d13"
    }
   },
   {

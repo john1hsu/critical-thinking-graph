@@ -48,9 +48,9 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 | node | status | challenger |
 |---|---|---|
-| `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
-| `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
 | `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
+| `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
+| `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
@@ -83,7 +83,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
-| `ct:devils-advocacy` | cto:Technique |
 | `ct:hypothesis-testing` | cto:Method |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:key-assumptions-check` | cto:Technique |

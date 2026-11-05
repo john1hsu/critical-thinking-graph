@@ -1308,6 +1308,32 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
 <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/overconfidence-effect.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2000/01/rdf-schema#label> "Pope Sixtus V" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2004/02/skos/core#altLabel> "Cardinal Montalto" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2004/02/skos/core#altLabel> "Felice Peretti" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2004/02/skos/core#altLabel> "Sixtus V" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2004/02/skos/core#definition> "Franciscan pope (reigned 1585-1590) whose reorganisation of the Roman Curia created the Congregation of Rites in 1588 and is credited with establishing, in 1587, the office of Promoter of the Faith, the \"devil's advocate\" whose job was to argue against every candidate for sainthood." .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pope Sixtus V" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/pope-sixtus-v.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/council-of-trent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/congregation-of-rites> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/2000/01/rdf-schema#label> "Posterior Analytics" .
@@ -2793,6 +2819,54 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5> <https://schema.org/url> <https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> <http://purl.org/dc/terms/title> "Sixtus V" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> <https://schema.org/url> <https://www.britannica.com/biography/Sixtus-V> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s2> <http://purl.org/dc/terms/publisher> "The Catholic Encyclopedia, vol. 1 (Richard Burtsell, 1907), New Advent transcription" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s2> <http://purl.org/dc/terms/title> "Advocatus Diaboli" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s2> <https://schema.org/url> <https://newadvent.org/cathen/01168b.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s3> <http://purl.org/dc/terms/publisher> "The Catholic Encyclopedia, vol. 14 (Michael Ott, 1912), New Advent transcription" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s3> <http://purl.org/dc/terms/title> "Pope Sixtus V" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s3> <https://schema.org/url> <https://www.newadvent.org/cathen/14033a.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s4> <http://purl.org/dc/terms/publisher> "The Holy See (vatican.va), Roman Curia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s4> <http://purl.org/dc/terms/title> "Congregation for the Causes of Saints: Profile" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s4> <https://schema.org/url> <https://www.vatican.va/roman_curia/congregations/csaints/documents/rc_con_csaints_pro_20051996_en.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s5> <http://purl.org/dc/terms/publisher> "New Catholic Encyclopedia (D. R. Campbell), via Encyclopedia.com" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s5> <http://purl.org/dc/terms/title> "Sixtus V, Pope" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s5> <https://schema.org/url> <https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sixtus-v-pope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s6> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s6> <http://purl.org/dc/terms/publisher> "Academy of Management Review 2(4), 662- (Herbert & Estes, 1977), Scilit record, doi:10.2307/257518" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s6> <http://purl.org/dc/terms/title> "Improving Executive Decisions by Formalizing Dissent: The Corporate Devil's Advocate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s6> <https://schema.org/url> <https://www.scilit.net/publications/421f8d9a7571d8307347b7d84f17abf0> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s7> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s7> <http://purl.org/dc/terms/publisher> "Catholic Answers Encyclopedia (from The Catholic Encyclopedia, 1907)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s7> <http://purl.org/dc/terms/title> "Devil's Advocate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s7> <https://schema.org/url> <https://catholic.com/encyclopedia/devils-advocate> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> <http://purl.org/dc/terms/publisher> "Journal of Management Studies 21(2), 153-168 (Schwenk, 1984), Scilit record, doi:10.1111/j.1467-6486.1984.tb00229.x" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> <http://purl.org/dc/terms/title> "Devil's Advocacy in Managerial Decision-Making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> <https://schema.org/url> <https://scilit.com/publications/213a03e52ace334ef8a3eb67752b9d13> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive (MIT)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s1> <http://purl.org/dc/terms/title> "Posterior Analytics, Books I and II (trans. G. R. G. Mure)" .

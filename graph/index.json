@@ -3259,6 +3259,61 @@
   ]
  },
  {
+  "id": "ct:pope-sixtus-v",
+  "title": "Pope Sixtus V",
+  "aliases": [
+   "Sixtus V",
+   "Felice Peretti",
+   "Cardinal Montalto"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/pope-sixtus-v.md",
+  "created": "2026-11-05",
+  "summary": "Franciscan pope (reigned 1585-1590) whose reorganisation of the Roman Curia created the Congregation of Rites in 1588 and is credited with establishing, in 1587, the office of Promoter of the Faith, the \"devil's advocate\" whose job was to argue against every candidate for sainthood.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:devils-advocacy",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:congregation-of-rites",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:council-of-trent",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.britannica.com/biography/Sixtus-V",
+   "https://newadvent.org/cathen/01168b.htm",
+   "https://www.newadvent.org/cathen/14033a.htm",
+   "https://www.vatican.va/roman_curia/congregations/csaints/documents/rc_con_csaints_pro_20051996_en.html",
+   "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sixtus-v-pope",
+   "https://www.scilit.net/publications/421f8d9a7571d8307347b7d84f17abf0",
+   "https://catholic.com/encyclopedia/devils-advocate",
+   "https://scilit.com/publications/213a03e52ace334ef8a3eb67752b9d13"
+  ]
+ },
+ {
   "id": "ct:posterior-analytics",
   "title": "Posterior Analytics",
   "aliases": [
