@@ -2809,6 +2809,86 @@
   ]
  },
  {
+  "id": "ct:misinformation-and-disinformation",
+  "title": "Misinformation and disinformation",
+  "aliases": [
+   "misinformation",
+   "disinformation",
+   "mis- and disinformation",
+   "false information"
+  ],
+  "type": "Phenomenon",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/misinformation-and-disinformation.md",
+  "created": "2026-11-05",
+  "summary": "False or misleading information in circulation: misinformation is false content shared without intent to harm, while disinformation is false content deliberately created or spread to deceive or cause harm.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:information-disorder"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illusory-truth-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:continued-influence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:information-literacy"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:information-disorder-report",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:illusory-truth-effect",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:vosoughi-2018-spread-of-true-and-false-news",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:altay-2023-misinformation-on-misinformation",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://shorensteincenter.org/?p=10550",
+   "https://core.ac.uk/download/492596514.pdf",
+   "https://www.media.mit.edu/publications/the-spread-of-true-and-false-news-online/",
+   "https://acerbialberto.com/publication/2023_misinfo_on_misinfo/"
+  ]
+ },
+ {
   "id": "ct:modus-ponens",
   "title": "Modus ponens",
   "aliases": [

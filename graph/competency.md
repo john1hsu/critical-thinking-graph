@@ -18,7 +18,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, confirmation-bias, fundamental-attribution-error |
 | `ct:outside-view` | 3 | Base-rate neglect, Representativeness heuristic, planning-fallacy |
 | `ct:pragma-dialectics` | 3 | Straw man fallacy, Tu quoque, ad-hominem |
-| `ct:prebunking` | 3 | False dilemma, ad-hominem, misinformation-and-disinformation |
+| `ct:prebunking` | 3 | False dilemma, Misinformation and disinformation, ad-hominem |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:debiasing` | 2 | Overconfidence effect, confirmation-bias |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
@@ -27,10 +27,10 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
 | `ct:hypothesis-testing` | 1 | confirmation-bias |
 | `ct:key-assumptions-check` | 1 | confirmation-bias |
-| `ct:lateral-reading` | 1 | misinformation-and-disinformation |
+| `ct:lateral-reading` | 1 | Misinformation and disinformation |
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
-| `ct:sift-method` | 1 | misinformation-and-disinformation |
+| `ct:sift-method` | 1 | Misinformation and disinformation |
 
 ## Heuristic -> bias -> remedy chains
 
@@ -48,8 +48,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 | node | status | challenger |
 |---|---|---|
-| `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
 | `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
+| `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
 | `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
@@ -62,6 +62,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:devils-advocacy` | mixed |  |
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 | `ct:lateral-reading` | mixed |  |
+| `ct:misinformation-and-disinformation` | mixed | `ct:altay-2023-misinformation-on-misinformation` |
 | `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
 | `ct:outside-view` | mixed | `ct:love-ahiaga-dagbui-2018-cost-overrun-critique` |
 | `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
@@ -87,6 +88,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:hypothesis-testing` | cto:Method |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:key-assumptions-check` | cto:Technique |
+| `ct:misinformation-and-disinformation` | cto:Phenomenon |
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:prebunking` | cto:Technique |

@@ -2674,6 +2674,79 @@
    ]
   },
   {
+   "@id": "ct:misinformation-and-disinformation",
+   "@type": "cto:Phenomenon",
+   "cto:challengedBy": {
+    "@id": "ct:altay-2023-misinformation-on-misinformation"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:vosoughi-2018-spread-of-true-and-false-news"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:illusory-truth-effect"
+   },
+   "cto:file": "articles/evidence-and-information-literacy/misinformation-and-disinformation.md",
+   "cto:formalizedBy": {
+    "@id": "ct:information-disorder-report"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s4"
+    }
+   ],
+   "rdfs:label": "Misinformation and disinformation",
+   "skos:altLabel": [
+    "disinformation",
+    "false information",
+    "mis- and disinformation",
+    "misinformation"
+   ],
+   "skos:broader": {
+    "@id": "ct:information-disorder"
+   },
+   "skos:definition": "False or misleading information in circulation: misinformation is false content shared without intent to harm, while disinformation is false content deliberately created or spread to deceive or cause harm.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Misinformation and disinformation",
+   "skos:related": [
+    {
+     "@id": "ct:continued-influence-effect"
+    },
+    {
+     "@id": "ct:debunking"
+    },
+    {
+     "@id": "ct:illusory-truth-effect"
+    },
+    {
+     "@id": "ct:information-literacy"
+    },
+    {
+     "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
    "@id": "ct:modus-ponens",
    "@type": "cto:ReasoningForm",
    "cto:challengedBy": {
@@ -7826,6 +7899,62 @@
    "dcterms:title": "The Asymmetry Thesis and the Diversity of 'Invalid' Argument-Forms",
    "schema:url": {
     "@id": "https://distantreader.org/stacks/journals/il/il-2316.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "intergovernmental",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Council of Europe report DGI(2017)09 (Wardle & Derakhshan, 2017), Shorenstein Center, Harvard Kennedy School",
+   "dcterms:title": "Information Disorder: Toward an interdisciplinary framework for research and policymaking",
+   "schema:url": {
+    "@id": "https://shorensteincenter.org/?p=10550"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Nature Reviews Psychology 1, 13-29 (Ecker, Lewandowsky, Cook, Schmid, Fazio, Brashier, Kendeou, Vraga & Amazeen, 2022), author accepted manuscript via CORE",
+   "dcterms:title": "The psychological drivers of misinformation belief and its resistance to correction",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/492596514.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Science 359(6380) (Vosoughi, Roy & Aral, 2018), MIT Media Lab publication page",
+   "dcterms:title": "The spread of true and false news online",
+   "schema:url": {
+    "@id": "https://www.media.mit.edu/publications/the-spread-of-true-and-false-news-online/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Social Media + Society 9(1) (Altay, Berriche & Acerbi, 2023), author's publication page",
+   "dcterms:title": "Misinformation on Misinformation: Conceptual and Methodological Challenges",
+   "schema:url": {
+    "@id": "https://acerbialberto.com/publication/2023_misinfo_on_misinfo/"
    }
   },
   {
