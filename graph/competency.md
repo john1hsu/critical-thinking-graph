@@ -24,6 +24,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
+| `ct:randomized-controlled-trial` | 2 | confounding, selection-bias |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
 | `ct:hypothesis-testing` | 1 | confirmation-bias |
 | `ct:key-assumptions-check` | 1 | confirmation-bias |
@@ -49,8 +50,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | node | status | challenger |
 |---|---|---|
 | `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
-| `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
 | `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
+| `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
@@ -95,6 +96,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:prebunking` | cto:Technique |
+| `ct:randomized-controlled-trial` | cto:Method |
 | `ct:simpsons-paradox` | cto:Phenomenon |
 | `ct:tu-quoque` | cto:InformalFallacy |
 | `ct:undistributed-middle` | cto:FormalFallacy |

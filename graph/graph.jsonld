@@ -4090,6 +4090,91 @@
    ]
   },
   {
+   "@id": "ct:randomized-controlled-trial",
+   "@type": "cto:Method",
+   "cto:appliedIn": {
+    "@id": "ct:medicine"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:deaton-cartwright-2018-rct-critique"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:selection-bias"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:mrc-1948-streptomycin-trial"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/randomized-controlled-trial.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:confounding"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s5"
+    }
+   ],
+   "rdfs:label": "Randomized controlled trial",
+   "skos:altLabel": [
+    "A/B test",
+    "RCT",
+    "randomised controlled trial",
+    "randomized experiment",
+    "randomized trial"
+   ],
+   "skos:broader": {
+    "@id": "ct:scientific-method"
+   },
+   "skos:definition": "A comparative experiment in which participants are assigned to a treatment or a control group by a chance process, so that differences in outcomes can be attributed to the treatment rather than to how the groups were chosen.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Randomized controlled trial",
+   "skos:related": [
+    {
+     "@id": "ct:causal-diagrams"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    },
+    {
+     "@id": "ct:simpsons-paradox"
+    }
+   ]
+  },
+  {
    "@id": "ct:representativeness-heuristic",
    "@type": "cto:Heuristic",
    "cto:challengedBy": [
@@ -9500,6 +9585,76 @@
    "dcterms:title": "Prior Analytics",
    "schema:url": {
     "@id": "https://britannica.com/topic/Prior-Analytics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Journal of the Royal Society of Medicine 104(9), 383-386 (Chalmers, 2011)",
+   "dcterms:title": "Why the 1948 MRC trial of streptomycin used treatment allocation based on random numbers",
+   "schema:url": {
+    "@id": "https://www.jameslindlibrary.org/wp-data/uploads/2016/08/J-R-Soc-Med-2011-09-Chalmers-383-6.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Social Science & Medicine 210, 2-21 (Deaton & Cartwright, 2018)",
+   "dcterms:title": "Understanding and misunderstanding randomized controlled trials",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/29331519/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Jornal Vascular Brasileiro 23, e20240046 (Miola, Espósito & Miot, 2024)",
+   "dcterms:title": "Techniques for randomization and allocation for clinical trials",
+   "schema:url": {
+    "@id": "https://new.scielo.br/j/jvb/a/ybgBFTM5wJCk3MVT77n9xLn/?lang=en"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "James Lind Library, Royal College of Physicians of Edinburgh (Crofton, 2004)",
+   "dcterms:title": "The MRC randomized trial of streptomycin and its legacy: a view from the clinical front line",
+   "schema:url": {
+    "@id": "https://www.jameslindlibrary.org/articles/the-mrc-randomized-trial-of-streptomycin-and-its-legacy-a-view-from-the-clinical-front-line/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "James Lind Library record of the BMJ 2:769-782 report",
+   "dcterms:title": "Medical Research Council (1948): Streptomycin treatment of pulmonary tuberculosis",
+   "schema:url": {
+    "@id": "https://www.jameslindlibrary.org/records/medical-research-council-1948b/"
    }
   },
   {

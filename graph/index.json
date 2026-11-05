@@ -4288,6 +4288,96 @@
   ]
  },
  {
+  "id": "ct:randomized-controlled-trial",
+  "title": "Randomized controlled trial",
+  "aliases": [
+   "RCT",
+   "randomised controlled trial",
+   "randomized trial",
+   "randomized experiment",
+   "A/B test"
+  ],
+  "type": "Method",
+  "domain": "scientific-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/randomized-controlled-trial.md",
+  "created": "2026-11-05",
+  "summary": "A comparative experiment in which participants are assigned to a treatment or a control group by a chance process, so that differences in outcomes can be attributed to the treatment rather than to how the groups were chosen.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:simpsons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:causal-diagrams"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:confounding",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:selection-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:mrc-1948-streptomycin-trial",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:medicine",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:deaton-cartwright-2018-rct-critique",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.jameslindlibrary.org/wp-data/uploads/2016/08/J-R-Soc-Med-2011-09-Chalmers-383-6.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/29331519/",
+   "https://new.scielo.br/j/jvb/a/ybgBFTM5wJCk3MVT77n9xLn/?lang=en",
+   "https://www.jameslindlibrary.org/articles/the-mrc-randomized-trial-of-streptomycin-and-its-legacy-a-view-from-the-clinical-front-line/",
+   "https://www.jameslindlibrary.org/records/medical-research-council-1948b/"
+  ]
+ },
+ {
   "id": "ct:representativeness-heuristic",
   "title": "Representativeness heuristic",
   "aliases": [
