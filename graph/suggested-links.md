@@ -4,7 +4,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 3.04 | `ct:debiasing-training-games` | `ct:key-assumptions-check` | `ct:confirmation-bias`, `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
+| 2.94 | `ct:debiasing-training-games` | `ct:key-assumptions-check` | `ct:confirmation-bias`, `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
 | 2.93 | `ct:argumentation-theory` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
 | 2.84 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.62 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:posterior-analytics`, `ct:prior-analytics` |
@@ -14,12 +14,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.51 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |
 | 2.47 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:logic`, `ct:soundness`, `ct:the-new-rhetoric` |
 | 2.38 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:consider-the-opposite`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| 2.32 | `ct:debiasing-training-games` | `ct:devils-advocacy` | `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
+| 2.22 | `ct:debiasing-training-games` | `ct:devils-advocacy` | `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
 | 2.17 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:syllogism` |
-| 2.17 | `ct:actively-open-minded-thinking` | `ct:outside-view` | `ct:geopolitical-forecasting`, `ct:judgment-and-decision-making`, `ct:overconfidence-effect` |
 | 2.16 | `ct:deductive-reasoning` | `ct:undistributed-middle` | `ct:affirming-the-consequent`, `ct:belief-bias`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.16 | `ct:epistemology` | `ct:falsifiability` | `ct:philosophy-of-science`, `ct:problem-of-induction` |
-| 2.11 | `ct:actively-open-minded-thinking` | `ct:debiasing` | `ct:bias-blind-spot`, `ct:consider-the-opposite`, `ct:judgment-and-decision-making`, `ct:metacognition`, `ct:overconfidence-effect` |
+| 2.16 | `ct:actively-open-minded-thinking` | `ct:outside-view` | `ct:geopolitical-forecasting`, `ct:judgment-and-decision-making`, `ct:overconfidence-effect` |
+| 2.10 | `ct:actively-open-minded-thinking` | `ct:debiasing` | `ct:bias-blind-spot`, `ct:consider-the-opposite`, `ct:judgment-and-decision-making`, `ct:metacognition`, `ct:overconfidence-effect` |
 | 2.09 | `ct:argument` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:soundness`, `ct:topics`, `ct:validity` |
 | 2.05 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:outside-view`, `ct:representativeness-heuristic` |
 | 2.03 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |

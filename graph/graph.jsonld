@@ -1788,6 +1788,94 @@
    ]
   },
   {
+   "@id": "ct:groupthink",
+   "@type": "cto:Phenomenon",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:fuller-aldag-1998-organizational-tonypandy"
+    },
+    {
+     "@id": "ct:kramer-1998-bay-of-pigs-vietnam-reanalysis"
+    },
+    {
+     "@id": "ct:mullen-1994-cohesiveness-meta-analysis"
+    }
+   ],
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": {
+    "@id": "ct:social-identity-maintenance-model"
+   },
+   "cto:file": "articles/decision-making/groupthink.md",
+   "cto:introducedBy": {
+    "@id": "ct:irving-janis"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:victims-of-groupthink"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s5"
+    }
+   ],
+   "rdfs:label": "Groupthink",
+   "skos:altLabel": [
+    "Janis's groupthink model",
+    "groupthink syndrome"
+   ],
+   "skos:broader": {
+    "@id": "ct:group-decision-making"
+   },
+   "skos:definition": "A mode of thinking in a cohesive in-group in which members' drive for unanimity overrides realistic appraisal of alternatives, producing pressure on dissenters, self-censorship and an illusion of agreement that can lead to defective decisions; proposed by Irving Janis in 1972 and empirically contested since.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Groupthink",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:authentic-dissent"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:group-polarization"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:premortem"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    }
+   ]
+  },
+  {
    "@id": "ct:heuristics-and-biases-program",
    "@type": "cto:Framework",
    "cto:challengedBy": {
@@ -6763,6 +6851,76 @@
    "dcterms:title": "Lucky Belief in Science Education",
    "schema:url": {
     "@id": "https://link.springer.com/10.1007/s11191-018-9972-0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Emerging Leadership Journeys 4(1), Regent University School of Global Leadership & Entrepreneurship (Rose, 2011)",
+   "dcterms:title": "Diverse Perspectives on the Groupthink Theory: A Literary Review",
+   "schema:url": {
+    "@id": "https://www.regent.edu/journal/emerging-leadership-journeys/groupthink-theory/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Small Group Research 25(2), 189-204 (Mullen, Anthony, Salas & Driskell, 1994), Scilit record, doi:10.1177/1046496494252003",
+   "dcterms:title": "Group Cohesiveness and Quality of Decision Making: An Integration of Tests of the Groupthink Hypothesis",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/e45e55307dee39334de7ae1bfa4ab73b"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Groupthink",
+   "schema:url": {
+    "@id": "https://www.britannica.com/technology/groupthink"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "EBSCO Research Starters (Kretchmar, 2019)",
+   "dcterms:title": "Groupthink",
+   "schema:url": {
+    "@id": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/groupthink"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Organizational Behavior and Human Decision Processes 73(2-3), 236-271 (Kramer, 1998), EconPapers record",
+   "dcterms:title": "Revisiting the Bay of Pigs and Vietnam Decisions 25 Years Later: How Well Has the Groupthink Hypothesis Stood the Test of Time?",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:eee:jobhdp:v:73:y:1998:i:2-3:p:236-271"
    }
   },
   {

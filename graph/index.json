@@ -1869,6 +1869,105 @@
   ]
  },
  {
+  "id": "ct:groupthink",
+  "title": "Groupthink",
+  "aliases": [
+   "groupthink syndrome",
+   "Janis's groupthink model"
+  ],
+  "type": "Phenomenon",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/decision-making/groupthink.md",
+  "created": "2026-11-05",
+  "summary": "A mode of thinking in a cohesive in-group in which members' drive for unanimity overrides realistic appraisal of alternatives, producing pressure on dissenters, self-censorship and an illusion of agreement that can lead to defective decisions; proposed by Irving Janis in 1972 and empirically contested since.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:authentic-dissent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:group-polarization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:irving-janis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:victims-of-groupthink",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:fuller-aldag-1998-organizational-tonypandy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:kramer-1998-bay-of-pigs-vietnam-reanalysis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:mullen-1994-cohesiveness-meta-analysis",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:social-identity-maintenance-model",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.regent.edu/journal/emerging-leadership-journeys/groupthink-theory/",
+   "https://scilit.com/publications/e45e55307dee39334de7ae1bfa4ab73b",
+   "https://www.britannica.com/technology/groupthink",
+   "https://www.ebsco.com/research-starters/social-sciences-and-humanities/groupthink",
+   "https://econpapers.repec.org/RePEc:eee:jobhdp:v:73:y:1998:i:2-3:p:236-271"
+  ]
+ },
+ {
   "id": "ct:heuristics-and-biases-program",
   "title": "Heuristics and biases program",
   "aliases": [
