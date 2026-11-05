@@ -1,13 +1,13 @@
 # Graph statistics
 
-- Articles (nodes written): **49**
-- Frontier nodes (referenced, unwritten): **214**
-- Asserted edges: **596** (typed + evidenced: **256**)
-- Asserted triples: **3308**; inferred by OWL-RL: **930**
-- Citations: **255**
+- Articles (nodes written): **50**
+- Frontier nodes (referenced, unwritten): **219**
+- Asserted edges: **613** (typed + evidenced: **264**)
+- Asserted triples: **3381**; inferred by OWL-RL: **955**
+- Citations: **261**
 - Critical questions: **21**; argument maps: **9**
 - Weakly connected components: **1**
-- Communities (Louvain): **7**; max k-core: **5**
+- Communities (Louvain): **6**; max k-core: **6**
 
 ## Most central nodes
 
@@ -15,31 +15,30 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `ct:deductive-reasoning` | 0.0109 | 0.1386 | yes |
-| `ct:validity` | 0.0089 | 0.0445 | yes |
-| `ct:aristotle` | 0.0081 | 0.0561 | yes |
-| `ct:argument` | 0.0077 | 0.2118 | yes |
-| `ct:modus-ponens` | 0.0070 | 0.0268 | yes |
-| `ct:method-of-counterexample` | 0.0068 | 0.1886 | yes |
-| `ct:affirming-the-consequent` | 0.0063 | 0.0247 | yes |
-| `ct:consider-the-opposite` | 0.0059 | 0.2533 | yes |
-| `ct:soundness` | 0.0058 | 0.0380 | yes |
-| `ct:argumentation-theory` | 0.0058 | 0.0467 | yes |
-| `ct:inductive-reasoning` | 0.0057 | 0.0021 | no |
-| `ct:cognitive-psychology` | 0.0056 | 0.0849 | no |
-| `ct:syllogism` | 0.0054 | 0.0429 | yes |
-| `ct:debiasing` | 0.0053 | 0.2294 | yes |
-| `ct:judgment-and-decision-making` | 0.0053 | 0.1339 | yes |
+| `ct:deductive-reasoning` | 0.0107 | 0.1397 | yes |
+| `ct:validity` | 0.0088 | 0.0454 | yes |
+| `ct:aristotle` | 0.0080 | 0.0542 | yes |
+| `ct:argument` | 0.0078 | 0.2205 | yes |
+| `ct:modus-ponens` | 0.0068 | 0.0260 | yes |
+| `ct:method-of-counterexample` | 0.0067 | 0.1793 | yes |
+| `ct:affirming-the-consequent` | 0.0062 | 0.0240 | yes |
+| `ct:argumentation-theory` | 0.0059 | 0.0426 | yes |
+| `ct:consider-the-opposite` | 0.0058 | 0.2470 | yes |
+| `ct:soundness` | 0.0057 | 0.0373 | yes |
+| `ct:inductive-reasoning` | 0.0056 | 0.0021 | no |
+| `ct:cognitive-psychology` | 0.0055 | 0.0823 | no |
+| `ct:syllogism` | 0.0053 | 0.0411 | yes |
+| `ct:debiasing` | 0.0052 | 0.2250 | yes |
+| `ct:judgment-and-decision-making` | 0.0051 | 0.1305 | yes |
 
 ## Communities
 
 1. `ct:actively-open-minded-thinking`, `ct:analysis-of-competing-hypotheses`, `ct:artner-girven-bruce-2016-rand-sat-assessment`, `ct:baruch-fischhoff`, `ct:bias-blind-spot`, `ct:biased-assimilation`, `ct:calibration`, `ct:carey-morewedge`, `ct:chandrashekar-2021-bias-blind-spot-replication`, `ct:charles-lord`, `ct:choice-architecture`, `ct:clinical-diagnostic-reasoning` …
-2. `ct:ad-hominem`, `ct:argument`, `ct:argument-mapping`, `ct:argumentation`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:argumentative-theory-of-reasoning`, `ct:artificial-intelligence`, `ct:casuistry`, `ct:chaim-perelman`, `ct:charles-hamblin`, `ct:critical-thinking-movement` …
-3. `ct:alfred-tarski`, `ct:argument-evaluation`, `ct:aristotle`, `ct:begging-the-question`, `ct:belief-bias`, `ct:boethius`, `ct:categorical-syllogism`, `ct:cogency`, `ct:convention-t`, `ct:deductive-reasoning`, `ct:diagrammatic-reasoning`, `ct:dialectic` …
-4. `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:anchoring-effect`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:base-rate-neglect`, `ct:bayesian-reasoning`, `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:conditional-probability`, `ct:conjunction-fallacy`, `ct:daniel-kahneman` …
-5. `ct:a-counterexample-to-modus-ponens`, `ct:a-counterexample-to-modus-tollens`, `ct:ad-hoc-hypothesis`, `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:cleanthes`, `ct:cognitive-psychology`, `ct:conditional-perfection`, `ct:contraposition`, `ct:denying-the-antecedent`, `ct:duhem-quine-thesis`, `ct:falsifiability` …
+2. `ct:a-counterexample-to-modus-ponens`, `ct:a-counterexample-to-modus-tollens`, `ct:affirming-the-consequent`, `ct:alfred-tarski`, `ct:argument-evaluation`, `ct:aristotle`, `ct:begging-the-question`, `ct:belief-bias`, `ct:categorical-syllogism`, `ct:chrysippus`, `ct:cleanthes`, `ct:cogency` …
+3. `ct:ad-hominem`, `ct:argument`, `ct:argument-mapping`, `ct:argumentation`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:argumentative-theory-of-reasoning`, `ct:artificial-intelligence`, `ct:boethius`, `ct:burden-of-proof`, `ct:chaim-perelman`, `ct:charles-hamblin` …
+4. `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:anchoring-effect`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:base-rate-neglect`, `ct:bayesian-reasoning`, `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:conditional-probability`, `ct:conjunction-fallacy` …
+5. `ct:ad-hoc-hypothesis`, `ct:casuistry`, `ct:critical-thinking-education`, `ct:duhem-quine-thesis`, `ct:edmund-gettier`, `ct:epistemic-regress-problem`, `ct:epistemology`, `ct:falsifiability`, `ct:gettier-problem`, `ct:hypothesis-testing`, `ct:inference-to-the-best-explanation`, `ct:is-justified-true-belief-knowledge` …
 6. `ct:breakstone-2021-online-course-lateral-reading-study`, `ct:click-restraint`, `ct:cook-2017-fake-experts-inoculation-experiments`, `ct:debunking`, `ct:false-dilemma`, `ct:inoculation-theory`, `ct:lateral-reading`, `ct:misinformation-and-disinformation`, `ct:modirrousta-galian-higham-2023-roc-reanalysis`, `ct:prebunking`, `ct:roozenbeek-2022-youtube-inoculation-study`, `ct:sam-wineburg` …
-7. `ct:critical-thinking-education`, `ct:edmund-gettier`, `ct:epistemic-regress-problem`, `ct:epistemology`, `ct:gettier-problem`, `ct:is-justified-true-belief-knowledge`, `ct:justified-true-belief`, `ct:machery-2017-gettier-intuition-study`, `ct:philosophy`, `ct:plato`, `ct:problem-of-induction`, `ct:science-education`
 
 ## By type
 
@@ -48,7 +47,7 @@ PageRank = authority; betweenness = bridges between areas.
 - Disposition: 1
 - Field: 4
 - FormalFallacy: 2
-- Framework: 2
+- Framework: 3
 - Heuristic: 1
 - InformalFallacy: 2
 - Method: 1
@@ -62,7 +61,7 @@ PageRank = authority; betweenness = bridges between areas.
 
 ## By domain
 
-- argumentation: 4
+- argumentation: 5
 - cognitive-biases: 3
 - debiasing-and-metacognition: 5
 - decision-making: 3
@@ -79,7 +78,7 @@ PageRank = authority; betweenness = bridges between areas.
 
 ## By level
 
-- intermediate: 9
+- intermediate: 10
 - introductory: 40
 
 ## By evidence status
@@ -87,7 +86,7 @@ PageRank = authority; betweenness = bridges between areas.
 - contested: 1
 - historical: 12
 - mixed: 13
-- normative: 21
+- normative: 22
 - robust: 2
 
 ## Domain coverage (breadth runs pick the lowest)
@@ -102,7 +101,7 @@ PageRank = authority; betweenness = bridges between areas.
 - cognitive-biases: 3
 - decision-making: 3
 - foundations: 3
-- argumentation: 4
+- argumentation: 5
 - debiasing-and-metacognition: 5
 - formal-logic: 6
 - history-and-thinkers: 11

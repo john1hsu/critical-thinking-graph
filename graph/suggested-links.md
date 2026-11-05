@@ -6,13 +6,13 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 |---|---|---|---|
 | 3.77 | `ct:debiasing-training-games` | `ct:key-assumptions-check` | `ct:confirmation-bias`, `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
 | 2.94 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:consider-the-opposite`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| 2.67 | `ct:argumentation-theory` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:principle-of-charity`, `ct:straw-man-fallacy` |
+| 2.93 | `ct:argumentation-theory` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
+| 2.84 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.65 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:posterior-analytics`, `ct:prior-analytics` |
-| 2.56 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:the-uses-of-argument` |
 | 2.55 | `ct:method-of-counterexample` | `ct:modus-tollens` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:modus-ponens`, `ct:syllogism` |
+| 2.54 | `ct:informal-logic` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
 | 2.51 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |
 | 2.47 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:logic`, `ct:soundness`, `ct:the-new-rhetoric` |
-| 2.27 | `ct:informal-logic` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:principle-of-charity` |
 | 2.20 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
 | 2.18 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:syllogism` |
 | 2.18 | `ct:actively-open-minded-thinking` | `ct:premortem` | `ct:consider-the-opposite`, `ct:groupthink`, `ct:overconfidence-effect` |
@@ -21,11 +21,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.13 | `ct:actively-open-minded-thinking` | `ct:debiasing` | `ct:bias-blind-spot`, `ct:consider-the-opposite`, `ct:judgment-and-decision-making`, `ct:metacognition`, `ct:overconfidence-effect` |
 | 2.09 | `ct:argument` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:soundness`, `ct:topics`, `ct:validity` |
 | 2.04 | `ct:alfred-tarski` | `ct:deductive-reasoning` | `ct:logical-consequence`, `ct:method-of-counterexample`, `ct:soundness`, `ct:validity` |
+| 1.97 | `ct:informal-logic` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
 | 1.93 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:syllogism` |
-| 1.82 | `ct:prebunking` | `ct:tu-quoque` | `ct:ad-hominem`, `ct:source-credibility` |
 | 1.80 | `ct:prior-analytics` | `ct:soundness` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:posterior-analytics`, `ct:validity` |
 | 1.80 | `ct:soundness` | `ct:syllogism` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:posterior-analytics`, `ct:validity` |
 | 1.80 | `ct:illicit-major` | `ct:prior-analytics` | `ct:categorical-syllogism`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 1.80 | `ct:prior-analytics` | `ct:venn-diagram-test` | `ct:categorical-syllogism`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 1.79 | `ct:anchoring-effect` | `ct:debiasing` | `ct:bias-blind-spot`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:debiasing-training-games` |
-| 1.74 | `ct:topics` | `ct:validity` | `ct:argument`, `ct:inductive-reasoning`, `ct:posterior-analytics`, `ct:prior-analytics` |
+| 1.73 | `ct:topics` | `ct:validity` | `ct:argument`, `ct:inductive-reasoning`, `ct:posterior-analytics`, `ct:prior-analytics` |

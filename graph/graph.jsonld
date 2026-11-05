@@ -2852,6 +2852,107 @@
    ]
   },
   {
+   "@id": "ct:pragma-dialectics",
+   "@type": "cto:Framework",
+   "cto:challengedBy": {
+    "@id": "ct:epistemic-approach-to-argumentation"
+   },
+   "cto:detects": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    },
+    {
+     "@id": "ct:tu-quoque"
+    }
+   ],
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/pragma-dialectics.md",
+   "cto:influencedBy": {
+    "@id": "ct:critical-rationalism"
+   },
+   "cto:introducedBy": [
+    {
+     "@id": "ct:frans-van-eemeren"
+    },
+    {
+     "@id": "ct:rob-grootendorst"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:van-eemeren-garssen-meuffels-2002-freedom-rule-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6"
+    }
+   ],
+   "rdfs:label": "Pragma-dialectics",
+   "skos:altLabel": [
+    "Amsterdam school of argumentation",
+    "pragma-dialectical approach",
+    "pragma-dialectical theory of argumentation",
+    "rules for critical discussion"
+   ],
+   "skos:broader": {
+    "@id": "ct:argumentation-theory"
+   },
+   "skos:definition": "A theory of argumentation, developed by Frans van Eemeren and Rob Grootendorst at the University of Amsterdam, that models argument as an exchange of speech acts aimed at resolving a difference of opinion on the merits, and defines a fallacy as any move that breaks one of the rules of an ideal critical discussion.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Pragma-dialectics",
+   "skos:related": [
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:the-new-rhetoric"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:prebunking",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -7074,6 +7175,90 @@
    "dcterms:title": "Posterior Analytics, Book II (trans. G. R. G. Mure)",
    "schema:url": {
     "@id": "https://classics.mit.edu/Aristotle/posterior.2.ii.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Informal Logic 23(1), 91-108 (Hitchcock, 2003)",
+   "dcterms:title": "Review of Advances in Pragma-Dialectics (ed. van Eemeren)",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2156.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2002, Rozenberg Quarterly (van Eemeren, Garssen & Meuffels)",
+   "dcterms:title": "The Conventional Validity of the Pragma-Dialectical Freedom Rule",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/?p=9912"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Windsor Studies in Argumentation, University of Windsor (van Eemeren & Garssen)",
+   "dcterms:title": "Putting Pragma-Dialectics into Practice",
+   "schema:url": {
+    "@id": "https://windsor.scholarsportal.info/omp/index.php/wsia/catalog/download/219/558/2649?inline=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Cambridge University Press (van Eemeren & Grootendorst, 2003)",
+   "dcterms:title": "A code of conduct for reasonable discussants, in A Systematic Theory of Argumentation: The Pragma-Dialectical Approach",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/systematic-theory-of-argumentation/code-of-conduct-for-reasonable-discussants/E9CD945EB963F0FBB1EBED4215AD5170"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "LINGUIST List 16.2239 (Smith, 2005)",
+   "dcterms:title": "Review of A Systematic Theory of Argumentation: The Pragma-Dialectical Approach",
+   "schema:url": {
+    "@id": "https://linguistlist.org/issues/16/2239/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Informal Logic 30(2), 122-141 (Garssen & van Laar, 2010)",
+   "dcterms:title": "A pragma-dialectical response to objectivist epistemic challenges",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/8fc3dc22-61ef-4862-a0b2-7bb1d27ebdb2"
    }
   },
   {

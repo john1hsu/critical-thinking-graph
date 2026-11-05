@@ -2984,6 +2984,118 @@
   ]
  },
  {
+  "id": "ct:pragma-dialectics",
+  "title": "Pragma-dialectics",
+  "aliases": [
+   "pragma-dialectical theory of argumentation",
+   "Amsterdam school of argumentation",
+   "rules for critical discussion",
+   "pragma-dialectical approach"
+  ],
+  "type": "Framework",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/pragma-dialectics.md",
+  "created": "2026-11-05",
+  "summary": "A theory of argumentation, developed by Frans van Eemeren and Rob Grootendorst at the University of Amsterdam, that models argument as an exchange of speech acts aimed at resolving a difference of opinion on the merits, and defines a fallacy as any move that breaks one of the rules of an ideal critical discussion.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:the-new-rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:tu-quoque",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:ad-hominem",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:straw-man-fallacy",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:frans-van-eemeren",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:rob-grootendorst",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:critical-rationalism",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:van-eemeren-garssen-meuffels-2002-freedom-rule-study",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:epistemic-approach-to-argumentation",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://distantreader.org/stacks/journals/il/il-2156.pdf",
+   "https://rozenbergquarterly.com/?p=9912",
+   "https://windsor.scholarsportal.info/omp/index.php/wsia/catalog/download/219/558/2649?inline=1",
+   "https://www.cambridge.org/core/books/systematic-theory-of-argumentation/code-of-conduct-for-reasonable-discussants/E9CD945EB963F0FBB1EBED4215AD5170",
+   "https://linguistlist.org/issues/16/2239/",
+   "https://dare.uva.nl/id/8fc3dc22-61ef-4862-a0b2-7bb1d27ebdb2"
+  ]
+ },
+ {
   "id": "ct:prebunking",
   "title": "Prebunking",
   "aliases": [

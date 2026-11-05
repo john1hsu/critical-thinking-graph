@@ -1217,6 +1217,43 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2000/01/rdf-schema#label> "Pragma-dialectics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#altLabel> "Amsterdam school of argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#altLabel> "pragma-dialectical approach" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#altLabel> "pragma-dialectical theory of argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#altLabel> "rules for critical discussion" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#definition> "A theory of argumentation, developed by Frans van Eemeren and Rob Grootendorst at the University of Amsterdam, that models argument as an exchange of speech acts aimed at resolving a difference of opinion on the merits, and defines a fallacy as any move that breaks one of the rules of an ideal critical discussion." .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pragma-dialectics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/epistemic-approach-to-argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/pragma-dialectics.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/critical-rationalism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/frans-van-eemeren> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/rob-grootendorst> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/van-eemeren-garssen-meuffels-2002-freedom-rule-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> <http://www.w3.org/2000/01/rdf-schema#label> "Prebunking" .
@@ -2479,6 +2516,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s6> <https://schema.org/url> <https://classics.mit.edu/Aristotle/posterior.2.ii.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> <http://purl.org/dc/terms/publisher> "Informal Logic 23(1), 91-108 (Hitchcock, 2003)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> <http://purl.org/dc/terms/title> "Review of Advances in Pragma-Dialectics (ed. van Eemeren)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2156.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s2> <http://purl.org/dc/terms/publisher> "ISSA Proceedings 2002, Rozenberg Quarterly (van Eemeren, Garssen & Meuffels)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s2> <http://purl.org/dc/terms/title> "The Conventional Validity of the Pragma-Dialectical Freedom Rule" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s2> <https://schema.org/url> <https://rozenbergquarterly.com/?p=9912> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s3> <http://purl.org/dc/terms/publisher> "Windsor Studies in Argumentation, University of Windsor (van Eemeren & Garssen)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s3> <http://purl.org/dc/terms/title> "Putting Pragma-Dialectics into Practice" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s3> <https://schema.org/url> <https://windsor.scholarsportal.info/omp/index.php/wsia/catalog/download/219/558/2649?inline=1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s4> <http://purl.org/dc/terms/publisher> "Cambridge University Press (van Eemeren & Grootendorst, 2003)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s4> <http://purl.org/dc/terms/title> "A code of conduct for reasonable discussants, in A Systematic Theory of Argumentation: The Pragma-Dialectical Approach" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s4> <https://schema.org/url> <https://www.cambridge.org/core/books/systematic-theory-of-argumentation/code-of-conduct-for-reasonable-discussants/E9CD945EB963F0FBB1EBED4215AD5170> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s5> <http://purl.org/dc/terms/publisher> "LINGUIST List 16.2239 (Smith, 2005)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s5> <http://purl.org/dc/terms/title> "Review of A Systematic Theory of Argumentation: The Pragma-Dialectical Approach" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s5> <https://schema.org/url> <https://linguistlist.org/issues/16/2239/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> <http://purl.org/dc/terms/publisher> "Informal Logic 30(2), 122-141 (Garssen & van Laar, 2010)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> <http://purl.org/dc/terms/title> "A pragma-dialectical response to objectivist epistemic challenges" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> <https://schema.org/url> <https://dare.uva.nl/id/8fc3dc22-61ef-4862-a0b2-7bb1d27ebdb2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s1> <http://purl.org/dc/terms/publisher> "Science Advances 8(34) (Roozenbeek, van der Linden, Goldberg, Rathje & Lewandowsky, 2022), PubMed Central" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s1> <http://purl.org/dc/terms/title> "Psychological inoculation improves resilience against misinformation on social media" .
