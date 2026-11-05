@@ -1160,6 +1160,86 @@
    ]
   },
   {
+   "@id": "ct:confirmation-bias",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": {
+    "@id": "ct:guess-coppock-2020-backlash-experiments"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:falsifiability"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:wason-1960-rule-discovery-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": {
+    "@id": "ct:positive-test-strategy"
+   },
+   "cto:file": "articles/cognitive-biases/confirmation-bias.md",
+   "cto:level": "introductory",
+   "cto:supportedBy": {
+    "@id": "ct:hart-2009-selective-exposure-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5"
+    }
+   ],
+   "rdfs:label": "Confirmation bias",
+   "skos:altLabel": [
+    "confirmation-seeking bias",
+    "confirmatory bias"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to seek out, interpret and remember evidence in ways that favour a belief or hypothesis one already holds, usually without being aware of doing so, while giving less weight to evidence that could count against it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Confirmation bias",
+   "skos:related": [
+    {
+     "@id": "ct:analysis-of-competing-hypotheses"
+    },
+    {
+     "@id": "ct:belief-perseverance"
+    },
+    {
+     "@id": "ct:biased-assimilation"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:myside-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:consider-the-opposite",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -7491,6 +7571,76 @@
    "dcterms:title": "Stoicism: Inferential logic",
    "schema:url": {
     "@id": "https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Review of General Psychology 2(2), 175-220 (Nickerson, 1998), copy hosted by UC San Diego",
+   "dcterms:title": "Confirmation bias: A ubiquitous phenomenon in many guises",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~cmckenzie/nickersonConfirmationBias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Quarterly Journal of Experimental Psychology 12(3), 129-140 (Wason, 1960), copy hosted by University of Florida",
+   "dcterms:title": "On the failure to eliminate hypotheses in a conceptual task",
+   "schema:url": {
+    "@id": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Psychological Review 94(2), 211-228 (Klayman & Ha, 1987), copy hosted by UC San Diego",
+   "dcterms:title": "Confirmation, disconfirmation, and information in hypothesis testing",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mckenzie/KlaymanHaPsychReview1987.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Psychological Bulletin 135(4), 555-588 (Hart, Albarracín, Eagly, Brechan, Lindberg & Merrill, 2009), PubMed record",
+   "dcterms:title": "Feeling validated versus being correct: A meta-analysis of selective exposure to information",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/19586162/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "British Journal of Political Science (Guess & Coppock, 2020; online 2018), Yale Institution for Social and Policy Studies",
+   "dcterms:title": "Does counter-attitudinal information cause backlash? Results from three large survey experiments",
+   "schema:url": {
+    "@id": "https://isps.yale.edu/research/publications/isps18-025"
    }
   },
   {

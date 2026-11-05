@@ -15,19 +15,19 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | remedy | covers | targets |
 |---|---|---|
 | `ct:consider-the-opposite` | 4 | Anchoring effect, Overconfidence effect, biased-assimilation, hindsight-bias |
-| `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, confirmation-bias, fundamental-attribution-error |
+| `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, Confirmation bias, fundamental-attribution-error |
 | `ct:outside-view` | 3 | Base-rate neglect, Representativeness heuristic, planning-fallacy |
 | `ct:pragma-dialectics` | 3 | Straw man fallacy, Tu quoque, ad-hominem |
 | `ct:prebunking` | 3 | False dilemma, Misinformation and disinformation, ad-hominem |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
-| `ct:debiasing` | 2 | Overconfidence effect, confirmation-bias |
+| `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:randomized-controlled-trial` | 2 | confounding, selection-bias |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
-| `ct:hypothesis-testing` | 1 | confirmation-bias |
-| `ct:key-assumptions-check` | 1 | confirmation-bias |
+| `ct:hypothesis-testing` | 1 | Confirmation bias |
+| `ct:key-assumptions-check` | 1 | Confirmation bias |
 | `ct:lateral-reading` | 1 | Misinformation and disinformation |
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
@@ -86,6 +86,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
+| `ct:confirmation-bias` | cto:CognitiveBias |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:informal-fallacy` | cto:Concept |
 | `ct:justified-true-belief` | cto:Concept |

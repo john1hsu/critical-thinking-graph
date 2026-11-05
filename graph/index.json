@@ -1193,6 +1193,93 @@
   ]
  },
  {
+  "id": "ct:confirmation-bias",
+  "title": "Confirmation bias",
+  "aliases": [
+   "confirmatory bias",
+   "confirmation-seeking bias"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/confirmation-bias.md",
+  "created": "2026-11-05",
+  "summary": "The tendency to seek out, interpret and remember evidence in ways that favour a belief or hypothesis one already holds, usually without being aware of doing so, while giving less weight to evidence that could count against it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:myside-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:biased-assimilation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-perseverance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:analysis-of-competing-hypotheses"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:wason-1960-rule-discovery-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:positive-test-strategy",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:hart-2009-selective-exposure-meta-analysis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:guess-coppock-2020-backlash-experiments",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:falsifiability",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pages.ucsd.edu/~cmckenzie/nickersonConfirmationBias.pdf",
+   "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf",
+   "https://pages.ucsd.edu/~mckenzie/KlaymanHaPsychReview1987.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/19586162/",
+   "https://isps.yale.edu/research/publications/isps18-025"
+  ]
+ },
+ {
   "id": "ct:consider-the-opposite",
   "title": "Consider the opposite",
   "aliases": [

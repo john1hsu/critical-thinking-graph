@@ -514,6 +514,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/cleanthes> .
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2000/01/rdf-schema#label> "Confirmation bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "confirmation-seeking bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "confirmatory bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#definition> "The tendency to seek out, interpret and remember evidence in ways that favour a belief or hypothesis one already holds, usually without being aware of doing so, while giving less weight to evidence that could count against it." .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#prefLabel> "Confirmation bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/guess-coppock-2020-backlash-experiments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/wason-1960-rule-discovery-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/positive-test-strategy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/confirmation-bias.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hart-2009-selective-exposure-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <http://www.w3.org/2000/01/rdf-schema#label> "Consider the opposite" .
@@ -2517,6 +2547,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/chrysippus/s6> <https://schema.org/url> <https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> <http://purl.org/dc/terms/publisher> "Review of General Psychology 2(2), 175-220 (Nickerson, 1998), copy hosted by UC San Diego" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> <http://purl.org/dc/terms/title> "Confirmation bias: A ubiquitous phenomenon in many guises" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> <https://schema.org/url> <https://pages.ucsd.edu/~cmckenzie/nickersonConfirmationBias.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s2> <http://purl.org/dc/terms/publisher> "Quarterly Journal of Experimental Psychology 12(3), 129-140 (Wason, 1960), copy hosted by University of Florida" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s2> <http://purl.org/dc/terms/title> "On the failure to eliminate hypotheses in a conceptual task" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s2> <https://schema.org/url> <https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3> <http://purl.org/dc/terms/publisher> "Psychological Review 94(2), 211-228 (Klayman & Ha, 1987), copy hosted by UC San Diego" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3> <http://purl.org/dc/terms/title> "Confirmation, disconfirmation, and information in hypothesis testing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3> <https://schema.org/url> <https://pages.ucsd.edu/~mckenzie/KlaymanHaPsychReview1987.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 135(4), 555-588 (Hart, Albarracín, Eagly, Brechan, Lindberg & Merrill, 2009), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4> <http://purl.org/dc/terms/title> "Feeling validated versus being correct: A meta-analysis of selective exposure to information" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/19586162/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <http://purl.org/dc/terms/publisher> "British Journal of Political Science (Guess & Coppock, 2020; online 2018), Yale Institution for Social and Policy Studies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <http://purl.org/dc/terms/title> "Does counter-attitudinal information cause backlash? Results from three large survey experiments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <https://schema.org/url> <https://isps.yale.edu/research/publications/isps18-025> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/consider-the-opposite/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/consider-the-opposite/s1> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 47(6), 1231-1243 (Lord, Lepper & Preston, 1984), CAUSE record" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/consider-the-opposite/s1> <http://purl.org/dc/terms/title> "Considering the opposite: A corrective strategy for social judgment" .
