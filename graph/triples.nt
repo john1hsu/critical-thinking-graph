@@ -689,6 +689,72 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/epistemology.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Are the options offered really the only ones, or has a third course, a compromise or a combination been left out?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Are the options actually mutually exclusive, or could both be pursued at once?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Do the bad consequences attached to the rejected option really follow from it?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Who framed the choice, and would they benefit if the unlisted options stayed off the table?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So our customer satisfaction scores will collapse." .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The team could add a self-service help page, reroute simple tickets, or hire one part-time agent; the either-or premise omits these." .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Satisfaction might be protected by fixing the product issues that generate most tickets, which neither option addresses." .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "Either we hire two more support agents this quarter or our customer satisfaction scores will collapse." .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "We cannot afford two more agents this quarter." .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2000/01/rdf-schema#label> "False dilemma" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#altLabel> "black-or-white fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#altLabel> "black-white fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#altLabel> "either-or fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of false alternatives" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#altLabel> "false dichotomy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of presenting too few options, usually two, as if they were the only ones available, so that rejecting one appears to force acceptance of the other." .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#prefLabel> "False dilemma" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/roozenbeek-2022-youtube-inoculation-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/false-dilemma.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
 <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2000/01/rdf-schema#label> "Falsifiability criterion" .
@@ -2285,6 +2351,24 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2325.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://purl.org/dc/terms/publisher> "Logical Reasoning (Dowden, California State University Sacramento), Humanities LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://purl.org/dc/terms/title> "8.11: Glossary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logical_Reasoning_(Dowden)/08:_Detecting_Fallacies/8.11:_Glossary> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s2> <http://purl.org/dc/terms/publisher> "Argumentation 27, 347-368 (Tomić, 2013)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s2> <http://purl.org/dc/terms/title> "False Dilemma: A Systematic Exposition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s2> <https://schema.org/url> <https://link.springer.com/doi/10.1007/s10503-013-9292-0> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s3> <http://purl.org/dc/terms/publisher> "Science Advances 8(34) (Roozenbeek, van der Linden, Goldberg, Rathje & Lewandowsky, 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s3> <http://purl.org/dc/terms/title> "Psychological inoculation improves resilience against misinformation on social media" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC9401631> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Thornton, rev. 2026)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s1> <http://purl.org/dc/terms/title> "Karl Popper" .

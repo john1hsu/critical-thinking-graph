@@ -34,6 +34,17 @@ flowchart TD
   o1["The conclusion is only as reliable as the premises: if the limit was raised last quarter, the argument stays valid but becomes unsound."] -. attacks .-> ra
 ```
 
+## False dilemma (`ct:false-dilemma`)
+
+```mermaid
+flowchart TD
+  p1["Either we hire two more support agents this quarter or our customer satisfaction scores will collapse."] --> ra{{"fallacious"}}
+  p2["We cannot afford two more agents this quarter."] --> ra{{"fallacious"}}
+  ra --> c["So our customer satisfaction scores will collapse."]
+  o1["The team could add a self-service help page, reroute simple tickets, or hire one part-time agent; the either-or premise omits these."] -. attacks .-> ra
+  o2["Satisfaction might be protected by fixing the product issues that generate most tickets, which neither option addresses."] -. attacks .-> ra
+```
+
 ## Illicit major (`ct:illicit-major`)
 
 ```mermaid

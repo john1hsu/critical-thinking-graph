@@ -1695,6 +1695,83 @@
   ]
  },
  {
+  "id": "ct:false-dilemma",
+  "title": "False dilemma",
+  "aliases": [
+   "false dichotomy",
+   "black-or-white fallacy",
+   "black-white fallacy",
+   "either-or fallacy",
+   "fallacy of false alternatives"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/false-dilemma.md",
+  "created": "2026-11-05",
+  "summary": "The fallacy of presenting too few options, usually two, as if they were the only ones available, so that rejecting one appears to force acceptance of the other.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:disjunctive-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:roozenbeek-2022-youtube-inoculation-study"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:misinformation-and-disinformation",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:disjunctive-syllogism",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Are the options offered really the only ones, or has a third course, a compromise or a combination been left out?",
+   "Are the options actually mutually exclusive, or could both be pursued at once?",
+   "Do the bad consequences attached to the rejected option really follow from it?",
+   "Who framed the choice, and would they benefit if the unlisted options stayed off the table?"
+  ],
+  "source_urls": [
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logical_Reasoning_(Dowden)/08:_Detecting_Fallacies/8.11:_Glossary",
+   "https://link.springer.com/doi/10.1007/s10503-013-9292-0",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9401631"
+  ]
+ },
+ {
   "id": "ct:falsifiability",
   "title": "Falsifiability criterion",
   "aliases": [

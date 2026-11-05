@@ -18,7 +18,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, confirmation-bias, fundamental-attribution-error |
 | `ct:outside-view` | 3 | Base-rate neglect, Representativeness heuristic, planning-fallacy |
 | `ct:pragma-dialectics` | 3 | Straw man fallacy, Tu quoque, ad-hominem |
-| `ct:prebunking` | 3 | ad-hominem, false-dilemma, misinformation-and-disinformation |
+| `ct:prebunking` | 3 | False dilemma, ad-hominem, misinformation-and-disinformation |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:debiasing` | 2 | Overconfidence effect, confirmation-bias |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
@@ -49,8 +49,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | node | status | challenger |
 |---|---|---|
 | `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
-| `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
 | `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
+| `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
@@ -67,8 +67,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
 | `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
 | `ct:premortem` | mixed |  |
-| `ct:representativeness-heuristic` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:representativeness-heuristic` | mixed | `ct:gerd-gigerenzer` |
+| `ct:representativeness-heuristic` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:sift-method` | mixed |  |
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
@@ -83,6 +83,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
+| `ct:false-dilemma` | cto:InformalFallacy |
 | `ct:hypothesis-testing` | cto:Method |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:key-assumptions-check` | cto:Technique |
