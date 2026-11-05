@@ -1544,6 +1544,90 @@
   ]
  },
  {
+  "id": "ct:delphi-report-on-critical-thinking",
+  "title": "Delphi Report on critical thinking",
+  "aliases": [
+   "The Delphi Report",
+   "APA Delphi Report",
+   "Critical Thinking - A Statement of Expert Consensus for Purposes of Educational Assessment and Instruction",
+   "APA Delphi consensus on critical thinking",
+   "Facione 1990"
+  ],
+  "type": "Work",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/philosophy-of-reasoning/delphi-report-on-critical-thinking.md",
+  "created": "2026-11-05",
+  "summary": "Peter Facione's 1990 report for the American Philosophical Association, which used a six-round Delphi process with 46 experts to reach a consensus definition of critical thinking as purposeful, self-regulatory judgment, together with six core cognitive skills, a profile of critical-thinking dispositions and recommendations for instruction and assessment.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-movement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:thinking-dispositions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:california-critical-thinking-skills-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:california-critical-thinking-disposition-inventory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:peter-facione",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:critical-thinking-education",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:educational-assessment",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:intelligence-analysis",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.qcc.cuny.edu/socialSciences/ppecorino/CT-Expert-Report.pdf",
+   "https://www.clearinghouse.edu.tum.de/wp-content/uploads/2023/12/CHU_KR18_ENG_Abrami_2015.pdf",
+   "https://iepr.mtsu.edu/wp-content/uploads/sites/23/2024/09/cctstinterpret.pdf",
+   "https://brieflands.com/articles/jme-105016.pdf",
+   "https://courses.ems.psu.edu/geog882/node/2118"
+  ]
+ },
+ {
   "id": "ct:devils-advocacy",
   "title": "Devil's advocacy",
   "aliases": [

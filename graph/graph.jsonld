@@ -1481,6 +1481,88 @@
    ]
   },
   {
+   "@id": "ct:delphi-report-on-critical-thinking",
+   "@type": "cto:Work",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:educational-assessment"
+    },
+    {
+     "@id": "ct:intelligence-analysis"
+    }
+   ],
+   "cto:authoredBy": {
+    "@id": "ct:peter-facione"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/philosophy-of-reasoning/delphi-report-on-critical-thinking.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s5"
+    }
+   ],
+   "rdfs:label": "Delphi Report on critical thinking",
+   "skos:altLabel": [
+    "APA Delphi Report",
+    "APA Delphi consensus on critical thinking",
+    "Critical Thinking - A Statement of Expert Consensus for Purposes of Educational Assessment and Instruction",
+    "Facione 1990",
+    "The Delphi Report"
+   ],
+   "skos:definition": "Peter Facione's 1990 report for the American Philosophical Association, which used a six-round Delphi process with 46 experts to reach a consensus definition of critical thinking as purposeful, self-regulatory judgment, together with six core cognitive skills, a profile of critical-thinking dispositions and recommendations for instruction and assessment.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Delphi Report on critical thinking",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:california-critical-thinking-disposition-inventory"
+    },
+    {
+     "@id": "ct:california-critical-thinking-skills-test"
+    },
+    {
+     "@id": "ct:critical-thinking-movement"
+    },
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:metacognition"
+    },
+    {
+     "@id": "ct:thinking-dispositions"
+    }
+   ]
+  },
+  {
    "@id": "ct:devils-advocacy",
    "@type": "cto:Technique",
    "cto:appliedIn": [
@@ -6933,6 +7015,76 @@
    "dcterms:title": "Guided reflection interventions show no effect on diagnostic accuracy in medical students",
    "schema:url": {
     "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02297/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "American Philosophical Association / California Academic Press (Facione, 1990); copy hosted by Queensborough Community College, CUNY",
+   "dcterms:title": "Critical Thinking: A Statement of Expert Consensus for Purposes of Educational Assessment and Instruction (Executive Summary, 'The Delphi Report')",
+   "schema:url": {
+    "@id": "https://www.qcc.cuny.edu/socialSciences/ppecorino/CT-Expert-Report.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Clearing House Unterricht, Technical University of Munich (Farrell & Schönbeck, 2023)",
+   "dcterms:title": "Critical Thinking as an Instructional Goal: From Definition to Promotion (Short Review of Abrami et al., 2015, Review of Educational Research 85(2))",
+   "schema:url": {
+    "@id": "https://www.clearinghouse.edu.tum.de/wp-content/uploads/2023/12/CHU_KR18_ENG_Abrami_2015.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Insight Assessment / California Academic Press (2006); copy hosted by Middle Tennessee State University",
+   "dcterms:title": "CCTST 2000 Interpretation Document",
+   "schema:url": {
+    "@id": "https://iepr.mtsu.edu/wp-content/uploads/sites/23/2024/09/cctstinterpret.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Journal of Medical Education 3(1) (Khalili & Hossein Zadeh, 2003)",
+   "dcterms:title": "Investigation of Reliability, Validity and Normality of the Persian Version of the California Critical Thinking Skills Test, Form B (CCTST)",
+   "schema:url": {
+    "@id": "https://brieflands.com/articles/jme-105016.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Penn State College of Earth and Mineral Sciences (Corson)",
+   "dcterms:title": "1.7 Expert Consensus Statement (GEOG 882: Geographic Foundations of Geospatial Intelligence)",
+   "schema:url": {
+    "@id": "https://courses.ems.psu.edu/geog882/node/2118"
    }
   },
   {
