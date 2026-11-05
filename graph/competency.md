@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:representativeness-heuristic` | cto:Heuristic |
 
 ## Most useful remedies
 
@@ -38,6 +40,8 @@ _For each heuristic, which biases can it produce and what counteracts them?_ —
 | heuristic | bias | remedy |
 |---|---|---|
 | `ct:availability-heuristic` | `ct:illusory-correlation` |  |
+| `ct:representativeness-heuristic` | `ct:illusion-of-validity` |  |
+| `ct:representativeness-heuristic` | `ct:insensitivity-to-sample-size` |  |
 
 ## Contested or failed-replication claims
 
@@ -60,6 +64,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
 | `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
 | `ct:premortem` | mixed |  |
+| `ct:representativeness-heuristic` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
+| `ct:representativeness-heuristic` | mixed | `ct:gerd-gigerenzer` |
 | `ct:sift-method` | mixed |  |
 
 ## Formal fallacies not linked to the valid form they imitate (gap)

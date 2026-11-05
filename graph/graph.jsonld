@@ -3432,6 +3432,113 @@
    ]
   },
   {
+   "@id": "ct:representativeness-heuristic",
+   "@type": "cto:Heuristic",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:availability-heuristic"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:tversky-kahneman-1983-linda-problem-study"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:explains": {
+    "@id": "ct:conjunction-fallacy"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/representativeness-heuristic.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:produces": [
+    {
+     "@id": "ct:illusion-of-validity"
+    },
+    {
+     "@id": "ct:insensitivity-to-sample-size"
+    }
+   ],
+   "cto:requires": {
+    "@id": "ct:heuristics-and-biases-program"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:chandrashekar-2021-conjunction-bias-replication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s6"
+    }
+   ],
+   "rdfs:label": "Representativeness heuristic",
+   "skos:altLabel": [
+    "judgment by representativeness",
+    "representativeness"
+   ],
+   "skos:broader": {
+    "@id": "ct:heuristic"
+   },
+   "skos:definition": "The mental shortcut of judging how probable it is that a case belongs to a category, or that a sample came from a process, by how closely it resembles the category's stereotype or the process's typical output, which neglects base rates, sample size and the reliability of the evidence.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Representativeness heuristic",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-and-adjustment-heuristic"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    }
+   ]
+  },
+  {
    "@id": "ct:sift-method",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -8007,6 +8114,90 @@
    "dcterms:title": "Prior Analytics",
    "schema:url": {
     "@id": "https://britannica.com/topic/Prior-Analytics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Cognitive Psychology 3, 430-454 (Kahneman & Tversky, 1972), copy hosted on a UC San Diego faculty page",
+   "dcterms:title": "Subjective probability: A judgment of representativeness",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mckenzie/Kahneman&Tversky1972CogPsych.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Science 185(4157), 1124-1131 (Tversky & Kahneman, 1974), copy hosted on an NC State course page",
+   "dcterms:title": "Judgment under uncertainty: Heuristics and biases",
+   "schema:url": {
+    "@id": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Tversky+Kahneman-heuristics-biases-1974.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Psychological Review 90(4), 293-315 (Tversky & Kahneman, 1983), copy hosted on a UC San Diego faculty page",
+   "dcterms:title": "Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mckenzie/TverskyKahneman1983PsychRev.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Psychological Review 103(3), 592-596 (Gigerenzer, 1996), copy hosted on an NC State course page",
+   "dcterms:title": "On narrow norms and vague heuristics: A reply to Kahneman and Tversky (1996)",
+   "schema:url": {
+    "@id": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1996.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Journal of Behavioral Decision Making 12(4), 275-305 (Hertwig & Gigerenzer, 1999), University of Basel edoc record",
+   "dcterms:title": "The 'conjunction fallacy' revisited: How intelligent inferences look like reasoning errors",
+   "schema:url": {
+    "@id": "https://edoc.unibas.ch/8522/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Meta-Psychology 5 (Chandrashekar, Cheng, Fong, Leung, Wong, Cheng & Feldman, 2021)",
+   "dcterms:title": "Frequency estimation and semantic ambiguity do not eliminate conjunction bias, when it occurs: Replication and extension of Mellers, Hertwig, and Kahneman (2001)",
+   "schema:url": {
+    "@id": "https://open.lnu.se/index.php/metapsychology/article/view/2474"
    }
   },
   {

@@ -3593,6 +3593,128 @@
   ]
  },
  {
+  "id": "ct:representativeness-heuristic",
+  "title": "Representativeness heuristic",
+  "aliases": [
+   "representativeness",
+   "judgment by representativeness"
+  ],
+  "type": "Heuristic",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/representativeness-heuristic.md",
+  "created": "2026-11-05",
+  "summary": "The mental shortcut of judging how probable it is that a case belongs to a category, or that a sample came from a process, by how closely it resembles the category's stereotype or the process's typical output, which neglects base rates, sample size and the reliability of the evidence.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-and-adjustment-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:produces",
+    "object": "ct:insensitivity-to-sample-size",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:produces",
+    "object": "ct:illusion-of-validity",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explains",
+    "object": "ct:conjunction-fallacy",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:tversky-kahneman-1983-linda-problem-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:availability-heuristic",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:chandrashekar-2021-conjunction-bias-replication",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pages.ucsd.edu/~mckenzie/Kahneman&Tversky1972CogPsych.pdf",
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Tversky+Kahneman-heuristics-biases-1974.pdf",
+   "https://pages.ucsd.edu/~mckenzie/TverskyKahneman1983PsychRev.pdf",
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1996.pdf",
+   "https://edoc.unibas.ch/8522/",
+   "https://open.lnu.se/index.php/metapsychology/article/view/2474"
+  ]
+ },
+ {
   "id": "ct:sift-method",
   "title": "SIFT",
   "aliases": [
