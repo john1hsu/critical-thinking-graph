@@ -2416,6 +2416,114 @@
   ]
  },
  {
+  "id": "ct:informal-fallacy",
+  "title": "Informal fallacy",
+  "aliases": [
+   "informal fallacies",
+   "informal logical fallacy"
+  ],
+  "type": "Concept",
+  "domain": "informal-fallacies",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/informal-fallacy.md",
+  "created": "2026-11-05",
+  "summary": "A recurring, deceptively bad pattern of argument whose flaw lies in its content, context or use (relevance, ambiguity, unwarranted assumption or dialogue misconduct) rather than in an invalid logical form that formal analysis alone could expose.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:false-dilemma"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:tu-quoque"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:charles-hamblin"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:formal-fallacy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:sophistical-refutations",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:pragma-dialectics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:bayesian-reasoning",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/spr2025/entries/fallacies/",
+   "https://ecampusontario.pressbooks.pub/wsia062018/chapter/9/",
+   "https://www.ubcpress.ca/a-pragmatic-theory-of-fallacy",
+   "https://orca.cardiff.ac.uk/id/eprint/3308/"
+  ]
+ },
+ {
   "id": "ct:informal-logic",
   "title": "Informal logic",
   "aliases": [

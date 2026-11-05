@@ -87,6 +87,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:false-dilemma` | cto:InformalFallacy |
 | `ct:hypothesis-testing` | cto:Method |
 | `ct:illicit-major` | cto:FormalFallacy |
+| `ct:informal-fallacy` | cto:Concept |
 | `ct:key-assumptions-check` | cto:Technique |
 | `ct:misinformation-and-disinformation` | cto:Phenomenon |
 | `ct:modus-tollens` | cto:ReasoningForm |
