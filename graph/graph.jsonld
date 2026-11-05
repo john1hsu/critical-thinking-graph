@@ -2125,6 +2125,83 @@
    ]
   },
   {
+   "@id": "ct:key-assumptions-check",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:intelligence-analysis"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:mandel-tetlock-2018-correcting-judgment-correctives"
+   },
+   "cto:counteracts": {
+    "@id": "ct:confirmation-bias"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/decision-making/key-assumptions-check.md",
+   "cto:influencedBy": {
+    "@id": "ct:linchpin-analysis"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:artner-girven-bruce-2016-rand-sat-assessment"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4"
+    }
+   ],
+   "rdfs:label": "Key assumptions check",
+   "skos:altLabel": [
+    "KAC",
+    "assumptions check",
+    "key assumption check"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    }
+   ],
+   "skos:definition": "A structured analytic technique in which an analyst or team writes down the current line of reasoning, lists every stated and unstated premise it rests on, challenges each one, and keeps only those that must hold for the judgment to stand, together with the signs that would show they have failed.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Key assumptions check",
+   "skos:related": [
+    {
+     "@id": "ct:analysis-of-competing-hypotheses"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:premortem"
+    }
+   ]
+  },
+  {
    "@id": "ct:lateral-reading",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -6228,6 +6305,62 @@
    "dcterms:title": "Ward Edwards: Biographical profile",
    "schema:url": {
     "@id": "https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Edwards-Ward"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "US Government, Central Intelligence Agency, Center for the Study of Intelligence (March 2009)",
+   "dcterms:title": "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Richards J. Heuer Jr., Center for the Study of Intelligence, Central Intelligence Agency (1999)",
+   "dcterms:title": "Psychology of Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "RAND Corporation, RR-1408-OSD (Artner, Girven & Bruce, 2016)",
+   "dcterms:title": "Assessing the Value of Structured Analytic Techniques in the U.S. Intelligence Community",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/tr/pdf/AD1024447.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 9, 2640 (Mandel & Tetlock, 2018)",
+   "dcterms:title": "Correcting Judgment Correctives in National Security Intelligence",
+   "schema:url": {
+    "@id": "https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full"
    }
   },
   {

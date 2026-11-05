@@ -26,6 +26,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:premortem` | 2 | Overconfidence effect, groupthink |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
 | `ct:hypothesis-testing` | 1 | confirmation-bias |
+| `ct:key-assumptions-check` | 1 | confirmation-bias |
 | `ct:lateral-reading` | 1 | misinformation-and-disinformation |
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
@@ -44,6 +45,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 | node | status | challenger |
 |---|---|---|
+| `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
@@ -73,6 +75,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:epistemology` | cto:Field |
 | `ct:hypothesis-testing` | cto:Method |
 | `ct:illicit-major` | cto:FormalFallacy |
+| `ct:key-assumptions-check` | cto:Technique |
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:prebunking` | cto:Technique |

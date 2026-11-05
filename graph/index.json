@@ -2238,6 +2238,89 @@
   ]
  },
  {
+  "id": "ct:key-assumptions-check",
+  "title": "Key assumptions check",
+  "aliases": [
+   "key assumption check",
+   "KAC",
+   "assumptions check"
+  ],
+  "type": "Technique",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/decision-making/key-assumptions-check.md",
+  "created": "2026-11-05",
+  "summary": "A structured analytic technique in which an analyst or team writes down the current line of reasoning, lists every stated and unstated premise it rests on, challenges each one, and keeps only those that must hold for the judgment to stand, together with the signs that would show they have failed.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:analysis-of-competing-hypotheses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:intelligence-analysis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:confirmation-bias",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:linchpin-analysis",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:artner-girven-bruce-2016-rand-sat-assessment",
+    "source": "s3",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:mandel-tetlock-2018-correcting-judgment-correctives",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf",
+   "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf",
+   "https://apps.dtic.mil/sti/tr/pdf/AD1024447.pdf",
+   "https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full"
+  ]
+ },
+ {
   "id": "ct:lateral-reading",
   "title": "Lateral reading",
   "aliases": [

@@ -909,6 +909,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/the-theory-of-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2000/01/rdf-schema#label> "Key assumptions check" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#altLabel> "KAC" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#altLabel> "assumptions check" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#altLabel> "key assumption check" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#definition> "A structured analytic technique in which an analyst or team writes down the current line of reasoning, lists every stated and unstated premise it rests on, challenges each one, and keeps only those that must hold for the judgment to stand, together with the signs that would show they have failed." .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#prefLabel> "Key assumptions check" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mandel-tetlock-2018-correcting-judgment-correctives> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/key-assumptions-check.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/linchpin-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/artner-girven-bruce-2016-rand-sat-assessment> .
 <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2000/01/rdf-schema#label> "Lateral reading" .
@@ -2160,6 +2189,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s6> <https://schema.org/url> <https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Edwards-Ward> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://purl.org/dc/terms/publisher> "US Government, Central Intelligence Agency, Center for the Study of Intelligence (March 2009)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://purl.org/dc/terms/title> "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2> <http://purl.org/dc/terms/publisher> "Richards J. Heuer Jr., Center for the Study of Intelligence, Central Intelligence Agency (1999)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2> <http://purl.org/dc/terms/title> "Psychology of Intelligence Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3> <http://purl.org/dc/terms/publisher> "RAND Corporation, RR-1408-OSD (Artner, Girven & Bruce, 2016)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3> <http://purl.org/dc/terms/title> "Assessing the Value of Structured Analytic Techniques in the U.S. Intelligence Community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3> <https://schema.org/url> <https://apps.dtic.mil/sti/tr/pdf/AD1024447.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 9, 2640 (Mandel & Tetlock, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> <http://purl.org/dc/terms/title> "Correcting Judgment Correctives in National Security Intelligence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> <https://schema.org/url> <https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> <http://purl.org/dc/terms/publisher> "Stanford History Education Group Working Paper No. 2017.A1 (Wineburg & McGrew, 2017), copy hosted by Hendrix College" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s1> <http://purl.org/dc/terms/title> "Lateral Reading: Reading Less and Learning More When Evaluating Digital Information" .
