@@ -29,6 +29,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:lateral-reading` | 1 | misinformation-and-disinformation |
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
+| `ct:sift-method` | 1 | misinformation-and-disinformation |
 
 ## Heuristic -> bias -> remedy chains
 
@@ -58,6 +59,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
 | `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
 | `ct:premortem` | mixed |  |
+| `ct:sift-method` | mixed |  |
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

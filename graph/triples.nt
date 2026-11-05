@@ -1406,6 +1406,34 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Probabilistic and statistical reasoning" .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scientific reasoning and research methods" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2000/01/rdf-schema#label> "SIFT" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#altLabel> "SIFT method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Stop Investigate Find Trace" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#altLabel> "four moves and a habit" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#definition> "A four-step routine for checking online claims and sources quickly: Stop, Investigate the source, Find better coverage, and Trace claims, quotes and media to their original context. It replaces close inspection of a page with brief checks of what the rest of the web says about it." .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "SIFT" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/click-restraint> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/information-literacy-instruction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/craap-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/brodsky-2021-civics-course-fact-checking-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/sift-method.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mike-caulfield> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2000/01/rdf-schema#label> "Soundness" .
@@ -2684,6 +2712,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s6> <https://schema.org/url> <https://britannica.com/topic/Prior-Analytics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> <http://purl.org/dc/terms/publisher> "Mike Caulfield, Check, Please! project archive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> <http://purl.org/dc/terms/title> "SIFT Method (project page, 2016–2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> <https://schema.org/url> <https://checkplease.neocities.org/older-projects/sift-method/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s2> <http://purl.org/dc/terms/publisher> "Cognitive Research: Principles and Implications 6, 23 (Brodsky, Brooks, Scimeca, Todorova, Galati, Batson, Grosso, Matthews, Miller & Caulfield, 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s2> <http://purl.org/dc/terms/title> "Improving college students' fact-checking strategies through lateral reading instruction in a general education civics course" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s2> <https://schema.org/url> <https://link.springer.com/content/pdf/10.1186%2Fs41235-021-00291-4.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s3> <http://purl.org/dc/terms/publisher> "portal: Libraries and the Academy 23(3) (Faix & Daniels, 2023), accepted manuscript, Johns Hopkins University Press" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s3> <http://purl.org/dc/terms/title> "Teaching SIFT for Source Evaluation in Asynchronous One-Credit Information Literacy Courses" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s3> <https://schema.org/url> <https://preprint.press.jhu.edu/portal/sites/default/files/05_23.3faix.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s4> <http://purl.org/dc/terms/publisher> "College & Research Libraries 85(2) (Michaels, 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s4> <http://purl.org/dc/terms/title> "Review of Verified: How to Think Straight, Get Duped Less, and Make Better Decisions About What to Believe Online" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s4> <https://schema.org/url> <https://crl.acrl.org/index.php/crl/article/view/26234/34162> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> <http://purl.org/dc/terms/publisher> "University of Maryland Libraries" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> <http://purl.org/dc/terms/title> "Evaluate Sources: SIFT (JOUR 130 research guide)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> <https://schema.org/url> <https://lib.guides.umd.edu/jour130/sift> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://purl.org/dc/terms/title> "Validity and Soundness" .

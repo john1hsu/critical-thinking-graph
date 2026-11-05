@@ -3289,6 +3289,78 @@
    ]
   },
   {
+   "@id": "ct:sift-method",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:information-literacy-instruction"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:craap-test"
+   },
+   "cto:counteracts": {
+    "@id": "ct:misinformation-and-disinformation"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:brodsky-2021-civics-course-fact-checking-study"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/evidence-and-information-literacy/sift-method.md",
+   "cto:introducedBy": {
+    "@id": "ct:mike-caulfield"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5"
+    }
+   ],
+   "rdfs:label": "SIFT",
+   "skos:altLabel": [
+    "SIFT method",
+    "Stop Investigate Find Trace",
+    "four moves and a habit"
+   ],
+   "skos:broader": {
+    "@id": "ct:source-evaluation"
+   },
+   "skos:definition": "A four-step routine for checking online claims and sources quickly: Stop, Investigate the source, Find better coverage, and Trace claims, quotes and media to their original context. It replaces close inspection of a page with brief checks of what the rest of the web says about it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "SIFT",
+   "skos:related": [
+    {
+     "@id": "ct:click-restraint"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:prebunking"
+    },
+    {
+     "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
    "@id": "ct:soundness",
    "@type": "cto:Concept",
    "cto:confusedWith": {
@@ -7567,6 +7639,76 @@
    "dcterms:title": "Prior Analytics",
    "schema:url": {
     "@id": "https://britannica.com/topic/Prior-Analytics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Mike Caulfield, Check, Please! project archive",
+   "dcterms:title": "SIFT Method (project page, 2016–2021)",
+   "schema:url": {
+    "@id": "https://checkplease.neocities.org/older-projects/sift-method/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Cognitive Research: Principles and Implications 6, 23 (Brodsky, Brooks, Scimeca, Todorova, Galati, Batson, Grosso, Matthews, Miller & Caulfield, 2021)",
+   "dcterms:title": "Improving college students' fact-checking strategies through lateral reading instruction in a general education civics course",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.1186%2Fs41235-021-00291-4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "portal: Libraries and the Academy 23(3) (Faix & Daniels, 2023), accepted manuscript, Johns Hopkins University Press",
+   "dcterms:title": "Teaching SIFT for Source Evaluation in Asynchronous One-Credit Information Literacy Courses",
+   "schema:url": {
+    "@id": "https://preprint.press.jhu.edu/portal/sites/default/files/05_23.3faix.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "College & Research Libraries 85(2) (Michaels, 2024)",
+   "dcterms:title": "Review of Verified: How to Think Straight, Get Duped Less, and Make Better Decisions About What to Believe Online",
+   "schema:url": {
+    "@id": "https://crl.acrl.org/index.php/crl/article/view/26234/34162"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "University of Maryland Libraries",
+   "dcterms:title": "Evaluate Sources: SIFT (JOUR 130 research guide)",
+   "schema:url": {
+    "@id": "https://lib.guides.umd.edu/jour130/sift"
    }
   },
   {
