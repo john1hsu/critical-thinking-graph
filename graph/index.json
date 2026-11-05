@@ -2962,6 +2962,125 @@
   ]
  },
  {
+  "id": "ct:outside-view",
+  "title": "Taking the outside view",
+  "aliases": [
+   "outside view",
+   "reference class forecasting",
+   "outside-view forecasting"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/outside-view.md",
+  "created": "2026-11-05",
+  "summary": "A forecasting and debiasing technique in which a person sets aside the details of the case at hand, first asks how similar cases have usually turned out, and then anchors the prediction on that distribution of outcomes before adjusting for what is special about the case.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:representativeness-heuristic",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:base-rate-neglect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:planning-fallacy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inside-view",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:project-management",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:geopolitical-forecasting",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:chang-2016-forecasting-training-study",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:love-ahiaga-dagbui-2018-cost-overrun-critique",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://apps.dtic.mil/sti/pdfs/ADA047747.pdf",
+   "https://scholarsbank.uoregon.edu/items/098a706d-e32d-4d73-ba06-6dd92ae502a9/full",
+   "https://ideas.repec.org/a/inm/ormnsc/v39y1993i1p17-31.html",
+   "https://arxiv.org/pdf/1302.3642",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/16/16511/jdm16511.html",
+   "https://eprints.whiterose.ac.uk/139423/3/CCT1%20Mgt%20ResponseLoveAhiaga-DagbuiTRA3.3Submit1-1.pdf"
+  ]
+ },
+ {
   "id": "ct:overconfidence-effect",
   "title": "Overconfidence effect",
   "aliases": [
