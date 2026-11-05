@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: normative
 broader: [ct:scientific-method]
-related: [ct:falsifiability, ct:affirming-the-consequent, ct:ad-hoc-hypothesis, ct:null-hypothesis-significance-testing, ct:positive-test-strategy]
+related: [ct:falsifiability, ct:affirming-the-consequent, ct:ad-hoc-hypothesis, ct:null-hypothesis-significance-testing, ct:positive-test-strategy, ct:christiaan-huygens]
 requires: [ct:modus-tollens, ct:deductive-reasoning]
 relations:
   - {predicate: partOf, object: ct:scientific-method, source: s2, confidence: high}

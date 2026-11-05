@@ -937,6 +937,81 @@
   ]
  },
  {
+  "id": "ct:christiaan-huygens",
+  "title": "Christiaan Huygens",
+  "aliases": [
+   "Christian Huygens",
+   "Christiaan Huyghens",
+   "Hugenius"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/christiaan-huygens.md",
+  "created": "2026-11-05",
+  "summary": "Dutch mathematician, physicist and astronomer (1629-1695) whose Treatise on Light (written 1678, published 1690) gave an early explicit statement of the hypothetico-deductive method, holding that principles are verified by the agreement of their consequences with observation, and whose 1657 tract on games of chance introduced mathematical expectation.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:duhem-quine-thesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:william-whewell"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:hypothesis-testing",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:treatise-on-light",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:mathematical-expectation",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.britannica.com/print/article/280110",
+   "https://gutenberg.org/files/14725/14725-h/14725-h.htm",
+   "https://www.cambridge.org/core/books/subjective-probability/testing-scientific-theories/8423206E6153229DB9F0474FB8F7926F",
+   "https://encyclopediaofmath.org/wiki/Huygens,_Christiaan",
+   "https://www.cambridge.org/core/books/theories-of-scientific-method/hypotheticodeductive-method/A23939B9520B5DF79FF0E96738EEA906",
+   "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/christiaan-huygens-makes-fundamental-contributions-mechanics-astronomy-horology-and-optics"
+  ]
+ },
+ {
   "id": "ct:chrysippus",
   "title": "Chrysippus",
   "aliases": [
@@ -2273,6 +2348,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:positive-test-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:christiaan-huygens"
    },
    {
     "predicate": "cto:requires",

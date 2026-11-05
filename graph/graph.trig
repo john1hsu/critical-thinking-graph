@@ -338,6 +338,15 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/aristotle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/aristotle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/aristotle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/christiaan-huygens.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6> .
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/chrysippus.md" .
@@ -3404,6 +3413,74 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s4> <https://schema.org/url> <https://www.britannica.com/summary/Aristotle> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2000/01/rdf-schema#label> "Christiaan Huygens" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#altLabel> "Christiaan Huyghens" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#altLabel> "Christian Huygens" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#altLabel> "Hugenius" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#definition> "Dutch mathematician, physicist and astronomer (1629-1695) whose Treatise on Light (written 1678, published 1690) gave an early explicit statement of the hypothetico-deductive method, holding that principles are verified by the agreement of their consequences with observation, and whose 1657 tract on games of chance introduced mathematical expectation." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#prefLabel> "Christiaan Huygens" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/treatise-on-light> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/christiaan-huygens.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/mathematical-expectation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica (The Editors; revised 2025)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1> <http://purl.org/dc/terms/title> "Hypothetico-deductive method" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1> <https://schema.org/url> <https://www.britannica.com/print/article/280110> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2> <http://purl.org/dc/terms/publisher> "University of Chicago Press, 1912 (Huygens, 1690); Project Gutenberg eBook 14725" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2> <http://purl.org/dc/terms/title> "Treatise on Light (trans. Silvanus P. Thompson)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2> <https://schema.org/url> <https://gutenberg.org/files/14725/14725-h/14725-h.htm> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3> <http://purl.org/dc/terms/publisher> "Cambridge University Press (Jeffrey, 2004), pp. 29-50" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3> <http://purl.org/dc/terms/title> "Testing Scientific Theories (ch. 2 of Subjective Probability: The Real Thing)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3> <https://schema.org/url> <https://www.cambridge.org/core/books/subjective-probability/testing-scientific-theories/8423206E6153229DB9F0474FB8F7926F> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4> <http://purl.org/dc/terms/publisher> "Encyclopedia of Mathematics (EMS/Springer; adapted from Schneider in StatProb and Statisticians of the Centuries)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4> <http://purl.org/dc/terms/title> "Huygens, Christiaan" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4> <https://schema.org/url> <https://encyclopediaofmath.org/wiki/Huygens,_Christiaan> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5> <http://purl.org/dc/terms/publisher> "Acumen / Cambridge University Press (Nola, 2007), pp. 170-184" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5> <http://purl.org/dc/terms/title> "The hypothetico-deductive method (ch. 7 of Theories of Scientific Method: An Introduction)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5> <https://schema.org/url> <https://www.cambridge.org/core/books/theories-of-scientific-method/hypotheticodeductive-method/A23939B9520B5DF79FF0E96738EEA906> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6> <http://purl.org/dc/terms/publisher> "Science and Its Times, Gale (Norton), via Encyclopedia.com" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6> <http://purl.org/dc/terms/title> "Christiaan Huygens Makes Fundamental Contributions to Mechanics, Astronomy, Horology, and Optics" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6> <https://schema.org/url> <https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/christiaan-huygens-makes-fundamental-contributions-mechanics-astronomy-horology-and-optics> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -5067,6 +5144,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hypothesis testing" .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/positive-test-strategy> .
@@ -5414,6 +5492,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/charles-lord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/charles-lord> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
@@ -5595,6 +5674,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ease-of-retrieval-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
@@ -5650,6 +5730,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
@@ -5738,6 +5819,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothetical-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
@@ -5864,6 +5946,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-tversky-1972-lawyer-engineer-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-tversky-1972-lawyer-engineer-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -5917,6 +6000,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/mark-lepper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mark-lepper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mark-lepper> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mathematical-expectation> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mcdowell-jacobs-2017-natural-frequencies-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
@@ -6198,6 +6282,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasPart> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/selective-accessibility-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
@@ -6337,6 +6422,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/treatise-on-light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/treatise-on-light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/treatise-on-light> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
   <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -6415,6 +6503,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/why-there-is-no-argumentum-ad-hominem-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-hamilton> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wineburg-2022-lateral-reading-classroom-experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wineburg-2022-lateral-reading-classroom-experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .

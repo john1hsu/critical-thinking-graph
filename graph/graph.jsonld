@@ -910,6 +910,83 @@
    ]
   },
   {
+   "@id": "ct:christiaan-huygens",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:treatise-on-light"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/christiaan-huygens.md",
+   "cto:introduced": [
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:mathematical-expectation"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6"
+    }
+   ],
+   "rdfs:label": "Christiaan Huygens",
+   "skos:altLabel": [
+    "Christiaan Huyghens",
+    "Christian Huygens",
+    "Hugenius"
+   ],
+   "skos:definition": "Dutch mathematician, physicist and astronomer (1629-1695) whose Treatise on Light (written 1678, published 1690) gave an early explicit statement of the hypothetico-deductive method, holding that principles are verified by the agreement of their consequences with observation, and whose 1657 tract on games of chance introduced mathematical expectation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Christiaan Huygens",
+   "skos:related": [
+    {
+     "@id": "ct:duhem-quine-thesis"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:scientific-method"
+    },
+    {
+     "@id": "ct:william-whewell"
+    }
+   ]
+  },
+  {
    "@id": "ct:chrysippus",
    "@type": "cto:Person",
    "cto:contrastsWith": {
@@ -2197,6 +2274,9 @@
     },
     {
      "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:christiaan-huygens"
     },
     {
      "@id": "ct:falsifiability"
@@ -6992,6 +7072,90 @@
    "dcterms:title": "The Bias Blind Spot: Perceptions of Bias in Self Versus Others (replication record)",
    "schema:url": {
     "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/0146167202286008/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (The Editors; revised 2025)",
+   "dcterms:title": "Hypothetico-deductive method",
+   "schema:url": {
+    "@id": "https://www.britannica.com/print/article/280110"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "University of Chicago Press, 1912 (Huygens, 1690); Project Gutenberg eBook 14725",
+   "dcterms:title": "Treatise on Light (trans. Silvanus P. Thompson)",
+   "schema:url": {
+    "@id": "https://gutenberg.org/files/14725/14725-h/14725-h.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Cambridge University Press (Jeffrey, 2004), pp. 29-50",
+   "dcterms:title": "Testing Scientific Theories (ch. 2 of Subjective Probability: The Real Thing)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/subjective-probability/testing-scientific-theories/8423206E6153229DB9F0474FB8F7926F"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Encyclopedia of Mathematics (EMS/Springer; adapted from Schneider in StatProb and Statisticians of the Centuries)",
+   "dcterms:title": "Huygens, Christiaan",
+   "schema:url": {
+    "@id": "https://encyclopediaofmath.org/wiki/Huygens,_Christiaan"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Acumen / Cambridge University Press (Nola, 2007), pp. 170-184",
+   "dcterms:title": "The hypothetico-deductive method (ch. 7 of Theories of Scientific Method: An Introduction)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/theories-of-scientific-method/hypotheticodeductive-method/A23939B9520B5DF79FF0E96738EEA906"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/christiaan-huygens/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Science and Its Times, Gale (Norton), via Encyclopedia.com",
+   "dcterms:title": "Christiaan Huygens Makes Fundamental Contributions to Mechanics, Astronomy, Horology, and Optics",
+   "schema:url": {
+    "@id": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/christiaan-huygens-makes-fundamental-contributions-mechanics-astronomy-horology-and-optics"
    }
   },
   {
