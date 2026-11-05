@@ -2056,6 +2056,58 @@
    ]
   },
   {
+   "@id": "ct:james-frederick-ferrier",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/james-frederick-ferrier.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:george-berkeley"
+    },
+    {
+     "@id": "ct:william-hamilton"
+    }
+   ],
+   "cto:introduced": [
+    {
+     "@id": "ct:agnoiology"
+    },
+    {
+     "@id": "ct:epistemology"
+    }
+   ],
+   "cto:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4"
+    }
+   ],
+   "rdfs:label": "James Frederick Ferrier",
+   "skos:altLabel": "J. F. Ferrier",
+   "skos:definition": "Scottish metaphysician (1808-1864), professor at St Andrews, who introduced the word \"epistemology\" into English in his Institutes of Metaphysic (1854) and paired it with \"agnoiology\", a theory of ignorance holding that we can be ignorant only of what could in principle be known.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "James Frederick Ferrier",
+   "skos:related": {
+    "@id": "ct:epistemology"
+   }
+  },
+  {
    "@id": "ct:judgment-and-decision-making",
    "@type": "cto:Field",
    "cto:challengedBy": {
@@ -6576,6 +6628,62 @@
    "dcterms:title": "Informal Logic: A 'Canadian' Approach to Argument",
    "schema:url": {
     "@id": "https://philarchive.org/archive/PUPILA"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Jenny Keefe)",
+   "dcterms:title": "James Frederick Ferrier (1808-1864)",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/ferrier/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "William Blackwood, Edinburgh (James Frederick Ferrier, 1854), Internet Archive scan",
+   "dcterms:title": "Institutes of Metaphysic: The Theory of Knowing and Being (1854), University of Toronto copy",
+   "schema:url": {
+    "@id": "https://archive.org/details/institutesofmeta00ferruoft"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "James Frederick Ferrier",
+   "schema:url": {
+    "@id": "https://www.britannica.com/print/article/205046"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "The Encyclopedia of Philosophy, Macmillan (George E. Davie, 1967), via Encyclopedia.com",
+   "dcterms:title": "Ferrier, James Frederick (1808-1864)",
+   "schema:url": {
+    "@id": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ferrier-james-frederick-1808-1864"
    }
   },
   {

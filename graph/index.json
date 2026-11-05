@@ -2166,6 +2166,57 @@
   ]
  },
  {
+  "id": "ct:james-frederick-ferrier",
+  "title": "James Frederick Ferrier",
+  "aliases": [
+   "J. F. Ferrier"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/james-frederick-ferrier.md",
+  "created": "2026-11-05",
+  "summary": "Scottish metaphysician (1808-1864), professor at St Andrews, who introduced the word \"epistemology\" into English in his Institutes of Metaphysic (1854) and paired it with \"agnoiology\", a theory of ignorance holding that we can be ignorant only of what could in principle be known.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:epistemology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:agnoiology",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:george-berkeley",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:william-hamilton",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/ferrier/",
+   "https://archive.org/details/institutesofmeta00ferruoft",
+   "https://www.britannica.com/print/article/205046",
+   "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ferrier-james-frederick-1808-1864"
+  ]
+ },
+ {
   "id": "ct:judgment-and-decision-making",
   "title": "Judgment and decision making",
   "aliases": [

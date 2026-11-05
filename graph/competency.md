@@ -73,7 +73,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
-| `ct:epistemology` | cto:Field |
 | `ct:hypothesis-testing` | cto:Method |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:key-assumptions-check` | cto:Technique |

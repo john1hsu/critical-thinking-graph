@@ -881,6 +881,26 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/2000/01/rdf-schema#label> "James Frederick Ferrier" .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/2004/02/skos/core#altLabel> "J. F. Ferrier" .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/2004/02/skos/core#definition> "Scottish metaphysician (1808-1864), professor at St Andrews, who introduced the word \"epistemology\" into English in his Institutes of Metaphysic (1854) and paired it with \"agnoiology\", a theory of ignorance holding that we can be ignorant only of what could in principle be known." .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/2004/02/skos/core#prefLabel> "James Frederick Ferrier" .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/james-frederick-ferrier.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/george-berkeley> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/william-hamilton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/agnoiology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2000/01/rdf-schema#label> "Judgment and decision making" .
@@ -2220,6 +2240,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-logic/s4> <https://schema.org/url> <https://philarchive.org/archive/PUPILA> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Jenny Keefe)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://purl.org/dc/terms/title> "James Frederick Ferrier (1808-1864)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <https://schema.org/url> <https://iep.utm.edu/ferrier/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s2> <http://purl.org/dc/terms/publisher> "William Blackwood, Edinburgh (James Frederick Ferrier, 1854), Internet Archive scan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s2> <http://purl.org/dc/terms/title> "Institutes of Metaphysic: The Theory of Knowing and Being (1854), University of Toronto copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s2> <https://schema.org/url> <https://archive.org/details/institutesofmeta00ferruoft> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s3> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s3> <http://purl.org/dc/terms/title> "James Frederick Ferrier" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s3> <https://schema.org/url> <https://www.britannica.com/print/article/205046> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <http://purl.org/dc/terms/publisher> "The Encyclopedia of Philosophy, Macmillan (George E. Davie, 1967), via Encyclopedia.com" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <http://purl.org/dc/terms/title> "Ferrier, James Frederick (1808-1864)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <https://schema.org/url> <https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ferrier-james-frederick-1808-1864> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s1> <http://purl.org/dc/terms/publisher> "Annual Review of Psychology 49, 447-477 (Mellers, Schwartz & Cooke, 1998), author copy on a Wharton faculty page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s1> <http://purl.org/dc/terms/title> "Judgment and decision making" .
