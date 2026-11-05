@@ -1554,6 +1554,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/congregation-of-rites> .
 <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2000/01/rdf-schema#label> "Port-Royal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "La Logique ou l'art de penser" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "Logic or the Art of Thinking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "Logique de Port-Royal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "Port Royal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#definition> "Antoine Arnauld and Pierre Nicole's 1662 textbook La Logique ou l'art de penser, a Cartesian reworking of traditional logic in four parts (ideas, judgment, reasoning, method) that broke with Aristotle's list of fallacies, added sophisms such as imperfect enumeration, and became the most widely read logic text from Aristotle to the end of the nineteenth century." .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Port-Royal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/antoine-arnauld> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/pierre-nicole> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/port-royal-logic.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/rene-descartes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/2000/01/rdf-schema#label> "Posterior Analytics" .
@@ -3300,6 +3333,24 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s8> <https://schema.org/url> <https://scilit.com/publications/213a03e52ace334ef8a3eb67752b9d13> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Buroker, Summer 2023 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s1> <http://purl.org/dc/terms/title> "Port Royal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2023/entries/port-royal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s2> <http://purl.org/dc/terms/publisher> "Argumentation 33(2), 241-267 (Dufour, 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s2> <http://purl.org/dc/terms/title> "Old and New Fallacies in Port-Royal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s2> <https://schema.org/url> <https://philarchive.org/rec/DUFOAN> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> <http://purl.org/dc/terms/publisher> "Cambridge University Press, Cambridge Texts in the History of Philosophy (Arnauld & Nicole, 1996; course copy hosted at the University of Cincinnati)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> <http://purl.org/dc/terms/title> "Logic or the Art of Thinking (trans. and ed. J. V. Buroker)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> <https://schema.org/url> <https://homepages.uc.edu/~martinj/History_of_Logic/Port_Royal_Logic/Arnauld%20and%20Nicole%20-%20LAP%20-%20ed.%20Buroker.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive (MIT)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s1> <http://purl.org/dc/terms/title> "Posterior Analytics, Books I and II (trans. G. R. G. Mure)" .

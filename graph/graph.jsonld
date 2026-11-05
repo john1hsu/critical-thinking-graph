@@ -3656,6 +3656,97 @@
    ]
   },
   {
+   "@id": "ct:port-royal-logic",
+   "@type": "cto:Work",
+   "cto:authoredBy": [
+    {
+     "@id": "ct:antoine-arnauld"
+    },
+    {
+     "@id": "ct:pierre-nicole"
+    }
+   ],
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/port-royal-logic.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:rene-descartes"
+    }
+   ],
+   "cto:introduces": {
+    "@id": "ct:false-dilemma"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:syllogism"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3"
+    }
+   ],
+   "rdfs:label": "Port-Royal Logic",
+   "skos:altLabel": [
+    "La Logique ou l'art de penser",
+    "Logic or the Art of Thinking",
+    "Logique de Port-Royal",
+    "Port Royal Logic"
+   ],
+   "skos:definition": "Antoine Arnauld and Pierre Nicole's 1662 textbook La Logique ou l'art de penser, a Cartesian reworking of traditional logic in four parts (ideas, judgment, reasoning, method) that broke with Aristotle's list of fallacies, added sophisms such as imperfect enumeration, and became the most widely read logic text from Aristotle to the end of the nineteenth century.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Port-Royal Logic",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:organon"
+    },
+    {
+     "@id": "ct:syllogism"
+    }
+   ]
+  },
+  {
    "@id": "ct:posterior-analytics",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -9267,6 +9358,48 @@
    "dcterms:title": "Devil's Advocacy in Managerial Decision-Making",
    "schema:url": {
     "@id": "https://scilit.com/publications/213a03e52ace334ef8a3eb67752b9d13"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Buroker, Summer 2023 edition)",
+   "dcterms:title": "Port Royal Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2023/entries/port-royal-logic"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Argumentation 33(2), 241-267 (Dufour, 2019)",
+   "dcterms:title": "Old and New Fallacies in Port-Royal Logic",
+   "schema:url": {
+    "@id": "https://philarchive.org/rec/DUFOAN"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Cambridge University Press, Cambridge Texts in the History of Philosophy (Arnauld & Nicole, 1996; course copy hosted at the University of Cincinnati)",
+   "dcterms:title": "Logic or the Art of Thinking (trans. and ed. J. V. Buroker)",
+   "schema:url": {
+    "@id": "https://homepages.uc.edu/~martinj/History_of_Logic/Port_Royal_Logic/Arnauld%20and%20Nicole%20-%20LAP%20-%20ed.%20Buroker.pdf"
    }
   },
   {

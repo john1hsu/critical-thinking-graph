@@ -3830,6 +3830,107 @@
   ]
  },
  {
+  "id": "ct:port-royal-logic",
+  "title": "Port-Royal Logic",
+  "aliases": [
+   "Logic or the Art of Thinking",
+   "La Logique ou l'art de penser",
+   "Port Royal Logic",
+   "Logique de Port-Royal"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/port-royal-logic.md",
+  "created": "2026-11-05",
+  "summary": "Antoine Arnauld and Pierre Nicole's 1662 textbook La Logique ou l'art de penser, a Cartesian reworking of traditional logic in four parts (ideas, judgment, reasoning, method) that broke with Aristotle's list of fallacies, added sophisms such as imperfect enumeration, and became the most widely read logic text from Aristotle to the end of the nineteenth century.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:antoine-arnauld",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:pierre-nicole",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:rene-descartes",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:aristotle",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:false-dilemma",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/sum2023/entries/port-royal-logic",
+   "https://philarchive.org/rec/DUFOAN",
+   "https://homepages.uc.edu/~martinj/History_of_Logic/Port_Royal_Logic/Arnauld%20and%20Nicole%20-%20LAP%20-%20ed.%20Buroker.pdf"
+  ]
+ },
+ {
   "id": "ct:posterior-analytics",
   "title": "Posterior Analytics",
   "aliases": [
