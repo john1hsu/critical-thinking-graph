@@ -819,6 +819,7 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://purl.org/dc/terms/modified> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/2000/01/rdf-schema#label> "Illicit major" .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/2004/02/skos/core#altLabel> "illicit process of the major term" .
@@ -831,6 +832,7 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s3> .
@@ -2891,6 +2893,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <https://schema.org/url> <https://link.springer.com/article/10.3758/s13423-018-1460-7/fulltext.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> <http://purl.org/dc/terms/publisher> "Introduction to Logic, Philosophy Department, Lander University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> <http://purl.org/dc/terms/title> "Categorical Syllogisms: Venn Diagrams" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> <https://schema.org/url> <https://philosophy.lander.edu/logic/syll_venn.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s2> <http://purl.org/dc/terms/publisher> "Introduction to Logic, Philosophy Department, Lander University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s2> <http://purl.org/dc/terms/title> "Syllogistic Fallacies: Illicit Major and Illicit Minor" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s2> <https://schema.org/url> <https://philosophy.lander.edu/logic/illicit_fall.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s3> <http://purl.org/dc/terms/publisher> "Introduction to Logic, Philosophy Department, Lander University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s3> <http://purl.org/dc/terms/title> "Syllogistic Fallacy 2: Undistributed Middle" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s3> <https://schema.org/url> <https://philosophy.lander.Edu/logic/middle_fall.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (rev. 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s4> <http://purl.org/dc/terms/title> "Diagrams and Diagrammatical Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/diagrams/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s5> <http://purl.org/dc/terms/publisher> "The Electronic Journal of Combinatorics, Dynamic Survey DS5 (Ruskey & Weston)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s5> <http://purl.org/dc/terms/title> "A Survey of Venn Diagrams: John Venn" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s5> <https://schema.org/url> <https://www.combinatorics.org/files/Surveys/ds5/VennJohnEJC.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <http://purl.org/dc/terms/publisher> "Journal of Logic, Language and Information 24(4), 409-455 (Sato & Mineshima, 2015)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <http://purl.org/dc/terms/title> "How Diagrams Can Support Syllogistic Reasoning: An Experimental Study" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://schema.org/url> <https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/2000/01/rdf-schema#label> "Stephen Toulmin" .
@@ -3236,3 +3274,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2000/01/rdf-schema#label> "Venn diagram test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Venn diagram method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Venn validity test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#altLabel> "three-circle test for syllogisms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/diagrammatic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#definition> "A visual decision procedure for categorical syllogisms: draw three overlapping circles for the three terms, record only what the premises say (shading for empty regions, an X for \"at least one\"), and the argument is valid exactly when the conclusion can be read off the finished diagram." .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#prefLabel> "Venn diagram test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/venn-diagram-test.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .

@@ -1914,6 +1914,10 @@
     "@type": "xsd:date",
     "@value": "2026-11-04"
    },
+   "dcterms:modified": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
    "prov:wasDerivedFrom": [
     {
      "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1"
@@ -1953,6 +1957,9 @@
     },
     {
      "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
     }
    ]
   },
@@ -3912,6 +3919,96 @@
     },
     {
      "@id": "ct:truth-table"
+    }
+   ]
+  },
+  {
+   "@id": "ct:venn-diagram-test",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:euler-diagram"
+   },
+   "cto:detects": [
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:illicit-minor"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    }
+   ],
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/venn-diagram-test.md",
+   "cto:introducedBy": {
+    "@id": "ct:john-venn"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6"
+    }
+   ],
+   "rdfs:label": "Venn diagram test",
+   "skos:altLabel": [
+    "Venn diagram method",
+    "Venn validity test",
+    "three-circle test for syllogisms"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:diagrammatic-reasoning"
+    }
+   ],
+   "skos:definition": "A visual decision procedure for categorical syllogisms: draw three overlapping circles for the three terms, record only what the premises say (shading for empty regions, an X for \"at least one\"), and the argument is valid exactly when the conclusion can be read off the finished diagram.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Venn diagram test",
+   "skos:related": [
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:validity"
     }
    ]
   },
@@ -7943,6 +8040,90 @@
    "dcterms:title": "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.3758/s13423-018-1460-7/fulltext.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Introduction to Logic, Philosophy Department, Lander University",
+   "dcterms:title": "Categorical Syllogisms: Venn Diagrams",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/syll_venn.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Introduction to Logic, Philosophy Department, Lander University",
+   "dcterms:title": "Syllogistic Fallacies: Illicit Major and Illicit Minor",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/illicit_fall.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Introduction to Logic, Philosophy Department, Lander University",
+   "dcterms:title": "Syllogistic Fallacy 2: Undistributed Middle",
+   "schema:url": {
+    "@id": "https://philosophy.lander.Edu/logic/middle_fall.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (rev. 2025)",
+   "dcterms:title": "Diagrams and Diagrammatical Reasoning",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/diagrams/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "The Electronic Journal of Combinatorics, Dynamic Survey DS5 (Ruskey & Weston)",
+   "dcterms:title": "A Survey of Venn Diagrams: John Venn",
+   "schema:url": {
+    "@id": "https://www.combinatorics.org/files/Surveys/ds5/VennJohnEJC.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Journal of Logic, Language and Information 24(4), 409-455 (Sato & Mineshima, 2015)",
+   "dcterms:title": "How Diagrams Can Support Syllogistic Reasoning: An Experimental Study",
+   "schema:url": {
+    "@id": "https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/"
    }
   },
   {

@@ -2011,6 +2011,10 @@
     "object": "ct:method-of-counterexample"
    },
    {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
     "predicate": "cto:requires",
     "object": "ct:categorical-syllogism"
    },
@@ -4099,6 +4103,95 @@
    "https://forallx.openlogicproject.org/html/A2a.html",
    "https://link.springer.com/article/10.3758/BF03196976",
    "https://link.springer.com/article/10.3758/s13423-018-1460-7/fulltext.html"
+  ]
+ },
+ {
+  "id": "ct:venn-diagram-test",
+  "title": "Venn diagram test",
+  "aliases": [
+   "Venn diagram method",
+   "Venn validity test",
+   "three-circle test for syllogisms"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/venn-diagram-test.md",
+  "created": "2026-11-05",
+  "summary": "A visual decision procedure for categorical syllogisms: draw three overlapping circles for the three terms, record only what the premises say (shading for empty regions, an X for \"at least one\"), and the argument is valid exactly when the conclusion can be read off the finished diagram.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:diagrammatic-reasoning"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:illicit-major",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:illicit-minor",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:undistributed-middle",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-venn",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:euler-diagram",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://philosophy.lander.edu/logic/syll_venn.html",
+   "https://philosophy.lander.edu/logic/illicit_fall.html",
+   "https://philosophy.lander.Edu/logic/middle_fall.html",
+   "https://plato.stanford.edu/entries/diagrams/",
+   "https://www.combinatorics.org/files/Surveys/ds5/VennJohnEJC.html",
+   "https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/"
   ]
  }
 ]

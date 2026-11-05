@@ -12,7 +12,7 @@ summary: >-
 level: intermediate
 evidenceStatus: normative
 broader: [ct:formal-fallacy]
-related: [ct:syllogism, ct:undistributed-middle, ct:illicit-minor, ct:method-of-counterexample]
+related: [ct:syllogism, ct:undistributed-middle, ct:illicit-minor, ct:method-of-counterexample, ct:venn-diagram-test]
 requires: [ct:categorical-syllogism, ct:distribution-of-terms, ct:validity]
 relations:
   - {predicate: invalidFormOf, object: ct:categorical-syllogism, source: s2, confidence: high}
@@ -59,6 +59,7 @@ sources:
     type: peer-reviewed
     accessed: 2026-11-04
 created: 2026-11-04
+modified: 2026-11-05
 ---
 
 # Illicit major

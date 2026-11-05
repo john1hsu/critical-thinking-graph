@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:illicit-major` | cto:FormalFallacy |
 | `ct:tu-quoque` | cto:InformalFallacy |
 
 ## Most useful remedies
@@ -20,6 +19,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:consider-the-opposite` | 4 | Anchoring effect, Overconfidence effect, biased-assimilation, hindsight-bias |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, confirmation-bias, fundamental-attribution-error |
 | `ct:prebunking` | 3 | ad-hominem, false-dilemma, misinformation-and-disinformation |
+| `ct:venn-diagram-test` | 3 | Illicit major, illicit-minor, undistributed-middle |
 | `ct:debiasing` | 2 | Overconfidence effect, confirmation-bias |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
