@@ -1807,6 +1807,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/sift-method.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mike-caulfield> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2000/01/rdf-schema#label> "Simpson's paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "Simpson's reversal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "Yule-Simpson effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "amalgamation paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "reversal paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#definition> "A statistical pattern in which an association between two variables that holds in a whole population weakens, vanishes or reverses direction once the population is split into subgroups, so that pooled and stratified data point to opposite conclusions." .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#prefLabel> "Simpson's paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sure-thing-principle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/clinical-research> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bickel-1975-berkeley-admissions-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/simpsons-paradox.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
 <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2000/01/rdf-schema#label> "Soundness" .
@@ -3445,6 +3475,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s5> <https://schema.org/url> <https://lib.guides.umd.edu/jour130/sift> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Weinberger)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s1> <http://purl.org/dc/terms/title> "Simpson's Paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/paradox-simpson/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s2> <http://purl.org/dc/terms/publisher> "Science 187(4175), 398-404 (Bickel, Hammel & O'Connell, 1975), University of Iowa course copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s2> <http://purl.org/dc/terms/title> "Sex Bias in Graduate Admissions: Data from Berkeley" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s2> <https://schema.org/url> <https://homepage.stat.uiowa.edu/~mbognar/1030/Bickel-Berkeley.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s3> <http://purl.org/dc/terms/publisher> "The American Statistician 68(1), 8-13 (Pearl, 2014), UCLA Cognitive Systems Laboratory technical report R-414" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s3> <http://purl.org/dc/terms/title> "Understanding Simpson's Paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s3> <https://schema.org/url> <https://ftp.cs.ucla.edu/pub/stat_ser/r414.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <http://purl.org/dc/terms/publisher> "Journal of Clinical Medicine 12(4), 1633 (Bonovas & Piovani, 2023), MDPI" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <http://purl.org/dc/terms/title> "Simpson's Paradox in Clinical Research: A Cautionary Tale" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <https://schema.org/url> <https://www.mdpi.com/2077-0383/12/4/1633> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s1> <http://purl.org/dc/terms/title> "Validity and Soundness" .

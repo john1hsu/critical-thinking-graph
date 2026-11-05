@@ -48,9 +48,9 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 | node | status | challenger |
 |---|---|---|
-| `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
-| `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
 | `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
+| `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
+| `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
@@ -69,8 +69,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
 | `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
 | `ct:premortem` | mixed |  |
-| `ct:representativeness-heuristic` | mixed | `ct:gerd-gigerenzer` |
 | `ct:representativeness-heuristic` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
+| `ct:representativeness-heuristic` | mixed | `ct:gerd-gigerenzer` |
 | `ct:sift-method` | mixed |  |
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
@@ -95,6 +95,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:prebunking` | cto:Technique |
+| `ct:simpsons-paradox` | cto:Phenomenon |
 | `ct:tu-quoque` | cto:InformalFallacy |
 | `ct:undistributed-middle` | cto:FormalFallacy |
 

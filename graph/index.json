@@ -4486,6 +4486,90 @@
   ]
  },
  {
+  "id": "ct:simpsons-paradox",
+  "title": "Simpson's paradox",
+  "aliases": [
+   "Simpson's reversal",
+   "Yule-Simpson effect",
+   "amalgamation paradox",
+   "reversal paradox"
+  ],
+  "type": "Phenomenon",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/probabilistic-reasoning/simpsons-paradox.md",
+  "created": "2026-11-05",
+  "summary": "A statistical pattern in which an association between two variables that holds in a whole population weakens, vanishes or reverses direction once the population is split into subgroups, so that pooled and stratified data point to opposite conclusions.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:berksons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sure-thing-principle"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:confounding",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:bickel-1975-berkeley-admissions-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:causal-diagrams",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:clinical-research",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/paradox-simpson/",
+   "https://homepage.stat.uiowa.edu/~mbognar/1030/Bickel-Berkeley.pdf",
+   "https://ftp.cs.ucla.edu/pub/stat_ser/r414.pdf",
+   "https://www.mdpi.com/2077-0383/12/4/1633"
+  ]
+ },
+ {
   "id": "ct:soundness",
   "title": "Soundness",
   "aliases": [

@@ -14,18 +14,18 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.46 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:logic`, `ct:soundness`, `ct:the-new-rhetoric` |
 | 2.38 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:consider-the-opposite`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 2.25 | `ct:informal-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
-| 2.16 | `ct:epistemology` | `ct:falsifiability` | `ct:philosophy-of-science`, `ct:problem-of-induction` |
 | 2.16 | `ct:actively-open-minded-thinking` | `ct:outside-view` | `ct:geopolitical-forecasting`, `ct:judgment-and-decision-making`, `ct:overconfidence-effect` |
 | 2.16 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:syllogism` |
 | 2.15 | `ct:deductive-reasoning` | `ct:undistributed-middle` | `ct:affirming-the-consequent`, `ct:belief-bias`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.11 | `ct:informal-logic` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
 | 2.08 | `ct:argument` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:soundness`, `ct:topics`, `ct:validity` |
-| 2.05 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:outside-view`, `ct:representativeness-heuristic` |
+| 2.06 | `ct:epistemology` | `ct:falsifiability` | `ct:philosophy-of-science`, `ct:problem-of-induction` |
+| 2.04 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:outside-view`, `ct:representativeness-heuristic` |
 | 2.04 | `ct:actively-open-minded-thinking` | `ct:debiasing` | `ct:bias-blind-spot`, `ct:consider-the-opposite`, `ct:judgment-and-decision-making`, `ct:metacognition`, `ct:overconfidence-effect` |
 | 2.03 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 2.03 | `ct:debiasing-training-games` | `ct:devils-advocacy` | `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
 | 2.01 | `ct:alfred-tarski` | `ct:deductive-reasoning` | `ct:logical-consequence`, `ct:method-of-counterexample`, `ct:soundness`, `ct:validity` |
 | 1.90 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:syllogism` |
-| 1.83 | `ct:availability-heuristic` | `ct:outside-view` | `ct:amos-tversky`, `ct:base-rate-neglect`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making`, `ct:representativeness-heuristic` |
-| 1.83 | `ct:heuristics-and-biases-program` | `ct:outside-view` | `ct:amos-tversky`, `ct:base-rate-neglect`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making`, `ct:representativeness-heuristic` |
+| 1.82 | `ct:availability-heuristic` | `ct:outside-view` | `ct:amos-tversky`, `ct:base-rate-neglect`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making`, `ct:representativeness-heuristic` |
+| 1.82 | `ct:heuristics-and-biases-program` | `ct:outside-view` | `ct:amos-tversky`, `ct:base-rate-neglect`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making`, `ct:representativeness-heuristic` |
 | 1.82 | `ct:affirming-the-consequent` | `ct:illicit-major` | `ct:formal-fallacy`, `ct:method-of-counterexample`, `ct:undistributed-middle`, `ct:validity` |
