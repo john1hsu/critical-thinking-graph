@@ -53,6 +53,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:debiasing` | mixed |  |
 | `ct:debiasing-training-games` | mixed |  |
 | `ct:deliberate-reflection` | mixed | `ct:lambe-2018-guided-reflection-null-study` |
+| `ct:devils-advocacy` | mixed |  |
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 | `ct:lateral-reading` | mixed |  |
 | `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
@@ -73,6 +74,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
+| `ct:devils-advocacy` | cto:Technique |
 | `ct:hypothesis-testing` | cto:Method |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:key-assumptions-check` | cto:Technique |

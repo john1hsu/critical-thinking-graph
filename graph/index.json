@@ -1544,6 +1544,98 @@
   ]
  },
  {
+  "id": "ct:devils-advocacy",
+  "title": "Devil's advocacy",
+  "aliases": [
+   "devil's advocate technique",
+   "devil's advocate approach",
+   "devil's advocate method",
+   "advocatus diaboli"
+  ],
+  "type": "Technique",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/devils-advocacy.md",
+  "created": "2026-11-05",
+  "summary": "A structured challenge technique in which a person or subgroup is assigned to build the strongest possible case against a group's prevailing view or proposed plan, so that weak assumptions, thin evidence and overlooked alternatives surface before the decision is final.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:key-assumptions-check"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:red-team-analysis"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:intelligence-analysis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:team-a-team-b",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:dialectical-inquiry",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:strategic-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:schwenk-1990-devils-advocacy-meta-analysis",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:authentic-dissent",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf",
+   "https://scilit.com/publications/af443b108c33a797daa7409d60ecaf9a",
+   "https://data.zhenzhi.com/details/1/999233521/1/3",
+   "https://ideas.repec.org/a/bla/stratm/v10y1989i1p31-43.html",
+   "https://www.britannica.com/topic/devils-advocate",
+   "https://behavioralscientist.org/stop-playing-devils-advocate-and-other-advice-for-better-decision-making/"
+  ]
+ },
+ {
   "id": "ct:epistemology",
   "title": "Epistemology",
   "aliases": [

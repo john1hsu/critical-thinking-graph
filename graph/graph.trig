@@ -106,6 +106,15 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/decision-making/devils-advocacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/decision-making/judgment-and-decision-making.md" .
@@ -1273,6 +1282,78 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s6> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02297/pdf> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2000/01/rdf-schema#label> "Devil's advocacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#altLabel> "advocatus diaboli" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#altLabel> "devil's advocate approach" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#altLabel> "devil's advocate method" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#altLabel> "devil's advocate technique" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#definition> "A structured challenge technique in which a person or subgroup is assigned to build the strongest possible case against a group's prevailing view or proposed plan, so that weak assumptions, thin evidence and overlooked alternatives surface before the decision is final." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Devil's advocacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-team-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/strategic-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/team-a-team-b> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/authentic-dissent> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-inquiry> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/devils-advocacy.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/schwenk-1990-devils-advocacy-meta-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> <http://purl.org/dc/terms/publisher> "US Government (Central Intelligence Agency), March 2009, pp. 17-19, 38-39" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> <http://purl.org/dc/terms/title> "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2> <http://purl.org/dc/terms/publisher> "Academy of Management Journal 29(1), 51-71 (Schweiger, Sandberg & Ragan, 1986), Scilit record, doi:10.2307/255859" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2> <http://purl.org/dc/terms/title> "Group approaches for improving strategic decision making: A comparative analysis of dialectical inquiry, devil's advocacy, and consensus" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2> <https://schema.org/url> <https://scilit.com/publications/af443b108c33a797daa7409d60ecaf9a> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3> <http://purl.org/dc/terms/publisher> "Organizational Behavior and Human Decision Processes, pp. 161-176 (Schwenk, 1990), bibliographic record, doi:10.1016/0749-5978(90)90051-A" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3> <http://purl.org/dc/terms/title> "Effects of devil's advocacy and dialectical inquiry on decision making: A meta-analysis" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3> <https://schema.org/url> <https://data.zhenzhi.com/details/1/999233521/1/3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4> <http://purl.org/dc/terms/publisher> "Strategic Management Journal 10(1), 31-43 (Schweiger & Sandberg, 1989), RePEc/IDEAS record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4> <http://purl.org/dc/terms/title> "The utilization of individual capabilities in group approaches to strategic decision-making" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4> <https://schema.org/url> <https://ideas.repec.org/a/bla/stratm/v10y1989i1p31-43.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5> <http://purl.org/dc/terms/title> "Devil's advocate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5> <https://schema.org/url> <https://www.britannica.com/topic/devils-advocate> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <http://purl.org/dc/terms/publisher> "Behavioral Scientist (Schlitz, interview with Charlan Nemeth, July 2018)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <http://purl.org/dc/terms/title> "Stop Playing Devil's Advocate, and Other Advice for Better Decision Making" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <https://schema.org/url> <https://behavioralscientist.org/stop-playing-devils-advocate-and-other-advice-for-better-decision-making/> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making#graph> {
@@ -4259,6 +4340,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/artner-girven-bruce-2016-rand-sat-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/authentic-dissent> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> .
@@ -4361,6 +4443,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
@@ -4413,6 +4496,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
@@ -4420,6 +4504,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
@@ -4463,12 +4548,16 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
   <https://github.com/john1hsu/critical-thinking-graph/id/diagrammatic-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/diagrammatic-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-inquiry> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
@@ -4557,6 +4646,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/gigerenzer-hoffrage-1995-frequency-formats-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifiedBy> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/haran-2010-spies-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/haran-2010-spies-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
@@ -4658,6 +4748,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
@@ -4919,6 +5010,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-team-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
@@ -4947,6 +5039,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/schwenk-1990-devils-advocacy-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
@@ -5020,8 +5113,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
@@ -5037,6 +5132,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/team-a-team-b> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-scientific-discovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-scientific-discovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-scientific-discovery> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .

@@ -1481,6 +1481,97 @@
    ]
   },
   {
+   "@id": "ct:devils-advocacy",
+   "@type": "cto:Technique",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:intelligence-analysis"
+    },
+    {
+     "@id": "ct:strategic-decision-making"
+    }
+   ],
+   "cto:confusedWith": {
+    "@id": "ct:team-a-team-b"
+   },
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:authentic-dissent"
+    },
+    {
+     "@id": "ct:dialectical-inquiry"
+    }
+   ],
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/devils-advocacy.md",
+   "cto:level": "introductory",
+   "cto:supportedBy": {
+    "@id": "ct:schwenk-1990-devils-advocacy-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6"
+    }
+   ],
+   "rdfs:label": "Devil's advocacy",
+   "skos:altLabel": [
+    "advocatus diaboli",
+    "devil's advocate approach",
+    "devil's advocate method",
+    "devil's advocate technique"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    }
+   ],
+   "skos:definition": "A structured challenge technique in which a person or subgroup is assigned to build the strongest possible case against a group's prevailing view or proposed plan, so that weak assumptions, thin evidence and overlooked alternatives surface before the decision is final.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Devil's advocacy",
+   "skos:related": [
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:key-assumptions-check"
+    },
+    {
+     "@id": "ct:premortem"
+    },
+    {
+     "@id": "ct:red-team-analysis"
+    }
+   ]
+  },
+  {
    "@id": "ct:epistemology",
    "@type": "cto:Field",
    "cto:appliedIn": {
@@ -6222,6 +6313,90 @@
    "dcterms:title": "Guided reflection interventions show no effect on diagnostic accuracy in medical students",
    "schema:url": {
     "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02297/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "US Government (Central Intelligence Agency), March 2009, pp. 17-19, 38-39",
+   "dcterms:title": "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Academy of Management Journal 29(1), 51-71 (Schweiger, Sandberg & Ragan, 1986), Scilit record, doi:10.2307/255859",
+   "dcterms:title": "Group approaches for improving strategic decision making: A comparative analysis of dialectical inquiry, devil's advocacy, and consensus",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/af443b108c33a797daa7409d60ecaf9a"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Organizational Behavior and Human Decision Processes, pp. 161-176 (Schwenk, 1990), bibliographic record, doi:10.1016/0749-5978(90)90051-A",
+   "dcterms:title": "Effects of devil's advocacy and dialectical inquiry on decision making: A meta-analysis",
+   "schema:url": {
+    "@id": "https://data.zhenzhi.com/details/1/999233521/1/3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Strategic Management Journal 10(1), 31-43 (Schweiger & Sandberg, 1989), RePEc/IDEAS record",
+   "dcterms:title": "The utilization of individual capabilities in group approaches to strategic decision-making",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/bla/stratm/v10y1989i1p31-43.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Devil's advocate",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/devils-advocate"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Behavioral Scientist (Schlitz, interview with Charlan Nemeth, July 2018)",
+   "dcterms:title": "Stop Playing Devil's Advocate, and Other Advice for Better Decision Making",
+   "schema:url": {
+    "@id": "https://behavioralscientist.org/stop-playing-devils-advocate-and-other-advice-for-better-decision-making/"
    }
   },
   {
