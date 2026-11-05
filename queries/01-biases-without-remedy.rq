@@ -6,4 +6,4 @@ SELECT ?node ?type WHERE {
   VALUES ?type { cto:CognitiveBias cto:Heuristic cto:FormalFallacy cto:InformalFallacy cto:ProbabilisticFallacy }
   FILTER NOT EXISTS { ?node cto:counteractedBy ?x }
   FILTER NOT EXISTS { ?node cto:detectedBy ?y }
-} ORDER BY ?node
+} ORDER BY ?node ?type

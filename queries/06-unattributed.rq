@@ -8,4 +8,4 @@ SELECT ?node ?type WHERE {
   FILTER NOT EXISTS { ?node cto:introducedBy ?p }
   FILTER NOT EXISTS { ?node cto:introducedIn ?w }
   FILTER NOT EXISTS { ?node a ?sub . ?sub rdfs:subClassOf ?type . FILTER(?sub != ?type) }
-} ORDER BY ?node
+} ORDER BY ?node ?type
