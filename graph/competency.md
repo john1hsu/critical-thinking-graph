@@ -20,6 +20,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:consider-the-opposite` | 4 | Anchoring effect, Overconfidence effect, biased-assimilation, hindsight-bias |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, confirmation-bias, fundamental-attribution-error |
 | `ct:prebunking` | 3 | ad-hominem, false-dilemma, misinformation-and-disinformation |
+| `ct:debiasing` | 2 | Overconfidence effect, confirmation-bias |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
 | `ct:premortem` | 2 | Overconfidence effect, groupthink |
@@ -47,6 +48,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:consider-the-opposite` | mixed |  |
+| `ct:debiasing` | mixed |  |
 | `ct:debiasing-training-games` | mixed |  |
 | `ct:deliberate-reflection` | mixed | `ct:lambe-2018-guided-reflection-null-study` |
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |

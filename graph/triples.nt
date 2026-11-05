@@ -518,6 +518,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/debiasing-training-games.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/carey-morewedge> .
 <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2000/01/rdf-schema#label> "Debiasing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#altLabel> "bias mitigation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#altLabel> "cognitive bias mitigation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#altLabel> "debiasing strategies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#definition> "The family of interventions that remove or reduce systematic errors in judgment and decision making, either by changing the decision maker (education, cognitive strategies, decision models) or by changing the task and environment (incentives, accountability, choice architecture, organisational routines)." .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Debiasing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/debiasing.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-under-uncertainty> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/swaryandini-2025-debiasing-education-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "This laptop order needs sign-off from finance." .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/ra> .
@@ -1831,6 +1860,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing-training-games/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing-training-games/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing-training-games/s6> <https://schema.org/url> <https://www.mitre.org/sites/default/files/publications/pr-16-0956-the-assessment-of-biases-in-cognition.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s1> <http://purl.org/dc/terms/publisher> "Fischhoff, B. (1982), chapter 31 in Kahneman, Slovic & Tversky (eds.), Judgment under Uncertainty: Heuristics and Biases, pp. 422-444, Cambridge University Press" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s1> <http://purl.org/dc/terms/title> "Debiasing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s1> <https://schema.org/url> <https://www.cambridge.org/core/books/abs/judgment-under-uncertainty/debiasing/5DBEFB9D23BCC41E7A78BBBD895F9699> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s2> <http://purl.org/dc/terms/publisher> "Soll, Milkman & Payne (2015), chapter 33 in Keren & Wu (eds.), The Wiley Blackwell Handbook of Judgment and Decision Making (author copy)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s2> <http://purl.org/dc/terms/title> "A User's Guide to Debiasing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s2> <https://schema.org/url> <https://static1.squarespace.com/static/5353b838e4b0e68461b517cf/t/59b966cd4c0dbf23b6b997b2/1505322703896/39-2016_Handbook_of_JDM.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s3> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 4(4), 390-398 (Lilienfeld, Ammirati & Landfield, 2009), University of Notre Dame copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s3> <http://purl.org/dc/terms/title> "Giving Debiasing Away: Can Psychological Research on Correcting Cognitive Errors Promote Human Welfare?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s3> <https://schema.org/url> <https://www3.nd.edu/~ghaeffel/Lilienfeld2009%20Perspectives%20on%20Psychological%20Science.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> <http://purl.org/dc/terms/publisher> "Nature Human Behaviour (Swaryandini, Graham, Griffith et al., 2025), University of Leicester repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> <http://purl.org/dc/terms/title> "Systematic review and meta-analysis of educational approaches to reduce cognitive biases among students" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> <https://schema.org/url> <https://figshare.le.ac.uk/articles/journal_contribution/Systematic_review_and_meta-analysis_of_educational_approaches_to_reduce_cognitive_biases_among_students/30208108> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Shanahan)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1> <http://purl.org/dc/terms/title> "Deductive and Inductive Arguments" .

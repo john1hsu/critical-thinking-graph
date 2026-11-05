@@ -1180,6 +1180,91 @@
   ]
  },
  {
+  "id": "ct:debiasing",
+  "title": "Debiasing",
+  "aliases": [
+   "bias mitigation",
+   "cognitive bias mitigation",
+   "debiasing strategies"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/debiasing.md",
+  "created": "2026-11-05",
+  "summary": "The family of interventions that remove or reduce systematic errors in judgment and decision making, either by changing the decision maker (education, cognitive strategies, decision models) or by changing the task and environment (incentives, accountability, choice architecture, organisational routines).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:choice-architecture"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:baruch-fischhoff",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:judgment-under-uncertainty",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:confirmation-bias",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:overconfidence-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:swaryandini-2025-debiasing-education-meta-analysis",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cambridge.org/core/books/abs/judgment-under-uncertainty/debiasing/5DBEFB9D23BCC41E7A78BBBD895F9699",
+   "https://static1.squarespace.com/static/5353b838e4b0e68461b517cf/t/59b966cd4c0dbf23b6b997b2/1505322703896/39-2016_Handbook_of_JDM.pdf",
+   "https://www3.nd.edu/~ghaeffel/Lilienfeld2009%20Perspectives%20on%20Psychological%20Science.pdf",
+   "https://figshare.le.ac.uk/articles/journal_contribution/Systematic_review_and_meta-analysis_of_educational_approaches_to_reduce_cognitive_biases_among_students/30208108"
+  ]
+ },
+ {
   "id": "ct:debiasing-training-games",
   "title": "Debiasing training games",
   "aliases": [
