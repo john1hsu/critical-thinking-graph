@@ -493,6 +493,114 @@
    ]
   },
   {
+   "@id": "ct:argumentation-schemes",
+   "@type": "cto:Framework",
+   "cto:appliedIn": {
+    "@id": "ct:artificial-intelligence"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:lumer-2022-epistemological-appraisal-of-schemes"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map"
+   },
+   "cto:file": "articles/argumentation/argumentation-schemes.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:the-new-rhetoric"
+    },
+    {
+     "@id": "ct:topics"
+    }
+   ],
+   "cto:introducedBy": {
+    "@id": "ct:douglas-walton"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:nussbaum-2018-critical-questions-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s6"
+    }
+   ],
+   "rdfs:label": "Argumentation schemes",
+   "skos:altLabel": [
+    "Walton's argumentation schemes",
+    "argument schemes",
+    "argumentation scheme theory",
+    "presumptive argument schemes"
+   ],
+   "skos:broader": {
+    "@id": "ct:argumentation-theory"
+   },
+   "skos:definition": "A framework from informal logic that catalogues the recurring patterns of everyday, defeasible argument (from expert opinion, analogy, consequences and so on) and pairs each with critical questions that test whether a particular instance holds.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Argumentation schemes",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-analogy"
+    },
+    {
+     "@id": "ct:argument-from-consequences"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:defeasible-reasoning"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:argumentation-theory",
    "@type": "cto:Field",
    "cto:appliedIn": {
@@ -5705,6 +5813,65 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:argumentation-schemes"
+   },
+   "cto:verdict": "strong"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The vendor library presumably contains a critical vulnerability, so we should not ship it yet."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If other security specialists who reviewed the library disagree, or the claim rests on an outdated version of the code, the presumption weakens and must be re-examined."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Our security lead says the new vendor library contains a critical vulnerability."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Our security lead is an expert in application security."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:argument-from-expert-opinion"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -6708,6 +6875,90 @@
    "dcterms:title": "Prior Analytics, Book I (trans. A. J. Jenkinson)",
    "schema:url": {
     "@id": "https://classics.mit.edu/Aristotle/prior.1.i.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "IfCoLog Journal of Logics and Their Applications 4(8) (Macagno, Walton & Reed, 2017), PhilArchive copy",
+   "dcterms:title": "Argumentation Schemes: History, Classifications, and Computational Applications",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/MACASH-10"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Cambridge University Press (Walton, Reed & Macagno, 2008)",
+   "dcterms:title": "Argumentation Schemes, chapter 12: Schemes in Computer Systems",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/abs/argumentation-schemes/schemes-in-computer-systems/D32DCDC5EDD13E149BBFE4AE56CD9E83"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Notre Dame Philosophical Reviews (Groarke, 2009)",
+   "dcterms:title": "Review of Argumentation Schemes (Walton, Reed & Macagno)",
+   "schema:url": {
+    "@id": "https://ndpr.nd.edu/reviews/argumentation-schemes/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Informal Logic 42(1), 203-290 (Lumer, 2022), PhilArchive copy",
+   "dcterms:title": "An Epistemological Appraisal of Walton's Argument Schemes",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/LUMAEA"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Reading and Writing 32, 1531-1552 (Nussbaum, Dove, Slife & Kardash, 2018), UNLV repository record",
+   "dcterms:title": "Using Critical Questions to Evaluate Written and Oral Arguments in an Undergraduate General Education Seminar",
+   "schema:url": {
+    "@id": "https://oasis.library.unlv.edu/edpsych_fac_articles/320"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Argument and Computation 6(3), 219-245 (Walton & Macagno, 2015), PhilArchive copy",
+   "dcterms:title": "A Classification System for Argumentation Schemes",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/WALACS-7"
    }
   },
   {

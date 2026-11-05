@@ -211,6 +211,66 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The vendor library presumably contains a critical vulnerability, so we should not ship it yet." .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "If other security specialists who reviewed the library disagree, or the claim rests on an outdated version of the code, the presumption weakens and must be re-examined." .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "Our security lead says the new vendor library contains a critical vulnerability." .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Our security lead is an expert in application security." .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "strong" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2000/01/rdf-schema#label> "Argumentation schemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#altLabel> "Walton's argumentation schemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#altLabel> "argument schemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#altLabel> "argumentation scheme theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#altLabel> "presumptive argument schemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#definition> "A framework from informal logic that catalogues the recurring patterns of everyday, defeasible argument (from expert opinion, analogy, consequences and so on) and pairs each with critical questions that test whether a particular instance holds." .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#prefLabel> "Argumentation schemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/artificial-intelligence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/lumer-2022-epistemological-appraisal-of-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/argumentation-schemes.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/nussbaum-2018-critical-questions-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://purl.org/dc/terms/modified> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
@@ -2193,6 +2253,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/argument/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/argument/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/argument/s4> <https://schema.org/url> <https://classics.mit.edu/Aristotle/prior.1.i.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s1> <http://purl.org/dc/terms/publisher> "IfCoLog Journal of Logics and Their Applications 4(8) (Macagno, Walton & Reed, 2017), PhilArchive copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s1> <http://purl.org/dc/terms/title> "Argumentation Schemes: History, Classifications, and Computational Applications" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s1> <https://schema.org/url> <https://philarchive.org/archive/MACASH-10> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s2> <http://purl.org/dc/terms/publisher> "Cambridge University Press (Walton, Reed & Macagno, 2008)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s2> <http://purl.org/dc/terms/title> "Argumentation Schemes, chapter 12: Schemes in Computer Systems" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s2> <https://schema.org/url> <https://www.cambridge.org/core/books/abs/argumentation-schemes/schemes-in-computer-systems/D32DCDC5EDD13E149BBFE4AE56CD9E83> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s3> <http://purl.org/dc/terms/publisher> "Notre Dame Philosophical Reviews (Groarke, 2009)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s3> <http://purl.org/dc/terms/title> "Review of Argumentation Schemes (Walton, Reed & Macagno)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s3> <https://schema.org/url> <https://ndpr.nd.edu/reviews/argumentation-schemes/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s4> <http://purl.org/dc/terms/publisher> "Informal Logic 42(1), 203-290 (Lumer, 2022), PhilArchive copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s4> <http://purl.org/dc/terms/title> "An Epistemological Appraisal of Walton's Argument Schemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s4> <https://schema.org/url> <https://philarchive.org/archive/LUMAEA> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s5> <http://purl.org/dc/terms/publisher> "Reading and Writing 32, 1531-1552 (Nussbaum, Dove, Slife & Kardash, 2018), UNLV repository record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s5> <http://purl.org/dc/terms/title> "Using Critical Questions to Evaluate Written and Oral Arguments in an Undergraduate General Education Seminar" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s5> <https://schema.org/url> <https://oasis.library.unlv.edu/edpsych_fac_articles/320> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s6> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s6> <http://purl.org/dc/terms/publisher> "Argument and Computation 6(3), 219-245 (Walton & Macagno, 2015), PhilArchive copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s6> <http://purl.org/dc/terms/title> "A Classification System for Argumentation Schemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-schemes/s6> <https://schema.org/url> <https://philarchive.org/archive/WALACS-7> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s1> <http://purl.org/dc/terms/publisher> "Springer (van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij & Wagemans, 2014)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/argumentation-theory/s1> <http://purl.org/dc/terms/title> "Argumentation Theory (chapter 1), in Handbook of Argumentation Theory" .

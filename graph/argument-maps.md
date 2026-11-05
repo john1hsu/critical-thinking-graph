@@ -13,6 +13,16 @@ flowchart TD
   o2["The slowdown matches the leak hypothesis but does not rule out any rival cause."] -. attacks .-> ra
 ```
 
+## Argumentation schemes (`ct:argumentation-schemes`)
+
+```mermaid
+flowchart TD
+  p1["Our security lead says the new vendor library contains a critical vulnerability."] --> ra{{"strong"}}
+  p2["Our security lead is an expert in application security."] --> ra{{"strong"}}
+  ra --> c["The vendor library presumably contains a critical vulnerability, so we should not ship it yet."]
+  o1["If other security specialists who reviewed the library disagree, or the claim rests on an outdated version of the code, the presumption weakens and must be re-examined."] -. attacks .-> ra
+```
+
 ## Base-rate neglect (`ct:base-rate-neglect`)
 
 ```mermaid
