@@ -1155,6 +1155,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/justified-true-belief.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2000/01/rdf-schema#label> "Karl Popper" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#altLabel> "Karl R. Popper" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#altLabel> "Karl Raimund Popper" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#altLabel> "Sir Karl Popper" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#definition> "Austrian-British philosopher (1902-1994) who argued that scientific theories are bold conjectures that can never be verified but can be refuted by observation, making falsifiability the mark of science and criticism the engine of the growth of knowledge." .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#prefLabel> "Karl Popper" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-rationalism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pseudoscience> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-scientific-discovery> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/imre-lakatos> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/thomas-kuhn> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/verifiability-criterion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/karl-popper.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/political-philosophy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/2000/01/rdf-schema#label> "Key assumptions check" .
@@ -2878,6 +2910,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <https://schema.org/url> <https://courses.grainger.illinois.edu/PHYS419/sp2021/Gettier.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Thornton, rev. 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> <http://purl.org/dc/terms/title> "Karl Popper (Fall 2024 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/fall2024/entries/popper> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s2> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Shea), PhilArchive copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s2> <http://purl.org/dc/terms/title> "Karl Popper: Philosophy of Science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s2> <https://schema.org/url> <https://philarchive.org/archive/SHEKPP-3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s3> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s3> <http://purl.org/dc/terms/publisher> "AIM25 archive catalogue, London School of Economics Library" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s3> <http://purl.org/dc/terms/title> "POPPER, Sir Karl Raimund, 1902-1994, Knight, philosopher (collection GB 0097 POPPER)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s3> <https://schema.org/url> <https://atom.aim25.com/index.php/popper-sir-karl-raimund-1902-1994-knight-philosopher-4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s4> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s4> <http://purl.org/dc/terms/publisher> "University of Konstanz, Social Science Archive Konstanz" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s4> <http://purl.org/dc/terms/title> "Karl Raimund Popper (28 July 1902 - 17 September 1994)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s4> <https://schema.org/url> <https://www.kim.uni-konstanz.de/en/social-science-archive-konstanz/archive-inventory/archive-inventory-p-w/karl-raimund-popper/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s5> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s5> <http://purl.org/dc/terms/publisher> "Princeton University Press (Popper; new one-volume edition 2020)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s5> <http://purl.org/dc/terms/title> "The Open Society and Its Enemies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s5> <https://schema.org/url> <https://cart.press.princeton.edu/open-society-and-its-enemies-pdf.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://purl.org/dc/terms/publisher> "US Government, Central Intelligence Agency, Center for the Study of Intelligence (March 2009)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s1> <http://purl.org/dc/terms/title> "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis" .

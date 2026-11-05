@@ -7,7 +7,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.78 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.75 | `ct:debiasing-training-games` | `ct:key-assumptions-check` | `ct:confirmation-bias`, `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
 | 2.61 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:posterior-analytics`, `ct:prior-analytics` |
-| 2.58 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
+| 2.57 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
 | 2.51 | `ct:method-of-counterexample` | `ct:modus-tollens` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:modus-ponens`, `ct:syllogism` |
 | 2.50 | `ct:argumentation-theory` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
 | 2.50 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |
@@ -19,7 +19,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.15 | `ct:deductive-reasoning` | `ct:undistributed-middle` | `ct:affirming-the-consequent`, `ct:belief-bias`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.11 | `ct:informal-logic` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
 | 2.08 | `ct:argument` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:soundness`, `ct:topics`, `ct:validity` |
-| 2.06 | `ct:epistemology` | `ct:falsifiability` | `ct:philosophy-of-science`, `ct:problem-of-induction` |
 | 2.04 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:outside-view`, `ct:representativeness-heuristic` |
 | 2.04 | `ct:actively-open-minded-thinking` | `ct:debiasing` | `ct:bias-blind-spot`, `ct:consider-the-opposite`, `ct:judgment-and-decision-making`, `ct:metacognition`, `ct:overconfidence-effect` |
 | 2.03 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
@@ -29,3 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 1.82 | `ct:availability-heuristic` | `ct:outside-view` | `ct:amos-tversky`, `ct:base-rate-neglect`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making`, `ct:representativeness-heuristic` |
 | 1.82 | `ct:heuristics-and-biases-program` | `ct:outside-view` | `ct:amos-tversky`, `ct:base-rate-neglect`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making`, `ct:representativeness-heuristic` |
 | 1.82 | `ct:affirming-the-consequent` | `ct:illicit-major` | `ct:formal-fallacy`, `ct:method-of-counterexample`, `ct:undistributed-middle`, `ct:validity` |
+| 1.78 | `ct:informal-fallacy` | `ct:topics` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:sophistical-refutations` |

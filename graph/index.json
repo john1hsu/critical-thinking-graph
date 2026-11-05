@@ -2826,6 +2826,100 @@
   ]
  },
  {
+  "id": "ct:karl-popper",
+  "title": "Karl Popper",
+  "aliases": [
+   "Sir Karl Popper",
+   "Karl Raimund Popper",
+   "Karl R. Popper"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/karl-popper.md",
+  "created": "2026-11-05",
+  "summary": "Austrian-British philosopher (1902-1994) who argued that scientific theories are bold conjectures that can never be verified but can be refuted by observation, making falsifiability the mark of science and criticism the engine of the growth of knowledge.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:the-logic-of-scientific-discovery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-rationalism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:problem-of-induction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pseudoscience"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:political-philosophy",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:david-hume",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:thomas-kuhn",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:imre-lakatos",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:verifiability-criterion",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/fall2024/entries/popper",
+   "https://philarchive.org/archive/SHEKPP-3",
+   "https://atom.aim25.com/index.php/popper-sir-karl-raimund-1902-1994-knight-philosopher-4",
+   "https://www.kim.uni-konstanz.de/en/social-science-archive-konstanz/archive-inventory/archive-inventory-p-w/karl-raimund-popper/",
+   "https://cart.press.princeton.edu/open-society-and-its-enemies-pdf.html"
+  ]
+ },
+ {
   "id": "ct:key-assumptions-check",
   "title": "Key assumptions check",
   "aliases": [

@@ -2687,6 +2687,94 @@
    ]
   },
   {
+   "@id": "ct:karl-popper",
+   "@type": "cto:Person",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:imre-lakatos"
+    },
+    {
+     "@id": "ct:thomas-kuhn"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:verifiability-criterion"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/karl-popper.md",
+   "cto:influencedBy": {
+    "@id": "ct:david-hume"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": [
+    {
+     "@id": "ct:philosophy-of-science"
+    },
+    {
+     "@id": "ct:political-philosophy"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s5"
+    }
+   ],
+   "rdfs:label": "Karl Popper",
+   "skos:altLabel": [
+    "Karl R. Popper",
+    "Karl Raimund Popper",
+    "Sir Karl Popper"
+   ],
+   "skos:definition": "Austrian-British philosopher (1902-1994) who argued that scientific theories are bold conjectures that can never be verified but can be refuted by observation, making falsifiability the mark of science and criticism the engine of the growth of knowledge.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Karl Popper",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:critical-rationalism"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:problem-of-induction"
+    },
+    {
+     "@id": "ct:pseudoscience"
+    },
+    {
+     "@id": "ct:the-logic-of-scientific-discovery"
+    }
+   ]
+  },
+  {
    "@id": "ct:key-assumptions-check",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -8269,6 +8357,76 @@
    "dcterms:title": "Is Justified True Belief Knowledge?",
    "schema:url": {
     "@id": "https://courses.grainger.illinois.edu/PHYS419/sp2021/Gettier.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Thornton, rev. 2022)",
+   "dcterms:title": "Karl Popper (Fall 2024 archive edition)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/fall2024/entries/popper"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Shea), PhilArchive copy",
+   "dcterms:title": "Karl Popper: Philosophy of Science",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/SHEKPP-3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "AIM25 archive catalogue, London School of Economics Library",
+   "dcterms:title": "POPPER, Sir Karl Raimund, 1902-1994, Knight, philosopher (collection GB 0097 POPPER)",
+   "schema:url": {
+    "@id": "https://atom.aim25.com/index.php/popper-sir-karl-raimund-1902-1994-knight-philosopher-4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "University of Konstanz, Social Science Archive Konstanz",
+   "dcterms:title": "Karl Raimund Popper (28 July 1902 - 17 September 1994)",
+   "schema:url": {
+    "@id": "https://www.kim.uni-konstanz.de/en/social-science-archive-konstanz/archive-inventory/archive-inventory-p-w/karl-raimund-popper/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-05"
+   },
+   "dcterms:publisher": "Princeton University Press (Popper; new one-volume edition 2020)",
+   "dcterms:title": "The Open Society and Its Enemies",
+   "schema:url": {
+    "@id": "https://cart.press.princeton.edu/open-society-and-its-enemies-pdf.html"
    }
   },
   {
