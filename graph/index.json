@@ -3339,6 +3339,96 @@
   ]
  },
  {
+  "id": "ct:inductive-reasoning",
+  "title": "Inductive reasoning",
+  "aliases": [
+   "induction",
+   "inductive inference",
+   "inductive argument"
+  ],
+  "type": "ReasoningMode",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/inductive-reasoning.md",
+  "created": "2026-11-06",
+  "summary": "Reasoning in which the premises are meant to make the conclusion probable rather than guarantee it, typically by projecting from observed cases to unobserved cases, general claims or predictions.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-analogy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:david-hume"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:deductive-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:problem-of-induction",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:similarity-coverage-model",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/deductive-inductive-arguments/",
+   "https://plato.stanford.edu/ENTRIES/induction-problem/",
+   "https://link.springer.com/content/pdf/10.3758/BF03212996.pdf"
+  ]
+ },
+ {
   "id": "ct:informal-fallacy",
   "title": "Informal fallacy",
   "aliases": [

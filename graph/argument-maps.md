@@ -88,6 +88,17 @@ flowchart TD
   o2["A contractor on the on-call rota could have been granted access through another route."] -. attacks .-> ra
 ```
 
+## Inductive reasoning (`ct:inductive-reasoning`)
+
+```mermaid
+flowchart TD
+  p1["In each of the last twelve quarterly releases, the mobile app saw a spike in support tickets during the first week."] --> ra{{"strong"}}
+  p2["Next week's release follows the same process and ships to the same user base."] --> ra{{"strong"}}
+  ra --> c["Next week's release will probably also cause a first-week spike in support tickets."]
+  o1["If this release changes the process (for example, a staged rollout), the past pattern may no longer project."] -. attacks .-> ra
+  o2["Twelve releases is a modest sample; a coincidence of scheduling could explain the pattern."] -. attacks .-> ra
+```
+
 ## Modus ponens (`ct:modus-ponens`)
 
 ```mermaid

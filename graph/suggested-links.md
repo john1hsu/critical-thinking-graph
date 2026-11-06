@@ -4,10 +4,10 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 3.32 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample`, `ct:posterior-analytics` |
-| 3.18 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:logic`, `ct:port-royal-logic`, `ct:sophistical-refutations` |
+| 3.69 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:inductive-reasoning`, `ct:method-of-counterexample` |
+| 3.54 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:logic`, `ct:port-royal-logic` |
 | 3.12 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:randomized-controlled-trial` |
-| 2.92 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
+| 2.91 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
 | 2.82 | `ct:argumentation-schemes` | `ct:richard-whately` | `ct:argument-from-expert-opinion`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy`, `ct:informal-logic` |
 | 2.82 | `ct:misinformation-and-disinformation` | `ct:primary-and-secondary-sources` | `ct:information-literacy`, `ct:lateral-reading`, `ct:sift-method`, `ct:source-credibility` |
 | 2.79 | `ct:affirming-a-disjunct` | `ct:deductive-reasoning` | `ct:affirming-the-consequent`, `ct:mental-model-theory`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
@@ -15,17 +15,17 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.59 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |
 | 2.56 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.48 | `ct:cognitive-psychology` | `ct:minna-cheves-wilkins` | `ct:deductive-reasoning`, `ct:jonathan-st-b-t-evans`, `ct:psychology`, `ct:syllogism` |
+| 2.48 | `ct:inductive-reasoning` | `ct:karl-popper` | `ct:david-hume`, `ct:problem-of-induction`, `ct:william-whewell` |
 | 2.46 | `ct:richard-whately` | `ct:sophistical-refutations` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:ignoratio-elenchi`, `ct:informal-fallacy` |
-| 2.38 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |
-| 2.36 | `ct:prior-analytics` | `ct:sophistical-refutations` | `ct:aristotle`, `ct:begging-the-question`, `ct:organon`, `ct:topics`, `ct:validity` |
+| 2.35 | `ct:prior-analytics` | `ct:sophistical-refutations` | `ct:aristotle`, `ct:begging-the-question`, `ct:organon`, `ct:topics`, `ct:validity` |
 | 2.35 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 2.30 | `ct:argumentation-theory` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
 | 2.25 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample` |
-| 2.25 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:debiasing`, `ct:gerd-gigerenzer` |
+| 2.24 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:debiasing`, `ct:gerd-gigerenzer` |
 | 2.20 | `ct:denying-the-antecedent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
 | 2.19 | `ct:sophistical-refutations` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:ignoratio-elenchi`, `ct:informal-fallacy`, `ct:pragma-dialectics` |
 | 2.19 | `ct:debiasing-training-games` | `ct:key-assumptions-check` | `ct:confirmation-bias`, `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
+| 2.18 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |
 | 2.15 | `ct:actively-open-minded-thinking` | `ct:outside-view` | `ct:geopolitical-forecasting`, `ct:judgment-and-decision-making`, `ct:overconfidence-effect` |
-| 2.15 | `ct:deductive-reasoning` | `ct:denying-the-antecedent` | `ct:affirming-the-consequent`, `ct:aristotle`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
 | 2.14 | `ct:method-of-counterexample` | `ct:modus-tollens` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:modus-ponens`, `ct:syllogism` |
 | 2.14 | `ct:base-rate-neglect` | `ct:cognitive-bias` | `ct:amos-tversky`, `ct:availability-heuristic`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
