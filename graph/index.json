@@ -85,6 +85,89 @@
   ]
  },
  {
+  "id": "ct:affirming-a-disjunct",
+  "title": "Affirming a disjunct",
+  "aliases": [
+   "affirming one disjunct",
+   "fallacy of the alternative syllogism",
+   "improper disjunctive syllogism",
+   "asserting an alternative"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/affirming-a-disjunct.md",
+  "created": "2026-11-06",
+  "summary": "The invalid inference from \"P or Q\" and \"P\" to \"not Q\", which treats an inclusive \"or\" as if it ruled out both alternatives being true at once.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:false-dilemma"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:disjunctive-syllogism",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:disjunctive-syllogism",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:conversational-implicature",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:mental-model-theory",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Could both alternatives in the \"or\" premise be true at the same time?",
+   "Is the \"or\" meant exclusively, and if so, has the \"not both\" claim been stated and supported?",
+   "Does the affirmed alternative by itself rule out the other one, independent of the disjunction?",
+   "What would a realistic case look like in which both options hold together?"
+  ],
+  "source_urls": [
+   "https://www.fallacyfiles.org/afonedis.html",
+   "https://plato.stanford.edu/archives/win2022/entries/disjunction/",
+   "https://distantreader.org/stacks/journals/il/il-2691.pdf",
+   "https://modeltheory.org/papers/2016mod-disjns.pdf"
+  ]
+ },
+ {
   "id": "ct:affirming-the-consequent",
   "title": "Affirming the consequent",
   "aliases": [

@@ -92,6 +92,84 @@
    ]
   },
   {
+   "@id": "ct:affirming-a-disjunct",
+   "@type": "cto:FormalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:disjunctive-syllogism"
+   },
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map"
+   },
+   "cto:explainedBy": [
+    {
+     "@id": "ct:conversational-implicature"
+    },
+    {
+     "@id": "ct:mental-model-theory"
+    }
+   ],
+   "cto:file": "articles/formal-fallacies/affirming-a-disjunct.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:disjunctive-syllogism"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:validity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-a-disjunct/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-a-disjunct/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-a-disjunct/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-a-disjunct/s4"
+    }
+   ],
+   "rdfs:label": "Affirming a disjunct",
+   "skos:altLabel": [
+    "affirming one disjunct",
+    "asserting an alternative",
+    "fallacy of the alternative syllogism",
+    "improper disjunctive syllogism"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The invalid inference from \"P or Q\" and \"P\" to \"not Q\", which treats an inclusive \"or\" as if it ruled out both alternatives being true at once.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Affirming a disjunct",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:false-dilemma"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:syllogism"
+    }
+   ]
+  },
+  {
    "@id": "ct:affirming-the-consequent",
    "@type": "cto:FormalFallacy",
    "cto:confusedWith": [
@@ -7357,6 +7435,112 @@
    ]
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:affirming-a-disjunct"
+   },
+   "rdfs:label": "Could both alternatives in the \"or\" premise be true at the same time?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:affirming-a-disjunct"
+   },
+   "rdfs:label": "Is the \"or\" meant exclusively, and if so, has the \"not both\" claim been stated and supported?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:affirming-a-disjunct"
+   },
+   "rdfs:label": "Does the affirmed alternative by itself rule out the other one, independent of the disjunction?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:affirming-a-disjunct"
+   },
+   "rdfs:label": "What would a realistic case look like in which both options hold together?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:affirming-a-disjunct"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The staffing gap did not contribute to the slip."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Delays often have several causes; the vendor delay and the staffing gap could both have contributed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Confirming one cause says nothing about the other unless the two are known to be mutually exclusive."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The release slipped because of the vendor delay or because of the staffing gap."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The release slipped because of the vendor delay."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:disjunctive-syllogism"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -8239,6 +8423,62 @@
    "dcterms:title": "Actively Open-Minded Thinking Beliefs (AOT)",
    "schema:url": {
     "@id": "https://dlab.sauder.ubc.ca/sjdm/dmidi/Actively_Open-Minded_Thinking_Beliefs.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-a-disjunct/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Affirming a Disjunct",
+   "schema:url": {
+    "@id": "https://www.fallacyfiles.org/afonedis.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-a-disjunct/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Maria Aloni, first published 2016; Winter 2022 edition)",
+   "dcterms:title": "Disjunction",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/win2022/entries/disjunction/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-a-disjunct/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Informal Logic 8(3), 133-139 (Brian Kirby, 1986)",
+   "dcterms:title": "A Plea For Affirming a Disjunct",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2691.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-a-disjunct/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Quarterly Journal of Experimental Psychology 70(4), 703-717 (Quelhas & Johnson-Laird, 2017), doi:10.1080/17470218.2016.1154079, author's copy",
+   "dcterms:title": "The modulation of disjunctive assertions",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/2016mod-disjns.pdf"
    }
   },
   {
