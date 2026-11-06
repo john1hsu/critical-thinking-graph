@@ -61,6 +61,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
+| `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:debiasing` | mixed |  |
 | `ct:debiasing-training-games` | mixed |  |

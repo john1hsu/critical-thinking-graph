@@ -1329,6 +1329,109 @@
    ]
   },
   {
+   "@id": "ct:cognitive-bias",
+   "@type": "cto:Concept",
+   "cto:challengedBy": {
+    "@id": "ct:gerd-gigerenzer"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:error-management-theory"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    }
+   ],
+   "cto:file": "articles/cognitive-biases/cognitive-bias.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:supportedBy": {
+    "@id": "ct:many-labs-1-replication-project"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s6"
+    }
+   ],
+   "rdfs:label": "Cognitive bias",
+   "skos:altLabel": [
+    "bias in judgment",
+    "judgmental bias",
+    "systematic judgment error"
+   ],
+   "skos:broader": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "skos:definition": "A systematic and predictable tendency for human judgment to depart from a chosen normative standard (logic, probability theory, or accurate perception), so that errors lean in a consistent direction rather than scattering at random.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Cognitive bias",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:bias-blind-spot"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    }
+   ]
+  },
+  {
    "@id": "ct:cognitive-psychology",
    "@type": "cto:Field",
    "cto:challengedBy": {
@@ -9147,6 +9250,90 @@
    "dcterms:title": "Stoicism: Inferential logic",
    "schema:url": {
     "@id": "https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Science 185(4157), 1124-1131 (Amos Tversky & Daniel Kahneman, 1974), PubMed record",
+   "dcterms:title": "Judgment under Uncertainty: Heuristics and Biases",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/17835457/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Review 10(1), 47-66 (Martie G. Haselton & Daniel Nettle, 2006), author's copy",
+   "dcterms:title": "The Paranoid Optimist: An Integrative Evolutionary Model of Cognitive Biases",
+   "schema:url": {
+    "@id": "https://www.danielnettle.org.uk/wp-content/uploads/2024/06/034.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Psychological Review 103(3), 592-596 (Gerd Gigerenzer, 1996), CORE copy",
+   "dcterms:title": "On Narrow Norms and Vague Heuristics: A Reply to Kahneman and Tversky (1996)",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/193648205.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Social Psychology 45(3), 142-152 (Richard A. Klein et al., 2014), Penn State research portal",
+   "dcterms:title": "Investigating variation in replicability: A 'many labs' replication project",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/investigating-variation-in-replicability-a-many-labs-replication-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Open Psychology Data (Richard A. Klein et al., 2014), CORE copy",
+   "dcterms:title": "Data from Investigating Variation in Replicability: A 'Many Labs' Replication Project",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/420823721.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-bias/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Advances in Methods and Practices in Psychological Science (Richard A. Klein et al., 2018), University of Salford repository copy",
+   "dcterms:title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+   "schema:url": {
+    "@id": "https://salford-repository.worktribe.com/OutputFile/1490505"
    }
   },
   {

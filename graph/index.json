@@ -1369,6 +1369,117 @@
   ]
  },
  {
+  "id": "ct:cognitive-bias",
+  "title": "Cognitive bias",
+  "aliases": [
+   "judgmental bias",
+   "bias in judgment",
+   "systematic judgment error"
+  ],
+  "type": "Concept",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/cognitive-biases/cognitive-bias.md",
+  "created": "2026-11-06",
+  "summary": "A systematic and predictable tendency for human judgment to depart from a chosen normative standard (logic, probability theory, or accurate perception), so that errors lean in a consistent direction rather than scattering at random.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:heuristics-and-biases-program",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:error-management-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:many-labs-1-replication-project",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/17835457/",
+   "https://www.danielnettle.org.uk/wp-content/uploads/2024/06/034.pdf",
+   "https://core.ac.uk/download/193648205.pdf",
+   "https://pure.psu.edu/en/publications/investigating-variation-in-replicability-a-many-labs-replication-/",
+   "https://core.ac.uk/download/420823721.pdf",
+   "https://salford-repository.worktribe.com/OutputFile/1490505"
+  ]
+ },
+ {
   "id": "ct:cognitive-psychology",
   "title": "Cognitive psychology",
   "aliases": [
