@@ -3722,6 +3722,12 @@
     "confidence": "high"
    },
    {
+    "predicate": "cto:introducedBy",
+    "object": "ct:plato",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
     "predicate": "cto:challengedBy",
     "object": "ct:gettier-problem",
     "source": "s4",
@@ -5098,6 +5104,77 @@
    "https://plato.stanford.edu/entries/thomas-kuhn/",
    "https://butler.elsevierpure.com/en/publications/the-nature-of-science-a-perspective-from-the-philosophy-of-scienc/",
    "https://britannica.com/topic/philosophy-of-science/Eliminativism-and-falsification"
+  ]
+ },
+ {
+  "id": "ct:plato",
+  "title": "Plato",
+  "aliases": [
+   "Aristocles",
+   "Plato of Athens"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/plato.md",
+  "created": "2026-11-06",
+  "summary": "Athenian philosopher (c. 428/427-348/347 BCE), student of Socrates, teacher of Aristotle and founder of the Academy, whose dialogues turned Socratic question-and-answer into a written model of testing claims and, in the Theaetetus, first posed the question of whether knowledge is true belief plus an account.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:justified-true-belief"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gettier-problem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:socratic-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:socrates",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:parmenides",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/plato/",
+   "https://iep.utm.edu/plato/",
+   "https://www.britannica.com/biography/Plato",
+   "https://iep.utm.edu/theatetu/",
+   "https://plato.stanford.edu/entries/socrates/"
   ]
  },
  {

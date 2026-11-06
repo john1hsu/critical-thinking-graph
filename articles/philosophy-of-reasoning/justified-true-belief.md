@@ -16,6 +16,7 @@ related: [ct:gettier-problem, ct:plato, ct:edmund-gettier, ct:method-of-countere
 requires: []
 relations:
   - {predicate: studiedIn, object: ct:epistemology, source: s1, confidence: high}
+  - {predicate: introducedBy, object: ct:plato, source: s2, confidence: medium}
   - {predicate: challengedBy, object: ct:gettier-problem, source: s4, confidence: high}
   - {predicate: contrastsWith, object: ct:reliabilism, source: s1, confidence: medium}
   - {predicate: contrastsWith, object: ct:classical-infallibilism, source: s3, confidence: medium}

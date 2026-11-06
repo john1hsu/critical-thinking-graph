@@ -93,7 +93,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | node | type |
 |---|---|
 | `ct:illicit-major` | cto:FormalFallacy |
-| `ct:justified-true-belief` | cto:Concept |
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:misinformation-and-disinformation` | cto:Phenomenon |
 | `ct:modus-tollens` | cto:ReasoningForm |

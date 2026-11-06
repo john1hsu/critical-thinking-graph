@@ -3510,6 +3510,9 @@
    "cto:domain": "philosophy-of-reasoning",
    "cto:evidenceStatus": "contested",
    "cto:file": "articles/philosophy-of-reasoning/justified-true-belief.md",
+   "cto:introducedBy": {
+    "@id": "ct:plato"
+   },
    "cto:level": "introductory",
    "cto:studiedIn": {
     "@id": "ct:epistemology"
@@ -4852,6 +4855,79 @@
     },
     {
      "@id": "ct:william-whewell"
+    }
+   ]
+  },
+  {
+   "@id": "ct:plato",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/plato.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:parmenides"
+    },
+    {
+     "@id": "ct:socrates"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:epistemology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s5"
+    }
+   ],
+   "rdfs:label": "Plato",
+   "skos:altLabel": [
+    "Aristocles",
+    "Plato of Athens"
+   ],
+   "skos:definition": "Athenian philosopher (c. 428/427-348/347 BCE), student of Socrates, teacher of Aristotle and founder of the Academy, whose dialogues turned Socratic question-and-answer into a written model of testing claims and, in the Theaetetus, first posed the question of whether knowledge is true belief plus an account.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Plato",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:gettier-problem"
+    },
+    {
+     "@id": "ct:justified-true-belief"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:socratic-method"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
     }
    ]
   },
@@ -12293,6 +12369,76 @@
    "dcterms:title": "Philosophy of science: Eliminativism and falsification",
    "schema:url": {
     "@id": "https://britannica.com/topic/philosophy-of-science/Eliminativism-and-falsification"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Kraut, rev. 2026)",
+   "dcterms:title": "Plato",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/plato/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Brickhouse and Smith)",
+   "dcterms:title": "Plato (427-347 B.C.E.)",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/plato/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Plato",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/Plato"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Giannopoulou)",
+   "dcterms:title": "Plato: Theaetetus",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/theatetu/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plato/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Monoson, rev. 2022)",
+   "dcterms:title": "Socrates",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/socrates/"
    }
   },
   {
