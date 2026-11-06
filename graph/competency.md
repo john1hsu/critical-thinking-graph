@@ -49,6 +49,9 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 | node | status | challenger |
 |---|---|---|
+| `ct:dual-process-theory` | contested | `ct:de-neys-2023-fast-and-slow-revision` |
+| `ct:dual-process-theory` | contested | `ct:gerd-gigerenzer` |
+| `ct:dual-process-theory` | contested | `ct:keren-schul-2009-two-system-critique` |
 | `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
 | `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
 | `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
@@ -87,6 +90,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | node | type |
 |---|---|
 | `ct:confirmation-bias` | cto:CognitiveBias |
+| `ct:dual-process-theory` | cto:Framework |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:informal-fallacy` | cto:Concept |
 | `ct:justified-true-belief` | cto:Concept |

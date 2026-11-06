@@ -19,13 +19,13 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.20 | `ct:deductive-reasoning` | `ct:denying-the-antecedent` | `ct:affirming-the-consequent`, `ct:aristotle`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
 | 2.16 | `ct:actively-open-minded-thinking` | `ct:outside-view` | `ct:geopolitical-forecasting`, `ct:judgment-and-decision-making`, `ct:overconfidence-effect` |
 | 2.14 | `ct:false-dilemma` | `ct:syllogism` | `ct:disjunctive-syllogism`, `ct:port-royal-logic`, `ct:validity` |
-| 2.13 | `ct:deductive-reasoning` | `ct:undistributed-middle` | `ct:affirming-the-consequent`, `ct:belief-bias`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.13 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:syllogism` |
+| 2.10 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:heuristics-and-biases-program` |
 | 2.09 | `ct:richard-whately` | `ct:straw-man-fallacy` | `ct:argumentation-theory`, `ct:ignoratio-elenchi`, `ct:informal-fallacy` |
 | 2.06 | `ct:port-royal-logic` | `ct:undistributed-middle` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:illicit-major`, `ct:syllogism` |
 | 2.06 | `ct:port-royal-logic` | `ct:venn-diagram-test` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:illicit-major`, `ct:syllogism` |
 | 2.04 | `ct:argumentation-schemes` | `ct:principle-of-charity` | `ct:argument`, `ct:argumentation-theory`, `ct:informal-fallacy`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.04 | `ct:informal-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
-| 2.04 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:outside-view`, `ct:representativeness-heuristic` |
+| 2.03 | `ct:deductive-reasoning` | `ct:undistributed-middle` | `ct:affirming-the-consequent`, `ct:belief-bias`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.03 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 2.03 | `ct:actively-open-minded-thinking` | `ct:debiasing` | `ct:bias-blind-spot`, `ct:consider-the-opposite`, `ct:judgment-and-decision-making`, `ct:metacognition`, `ct:overconfidence-effect` |

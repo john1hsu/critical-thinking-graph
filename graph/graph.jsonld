@@ -2083,6 +2083,91 @@
    ]
   },
   {
+   "@id": "ct:dual-process-theory",
+   "@type": "cto:Framework",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:de-neys-2023-fast-and-slow-revision"
+    },
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:keren-schul-2009-two-system-critique"
+    }
+   ],
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/heuristics-and-dual-process/dual-process-theory.md",
+   "cto:level": "intermediate",
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s5"
+    }
+   ],
+   "rdfs:label": "Dual-process theory",
+   "skos:altLabel": [
+    "System 1 and System 2",
+    "dual-process theories of reasoning",
+    "dual-system theory",
+    "fast-and-slow thinking",
+    "two-system theory"
+   ],
+   "skos:broader": {
+    "@id": "ct:reasoning"
+   },
+   "skos:definition": "The family of theories holding that judgment and reasoning draw on two kinds of processing: fast, autonomous Type 1 processes that supply default answers, and slower, working-memory-dependent Type 2 processes that can reflect on, test and sometimes override those defaults.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Dual-process theory",
+   "skos:related": [
+    {
+     "@id": "ct:attribute-substitution"
+    },
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:deliberate-reflection"
+    },
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    }
+   ]
+  },
+  {
    "@id": "ct:epistemology",
    "@type": "cto:Field",
    "cto:appliedIn": {
@@ -8917,6 +9002,76 @@
    "dcterms:title": "Stop Playing Devil's Advocate, and Other Advice for Better Decision Making",
    "schema:url": {
     "@id": "https://behavioralscientist.org/stop-playing-devils-advocate-and-other-advice-for-better-decision-making/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science 8(3), 223-241 (Evans & Stanovich, 2013), copy hosted on a Temple University page",
+   "dcterms:title": "Dual-process theories of higher cognition: Advancing the debate",
+   "schema:url": {
+    "@id": "https://cis.temple.edu/tagit/presentations/Dual-Process%20Theories%20of%20Higher%20Cognition%20Advancing%20the%20Debate.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science 4(6), 533-550 (Keren & Schul, 2009), Hebrew University research portal",
+   "dcterms:title": "Two is not always better than one: A critical evaluation of two-system theories",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/two-is-not-always-better-than-one-a-critical-evaluation-of-two-sy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Psychological Review 118(1), 97-109 (Kruglanski & Gigerenzer, 2011), Max Planck Society repository",
+   "dcterms:title": "Intuitive and deliberate judgments are based on common principles",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2098989_5/component/file_2098988/AWK_Intuitive_2011.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Behavioral and Brain Sciences 46, e111 (De Neys, 2023), Cambridge University Press",
+   "dcterms:title": "Advancing theorizing about fast-and-slow thinking",
+   "schema:url": {
+    "@id": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/316D2A018DFCB97676D3B2E8C6A1A0BA/S0140525X2200142Xa.pdf/advancing-theorizing-about-fast-and-slow-thinking.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Economic Perspectives 19(4), 25-42 (Frederick, 2005), RePEc record",
+   "dcterms:title": "Cognitive reflection and decision making",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:aea:jecper:v:19:y:2005:i:4:p:25-42"
    }
   },
   {

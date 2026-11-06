@@ -2172,6 +2172,94 @@
   ]
  },
  {
+  "id": "ct:dual-process-theory",
+  "title": "Dual-process theory",
+  "aliases": [
+   "dual-process theories of reasoning",
+   "System 1 and System 2",
+   "dual-system theory",
+   "two-system theory",
+   "fast-and-slow thinking"
+  ],
+  "type": "Framework",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/heuristics-and-dual-process/dual-process-theory.md",
+  "created": "2026-11-06",
+  "summary": "The family of theories holding that judgment and reasoning draw on two kinds of processing: fast, autonomous Type 1 processes that supply default answers, and slower, working-memory-dependent Type 2 processes that can reflect on, test and sometimes override those defaults.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deliberate-reflection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:attribute-substitution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:keren-schul-2009-two-system-critique",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:de-neys-2023-fast-and-slow-revision",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://cis.temple.edu/tagit/presentations/Dual-Process%20Theories%20of%20Higher%20Cognition%20Advancing%20the%20Debate.pdf",
+   "https://cris.huji.ac.il/en/publications/two-is-not-always-better-than-one-a-critical-evaluation-of-two-sy/",
+   "https://pure.mpg.de/pubman/item/item_2098989_5/component/file_2098988/AWK_Intuitive_2011.pdf",
+   "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/316D2A018DFCB97676D3B2E8C6A1A0BA/S0140525X2200142Xa.pdf/advancing-theorizing-about-fast-and-slow-thinking.pdf",
+   "https://econpapers.repec.org/RePEc:aea:jecper:v:19:y:2005:i:4:p:25-42"
+  ]
+ },
+ {
   "id": "ct:epistemology",
   "title": "Epistemology",
   "aliases": [
