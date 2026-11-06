@@ -4020,6 +4020,93 @@
    ]
   },
   {
+   "@id": "ct:philosophy-of-science",
+   "@type": "cto:Field",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:legal-reasoning"
+    },
+    {
+     "@id": "ct:science-education"
+    }
+   ],
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/philosophy-of-science.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:logical-empiricism"
+    },
+    {
+     "@id": "ct:thomas-kuhn"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:epistemology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5"
+    }
+   ],
+   "rdfs:label": "Philosophy of science",
+   "skos:altLabel": [
+    "logic of science",
+    "philosophy of the sciences"
+   ],
+   "skos:broader": {
+    "@id": "ct:philosophy"
+   },
+   "skos:definition": "The branch of philosophy that examines the methods, foundations and implications of science: how hypotheses are tested and confirmed, what separates science from non-science, what explanations and theories are, and how and why scientific views change.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Philosophy of science",
+   "skos:related": [
+    {
+     "@id": "ct:duhem-quine-thesis"
+    },
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:problem-of-induction"
+    },
+    {
+     "@id": "ct:scientific-method"
+    },
+    {
+     "@id": "ct:william-whewell"
+    }
+   ]
+  },
+  {
    "@id": "ct:pope-sixtus-v",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -10398,6 +10485,76 @@
    "dcterms:title": "A simple remedy for overprecision in judgment",
    "schema:url": {
     "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hanne Andersen, rev. 2026)",
+   "dcterms:title": "Scientific Method",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/scientific-method/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Thomas Uebel, rev. 2024), Summer 2026 Edition",
+   "dcterms:title": "Vienna Circle",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2026/entries/vienna-circle/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Alexander Bird, rev. 2025)",
+   "dcterms:title": "Thomas Kuhn",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/thomas-kuhn/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Research in Science Teaching 36(1), 107-116 (Eflin, Glennan & Reisch, 1999), Butler University record",
+   "dcterms:title": "The nature of science: A perspective from the philosophy of science",
+   "schema:url": {
+    "@id": "https://butler.elsevierpure.com/en/publications/the-nature-of-science-a-perspective-from-the-philosophy-of-scienc/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (Philip S. Kitcher)",
+   "dcterms:title": "Philosophy of science: Eliminativism and falsification",
+   "schema:url": {
+    "@id": "https://britannica.com/topic/philosophy-of-science/Eliminativism-and-falsification"
    }
   },
   {

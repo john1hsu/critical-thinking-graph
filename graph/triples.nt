@@ -1747,6 +1747,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
 <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/overconfidence-effect.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2000/01/rdf-schema#label> "Philosophy of science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#altLabel> "logic of science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#altLabel> "philosophy of the sciences" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#definition> "The branch of philosophy that examines the methods, foundations and implications of science: how hypotheses are tested and confirmed, what separates science from non-science, what explanations and theories are, and how and why scientific views change." .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#prefLabel> "Philosophy of science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/science-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/philosophy-of-science.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/logical-empiricism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/thomas-kuhn> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> <http://www.w3.org/2000/01/rdf-schema#label> "Pope Sixtus V" .
@@ -3704,6 +3735,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5> <https://schema.org/url> <https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hanne Andersen, rev. 2026)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s1> <http://purl.org/dc/terms/title> "Scientific Method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/scientific-method/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Thomas Uebel, rev. 2024), Summer 2026 Edition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s2> <http://purl.org/dc/terms/title> "Vienna Circle" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2026/entries/vienna-circle/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Alexander Bird, rev. 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s3> <http://purl.org/dc/terms/title> "Thomas Kuhn" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s3> <https://schema.org/url> <https://plato.stanford.edu/entries/thomas-kuhn/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s4> <http://purl.org/dc/terms/publisher> "Journal of Research in Science Teaching 36(1), 107-116 (Eflin, Glennan & Reisch, 1999), Butler University record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s4> <http://purl.org/dc/terms/title> "The nature of science: A perspective from the philosophy of science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s4> <https://schema.org/url> <https://butler.elsevierpure.com/en/publications/the-nature-of-science-a-perspective-from-the-philosophy-of-scienc/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica (Philip S. Kitcher)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> <http://purl.org/dc/terms/title> "Philosophy of science: Eliminativism and falsification" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> <https://schema.org/url> <https://britannica.com/topic/philosophy-of-science/Eliminativism-and-falsification> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pope-sixtus-v/s1> <http://purl.org/dc/terms/title> "Sixtus V" .

@@ -4231,6 +4231,95 @@
   ]
  },
  {
+  "id": "ct:philosophy-of-science",
+  "title": "Philosophy of science",
+  "aliases": [
+   "philosophy of the sciences",
+   "logic of science"
+  ],
+  "type": "Field",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/philosophy-of-science.md",
+  "created": "2026-11-06",
+  "summary": "The branch of philosophy that examines the methods, foundations and implications of science: how hypotheses are tested and confirmed, what separates science from non-science, what explanations and theories are, and how and why scientific views change.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:william-whewell"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:problem-of-induction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:duhem-quine-thesis"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:logical-empiricism",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:thomas-kuhn",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:science-education",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/scientific-method/",
+   "https://plato.stanford.edu/archives/sum2026/entries/vienna-circle/",
+   "https://plato.stanford.edu/entries/thomas-kuhn/",
+   "https://butler.elsevierpure.com/en/publications/the-nature-of-science-a-perspective-from-the-philosophy-of-scienc/",
+   "https://britannica.com/topic/philosophy-of-science/Eliminativism-and-falsification"
+  ]
+ },
+ {
   "id": "ct:pope-sixtus-v",
   "title": "Pope Sixtus V",
   "aliases": [
