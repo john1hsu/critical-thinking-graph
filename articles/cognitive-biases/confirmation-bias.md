@@ -11,10 +11,11 @@ summary: >-
 level: introductory
 evidenceStatus: robust
 broader: [ct:cognitive-bias]
-related: [ct:myside-bias, ct:biased-assimilation, ct:belief-perseverance, ct:consider-the-opposite, ct:falsifiability, ct:hypothesis-testing, ct:analysis-of-competing-hypotheses]
+related: [ct:peter-wason, ct:myside-bias, ct:biased-assimilation, ct:belief-perseverance, ct:consider-the-opposite, ct:falsifiability, ct:hypothesis-testing, ct:analysis-of-competing-hypotheses]
 requires: []
 relations:
   - {predicate: demonstratedBy, object: ct:wason-1960-rule-discovery-study, source: s2, confidence: high}
+  - {predicate: introducedBy, object: ct:peter-wason, source: s2, confidence: medium}
   - {predicate: explainedBy, object: ct:positive-test-strategy, source: s3, confidence: medium}
   - {predicate: supportedBy, object: ct:hart-2009-selective-exposure-meta-analysis, source: s4, confidence: high}
   - {predicate: challengedBy, object: ct:guess-coppock-2020-backlash-experiments, source: s5, confidence: medium}
@@ -52,6 +53,7 @@ sources:
     type: peer-reviewed
     accessed: 2026-11-05
 created: 2026-11-05
+modified: 2026-11-06
 ---
 
 # Confirmation bias

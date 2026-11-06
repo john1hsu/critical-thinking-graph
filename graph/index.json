@@ -1293,6 +1293,10 @@
    },
    {
     "predicate": "skos:related",
+    "object": "ct:peter-wason"
+   },
+   {
+    "predicate": "skos:related",
     "object": "ct:myside-bias"
    },
    {
@@ -1324,6 +1328,12 @@
     "object": "ct:wason-1960-rule-discovery-study",
     "source": "s2",
     "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:peter-wason",
+    "source": "s2",
+    "confidence": "medium"
    },
    {
     "predicate": "cto:explainedBy",
@@ -4316,6 +4326,87 @@
    "https://core.ac.uk/download/193675108.pdf",
    "https://scholars.duke.edu/publication/799402",
    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf"
+  ]
+ },
+ {
+  "id": "ct:peter-wason",
+  "title": "Peter Wason",
+  "aliases": [
+   "P. C. Wason",
+   "Peter Cathcart Wason"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/peter-wason.md",
+  "created": "2026-11-06",
+  "summary": "British cognitive psychologist (1924-2003) at University College London whose 2-4-6 rule-discovery task and four-card selection task showed that people tend to seek confirming rather than disconfirming evidence, launching the experimental psychology of reasoning and its study of biases.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wason-1960-rule-discovery-study"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wason-selection-task"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:matching-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:karl-popper",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:willard-van-orman-quine",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:optimal-data-selection-model",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://modeltheory.org/papers/2003Wason-obit.pdf",
+   "https://researchportal.plymouth.ac.uk/en/publications/reasoning-biases-and-dual-processes-the-lasting-impact-of-wason-1/",
+   "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf",
+   "https://pages.ucsd.edu/~cmckenzie/nickersonConfirmationBias.pdf",
+   "https://www.phil.uu.nl/ozsl/articles/Lambalgen04.pdf"
   ]
  },
  {

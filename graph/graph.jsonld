@@ -1255,6 +1255,9 @@
     "@id": "ct:positive-test-strategy"
    },
    "cto:file": "articles/cognitive-biases/confirmation-bias.md",
+   "cto:introducedBy": {
+    "@id": "ct:peter-wason"
+   },
    "cto:level": "introductory",
    "cto:supportedBy": {
     "@id": "ct:hart-2009-selective-exposure-meta-analysis"
@@ -1262,6 +1265,10 @@
    "dcterms:created": {
     "@type": "xsd:date",
     "@value": "2026-11-05"
+   },
+   "dcterms:modified": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
    },
    "prov:wasDerivedFrom": [
     {
@@ -1314,6 +1321,9 @@
     },
     {
      "@id": "ct:myside-bias"
+    },
+    {
+     "@id": "ct:peter-wason"
     }
    ]
   },
@@ -4101,6 +4111,85 @@
     },
     {
      "@id": "ct:premortem"
+    }
+   ]
+  },
+  {
+   "@id": "ct:peter-wason",
+   "@type": "cto:Person",
+   "cto:challengedBy": {
+    "@id": "ct:optimal-data-selection-model"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/peter-wason.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:willard-van-orman-quine"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s5"
+    }
+   ],
+   "rdfs:label": "Peter Wason",
+   "skos:altLabel": [
+    "P. C. Wason",
+    "Peter Cathcart Wason"
+   ],
+   "skos:definition": "British cognitive psychologist (1924-2003) at University College London whose 2-4-6 rule-discovery task and four-card selection task showed that people tend to seek confirming rather than disconfirming evidence, launching the experimental psychology of reasoning and its study of biases.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Peter Wason",
+   "skos:related": [
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:matching-bias"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:wason-1960-rule-discovery-study"
+    },
+    {
+     "@id": "ct:wason-selection-task"
     }
    ]
   },
@@ -10640,6 +10729,76 @@
    "dcterms:title": "A simple remedy for overprecision in judgment",
    "schema:url": {
     "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Thinking & Reasoning 9(3), 177-184 (Evans & Johnson-Laird, 2003), copy hosted at modeltheory.org",
+   "dcterms:title": "Peter Wason (1924-2003)",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/2003Wason-obit.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Quarterly Journal of Experimental Psychology 69(10), 2076-2092 (Evans, 2016), University of Plymouth research portal",
+   "dcterms:title": "Reasoning, biases and dual processes: The lasting impact of Wason (1960)",
+   "schema:url": {
+    "@id": "https://researchportal.plymouth.ac.uk/en/publications/reasoning-biases-and-dual-processes-the-lasting-impact-of-wason-1/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Quarterly Journal of Experimental Psychology 12(3), 129-140 (Wason, 1960), copy hosted by University of Florida",
+   "dcterms:title": "On the failure to eliminate hypotheses in a conceptual task",
+   "schema:url": {
+    "@id": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Review of General Psychology 2(2), 175-220 (Nickerson, 1998), copy hosted by UC San Diego",
+   "dcterms:title": "Confirmation bias: A ubiquitous phenomenon in many guises",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~cmckenzie/nickersonConfirmationBias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Logic, Language and Information 10, 273-317 (Stenning & van Lambalgen, 2001), author copy hosted at Utrecht University",
+   "dcterms:title": "Semantics as a foundation for psychology: A case study of Wason's selection task",
+   "schema:url": {
+    "@id": "https://www.phil.uu.nl/ozsl/articles/Lambalgen04.pdf"
    }
   },
   {

@@ -89,7 +89,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
-| `ct:confirmation-bias` | cto:CognitiveBias |
 | `ct:dual-process-theory` | cto:Framework |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:informal-fallacy` | cto:Concept |
