@@ -1055,6 +1055,82 @@
   ]
  },
  {
+  "id": "ct:burden-of-proof",
+  "title": "Burden of proof",
+  "aliases": [
+   "onus probandi",
+   "onus of proof",
+   "probative burden"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/burden-of-proof.md",
+  "created": "2026-11-06",
+  "summary": "The obligation, carried by one side of a dispute, to support a claim with enough evidence or argument to meet the applicable standard; if the burden is not met, the claim is not accepted, though its opposite is not thereby proven.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-ignorance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presumption"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:charles-hamblin"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:formal-dialogue-systems",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://philarchive.org/archive/GODATO-3",
+   "https://www.cambridge.org/core/books/burden-of-proof-presumption-and-argumentation/burden-of-proof-in-dialogue-systems/B0D1865380C7A40D8005123CECA3F172",
+   "https://www.ai.rug.nl/~verheij/sysu2018/readings/PrakkenSartor2009ALogicalAnalysisofBurdensofProof.pdf",
+   "https://www.law.cornell.edu/wex/burden_of_persuasion",
+   "https://rozenbergquarterly.com/issa-proceedings-2002-conceptualizing-fallacies-the-informal-logic-and-pragma-dialectic-approaches-to-the-argumentum-ad-ignorantiam/?print=pdf"
+  ]
+ },
+ {
   "id": "ct:christiaan-huygens",
   "title": "Christiaan Huygens",
   "aliases": [

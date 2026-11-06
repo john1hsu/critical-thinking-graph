@@ -1018,6 +1018,81 @@
    ]
   },
   {
+   "@id": "ct:burden-of-proof",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:legal-reasoning"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/burden-of-proof.md",
+   "cto:formalizedBy": {
+    "@id": "ct:formal-dialogue-systems"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s5"
+    }
+   ],
+   "rdfs:label": "Burden of proof",
+   "skos:altLabel": [
+    "onus of proof",
+    "onus probandi",
+    "probative burden"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument-evaluation"
+   },
+   "skos:definition": "The obligation, carried by one side of a dispute, to support a claim with enough evidence or argument to meet the applicable standard; if the burden is not met, the claim is not accepted, though its opposite is not thereby proven.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Burden of proof",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-ignorance"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:presumption"
+    }
+   ]
+  },
+  {
    "@id": "ct:christiaan-huygens",
    "@type": "cto:Person",
    "cto:authored": {
@@ -7403,6 +7478,76 @@
    "dcterms:title": "The Bias Blind Spot: Perceptions of Bias in Self Versus Others (replication record)",
    "schema:url": {
     "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/0146167202286008/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Pragmatics & Cognition 15(2), 2007 (Godden and Walton), PhilArchive copy",
+   "dcterms:title": "A Theory of Presumption for Everyday Argumentation",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/GODATO-3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Cambridge University Press (Walton, 2014)",
+   "dcterms:title": "Burden of Proof in Dialogue Systems, in Burden of Proof, Presumption and Argumentation",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/burden-of-proof-presumption-and-argumentation/burden-of-proof-in-dialogue-systems/B0D1865380C7A40D8005123CECA3F172"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Prakken and Sartor, course reading hosted by the University of Groningen",
+   "dcterms:title": "A Logical Analysis of Burdens of Proof, in Legal Evidence and Proof",
+   "schema:url": {
+    "@id": "https://www.ai.rug.nl/~verheij/sysu2018/readings/PrakkenSartor2009ALogicalAnalysisofBurdensofProof.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Legal Information Institute, Cornell Law School (Wex)",
+   "dcterms:title": "Burden of persuasion",
+   "schema:url": {
+    "@id": "https://www.law.cornell.edu/wex/burden_of_persuasion"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2002 (Wagemans), Rozenberg Quarterly",
+   "dcterms:title": "Conceptualizing Fallacies: The Informal Logic and Pragma-Dialectic Approaches to the Argumentum ad Ignorantiam",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2002-conceptualizing-fallacies-the-informal-logic-and-pragma-dialectic-approaches-to-the-argumentum-ad-ignorantiam/?print=pdf"
    }
   },
   {
