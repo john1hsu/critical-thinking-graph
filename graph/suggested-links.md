@@ -5,7 +5,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 3.12 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:randomized-controlled-trial` |
-| 3.03 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample`, `ct:posterior-analytics` |
+| 3.02 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample`, `ct:posterior-analytics` |
 | 2.83 | `ct:argumentation-schemes` | `ct:richard-whately` | `ct:argument-from-expert-opinion`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy`, `ct:informal-logic` |
 | 2.81 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:logic`, `ct:port-royal-logic`, `ct:soundness` |
 | 2.67 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |
@@ -15,12 +15,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.37 | `ct:argumentation-theory` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
 | 2.36 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:consider-the-opposite`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 2.36 | `ct:debiasing-training-games` | `ct:key-assumptions-check` | `ct:confirmation-bias`, `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
-| 2.31 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample` |
+| 2.30 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample` |
 | 2.20 | `ct:method-of-counterexample` | `ct:modus-tollens` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:modus-ponens`, `ct:syllogism` |
 | 2.18 | `ct:deductive-reasoning` | `ct:denying-the-antecedent` | `ct:affirming-the-consequent`, `ct:aristotle`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
 | 2.16 | `ct:actively-open-minded-thinking` | `ct:outside-view` | `ct:geopolitical-forecasting`, `ct:judgment-and-decision-making`, `ct:overconfidence-effect` |
 | 2.13 | `ct:false-dilemma` | `ct:syllogism` | `ct:disjunctive-syllogism`, `ct:port-royal-logic`, `ct:validity` |
-| 2.12 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:syllogism` |
+| 2.11 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:syllogism` |
 | 2.09 | `ct:richard-whately` | `ct:straw-man-fallacy` | `ct:argumentation-theory`, `ct:ignoratio-elenchi`, `ct:informal-fallacy` |
 | 2.05 | `ct:port-royal-logic` | `ct:undistributed-middle` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:illicit-major`, `ct:syllogism` |
 | 2.05 | `ct:port-royal-logic` | `ct:venn-diagram-test` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:illicit-major`, `ct:syllogism` |

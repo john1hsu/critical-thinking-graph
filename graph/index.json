@@ -3406,6 +3406,89 @@
   ]
  },
  {
+  "id": "ct:jonathan-st-b-t-evans",
+  "title": "Jonathan St B. T. Evans",
+  "aliases": [
+   "Jonathan Evans (psychologist)",
+   "J. St. B. T. Evans",
+   "Jonathan St. B. T. Evans"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/jonathan-st-b-t-evans.md",
+  "created": "2026-11-06",
+  "summary": "British cognitive psychologist at the University of Plymouth who co-introduced the idea of dual processes in reasoning with Peter Wason in 1975, proposed the heuristic-analytic theory, ran the classic belief-bias experiments and later helped redefine dual-process theory in terms of Type 1 and Type 2 processing.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:peter-wason"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:evans-barston-pollard-1983-belief-bias-experiments"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:matching-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wason-selection-task"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-necessity-instructions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:keith-stanovich"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:dual-process-theory",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:heuristic-analytic-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:peter-wason",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://researchportal.plymouth.ac.uk/en/persons/jonathan-evans/",
+   "https://sites.ualberta.ca/%7Efrancisp/Phil488/EvansDualProcessing2008.pdf",
+   "https://cis.temple.edu/tagit/presentations/Dual-Process%20Theories%20of%20Higher%20Cognition%20Advancing%20the%20Debate.pdf",
+   "https://link.springer.com/content/pdf/10.3758/bf03196976.pdf",
+   "https://india.oup.com/product/thinking-and-reasoning-9780198787259",
+   "https://www.psychologicalscience.org/journals/perspectives/1745691613483475/"
+  ]
+ },
+ {
   "id": "ct:judgment-and-decision-making",
   "title": "Judgment and decision making",
   "aliases": [

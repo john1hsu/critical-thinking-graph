@@ -1414,6 +1414,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/agnoiology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2000/01/rdf-schema#label> "Jonathan St B. T. Evans" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#altLabel> "J. St. B. T. Evans" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#altLabel> "Jonathan Evans (psychologist)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#altLabel> "Jonathan St. B. T. Evans" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#definition> "British cognitive psychologist at the University of Plymouth who co-introduced the idea of dual processes in reasoning with Peter Wason in 1975, proposed the heuristic-analytic theory, ran the classic belief-bias experiments and later helped redefine dual-process theory in terms of Type 1 and Type 2 processing." .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jonathan St B. T. Evans" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/evans-barston-pollard-1983-belief-bias-experiments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/keith-stanovich> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/matching-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wason-selection-task> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/jonathan-st-b-t-evans.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic-analytic-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
 <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2000/01/rdf-schema#label> "Judgment and decision making" .
@@ -3611,6 +3642,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <https://schema.org/url> <https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ferrier-james-frederick-1808-1864> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s1> <http://purl.org/dc/terms/publisher> "University of Plymouth research portal (staff profile)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s1> <http://purl.org/dc/terms/title> "Professor Jonathan Evans" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s1> <https://schema.org/url> <https://researchportal.plymouth.ac.uk/en/persons/jonathan-evans/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s2> <http://purl.org/dc/terms/publisher> "Annual Review of Psychology 59, 255-278 (Evans, 2008), copy hosted by the University of Alberta" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s2> <http://purl.org/dc/terms/title> "Dual-processing accounts of reasoning, judgment, and social cognition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s2> <https://schema.org/url> <https://sites.ualberta.ca/%7Efrancisp/Phil488/EvansDualProcessing2008.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s3> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 8(3), 223-241 (Evans & Stanovich, 2013), Temple University seminar copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s3> <http://purl.org/dc/terms/title> "Dual-process theories of higher cognition: Advancing the debate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s3> <https://schema.org/url> <https://cis.temple.edu/tagit/presentations/Dual-Process%20Theories%20of%20Higher%20Cognition%20Advancing%20the%20Debate.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s4> <http://purl.org/dc/terms/publisher> "Memory & Cognition 11(3), 295-306 (Evans, Barston & Pollard, 1983), Springer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s4> <http://purl.org/dc/terms/title> "On the conflict between logic and belief in syllogistic reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s4> <https://schema.org/url> <https://link.springer.com/content/pdf/10.3758/bf03196976.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s5> <http://purl.org/dc/terms/publisher> "Oxford University Press (Evans, 2017), publisher page with author biography" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s5> <http://purl.org/dc/terms/title> "Thinking and Reasoning: A Very Short Introduction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s5> <https://schema.org/url> <https://india.oup.com/product/thinking-and-reasoning-9780198787259> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s6> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 8(3) (Osman, 2013), Association for Psychological Science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s6> <http://purl.org/dc/terms/title> "A case study" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/jonathan-st-b-t-evans/s6> <https://schema.org/url> <https://www.psychologicalscience.org/journals/perspectives/1745691613483475/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s1> <http://purl.org/dc/terms/publisher> "Annual Review of Psychology 49, 447-477 (Mellers, Schwartz & Cooke, 1998), author copy on a Wharton faculty page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/judgment-and-decision-making/s1> <http://purl.org/dc/terms/title> "Judgment and decision making" .
