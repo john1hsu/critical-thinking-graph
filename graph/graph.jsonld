@@ -1329,6 +1329,80 @@
    ]
   },
   {
+   "@id": "ct:cognitive-psychology",
+   "@type": "cto:Field",
+   "cto:challengedBy": {
+    "@id": "ct:embodied-cognition"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:behaviorism"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/heuristics-and-dual-process/cognitive-psychology.md",
+   "cto:influencedBy": {
+    "@id": "ct:noam-chomsky"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:ulric-neisser"
+   },
+   "cto:level": "introductory",
+   "cto:partOf": {
+    "@id": "ct:cognitive-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s5"
+    }
+   ],
+   "rdfs:label": "Cognitive psychology",
+   "skos:altLabel": [
+    "information-processing psychology",
+    "psychology of cognition"
+   ],
+   "skos:broader": {
+    "@id": "ct:psychology"
+   },
+   "skos:definition": "The branch of psychology that studies mental processes such as perception, attention, memory, problem solving and reasoning, usually by running controlled experiments with people and explaining the results with models of how the mind represents and transforms information.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Cognitive psychology",
+   "skos:related": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:peter-wason"
+    }
+   ]
+  },
+  {
    "@id": "ct:confirmation-bias",
    "@type": "cto:CognitiveBias",
    "cto:challengedBy": {
@@ -8654,6 +8728,76 @@
    "dcterms:title": "Stoicism: Inferential logic",
    "schema:url": {
     "@id": "https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "APS Observer 25(5), Association for Psychological Science (Ira Hyman and colleagues, 2012)",
+   "dcterms:title": "Remembering the Father of Cognitive Psychology",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/observer/remembering-the-father-of-cognitive-psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Trends in Cognitive Sciences 7(3) (George A. Miller, 2003), copy hosted at Princeton University",
+   "dcterms:title": "The cognitive revolution: a historical perspective",
+   "schema:url": {
+    "@id": "https://www.cs.princeton.edu/~rit/geo/Miller.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Paul Thagard, rev. 2023)",
+   "dcterms:title": "Cognitive Science",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/cognitive-science/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Psychological Bulletin 128(6), 978-996 (Jonathan St B. T. Evans, 2002), PhilArchive record",
+   "dcterms:title": "Logic and human reasoning: An assessment of the deduction paradigm",
+   "schema:url": {
+    "@id": "https://dc2.philarchive.org/rec/EVALAH"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Cognitive psychology",
+   "schema:url": {
+    "@id": "https://www.britannica.com/science/cognitive-psychology"
    }
   },
   {

@@ -1369,6 +1369,85 @@
   ]
  },
  {
+  "id": "ct:cognitive-psychology",
+  "title": "Cognitive psychology",
+  "aliases": [
+   "psychology of cognition",
+   "information-processing psychology"
+  ],
+  "type": "Field",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/heuristics-and-dual-process/cognitive-psychology.md",
+  "created": "2026-11-06",
+  "summary": "The branch of psychology that studies mental processes such as perception, attention, memory, problem solving and reasoning, usually by running controlled experiments with people and explaining the results with models of how the mind represents and transforms information.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:peter-wason"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ulric-neisser",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:behaviorism",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:noam-chomsky",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:cognitive-science",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:embodied-cognition",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.psychologicalscience.org/observer/remembering-the-father-of-cognitive-psychology",
+   "https://www.cs.princeton.edu/~rit/geo/Miller.pdf",
+   "https://plato.stanford.edu/entries/cognitive-science/",
+   "https://dc2.philarchive.org/rec/EVALAH",
+   "https://www.britannica.com/science/cognitive-psychology"
+  ]
+ },
+ {
   "id": "ct:confirmation-bias",
   "title": "Confirmation bias",
   "aliases": [
