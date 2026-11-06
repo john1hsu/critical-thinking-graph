@@ -6309,6 +6309,133 @@
   ]
  },
  {
+  "id": "ct:sophistical-refutations",
+  "title": "Sophistical Refutations",
+  "aliases": [
+   "On Sophistical Refutations",
+   "De Sophisticis Elenchis",
+   "Sophistici Elenchi"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/sophistical-refutations.md",
+  "created": "2026-11-06",
+  "summary": "Aristotle's short treatise (4th century BCE), the last work of the Organon and a closing section of the Topics, on arguments that only appear to refute a thesis; its list of thirteen fallacies, six dependent on language and seven not, is the first systematic theory of fallacies and the root of the traditional fallacy lists still taught today.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:topics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:charles-hamblin"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:aristotle",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:organon",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:informal-fallacy",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:begging-the-question",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:ignoratio-elenchi",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:charles-hamblin",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:pragma-dialectics",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://classics.mit.edu/Aristotle/sophist_refut.mb.txt",
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://plato.stanford.edu/entries/aristotle-logic/",
+   "https://icar.cnrs.fr/dicoplantin/fallacies-ii-aristotles-foundational-lis/",
+   "https://www.cambridge.org/core/journals/cambridge-classical-journal/article/codification-of-false-refutations-in-aristotles-de-sophisticis-elenchis/AE7D1F90A71B83D4A1B4838D1D33A76C",
+   "https://distantreader.org/stacks/journals/il/il-3345.pdf"
+  ]
+ },
+ {
   "id": "ct:soundness",
   "title": "Soundness",
   "aliases": [

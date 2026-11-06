@@ -6006,6 +6006,120 @@
    ]
   },
   {
+   "@id": "ct:sophistical-refutations",
+   "@type": "cto:Work",
+   "cto:authoredBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/sophistical-refutations.md",
+   "cto:influenced": [
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    }
+   ],
+   "cto:introduces": [
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:partOf": {
+    "@id": "ct:organon"
+   },
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s6"
+    }
+   ],
+   "rdfs:label": "Sophistical Refutations",
+   "skos:altLabel": [
+    "De Sophisticis Elenchis",
+    "On Sophistical Refutations",
+    "Sophistici Elenchi"
+   ],
+   "skos:broader": {
+    "@id": "ct:organon"
+   },
+   "skos:definition": "Aristotle's short treatise (4th century BCE), the last work of the Organon and a closing section of the Topics, on arguments that only appear to refute a thesis; its list of thirteen fallacies, six dependent on language and seven not, is the first systematic theory of fallacies and the root of the traditional fallacy lists still taught today.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Sophistical Refutations",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:dialectic"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:topics"
+    }
+   ]
+  },
+  {
    "@id": "ct:soundness",
    "@type": "cto:Concept",
    "cto:confusedWith": {
@@ -13051,6 +13165,90 @@
    "dcterms:title": "Simpson's Paradox in Clinical Research: A Cautionary Tale",
    "schema:url": {
     "@id": "https://www.mdpi.com/2077-0383/12/4/1633"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "On Sophistical Refutations (trans. W. A. Pickard-Cambridge), full text",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/sophist_refut.mb.txt"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hans Hansen, substantive revision 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Robin Smith)",
+   "dcterms:title": "Aristotle's Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Christian Plantin, Dictionnaire de l'argumentation, ICAR research lab (CNRS / Université Lyon 2), 2021",
+   "dcterms:title": "Fallacies 2: Aristotle's Foundational List",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/fallacies-ii-aristotles-foundational-lis/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "J. D. G. Evans, Proceedings of the Cambridge Philological Society 21 (1975), 42-52",
+   "dcterms:title": "The Codification of False Refutations in Aristotle's De Sophisticis Elenchis",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/cambridge-classical-journal/article/codification-of-false-refutations-in-aristotles-de-sophisticis-elenchis/AE7D1F90A71B83D4A1B4838D1D33A76C"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Ralph H. Johnson, Informal Logic 31(4), 2011, 305-317",
+   "dcterms:title": "The Coherence of Hamblin's Fallacies",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-3345.pdf"
    }
   },
   {
