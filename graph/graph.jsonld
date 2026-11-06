@@ -7281,6 +7281,89 @@
    ]
   },
   {
+   "@id": "ct:truth-table",
+   "@type": "cto:Technique",
+   "cto:detects": [
+    {
+     "@id": "ct:affirming-a-disjunct"
+    },
+    {
+     "@id": "ct:affirming-the-consequent"
+    }
+   ],
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/truth-table.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:charles-sanders-peirce"
+    },
+    {
+     "@id": "ct:ludwig-wittgenstein"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:validity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s6"
+    }
+   ],
+   "rdfs:label": "Truth table",
+   "skos:altLabel": [
+    "truth matrix",
+    "truth-table method",
+    "truth-table test of validity",
+    "truth-table test"
+   ],
+   "skos:broader": {
+    "@id": "ct:propositional-logic"
+   },
+   "skos:definition": "A mechanical test for arguments in propositional logic: list every combination of truth values for the simple sentences, compute each premise and the conclusion on every row, and the argument is valid exactly when no row makes all the premises true and the conclusion false.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Truth table",
+   "skos:related": [
+    {
+     "@id": "ct:disjunctive-syllogism"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:validity"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:tu-quoque",
    "@type": "cto:InformalFallacy",
    "cto:challengedBy": {
@@ -15118,6 +15201,90 @@
    "dcterms:title": "Better Together: Reliable Application of the Post-9/11 and Post-Iraq US Intelligence Tradecraft Standards Requires Collective Analysis",
    "schema:url": {
     "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.02634/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "forall x: Calgary. An Introduction to Formal Logic (P. D. Magnus, Tim Button, with Loftis, Trueman, Thomas-Bolduc and Zach; Open Logic Project, University of Calgary)",
+   "dcterms:title": "Characteristic truth tables (Chapter 9)",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/html/Ch9.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "forall x: Calgary. An Introduction to Formal Logic (Magnus, Button et al.; Open Logic Project)",
+   "dcterms:title": "Semantic concepts (Chapter 12)",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/html/Ch12.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "forall x: Calgary. An Introduction to Formal Logic (Magnus, Button et al.; Open Logic Project)",
+   "dcterms:title": "Partial truth tables (Chapter 15)",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/html/Ch15.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "forall x: Calgary. An Introduction to Formal Logic (Magnus, Button et al.; Open Logic Project)",
+   "dcterms:title": "Limitations of TFL (Chapter 13)",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/html/Ch13.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "History and Philosophy of Logic 33(1), 87-97 (Irving H. Anellis, 2012), author's copy on arXiv",
+   "dcterms:title": "Peirce's Truth-functional Analysis and the Origin of the Truth Table",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/1108.2429"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Formal logic: The propositional calculus",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/formal-logic/The-propositional-calculus"
    }
   },
   {

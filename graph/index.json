@@ -7663,6 +7663,86 @@
   ]
  },
  {
+  "id": "ct:truth-table",
+  "title": "Truth table",
+  "aliases": [
+   "truth-table method",
+   "truth-table test",
+   "truth-table test of validity",
+   "truth matrix"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/truth-table.md",
+  "created": "2026-11-06",
+  "summary": "A mechanical test for arguments in propositional logic: list every combination of truth values for the simple sentences, compute each premise and the conclusion on every row, and the argument is valid exactly when no row makes all the premises true and the conclusion false.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:disjunctive-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:affirming-a-disjunct",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:affirming-the-consequent",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:charles-sanders-peirce",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ludwig-wittgenstein",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://forallx.openlogicproject.org/html/Ch9.html",
+   "https://forallx.openlogicproject.org/html/Ch12.html",
+   "https://forallx.openlogicproject.org/html/Ch15.html",
+   "https://forallx.openlogicproject.org/html/Ch13.html",
+   "https://arxiv.org/pdf/1108.2429",
+   "https://www.britannica.com/topic/formal-logic/The-propositional-calculus"
+  ]
+ },
+ {
   "id": "ct:tu-quoque",
   "title": "Tu quoque",
   "aliases": [

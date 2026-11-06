@@ -5590,6 +5590,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2018.02634/pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> <http://purl.org/dc/terms/publisher> "forall x: Calgary. An Introduction to Formal Logic (P. D. Magnus, Tim Button, with Loftis, Trueman, Thomas-Bolduc and Zach; Open Logic Project, University of Calgary)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> <http://purl.org/dc/terms/title> "Characteristic truth tables (Chapter 9)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> <https://schema.org/url> <https://forallx.openlogicproject.org/html/Ch9.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s2> <http://purl.org/dc/terms/publisher> "forall x: Calgary. An Introduction to Formal Logic (Magnus, Button et al.; Open Logic Project)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s2> <http://purl.org/dc/terms/title> "Semantic concepts (Chapter 12)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s2> <https://schema.org/url> <https://forallx.openlogicproject.org/html/Ch12.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s3> <http://purl.org/dc/terms/publisher> "forall x: Calgary. An Introduction to Formal Logic (Magnus, Button et al.; Open Logic Project)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s3> <http://purl.org/dc/terms/title> "Partial truth tables (Chapter 15)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s3> <https://schema.org/url> <https://forallx.openlogicproject.org/html/Ch15.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s4> <http://purl.org/dc/terms/publisher> "forall x: Calgary. An Introduction to Formal Logic (Magnus, Button et al.; Open Logic Project)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s4> <http://purl.org/dc/terms/title> "Limitations of TFL (Chapter 13)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s4> <https://schema.org/url> <https://forallx.openlogicproject.org/html/Ch13.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s5> <http://purl.org/dc/terms/publisher> "History and Philosophy of Logic 33(1), 87-97 (Irving H. Anellis, 2012), author's copy on arXiv" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s5> <http://purl.org/dc/terms/title> "Peirce's Truth-functional Analysis and the Origin of the Truth Table" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s5> <https://schema.org/url> <https://arxiv.org/pdf/1108.2429> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s6> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s6> <http://purl.org/dc/terms/title> "Formal logic: The propositional calculus" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s6> <https://schema.org/url> <https://www.britannica.com/topic/formal-logic/The-propositional-calculus> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://purl.org/dc/terms/title> "Fallacies" .
@@ -6008,6 +6044,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
 <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2000/01/rdf-schema#label> "Truth table" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#altLabel> "truth matrix" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#altLabel> "truth-table method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#altLabel> "truth-table test of validity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#altLabel> "truth-table test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#definition> "A mechanical test for arguments in propositional logic: list every combination of truth values for the simple sentences, compute each premise and the conclusion on every row, and the argument is valid exactly when no row makes all the premises true and the conclusion false." .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#prefLabel> "Truth table" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/truth-table.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/charles-sanders-peirce> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ludwig-wittgenstein> .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the speaker's conduct actually bear on whether the claim is true, or only on the speaker's character?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
