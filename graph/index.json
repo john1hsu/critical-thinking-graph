@@ -4451,6 +4451,96 @@
   ]
  },
  {
+  "id": "ct:occams-razor",
+  "title": "Occam's razor",
+  "aliases": [
+   "Ockham's razor",
+   "principle of parsimony",
+   "law of parsimony",
+   "law of economy"
+  ],
+  "type": "Principle",
+  "domain": "scientific-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/occams-razor.md",
+  "created": "2026-11-06",
+  "summary": "The methodological principle that, other things being equal, you should prefer the explanation or theory that postulates fewer entities, causes or assumptions; it ranks rival hypotheses that fit the evidence equally well, and does not show that the simpler one is true.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy-of-science"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inference-to-the-best-explanation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:posterior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overfitting"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:william-of-ockham",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:akaike-information-criterion",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:hickams-dictum",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:principle-of-plenitude",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:medical-diagnosis",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/simplicity/",
+   "https://britannica.com/topic/occams-razor",
+   "https://pubmed.ncbi.nlm.nih.gov/17097080/",
+   "https://www.degruyterbrill.com/document/doi/10.1515/dx-2022-0093/html"
+  ]
+ },
+ {
   "id": "ct:organon",
   "title": "Organon",
   "aliases": [

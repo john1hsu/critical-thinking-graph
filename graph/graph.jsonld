@@ -4244,6 +4244,87 @@
    ]
   },
   {
+   "@id": "ct:occams-razor",
+   "@type": "cto:Principle",
+   "cto:appliedIn": {
+    "@id": "ct:medical-diagnosis"
+   },
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:hickams-dictum"
+    },
+    {
+     "@id": "ct:principle-of-plenitude"
+    }
+   ],
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/occams-razor.md",
+   "cto:formalizedBy": {
+    "@id": "ct:akaike-information-criterion"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:william-of-ockham"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s4"
+    }
+   ],
+   "rdfs:label": "Occam's razor",
+   "skos:altLabel": [
+    "Ockham's razor",
+    "law of economy",
+    "law of parsimony",
+    "principle of parsimony"
+   ],
+   "skos:broader": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "skos:definition": "The methodological principle that, other things being equal, you should prefer the explanation or theory that postulates fewer entities, causes or assumptions; it ranks rival hypotheses that fit the evidence equally well, and does not show that the simpler one is true.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Occam's razor",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:inference-to-the-best-explanation"
+    },
+    {
+     "@id": "ct:overfitting"
+    },
+    {
+     "@id": "ct:posterior-analytics"
+    }
+   ]
+  },
+  {
    "@id": "ct:organon",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -11416,6 +11497,62 @@
    "dcterms:title": "Base-rate respect: From statistical formats to cognitive structures",
    "schema:url": {
     "@id": "https://core-cms.cambridgecore.org/core/journals/behavioral-and-brain-sciences/article/baserate-respect-from-statistical-formats-to-cognitive-structures/9DAADA1F4F18D0E10457D548E02A78F1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Baker, first published 2004, revised 2022)",
+   "dcterms:title": "Simplicity",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/simplicity/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Occam's razor",
+   "schema:url": {
+    "@id": "https://britannica.com/topic/occams-razor"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Cognitive Psychology 55(3), 232-257 (Lombrozo, 2007), PubMed record",
+   "dcterms:title": "Simplicity and probability in causal explanation",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/17097080/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Diagnosis (Stein & Lowenstein, 2022), De Gruyter",
+   "dcterms:title": "Occam's razor and Hickam's dictum: a dermatologic perspective",
+   "schema:url": {
+    "@id": "https://www.degruyterbrill.com/document/doi/10.1515/dx-2022-0093/html"
    }
   },
   {
