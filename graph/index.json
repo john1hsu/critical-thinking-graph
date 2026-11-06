@@ -4052,6 +4052,77 @@
   ]
  },
  {
+  "id": "ct:minna-cheves-wilkins",
+  "title": "Minna Cheves Wilkins",
+  "aliases": [
+   "M. C. Wilkins",
+   "Minna C. Wilkins"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/minna-cheves-wilkins.md",
+  "created": "2026-11-06",
+  "summary": "Experimental psychologist whose 1928 Archives of Psychology monograph on syllogistic reasoning is the earliest study routinely cited for content and belief effects in deduction: the same logical form was handled differently depending on whether it was stated in familiar, symbolic or belief-conflicting terms.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:evans-barston-pollard-1983-belief-bias-experiments"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:jonathan-st-b-t-evans"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:belief-bias",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:wilkins-1928-changed-material-monograph",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.yorku.ca/vgoel/reprints/Goel_cambridge2a.pdf",
+   "https://encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/reasoning-and-logic",
+   "https://link.springer.com/content/pdf/10.3758/BF03196976.pdf",
+   "https://link.springer.com/content/pdf/10.3758/BF03213778.pdf",
+   "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf"
+  ]
+ },
+ {
   "id": "ct:misinformation-and-disinformation",
   "title": "Misinformation and disinformation",
   "aliases": [
