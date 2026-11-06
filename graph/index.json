@@ -2870,6 +2870,85 @@
   ]
  },
  {
+  "id": "ct:gerd-gigerenzer",
+  "title": "Gerd Gigerenzer",
+  "aliases": [
+   "Gigerenzer"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/gerd-gigerenzer.md",
+  "created": "2026-11-06",
+  "summary": "Psychologist and long-time Max Planck director who argued that simple, fast-and-frugal heuristics can be ecologically rational rather than error-prone, showed that natural frequencies improve Bayesian reasoning, and became the leading critic of the heuristics-and-biases program and an advocate of risk literacy.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:recognition-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amos-tversky"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ulrich-hoffrage"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:herbert-simon",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:risk-communication",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.mpib-berlin.mpg.de/staff/gerd-gigerenzer",
+   "https://hardingcenter.de/en/the-harding-center/team/gerd-gigerenzer",
+   "https://www.dangoldstein.com/papers/FastFrugalPsychReview.pdf",
+   "https://pages.ucsd.edu/~scoulson/203/GG_How_1995.pdf",
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1996.pdf",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/11/rh21/rh21.html"
+  ]
+ },
+ {
   "id": "ct:gettier-problem",
   "title": "Gettier problem",
   "aliases": [
