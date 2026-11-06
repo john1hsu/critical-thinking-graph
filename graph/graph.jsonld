@@ -3551,6 +3551,78 @@
    ]
   },
   {
+   "@id": "ct:logical-necessity-instructions",
+   "@type": "cto:Technique",
+   "cto:challengedBy": {
+    "@id": "ct:evans-1994-debiasing-by-instruction-experiments"
+   },
+   "cto:counteracts": {
+    "@id": "ct:belief-bias"
+   },
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/logical-necessity-instructions.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:validity"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:caravona-2019-pragmatic-instruction-experiments"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s5"
+    }
+   ],
+   "rdfs:label": "Logical necessity instructions",
+   "skos:altLabel": [
+    "augmented logic instructions",
+    "instructional debiasing of belief bias",
+    "necessity instructions"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A debiasing technique for deductive judgments in which the reasoner is told, or tells themselves, to assume the premises are true and to accept a conclusion only if it must follow from them, regardless of whether it is believable. It reduces belief bias in some studies but has not eliminated it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Logical necessity instructions",
+   "skos:related": [
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:method-of-counterexample",
    "@type": "cto:Technique",
    "cto:counteracts": {
@@ -10388,6 +10460,76 @@
    "dcterms:title": "Lateral Reading on the Open Internet (citation record)",
    "schema:url": {
     "@id": "https://mediawell.ssrc.org/?p=510382"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "European Journal of Cognitive Psychology 6(3), 263-285 (Evans, Newstead, Allen & Pollard, 1994), Leeds Trinity University research portal",
+   "dcterms:title": "Debiasing by instruction: The case of belief bias",
+   "schema:url": {
+    "@id": "https://research.leedstrinity.ac.uk/en/publications/debiasing-by-instruction-the-case-of-belief-bias/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Europe's Journal of Psychology 15(3), 595-613 (Caravona, Macchi, Poli, Vezzoli, Franchella & Bagassi, 2019)",
+   "dcterms:title": "How to Get Rid of the Belief Bias: Boosting Analytical Thinking via Pragmatics",
+   "schema:url": {
+    "@id": "https://ejop.psychopen.eu/index.php/ejop/article/download/1794/1794.html?inline=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Quarterly Journal of Experimental Psychology A 54(3), 935-958 (Evans, Handley & Harper, 2001), Macquarie University research portal",
+   "dcterms:title": "Necessity, possibility and belief: A study of syllogistic reasoning",
+   "schema:url": {
+    "@id": "https://researchers.mq.edu.au/en/publications/necessity-possibility-and-belief-a-study-of-syllogistic-reasoning/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology - Learning, Memory, and Cognition 37(1), 28-43 (Handley, Newstead & Trippas, 2011), University of Plymouth research portal",
+   "dcterms:title": "Logic, beliefs, and instruction: A test of the default interventionist account of belief bias",
+   "schema:url": {
+    "@id": "https://researchportal.plymouth.ac.uk/en/publications/logic-beliefs-and-instruction-a-test-of-the-default-interventioni/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Validity and Soundness",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/val-snd"
    }
   },
   {

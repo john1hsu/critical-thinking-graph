@@ -3737,6 +3737,78 @@
   ]
  },
  {
+  "id": "ct:logical-necessity-instructions",
+  "title": "Logical necessity instructions",
+  "aliases": [
+   "necessity instructions",
+   "augmented logic instructions",
+   "instructional debiasing of belief bias"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/logical-necessity-instructions.md",
+  "created": "2026-11-06",
+  "summary": "A debiasing technique for deductive judgments in which the reasoner is told, or tells themselves, to assume the premises are true and to accept a conclusion only if it must follow from them, regardless of whether it is believable. It reduces belief bias in some studies but has not eliminated it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:belief-bias",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:caravona-2019-pragmatic-instruction-experiments",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:evans-1994-debiasing-by-instruction-experiments",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://research.leedstrinity.ac.uk/en/publications/debiasing-by-instruction-the-case-of-belief-bias/",
+   "https://ejop.psychopen.eu/index.php/ejop/article/download/1794/1794.html?inline=1",
+   "https://researchers.mq.edu.au/en/publications/necessity-possibility-and-belief-a-study-of-syllogistic-reasoning/",
+   "https://researchportal.plymouth.ac.uk/en/publications/logic-beliefs-and-instruction-a-test-of-the-default-interventioni/",
+   "https://iep.utm.edu/val-snd"
+  ]
+ },
+ {
   "id": "ct:method-of-counterexample",
   "title": "Method of counterexample",
   "aliases": [
