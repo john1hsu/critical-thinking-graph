@@ -92,6 +92,103 @@
    ]
   },
   {
+   "@id": "ct:ad-hominem",
+   "@type": "cto:InformalFallacy",
+   "cto:challengedBy": {
+    "@id": "ct:why-there-is-no-argumentum-ad-hominem-fallacy"
+   },
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:barnes-2018-ad-hominem-attacks-on-scientists-study"
+    },
+    {
+     "@id": "ct:van-eemeren-garssen-meuffels-2002-freedom-rule-study"
+    }
+   ],
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map"
+   },
+   "cto:file": "articles/informal-fallacies/ad-hominem.md",
+   "cto:formalizedBy": {
+    "@id": "ct:douglas-walton"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:john-locke"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s5"
+    }
+   ],
+   "rdfs:label": "Ad hominem",
+   "skos:altLabel": [
+    "abusive ad hominem",
+    "argument against the person",
+    "argumentum ad hominem",
+    "circumstantial ad hominem",
+    "personal attack fallacy"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of rejecting a claim or argument because of some feature of the person advancing it (character, motives, circumstances or conduct) when that feature does not bear on whether the claim is true or the argument is good.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Ad hominem",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:red-herring"
+    },
+    {
+     "@id": "ct:richard-whately"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    },
+    {
+     "@id": "ct:tu-quoque"
+    }
+   ]
+  },
+  {
    "@id": "ct:affirming-a-disjunct",
    "@type": "cto:FormalFallacy",
    "cto:confusedWith": {
@@ -7593,6 +7690,117 @@
    ]
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-hominem"
+   },
+   "rdfs:label": "How well is the allegation about the person actually supported by evidence?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-hominem"
+   },
+   "rdfs:label": "Does the person's character, interest or conduct matter in this kind of exchange, for example because we are relying on their testimony or judgment?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-hominem"
+   },
+   "rdfs:label": "Would the argument still stand if someone with no stake in it had made it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-hominem"
+   },
+   "rdfs:label": "Is the attack used to lower the weight we give the speaker's say-so, or to declare the claim itself false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-hominem"
+   },
+   "rdfs:label": "Could the apparent bias or inconsistency be explained once the person is allowed to respond?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:ad-hominem"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the recommendation is wrong and the comparison can be ignored."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The past job is a fair reason to check the cost comparison closely, not a reason to think its figures are false."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The comparison's numbers can be verified independently of who compiled them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "A procurement analyst recommends switching to a cheaper cloud-storage vendor, backed by a cost comparison."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The analyst used to work for that vendor."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -8652,6 +8860,76 @@
    "dcterms:title": "Actively Open-Minded Thinking Beliefs (AOT)",
    "schema:url": {
     "@id": "https://dlab.sauder.ubc.ca/sjdm/dmidi/Actively_Open-Minded_Thinking_Beliefs.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Applied Logic 8(1), 1-21 (Walton, 2010)",
+   "dcterms:title": "Formalization of the ad hominem argumentation scheme",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/84725176.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "University of Alabama Press / UBC Press (Walton, paperback 2009)",
+   "dcterms:title": "Ad Hominem Arguments",
+   "schema:url": {
+    "@id": "https://ubcpress.ca/ad-hominem-arguments"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "PLOS ONE 13(1), e0192025 (Barnes, Johnston, MacKenzie, Tobin & Taglang, 2018)",
+   "dcterms:title": "The effect of ad hominem attacks on the evaluation of claims promoted by scientists",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5790247"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Springer, Argumentation Library 16 (van Eemeren, Garssen & Meuffels, 2009)",
+   "dcterms:title": "The Confrontation Stage: The Freedom Rule (in Fallacies and Judgments of Reasonableness)",
+   "schema:url": {
+    "@id": "https://rd.springer.com/chapter/10.1007/978-90-481-2614-9_4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hominem/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "David Hitchcock, McMaster University (author's page)",
+   "dcterms:title": "Why there is no argumentum ad hominem fallacy",
+   "schema:url": {
+    "@id": "https://humanities.mcmaster.ca/%7Ehitchckd/adhominemissa.htm"
    }
   },
   {
