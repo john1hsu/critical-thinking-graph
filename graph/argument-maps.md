@@ -44,6 +44,17 @@ flowchart TD
   o1["The conclusion is only as reliable as the premises: if the limit was raised last quarter, the argument stays valid but becomes unsound."] -. attacks .-> ra
 ```
 
+## Denying the antecedent (`ct:denying-the-antecedent`)
+
+```mermaid
+flowchart TD
+  p1["If the big client renews by Friday, the team will hit its quarterly target."] --> ra{{"invalid"}}
+  p2["The big client did not renew by Friday."] --> ra{{"invalid"}}
+  ra --> c["The team will not hit its quarterly target."]
+  o1["Several smaller deals closing this month could make up the target without the renewal."] -. attacks .-> ra
+  o2["The conditional names one sufficient route to the target, not the only one."] -. attacks .-> ra
+```
+
 ## False dilemma (`ct:false-dilemma`)
 
 ```mermaid

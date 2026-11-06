@@ -1984,6 +1984,98 @@
   ]
  },
  {
+  "id": "ct:denying-the-antecedent",
+  "title": "Denying the antecedent",
+  "aliases": [
+   "inverse error",
+   "fallacy of the inverse",
+   "denial of the antecedent"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/denying-the-antecedent.md",
+  "created": "2026-11-06",
+  "summary": "The deductively invalid inference that takes a conditional \"if P then Q\" together with the falsity of P and concludes that Q is false, overlooking every other way Q could come about.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:suppression-effect"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:modus-tollens",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:modus-tollens",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:affirming-the-consequent",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:sophistical-refutations",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:conditional-perfection",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Apart from the stated antecedent, what else could bring about the consequent?",
+   "Does the speaker actually mean \"only if\", and if so, has that stronger claim been stated and defended?",
+   "How likely is the consequent when the antecedent is absent, and has anyone checked?",
+   "Could the antecedent be false while the consequent still turns out true in a realistic case?"
+  ],
+  "source_urls": [
+   "https://www.ellopos.net/elpenor/greek-texts/ancient-greece/aristotle/sophistical-refutations.asp?pg=8",
+   "https://www.britannica.com/topic/denial-of-the-antecedent",
+   "https://www.siue.edu/~wlarkin/teaching/PHIL213/forms.html",
+   "https://digitalcommons.odu.edu/philosophy_fac_pubs/46",
+   "https://link.springer.com/content/pdf/10.3758%2FBF03195776.pdf",
+   "https://modeltheory.org/papers/2019meta-conditionals.pdf"
+  ]
+ },
+ {
   "id": "ct:devils-advocacy",
   "title": "Devil's advocacy",
   "aliases": [

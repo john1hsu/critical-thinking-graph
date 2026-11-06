@@ -813,6 +813,75 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/delphi-report-on-critical-thinking.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Apart from the stated antecedent, what else could bring about the consequent?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does the speaker actually mean \"only if\", and if so, has that stronger claim been stated and defended?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "How likely is the consequent when the antecedent is absent, and has anyone checked?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Could the antecedent be false while the consequent still turns out true in a realistic case?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The team will not hit its quarterly target." .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Several smaller deals closing this month could make up the target without the renewal." .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "The conditional names one sufficient route to the target, not the only one." .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "If the big client renews by Friday, the team will hit its quarterly target." .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "The big client did not renew by Friday." .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2000/01/rdf-schema#label> "Denying the antecedent" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#altLabel> "denial of the antecedent" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of the inverse" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#altLabel> "inverse error" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#definition> "The deductively invalid inference that takes a conditional \"if P then Q\" together with the falsity of P and concludes that Q is false, overlooking every other way Q could come about." .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Denying the antecedent" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/suppression-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/denying-the-antecedent.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#invalidFormOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <http://www.w3.org/2000/01/rdf-schema#label> "Devil's advocacy" .
@@ -2858,6 +2927,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s5> <https://schema.org/url> <https://courses.ems.psu.edu/geog882/node/2118> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s1> <http://purl.org/dc/terms/publisher> "Aristotle, Organon; Elpenor Greek texts edition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s1> <http://purl.org/dc/terms/title> "On Sophistical Refutations (trans. W. A. Pickard-Cambridge)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s1> <https://schema.org/url> <https://www.ellopos.net/elpenor/greek-texts/ancient-greece/aristotle/sophistical-refutations.asp?pg=8> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s2> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s2> <http://purl.org/dc/terms/title> "Denial of the antecedent" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s2> <https://schema.org/url> <https://www.britannica.com/topic/denial-of-the-antecedent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s3> <http://purl.org/dc/terms/publisher> "PHIL 213 course materials, Southern Illinois University Edwardsville (W. Larkin)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s3> <http://purl.org/dc/terms/title> "Common Deductive Argument Forms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s3> <https://schema.org/url> <https://www.siue.edu/~wlarkin/teaching/PHIL213/forms.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s4> <http://purl.org/dc/terms/publisher> "Informal Logic 35(1), 88-134 (Godden & Zenker, 2015), ODU Digital Commons record, doi:10.22329/il.v35i1.4173" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s4> <http://purl.org/dc/terms/title> "Denying Antecedents and Affirming Consequents: The State of the Art" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s4> <https://schema.org/url> <https://digitalcommons.odu.edu/philosophy_fac_pubs/46> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s5> <http://purl.org/dc/terms/publisher> "Memory & Cognition 30(6), 908-920 (De Neys, Schaeken & d'Ydewalle, 2002)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s5> <http://purl.org/dc/terms/title> "Causal conditional reasoning and semantic memory retrieval: A test of the semantic memory framework" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s5> <https://schema.org/url> <https://link.springer.com/content/pdf/10.3758%2FBF03195776.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s6> <http://purl.org/dc/terms/publisher> "International Conference on Cognitive Modeling (Ragni, Dames & Johnson-Laird, 2019), author's copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s6> <http://purl.org/dc/terms/title> "A Meta-Analysis of Conditional Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s6> <https://schema.org/url> <https://modeltheory.org/papers/2019meta-conditionals.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> <http://purl.org/dc/terms/publisher> "US Government (Central Intelligence Agency), March 2009, pp. 17-19, 38-39" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s1> <http://purl.org/dc/terms/title> "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis" .

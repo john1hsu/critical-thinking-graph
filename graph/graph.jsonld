@@ -1903,6 +1903,92 @@
    ]
   },
   {
+   "@id": "ct:denying-the-antecedent",
+   "@type": "cto:FormalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:modus-tollens"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:affirming-the-consequent"
+   },
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:conditional-perfection"
+   },
+   "cto:file": "articles/formal-fallacies/denying-the-antecedent.md",
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:invalidFormOf": {
+    "@id": "ct:modus-tollens"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s6"
+    }
+   ],
+   "rdfs:label": "Denying the antecedent",
+   "skos:altLabel": [
+    "denial of the antecedent",
+    "fallacy of the inverse",
+    "inverse error"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The deductively invalid inference that takes a conditional \"if P then Q\" together with the falsity of P and concludes that Q is false, overlooking every other way Q could come about.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Denying the antecedent",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:suppression-effect"
+    }
+   ]
+  },
+  {
    "@id": "ct:devils-advocacy",
    "@type": "cto:Technique",
    "cto:appliedIn": [
@@ -6258,6 +6344,112 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:denying-the-antecedent"
+   },
+   "rdfs:label": "Apart from the stated antecedent, what else could bring about the consequent?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:denying-the-antecedent"
+   },
+   "rdfs:label": "Does the speaker actually mean \"only if\", and if so, has that stronger claim been stated and defended?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:denying-the-antecedent"
+   },
+   "rdfs:label": "How likely is the consequent when the antecedent is absent, and has anyone checked?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:denying-the-antecedent"
+   },
+   "rdfs:label": "Could the antecedent be false while the consequent still turns out true in a realistic case?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:denying-the-antecedent"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The team will not hit its quarterly target."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Several smaller deals closing this month could make up the target without the renewal."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The conditional names one sufficient route to the target, not the only one."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If the big client renews by Friday, the team will hit its quarterly target."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The big client did not renew by Friday."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:modus-tollens"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -8377,6 +8569,90 @@
    "dcterms:title": "1.7 Expert Consensus Statement (GEOG 882: Geographic Foundations of Geospatial Intelligence)",
    "schema:url": {
     "@id": "https://courses.ems.psu.edu/geog882/node/2118"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Aristotle, Organon; Elpenor Greek texts edition",
+   "dcterms:title": "On Sophistical Refutations (trans. W. A. Pickard-Cambridge)",
+   "schema:url": {
+    "@id": "https://www.ellopos.net/elpenor/greek-texts/ancient-greece/aristotle/sophistical-refutations.asp?pg=8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Denial of the antecedent",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/denial-of-the-antecedent"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "PHIL 213 course materials, Southern Illinois University Edwardsville (W. Larkin)",
+   "dcterms:title": "Common Deductive Argument Forms",
+   "schema:url": {
+    "@id": "https://www.siue.edu/~wlarkin/teaching/PHIL213/forms.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Informal Logic 35(1), 88-134 (Godden & Zenker, 2015), ODU Digital Commons record, doi:10.22329/il.v35i1.4173",
+   "dcterms:title": "Denying Antecedents and Affirming Consequents: The State of the Art",
+   "schema:url": {
+    "@id": "https://digitalcommons.odu.edu/philosophy_fac_pubs/46"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Memory & Cognition 30(6), 908-920 (De Neys, Schaeken & d'Ydewalle, 2002)",
+   "dcterms:title": "Causal conditional reasoning and semantic memory retrieval: A test of the semantic memory framework",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.3758%2FBF03195776.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-the-antecedent/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "International Conference on Cognitive Modeling (Ragni, Dames & Johnson-Laird, 2019), author's copy",
+   "dcterms:title": "A Meta-Analysis of Conditional Reasoning",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/2019meta-conditionals.pdf"
    }
   },
   {

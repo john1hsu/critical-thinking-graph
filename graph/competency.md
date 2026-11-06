@@ -22,7 +22,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
-| `ct:method-of-counterexample` | 2 | Affirming the consequent, denying-the-antecedent |
+| `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:randomized-controlled-trial` | 2 | confounding, selection-bias |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
