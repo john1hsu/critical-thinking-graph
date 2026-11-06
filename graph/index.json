@@ -5428,6 +5428,74 @@
   ]
  },
  {
+  "id": "ct:primary-and-secondary-sources",
+  "title": "Primary and secondary sources",
+  "aliases": [
+   "primary source",
+   "secondary source",
+   "original and derived sources",
+   "firsthand and secondhand sources"
+  ],
+  "type": "Concept",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/evidence-and-information-literacy/primary-and-secondary-sources.md",
+  "created": "2026-11-06",
+  "summary": "The distinction between sources that give firsthand evidence from the time or place being studied (primary) and sources that report, interpret or analyse that evidence afterwards (secondary). Which label applies depends on the question being asked, not on the type of document.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sift-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:source-criticism",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:historiography",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:leopold-von-ranke",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:information-literacy",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://rucforsk.ruc.dk/ws/files/75942451/704812.pdf",
+   "https://gutenberg.org/cache/epub/29637/pg29637-images.html",
+   "https://library.albany.edu/infolit/primary",
+   "https://eiu.libguides.com/primsec",
+   "https://www.scilit.net/publications/feae79b21d90a57254aebdb21813a622",
+   "https://pressbooks.pub/webliteracy/chapter/four-strategies/"
+  ]
+ },
+ {
   "id": "ct:principle-of-charity",
   "title": "Principle of charity",
   "aliases": [

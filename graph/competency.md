@@ -101,6 +101,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:prebunking` | cto:Technique |
+| `ct:primary-and-secondary-sources` | cto:Concept |
 | `ct:randomized-controlled-trial` | cto:Method |
 | `ct:simpsons-paradox` | cto:Phenomenon |
 | `ct:tu-quoque` | cto:InformalFallacy |
