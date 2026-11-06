@@ -2127,6 +2127,34 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/randomized-controlled-trial.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2000/01/rdf-schema#label> "Regression to the mean" .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#altLabel> "regression toward the mean" .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#altLabel> "regression towards mediocrity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#altLabel> "reversion to the mean" .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#definition> "The statistical tendency for cases picked out because they scored unusually high or low on one measurement to score closer to the average when measured again, simply because the two measurements are imperfectly correlated. It can make chance fluctuation look like the effect of a treatment, policy or reward." .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#prefLabel> "Regression to the mean" .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/clinical-research> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/placebo-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/regression-to-the-mean.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/francis-galton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Heuristic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> <http://www.w3.org/2000/01/rdf-schema#label> "Representativeness heuristic" .
@@ -4190,6 +4218,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s5> <https://schema.org/url> <https://www.jameslindlibrary.org/records/medical-research-council-1948b/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> <http://purl.org/dc/terms/publisher> "International Journal of Epidemiology 34(1), 215-220 (Barnett, van der Pols & Dobson, 2005), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> <http://purl.org/dc/terms/title> "Regression to the mean: what it is and how to deal with it" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/15333621/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s2> <http://purl.org/dc/terms/publisher> "BMJ 326(7398), 1083-1084 (Morton & Torgerson, 2003), White Rose Research Online author copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s2> <http://purl.org/dc/terms/title> "Effect of regression to the mean on decision making in health care" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s2> <https://schema.org/url> <https://eprints.whiterose.ac.uk/42/1/1083.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s3> <http://purl.org/dc/terms/publisher> "Journal of the Anthropological Institute 15, 246-263 (Galton, 1886), offprint record, Wellcome Collection" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s3> <http://purl.org/dc/terms/title> "Regression towards Mediocrity in Hereditary Stature" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s3> <https://schema.org/url> <https://wellcomecollection.org/works/sf54qjj5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> <http://purl.org/dc/terms/publisher> "Oregon Research Institute Research Bulletin 12(4) (Kahneman & Tversky, 1972), University of Oregon Scholars' Bank" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> <http://purl.org/dc/terms/title> "On the Psychology of Prediction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> <https://schema.org/url> <https://scholarsbank.uoregon.edu//bitstreams/2fbae090-7a99-4301-8402-26e6e3a4c00c/download> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s1> <http://purl.org/dc/terms/publisher> "Cognitive Psychology 3, 430-454 (Kahneman & Tversky, 1972), copy hosted on a UC San Diego faculty page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s1> <http://purl.org/dc/terms/title> "Subjective probability: A judgment of representativeness" .

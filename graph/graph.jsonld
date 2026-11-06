@@ -5047,6 +5047,78 @@
    ]
   },
   {
+   "@id": "ct:regression-to-the-mean",
+   "@type": "cto:Phenomenon",
+   "cto:appliedIn": {
+    "@id": "ct:clinical-research"
+   },
+   "cto:confusedWith": {
+    "@id": "ct:placebo-effect"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/probabilistic-reasoning/regression-to-the-mean.md",
+   "cto:introducedBy": {
+    "@id": "ct:francis-galton"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:epidemiology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4"
+    }
+   ],
+   "rdfs:label": "Regression to the mean",
+   "skos:altLabel": [
+    "regression toward the mean",
+    "regression towards mediocrity",
+    "reversion to the mean"
+   ],
+   "skos:broader": {
+    "@id": "ct:statistical-reasoning"
+   },
+   "skos:definition": "The statistical tendency for cases picked out because they scored unusually high or low on one measurement to score closer to the average when measured again, simply because the two measurements are imperfectly correlated. It can make chance fluctuation look like the effect of a treatment, policy or reward.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Regression to the mean",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:outside-view"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    }
+   ]
+  },
+  {
    "@id": "ct:representativeness-heuristic",
    "@type": "cto:Heuristic",
    "cto:challengedBy": [
@@ -11569,6 +11641,62 @@
    "dcterms:title": "Medical Research Council (1948): Streptomycin treatment of pulmonary tuberculosis",
    "schema:url": {
     "@id": "https://www.jameslindlibrary.org/records/medical-research-council-1948b/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "International Journal of Epidemiology 34(1), 215-220 (Barnett, van der Pols & Dobson, 2005), PubMed record",
+   "dcterms:title": "Regression to the mean: what it is and how to deal with it",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/15333621/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "BMJ 326(7398), 1083-1084 (Morton & Torgerson, 2003), White Rose Research Online author copy",
+   "dcterms:title": "Effect of regression to the mean on decision making in health care",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/42/1/1083.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of the Anthropological Institute 15, 246-263 (Galton, 1886), offprint record, Wellcome Collection",
+   "dcterms:title": "Regression towards Mediocrity in Hereditary Stature",
+   "schema:url": {
+    "@id": "https://wellcomecollection.org/works/sf54qjj5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Oregon Research Institute Research Bulletin 12(4) (Kahneman & Tversky, 1972), University of Oregon Scholars' Bank",
+   "dcterms:title": "On the Psychology of Prediction",
+   "schema:url": {
+    "@id": "https://scholarsbank.uoregon.edu//bitstreams/2fbae090-7a99-4301-8402-26e6e3a4c00c/download"
    }
   },
   {

@@ -5297,6 +5297,83 @@
   ]
  },
  {
+  "id": "ct:regression-to-the-mean",
+  "title": "Regression to the mean",
+  "aliases": [
+   "regression toward the mean",
+   "regression towards mediocrity",
+   "reversion to the mean"
+  ],
+  "type": "Phenomenon",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/probabilistic-reasoning/regression-to-the-mean.md",
+  "created": "2026-11-06",
+  "summary": "The statistical tendency for cases picked out because they scored unusually high or low on one measurement to score closer to the average when measured again, simply because the two measurements are imperfectly correlated. It can make chance fluctuation look like the effect of a treatment, policy or reward.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:outside-view"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:francis-galton",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:placebo-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:clinical-research",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epidemiology",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/15333621/",
+   "https://eprints.whiterose.ac.uk/42/1/1083.pdf",
+   "https://wellcomecollection.org/works/sf54qjj5",
+   "https://scholarsbank.uoregon.edu//bitstreams/2fbae090-7a99-4301-8402-26e6e3a4c00c/download"
+  ]
+ },
+ {
   "id": "ct:representativeness-heuristic",
   "title": "Representativeness heuristic",
   "aliases": [

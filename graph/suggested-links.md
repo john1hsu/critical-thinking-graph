@@ -4,6 +4,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
+| 3.12 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:randomized-controlled-trial` |
 | 3.04 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample`, `ct:posterior-analytics` |
 | 2.83 | `ct:argumentation-schemes` | `ct:richard-whately` | `ct:argument-from-expert-opinion`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy`, `ct:informal-logic` |
 | 2.81 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:logic`, `ct:port-royal-logic`, `ct:soundness` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.04 | `ct:informal-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.03 | `ct:deductive-reasoning` | `ct:undistributed-middle` | `ct:affirming-the-consequent`, `ct:belief-bias`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.03 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| 2.03 | `ct:actively-open-minded-thinking` | `ct:debiasing` | `ct:bias-blind-spot`, `ct:consider-the-opposite`, `ct:judgment-and-decision-making`, `ct:metacognition`, `ct:overconfidence-effect` |
