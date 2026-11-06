@@ -983,6 +983,102 @@
   ]
  },
  {
+  "id": "ct:belief-bias",
+  "title": "Belief bias",
+  "aliases": [
+   "belief-bias effect",
+   "belief bias in syllogistic reasoning"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/belief-bias.md",
+  "created": "2026-11-06",
+  "summary": "The tendency to judge whether an argument is logically valid by whether its conclusion is believable, so that believable conclusions are accepted from invalid arguments and unbelievable ones are rejected from valid arguments.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:evans-barston-pollard-1983-belief-bias-experiments",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:dual-process-theory",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:amplifiedBy",
+    "object": "ct:time-pressure",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:trippas-2018-belief-bias-meta-analysis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:dube-rotello-heit-2010-belief-bias-roc-study",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://link.springer.com/content/pdf/10.3758/bf03196976.pdf",
+   "https://informahealthcare.com/doi/full/10.1080/13546780542000005",
+   "https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-a449t-bd7d2d851ffbda65a5214be8ca550833263bd2cd65d5d0ec6373d455ef9fd1662",
+   "https://discovery.ucl.ac.uk/id/eprint/10107864/",
+   "https://research.leedstrinity.ac.uk/en/publications/debiasing-by-instruction-the-case-of-belief-bias/",
+   "https://ejop.psychopen.eu/index.php/ejop/article/view/1794"
+  ]
+ },
+ {
   "id": "ct:bias-blind-spot",
   "title": "Bias blind spot",
   "aliases": [

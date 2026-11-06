@@ -945,6 +945,97 @@
    ]
   },
   {
+   "@id": "ct:belief-bias",
+   "@type": "cto:CognitiveBias",
+   "cto:amplifiedBy": {
+    "@id": "ct:time-pressure"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:dube-rotello-heit-2010-belief-bias-roc-study"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:evans-barston-pollard-1983-belief-bias-experiments"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": {
+    "@id": "ct:dual-process-theory"
+   },
+   "cto:file": "articles/cognitive-biases/belief-bias.md",
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:supportedBy": {
+    "@id": "ct:trippas-2018-belief-bias-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6"
+    }
+   ],
+   "rdfs:label": "Belief bias",
+   "skos:altLabel": [
+    "belief bias in syllogistic reasoning",
+    "belief-bias effect"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to judge whether an argument is logically valid by whether its conclusion is believable, so that believable conclusions are accepted from invalid arguments and unbelievable ones are rejected from valid arguments.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Belief bias",
+   "skos:related": [
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:bias-blind-spot",
    "@type": "cto:CognitiveBias",
    "cto:demonstratedBy": {
@@ -8085,6 +8176,90 @@
    "dcterms:title": "Why Can Only 24% Solve Bayesian Reasoning Problems in Natural Frequencies: Frequency Phobia in Spite of Probability Blindness",
    "schema:url": {
     "@id": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Memory & Cognition 11(3), 295-306 (Evans, Barston & Pollard, 1983), Springer",
+   "dcterms:title": "On the conflict between logic and belief in syllogistic reasoning",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.3758/bf03196976.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Thinking & Reasoning 11(4), 382-389 (Evans & Curtis-Holmes, 2005)",
+   "dcterms:title": "Rapid responding increases belief bias: Evidence for the dual-process theory of reasoning",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/full/10.1080/13546780542000005"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Psychological Review 117(3), 831-863 (Dube, Rotello & Heit, 2010), university library catalogue record",
+   "dcterms:title": "Assessing the belief bias effect with ROCs: It's a response bias effect",
+   "schema:url": {
+    "@id": "https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-a449t-bd7d2d851ffbda65a5214be8ca550833263bd2cd65d5d0ec6373d455ef9fd1662"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Psychonomic Bulletin & Review 25(6), 2141-2174 (Trippas, Kellen, Singmann, Pennycook, Koehler, Fugelsang & Dube, 2018), UCL Discovery",
+   "dcterms:title": "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data",
+   "schema:url": {
+    "@id": "https://discovery.ucl.ac.uk/id/eprint/10107864/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "European Journal of Cognitive Psychology 6(3), 263-285 (Evans, Newstead, Allen & Pollard, 1994), Leeds Trinity University research portal",
+   "dcterms:title": "Debiasing by instruction: The case of belief bias",
+   "schema:url": {
+    "@id": "https://research.leedstrinity.ac.uk/en/publications/debiasing-by-instruction-the-case-of-belief-bias/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Europe's Journal of Psychology 15(3), 595-613 (Caravona, Macchi, Poli, Vezzoli, Franchella & Bagassi, 2019)",
+   "dcterms:title": "How to Get Rid of the Belief Bias: Boosting Analytical Thinking via Pragmatics",
+   "schema:url": {
+    "@id": "https://ejop.psychopen.eu/index.php/ejop/article/view/1794"
    }
   },
   {

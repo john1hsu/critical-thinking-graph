@@ -433,6 +433,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2000/01/rdf-schema#label> "Belief bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "belief bias in syllogistic reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "belief-bias effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#definition> "The tendency to judge whether an argument is logically valid by whether its conclusion is believable, so that believable conclusions are accepted from invalid arguments and unbelievable ones are rejected from valid arguments." .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#prefLabel> "Belief bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifiedBy> <https://github.com/john1hsu/critical-thinking-graph/id/time-pressure> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/dube-rotello-heit-2010-belief-bias-roc-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/evans-barston-pollard-1983-belief-bias-experiments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/belief-bias.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/trippas-2018-belief-bias-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2000/01/rdf-schema#label> "Bias blind spot" .
@@ -2694,6 +2727,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5> <https://schema.org/url> <https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> <http://purl.org/dc/terms/publisher> "Memory & Cognition 11(3), 295-306 (Evans, Barston & Pollard, 1983), Springer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> <http://purl.org/dc/terms/title> "On the conflict between logic and belief in syllogistic reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> <https://schema.org/url> <https://link.springer.com/content/pdf/10.3758/bf03196976.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s2> <http://purl.org/dc/terms/publisher> "Thinking & Reasoning 11(4), 382-389 (Evans & Curtis-Holmes, 2005)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s2> <http://purl.org/dc/terms/title> "Rapid responding increases belief bias: Evidence for the dual-process theory of reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s2> <https://schema.org/url> <https://informahealthcare.com/doi/full/10.1080/13546780542000005> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s3> <http://purl.org/dc/terms/publisher> "Psychological Review 117(3), 831-863 (Dube, Rotello & Heit, 2010), university library catalogue record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s3> <http://purl.org/dc/terms/title> "Assessing the belief bias effect with ROCs: It's a response bias effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s3> <https://schema.org/url> <https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-a449t-bd7d2d851ffbda65a5214be8ca550833263bd2cd65d5d0ec6373d455ef9fd1662> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s4> <http://purl.org/dc/terms/publisher> "Psychonomic Bulletin & Review 25(6), 2141-2174 (Trippas, Kellen, Singmann, Pennycook, Koehler, Fugelsang & Dube, 2018), UCL Discovery" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s4> <http://purl.org/dc/terms/title> "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s4> <https://schema.org/url> <https://discovery.ucl.ac.uk/id/eprint/10107864/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s5> <http://purl.org/dc/terms/publisher> "European Journal of Cognitive Psychology 6(3), 263-285 (Evans, Newstead, Allen & Pollard, 1994), Leeds Trinity University research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s5> <http://purl.org/dc/terms/title> "Debiasing by instruction: The case of belief bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s5> <https://schema.org/url> <https://research.leedstrinity.ac.uk/en/publications/debiasing-by-instruction-the-case-of-belief-bias/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> <http://purl.org/dc/terms/publisher> "Europe's Journal of Psychology 15(3), 595-613 (Caravona, Macchi, Poli, Vezzoli, Franchella & Bagassi, 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> <http://purl.org/dc/terms/title> "How to Get Rid of the Belief Bias: Boosting Analytical Thinking via Pragmatics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> <https://schema.org/url> <https://ejop.psychopen.eu/index.php/ejop/article/view/1794> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> <http://purl.org/dc/terms/publisher> "Personality and Social Psychology Bulletin 28(3), 369-381 (Pronin, Lin & Ross, 2002), Princeton University research portal" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s1> <http://purl.org/dc/terms/title> "The bias blind spot: Perceptions of bias in self versus others" .
