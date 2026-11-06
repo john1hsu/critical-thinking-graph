@@ -4298,6 +4298,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://schema.org/url> <https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Snyder, rev. 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> <http://purl.org/dc/terms/title> "William Whewell" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/whewell/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s2> <http://purl.org/dc/terms/publisher> "Biographical Encyclopedia of Astronomers, Springer (Reidy and Forster, 2007), via MacTutor, University of St Andrews" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s2> <http://purl.org/dc/terms/title> "Whewell, William" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s2> <https://schema.org/url> <https://mathshistory.st-andrews.ac.uk/BEA/whewell_bea.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s3> <http://purl.org/dc/terms/publisher> "Philosophy of Science 52(2), 239-255 (Fisch, 1985); doi:10.1086/289242" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s3> <http://purl.org/dc/terms/title> "Whewell's Consilience of Inductions - An Evaluation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s3> <https://schema.org/url> <https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/whewells-consilience-of-inductionsan-evaluation/D984B0C4D394A9CA2BF99A19E852AA5C> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica (The Editors)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <http://purl.org/dc/terms/title> "William Whewell" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <https://schema.org/url> <https://www.britannica.com/biography/William-Whewell> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/2000/01/rdf-schema#label> "Stephen Toulmin" .
@@ -4740,3 +4764,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2000/01/rdf-schema#label> "William Whewell" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#altLabel> "Rev. William Whewell" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#altLabel> "Whewell" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#definition> "English philosopher, historian of science and Master of Trinity College, Cambridge (1794-1866), who built a theory of scientific induction from the history of the sciences, proposed prediction of new phenomena and the \"consilience of inductions\" as tests of a theory, debated John Stuart Mill on induction, and coined the word \"scientist\"." .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#prefLabel> "William Whewell" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/history-of-the-inductive-sciences> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-the-inductive-sciences> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/john-stuart-mill> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/william-whewell.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/consilience-of-inductions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .

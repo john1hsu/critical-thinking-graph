@@ -6162,5 +6162,83 @@
    "https://www.combinatorics.org/files/Surveys/ds5/VennJohnEJC.html",
    "https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/"
   ]
+ },
+ {
+  "id": "ct:william-whewell",
+  "title": "William Whewell",
+  "aliases": [
+   "Whewell",
+   "Rev. William Whewell"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/william-whewell.md",
+  "created": "2026-11-06",
+  "summary": "English philosopher, historian of science and Master of Trinity College, Cambridge (1794-1866), who built a theory of scientific induction from the history of the sciences, proposed prediction of new phenomena and the \"consilience of inductions\" as tests of a theory, debated John Stuart Mill on induction, and coined the word \"scientist\".",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:christiaan-huygens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:consilience-of-inductions",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:philosophy-of-the-inductive-sciences",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:history-of-the-inductive-sciences",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:john-stuart-mill",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/whewell/",
+   "https://mathshistory.st-andrews.ac.uk/BEA/whewell_bea.pdf",
+   "https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/whewells-consilience-of-inductionsan-evaluation/D984B0C4D394A9CA2BF99A19E852AA5C",
+   "https://www.britannica.com/biography/William-Whewell"
+  ]
  }
 ]

@@ -5862,6 +5862,79 @@
    ]
   },
   {
+   "@id": "ct:william-whewell",
+   "@type": "cto:Person",
+   "cto:authored": [
+    {
+     "@id": "ct:history-of-the-inductive-sciences"
+    },
+    {
+     "@id": "ct:philosophy-of-the-inductive-sciences"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:john-stuart-mill"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/william-whewell.md",
+   "cto:introduced": {
+    "@id": "ct:consilience-of-inductions"
+   },
+   "cto:level": "intermediate",
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4"
+    }
+   ],
+   "rdfs:label": "William Whewell",
+   "skos:altLabel": [
+    "Rev. William Whewell",
+    "Whewell"
+   ],
+   "skos:definition": "English philosopher, historian of science and Master of Trinity College, Cambridge (1794-1866), who built a theory of scientific induction from the history of the sciences, proposed prediction of new phenomena and the \"consilience of inductions\" as tests of a theory, debated John Stuart Mill on induction, and coined the word \"scientist\".",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "William Whewell",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:christiaan-huygens"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    },
+    {
+     "@id": "ct:karl-popper"
+    }
+   ]
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -11664,6 +11737,62 @@
    "dcterms:title": "How Diagrams Can Support Syllogistic Reasoning: An Experimental Study",
    "schema:url": {
     "@id": "https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Snyder, rev. 2022)",
+   "dcterms:title": "William Whewell",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/whewell/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Biographical Encyclopedia of Astronomers, Springer (Reidy and Forster, 2007), via MacTutor, University of St Andrews",
+   "dcterms:title": "Whewell, William",
+   "schema:url": {
+    "@id": "https://mathshistory.st-andrews.ac.uk/BEA/whewell_bea.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Philosophy of Science 52(2), 239-255 (Fisch, 1985); doi:10.1086/289242",
+   "dcterms:title": "Whewell's Consilience of Inductions - An Evaluation",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/whewells-consilience-of-inductionsan-evaluation/D984B0C4D394A9CA2BF99A19E852AA5C"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (The Editors)",
+   "dcterms:title": "William Whewell",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/William-Whewell"
    }
   },
   {
