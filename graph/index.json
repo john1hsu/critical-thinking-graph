@@ -7148,6 +7148,84 @@
   ]
  },
  {
+  "id": "ct:tradecraft-primer",
+  "title": "A Tradecraft Primer",
+  "aliases": [
+   "Tradecraft Primer",
+   "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+   "CIA Tradecraft Primer"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/tradecraft-primer.md",
+  "created": "2026-11-06",
+  "summary": "The US Government's short 2009 handbook of structured analytic techniques for intelligence analysts, which explains how mind-sets and cognitive biases distort judgment and sorts twelve techniques into diagnostic, contrarian and imaginative groups, including the key assumptions check.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:intelligence-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:key-assumptions-check"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:analysis-of-competing-hypotheses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:key-assumptions-check",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:richards-heuer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:intelligence-analysis",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:mandel-tetlock-2018-correcting-judgment-correctives",
+    "source": "s3",
+    "confidence": "low"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf",
+   "https://apps.dtic.mil/sti/tr/pdf/AD1024447.pdf",
+   "https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full",
+   "https://econjournals.sgh.waw.pl/JMFS/article/view/732",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.02634/pdf"
+  ]
+ },
+ {
   "id": "ct:tu-quoque",
   "title": "Tu quoque",
   "aliases": [

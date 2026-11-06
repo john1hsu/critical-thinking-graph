@@ -94,7 +94,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 |---|---|
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:justified-true-belief` | cto:Concept |
-| `ct:key-assumptions-check` | cto:Technique |
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:misinformation-and-disinformation` | cto:Phenomenon |
 | `ct:modus-tollens` | cto:ReasoningForm |

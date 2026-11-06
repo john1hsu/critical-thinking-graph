@@ -5167,6 +5167,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/toulmin-model/s4> <https://schema.org/url> <https://experts.umn.edu/en/publications/empowering-education-teaching-argumentative-writing-to-cultural-m/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s1> <http://purl.org/dc/terms/publisher> "US Government, Central Intelligence Agency, Center for the Study of Intelligence (March 2009)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s1> <http://purl.org/dc/terms/title> "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s1> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s2> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s2> <http://purl.org/dc/terms/publisher> "RAND Corporation, RR-1408-OSD (Artner, Girven & Bruce, 2016)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s2> <http://purl.org/dc/terms/title> "Assessing the Value of Structured Analytic Techniques in the U.S. Intelligence Community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s2> <https://schema.org/url> <https://apps.dtic.mil/sti/tr/pdf/AD1024447.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s3> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s3> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 9, 2640 (Mandel & Tetlock, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s3> <http://purl.org/dc/terms/title> "Correcting Judgment Correctives in National Security Intelligence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s3> <https://schema.org/url> <https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s4> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s4> <http://purl.org/dc/terms/publisher> "Journal of Management and Financial Sciences 30, 115-136 (Grunt, 2017)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s4> <http://purl.org/dc/terms/title> "Structured Analytic Techniques: Taxonomy and Technique Selection for Information and Intelligence Analysis Practitioners" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s4> <https://schema.org/url> <https://econjournals.sgh.waw.pl/JMFS/article/view/732> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 9, 2634 (Marcoci et al., 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <http://purl.org/dc/terms/title> "Better Together: Reliable Application of the Post-9/11 and Post-Iraq US Intelligence Tradecraft Standards Requires Collective Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2018.02634/pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tu-quoque/s1> <http://purl.org/dc/terms/title> "Fallacies" .
@@ -5556,6 +5586,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/yeh-1998-argumentative-writing-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2000/01/rdf-schema#label> "A Tradecraft Primer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#altLabel> "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#altLabel> "CIA Tradecraft Primer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#altLabel> "Tradecraft Primer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#definition> "The US Government's short 2009 handbook of structured analytic techniques for intelligence analysts, which explains how mind-sets and cognitive biases distort judgment and sorts twelve techniques into diagnostic, contrarian and imaginative groups, including the key assumptions check." .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#prefLabel> "A Tradecraft Primer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mandel-tetlock-2018-correcting-judgment-correctives> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/tradecraft-primer.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richards-heuer> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the speaker's conduct actually bear on whether the claim is true, or only on the speaker's character?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .

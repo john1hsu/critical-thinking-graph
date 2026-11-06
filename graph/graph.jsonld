@@ -6797,6 +6797,81 @@
    ]
   },
   {
+   "@id": "ct:tradecraft-primer",
+   "@type": "cto:Work",
+   "cto:appliedIn": {
+    "@id": "ct:intelligence-analysis"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:mandel-tetlock-2018-correcting-judgment-correctives"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/tradecraft-primer.md",
+   "cto:influencedBy": {
+    "@id": "ct:richards-heuer"
+   },
+   "cto:introduces": {
+    "@id": "ct:key-assumptions-check"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:cognitive-bias"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5"
+    }
+   ],
+   "rdfs:label": "A Tradecraft Primer",
+   "skos:altLabel": [
+    "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+    "CIA Tradecraft Primer",
+    "Tradecraft Primer"
+   ],
+   "skos:definition": "The US Government's short 2009 handbook of structured analytic techniques for intelligence analysts, which explains how mind-sets and cognitive biases distort judgment and sorts twelve techniques into diagnostic, contrarian and imaginative groups, including the key assumptions check.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "A Tradecraft Primer",
+   "skos:related": [
+    {
+     "@id": "ct:analysis-of-competing-hypotheses"
+    },
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:intelligence-analysis"
+    },
+    {
+     "@id": "ct:key-assumptions-check"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    }
+   ]
+  },
+  {
    "@id": "ct:tu-quoque",
    "@type": "cto:InformalFallacy",
    "cto:challengedBy": {
@@ -13954,6 +14029,76 @@
    "dcterms:title": "Empowering education: Teaching argumentative writing to cultural minority middle-school students",
    "schema:url": {
     "@id": "https://experts.umn.edu/en/publications/empowering-education-teaching-argumentative-writing-to-cultural-m/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "US Government, Central Intelligence Agency, Center for the Study of Intelligence (March 2009)",
+   "dcterms:title": "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "RAND Corporation, RR-1408-OSD (Artner, Girven & Bruce, 2016)",
+   "dcterms:title": "Assessing the Value of Structured Analytic Techniques in the U.S. Intelligence Community",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/tr/pdf/AD1024447.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 9, 2640 (Mandel & Tetlock, 2018)",
+   "dcterms:title": "Correcting Judgment Correctives in National Security Intelligence",
+   "schema:url": {
+    "@id": "https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Journal of Management and Financial Sciences 30, 115-136 (Grunt, 2017)",
+   "dcterms:title": "Structured Analytic Techniques: Taxonomy and Technique Selection for Information and Intelligence Analysis Practitioners",
+   "schema:url": {
+    "@id": "https://econjournals.sgh.waw.pl/JMFS/article/view/732"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 9, 2634 (Marcoci et al., 2019)",
+   "dcterms:title": "Better Together: Reliable Application of the Post-9/11 and Post-Iraq US Intelligence Tradecraft Standards Requires Collective Analysis",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.02634/pdf"
    }
   },
   {
