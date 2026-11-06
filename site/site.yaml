@@ -1,0 +1,57 @@
+# Settings for the GitHub Pages site built by site/build.py.
+title: Critical Thinking Graph
+repo: john1hsu/critical-thinking-graph
+repo_url: https://github.com/john1hsu/critical-thinking-graph
+prefix: ct
+headline: How good reasoning works, and how it goes wrong
+intro: >-
+  A cited, cross-linked guide to logic, argument, fallacies, cognitive biases,
+  evidence and better decisions. Every article explains one idea, shows it in
+  an everyday or workplace example, and links to the sources behind each claim.
+search_example: anchoring
+tagline: A cited, cross-linked guide to logic, argument, fallacies, cognitive biases, evidence and better decisions.
+footer: A new article is researched, checked and added every hour.
+fonts_url: https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..700&family=Instrument+Sans:wght@400..700&display=swap
+evidence:
+  normative: Normative (a rule of logic)
+  historical: Historical record
+  mixed: Mixed evidence
+  robust: Robust evidence
+  contested: Contested
+  failed-replication: Failed to replicate
+  practitioner: Practitioner advice
+  theoretical: Theoretical
+domains: {}
+theme:
+  font_body: "'Literata', Georgia, serif"
+  font_display: "'Literata', Georgia, serif"
+  font_ui: "'Instrument Sans', system-ui, sans-serif"
+  hue_start: 215
+  light:
+    paper: "#EDF1F5"
+    panel: "#F8FAFC"
+    ink: "#141C27"
+    ink-soft: "#323D4C"
+    muted: "#5A6575"
+    rule: "#D3DBE4"
+    rule-strong: "#AEB9C6"
+    accent: "#2444A0"
+    accent-wash: "#DCE4F7"
+    warn: "#A6302B"
+    warn-wash: "#F6DEDB"
+    good: "#1F6B47"
+    good-wash: "#D9EEE3"
+  dark:
+    paper: "#10161F"
+    panel: "#18202B"
+    ink: "#E6ECF3"
+    ink-soft: "#C3CCD8"
+    muted: "#8F9BAB"
+    rule: "#2A3441"
+    rule-strong: "#425062"
+    accent: "#8DA8F2"
+    accent-wash: "#24314F"
+    warn: "#F09089"
+    warn-wash: "#3D2224"
+    good: "#7FCFA4"
+    good-wash: "#1D3529"

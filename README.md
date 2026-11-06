@@ -2,6 +2,8 @@
 
 A growing, citation-backed knowledge graph of critical thinking: logic and reasoning forms, argumentation schemes, formal, informal and probabilistic fallacies, cognitive biases and heuristics, scientific reasoning, evidence and information literacy, structured analytic techniques, debiasing and metacognition, and the thinkers and works behind them. A scheduled run researches one new topic, writes it as a node with evidenced, typed edges, and only commits it if the validator, the OWL reasoner and the SHACL shapes all agree it is sound.
 
+**Read it online: https://john1hsu.github.io/critical-thinking-graph/** (rebuilt automatically on every new article by `.github/workflows/pages.yml` from `site/build.py`).
+
 ## Architecture
 
 ```
