@@ -86,7 +86,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
-| `ct:burden-of-proof` | cto:Concept |
 | `ct:confirmation-bias` | cto:CognitiveBias |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:informal-fallacy` | cto:Concept |

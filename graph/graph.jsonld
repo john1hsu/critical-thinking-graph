@@ -1089,6 +1089,9 @@
     },
     {
      "@id": "ct:presumption"
+    },
+    {
+     "@id": "ct:richard-whately"
     }
    ]
   },
@@ -4886,6 +4889,96 @@
     },
     {
      "@id": "ct:regression-to-the-mean"
+    }
+   ]
+  },
+  {
+   "@id": "ct:richard-whately",
+   "@type": "cto:Person",
+   "cto:authored": [
+    {
+     "@id": "ct:elements-of-logic"
+    },
+    {
+     "@id": "ct:elements-of-rhetoric"
+    },
+    {
+     "@id": "ct:historic-doubts-relative-to-napoleon-buonaparte"
+    }
+   ],
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/richard-whately.md",
+   "cto:influencedBy": {
+    "@id": "ct:artis-logicae-compendium"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:presumption"
+    }
+   ],
+   "cto:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s6"
+    }
+   ],
+   "rdfs:label": "Richard Whately",
+   "skos:altLabel": [
+    "Archbishop Whately",
+    "Whately"
+   ],
+   "skos:definition": "English logician, economist and Anglican archbishop of Dublin (1787-1863) whose Elements of Logic (1826) revived the study of logic in England and sorted fallacies into logical and material kinds, and whose Elements of Rhetoric (1828) gave argumentation theory its classic account of presumption and burden of proof.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Richard Whately",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:presumption"
     }
    ]
   },
@@ -11089,6 +11182,90 @@
    "dcterms:title": "Frequency estimation and semantic ambiguity do not eliminate conjunction bias, when it occurs: Replication and extension of Mellers, Hertwig, and Kahneman (2001)",
    "schema:url": {
     "@id": "https://open.lnu.se/index.php/metapsychology/article/view/2474"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (The Editors)",
+   "dcterms:title": "Richard Whately",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/Richard-Whately"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Encyclopedia of Philosophy, Macmillan (Prior, 1967), via Encyclopedia.com",
+   "dcterms:title": "Whately, Richard (1787-1863)",
+   "schema:url": {
+    "@id": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/whately-richard-1787-1863"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Cambridge University Press (Simons, ed. Baldwin, 2003)",
+   "dcterms:title": "Logic: revival and reform, in The Cambridge History of Philosophy 1870-1945",
+   "schema:url": {
+    "@id": "https://www.cambridge.org:443/core/product/identifier/CBO9781139053563A016/type/BOOK_PART"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Pragmatics & Cognition 15(2), 2007 (Godden and Walton), PhilArchive copy",
+   "dcterms:title": "A Theory of Presumption for Everyday Argumentation",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/GODATO-3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Informal Logic 8(2), 1987 (Schmidt), full text via Distant Reader",
+   "dcterms:title": "On Classifications of Fallacies",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2683.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-06"
+   },
+   "dcterms:publisher": "Informal Logic 26(3), 319-340 (Hansen, 2006), full text via Distant Reader",
+   "dcterms:title": "Whately on Arguments Involving Authority",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-456.pdf"
    }
   },
   {

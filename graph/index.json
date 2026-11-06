@@ -1099,6 +1099,10 @@
     "object": "ct:informal-fallacy"
    },
    {
+    "predicate": "skos:related",
+    "object": "ct:richard-whately"
+   },
+   {
     "predicate": "cto:requires",
     "object": "ct:argument"
    },
@@ -5144,6 +5148,100 @@
    "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1996.pdf",
    "https://edoc.unibas.ch/8522/",
    "https://open.lnu.se/index.php/metapsychology/article/view/2474"
+  ]
+ },
+ {
+  "id": "ct:richard-whately",
+  "title": "Richard Whately",
+  "aliases": [
+   "Archbishop Whately",
+   "Whately"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/richard-whately.md",
+  "created": "2026-11-06",
+  "summary": "English logician, economist and Anglican archbishop of Dublin (1787-1863) whose Elements of Logic (1826) revived the study of logic in England and sorted fallacies into logical and material kinds, and whose Elements of Rhetoric (1828) gave argumentation theory its classic account of presumption and burden of proof.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presumption"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:burden-of-proof",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:presumption",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:elements-of-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:elements-of-rhetoric",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:historic-doubts-relative-to-napoleon-buonaparte",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:artis-logicae-compendium",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.britannica.com/biography/Richard-Whately",
+   "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/whately-richard-1787-1863",
+   "https://www.cambridge.org:443/core/product/identifier/CBO9781139053563A016/type/BOOK_PART",
+   "https://philarchive.org/archive/GODATO-3",
+   "https://distantreader.org/stacks/journals/il/il-2683.pdf",
+   "https://distantreader.org/stacks/journals/il/il-456.pdf"
   ]
  },
  {

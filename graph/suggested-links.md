@@ -5,27 +5,27 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 3.04 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample`, `ct:posterior-analytics` |
-| 2.82 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:logic`, `ct:port-royal-logic`, `ct:soundness` |
-| 2.58 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
+| 2.83 | `ct:argumentation-schemes` | `ct:richard-whately` | `ct:argument-from-expert-opinion`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy`, `ct:informal-logic` |
+| 2.81 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:logic`, `ct:port-royal-logic`, `ct:soundness` |
+| 2.67 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |
+| 2.57 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.55 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
 | 2.39 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |
 | 2.39 | `ct:debiasing-training-games` | `ct:key-assumptions-check` | `ct:confirmation-bias`, `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
 | 2.37 | `ct:argumentation-theory` | `ct:tu-quoque` | `ct:argument`, `ct:charles-hamblin`, `ct:informal-fallacy`, `ct:pragma-dialectics`, `ct:principle-of-charity` |
 | 2.37 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:consider-the-opposite`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 2.32 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample` |
-| 2.28 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |
 | 2.22 | `ct:method-of-counterexample` | `ct:modus-tollens` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:modus-ponens`, `ct:syllogism` |
 | 2.20 | `ct:deductive-reasoning` | `ct:denying-the-antecedent` | `ct:affirming-the-consequent`, `ct:aristotle`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
 | 2.16 | `ct:actively-open-minded-thinking` | `ct:outside-view` | `ct:geopolitical-forecasting`, `ct:judgment-and-decision-making`, `ct:overconfidence-effect` |
 | 2.14 | `ct:false-dilemma` | `ct:syllogism` | `ct:disjunctive-syllogism`, `ct:port-royal-logic`, `ct:validity` |
 | 2.13 | `ct:deductive-reasoning` | `ct:undistributed-middle` | `ct:affirming-the-consequent`, `ct:belief-bias`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.13 | `ct:method-of-counterexample` | `ct:posterior-analytics` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:prior-analytics`, `ct:soundness`, `ct:syllogism` |
+| 2.09 | `ct:richard-whately` | `ct:straw-man-fallacy` | `ct:argumentation-theory`, `ct:ignoratio-elenchi`, `ct:informal-fallacy` |
 | 2.06 | `ct:port-royal-logic` | `ct:undistributed-middle` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:illicit-major`, `ct:syllogism` |
 | 2.06 | `ct:port-royal-logic` | `ct:venn-diagram-test` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:illicit-major`, `ct:syllogism` |
-| 2.06 | `ct:argumentation-schemes` | `ct:principle-of-charity` | `ct:argument`, `ct:argumentation-theory`, `ct:informal-fallacy`, `ct:informal-logic`, `ct:pragma-dialectics` |
-| 2.05 | `ct:informal-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
+| 2.04 | `ct:argumentation-schemes` | `ct:principle-of-charity` | `ct:argument`, `ct:argumentation-theory`, `ct:informal-fallacy`, `ct:informal-logic`, `ct:pragma-dialectics` |
+| 2.04 | `ct:informal-fallacy` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.04 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:outside-view`, `ct:representativeness-heuristic` |
 | 2.03 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 2.03 | `ct:actively-open-minded-thinking` | `ct:debiasing` | `ct:bias-blind-spot`, `ct:consider-the-opposite`, `ct:judgment-and-decision-making`, `ct:metacognition`, `ct:overconfidence-effect` |
-| 2.02 | `ct:debiasing-training-games` | `ct:devils-advocacy` | `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
-| 2.01 | `ct:argument` | `ct:posterior-analytics` | `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:soundness`, `ct:topics`, `ct:validity` |

@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: normative
 broader: [ct:argument-evaluation]
-related: [ct:argument-from-ignorance, ct:presumption, ct:pragma-dialectics, ct:argumentation-schemes, ct:charles-hamblin, ct:informal-fallacy]
+related: [ct:argument-from-ignorance, ct:presumption, ct:pragma-dialectics, ct:argumentation-schemes, ct:charles-hamblin, ct:informal-fallacy, ct:richard-whately]
 requires: [ct:argument]
 relations:
   - {predicate: studiedIn, object: ct:argumentation-theory, source: s2, confidence: high}
