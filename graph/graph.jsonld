@@ -7183,6 +7183,86 @@
    ]
   },
   {
+   "@id": "ct:richard-nisbett",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:telling-more-than-we-can-know"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:newell-shanks-2014-unconscious-influences-review"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/richard-nisbett.md",
+   "cto:introduced": [
+    {
+     "@id": "ct:holistic-versus-analytic-cognition"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s5"
+    }
+   ],
+   "rdfs:label": "Richard E. Nisbett",
+   "skos:altLabel": [
+    "Nisbett",
+    "R. E. Nisbett",
+    "Richard Nisbett"
+   ],
+   "skos:definition": "American social psychologist at the University of Michigan whose work showed that people often cannot report the real causes of their judgments, that abstract statistical rules can be taught and transfer to everyday problems, and that habits of reasoning differ between cultures.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Richard E. Nisbett",
+   "skos:related": [
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:fundamental-attribution-error"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:introspection-illusion"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    }
+   ]
+  },
+  {
    "@id": "ct:richard-whately",
    "@type": "cto:Person",
    "cto:authored": [
@@ -16843,6 +16923,76 @@
    "dcterms:title": "2015 Letter to Shareholders (Exhibit 99.1 to Form 8-K)",
    "schema:url": {
     "@id": "https://sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "University of Michigan, Department of Psychology (personal faculty page, 2002)",
+   "dcterms:title": "Brief Biography for Richard E. Nisbett",
+   "schema:url": {
+    "@id": "https://public.websites.umich.edu/~nisbett/bio.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Psychological Review 84(3), 231-259 (Nisbett & Wilson, 1977), author copy hosted at Princeton University",
+   "dcterms:title": "Telling more than we can know: Verbal reports on mental processes",
+   "schema:url": {
+    "@id": "https://web.math.princeton.edu/~sswang/literature_general_unsorted/Nisbett-Wilson-PsychologicalReview1977.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Cognitive Psychology 18(3), 253-292 (Fong, Krantz & Nisbett, 1986), University of Michigan Deep Blue copy",
+   "dcterms:title": "The effects of statistical training on thinking about everyday problems",
+   "schema:url": {
+    "@id": "https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26118/0000194.pdf;sequence=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Psychological Review 108(2), 291-310 (Nisbett, Peng, Choi & Norenzayan, 2001), author copy",
+   "dcterms:title": "Culture and systems of thought: Holistic versus analytic cognition",
+   "schema:url": {
+    "@id": "https://public.websites.umich.edu/~nisbett/images/cultureThought.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Behavioral and Brain Sciences 37(1), 1-19 (Newell & Shanks, 2014), doi:10.1017/S0140525X12003214, UCL Discovery record",
+   "dcterms:title": "Unconscious influences on decision making: A critical review",
+   "schema:url": {
+    "@id": "https://discovery.ucl.ac.uk/id/eprint/1419217/"
    }
   },
   {

@@ -7560,6 +7560,90 @@
   ]
  },
  {
+  "id": "ct:richard-nisbett",
+  "title": "Richard E. Nisbett",
+  "aliases": [
+   "Richard Nisbett",
+   "Nisbett",
+   "R. E. Nisbett"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/richard-nisbett.md",
+  "created": "2026-11-07",
+  "summary": "American social psychologist at the University of Michigan whose work showed that people often cannot report the real causes of their judgments, that abstract statistical rules can be taught and transfer to everyday problems, and that habits of reasoning differ between cultures.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fundamental-attribution-error"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:introspection-illusion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:statistical-reasoning-training",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:telling-more-than-we-can-know",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:holistic-versus-analytic-cognition",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:newell-shanks-2014-unconscious-influences-review",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://public.websites.umich.edu/~nisbett/bio.html",
+   "https://web.math.princeton.edu/~sswang/literature_general_unsorted/Nisbett-Wilson-PsychologicalReview1977.pdf",
+   "https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26118/0000194.pdf;sequence=1",
+   "https://public.websites.umich.edu/~nisbett/images/cultureThought.pdf",
+   "https://discovery.ucl.ac.uk/id/eprint/1419217/"
+  ]
+ },
+ {
   "id": "ct:richard-whately",
   "title": "Richard Whately",
   "aliases": [
