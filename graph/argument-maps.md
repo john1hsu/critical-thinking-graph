@@ -56,6 +56,17 @@ flowchart TD
   o1["Only about 1 in 1,000 accounts is compromised, so most flags are false alarms and the real probability is under 5%."] -. attacks .-> ra
 ```
 
+## Begging the question (`ct:begging-the-question`)
+
+```mermaid
+flowchart TD
+  p1["Our vendor's uptime reports are accurate."] --> ra{{"fallacious"}}
+  p2["We know the reports are accurate because the vendor's own audit, which relies on those same uptime logs, says so."] --> ra{{"fallacious"}}
+  ra --> c["So the vendor met its 99.9% uptime commitment and the service credit claim should be rejected."]
+  o1["The audit draws on the very logs whose accuracy is in dispute, so it cannot independently confirm them."] -. attacks .-> ra
+  o2["Independent monitoring data or customer incident tickets would supply a reason the doubting party could accept."] -. attacks .-> ra
+```
+
 ## Conjunction fallacy (`ct:conjunction-fallacy`)
 
 ```mermaid

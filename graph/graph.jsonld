@@ -1276,6 +1276,103 @@
    ]
   },
   {
+   "@id": "ct:begging-the-question",
+   "@type": "cto:InformalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:inference-to-the-best-explanation"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map"
+   },
+   "cto:file": "articles/informal-fallacies/begging-the-question.md",
+   "cto:formalizedBy": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s5"
+    }
+   ],
+   "rdfs:label": "Begging the question",
+   "skos:altLabel": [
+    "assuming the conclusion",
+    "circular argument",
+    "circular reasoning",
+    "circulus in probando",
+    "petitio principii"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of offering, as support for a conclusion, premises that already assume that conclusion, so the argument may be valid yet gives a doubter no independent reason to accept it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Begging the question",
+   "skos:related": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:prior-analytics"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:belief-bias",
    "@type": "cto:CognitiveBias",
    "cto:amplifiedBy": {
@@ -9806,6 +9903,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:begging-the-question"
+   },
+   "rdfs:label": "If I set the conclusion aside, is there any reason left for believing the premises?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:begging-the-question"
+   },
+   "rdfs:label": "Would someone who doubts the conclusion already accept each premise, or only someone who agrees?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:begging-the-question"
+   },
+   "rdfs:label": "Does a key term or label in the premises quietly carry the conclusion inside it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:begging-the-question"
+   },
+   "rdfs:label": "Traced step by step, does the chain of support loop back to the claim it is meant to prove?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:begging-the-question"
+   },
+   "rdfs:label": "Is this really an argument meant to persuade, or an explanation or definition where a loop is harmless?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:begging-the-question"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the vendor met its 99.9% uptime commitment and the service credit claim should be rejected."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The audit draws on the very logs whose accuracy is in dispute, so it cannot independently confirm them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Independent monitoring data or customer incident tickets would supply a reason the doubting party could accept."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Our vendor's uptime reports are accurate."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "We know the reports are accurate because the vendor's own audit, which relies on those same uptime logs, says so."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -11841,6 +12049,76 @@
    "dcterms:title": "Why Can Only 24% Solve Bayesian Reasoning Problems in Natural Frequencies: Frequency Phobia in Spite of Probability Blindness",
    "schema:url": {
     "@id": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Informal Logic 8(1) (Basu, 1986)",
+   "dcterms:title": "A Question of Begging",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2677.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Synthese 152(2), 237-284 (Walton, 2006)",
+   "dcterms:title": "Epistemic and Dialectical Models of Begging the Question",
+   "schema:url": {
+    "@id": "https://dc2.philarchive.org/rec/WALEAD-5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Informal Logic 26(1), 1-24 (Hahn & Oaksford, 2006)",
+   "dcterms:title": "A Normative Theory of Argument Strength",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-428.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Introduction to Logic, philosophy.lander.edu (Lander University)",
+   "dcterms:title": "Petitio Principii (Begging the Question or Circular Argument)",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/circular.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "PHL 4 course handout, California State University, Sacramento",
+   "dcterms:title": "Begging the Question",
+   "schema:url": {
+    "@id": "https://www.csus.edu/indiv/m/mayesgr/phl4/handouts/phl4begques.htm"
    }
   },
   {

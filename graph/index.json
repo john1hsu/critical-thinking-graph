@@ -1323,6 +1323,112 @@
   ]
  },
  {
+  "id": "ct:begging-the-question",
+  "title": "Begging the question",
+  "aliases": [
+   "petitio principii",
+   "circular argument",
+   "circular reasoning",
+   "circulus in probando",
+   "assuming the conclusion"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/begging-the-question.md",
+  "created": "2026-11-07",
+  "summary": "The fallacy of offering, as support for a conclusion, premises that already assume that conclusion, so the argument may be valid yet gives a doubter no independent reason to accept it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:charles-hamblin"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:ignoratio-elenchi",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inference-to-the-best-explanation",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:bayesian-reasoning",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "If I set the conclusion aside, is there any reason left for believing the premises?",
+   "Would someone who doubts the conclusion already accept each premise, or only someone who agrees?",
+   "Does a key term or label in the premises quietly carry the conclusion inside it?",
+   "Traced step by step, does the chain of support loop back to the claim it is meant to prove?",
+   "Is this really an argument meant to persuade, or an explanation or definition where a loop is harmless?"
+  ],
+  "source_urls": [
+   "https://distantreader.org/stacks/journals/il/il-2677.pdf",
+   "https://dc2.philarchive.org/rec/WALEAD-5",
+   "https://distantreader.org/stacks/journals/il/il-428.pdf",
+   "https://philosophy.lander.edu/logic/circular.html",
+   "https://www.csus.edu/indiv/m/mayesgr/phl4/handouts/phl4begques.htm"
+  ]
+ },
+ {
   "id": "ct:belief-bias",
   "title": "Belief bias",
   "aliases": [
