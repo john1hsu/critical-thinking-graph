@@ -102,7 +102,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:existential-fallacy` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:logical-necessity-instructions` | cto:Technique |
-| `ct:misinformation-and-disinformation` | cto:Phenomenon |
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:primary-and-secondary-sources` | cto:Concept |

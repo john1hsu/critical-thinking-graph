@@ -4110,6 +4110,92 @@
    ]
   },
   {
+   "@id": "ct:information-disorder-report",
+   "@type": "cto:Work",
+   "cto:appliedIn": {
+    "@id": "ct:journalism-education"
+   },
+   "cto:authoredBy": [
+    {
+     "@id": "ct:claire-wardle"
+    },
+    {
+     "@id": "ct:hossein-derakhshan"
+    }
+   ],
+   "cto:challengedBy": {
+    "@id": "ct:hayward-2024-problem-of-disinformation"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/evidence-and-information-literacy/information-disorder-report.md",
+   "cto:influencedBy": {
+    "@id": "ct:james-w-carey"
+   },
+   "cto:introduces": [
+    {
+     "@id": "ct:information-disorder"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:misinformation-and-disinformation"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s4"
+    }
+   ],
+   "rdfs:label": "Information Disorder: Toward an Interdisciplinary Framework",
+   "skos:altLabel": [
+    "Council of Europe information disorder report",
+    "Information Disorder report",
+    "Information Disorder: Toward an interdisciplinary framework for research and policymaking",
+    "Wardle and Derakhshan report"
+   ],
+   "skos:definition": "Claire Wardle and Hossein Derakhshan's 2017 report for the Council of Europe, which replaced the vague label \"fake news\" with a framework of three kinds of information disorder (mis-, dis- and malinformation), three elements (agent, message, interpreter) and three phases (creation, production, distribution).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Information Disorder: Toward an Interdisciplinary Framework",
+   "skos:related": [
+    {
+     "@id": "ct:information-disorder"
+    },
+    {
+     "@id": "ct:information-literacy"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    },
+    {
+     "@id": "ct:prebunking"
+    },
+    {
+     "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
    "@id": "ct:james-frederick-ferrier",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -13583,6 +13669,62 @@
    "dcterms:title": "Informal Logic: A 'Canadian' Approach to Argument",
    "schema:url": {
     "@id": "https://philarchive.org/archive/PUPILA"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Council of Europe report DGI(2017)09 (Claire Wardle & Hossein Derakhshan, October 2017), full text hosted by the Shorenstein Center, Harvard Kennedy School",
+   "dcterms:title": "Information Disorder: Toward an interdisciplinary framework for research and policymaking",
+   "schema:url": {
+    "@id": "https://shorensteincenter.org/?p=10550"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Social Science Research Council, MediaWell project",
+   "dcterms:title": "Defining Disinformation (MediaWell research review)",
+   "schema:url": {
+    "@id": "https://mediawell.ssrc.org/research-reviews/defining-disinformation/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Social Epistemology (Tim Hayward, published online 20 May 2024), doi:10.1080/02691728.2024.2346127, Taylor & Francis",
+   "dcterms:title": "The Problem of Disinformation: A Critical Approach",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/full/10.1080/02691728.2024.2346127"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "intergovernmental",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "UNESCO (eds. Cherilyn Ireton & Julie Posetti); Module 2 by Claire Wardle & Hossein Derakhshan",
+   "dcterms:title": "Journalism, 'Fake News' and Disinformation: A Handbook for Journalism Education and Training (modules)",
+   "schema:url": {
+    "@id": "https://en.unesco.org/fightfakenews/modules"
    }
   },
   {

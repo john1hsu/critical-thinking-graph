@@ -4353,6 +4353,102 @@
   ]
  },
  {
+  "id": "ct:information-disorder-report",
+  "title": "Information Disorder: Toward an Interdisciplinary Framework",
+  "aliases": [
+   "Information Disorder report",
+   "Wardle and Derakhshan report",
+   "Information Disorder: Toward an interdisciplinary framework for research and policymaking",
+   "Council of Europe information disorder report"
+  ],
+  "type": "Work",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/evidence-and-information-literacy/information-disorder-report.md",
+  "created": "2026-11-07",
+  "summary": "Claire Wardle and Hossein Derakhshan's 2017 report for the Council of Europe, which replaced the vague label \"fake news\" with a framework of three kinds of information disorder (mis-, dis- and malinformation), three elements (agent, message, interpreter) and three phases (creation, production, distribution).",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:information-disorder"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:information-literacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:misinformation-and-disinformation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:information-disorder",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:claire-wardle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:hossein-derakhshan",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:james-w-carey",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:journalism-education",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:hayward-2024-problem-of-disinformation",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://shorensteincenter.org/?p=10550",
+   "https://mediawell.ssrc.org/research-reviews/defining-disinformation/",
+   "https://informahealthcare.com/doi/full/10.1080/02691728.2024.2346127",
+   "https://en.unesco.org/fightfakenews/modules"
+  ]
+ },
+ {
   "id": "ct:james-frederick-ferrier",
   "title": "James Frederick Ferrier",
   "aliases": [

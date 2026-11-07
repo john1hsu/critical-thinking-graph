@@ -12,7 +12,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.83 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
 | 2.75 | `ct:affirming-a-disjunct` | `ct:deductive-reasoning` | `ct:affirming-the-consequent`, `ct:mental-model-theory`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.64 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
-| 2.62 | `ct:misinformation-and-disinformation` | `ct:primary-and-secondary-sources` | `ct:information-literacy`, `ct:lateral-reading`, `ct:sift-method`, `ct:source-credibility` |
 | 2.54 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.52 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:validity` |
 | 2.48 | `ct:inductive-reasoning` | `ct:karl-popper` | `ct:david-hume`, `ct:problem-of-induction`, `ct:william-whewell` |
@@ -29,3 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.21 | `ct:port-royal-logic` | `ct:venn-diagram-test` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:illicit-major`, `ct:rules-of-the-categorical-syllogism`, `ct:syllogism` |
 | 2.18 | `ct:sophistical-refutations` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:ignoratio-elenchi`, `ct:informal-fallacy`, `ct:pragma-dialectics` |
 | 2.17 | `ct:port-royal-logic` | `ct:validity` | `ct:argument`, `ct:false-dilemma`, `ct:illicit-major`, `ct:informal-fallacy`, `ct:rules-of-the-categorical-syllogism` |
+| 2.17 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |
