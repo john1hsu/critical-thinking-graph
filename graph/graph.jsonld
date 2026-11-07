@@ -1440,6 +1440,97 @@
    ]
   },
   {
+   "@id": "ct:bounded-rationality",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": {
+    "@id": "ct:expected-utility-theory"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/heuristics-and-dual-process/bounded-rationality.md",
+   "cto:introducedBy": {
+    "@id": "ct:herbert-simon"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:a-behavioral-model-of-rational-choice"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": [
+    {
+     "@id": "ct:behavioral-economics"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5"
+    }
+   ],
+   "rdfs:label": "Bounded rationality",
+   "skos:altLabel": [
+    "limited rationality",
+    "procedural rationality"
+   ],
+   "skos:broader": {
+    "@id": "ct:rationality"
+   },
+   "skos:definition": "The idea, introduced by Herbert Simon, that real decision makers reason within limits of information, time and computational capacity, so their rationality is better described by good-enough search and stopping rules than by the global optimization of the idealised \"economic man\".",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Bounded rationality",
+   "skos:related": [
+    {
+     "@id": "ct:attribute-substitution"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:ecological-rationality"
+    },
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    },
+    {
+     "@id": "ct:satisficing"
+    }
+   ]
+  },
+  {
    "@id": "ct:burden-of-proof",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -11838,6 +11929,76 @@
    "dcterms:title": "The Bias Blind Spot: Perceptions of Bias in Self Versus Others (replication record)",
    "schema:url": {
     "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/0146167202286008/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Wheeler, 2018; Winter 2018 edition)",
+   "dcterms:title": "Bounded Rationality",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/Win2018/entries/bounded-rationality/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Quarterly Journal of Economics 69(1), 99-118 (Simon, 1955), copy hosted on a course reading list",
+   "dcterms:title": "A behavioral model of rational choice",
+   "schema:url": {
+    "@id": "https://dwulff.github.io/_Goodchoices/Literature/Simon1955ABehavioralModelOfRationalChoice.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Journal of Economic Psychology 24, 143-165 (Todd & Gigerenzer, 2003), Max Planck Society repository",
+   "dcterms:title": "Bounding rationality to the world",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2101564_5/component/file_2101563/PT_Bounding_2003.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "American Economic Review 93(5), 1449-1475 (Kahneman, 2003), author's Princeton page",
+   "dcterms:title": "Maps of bounded rationality: Psychology for behavioral economics",
+   "schema:url": {
+    "@id": "https://kahneman.scholar.princeton.edu/document/8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (Tyson)",
+   "dcterms:title": "Bounded rationality",
+   "schema:url": {
+    "@id": "https://britannica.com/topic/bounded-rationality"
    }
   },
   {

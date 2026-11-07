@@ -67,6 +67,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
+| `ct:bounded-rationality` | mixed |  |
 | `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
 | `ct:conjunction-fallacy` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:consider-the-opposite` | mixed |  |
@@ -83,9 +84,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
 | `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
 | `ct:premortem` | mixed |  |
-| `ct:representativeness-heuristic` | mixed | `ct:gerd-gigerenzer` |
 
-…and 5 more.
+…and 6 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

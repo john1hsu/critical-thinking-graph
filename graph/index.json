@@ -1491,6 +1491,105 @@
   ]
  },
  {
+  "id": "ct:bounded-rationality",
+  "title": "Bounded rationality",
+  "aliases": [
+   "limited rationality",
+   "procedural rationality"
+  ],
+  "type": "Concept",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/bounded-rationality.md",
+  "created": "2026-11-07",
+  "summary": "The idea, introduced by Herbert Simon, that real decision makers reason within limits of information, time and computational capacity, so their rationality is better described by good-enough search and stopping rules than by the global optimization of the idealised \"economic man\".",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:satisficing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ecological-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gerd-gigerenzer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:attribute-substitution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:herbert-simon",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:a-behavioral-model-of-rational-choice",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:expected-utility-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:behavioral-economics",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/Win2018/entries/bounded-rationality/",
+   "https://dwulff.github.io/_Goodchoices/Literature/Simon1955ABehavioralModelOfRationalChoice.pdf",
+   "https://pure.mpg.de/pubman/item/item_2101564_5/component/file_2101563/PT_Bounding_2003.pdf",
+   "https://kahneman.scholar.princeton.edu/document/8",
+   "https://britannica.com/topic/bounded-rationality"
+  ]
+ },
+ {
   "id": "ct:burden-of-proof",
   "title": "Burden of proof",
   "aliases": [

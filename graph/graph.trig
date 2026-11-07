@@ -454,6 +454,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/heuristics-and-dual-process/bounded-rationality.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/heuristics-and-dual-process/cognitive-psychology.md" .
@@ -4906,6 +4914,72 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s6> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2000/01/rdf-schema#label> "Bounded rationality" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#altLabel> "limited rationality" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#altLabel> "procedural rationality" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/rationality> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#definition> "The idea, introduced by Herbert Simon, that real decision makers reason within limits of information, time and computational capacity, so their rationality is better described by good-enough search and stopping rules than by the global optimization of the idealised \"economic man\"." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bounded rationality" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/satisficing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "heuristics-and-dual-process" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/heuristics-and-dual-process/bounded-rationality.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/a-behavioral-model-of-rational-choice> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Wheeler, 2018; Winter 2018 edition)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1> <http://purl.org/dc/terms/title> "Bounded Rationality" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/Win2018/entries/bounded-rationality/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2> <http://purl.org/dc/terms/publisher> "Quarterly Journal of Economics 69(1), 99-118 (Simon, 1955), copy hosted on a course reading list" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2> <http://purl.org/dc/terms/title> "A behavioral model of rational choice" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s2> <https://schema.org/url> <https://dwulff.github.io/_Goodchoices/Literature/Simon1955ABehavioralModelOfRationalChoice.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3> <http://purl.org/dc/terms/publisher> "Journal of Economic Psychology 24, 143-165 (Todd & Gigerenzer, 2003), Max Planck Society repository" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3> <http://purl.org/dc/terms/title> "Bounding rationality to the world" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s3> <https://schema.org/url> <https://pure.mpg.de/pubman/item/item_2101564_5/component/file_2101563/PT_Bounding_2003.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4> <http://purl.org/dc/terms/publisher> "American Economic Review 93(5), 1449-1475 (Kahneman, 2003), author's Princeton page" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4> <http://purl.org/dc/terms/title> "Maps of bounded rationality: Psychology for behavioral economics" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s4> <https://schema.org/url> <https://kahneman.scholar.princeton.edu/document/8> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica (Tyson)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> <http://purl.org/dc/terms/title> "Bounded rationality" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> <https://schema.org/url> <https://britannica.com/topic/bounded-rationality> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
@@ -8617,6 +8691,9 @@
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/inferred> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/a-behavioral-model-of-rational-choice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/a-behavioral-model-of-rational-choice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/a-behavioral-model-of-rational-choice> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-counterexample-to-modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-counterexample-to-modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -8835,6 +8912,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/artis-logicae-compendium> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
   <https://github.com/john1hsu/critical-thinking-graph/id/artner-girven-bruce-2016-rand-sat-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/artner-girven-bruce-2016-rand-sat-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
@@ -8883,6 +8961,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
   <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/behaviorism> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -8915,10 +8996,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/bickel-1975-berkeley-admissions-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bickel-1975-berkeley-admissions-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/boethius> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bradford-hill-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/breakstone-2021-online-course-lateral-reading-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/breakstone-2021-online-course-lateral-reading-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
@@ -9125,6 +9206,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-movement> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
@@ -9280,6 +9362,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
@@ -9294,6 +9377,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ease-of-retrieval-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ease-of-retrieval-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/edmund-gettier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/edmund-gettier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/edmund-gettier> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> .
@@ -9356,6 +9440,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/explanatory-virtues> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
@@ -9391,6 +9476,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
@@ -9488,7 +9574,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/henk-schmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/henk-schmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/henk-schmidt> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hertwig-gigerenzer-1999-conjunction-fallacy-revisited> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hertwig-gigerenzer-1999-conjunction-fallacy-revisited> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristic-analytic-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> .
@@ -9499,8 +9588,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
@@ -10119,6 +10210,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospective-hindsight> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
@@ -10160,6 +10252,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rationality> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rationality> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rationality> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
@@ -10242,6 +10337,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/satisficing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/schwenk-1990-devils-advocacy-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
