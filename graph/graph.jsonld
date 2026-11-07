@@ -1362,6 +1362,98 @@
    ]
   },
   {
+   "@id": "ct:charles-hamblin",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:hamblins-fallacies"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/charles-hamblin.md",
+   "cto:influencedBy": {
+    "@id": "ct:ludwig-wittgenstein"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:commitment-store"
+    },
+    {
+     "@id": "ct:formal-dialectic"
+    },
+    {
+     "@id": "ct:standard-treatment-of-fallacies"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:informal-fallacy"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s5"
+    }
+   ],
+   "rdfs:label": "Charles Hamblin",
+   "skos:altLabel": [
+    "C. L. Hamblin",
+    "Charles Leonard Hamblin",
+    "Hamblin"
+   ],
+   "skos:definition": "Australian philosopher and computer pioneer (1922-1985) whose book Fallacies (1970) attacked the textbook \"standard treatment\" of fallacies and proposed formal dialectic, rule-governed dialogue games with commitment stores, as the proper framework for studying them, helping launch modern informal logic and formal argumentation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Charles Hamblin",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    },
+    {
+     "@id": "ct:tu-quoque"
+    }
+   ]
+  },
+  {
    "@id": "ct:christiaan-huygens",
    "@type": "cto:Person",
    "cto:authored": {
@@ -10133,6 +10225,76 @@
    "dcterms:title": "Conceptualizing Fallacies: The Informal Logic and Pragma-Dialectic Approaches to the Argumentum ad Ignorantiam",
    "schema:url": {
     "@id": "https://rozenbergquarterly.com/issa-proceedings-2002-conceptualizing-fallacies-the-informal-logic-and-pragma-dialectic-approaches-to-the-argumentum-ad-ignorantiam/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "McMaster University, Department of Philosophy (David Hitchcock's course pages)",
+   "dcterms:title": "Notes on C. L. Hamblin, Fallacies (graduate seminar study notes, after McBurney's intellectual biography)",
+   "schema:url": {
+    "@id": "https://humanities.mcmaster.ca/~hitchckd/hamblin.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Informal Logic 31(4), 305-317 (Johnson, 2011), full text via Distant Reader",
+   "dcterms:title": "The Coherence of Hamblin's Fallacies",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-3345.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Informal Logic 31(4), i-iv (Walton and Johnson, 2011), full text via Distant Reader",
+   "dcterms:title": "Editors' Introduction: Special Issue on Charles Hamblin",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-3502.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Dictionnaire de l'argumentation 2021, ICAR laboratory, CNRS (Plantin)",
+   "dcterms:title": "Fallacies 1: Contemporary approaches",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/?p=4960"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "OSSA Conference Archive, OSSA 4, University of Windsor (Hitchcock, McBurney and Parsons, 2001)",
+   "dcterms:title": "A Framework for Deliberation Dialogues",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/72768372.pdf"
    }
   },
   {

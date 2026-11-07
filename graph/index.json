@@ -1422,6 +1422,106 @@
   ]
  },
  {
+  "id": "ct:charles-hamblin",
+  "title": "Charles Hamblin",
+  "aliases": [
+   "C. L. Hamblin",
+   "Charles Leonard Hamblin",
+   "Hamblin"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/charles-hamblin.md",
+  "created": "2026-11-07",
+  "summary": "Australian philosopher and computer pioneer (1922-1985) whose book Fallacies (1970) attacked the textbook \"standard treatment\" of fallacies and proposed formal dialectic, rule-governed dialogue games with commitment stores, as the proper framework for studying them, helping launch modern informal logic and formal argumentation.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:tu-quoque"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:hamblins-fallacies",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:formal-dialectic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:standard-treatment-of-fallacies",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:commitment-store",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:ludwig-wittgenstein",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://humanities.mcmaster.ca/~hitchckd/hamblin.htm",
+   "https://distantreader.org/stacks/journals/il/il-3345.pdf",
+   "https://distantreader.org/stacks/journals/il/il-3502.pdf",
+   "https://icar.cnrs.fr/dicoplantin/?p=4960",
+   "https://core.ac.uk/download/72768372.pdf"
+  ]
+ },
+ {
   "id": "ct:christiaan-huygens",
   "title": "Christiaan Huygens",
   "aliases": [
