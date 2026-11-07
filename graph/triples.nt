@@ -6467,6 +6467,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://schema.org/url> <https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> <http://purl.org/dc/terms/publisher> "American Psychologist 63(4), 270-271 (Jost & Banaji, 2008), doi:10.1037/0003-066X.63.4.270, copy hosted by Harvard University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> <http://purl.org/dc/terms/title> "William James McGuire (1925-2007)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> <https://schema.org/url> <https://banaji.sites.fas.harvard.edu/research/publications/articles/2008_Jost_AP.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s2> <http://purl.org/dc/terms/publisher> "Sociometry, 184-197 (McGuire, 1961), archived copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s2> <http://purl.org/dc/terms/title> "The Effectiveness of Supportive and Refutational Defenses in Immunizing and Restoring Beliefs Against Persuasion" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s2> <https://schema.org/url> <https://gwern.net/doc/psychology/cognitive-bias/1961-mcguire.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s3> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 7 (Compton, Jackson & Dimmock, 2016), doi:10.3389/fpsyg.2016.00122, copy hosted by James Cook University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s3> <http://purl.org/dc/terms/title> "Persuading Others to Avoid Persuasion: Inoculation Theory and Resistant Health Attitudes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s3> <https://schema.org/url> <https://researchonline.jcu.edu.au/61565/1/61565_dimmock_2016.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s4> <http://purl.org/dc/terms/publisher> "Personality and Social Psychology Review 8(2), 173-182 (2004), doi:10.1207/s15327957pspr0802_11, PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s4> <http://purl.org/dc/terms/title> "A perspectivist approach to theory construction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s4> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/15223517/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s5> <http://purl.org/dc/terms/publisher> "Mahzarin Banaji's research pages, Harvard University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s5> <http://purl.org/dc/terms/title> "William J. McGuire: tribute and obituary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s5> <https://schema.org/url> <https://banaji.sites.fas.harvard.edu/research/speaking/tributes/mcguire.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Snyder, rev. 2022)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s1> <http://purl.org/dc/terms/title> "William Whewell" .
@@ -7024,6 +7054,33 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2000/01/rdf-schema#label> "William J. McGuire" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#altLabel> "W. J. McGuire" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#altLabel> "William James McGuire" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#definition> "American social psychologist (1925-2007), long at Yale, who in the early 1960s proposed inoculation theory: beliefs can be made resistant to persuasion by exposing people to weakened attacks and refuting them in advance, the idea behind today's prebunking of misinformation." .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#prefLabel> "William J. McGuire" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/carl-hovland> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inoculation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/william-j-mcguire.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/carl-hovland> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/inoculation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2000/01/rdf-schema#label> "William Whewell" .

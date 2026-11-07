@@ -9045,6 +9045,79 @@
   ]
  },
  {
+  "id": "ct:william-j-mcguire",
+  "title": "William J. McGuire",
+  "aliases": [
+   "William James McGuire",
+   "W. J. McGuire"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/william-j-mcguire.md",
+  "created": "2026-11-07",
+  "summary": "American social psychologist (1925-2007), long at Yale, who in the early 1960s proposed inoculation theory: beliefs can be made resistant to persuasion by exposing people to weakened attacks and refuting them in advance, the idea behind today's prebunking of misinformation.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inoculation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:carl-hovland"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:social-psychology"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:inoculation-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:prebunking",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:carl-hovland",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://banaji.sites.fas.harvard.edu/research/publications/articles/2008_Jost_AP.pdf",
+   "https://gwern.net/doc/psychology/cognitive-bias/1961-mcguire.pdf",
+   "https://researchonline.jcu.edu.au/61565/1/61565_dimmock_2016.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/15223517/",
+   "https://banaji.sites.fas.harvard.edu/research/speaking/tributes/mcguire.html"
+  ]
+ },
+ {
   "id": "ct:william-whewell",
   "title": "William Whewell",
   "aliases": [

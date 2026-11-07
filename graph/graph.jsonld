@@ -8597,6 +8597,79 @@
    ]
   },
   {
+   "@id": "ct:william-j-mcguire",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/william-j-mcguire.md",
+   "cto:influencedBy": {
+    "@id": "ct:carl-hovland"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:inoculation-theory"
+    },
+    {
+     "@id": "ct:prebunking"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s5"
+    }
+   ],
+   "rdfs:label": "William J. McGuire",
+   "skos:altLabel": [
+    "W. J. McGuire",
+    "William James McGuire"
+   ],
+   "skos:definition": "American social psychologist (1925-2007), long at Yale, who in the early 1960s proposed inoculation theory: beliefs can be made resistant to persuasion by exposing people to weakened attacks and refuting them in advance, the idea behind today's prebunking of misinformation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "William J. McGuire",
+   "skos:related": [
+    {
+     "@id": "ct:carl-hovland"
+    },
+    {
+     "@id": "ct:inoculation-theory"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    },
+    {
+     "@id": "ct:prebunking"
+    },
+    {
+     "@id": "ct:social-psychology"
+    },
+    {
+     "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
    "@id": "ct:william-whewell",
    "@type": "cto:Person",
    "cto:authored": [
@@ -17486,6 +17559,76 @@
    "dcterms:title": "How Diagrams Can Support Syllogistic Reasoning: An Experimental Study",
    "schema:url": {
     "@id": "https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "American Psychologist 63(4), 270-271 (Jost & Banaji, 2008), doi:10.1037/0003-066X.63.4.270, copy hosted by Harvard University",
+   "dcterms:title": "William James McGuire (1925-2007)",
+   "schema:url": {
+    "@id": "https://banaji.sites.fas.harvard.edu/research/publications/articles/2008_Jost_AP.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Sociometry, 184-197 (McGuire, 1961), archived copy",
+   "dcterms:title": "The Effectiveness of Supportive and Refutational Defenses in Immunizing and Restoring Beliefs Against Persuasion",
+   "schema:url": {
+    "@id": "https://gwern.net/doc/psychology/cognitive-bias/1961-mcguire.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 7 (Compton, Jackson & Dimmock, 2016), doi:10.3389/fpsyg.2016.00122, copy hosted by James Cook University",
+   "dcterms:title": "Persuading Others to Avoid Persuasion: Inoculation Theory and Resistant Health Attitudes",
+   "schema:url": {
+    "@id": "https://researchonline.jcu.edu.au/61565/1/61565_dimmock_2016.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Review 8(2), 173-182 (2004), doi:10.1207/s15327957pspr0802_11, PubMed record",
+   "dcterms:title": "A perspectivist approach to theory construction",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/15223517/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Mahzarin Banaji's research pages, Harvard University",
+   "dcterms:title": "William J. McGuire: tribute and obituary",
+   "schema:url": {
+    "@id": "https://banaji.sites.fas.harvard.edu/research/speaking/tributes/mcguire.html"
    }
   },
   {
