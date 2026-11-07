@@ -121,6 +121,16 @@ flowchart TD
   o2["Satisfaction might be protected by fixing the product issues that generate most tickets, which neither option addresses."] -. attacks .-> ra
 ```
 
+## Gambler's fallacy (`ct:gamblers-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["The quality team's random spot-check has passed the last seven shipments in a row."] --> ra{{"fallacious"}}
+  p2["Inspections fail about one time in ten over the long run, and each shipment is checked independently."] --> ra{{"fallacious"}}
+  ra --> c["The next shipment is now very likely to fail, so we should flag it before it is even inspected."]
+  o1["If each check is independent, the chance the next one fails is still about one in ten; seven passes do not create a debt that the next shipment must repay."] -. attacks .-> ra
+```
+
 ## Illicit major (`ct:illicit-major`)
 
 ```mermaid

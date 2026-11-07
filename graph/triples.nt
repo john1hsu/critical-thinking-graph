@@ -1712,6 +1712,72 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
 <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Are these events actually independent, or is there a real mechanism linking one outcome to the next?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "If I had walked in just now and not seen the streak, would my estimate for the next outcome be any different?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Am I expecting a short run to look like the long-run average?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is my judgment on this case being pulled by how I decided the last few cases rather than by its own merits?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The next shipment is now very likely to fail, so we should flag it before it is even inspected." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "If each check is independent, the chance the next one fails is still about one in ten; seven passes do not create a debt that the next shipment must repay." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The quality team's random spot-check has passed the last seven shipments in a row." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Inspections fail about one time in ten over the long run, and each shipment is checked independently." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ProbabilisticFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2000/01/rdf-schema#label> "Gambler's fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "Monte Carlo fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of the maturity of chances" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "negative recency bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#definition> "The mistaken belief that, in a sequence of independent random events, an outcome becomes less likely after it has occurred several times in a row (or \"due\" after it has not), as if chance corrected itself in the short run." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gambler's fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/chen-moskowitz-shue-2016-sequential-decisions-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/croson-sundali-2005-roulette-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/gamblers-fallacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pierre-simon-laplace> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> .
 <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> <http://www.w3.org/2000/01/rdf-schema#label> "George Udny Yule" .
@@ -4942,6 +5008,54 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/falsifiability/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/scientific-underdetermination/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> <http://purl.org/dc/terms/publisher> "Journal of Risk and Uncertainty 30(3), 195-209 (Croson & Sundali, 2005), UC Berkeley Statistics course copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> <http://purl.org/dc/terms/title> "The Gambler's Fallacy and the Hot Hand: Empirical Data from Casinos" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> <https://schema.org/url> <https://www.stat.berkeley.edu/~aldous/157/Papers/croson.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s2> <http://purl.org/dc/terms/publisher> "NBER Working Paper 22026 (Chen, Moskowitz & Shue, 2016), published in The Quarterly Journal of Economics 131(3)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s2> <http://purl.org/dc/terms/title> "Decision-Making under the Gambler's Fallacy: Evidence from Asylum Judges, Loan Officers, and Baseball Umpires" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s2> <https://schema.org/url> <https://www.nber.org/papers/22026> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s3> <http://purl.org/dc/terms/publisher> "Judgment and Decision Making 4(5), 326-334 (Oppenheimer & Monin, 2009)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s3> <http://purl.org/dc/terms/title> "The retrospective gambler's fallacy: Unlikely events, constructing the past, and multiple universes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s3> <https://schema.org/url> <https://dlab.sauder.ubc.ca/sjdm/journal/9609/jdm9609.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s4> <http://purl.org/dc/terms/publisher> "Social Psychology 45(3), 142-152 (Klein et al., 2014), Penn State research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s4> <http://purl.org/dc/terms/title> "Investigating variation in replicability: A 'many labs' replication project" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s4> <https://schema.org/url> <https://pure.psu.edu/en/publications/investigating-variation-in-replicability-a-many-labs-replication-/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s5> <http://purl.org/dc/terms/publisher> "Judgment and Decision Making 1(1), 1-12 (Sundali & Croson, 2006)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s5> <http://purl.org/dc/terms/title> "Biases in casino betting: The hot hand and the gambler's fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s5> <https://schema.org/url> <https://dlab.sauder.ubc.ca/sjdm/journal/06001/jdm06001.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s6> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s6> <http://purl.org/dc/terms/publisher> "Department of Statistics, University of Warwick (Brettschneider)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s6> <http://purl.org/dc/terms/title> "Gambler's fallacy, hot hand and the law of small numbers (ST222 lecture notes)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s6> <https://schema.org/url> <https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/brettschneider/st222-resources-2017-18/st222_2016_week8_lec3.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s7> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s7> <http://purl.org/dc/terms/publisher> "Online Statistics Education, ch. 5.4 (David M. Lane, Rice University; XYZ Homework open edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s7> <http://purl.org/dc/terms/title> "Gambler's Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s7> <https://schema.org/url> <https://oer.xyzhomework.com/ebooks/html/online-statistics-education/ch05/5-4-gambler-s-fallacy.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> <http://purl.org/dc/terms/publisher> "Journal of Open Psychology Data (Klein et al., 2014), CORE copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> <http://purl.org/dc/terms/title> "Data from Investigating Variation in Replicability: A 'Many Labs' Replication Project" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> <https://schema.org/url> <https://core.ac.uk/download/420823721.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s1> <http://purl.org/dc/terms/publisher> "Oxford Dictionary of National Biography (Yates, rev. Yoshioka, 2004), reproduced by MacTutor History of Mathematics, University of St Andrews" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s1> <http://purl.org/dc/terms/title> "Yule, George Udny (1871-1951), statistician" .

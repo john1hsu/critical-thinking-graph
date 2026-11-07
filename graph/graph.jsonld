@@ -3595,6 +3595,103 @@
    ]
   },
   {
+   "@id": "ct:gamblers-fallacy",
+   "@type": "cto:ProbabilisticFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:hot-hand-fallacy"
+   },
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:chen-moskowitz-shue-2016-sequential-decisions-study"
+    },
+    {
+     "@id": "ct:croson-sundali-2005-roulette-study"
+    }
+   ],
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map"
+   },
+   "cto:explainedBy": [
+    {
+     "@id": "ct:law-of-small-numbers"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    }
+   ],
+   "cto:file": "articles/probabilistic-reasoning/gamblers-fallacy.md",
+   "cto:introducedBy": {
+    "@id": "ct:pierre-simon-laplace"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:many-labs-1-replication-project"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s7"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8"
+    }
+   ],
+   "rdfs:label": "Gambler's fallacy",
+   "skos:altLabel": [
+    "Monte Carlo fallacy",
+    "fallacy of the maturity of chances",
+    "negative recency bias"
+   ],
+   "skos:broader": {
+    "@id": "ct:probabilistic-fallacy"
+   },
+   "skos:definition": "The mistaken belief that, in a sequence of independent random events, an outcome becomes less likely after it has occurred several times in a row (or \"due\" after it has not), as if chance corrected itself in the short run.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Gambler's fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:conjunction-fallacy"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    }
+   ]
+  },
+  {
    "@id": "ct:george-udny-yule",
    "@type": "cto:Person",
    "cto:authored": {
@@ -10652,6 +10749,94 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:gamblers-fallacy"
+   },
+   "rdfs:label": "Are these events actually independent, or is there a real mechanism linking one outcome to the next?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:gamblers-fallacy"
+   },
+   "rdfs:label": "If I had walked in just now and not seen the streak, would my estimate for the next outcome be any different?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:gamblers-fallacy"
+   },
+   "rdfs:label": "Am I expecting a short run to look like the long-run average?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:gamblers-fallacy"
+   },
+   "rdfs:label": "Is my judgment on this case being pulled by how I decided the last few cases rather than by its own merits?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:gamblers-fallacy"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The next shipment is now very likely to fail, so we should flag it before it is even inspected."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If each check is independent, the chance the next one fails is still about one in ten; seven passes do not create a debt that the next shipment must repay."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The quality team's random spot-check has passed the last seven shipments in a row."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Inspections fail about one time in ten over the long run, and each shipment is checked independently."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -14209,6 +14394,118 @@
    "dcterms:title": "Underdetermination of Scientific Theory",
    "schema:url": {
     "@id": "https://plato.stanford.edu/entries/scientific-underdetermination/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Journal of Risk and Uncertainty 30(3), 195-209 (Croson & Sundali, 2005), UC Berkeley Statistics course copy",
+   "dcterms:title": "The Gambler's Fallacy and the Hot Hand: Empirical Data from Casinos",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/~aldous/157/Papers/croson.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "NBER Working Paper 22026 (Chen, Moskowitz & Shue, 2016), published in The Quarterly Journal of Economics 131(3)",
+   "dcterms:title": "Decision-Making under the Gambler's Fallacy: Evidence from Asylum Judges, Loan Officers, and Baseball Umpires",
+   "schema:url": {
+    "@id": "https://www.nber.org/papers/22026"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 4(5), 326-334 (Oppenheimer & Monin, 2009)",
+   "dcterms:title": "The retrospective gambler's fallacy: Unlikely events, constructing the past, and multiple universes",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/9609/jdm9609.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Social Psychology 45(3), 142-152 (Klein et al., 2014), Penn State research portal",
+   "dcterms:title": "Investigating variation in replicability: A 'many labs' replication project",
+   "schema:url": {
+    "@id": "https://pure.psu.edu/en/publications/investigating-variation-in-replicability-a-many-labs-replication-/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 1(1), 1-12 (Sundali & Croson, 2006)",
+   "dcterms:title": "Biases in casino betting: The hot hand and the gambler's fallacy",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/06001/jdm06001.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Department of Statistics, University of Warwick (Brettschneider)",
+   "dcterms:title": "Gambler's fallacy, hot hand and the law of small numbers (ST222 lecture notes)",
+   "schema:url": {
+    "@id": "https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/brettschneider/st222-resources-2017-18/st222_2016_week8_lec3.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Online Statistics Education, ch. 5.4 (David M. Lane, Rice University; XYZ Homework open edition)",
+   "dcterms:title": "Gambler's Fallacy",
+   "schema:url": {
+    "@id": "https://oer.xyzhomework.com/ebooks/html/online-statistics-education/ch05/5-4-gambler-s-fallacy.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Journal of Open Psychology Data (Klein et al., 2014), CORE copy",
+   "dcterms:title": "Data from Investigating Variation in Replicability: A 'Many Labs' Replication Project",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/420823721.pdf"
    }
   },
   {

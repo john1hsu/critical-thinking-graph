@@ -3782,6 +3782,108 @@
   ]
  },
  {
+  "id": "ct:gamblers-fallacy",
+  "title": "Gambler's fallacy",
+  "aliases": [
+   "Monte Carlo fallacy",
+   "fallacy of the maturity of chances",
+   "negative recency bias"
+  ],
+  "type": "ProbabilisticFallacy",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/probabilistic-reasoning/gamblers-fallacy.md",
+  "created": "2026-11-07",
+  "summary": "The mistaken belief that, in a sequence of independent random events, an outcome becomes less likely after it has occurred several times in a row (or \"due\" after it has not), as if chance corrected itself in the short run.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:probabilistic-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:representativeness-heuristic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:law-of-small-numbers",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:pierre-simon-laplace",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:hot-hand-fallacy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:croson-sundali-2005-roulette-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:chen-moskowitz-shue-2016-sequential-decisions-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:many-labs-1-replication-project",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Are these events actually independent, or is there a real mechanism linking one outcome to the next?",
+   "If I had walked in just now and not seen the streak, would my estimate for the next outcome be any different?",
+   "Am I expecting a short run to look like the long-run average?",
+   "Is my judgment on this case being pulled by how I decided the last few cases rather than by its own merits?"
+  ],
+  "source_urls": [
+   "https://www.stat.berkeley.edu/~aldous/157/Papers/croson.pdf",
+   "https://www.nber.org/papers/22026",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/9609/jdm9609.html",
+   "https://pure.psu.edu/en/publications/investigating-variation-in-replicability-a-many-labs-replication-/",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/06001/jdm06001.htm",
+   "https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/brettschneider/st222-resources-2017-18/st222_2016_week8_lec3.pdf",
+   "https://oer.xyzhomework.com/ebooks/html/online-statistics-education/ch05/5-4-gambler-s-fallacy.html",
+   "https://core.ac.uk/download/420823721.pdf"
+  ]
+ },
+ {
   "id": "ct:george-udny-yule",
   "title": "George Udny Yule",
   "aliases": [
