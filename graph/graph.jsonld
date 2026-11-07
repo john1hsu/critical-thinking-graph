@@ -6849,6 +6849,97 @@
    ]
   },
   {
+   "@id": "ct:rules-of-the-categorical-syllogism",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:venn-diagram-test"
+   },
+   "cto:detects": [
+    {
+     "@id": "ct:existential-fallacy"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    }
+   ],
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:distribution-of-terms"
+   },
+   "cto:file": "articles/formal-logic/rules-of-the-categorical-syllogism.md",
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5"
+    }
+   ],
+   "rdfs:label": "Rules of the categorical syllogism",
+   "skos:altLabel": [
+    "rule method for testing syllogisms",
+    "rules for valid syllogisms",
+    "syllogistic rules"
+   ],
+   "skos:broader": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "skos:definition": "A checklist test for categorical syllogisms: a standard-form syllogism is valid exactly when it satisfies a short set of rules about distribution, negative premises and quantity, and each broken rule names the formal fallacy committed, from the undistributed middle to the existential fallacy.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Rules of the categorical syllogism",
+   "skos:related": [
+    {
+     "@id": "ct:illicit-minor"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:port-royal-logic"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:validity"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:sift-method",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -15751,6 +15842,76 @@
    "dcterms:title": "Whately on Arguments Involving Authority",
    "schema:url": {
     "@id": "https://distantreader.org/stacks/journals/il/il-456.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "History and Philosophy of Logic (John N. Martin, 2012), author's copy, University of Cincinnati",
+   "dcterms:title": "Distributive Terms, Truth, and the Port Royal Logic",
+   "schema:url": {
+    "@id": "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Lagerlund, rev. 2026)",
+   "dcterms:title": "Medieval Theories of the Syllogism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/medieval-syllogism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "PHIL 240 Introduction to Logic, Texas A&M University",
+   "dcterms:title": "Rules for categorical syllogisms (lecture notes 6.5)",
+   "schema:url": {
+    "@id": "https://phil240.tamu.edu/LectureNotes/6.5.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Critical thinking course notes, Florida International University faculty pages",
+   "dcterms:title": "Categorical Syllogism, Venn Diagrams and Rules for Testing for Validity",
+   "schema:url": {
+    "@id": "https://faculty.fiu.edu/~harrisk/Notes/Critical%20Thinking/Categorical%20Syllogisms%20and%20Rules.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Philosophy Pages",
+   "dcterms:title": "Rules and Fallacies",
+   "schema:url": {
+    "@id": "https://mail.philosophypages.com/lg/e08b.htm"
    }
   },
   {

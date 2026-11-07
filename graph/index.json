@@ -7204,6 +7204,102 @@
   ]
  },
  {
+  "id": "ct:rules-of-the-categorical-syllogism",
+  "title": "Rules of the categorical syllogism",
+  "aliases": [
+   "syllogistic rules",
+   "rules for valid syllogisms",
+   "rule method for testing syllogisms"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/rules-of-the-categorical-syllogism.md",
+  "created": "2026-11-07",
+  "summary": "A checklist test for categorical syllogisms: a standard-form syllogism is valid exactly when it satisfies a short set of rules about distribution, negative premises and quantity, and each broken rule names the formal fallacy committed, from the undistributed middle to the existential fallacy.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:port-royal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-minor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:existential-fallacy",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:undistributed-middle",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:illicit-major",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:distribution-of-terms",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:venn-diagram-test",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf",
+   "https://plato.stanford.edu/ENTRIES/medieval-syllogism/",
+   "https://phil240.tamu.edu/LectureNotes/6.5.pdf",
+   "https://faculty.fiu.edu/~harrisk/Notes/Critical%20Thinking/Categorical%20Syllogisms%20and%20Rules.htm",
+   "https://mail.philosophypages.com/lg/e08b.htm"
+  ]
+ },
+ {
   "id": "ct:sift-method",
   "title": "SIFT",
   "aliases": [

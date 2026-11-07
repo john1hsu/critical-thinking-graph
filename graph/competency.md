@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:existential-fallacy` | cto:FormalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -21,6 +19,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:outside-view` | 3 | Base-rate neglect, Representativeness heuristic, planning-fallacy |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
+| `ct:rules-of-the-categorical-syllogism` | 3 | Existential fallacy, Illicit major, Undistributed middle |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Representativeness heuristic, insensitivity-to-sample-size |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
@@ -110,6 +109,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:primary-and-secondary-sources` | cto:Concept |
 | `ct:randomized-controlled-trial` | cto:Method |
 | `ct:reversible-and-irreversible-decisions` | cto:Concept |
+| `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:statistical-reasoning-training` | cto:Technique |
 | `ct:tu-quoque` | cto:InformalFallacy |
 | `ct:undistributed-middle` | cto:FormalFallacy |
