@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:conjunction-fallacy` | cto:ProbabilisticFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -21,6 +19,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:outside-view` | 3 | Base-rate neglect, Representativeness heuristic, planning-fallacy |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
+| `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Representativeness heuristic, insensitivity-to-sample-size |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
@@ -45,7 +44,7 @@ _For each heuristic, which biases can it produce and what counteracts them?_ —
 |---|---|---|
 | `ct:availability-heuristic` | `ct:illusory-correlation` |  |
 | `ct:representativeness-heuristic` | `ct:illusion-of-validity` |  |
-| `ct:representativeness-heuristic` | `ct:insensitivity-to-sample-size` |  |
+| `ct:representativeness-heuristic` | `ct:insensitivity-to-sample-size` | `ct:statistical-reasoning-training` |
 
 ## Contested or failed-replication claims
 
@@ -84,7 +83,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:representativeness-heuristic` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:reversible-and-irreversible-decisions` | mixed |  |
 
-…and 1 more.
+…and 2 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -108,6 +107,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:primary-and-secondary-sources` | cto:Concept |
 | `ct:randomized-controlled-trial` | cto:Method |
 | `ct:reversible-and-irreversible-decisions` | cto:Concept |
+| `ct:statistical-reasoning-training` | cto:Technique |
 | `ct:tu-quoque` | cto:InformalFallacy |
 | `ct:undistributed-middle` | cto:FormalFallacy |
 

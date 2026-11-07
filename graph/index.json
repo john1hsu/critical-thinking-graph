@@ -7552,6 +7552,96 @@
   ]
  },
  {
+  "id": "ct:statistical-reasoning-training",
+  "title": "Statistical reasoning training",
+  "aliases": [
+   "statistical rule training",
+   "formal rule training",
+   "training in statistical rules",
+   "set-inclusion training"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/statistical-reasoning-training.md",
+  "created": "2026-11-07",
+  "summary": "A debiasing technique that teaches abstract statistical and probability rules, such as the law of large numbers and the rule that a conjunction can be no more likely than its parts, with worked examples, so that people apply them to everyday judgments. Short training reduces errors such as the conjunction fallacy and sample-size neglect, but rarely eliminates them.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-necessity-instructions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing-training-games"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:conjunction-fallacy",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:representativeness-heuristic",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:insensitivity-to-sample-size",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:fong-krantz-nisbett-1986-statistical-training-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:agnoli-krantz-1989-conjunction-training-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:truong-2022-conjunction-training-replication",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26118/0000194.pdf;sequence=1",
+   "https://causeweb.org/cause/node/5355",
+   "https://orca.cardiff.ac.uk/id/eprint/34385/",
+   "https://yorkspace.library.yorku.ca/xmlui/bitstream/10315/40957/2/Truong_Michael_S_2022_Masters.pdf"
+  ]
+ },
+ {
   "id": "ct:stephen-toulmin",
   "title": "Stephen Toulmin",
   "aliases": [

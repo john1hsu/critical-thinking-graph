@@ -7181,6 +7181,89 @@
    ]
   },
   {
+   "@id": "ct:statistical-reasoning-training",
+   "@type": "cto:Technique",
+   "cto:counteracts": [
+    {
+     "@id": "ct:conjunction-fallacy"
+    },
+    {
+     "@id": "ct:insensitivity-to-sample-size"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    }
+   ],
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:agnoli-krantz-1989-conjunction-training-study"
+    },
+    {
+     "@id": "ct:fong-krantz-nisbett-1986-statistical-training-study"
+    }
+   ],
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/statistical-reasoning-training.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:conjunction-fallacy"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:truong-2022-conjunction-training-replication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s4"
+    }
+   ],
+   "rdfs:label": "Statistical reasoning training",
+   "skos:altLabel": [
+    "formal rule training",
+    "set-inclusion training",
+    "statistical rule training",
+    "training in statistical rules"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A debiasing technique that teaches abstract statistical and probability rules, such as the law of large numbers and the rule that a conjunction can be no more likely than its parts, with worked examples, so that people apply them to everyday judgments. Short training reduces errors such as the conjunction fallacy and sample-size neglect, but rarely eliminates them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Statistical reasoning training",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:debiasing-training-games"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:logical-necessity-instructions"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    }
+   ]
+  },
+  {
    "@id": "ct:stephen-toulmin",
    "@type": "cto:Person",
    "cto:contrastsWith": {
@@ -15672,6 +15755,62 @@
    "dcterms:title": "Posterior Analytics, Book I (trans. G. R. G. Mure)",
    "schema:url": {
     "@id": "https://www.ellopos.net/elpenor/greek-texts/ancient-Greece/aristotle/posterior-analytics.asp?pg=3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Cognitive Psychology 18(3), 253-292 (Fong, Krantz & Nisbett, 1986), University of Michigan Deep Blue copy",
+   "dcterms:title": "The effects of statistical training on thinking about everyday problems",
+   "schema:url": {
+    "@id": "https://deepblue.lib.umich.edu/bitstream/handle/2027.42/26118/0000194.pdf;sequence=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Cognitive Psychology 21(4), 515-550 (Agnoli & Krantz, 1989), CAUSEweb literature record",
+   "dcterms:title": "Suppressing natural heuristics by formal instruction: The case of the conjunction fallacy",
+   "schema:url": {
+    "@id": "https://causeweb.org/cause/node/5355"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "British Journal of Psychology 88(1), 1-27 (Fisk & Pidgeon, 1997), Cardiff University ORCA",
+   "dcterms:title": "The conjunction fallacy: The case for the existence of competing heuristic strategies",
+   "schema:url": {
+    "@id": "https://orca.cardiff.ac.uk/id/eprint/34385/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "York University master's thesis (Truong, 2022), YorkSpace repository",
+   "dcterms:title": "Transfer Success on the Linda Problem: A Re-Examination Using Dual Process Theory, Learning Material Characteristics, and Individual Differences",
+   "schema:url": {
+    "@id": "https://yorkspace.library.yorku.ca/xmlui/bitstream/10315/40957/2/Truong_Michael_S_2022_Masters.pdf"
    }
   },
   {
