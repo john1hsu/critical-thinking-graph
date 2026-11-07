@@ -21,11 +21,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.42 | `ct:george-udny-yule` | `ct:randomized-controlled-trial` | `ct:confounding`, `ct:correlation-versus-causation`, `ct:regression-to-the-mean`, `ct:simpsons-paradox` |
 | 2.37 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |
 | 2.31 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| 2.29 | `ct:baruch-fischhoff` | `ct:gerd-gigerenzer` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making`, `ct:risk-communication` |
+| 2.28 | `ct:baruch-fischhoff` | `ct:gerd-gigerenzer` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making`, `ct:risk-communication` |
 | 2.27 | `ct:richard-whately` | `ct:sophistical-refutations` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:ignoratio-elenchi`, `ct:informal-fallacy` |
 | 2.21 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample` |
 | 2.21 | `ct:port-royal-logic` | `ct:undistributed-middle` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:illicit-major`, `ct:rules-of-the-categorical-syllogism`, `ct:syllogism` |
 | 2.21 | `ct:port-royal-logic` | `ct:venn-diagram-test` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:illicit-major`, `ct:rules-of-the-categorical-syllogism`, `ct:syllogism` |
+| 2.21 | `ct:consider-the-opposite` | `ct:intelligence-analysis` | `ct:baruch-fischhoff`, `ct:confirmation-bias`, `ct:debiasing`, `ct:debiasing-training-games`, `ct:devils-advocacy` |
 | 2.18 | `ct:sophistical-refutations` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:ignoratio-elenchi`, `ct:informal-fallacy`, `ct:pragma-dialectics` |
 | 2.17 | `ct:port-royal-logic` | `ct:validity` | `ct:argument`, `ct:false-dilemma`, `ct:illicit-major`, `ct:informal-fallacy`, `ct:rules-of-the-categorical-syllogism` |
-| 2.17 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |

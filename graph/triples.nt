@@ -1977,6 +1977,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
 <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2000/01/rdf-schema#label> "Intelligence analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "all-source analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "analytic tradecraft" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "strategic intelligence analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-studies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#definition> "The professional practice, and the body of study around it, of turning incomplete, ambiguous and sometimes deliberately deceptive information into forecasts and assessments, with stated uncertainty, that help decision makers act." .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Intelligence analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/intelligence-analysis.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richards-heuer> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/2000/01/rdf-schema#label> "James Frederick Ferrier" .
@@ -4819,6 +4851,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "intergovernmental" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s4> <https://schema.org/url> <https://en.unesco.org/fightfakenews/modules> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> <http://purl.org/dc/terms/publisher> "Richards J. Heuer, Jr. (1999), Center for the Study of Intelligence, Central Intelligence Agency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> <http://purl.org/dc/terms/title> "Psychology of Intelligence Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s2> <http://purl.org/dc/terms/publisher> "Sherman Kent (mid-1950s), Studies in Intelligence, Center for the Study of Intelligence, Central Intelligence Agency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s2> <http://purl.org/dc/terms/title> "The Need for an Intelligence Literature" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s2> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/Need-for-Intelligence-Literature.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s3> <http://purl.org/dc/terms/publisher> "Proceedings of the National Academy of Sciences (Mandel & Barnes, 2014), copy on a UC Berkeley course page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s3> <http://purl.org/dc/terms/title> "Accuracy of forecasts in strategic intelligence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s3> <https://schema.org/url> <https://www.stat.berkeley.edu/~aldous/157/Papers/mandel-barnes.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s4> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science (Dhami, Mandel, Mellers & Tetlock, 2015), University of Pennsylvania ScholarlyCommons" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s4> <http://purl.org/dc/terms/title> "Improving Intelligence Analysis with Decision Science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s4> <https://schema.org/url> <https://repository.upenn.edu/marketing_papers/365> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> <http://purl.org/dc/terms/publisher> "Judgment and Decision Making 13(6), 607-621 (Mandel, Karvetski & Dhami, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> <http://purl.org/dc/terms/title> "Boosting intelligence analysts' judgment accuracy: What works, what fails?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> <https://schema.org/url> <https://cambridge.org/core/services/aop-cambridge-core/content/view/1530E9DAE8F42B2E8FC2B5FE374DB50F/S1930297500006628a.pdf/boosting-intelligence-analysts-judgment-accuracy-what-works-what-fails.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Jenny Keefe)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://purl.org/dc/terms/title> "James Frederick Ferrier (1808-1864)" .

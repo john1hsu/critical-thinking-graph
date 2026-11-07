@@ -4449,6 +4449,96 @@
   ]
  },
  {
+  "id": "ct:intelligence-analysis",
+  "title": "Intelligence analysis",
+  "aliases": [
+   "analytic tradecraft",
+   "strategic intelligence analysis",
+   "all-source analysis"
+  ],
+  "type": "Field",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/decision-making/intelligence-analysis.md",
+  "created": "2026-11-07",
+  "summary": "The professional practice, and the body of study around it, of turning incomplete, ambiguous and sometimes deliberately deceptive information into forecasts and assessments, with stated uncertainty, that help decision makers act.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:intelligence-studies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:tradecraft-primer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:analysis-of-competing-hypotheses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:key-assumptions-check"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:geopolitical-forecasting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:sherman-kent",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:richards-heuer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:cognitive-psychology",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf",
+   "https://www.cia.gov/resources/csi/static/Need-for-Intelligence-Literature.pdf",
+   "https://www.stat.berkeley.edu/~aldous/157/Papers/mandel-barnes.pdf",
+   "https://repository.upenn.edu/marketing_papers/365",
+   "https://cambridge.org/core/services/aop-cambridge-core/content/view/1530E9DAE8F42B2E8FC2B5FE374DB50F/S1930297500006628a.pdf/boosting-intelligence-analysts-judgment-accuracy-what-works-what-fails.pdf"
+  ]
+ },
+ {
   "id": "ct:james-frederick-ferrier",
   "title": "James Frederick Ferrier",
   "aliases": [

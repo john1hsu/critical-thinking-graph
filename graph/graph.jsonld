@@ -4196,6 +4196,92 @@
    ]
   },
   {
+   "@id": "ct:intelligence-analysis",
+   "@type": "cto:Field",
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/decision-making/intelligence-analysis.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:cognitive-psychology"
+    },
+    {
+     "@id": "ct:richards-heuer"
+    },
+    {
+     "@id": "ct:sherman-kent"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5"
+    }
+   ],
+   "rdfs:label": "Intelligence analysis",
+   "skos:altLabel": [
+    "all-source analysis",
+    "analytic tradecraft",
+    "strategic intelligence analysis"
+   ],
+   "skos:broader": {
+    "@id": "ct:intelligence-studies"
+   },
+   "skos:definition": "The professional practice, and the body of study around it, of turning incomplete, ambiguous and sometimes deliberately deceptive information into forecasts and assessments, with stated uncertainty, that help decision makers act.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Intelligence analysis",
+   "skos:related": [
+    {
+     "@id": "ct:analysis-of-competing-hypotheses"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:geopolitical-forecasting"
+    },
+    {
+     "@id": "ct:key-assumptions-check"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    },
+    {
+     "@id": "ct:tradecraft-primer"
+    }
+   ]
+  },
+  {
    "@id": "ct:james-frederick-ferrier",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -13725,6 +13811,76 @@
    "dcterms:title": "Journalism, 'Fake News' and Disinformation: A Handbook for Journalism Education and Training (modules)",
    "schema:url": {
     "@id": "https://en.unesco.org/fightfakenews/modules"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Richards J. Heuer, Jr. (1999), Center for the Study of Intelligence, Central Intelligence Agency",
+   "dcterms:title": "Psychology of Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Sherman Kent (mid-1950s), Studies in Intelligence, Center for the Study of Intelligence, Central Intelligence Agency",
+   "dcterms:title": "The Need for an Intelligence Literature",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/Need-for-Intelligence-Literature.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Proceedings of the National Academy of Sciences (Mandel & Barnes, 2014), copy on a UC Berkeley course page",
+   "dcterms:title": "Accuracy of forecasts in strategic intelligence",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/~aldous/157/Papers/mandel-barnes.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science (Dhami, Mandel, Mellers & Tetlock, 2015), University of Pennsylvania ScholarlyCommons",
+   "dcterms:title": "Improving Intelligence Analysis with Decision Science",
+   "schema:url": {
+    "@id": "https://repository.upenn.edu/marketing_papers/365"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 13(6), 607-621 (Mandel, Karvetski & Dhami, 2018)",
+   "dcterms:title": "Boosting intelligence analysts' judgment accuracy: What works, what fails?",
+   "schema:url": {
+    "@id": "https://cambridge.org/core/services/aop-cambridge-core/content/view/1530E9DAE8F42B2E8FC2B5FE374DB50F/S1930297500006628a.pdf/boosting-intelligence-analysts-judgment-accuracy-what-works-what-fails.pdf"
    }
   },
   {
