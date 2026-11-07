@@ -1945,6 +1945,87 @@
    ]
   },
   {
+   "@id": "ct:conjunction-fallacy",
+   "@type": "cto:ProbabilisticFallacy",
+   "cto:challengedBy": {
+    "@id": "ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:tversky-kahneman-1983-linda-problem-study"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:representativeness-heuristic"
+   },
+   "cto:file": "articles/probabilistic-reasoning/conjunction-fallacy.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:chandrashekar-2021-conjunction-bias-replication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5"
+    }
+   ],
+   "rdfs:label": "Conjunction fallacy",
+   "skos:altLabel": [
+    "Linda problem error",
+    "conjunction bias",
+    "conjunction effect",
+    "conjunction rule violation"
+   ],
+   "skos:broader": {
+    "@id": "ct:probabilistic-fallacy"
+   },
+   "skos:definition": "The error of judging a combination of two events or attributes (\"A and B\") to be more probable than one of them alone, which breaks the rule that a conjunction can never be more likely than either of its parts.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Conjunction fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    }
+   ]
+  },
+  {
    "@id": "ct:consider-the-opposite",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -8568,6 +8649,94 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:conjunction-fallacy"
+   },
+   "rdfs:label": "Is the detailed version of the claim really more likely than the shorter claim it contains?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:conjunction-fallacy"
+   },
+   "rdfs:label": "If I strip out the extra detail, does every case that fits the detailed story still fit the short one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:conjunction-fallacy"
+   },
+   "rdfs:label": "Out of 100 comparable cases, how many would show A, and how many of those would also show B?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:conjunction-fallacy"
+   },
+   "rdfs:label": "Am I rating how plausible or coherent the story sounds rather than how often it would happen?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:conjunction-fallacy"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The vendor is more likely to go bankrupt because its supplier fails than to go bankrupt at all, so we should budget for the first risk and not the second."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Every supplier-driven bankruptcy is also a bankruptcy, so 'bankrupt for any reason' must be at least as likely as 'supplier fails and vendor goes bankrupt'."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Our key vendor has thin margins and relies on a single overseas parts supplier."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "A story in which that supplier fails and the vendor then goes bankrupt fits these facts very well."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -10923,6 +11092,76 @@
    "dcterms:title": "Does counter-attitudinal information cause backlash? Results from three large survey experiments",
    "schema:url": {
     "@id": "https://isps.yale.edu/research/publications/isps18-025"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Psychological Review 90(4), 293-315 (Tversky & Kahneman, 1983), UC San Diego course copy",
+   "dcterms:title": "Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mckenzie/TverskyKahneman1983PsychRev.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Journal of Behavioral Decision Making 12(4), 275-305 (Hertwig & Gigerenzer, 1999), University of Basel edoc record",
+   "dcterms:title": "The 'conjunction fallacy' revisited: How intelligent inferences look like reasoning errors",
+   "schema:url": {
+    "@id": "https://edoc.unibas.ch/8522/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Meta-Psychology 5 (Chandrashekar, Cheng, Fong, Leung, Wong, Cheng & Feldman, 2021)",
+   "dcterms:title": "Frequency estimation and semantic ambiguity do not eliminate conjunction bias, when it occurs: Replication and extension of Mellers, Hertwig, and Kahneman (2001)",
+   "schema:url": {
+    "@id": "https://open.lnu.se/index.php/metapsychology/article/view/2474"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 6, 1832 (Lewinski, 2015)",
+   "dcterms:title": "Commentary: Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01832/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Proceedings of the Annual Meeting of the Cognitive Science Society 46 (Trpin & Hartmann, 2024), eScholarship, University of California",
+   "dcterms:title": "Explaining the Conjunction Fallacy",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt4bv1k9nw/qt4bv1k9nw.pdf?t=sgrift"
    }
   },
   {

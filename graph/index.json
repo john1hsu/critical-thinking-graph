@@ -2027,6 +2027,96 @@
   ]
  },
  {
+  "id": "ct:conjunction-fallacy",
+  "title": "Conjunction fallacy",
+  "aliases": [
+   "conjunction effect",
+   "conjunction bias",
+   "Linda problem error",
+   "conjunction rule violation"
+  ],
+  "type": "ProbabilisticFallacy",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/probabilistic-reasoning/conjunction-fallacy.md",
+  "created": "2026-11-07",
+  "summary": "The error of judging a combination of two events or attributes (\"A and B\") to be more probable than one of them alone, which breaks the rule that a conjunction can never be more likely than either of its parts.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:probabilistic-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:representativeness-heuristic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:tversky-kahneman-1983-linda-problem-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:chandrashekar-2021-conjunction-bias-replication",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the detailed version of the claim really more likely than the shorter claim it contains?",
+   "If I strip out the extra detail, does every case that fits the detailed story still fit the short one?",
+   "Out of 100 comparable cases, how many would show A, and how many of those would also show B?",
+   "Am I rating how plausible or coherent the story sounds rather than how often it would happen?"
+  ],
+  "source_urls": [
+   "https://pages.ucsd.edu/~mckenzie/TverskyKahneman1983PsychRev.pdf",
+   "https://edoc.unibas.ch/8522/",
+   "https://open.lnu.se/index.php/metapsychology/article/view/2474",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01832/full",
+   "https://escholarship.org/content/qt4bv1k9nw/qt4bv1k9nw.pdf?t=sgrift"
+  ]
+ },
+ {
   "id": "ct:consider-the-opposite",
   "title": "Consider the opposite",
   "aliases": [

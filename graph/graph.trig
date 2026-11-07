@@ -737,6 +737,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/probabilistic-reasoning/conjunction-fallacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/probabilistic-reasoning/natural-frequencies.md" .
@@ -7117,6 +7125,101 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s5> <https://schema.org/url> <https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the detailed version of the claim really more likely than the shorter claim it contains?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "If I strip out the extra detail, does every case that fits the detailed story still fit the short one?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Out of 100 comparable cases, how many would show A, and how many of those would also show B?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Am I rating how plausible or coherent the story sounds rather than how often it would happen?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The vendor is more likely to go bankrupt because its supplier fails than to go bankrupt at all, so we should budget for the first risk and not the second." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/o1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Every supplier-driven bankruptcy is also a bankruptcy, so 'bankrupt for any reason' must be at least as likely as 'supplier fails and vendor goes bankrupt'." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "Our key vendor has thin margins and relies on a single overseas parts supplier." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "A story in which that supplier fails and the vendor then goes bankrupt fits these facts very well." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/c> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/p2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ProbabilisticFallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2000/01/rdf-schema#label> "Conjunction fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "Linda problem error" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "conjunction bias" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "conjunction effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "conjunction rule violation" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#definition> "The error of judging a combination of two events or attributes (\"A and B\") to be more probable than one of them alone, which breaks the rule that a conjunction can never be more likely than either of its parts." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conjunction fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hertwig-gigerenzer-1999-conjunction-fallacy-revisited> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/tversky-kahneman-1983-linda-problem-study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/conjunction-fallacy.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/chandrashekar-2021-conjunction-bias-replication> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> <http://purl.org/dc/terms/publisher> "Psychological Review 90(4), 293-315 (Tversky & Kahneman, 1983), UC San Diego course copy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> <http://purl.org/dc/terms/title> "Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> <https://schema.org/url> <https://pages.ucsd.edu/~mckenzie/TverskyKahneman1983PsychRev.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2> <http://purl.org/dc/terms/publisher> "Journal of Behavioral Decision Making 12(4), 275-305 (Hertwig & Gigerenzer, 1999), University of Basel edoc record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2> <http://purl.org/dc/terms/title> "The 'conjunction fallacy' revisited: How intelligent inferences look like reasoning errors" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s2> <https://schema.org/url> <https://edoc.unibas.ch/8522/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3> <http://purl.org/dc/terms/publisher> "Meta-Psychology 5 (Chandrashekar, Cheng, Fong, Leung, Wong, Cheng & Feldman, 2021)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3> <http://purl.org/dc/terms/title> "Frequency estimation and semantic ambiguity do not eliminate conjunction bias, when it occurs: Replication and extension of Mellers, Hertwig, and Kahneman (2001)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s3> <https://schema.org/url> <https://open.lnu.se/index.php/metapsychology/article/view/2474> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 6, 1832 (Lewinski, 2015)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4> <http://purl.org/dc/terms/title> "Commentary: Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s4> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01832/full> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5> <http://purl.org/dc/terms/publisher> "Proceedings of the Annual Meeting of the Cognitive Science Society 46 (Trpin & Hartmann, 2024), eScholarship, University of California" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5> <http://purl.org/dc/terms/title> "Explaining the Conjunction Fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s5> <https://schema.org/url> <https://escholarship.org/content/qt4bv1k9nw/qt4bv1k9nw.pdf?t=sgrift> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
@@ -7674,6 +7777,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
   <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
@@ -7926,6 +8030,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chandrashekar-2021-bias-blind-spot-replication> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/chandrashekar-2021-conjunction-bias-replication> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chandrashekar-2021-conjunction-bias-replication> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chang-2016-forecasting-training-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -8018,10 +8123,15 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/congregation-of-rites> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
@@ -8063,6 +8173,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
@@ -8381,6 +8492,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/henk-schmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/henk-schmidt> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hertwig-gigerenzer-1999-conjunction-fallacy-revisited> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hertwig-gigerenzer-1999-conjunction-fallacy-revisited> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristic-analytic-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
@@ -8766,6 +8878,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
@@ -8931,7 +9044,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-mental-models-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
@@ -9251,6 +9366,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/tversky-kahneman-1983-linda-problem-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/tversky-kahneman-1983-linda-problem-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/tversky-kahneman-1983-linda-problem-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/tversky-kahneman-1983-linda-problem-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ulric-neisser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ulric-neisser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .

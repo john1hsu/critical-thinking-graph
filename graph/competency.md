@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:conjunction-fallacy` | cto:ProbabilisticFallacy |
 
 ## Most useful remedies
 
@@ -63,6 +65,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
+| `ct:conjunction-fallacy` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:debiasing` | mixed |  |
 | `ct:debiasing-training-games` | mixed |  |

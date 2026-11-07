@@ -12,7 +12,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.85 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy`, `ct:informal-logic` |
 | 2.78 | `ct:misinformation-and-disinformation` | `ct:primary-and-secondary-sources` | `ct:information-literacy`, `ct:lateral-reading`, `ct:sift-method`, `ct:source-credibility` |
 | 2.77 | `ct:affirming-a-disjunct` | `ct:deductive-reasoning` | `ct:affirming-the-consequent`, `ct:mental-model-theory`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
-| 2.65 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
+| 2.64 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
 | 2.64 | `ct:argumentation-schemes` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy` |
 | 2.55 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:validity` |
 | 2.54 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
@@ -21,11 +21,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.45 | `ct:charles-hamblin` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:informal-fallacy` |
 | 2.42 | `ct:george-udny-yule` | `ct:randomized-controlled-trial` | `ct:confounding`, `ct:correlation-versus-causation`, `ct:regression-to-the-mean`, `ct:simpsons-paradox` |
 | 2.37 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |
-| 2.32 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
-| 2.31 | `ct:baruch-fischhoff` | `ct:gerd-gigerenzer` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making`, `ct:risk-communication` |
+| 2.31 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
+| 2.29 | `ct:baruch-fischhoff` | `ct:gerd-gigerenzer` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making`, `ct:risk-communication` |
 | 2.27 | `ct:richard-whately` | `ct:sophistical-refutations` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:ignoratio-elenchi`, `ct:informal-fallacy` |
 | 2.23 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample` |
 | 2.19 | `ct:sophistical-refutations` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:ignoratio-elenchi`, `ct:informal-fallacy`, `ct:pragma-dialectics` |
 | 2.18 | `ct:affirming-a-disjunct` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:denying-the-antecedent`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:truth-table` |
 | 2.18 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |
-| 2.16 | `ct:denying-the-antecedent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:modus-tollens` |
+| 2.18 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:conjunction-fallacy`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:outside-view` |

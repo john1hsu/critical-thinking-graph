@@ -56,6 +56,16 @@ flowchart TD
   o1["Only about 1 in 1,000 accounts is compromised, so most flags are false alarms and the real probability is under 5%."] -. attacks .-> ra
 ```
 
+## Conjunction fallacy (`ct:conjunction-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["Our key vendor has thin margins and relies on a single overseas parts supplier."] --> ra{{"fallacious"}}
+  p2["A story in which that supplier fails and the vendor then goes bankrupt fits these facts very well."] --> ra{{"fallacious"}}
+  ra --> c["The vendor is more likely to go bankrupt because its supplier fails than to go bankrupt at all, so we should budget for the first risk and not the second."]
+  o1["Every supplier-driven bankruptcy is also a bankruptcy, so 'bankrupt for any reason' must be at least as likely as 'supplier fails and vendor goes bankrupt'."] -. attacks .-> ra
+```
+
 ## Deductive reasoning (`ct:deductive-reasoning`)
 
 ```mermaid
