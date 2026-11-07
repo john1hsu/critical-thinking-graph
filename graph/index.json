@@ -7865,6 +7865,87 @@
   ]
  },
  {
+  "id": "ct:researcher-degrees-of-freedom",
+  "title": "Researcher degrees of freedom",
+  "aliases": [
+   "analytic flexibility",
+   "garden of forking paths",
+   "undisclosed flexibility"
+  ],
+  "type": "Concept",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/scientific-reasoning/researcher-degrees-of-freedom.md",
+  "created": "2026-11-07",
+  "summary": "The many often-arbitrary choices a researcher makes in framing hypotheses, designing a study, collecting and analysing data and reporting results; when those choices are made after seeing the data, or left undisclosed, they can make a false hypothesis look statistically significant.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:multiverse-analysis"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:joseph-p-simmons",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:false-positive-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:silberzahn-2018-many-analysts-study",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:p-hacking",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://papers.ssrn.com/abstract=1850704",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01832/pdf",
+   "https://sites.stat.columbia.edu/gelman/research/unpublished/forking.pdf",
+   "https://dare.uva.nl/id/0785a9cc-2470-4a3a-bea8-0f34828953c2"
+  ]
+ },
+ {
   "id": "ct:reversible-and-irreversible-decisions",
   "title": "Reversible and irreversible decisions",
   "aliases": [

@@ -7463,6 +7463,83 @@
    ]
   },
   {
+   "@id": "ct:researcher-degrees-of-freedom",
+   "@type": "cto:Concept",
+   "cto:confusedWith": {
+    "@id": "ct:p-hacking"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:silberzahn-2018-many-analysts-study"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/scientific-reasoning/researcher-degrees-of-freedom.md",
+   "cto:introducedBy": {
+    "@id": "ct:joseph-p-simmons"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:false-positive-psychology"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:hypothesis-testing"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s4"
+    }
+   ],
+   "rdfs:label": "Researcher degrees of freedom",
+   "skos:altLabel": [
+    "analytic flexibility",
+    "garden of forking paths",
+    "undisclosed flexibility"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:scientific-method"
+    },
+    {
+     "@id": "ct:statistical-reasoning"
+    }
+   ],
+   "skos:definition": "The many often-arbitrary choices a researcher makes in framing hypotheses, designing a study, collecting and analysing data and reporting results; when those choices are made after seeing the data, or left undisclosed, they can make a false hypothesis look statistically significant.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Researcher degrees of freedom",
+   "skos:related": [
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:multiverse-analysis"
+    },
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    }
+   ]
+  },
+  {
    "@id": "ct:reversible-and-irreversible-decisions",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -17712,6 +17789,62 @@
    "dcterms:title": "Frequency estimation and semantic ambiguity do not eliminate conjunction bias, when it occurs: Replication and extension of Mellers, Hertwig, and Kahneman (2001)",
    "schema:url": {
     "@id": "https://open.lnu.se/index.php/metapsychology/article/view/2474"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Psychological Science 22(11), 1359-1366 (Simmons, Nelson & Simonsohn, 2011); author copy on SSRN",
+   "dcterms:title": "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant",
+   "schema:url": {
+    "@id": "https://papers.ssrn.com/abstract=1850704"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 7 (Wicherts, Veldkamp, Augusteijn, Bakker, van Aert & van Assen, 2016)",
+   "dcterms:title": "Degrees of Freedom in Planning, Running, Analyzing, and Reporting Psychological Studies: A Checklist to Avoid p-Hacking",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01832/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Columbia University, Department of Statistics working paper (Gelman & Loken, 2013)",
+   "dcterms:title": "The garden of forking paths: Why multiple comparisons can be a problem, even when there is no fishing expedition or p-hacking",
+   "schema:url": {
+    "@id": "https://sites.stat.columbia.edu/gelman/research/unpublished/forking.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Advances in Methods and Practices in Psychological Science 1(3), 337-356 (Silberzahn, Uhlmann, Martin, Anselmi et al., 2018)",
+   "dcterms:title": "Many Analysts, One Data Set: Making Transparent How Variations in Analytic Choices Affect Results",
+   "schema:url": {
+    "@id": "https://dare.uva.nl/id/0785a9cc-2470-4a3a-bea8-0f34828953c2"
    }
   },
   {
