@@ -8499,6 +8499,116 @@
   ]
  },
  {
+  "id": "ct:structured-analytic-techniques",
+  "title": "Structured analytic techniques",
+  "aliases": [
+   "SATs",
+   "structured analytic technique",
+   "structured analytical techniques",
+   "analytic tradecraft techniques"
+  ],
+  "type": "Technique",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/decision-making/structured-analytic-techniques.md",
+  "created": "2026-11-07",
+  "summary": "A family of step-by-step procedures, developed mainly in US intelligence analysis, that externalise an analyst's reasoning (listing assumptions, laying evidence against rival hypotheses, arguing the other side, imagining alternative futures) so that mind-sets can be exposed and challenged; widely taught, but with thin and mixed evidence that they improve accuracy.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:tradecraft-primer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:key-assumptions-check"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:analysis-of-competing-hypotheses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sherman-kent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:intelligence-analysis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:confirmation-bias",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:richards-heuer",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:jack-davis",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:artner-girven-bruce-2016-rand-sat-assessment",
+    "source": "s4",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:mandel-tetlock-2018-correcting-judgment-correctives",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:mandel-karvetski-dhami-2018-ach-trial",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf",
+   "https://cambridge.org/core/services/aop-cambridge-core/content/view/1530E9DAE8F42B2E8FC2B5FE374DB50F/S1930297500006628a.pdf/boosting-intelligence-analysts-judgment-accuracy-what-works-what-fails.pdf",
+   "https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full",
+   "https://www.rand.org/pubs/research_reports/RR1408.html",
+   "https://cognitiveresearchjournal.springeropen.com/counter/pdf/10.1186/s41235-024-00560-y.pdf",
+   "https://d-scholarship.pitt.edu/26055/"
+  ]
+ },
+ {
   "id": "ct:syllogism",
   "title": "Syllogism",
   "aliases": [

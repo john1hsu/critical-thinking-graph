@@ -36,6 +36,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
 | `ct:sift-method` | 1 | Misinformation and disinformation |
+| `ct:structured-analytic-techniques` | 1 | Confirmation bias |
 
 ## Heuristic -> bias -> remedy chains
 
@@ -61,6 +62,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
+| `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
+| `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
@@ -81,10 +84,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
 | `ct:premortem` | mixed |  |
 | `ct:representativeness-heuristic` | mixed | `ct:gerd-gigerenzer` |
-| `ct:representativeness-heuristic` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
-| `ct:reversible-and-irreversible-decisions` | mixed |  |
 
-…and 3 more.
+…and 5 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

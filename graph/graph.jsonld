@@ -8081,6 +8081,107 @@
    ]
   },
   {
+   "@id": "ct:structured-analytic-techniques",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:intelligence-analysis"
+   },
+   "cto:challengedBy": [
+    {
+     "@id": "ct:mandel-karvetski-dhami-2018-ach-trial"
+    },
+    {
+     "@id": "ct:mandel-tetlock-2018-correcting-judgment-correctives"
+    }
+   ],
+   "cto:counteracts": {
+    "@id": "ct:confirmation-bias"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/decision-making/structured-analytic-techniques.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:jack-davis"
+    },
+    {
+     "@id": "ct:richards-heuer"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:cognitive-bias"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:artner-girven-bruce-2016-rand-sat-assessment"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s6"
+    }
+   ],
+   "rdfs:label": "Structured analytic techniques",
+   "skos:altLabel": [
+    "SATs",
+    "analytic tradecraft techniques",
+    "structured analytic technique",
+    "structured analytical techniques"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A family of step-by-step procedures, developed mainly in US intelligence analysis, that externalise an analyst's reasoning (listing assumptions, laying evidence against rival hypotheses, arguing the other side, imagining alternative futures) so that mind-sets can be exposed and challenged; widely taught, but with thin and mixed evidence that they improve accuracy.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Structured analytic techniques",
+   "skos:related": [
+    {
+     "@id": "ct:analysis-of-competing-hypotheses"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:key-assumptions-check"
+    },
+    {
+     "@id": "ct:premortem"
+    },
+    {
+     "@id": "ct:sherman-kent"
+    },
+    {
+     "@id": "ct:tradecraft-primer"
+    }
+   ]
+  },
+  {
    "@id": "ct:syllogism",
    "@type": "cto:ReasoningForm",
    "cto:domain": "formal-logic",
@@ -17449,6 +17550,90 @@
    "dcterms:title": "Straw man",
    "schema:url": {
     "@id": "https://neiudc.neiu.edu/phil-pub/7"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "US Government, Central Intelligence Agency, Center for the Study of Intelligence (March 2009)",
+   "dcterms:title": "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 13(6), 607-621 (Mandel, Karvetski & Dhami, 2018)",
+   "dcterms:title": "Boosting intelligence analysts' judgment accuracy: What works, what fails?",
+   "schema:url": {
+    "@id": "https://cambridge.org/core/services/aop-cambridge-core/content/view/1530E9DAE8F42B2E8FC2B5FE374DB50F/S1930297500006628a.pdf/boosting-intelligence-analysts-judgment-accuracy-what-works-what-fails.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 9, 2640 (Mandel & Tetlock, 2018)",
+   "dcterms:title": "Correcting Judgment Correctives in National Security Intelligence",
+   "schema:url": {
+    "@id": "https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "RAND Corporation, RR-1408 (Artner, Girven & Bruce, 2016), report page",
+   "dcterms:title": "Assessing the Value of Structured Analytic Techniques in the U.S. Intelligence Community",
+   "schema:url": {
+    "@id": "https://www.rand.org/pubs/research_reports/RR1408.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Cognitive Research: Principles and Implications 9, 37 (Dhami, Belton, De Werd, Hadzhieva & Wicke, 2024)",
+   "dcterms:title": "Effects of task structure and confirmation bias in alternative hypotheses evaluation",
+   "schema:url": {
+    "@id": "https://cognitiveresearchjournal.springeropen.com/counter/pdf/10.1186/s41235-024-00560-y.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/structured-analytic-techniques/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Stephen Coulthart, PhD dissertation, University of Pittsburgh (2015), D-Scholarship record",
+   "dcterms:title": "Improving the Analysis of Foreign Affairs: Evaluating Structured Analytic Techniques",
+   "schema:url": {
+    "@id": "https://d-scholarship.pitt.edu/26055/"
    }
   },
   {
