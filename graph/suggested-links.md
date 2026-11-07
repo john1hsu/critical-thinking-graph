@@ -10,11 +10,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.88 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
 | 2.87 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:false-dilemma`, `ct:informal-fallacy` |
 | 2.85 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy`, `ct:informal-logic` |
-| 2.78 | `ct:affirming-a-disjunct` | `ct:deductive-reasoning` | `ct:affirming-the-consequent`, `ct:mental-model-theory`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.78 | `ct:misinformation-and-disinformation` | `ct:primary-and-secondary-sources` | `ct:information-literacy`, `ct:lateral-reading`, `ct:sift-method`, `ct:source-credibility` |
+| 2.77 | `ct:affirming-a-disjunct` | `ct:deductive-reasoning` | `ct:affirming-the-consequent`, `ct:mental-model-theory`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.68 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
 | 2.64 | `ct:argumentation-schemes` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy` |
-| 2.56 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:validity` |
+| 2.55 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:validity` |
 | 2.54 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.48 | `ct:cognitive-psychology` | `ct:minna-cheves-wilkins` | `ct:deductive-reasoning`, `ct:jonathan-st-b-t-evans`, `ct:psychology`, `ct:syllogism` |
 | 2.48 | `ct:inductive-reasoning` | `ct:karl-popper` | `ct:david-hume`, `ct:problem-of-induction`, `ct:william-whewell` |
@@ -23,7 +23,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.37 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |
 | 2.34 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 2.27 | `ct:richard-whately` | `ct:sophistical-refutations` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:ignoratio-elenchi`, `ct:informal-fallacy` |
-| 2.24 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample` |
+| 2.23 | `ct:aristotle` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:chrysippus`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:method-of-counterexample` |
 | 2.19 | `ct:debiasing-training-games` | `ct:key-assumptions-check` | `ct:confirmation-bias`, `ct:consider-the-opposite`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:structured-analytic-techniques` |
 | 2.19 | `ct:sophistical-refutations` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:ignoratio-elenchi`, `ct:informal-fallacy`, `ct:pragma-dialectics` |
 | 2.18 | `ct:affirming-a-disjunct` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:denying-the-antecedent`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:truth-table` |

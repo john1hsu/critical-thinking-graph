@@ -6680,6 +6680,76 @@
    ]
   },
   {
+   "@id": "ct:socratic-method",
+   "@type": "cto:Method",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:cognitive-behavioral-therapy"
+    },
+    {
+     "@id": "ct:critical-thinking-education"
+    }
+   ],
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/socratic-method.md",
+   "cto:introducedBy": {
+    "@id": "ct:socrates"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s5"
+    }
+   ],
+   "rdfs:label": "Socratic method",
+   "skos:altLabel": [
+    "Socratic dialogue",
+    "Socratic questioning",
+    "Socratic teaching",
+    "elenchus",
+    "elenctic method"
+   ],
+   "skos:broader": {
+    "@id": "ct:dialectic"
+   },
+   "skos:definition": "A method of inquiry by disciplined question and answer, modelled on Socrates in Plato's dialogues, in which a person's stated belief is examined against their other commitments until inconsistencies, hidden assumptions or gaps in their reasons come to light; used today in teaching, law schools and cognitive therapy.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Socratic method",
+   "skos:related": [
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:plato"
+    }
+   ]
+  },
+  {
    "@id": "ct:sophistical-refutations",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -14817,6 +14887,76 @@
    "dcterms:title": "Simpson's Paradox in Clinical Research: A Cautionary Tale",
    "schema:url": {
     "@id": "https://www.mdpi.com/2077-0383/12/4/1633"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Behaviour Research and Therapy 70:32-37 (Braun, Strunk, Sasso and Cooper, 2015), PMC author manuscript",
+   "dcterms:title": "Therapist use of Socratic questioning predicts session-to-session symptom change in cognitive therapy for depression",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4449800"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Notre Dame Philosophical Reviews 2002.10.11 (O'Connor)",
+   "dcterms:title": "Review of Scott (ed.), Does Socrates Have a Method? Rethinking the Elenchus in Plato's Dialogues and Beyond",
+   "schema:url": {
+    "@id": "https://ndpr.nd.edu/reviews/does-socrates-have-a-method-rethinking-the-elenchus-in-plato-s-dialogues-and-beyond/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Bryn Mawr Classical Review 2002.07.05 (Waterfield)",
+   "dcterms:title": "Review of Scott (ed.), Does Socrates Have a Method?",
+   "schema:url": {
+    "@id": "https://bmcr.brynmawr.edu/?p=22708"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Foundation for Critical Thinking (Paul and Elder, 1997)",
+   "dcterms:title": "Socratic Teaching",
+   "schema:url": {
+    "@id": "https://community.criticalthinking.org/content/library_for_educators/41/SocraticTeaching.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Socrates: Plato",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/Socrates/Plato"
    }
   },
   {

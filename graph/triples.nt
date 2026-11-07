@@ -2868,6 +2868,34 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
 <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2000/01/rdf-schema#label> "Socratic method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Socratic dialogue" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Socratic questioning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Socratic teaching" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#altLabel> "elenchus" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#altLabel> "elenctic method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#definition> "A method of inquiry by disciplined question and answer, modelled on Socrates in Plato's dialogues, in which a person's stated belief is examined against their other commitments until inconsistencies, hidden assumptions or gaps in their reasons come to light; used today in teaching, law schools and cognitive therapy." .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Socratic method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-behavioral-therapy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/socratic-method.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/socrates> .
+<https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <http://www.w3.org/2000/01/rdf-schema#label> "Sophistical Refutations" .
@@ -5416,6 +5444,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <https://schema.org/url> <https://www.mdpi.com/2077-0383/12/4/1633> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://purl.org/dc/terms/publisher> "Behaviour Research and Therapy 70:32-37 (Braun, Strunk, Sasso and Cooper, 2015), PMC author manuscript" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://purl.org/dc/terms/title> "Therapist use of Socratic questioning predicts session-to-session symptom change in cognitive therapy for depression" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC4449800> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s2> <http://purl.org/dc/terms/publisher> "Notre Dame Philosophical Reviews 2002.10.11 (O'Connor)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s2> <http://purl.org/dc/terms/title> "Review of Scott (ed.), Does Socrates Have a Method? Rethinking the Elenchus in Plato's Dialogues and Beyond" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s2> <https://schema.org/url> <https://ndpr.nd.edu/reviews/does-socrates-have-a-method-rethinking-the-elenchus-in-plato-s-dialogues-and-beyond/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s3> <http://purl.org/dc/terms/publisher> "Bryn Mawr Classical Review 2002.07.05 (Waterfield)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s3> <http://purl.org/dc/terms/title> "Review of Scott (ed.), Does Socrates Have a Method?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s3> <https://schema.org/url> <https://bmcr.brynmawr.edu/?p=22708> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s4> <http://purl.org/dc/terms/publisher> "Foundation for Critical Thinking (Paul and Elder, 1997)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s4> <http://purl.org/dc/terms/title> "Socratic Teaching" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s4> <https://schema.org/url> <https://community.criticalthinking.org/content/library_for_educators/41/SocraticTeaching.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s5> <http://purl.org/dc/terms/title> "Socrates: Plato" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s5> <https://schema.org/url> <https://www.britannica.com/biography/Socrates/Plato> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive (MIT)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sophistical-refutations/s1> <http://purl.org/dc/terms/title> "On Sophistical Refutations (trans. W. A. Pickard-Cambridge), full text" .
