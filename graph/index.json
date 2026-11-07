@@ -7552,6 +7552,105 @@
   ]
  },
  {
+  "id": "ct:source-credibility",
+  "title": "Source credibility",
+  "aliases": [
+   "communicator credibility",
+   "speaker credibility",
+   "credibility of sources"
+  ],
+  "type": "Concept",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/source-credibility.md",
+  "created": "2026-11-07",
+  "summary": "The degree to which the origin of a claim (a person, outlet or document) is perceived as competent and willing to tell the truth on the matter at hand, usually analysed as expertise plus trustworthiness; it legitimately bears on how far to rely on testimony, and it measurably shifts how persuasive a message is.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sift-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:primary-and-secondary-sources"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:tu-quoque"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sleeper-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:testimony"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:hovland-weiss-1951-credibility-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:carl-hovland",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:kumkale-2010-source-credibility-meta-analysis",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:elaboration-likelihood-model",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://fbaum.unc.edu/teaching/articles/HovlandWeiss-POQ-1951.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3100161",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3101500",
+   "https://plato.stanford.edu/archives/spr2020/entries/testimony-episprob/"
+  ]
+ },
+ {
   "id": "ct:statistical-reasoning-training",
   "title": "Statistical reasoning training",
   "aliases": [

@@ -83,7 +83,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:representativeness-heuristic` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:reversible-and-irreversible-decisions` | mixed |  |
 
-…and 2 more.
+…and 3 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

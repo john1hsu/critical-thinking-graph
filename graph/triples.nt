@@ -3086,6 +3086,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
 <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2000/01/rdf-schema#label> "Source credibility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#altLabel> "communicator credibility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#altLabel> "credibility of sources" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#altLabel> "speaker credibility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#definition> "The degree to which the origin of a claim (a person, outlet or document) is perceived as competent and willing to tell the truth on the matter at hand, usually analysed as expertise plus trustworthiness; it legitimately bears on how far to rely on testimony, and it measurably shifts how persuasive a message is." .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#prefLabel> "Source credibility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sleeper-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/testimony> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hovland-weiss-1951-credibility-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/source-credibility.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/carl-hovland> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kumkale-2010-source-credibility-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s1> <http://purl.org/dc/terms/publisher> "University of Pennsylvania Almanac 42(24), 19 March 1996 (Jonathan Baron)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s1> <http://purl.org/dc/terms/title> "Actively Open-minded Thinking (Talk About Teaching)" .
@@ -5762,6 +5795,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/soundness/s6> <https://schema.org/url> <https://www.ellopos.net/elpenor/greek-texts/ancient-Greece/aristotle/posterior-analytics.asp?pg=3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s1> <http://purl.org/dc/terms/publisher> "Public Opinion Quarterly 15(4), 635-650 (Hovland & Weiss, 1951), course copy hosted at UNC" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s1> <http://purl.org/dc/terms/title> "The Influence of Source Credibility on Communication Effectiveness" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s1> <https://schema.org/url> <https://fbaum.unc.edu/teaching/articles/HovlandWeiss-POQ-1951.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s2> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 130(1), 143-172 (Kumkale & Albarracín, 2004), PubMed Central" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s2> <http://purl.org/dc/terms/title> "The Sleeper Effect in Persuasion: A Meta-Analytic Review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC3100161> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s3> <http://purl.org/dc/terms/publisher> "Journal of Applied Social Psychology 40(6), 1325-1356 (Kumkale, Albarracín & Seignourel, 2010), PubMed Central" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s3> <http://purl.org/dc/terms/title> "The Effects of Source Credibility in the Presence or Absence of Prior Attitudes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC3101500> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Adler, Spring 2020 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <http://purl.org/dc/terms/title> "Epistemological Problems of Testimony" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2020/entries/testimony-episprob/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1> <http://purl.org/dc/terms/publisher> "Cognitive Psychology 18(3), 253-292 (Fong, Krantz & Nisbett, 1986), University of Michigan Deep Blue copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1> <http://purl.org/dc/terms/title> "The effects of statistical training on thinking about everyday problems" .
