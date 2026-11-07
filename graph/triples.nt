@@ -3162,6 +3162,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Probabilistic and statistical reasoning" .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scientific reasoning and research methods" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2000/01/rdf-schema#label> "Sherman Kent" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#altLabel> "Sherman Kent (1903-1986)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#definition> "American historian and intelligence officer (1903-1986) who moved from Yale to wartime research and analysis and then led the CIA's national estimates office, wrote the 1949 book that set out the methods of strategic intelligence, and pressed analysts to state their uncertainty in calibrated words of estimative probability." .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sherman Kent" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richards-heuer> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/strategic-intelligence-for-american-world-policy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/sherman-kent.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/words-of-estimative-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> <http://www.w3.org/2000/01/rdf-schema#label> "SIFT" .
@@ -6009,6 +6033,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> <https://schema.org/url> <https://mail.philosophypages.com/lg/e08b.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/publisher> "Jack Davis (November 2002), Sherman Kent Center for Intelligence Analysis Occasional Papers 1(5), Central Intelligence Agency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/title> "Sherman Kent and the Profession of Intelligence Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/Kent-Profession-Intel-Analysis.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s2> <http://purl.org/dc/terms/publisher> "Sherman Kent (c. 1964), Studies in Intelligence, Center for the Study of Intelligence, Central Intelligence Agency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s2> <http://purl.org/dc/terms/title> "Words of Estimative Probability" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s2> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s3> <http://purl.org/dc/terms/publisher> "Sherman Kent (1949; 2025 edition), Princeton University Press, publisher's page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s3> <http://purl.org/dc/terms/title> "Strategic Intelligence for American World Policy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s3> <https://schema.org/url> <https://press.princeton.edu/books/ebook/9780691273747/strategic-intelligence-for-american-world-policy-pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s4> <http://purl.org/dc/terms/publisher> "Intelligence and National Security 33, 257-272 (M. K. Dhami, 2018), author's copy, Middlesex University repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s4> <http://purl.org/dc/terms/title> "Towards an evidence-based approach to communicating uncertainty in intelligence analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s4> <https://schema.org/url> <https://mdx-repository.prod-uk.cayuse.com/download/c1d4d3f8698a141697c4b24c33ebafabd0fe62c59c9a81d8f228ebe1259ecc2b/506810/Dhami_2018.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> <http://purl.org/dc/terms/publisher> "Mike Caulfield, Check, Please! project archive" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sift-method/s1> <http://purl.org/dc/terms/title> "SIFT Method (project page, 2016–2021)" .

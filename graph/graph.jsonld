@@ -7199,6 +7199,70 @@
    ]
   },
   {
+   "@id": "ct:sherman-kent",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:strategic-intelligence-for-american-world-policy"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/sherman-kent.md",
+   "cto:introduced": [
+    {
+     "@id": "ct:intelligence-analysis"
+    },
+    {
+     "@id": "ct:words-of-estimative-probability"
+    }
+   ],
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s4"
+    }
+   ],
+   "rdfs:label": "Sherman Kent",
+   "skos:altLabel": "Sherman Kent (1903-1986)",
+   "skos:definition": "American historian and intelligence officer (1903-1986) who moved from Yale to wartime research and analysis and then led the CIA's national estimates office, wrote the 1949 book that set out the methods of strategic intelligence, and pressed analysts to state their uncertainty in calibrated words of estimative probability.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Sherman Kent",
+   "skos:related": [
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:intelligence-analysis"
+    },
+    {
+     "@id": "ct:richards-heuer"
+    },
+    {
+     "@id": "ct:risk-communication"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    },
+    {
+     "@id": "ct:tradecraft-primer"
+    }
+   ]
+  },
+  {
    "@id": "ct:sift-method",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -16513,6 +16577,62 @@
    "dcterms:title": "Rules and Fallacies",
    "schema:url": {
     "@id": "https://mail.philosophypages.com/lg/e08b.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Jack Davis (November 2002), Sherman Kent Center for Intelligence Analysis Occasional Papers 1(5), Central Intelligence Agency",
+   "dcterms:title": "Sherman Kent and the Profession of Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/Kent-Profession-Intel-Analysis.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Sherman Kent (c. 1964), Studies in Intelligence, Center for the Study of Intelligence, Central Intelligence Agency",
+   "dcterms:title": "Words of Estimative Probability",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Sherman Kent (1949; 2025 edition), Princeton University Press, publisher's page",
+   "dcterms:title": "Strategic Intelligence for American World Policy",
+   "schema:url": {
+    "@id": "https://press.princeton.edu/books/ebook/9780691273747/strategic-intelligence-for-american-world-policy-pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Intelligence and National Security 33, 257-272 (M. K. Dhami, 2018), author's copy, Middlesex University repository",
+   "dcterms:title": "Towards an evidence-based approach to communicating uncertainty in intelligence analysis",
+   "schema:url": {
+    "@id": "https://mdx-repository.prod-uk.cayuse.com/download/c1d4d3f8698a141697c4b24c33ebafabd0fe62c59c9a81d8f228ebe1259ecc2b/506810/Dhami_2018.pdf"
    }
   },
   {

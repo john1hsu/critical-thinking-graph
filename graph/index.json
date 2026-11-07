@@ -7582,6 +7582,71 @@
   ]
  },
  {
+  "id": "ct:sherman-kent",
+  "title": "Sherman Kent",
+  "aliases": [
+   "Sherman Kent (1903-1986)"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/sherman-kent.md",
+  "created": "2026-11-07",
+  "summary": "American historian and intelligence officer (1903-1986) who moved from Yale to wartime research and analysis and then led the CIA's national estimates office, wrote the 1949 book that set out the methods of strategic intelligence, and pressed analysts to state their uncertainty in calibrated words of estimative probability.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:intelligence-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richards-heuer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:tradecraft-primer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:intelligence-analysis",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:words-of-estimative-probability",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:strategic-intelligence-for-american-world-policy",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cia.gov/resources/csi/static/Kent-Profession-Intel-Analysis.pdf",
+   "https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf",
+   "https://press.princeton.edu/books/ebook/9780691273747/strategic-intelligence-for-american-world-policy-pdf",
+   "https://mdx-repository.prod-uk.cayuse.com/download/c1d4d3f8698a141697c4b24c33ebafabd0fe62c59c9a81d8f228ebe1259ecc2b/506810/Dhami_2018.pdf"
+  ]
+ },
+ {
   "id": "ct:sift-method",
   "title": "SIFT",
   "aliases": [
