@@ -6,7 +6,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 |---|---|---|---|
 | 3.65 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:inductive-reasoning`, `ct:method-of-counterexample` |
 | 3.52 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:logic`, `ct:port-royal-logic` |
-| 3.37 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
+| 3.26 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
 | 2.86 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:false-dilemma`, `ct:informal-fallacy` |
 | 2.85 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy`, `ct:informal-logic` |
 | 2.83 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
@@ -18,7 +18,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.47 | `ct:cognitive-psychology` | `ct:minna-cheves-wilkins` | `ct:deductive-reasoning`, `ct:jonathan-st-b-t-evans`, `ct:psychology`, `ct:syllogism` |
 | 2.45 | `ct:argumentation-schemes` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:informal-fallacy` |
 | 2.45 | `ct:charles-hamblin` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:informal-fallacy` |
-| 2.42 | `ct:george-udny-yule` | `ct:randomized-controlled-trial` | `ct:confounding`, `ct:correlation-versus-causation`, `ct:regression-to-the-mean`, `ct:simpsons-paradox` |
 | 2.37 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |
 | 2.31 | `ct:anchoring-effect` | `ct:representativeness-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program` |
 | 2.27 | `ct:richard-whately` | `ct:sophistical-refutations` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:ignoratio-elenchi`, `ct:informal-fallacy` |
@@ -29,3 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.18 | `ct:sophistical-refutations` | `ct:straw-man-fallacy` | `ct:argument`, `ct:argumentation-theory`, `ct:ignoratio-elenchi`, `ct:informal-fallacy`, `ct:pragma-dialectics` |
 | 2.17 | `ct:port-royal-logic` | `ct:validity` | `ct:argument`, `ct:false-dilemma`, `ct:illicit-major`, `ct:informal-fallacy`, `ct:rules-of-the-categorical-syllogism` |
 | 2.17 | `ct:deductive-reasoning` | `ct:topics` | `ct:argument`, `ct:aristotle`, `ct:inductive-reasoning`, `ct:organon`, `ct:posterior-analytics` |
+| 2.15 | `ct:affirming-a-disjunct` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:denying-the-antecedent`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:truth-table` |

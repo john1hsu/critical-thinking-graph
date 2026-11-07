@@ -947,6 +947,80 @@
    ]
   },
   {
+   "@id": "ct:austin-bradford-hill",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:principles-of-medical-statistics"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/austin-bradford-hill.md",
+   "cto:introduced": [
+    {
+     "@id": "ct:bradford-hill-criteria"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    }
+   ],
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s6"
+    }
+   ],
+   "rdfs:label": "Sir Austin Bradford Hill",
+   "skos:altLabel": [
+    "A. Bradford Hill",
+    "Austin Bradford Hill",
+    "Bradford Hill"
+   ],
+   "skos:definition": "English medical statistician and epidemiologist (1897-1991) who persuaded the UK Medical Research Council to allocate treatments by random numbers, co-designed the 1948 streptomycin trial, showed with Richard Doll that smoking is linked to lung cancer, and in 1965 set out nine viewpoints for judging whether an association is causal.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Sir Austin Bradford Hill",
+   "skos:related": [
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:inference-to-the-best-explanation"
+    },
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:selection-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:availability-heuristic",
    "@type": "cto:Heuristic",
    "cto:challengedBy": {
@@ -11173,6 +11247,90 @@
    "dcterms:title": "Aristotle summary",
    "schema:url": {
     "@id": "https://www.britannica.com/summary/Aristotle"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Inspiring Physicians (Munk's Roll), Royal College of Physicians of London",
+   "dcterms:title": "Sir Austin Bradford Hill",
+   "schema:url": {
+    "@id": "https://history.rcp.ac.uk/inspiring-physicians/sir-austin-bradford-hill"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Journal of the Royal Society of Medicine 104(9), 383-386 (Iain Chalmers, 2011), James Lind Library copy",
+   "dcterms:title": "Why the 1948 MRC trial of streptomycin used treatment allocation based on random numbers",
+   "schema:url": {
+    "@id": "https://www.jameslindlibrary.org/wp-data/uploads/2016/08/J-R-Soc-Med-2011-09-Chalmers-383-6.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Proceedings of the Royal Society of Medicine 58(5), 295-300 (Austin Bradford Hill, May 1965), PubMed Central record",
+   "dcterms:title": "The Environment and Disease: Association or Causation?",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1898525/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Embryo Project Encyclopedia, Arizona State University (Carolina J. Abboud, 2017)",
+   "dcterms:title": "\"The Environment and Disease: Association or Causation?\" (1965), by Austin Bradford Hill",
+   "schema:url": {
+    "@id": "https://embryo.asu.edu/pages/environment-and-disease-association-or-causation-1965-austin-bradford-hill"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "British Medical Journal, 30 September 1950 (Richard Doll & A. Bradford Hill), University of Alabama Center for the Study of Tobacco and Society copy",
+   "dcterms:title": "Smoking and carcinoma of the lung: preliminary report",
+   "schema:url": {
+    "@id": "https://csts.ua.edu/files/2019/01/1950-09-30-BMJ-Smoking-Carcinoma-of-the-Lung-Doll-Hill.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Emerging Themes in Epidemiology 12, 14 (Fedak, Bernal, Capshaw & Gross, 2015), doi:10.1186/s12982-015-0037-4, US EPA HERO record",
+   "dcterms:title": "Applying the Bradford Hill criteria in the 21st century: how data integration has changed causal inference in molecular epidemiology",
+   "schema:url": {
+    "@id": "https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/4482719"
    }
   },
   {

@@ -105,7 +105,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:primary-and-secondary-sources` | cto:Concept |
-| `ct:randomized-controlled-trial` | cto:Method |
 | `ct:reversible-and-irreversible-decisions` | cto:Concept |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:statistical-reasoning-training` | cto:Technique |

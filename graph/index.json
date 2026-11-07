@@ -985,6 +985,75 @@
   ]
  },
  {
+  "id": "ct:austin-bradford-hill",
+  "title": "Sir Austin Bradford Hill",
+  "aliases": [
+   "Austin Bradford Hill",
+   "A. Bradford Hill",
+   "Bradford Hill"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/austin-bradford-hill.md",
+  "created": "2026-11-07",
+  "summary": "English medical statistician and epidemiologist (1897-1991) who persuaded the UK Medical Research Council to allocate treatments by random numbers, co-designed the 1948 streptomycin trial, showed with Richard Doll that smoking is linked to lung cancer, and in 1965 set out nine viewpoints for judging whether an association is causal.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inference-to-the-best-explanation"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:randomized-controlled-trial",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:bradford-hill-criteria",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:principles-of-medical-statistics",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://history.rcp.ac.uk/inspiring-physicians/sir-austin-bradford-hill",
+   "https://www.jameslindlibrary.org/wp-data/uploads/2016/08/J-R-Soc-Med-2011-09-Chalmers-383-6.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC1898525/",
+   "https://embryo.asu.edu/pages/environment-and-disease-association-or-causation-1965-austin-bradford-hill",
+   "https://csts.ua.edu/files/2019/01/1950-09-30-BMJ-Smoking-Carcinoma-of-the-Lung-Doll-Hill.pdf",
+   "https://hero.epa.gov/hero/index.cfm/reference/details/reference_id/4482719"
+  ]
+ },
+ {
   "id": "ct:availability-heuristic",
   "title": "Availability heuristic",
   "aliases": [
