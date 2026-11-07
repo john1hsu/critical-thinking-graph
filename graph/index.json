@@ -4047,6 +4047,102 @@
   ]
  },
  {
+  "id": "ct:inference-to-the-best-explanation",
+  "title": "Inference to the best explanation",
+  "aliases": [
+   "IBE",
+   "abduction",
+   "abductive reasoning",
+   "abductive inference"
+  ],
+  "type": "ReasoningForm",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/inference-to-the-best-explanation.md",
+  "created": "2026-11-07",
+  "summary": "The non-deductive inference that accepts a hypothesis because, among the available rivals, it would best explain the evidence; in its modern sense it is the standard meaning of \"abduction\".",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:occams-razor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:explanatory-virtues"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inductive-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:deductive-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:gilbert-harman",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:charles-sanders-peirce",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:bad-lot-objection",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:medical-diagnosis",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/abduction",
+   "https://plato.stanford.edu/entries/abduction/peirce.html",
+   "https://dc2.philarchive.org/rec/HARTIT-2",
+   "https://cognition.princeton.edu/sites/default/files/cognition/files/explanatory_prefs_tics.pdf"
+  ]
+ },
+ {
   "id": "ct:informal-fallacy",
   "title": "Informal fallacy",
   "aliases": [

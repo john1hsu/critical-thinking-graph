@@ -132,6 +132,19 @@ flowchart TD
   o2["Twelve releases is a modest sample; a coincidence of scheduling could explain the pattern."] -. attacks .-> ra
 ```
 
+## Inference to the best explanation (`ct:inference-to-the-best-explanation`)
+
+```mermaid
+flowchart TD
+  p1["Since Tuesday's deploy, the checkout service has been timing out, but only for requests that hit the new discount code path."] --> ra{{"strong"}}
+  p2["A bad database index added in that deploy would explain both the timing and why only the discount path is slow."] --> ra{{"strong"}}
+  p3["The rival explanations (a network fault, a traffic spike, a third-party outage) would slow every path, and monitoring shows normal traffic and healthy vendors."] --> ra{{"strong"}}
+  p4["The index explanation is a good explanation in its own right: it is specific and testable."] --> ra{{"strong"}}
+  ra --> c["The new index is probably causing the timeouts, so it is the hypothesis to act on and test first."]
+  o1["The rival list may be a bad lot: an untried cause, such as a changed cache setting in the same deploy, could explain the pattern better."] -. attacks .-> ra
+  o2["Rolling back the index and watching the timeouts is a test the inference recommends, not one it replaces."] -. attacks .-> ra
+```
+
 ## Modus ponens (`ct:modus-ponens`)
 
 ```mermaid

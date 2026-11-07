@@ -3833,6 +3833,93 @@
    ]
   },
   {
+   "@id": "ct:inference-to-the-best-explanation",
+   "@type": "cto:ReasoningForm",
+   "cto:appliedIn": {
+    "@id": "ct:medical-diagnosis"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:bad-lot-objection"
+   },
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    }
+   ],
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map"
+   },
+   "cto:file": "articles/foundations/inference-to-the-best-explanation.md",
+   "cto:influencedBy": {
+    "@id": "ct:charles-sanders-peirce"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:gilbert-harman"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inference-to-the-best-explanation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inference-to-the-best-explanation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inference-to-the-best-explanation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inference-to-the-best-explanation/s4"
+    }
+   ],
+   "rdfs:label": "Inference to the best explanation",
+   "skos:altLabel": [
+    "IBE",
+    "abduction",
+    "abductive inference",
+    "abductive reasoning"
+   ],
+   "skos:broader": {
+    "@id": "ct:reasoning"
+   },
+   "skos:definition": "The non-deductive inference that accepts a hypothesis because, among the available rivals, it would best explain the evidence; in its modern sense it is the standard meaning of \"abduction\".",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Inference to the best explanation",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:explanatory-virtues"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:occams-razor"
+    }
+   ]
+  },
+  {
    "@id": "ct:informal-fallacy",
    "@type": "cto:Concept",
    "cto:contrastsWith": {
@@ -9713,6 +9800,93 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:inference-to-the-best-explanation"
+   },
+   "cto:verdict": "strong"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The new index is probably causing the timeouts, so it is the hypothesis to act on and test first."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The rival list may be a bad lot: an untried cause, such as a changed cache setting in the same deploy, could explain the pattern better."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Rolling back the index and watching the timeouts is a test the inference recommends, not one it replaces."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Since Tuesday's deploy, the checkout service has been timing out, but only for requests that hit the new discount code path."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "A bad database index added in that deploy would explain both the timing and why only the discount path is slow."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/p3",
+   "@type": "aif:I-node",
+   "aif:claimText": "The rival explanations (a network fault, a traffic spike, a third-party outage) would slow every path, and monitoring shows normal traffic and healthy vendors."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/p4",
+   "@type": "aif:I-node",
+   "aif:claimText": "The index explanation is a good explanation in its own right: it is specific and testable."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/p2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/p3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map/p4"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -13168,6 +13342,62 @@
    "dcterms:title": "Properties of inductive reasoning",
    "schema:url": {
     "@id": "https://link.springer.com/content/pdf/10.3758/BF03212996.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inference-to-the-best-explanation/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Douven, rev. 2025)",
+   "dcterms:title": "Abduction",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/abduction"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inference-to-the-best-explanation/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Douven)",
+   "dcterms:title": "Peirce on Abduction (supplement to Abduction)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/abduction/peirce.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inference-to-the-best-explanation/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Philosophical Review 74(1), 88-95 (Harman, 1965); PhilArchive record",
+   "dcterms:title": "The Inference to the Best Explanation",
+   "schema:url": {
+    "@id": "https://dc2.philarchive.org/rec/HARTIT-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inference-to-the-best-explanation/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Trends in Cognitive Sciences 20(10), 748-759 (Lombrozo, 2016)",
+   "dcterms:title": "Explanatory Preferences Shape Learning and Inference",
+   "schema:url": {
+    "@id": "https://cognition.princeton.edu/sites/default/files/cognition/files/explanatory_prefs_tics.pdf"
    }
   },
   {
