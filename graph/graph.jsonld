@@ -2838,6 +2838,76 @@
    ]
   },
   {
+   "@id": "ct:george-udny-yule",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:an-introduction-to-the-theory-of-statistics"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/george-udny-yule.md",
+   "cto:influencedBy": {
+    "@id": "ct:karl-pearson"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:nonsense-correlation"
+    },
+    {
+     "@id": "ct:simpsons-paradox"
+    },
+    {
+     "@id": "ct:yules-q"
+    }
+   ],
+   "cto:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s4"
+    }
+   ],
+   "rdfs:label": "George Udny Yule",
+   "skos:altLabel": [
+    "G. Udny Yule",
+    "Udny Yule"
+   ],
+   "skos:definition": "British statistician (1871-1951) who worked with Karl Pearson, described in 1903 the reversal of associations now called Simpson's paradox, and in 1926 showed why trending time series so often produce high but meaningless \"nonsense correlations\".",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "George Udny Yule",
+   "skos:related": [
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    },
+    {
+     "@id": "ct:simpsons-paradox"
+    },
+    {
+     "@id": "ct:spurious-correlation"
+    }
+   ]
+  },
+  {
    "@id": "ct:gerd-gigerenzer",
    "@type": "cto:Person",
    "cto:appliedIn": {
@@ -11351,6 +11421,62 @@
    "dcterms:title": "Underdetermination of Scientific Theory",
    "schema:url": {
     "@id": "https://plato.stanford.edu/entries/scientific-underdetermination/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Oxford Dictionary of National Biography (Yates, rev. Yoshioka, 2004), reproduced by MacTutor History of Mathematics, University of St Andrews",
+   "dcterms:title": "Yule, George Udny (1871-1951), statistician",
+   "schema:url": {
+    "@id": "https://mathshistory.st-andrews.ac.uk/DNB/Yule.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Encyclopedia of Mathematics (EMS / Springer; adapted from A. W. F. Edwards's StatProb article in Heyde & Seneta, Statisticians of the Centuries)",
+   "dcterms:title": "Yule, George Udny",
+   "schema:url": {
+    "@id": "https://encyclopediaofmath.org/wiki/Yule,_George_Udny"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Journal of the Royal Statistical Society 89(1), 1-63 (Yule, 1926), copy hosted at gwern.net",
+   "dcterms:title": "Why do we Sometimes get Nonsense-Correlations between Time-Series? A Study in Sampling and the Nature of Time-Series",
+   "schema:url": {
+    "@id": "https://www.gwern.net/doc/statistics/causality/1926-yule.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/george-udny-yule/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Statistical Science 10(4), 364-376 (Aldrich, 1995), University of Southampton ePrints record",
+   "dcterms:title": "Correlations genuine and spurious in Pearson and Yule",
+   "schema:url": {
+    "@id": "https://eprints.soton.ac.uk/32919"
    }
   },
   {

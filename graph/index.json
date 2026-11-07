@@ -2978,6 +2978,80 @@
   ]
  },
  {
+  "id": "ct:george-udny-yule",
+  "title": "George Udny Yule",
+  "aliases": [
+   "G. Udny Yule",
+   "Udny Yule"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/george-udny-yule.md",
+  "created": "2026-11-07",
+  "summary": "British statistician (1871-1951) who worked with Karl Pearson, described in 1903 the reversal of associations now called Simpson's paradox, and in 1926 showed why trending time series so often produce high but meaningless \"nonsense correlations\".",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:simpsons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:spurious-correlation"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:simpsons-paradox",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:nonsense-correlation",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:yules-q",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:an-introduction-to-the-theory-of-statistics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:karl-pearson",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://mathshistory.st-andrews.ac.uk/DNB/Yule.html",
+   "https://encyclopediaofmath.org/wiki/Yule,_George_Udny",
+   "https://www.gwern.net/doc/statistics/causality/1926-yule.pdf",
+   "https://eprints.soton.ac.uk/32919"
+  ]
+ },
+ {
   "id": "ct:gerd-gigerenzer",
   "title": "Gerd Gigerenzer",
   "aliases": [
