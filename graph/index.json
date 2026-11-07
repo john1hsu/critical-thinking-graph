@@ -1080,6 +1080,86 @@
   ]
  },
  {
+  "id": "ct:baruch-fischhoff",
+  "title": "Baruch Fischhoff",
+  "aliases": [
+   "Fischhoff",
+   "B. Fischhoff"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/baruch-fischhoff.md",
+  "created": "2026-11-07",
+  "summary": "American-Israeli decision scientist (PhD Hebrew University, 1975), Howard Heinz University Professor at Carnegie Mellon, whose 1975 experiments started research on hindsight bias and who, with Sarah Lichtenstein, helped establish overconfidence and calibration research and the study of debiasing.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sarah-lichtenstein"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amos-tversky"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:intelligence-analysis"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:hindsight-bias",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:overconfidence-effect",
+    "source": "s4",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cmu.edu/epp/people/faculty/baruch-fischhoff.html",
+   "https://iphils.uj.edu.pl/~a.trybus/classes/logic/cs/20.Pohl.Hindsight.Bias.pdf",
+   "https://carlsonschool-d8.prd.umn.edu/sites/carlsonschool.umn.edu/files/2019-04/roese_vohs_hindsight_bias_2012_pps_0.pdf",
+   "https://apps.dtic.mil/sti/pdfs/ADA033248.pdf",
+   "https://apps.dtic.mil/sti/pdfs/ADA183753.pdf",
+   "https://oro.open.ac.uk/77280"
+  ]
+ },
+ {
   "id": "ct:base-rate-neglect",
   "title": "Base-rate neglect",
   "aliases": [

@@ -1036,6 +1036,88 @@
    ]
   },
   {
+   "@id": "ct:baruch-fischhoff",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/baruch-fischhoff.md",
+   "cto:introduced": [
+    {
+     "@id": "ct:hindsight-bias"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s6"
+    }
+   ],
+   "rdfs:label": "Baruch Fischhoff",
+   "skos:altLabel": [
+    "B. Fischhoff",
+    "Fischhoff"
+   ],
+   "skos:definition": "American-Israeli decision scientist (PhD Hebrew University, 1975), Howard Heinz University Professor at Carnegie Mellon, whose 1975 experiments started research on hindsight bias and who, with Sarah Lichtenstein, helped establish overconfidence and calibration research and the study of debiasing.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Baruch Fischhoff",
+   "skos:related": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:intelligence-analysis"
+    },
+    {
+     "@id": "ct:risk-communication"
+    },
+    {
+     "@id": "ct:sarah-lichtenstein"
+    }
+   ]
+  },
+  {
    "@id": "ct:base-rate-neglect",
    "@type": "cto:ProbabilisticFallacy",
    "cto:challengedBy": {
@@ -9987,6 +10069,90 @@
    "dcterms:title": "Psychology of Intelligence Analysis",
    "schema:url": {
     "@id": "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Carnegie Mellon University, Department of Engineering and Public Policy (faculty profile)",
+   "dcterms:title": "Baruch Fischhoff",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/epp/people/faculty/baruch-fischhoff.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Social Cognition 25(1), 1-9 (Blank, Musch & Pohl, 2007), copy hosted by Jagiellonian University",
+   "dcterms:title": "Hindsight Bias: On Being Wise After the Event",
+   "schema:url": {
+    "@id": "https://iphils.uj.edu.pl/~a.trybus/classes/logic/cs/20.Pohl.Hindsight.Bias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science 7(5), 411-426 (Roese & Vohs, 2012), doi:10.1177/1745691612454303, copy hosted by the University of Minnesota",
+   "dcterms:title": "Hindsight Bias",
+   "schema:url": {
+    "@id": "https://carlsonschool-d8.prd.umn.edu/sites/carlsonschool.umn.edu/files/2019-04/roese_vohs_hindsight_bias_2012_pps_0.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Lichtenstein, Fischhoff & Phillips, Oregon Research Institute for DARPA/ONR, August 1976 (DTIC ADA033248)",
+   "dcterms:title": "Calibration of Probabilities: The State of the Art (Technical Report DDI 3)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA033248.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Perceptronics / Decision Research for the Office of Naval Research, 1983 (DTIC ADA183753)",
+   "dcterms:title": "The Psychology of Confidence (Final Report PFTR-1092-83-1)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA183753.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Memory Studies 10(3), 249-260 (Klein, Hegarty & Fischhoff, 2017), doi:10.1177/1750698017701606, Open University repository record",
+   "dcterms:title": "Hindsight 40 years on: An interview with Baruch Fischhoff",
+   "schema:url": {
+    "@id": "https://oro.open.ac.uk/77280"
    }
   },
   {

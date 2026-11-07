@@ -509,6 +509,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#produces> <https://github.com/john1hsu/critical-thinking-graph/id/illusory-correlation> .
 <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2000/01/rdf-schema#label> "Baruch Fischhoff" .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#altLabel> "B. Fischhoff" .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#altLabel> "Fischhoff" .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#definition> "American-Israeli decision scientist (PhD Hebrew University, 1975), Howard Heinz University Professor at Carnegie Mellon, whose 1975 experiments started research on hindsight bias and who, with Sarah Lichtenstein, helped establish overconfidence and calibration research and the study of debiasing." .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#prefLabel> "Baruch Fischhoff" .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/baruch-fischhoff.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Before looking at this evidence, how common is the outcome in the relevant population?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
@@ -3344,6 +3374,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/availability-heuristic/s6> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s1> <http://purl.org/dc/terms/publisher> "Carnegie Mellon University, Department of Engineering and Public Policy (faculty profile)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s1> <http://purl.org/dc/terms/title> "Baruch Fischhoff" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s1> <https://schema.org/url> <https://www.cmu.edu/epp/people/faculty/baruch-fischhoff.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s2> <http://purl.org/dc/terms/publisher> "Social Cognition 25(1), 1-9 (Blank, Musch & Pohl, 2007), copy hosted by Jagiellonian University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s2> <http://purl.org/dc/terms/title> "Hindsight Bias: On Being Wise After the Event" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s2> <https://schema.org/url> <https://iphils.uj.edu.pl/~a.trybus/classes/logic/cs/20.Pohl.Hindsight.Bias.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s3> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 7(5), 411-426 (Roese & Vohs, 2012), doi:10.1177/1745691612454303, copy hosted by the University of Minnesota" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s3> <http://purl.org/dc/terms/title> "Hindsight Bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s3> <https://schema.org/url> <https://carlsonschool-d8.prd.umn.edu/sites/carlsonschool.umn.edu/files/2019-04/roese_vohs_hindsight_bias_2012_pps_0.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s4> <http://purl.org/dc/terms/publisher> "Lichtenstein, Fischhoff & Phillips, Oregon Research Institute for DARPA/ONR, August 1976 (DTIC ADA033248)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s4> <http://purl.org/dc/terms/title> "Calibration of Probabilities: The State of the Art (Technical Report DDI 3)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s4> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/ADA033248.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s5> <http://purl.org/dc/terms/publisher> "Perceptronics / Decision Research for the Office of Naval Research, 1983 (DTIC ADA183753)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s5> <http://purl.org/dc/terms/title> "The Psychology of Confidence (Final Report PFTR-1092-83-1)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s5> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/ADA183753.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s6> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s6> <http://purl.org/dc/terms/publisher> "Memory Studies 10(3), 249-260 (Klein, Hegarty & Fischhoff, 2017), doi:10.1177/1750698017701606, Open University repository record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s6> <http://purl.org/dc/terms/title> "Hindsight 40 years on: An interview with Baruch Fischhoff" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/baruch-fischhoff/s6> <https://schema.org/url> <https://oro.open.ac.uk/77280> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s1> <http://purl.org/dc/terms/publisher> "Oregon Research Institute Research Bulletin 12(4) (Kahneman & Tversky, 1972), University of Oregon Scholars' Bank" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/base-rate-neglect/s1> <http://purl.org/dc/terms/title> "On the Psychology of Prediction" .

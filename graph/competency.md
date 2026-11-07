@@ -98,7 +98,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:misinformation-and-disinformation` | cto:Phenomenon |
 | `ct:modus-tollens` | cto:ReasoningForm |
-| `ct:overconfidence-effect` | cto:CognitiveBias |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:prebunking` | cto:Technique |
 | `ct:primary-and-secondary-sources` | cto:Concept |
