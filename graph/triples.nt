@@ -324,6 +324,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
 <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2000/01/rdf-schema#label> "Argument mapping" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#altLabel> "CAAM" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#altLabel> "argument diagramming" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#altLabel> "argument visualization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#altLabel> "box-and-arrow argument diagrams" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#altLabel> "computer-aided argument mapping" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#definition> "A technique for laying out the inferential structure of an argument as a box-and-arrow diagram, with the main conclusion at the top and reasons, co-premises and objections beneath it, so the structure can be inspected and evaluated." .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#prefLabel> "Argument mapping" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/argument-mapping.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/cullen-2018-argument-visualization-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/argument> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/argument> <http://www.w3.org/2000/01/rdf-schema#label> "Argument" .
@@ -3797,6 +3832,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-effect/s6> <https://schema.org/url> <https://forrt.org/flora-replication-atlas/doi/10.1177/01461672952111004/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s1> <http://purl.org/dc/terms/publisher> "Studies in Critical Thinking, ed. J. A. Blair, Windsor Studies in Argumentation (Davies, Barnett & van Gelder)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s1> <http://purl.org/dc/terms/title> "Using Computer-Aided Argument Mapping to Teach Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s1> <https://schema.org/url> <https://ecampusontario.pressbooks.pub/criticalthinking1234/chapter/introduction/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s2> <http://purl.org/dc/terms/publisher> "Teaching Philosophy 27(2) (Twardy, 2004), author's revised draft" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s2> <http://purl.org/dc/terms/title> "Argument Maps Improve Critical Thinking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s2> <https://schema.org/url> <https://philarchive.org/archive/TWAAMIv1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s3> <http://purl.org/dc/terms/publisher> "npj Science of Learning 3, 21 (Cullen, Fan, van der Brugge & Elga, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s3> <http://purl.org/dc/terms/title> "Improving analytical reasoning and argument understanding: a quasi-experimental field study of argument visualization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s3> <https://schema.org/url> <https://cogtoolslab.github.io/pdf/cullen_npjsol_2018.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s4> <http://purl.org/dc/terms/publisher> "Thinking Skills and Creativity 5(1), 16-22 (Dwyer, Hogan & Stewart, 2010)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s4> <http://purl.org/dc/terms/title> "The evaluation of argument mapping as a learning tool: Comparing the effects of map reading versus text reading on comprehension and recall of arguments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s4> <https://schema.org/url> <https://research.universityofgalway.ie/en/publications/the-evaluation-of-argument-mapping-as-a-learning-tool-comparing-t/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s5> <http://purl.org/dc/terms/publisher> "Metacognition and Learning 7(3), 219-244 (Dwyer, Hogan & Stewart, 2012)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s5> <http://purl.org/dc/terms/title> "An evaluation of argument mapping as a method of enhancing critical thinking performance in e-learning environments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s5> <https://schema.org/url> <https://eprints.teachingandlearning.ie/id/eprint/4011/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/argument/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/argument/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Catarina Dutilh Novaes, 2021)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/argument/s1> <http://purl.org/dc/terms/title> "Argument and Argumentation" .

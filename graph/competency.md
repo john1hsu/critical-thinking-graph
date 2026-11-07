@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:begging-the-question` | cto:InformalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -31,6 +29,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:randomized-controlled-trial` | 2 | confounding, selection-bias |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
+| `ct:argument-mapping` | 1 | Begging the question |
 | `ct:hypothesis-testing` | 1 | Confirmation bias |
 | `ct:key-assumptions-check` | 1 | Confirmation bias |
 | `ct:lateral-reading` | 1 | Misinformation and disinformation |
@@ -68,6 +67,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
+| `ct:argument-mapping` | mixed |  |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:bounded-rationality` | mixed |  |
@@ -85,9 +85,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
 | `ct:outside-view` | mixed | `ct:love-ahiaga-dagbui-2018-cost-overrun-critique` |
 | `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
-| `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
 
-…and 7 more.
+…and 8 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

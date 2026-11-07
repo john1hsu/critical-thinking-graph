@@ -668,6 +668,95 @@
    ]
   },
   {
+   "@id": "ct:argument-mapping",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:intelligence-analysis"
+   },
+   "cto:detects": {
+    "@id": "ct:begging-the-question"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/argumentation/argument-mapping.md",
+   "cto:influencedBy": {
+    "@id": "ct:toulmin-model"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:richard-whately"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:cullen-2018-argument-visualization-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s5"
+    }
+   ],
+   "rdfs:label": "Argument mapping",
+   "skos:altLabel": [
+    "CAAM",
+    "argument diagramming",
+    "argument visualization",
+    "box-and-arrow argument diagrams",
+    "computer-aided argument mapping"
+   ],
+   "skos:broader": {
+    "@id": "ct:argumentation-theory"
+   },
+   "skos:definition": "A technique for laying out the inferential structure of an argument as a box-and-arrow diagram, with the main conclusion at the top and reasons, co-premises and objections beneath it, so the structure can be inspected and evaluated.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Argument mapping",
+   "skos:related": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:enthymeme"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:argumentation-schemes",
    "@type": "cto:Framework",
    "cto:appliedIn": {
@@ -11530,6 +11619,76 @@
    "dcterms:title": "Measures of Anchoring in Estimation Tasks (replication record)",
    "schema:url": {
     "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/01461672952111004/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Studies in Critical Thinking, ed. J. A. Blair, Windsor Studies in Argumentation (Davies, Barnett & van Gelder)",
+   "dcterms:title": "Using Computer-Aided Argument Mapping to Teach Reasoning",
+   "schema:url": {
+    "@id": "https://ecampusontario.pressbooks.pub/criticalthinking1234/chapter/introduction/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Teaching Philosophy 27(2) (Twardy, 2004), author's revised draft",
+   "dcterms:title": "Argument Maps Improve Critical Thinking",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/TWAAMIv1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "npj Science of Learning 3, 21 (Cullen, Fan, van der Brugge & Elga, 2018)",
+   "dcterms:title": "Improving analytical reasoning and argument understanding: a quasi-experimental field study of argument visualization",
+   "schema:url": {
+    "@id": "https://cogtoolslab.github.io/pdf/cullen_npjsol_2018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Thinking Skills and Creativity 5(1), 16-22 (Dwyer, Hogan & Stewart, 2010)",
+   "dcterms:title": "The evaluation of argument mapping as a learning tool: Comparing the effects of map reading versus text reading on comprehension and recall of arguments",
+   "schema:url": {
+    "@id": "https://research.universityofgalway.ie/en/publications/the-evaluation-of-argument-mapping-as-a-learning-tool-comparing-t/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-mapping/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Metacognition and Learning 7(3), 219-244 (Dwyer, Hogan & Stewart, 2012)",
+   "dcterms:title": "An evaluation of argument mapping as a method of enhancing critical thinking performance in e-learning environments",
+   "schema:url": {
+    "@id": "https://eprints.teachingandlearning.ie/id/eprint/4011/"
    }
   },
   {

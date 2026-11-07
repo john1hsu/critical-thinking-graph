@@ -688,6 +688,104 @@
   ]
  },
  {
+  "id": "ct:argument-mapping",
+  "title": "Argument mapping",
+  "aliases": [
+   "argument diagramming",
+   "argument visualization",
+   "computer-aided argument mapping",
+   "CAAM",
+   "box-and-arrow argument diagrams"
+  ],
+  "type": "Technique",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/argumentation/argument-mapping.md",
+  "created": "2026-11-07",
+  "summary": "A technique for laying out the inferential structure of an argument as a box-and-arrow diagram, with the main conclusion at the top and reasons, co-premises and objections beneath it, so the structure can be inspected and evaluated.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:enthymeme"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:begging-the-question",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:toulmin-model",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:richard-whately",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:intelligence-analysis",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:cullen-2018-argument-visualization-study",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ecampusontario.pressbooks.pub/criticalthinking1234/chapter/introduction/",
+   "https://philarchive.org/archive/TWAAMIv1",
+   "https://cogtoolslab.github.io/pdf/cullen_npjsol_2018.pdf",
+   "https://research.universityofgalway.ie/en/publications/the-evaluation-of-argument-mapping-as-a-learning-tool-comparing-t/",
+   "https://eprints.teachingandlearning.ie/id/eprint/4011/"
+  ]
+ },
+ {
   "id": "ct:argumentation-schemes",
   "title": "Argumentation schemes",
   "aliases": [
