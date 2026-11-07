@@ -1342,6 +1342,78 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/epistemology.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do the premises say that anything in the subject class actually exists, or only what would be true of its members?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Could the subject class be empty, as with a rule about cases that have not happened yet?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "If the class is known to have members, has that existence premise been stated so the argument can be checked?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does a Venn diagram of the premises place an X in the region the particular conclusion needs?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "Some employees who beat their quota this quarter will be named in the newsletter." .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ca3> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ca3> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/o3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ca3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Both premises are rules about whoever beats quota; neither says that anyone did." .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "If no one beat quota this quarter, both premises are true and the conclusion is false." .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/o3> <http://www.arg.dundee.ac.uk/aif#claimText> "Adding the premise that at least one employee beat quota makes the argument valid." .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/o3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "All employees who beat their quota this quarter will get a bonus." .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "All employees who get a bonus will be named in the company newsletter." .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2000/01/rdf-schema#label> "Existential fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of existential assumption" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#definition> "The formal fallacy of drawing a particular conclusion, which asserts that something exists, from universal premises that do not assert that their subject class has any members; under the modern (Boolean) reading of categorical propositions, a syllogism with two universal premises and a particular conclusion is invalid unless an existence premise is added." .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Existential fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/existential-fallacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#invalidFormOf> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Are the options offered really the only ones, or has a third course, a compromise or a combination been left out?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
@@ -4235,6 +4307,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2325.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> <http://purl.org/dc/terms/publisher> "Introduction to Logic, Lander University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> <http://purl.org/dc/terms/title> "Existential Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> <https://schema.org/url> <https://philosophy.lander.edu/logic/existential_fall.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s2> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Ciola, rev. 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s2> <http://purl.org/dc/terms/title> "The Traditional Square of Opposition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s2> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/square/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s3> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s3> <http://purl.org/dc/terms/publisher> "PHIL 1440 course notes, University of Colorado" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s3> <http://purl.org/dc/terms/title> "4.5 The Traditional Square of Opposition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s3> <https://schema.org/url> <https://rintintin.colorado.edu/~vancecd/phil1440/square.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s4> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s4> <http://purl.org/dc/terms/publisher> "History and Philosophy of Logic 36(1) (Corcoran & Masoud, 2015), PhilArchive record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s4> <http://purl.org/dc/terms/title> "Existential Import Today: New Metatheorems; Historical, Philosophical, and Pedagogical Misconceptions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s4> <https://schema.org/url> <https://philarchive.org/rec/COREIT> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> <http://purl.org/dc/terms/publisher> "The Fallacy Files (Gary N. Curtis)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> <http://purl.org/dc/terms/title> "The Existential Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> <https://schema.org/url> <https://www.fallacyfiles.org/existent.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://purl.org/dc/terms/publisher> "Logical Reasoning (Dowden, California State University Sacramento), Humanities LibreTexts" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://purl.org/dc/terms/title> "8.11: Glossary" .

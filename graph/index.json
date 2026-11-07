@@ -3076,6 +3076,93 @@
   ]
  },
  {
+  "id": "ct:existential-fallacy",
+  "title": "Existential fallacy",
+  "aliases": [
+   "fallacy of existential assumption"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/existential-fallacy.md",
+  "created": "2026-11-07",
+  "summary": "The formal fallacy of drawing a particular conclusion, which asserts that something exists, from universal premises that do not assert that their subject class has any members; under the modern (Boolean) reading of categorical propositions, a syllogism with two universal premises and a particular conclusion is invalid unless an existence premise is added.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:categorical-syllogism",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:existential-import",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:subalternation",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Do the premises say that anything in the subject class actually exists, or only what would be true of its members?",
+   "Could the subject class be empty, as with a rule about cases that have not happened yet?",
+   "If the class is known to have members, has that existence premise been stated so the argument can be checked?",
+   "Does a Venn diagram of the premises place an X in the region the particular conclusion needs?"
+  ],
+  "source_urls": [
+   "https://philosophy.lander.edu/logic/existential_fall.html",
+   "https://plato.stanford.edu/ENTRIES/square/",
+   "https://rintintin.colorado.edu/~vancecd/phil1440/square.pdf",
+   "https://philarchive.org/rec/COREIT",
+   "https://www.fallacyfiles.org/existent.html"
+  ]
+ },
+ {
   "id": "ct:false-dilemma",
   "title": "False dilemma",
   "aliases": [

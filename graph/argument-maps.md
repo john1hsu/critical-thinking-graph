@@ -87,6 +87,18 @@ flowchart TD
   o2["The conditional names one sufficient route to the target, not the only one."] -. attacks .-> ra
 ```
 
+## Existential fallacy (`ct:existential-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["All employees who beat their quota this quarter will get a bonus."] --> ra{{"invalid"}}
+  p2["All employees who get a bonus will be named in the company newsletter."] --> ra{{"invalid"}}
+  ra --> c["Some employees who beat their quota this quarter will be named in the newsletter."]
+  o1["Both premises are rules about whoever beats quota; neither says that anyone did."] -. attacks .-> ra
+  o2["If no one beat quota this quarter, both premises are true and the conclusion is false."] -. attacks .-> ra
+  o3["Adding the premise that at least one employee beat quota makes the argument valid."] -. attacks .-> ra
+```
+
 ## False dilemma (`ct:false-dilemma`)
 
 ```mermaid
