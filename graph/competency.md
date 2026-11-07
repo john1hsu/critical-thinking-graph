@@ -82,7 +82,9 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:premortem` | mixed |  |
 | `ct:representativeness-heuristic` | mixed | `ct:gerd-gigerenzer` |
 | `ct:representativeness-heuristic` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
-| `ct:sift-method` | mixed |  |
+| `ct:reversible-and-irreversible-decisions` | mixed |  |
+
+…and 1 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -105,6 +107,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:prebunking` | cto:Technique |
 | `ct:primary-and-secondary-sources` | cto:Concept |
 | `ct:randomized-controlled-trial` | cto:Method |
+| `ct:reversible-and-irreversible-decisions` | cto:Concept |
 | `ct:tu-quoque` | cto:InformalFallacy |
 | `ct:undistributed-middle` | cto:FormalFallacy |
 

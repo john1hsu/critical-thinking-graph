@@ -6605,6 +6605,78 @@
    ]
   },
   {
+   "@id": "ct:reversible-and-irreversible-decisions",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:investment-decisions"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:net-present-value-rule"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:gilbert-ebert-2002-changeable-outcomes-study"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/reversible-and-irreversible-decisions.md",
+   "cto:formalizedBy": {
+    "@id": "ct:quasi-option-value"
+   },
+   "cto:level": "introductory",
+   "cto:supportedBy": {
+    "@id": "ct:bullens-van-harreveld-2016-reversibility-review"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s5"
+    }
+   ],
+   "rdfs:label": "Reversible and irreversible decisions",
+   "skos:altLabel": [
+    "Type 1 and Type 2 decisions",
+    "decision reversibility",
+    "one-way and two-way door decisions"
+   ],
+   "skos:broader": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "skos:definition": "The distinction between choices that can be cheaply undone once more is learned and choices that lock in their consequences; it sets how much deliberation, evidence and delay a decision deserves, and it also changes how people feel about a choice after making it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Reversible and irreversible decisions",
+   "skos:related": [
+    {
+     "@id": "ct:affective-forecasting"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:premortem"
+    },
+    {
+     "@id": "ct:sunk-cost-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:richard-whately",
    "@type": "cto:Person",
    "cto:authored": [
@@ -15082,6 +15154,76 @@
    "dcterms:title": "Frequency estimation and semantic ambiguity do not eliminate conjunction bias, when it occurs: Replication and extension of Mellers, Hertwig, and Kahneman (2001)",
    "schema:url": {
     "@id": "https://open.lnu.se/index.php/metapsychology/article/view/2474"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 82(4), 503-514 (Gilbert & Ebert, 2002), author's copy at Harvard University",
+   "dcterms:title": "Decisions and revisions: The affective forecasting of changeable outcomes",
+   "schema:url": {
+    "@id": "https://dtg.sites.fas.harvard.edu/Gilber%20t&%20Ebert%20(DECISIONS%20&%20REVISIONS).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "UC Berkeley, CUDARE Working Paper 1132 (Traeger, 2013), eScholarship",
+   "dcterms:title": "What's the Option?",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt41v56658/qt41v56658.pdf?t=mqg6g5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Princeton University Press (Dixit & Pindyck, 1994), publisher's book page",
+   "dcterms:title": "Investment under Uncertainty",
+   "schema:url": {
+    "@id": "https://press.princeton.edu/node/57666"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Social and Personality Psychology Compass 10(10), 550-560 (Bullens & van Harreveld, 2016), University of Amsterdam repository",
+   "dcterms:title": "Second thoughts about decision reversibility: An empirical overview",
+   "schema:url": {
+    "@id": "https://www.dare.uva.nl/id/a787944c-581e-48e0-a8c4-3f403fac3755"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Amazon.com, Inc., filed with the U.S. Securities and Exchange Commission (Bezos, April 2016)",
+   "dcterms:title": "2015 Letter to Shareholders (Exhibit 99.1 to Form 8-K)",
+   "schema:url": {
+    "@id": "https://sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm"
    }
   },
   {

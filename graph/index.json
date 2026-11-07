@@ -6947,6 +6947,82 @@
   ]
  },
  {
+  "id": "ct:reversible-and-irreversible-decisions",
+  "title": "Reversible and irreversible decisions",
+  "aliases": [
+   "one-way and two-way door decisions",
+   "decision reversibility",
+   "Type 1 and Type 2 decisions"
+  ],
+  "type": "Concept",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/reversible-and-irreversible-decisions.md",
+  "created": "2026-11-07",
+  "summary": "The distinction between choices that can be cheaply undone once more is learned and choices that lock in their consequences; it sets how much deliberation, evidence and delay a decision deserves, and it also changes how people feel about a choice after making it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affective-forecasting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sunk-cost-fallacy"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:quasi-option-value",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:net-present-value-rule",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:investment-decisions",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:gilbert-ebert-2002-changeable-outcomes-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:bullens-van-harreveld-2016-reversibility-review",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://dtg.sites.fas.harvard.edu/Gilber%20t&%20Ebert%20(DECISIONS%20&%20REVISIONS).pdf",
+   "https://escholarship.org/content/qt41v56658/qt41v56658.pdf?t=mqg6g5",
+   "https://press.princeton.edu/node/57666",
+   "https://www.dare.uva.nl/id/a787944c-581e-48e0-a8c4-3f403fac3755",
+   "https://sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm"
+  ]
+ },
+ {
   "id": "ct:richard-whately",
   "title": "Richard Whately",
   "aliases": [
