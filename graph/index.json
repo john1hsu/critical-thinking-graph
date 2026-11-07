@@ -1597,6 +1597,81 @@
   ]
  },
  {
+  "id": "ct:blooms-taxonomy",
+  "title": "Bloom's taxonomy",
+  "aliases": [
+   "Taxonomy of Educational Objectives",
+   "revised Bloom's taxonomy",
+   "Anderson-Krathwohl taxonomy"
+  ],
+  "type": "Framework",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/philosophy-of-reasoning/blooms-taxonomy.md",
+  "created": "2026-11-07",
+  "summary": "A classification of educational objectives, first published by Benjamin Bloom and colleagues in 1956 and revised by Anderson and Krathwohl in 2001, that orders cognitive processes from remembering through understanding, applying, analyzing and evaluating to creating, and is widely used to separate \"lower-order\" from \"higher-order\" thinking in teaching and assessment.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:educational-taxonomy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-education"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:educational-assessment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-report-on-critical-thinking"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:benjamin-bloom",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:taxonomy-of-educational-objectives-handbook-i",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:educational-assessment",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:solo-taxonomy",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:newton-2020-blooms-verb-list-study",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ocw.metu.edu.tr/mod/resource/view.php?id=4265",
+   "https://www.frontiersin.org/article/10.3389/feduc.2020.00107/full",
+   "https://archive.teaching.utoronto.ca/?p=1667",
+   "https://www.britannica.com/topic/Blooms-taxonomy"
+  ]
+ },
+ {
   "id": "ct:bounded-rationality",
   "title": "Bounded rationality",
   "aliases": [

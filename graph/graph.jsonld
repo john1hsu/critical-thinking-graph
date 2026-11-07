@@ -1537,6 +1537,75 @@
    ]
   },
   {
+   "@id": "ct:blooms-taxonomy",
+   "@type": "cto:Framework",
+   "cto:appliedIn": {
+    "@id": "ct:educational-assessment"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:newton-2020-blooms-verb-list-study"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:solo-taxonomy"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/philosophy-of-reasoning/blooms-taxonomy.md",
+   "cto:introducedBy": {
+    "@id": "ct:benjamin-bloom"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:taxonomy-of-educational-objectives-handbook-i"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s4"
+    }
+   ],
+   "rdfs:label": "Bloom's taxonomy",
+   "skos:altLabel": [
+    "Anderson-Krathwohl taxonomy",
+    "Taxonomy of Educational Objectives",
+    "revised Bloom's taxonomy"
+   ],
+   "skos:broader": {
+    "@id": "ct:educational-taxonomy"
+   },
+   "skos:definition": "A classification of educational objectives, first published by Benjamin Bloom and colleagues in 1956 and revised by Anderson and Krathwohl in 2001, that orders cognitive processes from remembering through understanding, applying, analyzing and evaluating to creating, and is widely used to separate \"lower-order\" from \"higher-order\" thinking in teaching and assessment.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Bloom's taxonomy",
+   "skos:related": [
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:delphi-report-on-critical-thinking"
+    },
+    {
+     "@id": "ct:educational-assessment"
+    },
+    {
+     "@id": "ct:metacognition"
+    }
+   ]
+  },
+  {
    "@id": "ct:bounded-rationality",
    "@type": "cto:Concept",
    "cto:contrastsWith": {
@@ -12287,6 +12356,62 @@
    "dcterms:title": "The Bias Blind Spot: Perceptions of Bias in Self Versus Others (replication record)",
    "schema:url": {
     "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/0146167202286008/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Theory Into Practice 41(4), 212-218 (Krathwohl, 2002)",
+   "dcterms:title": "A Revision of Bloom's Taxonomy: An Overview",
+   "schema:url": {
+    "@id": "https://ocw.metu.edu.tr/mod/resource/view.php?id=4265"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Frontiers in Education 5:107 (Newton, Da Silva and Peters, 2020)",
+   "dcterms:title": "A Pragmatic Master List of Action Verbs for Bloom's Taxonomy",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/article/10.3389/feduc.2020.00107/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "University of Toronto, Centre for Teaching Support & Innovation",
+   "dcterms:title": "Appendix C: Taxonomies of Educational Objectives",
+   "schema:url": {
+    "@id": "https://archive.teaching.utoronto.ca/?p=1667"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-07"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (Lasley)",
+   "dcterms:title": "Bloom's taxonomy",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/Blooms-taxonomy"
    }
   },
   {

@@ -56,6 +56,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 | node | status | challenger |
 |---|---|---|
+| `ct:blooms-taxonomy` | contested | `ct:newton-2020-blooms-verb-list-study` |
 | `ct:dual-process-theory` | contested | `ct:de-neys-2023-fast-and-slow-revision` |
 | `ct:dual-process-theory` | contested | `ct:gerd-gigerenzer` |
 | `ct:dual-process-theory` | contested | `ct:keren-schul-2009-two-system-critique` |
@@ -85,9 +86,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:outside-view` | mixed | `ct:love-ahiaga-dagbui-2018-cost-overrun-critique` |
 | `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
 | `ct:prebunking` | mixed | `ct:modirrousta-galian-higham-2023-roc-reanalysis` |
-| `ct:premortem` | mixed |  |
 
-…and 6 more.
+…and 7 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
