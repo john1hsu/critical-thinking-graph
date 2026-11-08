@@ -2133,6 +2133,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2000/01/rdf-schema#label> "Framing effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "framing bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "risky-choice framing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "valence framing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#definition> "The tendency for choices and evaluations to change when the same options or facts are described in logically equivalent but different ways, most often as gains versus losses or as successes versus failures." .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Framing effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/attribute-framing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/foreign-language-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/goal-framing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mandel-2014-framing-quantifier-experiments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mandel-2022-framing-equivalence-commentary> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/tversky-kahneman-1981-asian-disease-problem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/framing-effect.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kuhberger-1998-framing-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-2-replication-project> .
 <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Are these events actually independent, or is there a real mechanism linking one outcome to the next?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
@@ -6128,6 +6163,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s5> <https://schema.org/url> <https://modeltheory.org/papers/2019meta-conditionals.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://purl.org/dc/terms/publisher> "Science 211(4481), 453-458 (Tversky & Kahneman, 1981), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://purl.org/dc/terms/title> "The framing of decisions and the psychology of choice" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/7455683/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s2> <http://purl.org/dc/terms/publisher> "Organizational Behavior and Human Decision Processes 76(2), 149-188 (Levin, Schneider & Gaeth, 1998), USF Digital Commons" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s2> <http://purl.org/dc/terms/title> "All frames are not created equal: A typology of framing effects" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s2> <https://schema.org/url> <https://digitalcommons.usf.edu/psy_facpub/1886/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s3> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 9, 1461 (Mandel & Kapler, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s3> <http://purl.org/dc/terms/title> "Cognitive Style and Frame Susceptibility in Decision-Making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s3> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01461/pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s4> <http://purl.org/dc/terms/publisher> "Behavioral and Brain Sciences 45, e234 (Mandel, 2022), Cambridge Core" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s4> <http://purl.org/dc/terms/title> "Framing, equivalence, and rational inference" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s4> <https://schema.org/url> <https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/framing-equivalence-and-rational-inference/CEAF37EFF44D412C8CC5FB29CEECB71E> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s5> <http://purl.org/dc/terms/publisher> "FORRT Replication Atlas" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s5> <http://purl.org/dc/terms/title> "The Framing of Decisions and the Psychology of Choice (replication record)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s5> <https://schema.org/url> <https://forrt.org/flora-replication-atlas/doi/10.1126/science.7455683/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s6> <http://purl.org/dc/terms/publisher> "MIT OpenCourseWare, 9.59J Lab in Psycholinguistics (Spring 2017)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s6> <http://purl.org/dc/terms/title> "The Foreign-Language Effect: Thinking in a Foreign Tongue Reduces Decision Biases (lecture 12)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s6> <https://schema.org/url> <https://ocw.mit.edu/courses/9-59j-lab-in-psycholinguistics-spring-2017/6526aafa6c124f893a8b0795bba9a58d_MIT9_59jS17_lec12.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> <http://purl.org/dc/terms/publisher> "Journal of Risk and Uncertainty 30(3), 195-209 (Croson & Sundali, 2005), UC Berkeley Statistics course copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s1> <http://purl.org/dc/terms/title> "The Gambler's Fallacy and the Hot Hand: Empirical Data from Casinos" .

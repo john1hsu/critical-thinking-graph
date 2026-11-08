@@ -4470,6 +4470,105 @@
    ]
   },
   {
+   "@id": "ct:framing-effect",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:mandel-2014-framing-quantifier-experiments"
+    },
+    {
+     "@id": "ct:mandel-2022-framing-equivalence-commentary"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:tversky-kahneman-1981-asian-disease-problem"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": {
+    "@id": "ct:prospect-theory"
+   },
+   "cto:file": "articles/cognitive-biases/framing-effect.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:supportedBy": [
+    {
+     "@id": "ct:kuhberger-1998-framing-meta-analysis"
+    },
+    {
+     "@id": "ct:many-labs-2-replication-project"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s6"
+    }
+   ],
+   "rdfs:label": "Framing effect",
+   "skos:altLabel": [
+    "framing bias",
+    "risky-choice framing",
+    "valence framing"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency for choices and evaluations to change when the same options or facts are described in logically equivalent but different ways, most often as gains versus losses or as successes versus failures.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Framing effect",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:attribute-framing"
+    },
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:foreign-language-effect"
+    },
+    {
+     "@id": "ct:goal-framing"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:numeracy"
+    }
+   ]
+  },
+  {
    "@id": "ct:gamblers-fallacy",
    "@type": "cto:ProbabilisticFallacy",
    "cto:contrastsWith": {
@@ -17407,6 +17506,90 @@
    "dcterms:title": "A Meta-Analysis of Conditional Reasoning",
    "schema:url": {
     "@id": "https://modeltheory.org/papers/2019meta-conditionals.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Science 211(4481), 453-458 (Tversky & Kahneman, 1981), PubMed record",
+   "dcterms:title": "The framing of decisions and the psychology of choice",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/7455683/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Organizational Behavior and Human Decision Processes 76(2), 149-188 (Levin, Schneider & Gaeth, 1998), USF Digital Commons",
+   "dcterms:title": "All frames are not created equal: A typology of framing effects",
+   "schema:url": {
+    "@id": "https://digitalcommons.usf.edu/psy_facpub/1886/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 9, 1461 (Mandel & Kapler, 2018)",
+   "dcterms:title": "Cognitive Style and Frame Susceptibility in Decision-Making",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01461/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Behavioral and Brain Sciences 45, e234 (Mandel, 2022), Cambridge Core",
+   "dcterms:title": "Framing, equivalence, and rational inference",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/framing-equivalence-and-rational-inference/CEAF37EFF44D412C8CC5FB29CEECB71E"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "FORRT Replication Atlas",
+   "dcterms:title": "The Framing of Decisions and the Psychology of Choice (replication record)",
+   "schema:url": {
+    "@id": "https://forrt.org/flora-replication-atlas/doi/10.1126/science.7455683/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "MIT OpenCourseWare, 9.59J Lab in Psycholinguistics (Spring 2017)",
+   "dcterms:title": "The Foreign-Language Effect: Thinking in a Foreign Tongue Reduces Decision Biases (lecture 12)",
+   "schema:url": {
+    "@id": "https://ocw.mit.edu/courses/9-59j-lab-in-psycholinguistics-spring-2017/6526aafa6c124f893a8b0795bba9a58d_MIT9_59jS17_lec12.pdf"
    }
   },
   {

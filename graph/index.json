@@ -4718,6 +4718,113 @@
   ]
  },
  {
+  "id": "ct:framing-effect",
+  "title": "Framing effect",
+  "aliases": [
+   "framing bias",
+   "valence framing",
+   "risky-choice framing"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/framing-effect.md",
+  "created": "2026-11-08",
+  "summary": "The tendency for choices and evaluations to change when the same options or facts are described in logically equivalent but different ways, most often as gains versus losses or as successes versus failures.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:attribute-framing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:goal-framing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:foreign-language-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:prospect-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:tversky-kahneman-1981-asian-disease-problem",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:kuhberger-1998-framing-meta-analysis",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:many-labs-2-replication-project",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:mandel-2014-framing-quantifier-experiments",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:mandel-2022-framing-equivalence-commentary",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/7455683/",
+   "https://digitalcommons.usf.edu/psy_facpub/1886/",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01461/pdf",
+   "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/framing-equivalence-and-rational-inference/CEAF37EFF44D412C8CC5FB29CEECB71E",
+   "https://forrt.org/flora-replication-atlas/doi/10.1126/science.7455683/",
+   "https://ocw.mit.edu/courses/9-59j-lab-in-psycholinguistics-spring-2017/6526aafa6c124f893a8b0795bba9a58d_MIT9_59jS17_lec12.pdf"
+  ]
+ },
+ {
   "id": "ct:gamblers-fallacy",
   "title": "Gambler's fallacy",
   "aliases": [
