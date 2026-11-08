@@ -14,7 +14,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 
 | remedy | covers | targets |
 |---|---|---|
-| `ct:consider-the-opposite` | 4 | Anchoring effect, Overconfidence effect, biased-assimilation, hindsight-bias |
+| `ct:consider-the-opposite` | 4 | Anchoring effect, Hindsight bias, Overconfidence effect, biased-assimilation |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, Confirmation bias, fundamental-attribution-error |
 | `ct:outside-view` | 3 | Base-rate neglect, Representativeness heuristic, planning-fallacy |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |

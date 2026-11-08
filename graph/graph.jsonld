@@ -4362,6 +4362,91 @@
    ]
   },
   {
+   "@id": "ct:hindsight-bias",
+   "@type": "cto:CognitiveBias",
+   "cto:amplifies": {
+    "@id": "ct:overconfidence-effect"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:seda-2025-hindsight-bias-replication"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:fischhoff-1975-hindsight-experiments"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:processing-fluency"
+    },
+    {
+     "@id": "ct:raft-model"
+    }
+   ],
+   "cto:file": "articles/cognitive-biases/hindsight-bias.md",
+   "cto:introducedBy": {
+    "@id": "ct:baruch-fischhoff"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:chen-2021-hindsight-bias-replications"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s5"
+    }
+   ],
+   "rdfs:label": "Hindsight bias",
+   "skos:altLabel": [
+    "creeping determinism",
+    "knew-it-all-along effect"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency, once an outcome is known, to judge it as having been more predictable, more inevitable and more obvious beforehand than it actually was, and to misremember one's earlier predictions as closer to the outcome.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Hindsight bias",
+   "skos:related": [
+    {
+     "@id": "ct:bias-blind-spot"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:premortem"
+    }
+   ]
+  },
+  {
    "@id": "ct:hypothesis-testing",
    "@type": "cto:Method",
    "cto:challengedBy": {
@@ -15599,6 +15684,76 @@
    "dcterms:title": "Daniel Kahneman, Prize Lecture: Maps of Bounded Rationality (8 December 2002)",
    "schema:url": {
     "@id": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Social Cognition 25(1), 1-9 (Blank, Musch & Pohl, 2007), copy hosted by Jagiellonian University",
+   "dcterms:title": "Hindsight Bias: On Being Wise After the Event",
+   "schema:url": {
+    "@id": "https://iphils.uj.edu.pl/~a.trybus/classes/logic/cs/20.Pohl.Hindsight.Bias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science 7(5), 411-426 (Roese & Vohs, 2012), doi:10.1177/1745691612454303, copy hosted by the University of Minnesota",
+   "dcterms:title": "Hindsight Bias",
+   "schema:url": {
+    "@id": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2026-01/vohs-et-al-2012-hindsight-bias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Memory 11(4/5), 357-377 (Hertwig, Fanselow & Hoffrage, 2003), Max Planck Society repository",
+   "dcterms:title": "Hindsight bias: How knowledge and heuristics affect our reconstruction of the past",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2101638_6/component/file_2101637/RH_Hindsight_2003.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "FORRT Replication Atlas",
+   "dcterms:title": "Hindsight is not equal to foresight (Fischhoff, 1975): replication record",
+   "schema:url": {
+    "@id": "https://forrt.org/flora-replication-atlas/doi/10.1037/0096-1523.1.3.288/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Proceedings of the Annual Meeting of the Cognitive Science Society 45, 3187-3193 (Munnich et al., 2023), eScholarship, University of California",
+   "dcterms:title": "Considering Alternative Outcomes of Research: Does Knowing the Actual Outcome Create Bias?",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt4w1069qh/qt4w1069qh.pdf?t=rxyb4b"
    }
   },
   {

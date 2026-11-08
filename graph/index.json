@@ -4599,6 +4599,103 @@
   ]
  },
  {
+  "id": "ct:hindsight-bias",
+  "title": "Hindsight bias",
+  "aliases": [
+   "knew-it-all-along effect",
+   "creeping determinism"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/hindsight-bias.md",
+  "created": "2026-11-08",
+  "summary": "The tendency, once an outcome is known, to judge it as having been more predictable, more inevitable and more obvious beforehand than it actually was, and to misremember one's earlier predictions as closer to the outcome.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:baruch-fischhoff",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:fischhoff-1975-hindsight-experiments",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:raft-model",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:processing-fluency",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:amplifies",
+    "object": "ct:overconfidence-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:chen-2021-hindsight-bias-replications",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:seda-2025-hindsight-bias-replication",
+    "source": "s4",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iphils.uj.edu.pl/~a.trybus/classes/logic/cs/20.Pohl.Hindsight.Bias.pdf",
+   "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2026-01/vohs-et-al-2012-hindsight-bias.pdf",
+   "https://pure.mpg.de/pubman/item/item_2101638_6/component/file_2101637/RH_Hindsight_2003.pdf",
+   "https://forrt.org/flora-replication-atlas/doi/10.1037/0096-1523.1.3.288/",
+   "https://escholarship.org/content/qt4w1069qh/qt4w1069qh.pdf?t=rxyb4b"
+  ]
+ },
+ {
   "id": "ct:hypothesis-testing",
   "title": "Hypothesis testing",
   "aliases": [

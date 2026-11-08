@@ -2058,6 +2058,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2000/01/rdf-schema#label> "Hindsight bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "creeping determinism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "knew-it-all-along effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#definition> "The tendency, once an outcome is known, to judge it as having been more predictable, more inevitable and more obvious beforehand than it actually was, and to misremember one's earlier predictions as closer to the outcome." .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hindsight bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifies> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/seda-2025-hindsight-bias-replication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/fischhoff-1975-hindsight-experiments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/raft-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/hindsight-bias.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/chen-2021-hindsight-bias-replications> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2000/01/rdf-schema#label> "Hypothesis testing" .
@@ -5494,6 +5525,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6> <https://schema.org/url> <https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s1> <http://purl.org/dc/terms/publisher> "Social Cognition 25(1), 1-9 (Blank, Musch & Pohl, 2007), copy hosted by Jagiellonian University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s1> <http://purl.org/dc/terms/title> "Hindsight Bias: On Being Wise After the Event" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s1> <https://schema.org/url> <https://iphils.uj.edu.pl/~a.trybus/classes/logic/cs/20.Pohl.Hindsight.Bias.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s2> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 7(5), 411-426 (Roese & Vohs, 2012), doi:10.1177/1745691612454303, copy hosted by the University of Minnesota" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s2> <http://purl.org/dc/terms/title> "Hindsight Bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s2> <https://schema.org/url> <https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2026-01/vohs-et-al-2012-hindsight-bias.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s3> <http://purl.org/dc/terms/publisher> "Memory 11(4/5), 357-377 (Hertwig, Fanselow & Hoffrage, 2003), Max Planck Society repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s3> <http://purl.org/dc/terms/title> "Hindsight bias: How knowledge and heuristics affect our reconstruction of the past" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s3> <https://schema.org/url> <https://pure.mpg.de/pubman/item/item_2101638_6/component/file_2101637/RH_Hindsight_2003.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s4> <http://purl.org/dc/terms/publisher> "FORRT Replication Atlas" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s4> <http://purl.org/dc/terms/title> "Hindsight is not equal to foresight (Fischhoff, 1975): replication record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s4> <https://schema.org/url> <https://forrt.org/flora-replication-atlas/doi/10.1037/0096-1523.1.3.288/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s5> <http://purl.org/dc/terms/publisher> "Proceedings of the Annual Meeting of the Cognitive Science Society 45, 3187-3193 (Munnich et al., 2023), eScholarship, University of California" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s5> <http://purl.org/dc/terms/title> "Considering Alternative Outcomes of Research: Does Knowing the Actual Outcome Create Bias?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hindsight-bias/s5> <https://schema.org/url> <https://escholarship.org/content/qt4w1069qh/qt4w1069qh.pdf?t=rxyb4b> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Crupi, rev. 2025)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s1> <http://purl.org/dc/terms/title> "Confirmation" .
