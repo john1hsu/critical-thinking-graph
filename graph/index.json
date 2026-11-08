@@ -193,6 +193,93 @@
   ]
  },
  {
+  "id": "ct:affect-heuristic",
+  "title": "Affect heuristic",
+  "aliases": [
+   "affect-as-information heuristic",
+   "risk-as-feelings shortcut"
+  ],
+  "type": "Heuristic",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/affect-heuristic.md",
+  "created": "2026-11-08",
+  "summary": "The mental shortcut of judging risks, benefits and choices by the quick, often automatic feeling of goodness or badness a thing evokes, which makes perceived risk and perceived benefit move in opposite directions even when in reality they are independent or positively related.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:paul-slovic",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:finucane-2000-affect-heuristic-experiments",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:efendic-2022-affect-heuristic-replication",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:skagerlund-2020-affect-heuristic-stability-study",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://core.ac.uk/download/281531018.pdf",
+   "https://researchconnect.stonybrook.edu/en/publications/the-affect-heuristic/",
+   "https://cris.maastrichtuniversity.nl/files/78532275/Efendic_2021_Risky_therefore_not_beneficial_replication.pdf",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00970/full",
+   "https://www.cambridge.org/core/books/heuristics-and-biases/affect-heuristic/6C8083D76EFA5E4053194F7E938518F2"
+  ]
+ },
+ {
   "id": "ct:affirming-a-disjunct",
   "title": "Affirming a disjunct",
   "aliases": [

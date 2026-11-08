@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:affect-heuristic` | cto:Heuristic |
 
 ## Most useful remedies
 
@@ -68,6 +70,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
+| `ct:affect-heuristic` | mixed |  |
 | `ct:argument-mapping` | mixed |  |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
@@ -85,9 +88,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:logical-necessity-instructions` | mixed | `ct:evans-1994-debiasing-by-instruction-experiments` |
 | `ct:metacognition` | mixed |  |
 | `ct:misinformation-and-disinformation` | mixed | `ct:altay-2023-misinformation-on-misinformation` |
-| `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
 
-…and 10 more.
+…and 11 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

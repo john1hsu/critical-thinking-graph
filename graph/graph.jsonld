@@ -189,6 +189,88 @@
    ]
   },
   {
+   "@id": "ct:affect-heuristic",
+   "@type": "cto:Heuristic",
+   "cto:demonstratedBy": {
+    "@id": "ct:finucane-2000-affect-heuristic-experiments"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/heuristics-and-dual-process/affect-heuristic.md",
+   "cto:introducedBy": {
+    "@id": "ct:paul-slovic"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:heuristics-and-biases-program"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": [
+    {
+     "@id": "ct:efendic-2022-affect-heuristic-replication"
+    },
+    {
+     "@id": "ct:skagerlund-2020-affect-heuristic-stability-study"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s5"
+    }
+   ],
+   "rdfs:label": "Affect heuristic",
+   "skos:altLabel": [
+    "affect-as-information heuristic",
+    "risk-as-feelings shortcut"
+   ],
+   "skos:broader": {
+    "@id": "ct:heuristic"
+   },
+   "skos:definition": "The mental shortcut of judging risks, benefits and choices by the quick, often automatic feeling of goodness or badness a thing evokes, which makes perceived risk and perceived benefit move in opposite directions even when in reality they are independent or positively related.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Affect heuristic",
+   "skos:related": [
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    }
+   ]
+  },
+  {
    "@id": "ct:affirming-a-disjunct",
    "@type": "cto:FormalFallacy",
    "cto:confusedWith": {
@@ -12474,6 +12556,76 @@
    "dcterms:title": "Why there is no argumentum ad hominem fallacy",
    "schema:url": {
     "@id": "https://humanities.mcmaster.ca/%7Ehitchckd/adhominemissa.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Journal of Behavioral Decision Making 13, 1-17 (Finucane, Alhakami, Slovic & Johnson, 2000), CORE open-access copy",
+   "dcterms:title": "The affect heuristic in judgments of risks and benefits",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/281531018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "European Journal of Operational Research 177(3), 1333-1352 (Slovic, Finucane, Peters & MacGregor, 2007), Stony Brook University record",
+   "dcterms:title": "The affect heuristic",
+   "schema:url": {
+    "@id": "https://researchconnect.stonybrook.edu/en/publications/the-affect-heuristic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Social Psychological and Personality Science 13(7), 1173-1184 (Efendić, Chandrashekar, Lee, Yeung, Kim, Lee & Feldman, 2022), Maastricht University repository",
+   "dcterms:title": "Risky therefore not beneficial: Replication and extension of Finucane et al.'s (2000) affect heuristic experiment",
+   "schema:url": {
+    "@id": "https://cris.maastrichtuniversity.nl/files/78532275/Efendic_2021_Risky_therefore_not_beneficial_replication.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 11 (Skagerlund, Forsblad, Slovic & Västfjäll, 2020)",
+   "dcterms:title": "The affect heuristic and risk perception: Stability across elicitation methods and individual cognitive abilities",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00970/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affect-heuristic/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Heuristics and Biases: The Psychology of Intuitive Judgment, eds. Gilovich, Griffin & Kahneman, Cambridge University Press, 397-420 (Slovic, Finucane, Peters & MacGregor, 2002)",
+   "dcterms:title": "The affect heuristic (chapter 23)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/heuristics-and-biases/affect-heuristic/6C8083D76EFA5E4053194F7E938518F2"
    }
   },
   {
