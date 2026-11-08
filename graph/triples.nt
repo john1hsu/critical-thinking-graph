@@ -2537,6 +2537,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/agnoiology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2000/01/rdf-schema#label> "John Buridan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#altLabel> "Buridan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#altLabel> "Jean Buridan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#altLabel> "Johannes Buridanus" .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#definition> "Fourteenth-century Paris arts master (c. 1300-c. 1360) and the leading logician of the later Middle Ages, who recast the syllogism as a kind of formal consequence, gave the classic rules for which terms a proposition distributes, and rejected premise pairs whose middle term is never distributed." .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#prefLabel> "John Buridan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/summulae-de-dialectica> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/treatise-on-consequences> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/john-buridan.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peter-of-spain> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> <http://www.w3.org/2000/01/rdf-schema#label> "John Venn" .
@@ -5929,6 +5958,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s4> <https://schema.org/url> <https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ferrier-james-frederick-1808-1864> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Henrik Lagerlund; first published 2004, revised 2022), Summer 2025 edition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s1> <http://purl.org/dc/terms/title> "Medieval Theories of the Syllogism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2025/entries/medieval-syllogism/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Jack Zupko, 2002), Winter 2005 edition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s2> <http://purl.org/dc/terms/title> "John Buridan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/win2005/entries/buridan/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s3> <http://purl.org/dc/terms/publisher> "Encyclopedia of Medieval Philosophy, ed. H. Lagerlund (Springer, 2010), entry by Gyula Klima, author's proof, Fordham University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s3> <http://purl.org/dc/terms/title> "John Buridan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s3> <https://schema.org/url> <https://faculty.fordham.edu/klima/springer/springer-buridan-corr2.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s4> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s4> <http://purl.org/dc/terms/title> "Jean Buridan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s4> <https://schema.org/url> <https://britannica.com/EBchecked/topic/85330/Jean-Buridan> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/john-venn/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/john-venn/s1> <http://purl.org/dc/terms/publisher> "The Encyclopedia of Philosophy (P. L. Heath, 1967), via Encyclopedia.com" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/john-venn/s1> <http://purl.org/dc/terms/title> "Modern Logic: The Boolean Period: Venn" .

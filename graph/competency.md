@@ -112,7 +112,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:reversible-and-irreversible-decisions` | cto:Concept |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:tu-quoque` | cto:InformalFallacy |
-| `ct:undistributed-middle` | cto:FormalFallacy |
 
 ## Orphan articles (gap)
 

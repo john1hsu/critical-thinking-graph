@@ -5373,6 +5373,85 @@
    }
   },
   {
+   "@id": "ct:john-buridan",
+   "@type": "cto:Person",
+   "cto:authored": [
+    {
+     "@id": "ct:summulae-de-dialectica"
+    },
+    {
+     "@id": "ct:treatise-on-consequences"
+    }
+   ],
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/john-buridan.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:peter-of-spain"
+    }
+   ],
+   "cto:introduced": {
+    "@id": "ct:undistributed-middle"
+   },
+   "cto:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s4"
+    }
+   ],
+   "rdfs:label": "John Buridan",
+   "skos:altLabel": [
+    "Buridan",
+    "Jean Buridan",
+    "Johannes Buridanus"
+   ],
+   "skos:definition": "Fourteenth-century Paris arts master (c. 1300-c. 1360) and the leading logician of the later Middle Ages, who recast the syllogism as a kind of formal consequence, gave the classic rules for which terms a proposition distributes, and rejected premise pairs whose middle term is never distributed.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "John Buridan",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:port-royal-logic"
+    },
+    {
+     "@id": "ct:rules-of-the-categorical-syllogism"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:william-of-ockham"
+    }
+   ]
+  },
+  {
    "@id": "ct:john-venn",
    "@type": "cto:Person",
    "cto:authored": {
@@ -16673,6 +16752,62 @@
    "dcterms:title": "Ferrier, James Frederick (1808-1864)",
    "schema:url": {
     "@id": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ferrier-james-frederick-1808-1864"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Henrik Lagerlund; first published 2004, revised 2022), Summer 2025 edition",
+   "dcterms:title": "Medieval Theories of the Syllogism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2025/entries/medieval-syllogism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Jack Zupko, 2002), Winter 2005 edition",
+   "dcterms:title": "John Buridan",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/win2005/entries/buridan/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Encyclopedia of Medieval Philosophy, ed. H. Lagerlund (Springer, 2010), entry by Gyula Klima, author's proof, Fordham University",
+   "dcterms:title": "John Buridan",
+   "schema:url": {
+    "@id": "https://faculty.fordham.edu/klima/springer/springer-buridan-corr2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-buridan/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Jean Buridan",
+   "schema:url": {
+    "@id": "https://britannica.com/EBchecked/topic/85330/Jean-Buridan"
    }
   },
   {

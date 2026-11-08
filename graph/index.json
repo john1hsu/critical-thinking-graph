@@ -5695,6 +5695,89 @@
   ]
  },
  {
+  "id": "ct:john-buridan",
+  "title": "John Buridan",
+  "aliases": [
+   "Jean Buridan",
+   "Johannes Buridanus",
+   "Buridan"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/john-buridan.md",
+  "created": "2026-11-08",
+  "summary": "Fourteenth-century Paris arts master (c. 1300-c. 1360) and the leading logician of the later Middle Ages, who recast the syllogism as a kind of formal consequence, gave the classic rules for which terms a proposition distributes, and rejected premise pairs whose middle term is never distributed.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:william-of-ockham"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:port-royal-logic"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:undistributed-middle",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:summulae-de-dialectica",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:treatise-on-consequences",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:aristotle",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:peter-of-spain",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/sum2025/entries/medieval-syllogism/",
+   "https://plato.stanford.edu/archives/win2005/entries/buridan/",
+   "https://faculty.fordham.edu/klima/springer/springer-buridan-corr2.pdf",
+   "https://britannica.com/EBchecked/topic/85330/Jean-Buridan"
+  ]
+ },
+ {
   "id": "ct:john-venn",
   "title": "John Venn",
   "aliases": [
