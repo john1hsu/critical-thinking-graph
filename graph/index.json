@@ -3782,6 +3782,117 @@
   ]
  },
  {
+  "id": "ct:formal-fallacy",
+  "title": "Formal fallacy",
+  "aliases": [
+   "formal fallacies",
+   "deductive fallacy",
+   "fallacy of form",
+   "logical fallacy of form"
+  ],
+  "type": "Concept",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/formal-fallacy.md",
+  "created": "2026-11-08",
+  "summary": "An argument that is deductively invalid because of its logical structure: it instantiates an invalid form, so any argument with the same form can have true premises and a false conclusion, whatever its subject matter.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-a-disjunct"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:formal-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:sophistical-refutations",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gerald-massey",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.britannica.com/topic/fallacy/Introduction",
+   "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/314/2/Logic%20text%20v%201.4.pdf",
+   "https://ecampusontario.pressbooks.pub/wsia062018/chapter/9/",
+   "https://revistasojs.ucaldas.edu.co/index.php/discusionesfilosoficas/article/download/617/541",
+   "https://modeltheory.org/papers/2019meta-conditionals.pdf"
+  ]
+ },
+ {
   "id": "ct:gamblers-fallacy",
   "title": "Gambler's fallacy",
   "aliases": [

@@ -3595,6 +3595,110 @@
    ]
   },
   {
+   "@id": "ct:formal-fallacy",
+   "@type": "cto:Concept",
+   "cto:challengedBy": {
+    "@id": "ct:gerald-massey"
+   },
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-fallacies/formal-fallacy.md",
+   "cto:influencedBy": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:studiedIn": [
+    {
+     "@id": "ct:cognitive-psychology"
+    },
+    {
+     "@id": "ct:formal-logic"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s5"
+    }
+   ],
+   "rdfs:label": "Formal fallacy",
+   "skos:altLabel": [
+    "deductive fallacy",
+    "fallacy of form",
+    "formal fallacies",
+    "logical fallacy of form"
+   ],
+   "skos:broader": {
+    "@id": "ct:fallacy"
+   },
+   "skos:definition": "An argument that is deductively invalid because of its logical structure: it instantiates an invalid form, so any argument with the same form can have true premises and a false conclusion, whatever its subject matter.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Formal fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-a-disjunct"
+    },
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:existential-fallacy"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:truth-table"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:gamblers-fallacy",
    "@type": "cto:ProbabilisticFallacy",
    "cto:contrastsWith": {
@@ -14471,6 +14575,76 @@
    "dcterms:title": "Underdetermination of Scientific Theory",
    "schema:url": {
     "@id": "https://plato.stanford.edu/entries/scientific-underdetermination/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (Rescher & Schagrin)",
+   "dcterms:title": "Fallacy",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/fallacy/Introduction"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Matthew J. Van Cleave, Lansing Community College (open textbook, eCampusOntario Open Library)",
+   "dcterms:title": "Introduction to Logic and Critical Thinking, Version 1.4 (section 4.1, Formal vs. informal fallacies)",
+   "schema:url": {
+    "@id": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/314/2/Logic%20text%20v%201.4.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Windsor Studies in Argumentation, University of Windsor (Govier, 2018 edition)",
+   "dcterms:title": "Four Reasons There are No Fallacies?, in Problems in Argument Analysis and Evaluation",
+   "schema:url": {
+    "@id": "https://ecampusontario.pressbooks.pub/wsia062018/chapter/9/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Discusiones Filosóficas 12(19), 87-97 (García Duque, 2011), Universidad de Caldas",
+   "dcterms:title": "¿Hay instancias válidas de la falacia de afirmación del consecuente? (Are there valid instances of the fallacy of affirmation of the consequent?)",
+   "schema:url": {
+    "@id": "https://revistasojs.ucaldas.edu.co/index.php/discusionesfilosoficas/article/download/617/541"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "International Conference on Cognitive Modeling, ICCM 2019 (Ragni, Dames & Johnson-Laird), authors' copy",
+   "dcterms:title": "A Meta-Analysis of Conditional Reasoning",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/2019meta-conditionals.pdf"
    }
   },
   {

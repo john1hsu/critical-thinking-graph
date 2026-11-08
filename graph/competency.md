@@ -104,6 +104,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 |---|---|
 | `ct:affirming-a-disjunct` | cto:FormalFallacy |
 | `ct:existential-fallacy` | cto:FormalFallacy |
+| `ct:formal-fallacy` | cto:Concept |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modus-tollens` | cto:ReasoningForm |
