@@ -10227,6 +10227,90 @@
    ]
   },
   {
+   "@id": "ct:square-of-opposition",
+   "@type": "cto:Concept",
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/square-of-opposition.md",
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:de-interpretatione"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:categorical-proposition"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:formal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5"
+    }
+   ],
+   "rdfs:label": "Square of opposition",
+   "skos:altLabel": [
+    "Aristotelian square",
+    "logical square",
+    "traditional square of opposition"
+   ],
+   "skos:broader": {
+    "@id": "ct:categorical-proposition"
+   },
+   "skos:definition": "A diagram that arranges the four categorical statement forms (A, E, I, O) at the corners of a square and labels the logical relations between them: contradictories, contraries, subcontraries and subalterns, which together license immediate inferences from the truth or falsity of one statement to the others.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Square of opposition",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:boethius"
+    },
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:existential-fallacy"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:john-buridan"
+    },
+    {
+     "@id": "ct:prior-analytics"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:statistical-reasoning-training",
    "@type": "cto:Technique",
    "cto:counteracts": [
@@ -22209,6 +22293,76 @@
    "dcterms:title": "Epistemological Problems of Testimony",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2020/entries/testimony-episprob/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Ciola and Parsons, rev. 2025; Fall 2026 archive edition)",
+   "dcterms:title": "The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/fall2026/entries/square/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Square of Opposition",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/sqr-opp/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Kathy Eldred, Pima Community College Open Press (2024, CC BY-NC 4.0)",
+   "dcterms:title": "3.2 The Square of Opposition (An Introduction to Logic)",
+   "schema:url": {
+    "@id": "https://pimaopen.pressbooks.pub/intrologic/?p=818"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Saul Traiger, Occidental College",
+   "dcterms:title": "The Traditional Square (Logic Primer, chapter 8)",
+   "schema:url": {
+    "@id": "https://sites.oxy.edu/traiger/logic/primer/chapter8/traditional-square.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Saul Traiger, Occidental College",
+   "dcterms:title": "The Revised Square (Logic Primer, chapter 8)",
+   "schema:url": {
+    "@id": "https://sites.oxy.edu/traiger/logic/primer/chapter8/revised-square.html"
    }
   },
   {

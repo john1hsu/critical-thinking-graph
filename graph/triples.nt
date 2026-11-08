@@ -8222,6 +8222,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2020/entries/testimony-episprob/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Ciola and Parsons, rev. 2025; Fall 2026 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s1> <http://purl.org/dc/terms/title> "The Traditional Square of Opposition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/fall2026/entries/square/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s2> <http://purl.org/dc/terms/title> "Square of Opposition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s2> <https://schema.org/url> <https://iep.utm.edu/sqr-opp/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s3> <http://purl.org/dc/terms/publisher> "Kathy Eldred, Pima Community College Open Press (2024, CC BY-NC 4.0)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s3> <http://purl.org/dc/terms/title> "3.2 The Square of Opposition (An Introduction to Logic)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s3> <https://schema.org/url> <https://pimaopen.pressbooks.pub/intrologic/?p=818> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s4> <http://purl.org/dc/terms/publisher> "Saul Traiger, Occidental College" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s4> <http://purl.org/dc/terms/title> "The Traditional Square (Logic Primer, chapter 8)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s4> <https://schema.org/url> <https://sites.oxy.edu/traiger/logic/primer/chapter8/traditional-square.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> <http://purl.org/dc/terms/publisher> "Saul Traiger, Occidental College" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> <http://purl.org/dc/terms/title> "The Revised Square (Logic Primer, chapter 8)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> <https://schema.org/url> <https://sites.oxy.edu/traiger/logic/primer/chapter8/revised-square.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1> <http://purl.org/dc/terms/publisher> "Cognitive Psychology 18(3), 253-292 (Fong, Krantz & Nisbett, 1986), University of Michigan Deep Blue copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1> <http://purl.org/dc/terms/title> "The effects of statistical training on thinking about everyday problems" .
@@ -8708,6 +8738,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <https://schema.org/url> <https://www.britannica.com/biography/William-Whewell> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2000/01/rdf-schema#label> "Square of opposition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#altLabel> "Aristotelian square" .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#altLabel> "logical square" .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#altLabel> "traditional square of opposition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#definition> "A diagram that arranges the four categorical statement forms (A, E, I, O) at the corners of a square and labels the logical relations between them: contradictories, contraries, subcontraries and subalterns, which together license immediate inferences from the truth or falsity of one statement to the others." .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#prefLabel> "Square of opposition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/boethius> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/square-of-opposition.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/de-interpretatione> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <http://www.w3.org/2000/01/rdf-schema#label> "Statistical reasoning training" .

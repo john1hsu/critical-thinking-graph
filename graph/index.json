@@ -10797,6 +10797,94 @@
   ]
  },
  {
+  "id": "ct:square-of-opposition",
+  "title": "Square of opposition",
+  "aliases": [
+   "traditional square of opposition",
+   "Aristotelian square",
+   "logical square"
+  ],
+  "type": "Concept",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/square-of-opposition.md",
+  "created": "2026-11-08",
+  "summary": "A diagram that arranges the four categorical statement forms (A, E, I, O) at the corners of a square and labels the logical relations between them: contradictories, contraries, subcontraries and subalterns, which together license immediate inferences from the truth or falsity of one statement to the others.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:boethius"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:john-buridan"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prior-analytics"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:de-interpretatione",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:formal-logic",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/fall2026/entries/square/",
+   "https://iep.utm.edu/sqr-opp/",
+   "https://pimaopen.pressbooks.pub/intrologic/?p=818",
+   "https://sites.oxy.edu/traiger/logic/primer/chapter8/traditional-square.html",
+   "https://sites.oxy.edu/traiger/logic/primer/chapter8/revised-square.html"
+  ]
+ },
+ {
   "id": "ct:statistical-reasoning-training",
   "title": "Statistical reasoning training",
   "aliases": [
