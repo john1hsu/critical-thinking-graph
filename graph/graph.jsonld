@@ -6343,6 +6343,67 @@
    ]
   },
   {
+   "@id": "ct:leopold-von-ranke",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:zur-kritik-neuerer-geschichtschreiber"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/leopold-von-ranke.md",
+   "cto:influencedBy": {
+    "@id": "ct:barthold-georg-niebuhr"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:historical-seminar"
+    },
+    {
+     "@id": "ct:primary-and-secondary-sources"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:historiography"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3"
+    }
+   ],
+   "rdfs:label": "Leopold von Ranke",
+   "skos:altLabel": [
+    "Leopold Ranke",
+    "Ranke"
+   ],
+   "skos:definition": "German historian (1795-1886) whose 1824 critique of earlier historians made the questions \"was this writer a firsthand witness, and is this account original or borrowed?\" the starting point of historical method, and whose Berlin seminar trained the first generation of professional, source-critical historians.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Leopold von Ranke",
+   "skos:related": [
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:william-whewell"
+    }
+   ]
+  },
+  {
    "@id": "ct:logical-necessity-instructions",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -18428,6 +18489,48 @@
    "dcterms:title": "Lateral Reading on the Open Internet (citation record)",
    "schema:url": {
     "@id": "https://mediawell.ssrc.org/?p=510382"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "History of Humanities 4(2), 257–262 (Kasper Risbjerg Eskildsen, 2019), doi:10.1086/704812, Roskilde University repository copy",
+   "dcterms:title": "Leopold Von Ranke (1795–1886): Criticizing an Early Modern Historian",
+   "schema:url": {
+    "@id": "https://rucforsk.ruc.dk/ws/files/75942451/704812.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Leopold von Ranke",
+   "schema:url": {
+    "@id": "https://www.britannica.com/biography/Leopold-von-Ranke"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "eSharp, Historical Perspectives special issue, University of Glasgow (Andreas Boldt)",
+   "dcterms:title": "Perception, Depiction and Description of European History: Leopold von Ranke and his Development and Understanding of Modern Historical Writing",
+   "schema:url": {
+    "@id": "https://www.gla.ac.uk/media/media_64280_en.pdf"
    }
   },
   {

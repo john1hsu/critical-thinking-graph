@@ -6704,6 +6704,71 @@
   ]
  },
  {
+  "id": "ct:leopold-von-ranke",
+  "title": "Leopold von Ranke",
+  "aliases": [
+   "Ranke",
+   "Leopold Ranke"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/leopold-von-ranke.md",
+  "created": "2026-11-08",
+  "summary": "German historian (1795-1886) whose 1824 critique of earlier historians made the questions \"was this writer a firsthand witness, and is this account original or borrowed?\" the starting point of historical method, and whose Berlin seminar trained the first generation of professional, source-critical historians.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:william-whewell"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:primary-and-secondary-sources",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:historical-seminar",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:zur-kritik-neuerer-geschichtschreiber",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:barthold-georg-niebuhr",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:historiography",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://rucforsk.ruc.dk/ws/files/75942451/704812.pdf",
+   "https://www.britannica.com/biography/Leopold-von-Ranke",
+   "https://www.gla.ac.uk/media/media_64280_en.pdf"
+  ]
+ },
+ {
   "id": "ct:logical-necessity-instructions",
   "title": "Logical necessity instructions",
   "aliases": [

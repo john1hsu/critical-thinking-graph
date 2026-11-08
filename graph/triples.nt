@@ -2897,6 +2897,29 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> .
 <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2000/01/rdf-schema#label> "Leopold von Ranke" .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2004/02/skos/core#altLabel> "Leopold Ranke" .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2004/02/skos/core#altLabel> "Ranke" .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2004/02/skos/core#definition> "German historian (1795-1886) whose 1824 critique of earlier historians made the questions \"was this writer a firsthand witness, and is this account original or borrowed?\" the starting point of historical method, and whose Berlin seminar trained the first generation of professional, source-critical historians." .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2004/02/skos/core#prefLabel> "Leopold von Ranke" .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/zur-kritik-neuerer-geschichtschreiber> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/leopold-von-ranke.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/barthold-georg-niebuhr> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/historical-seminar> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/historiography> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> <http://www.w3.org/2000/01/rdf-schema#label> "Logical necessity instructions" .
@@ -6626,6 +6649,24 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/lateral-reading/s6> <https://schema.org/url> <https://mediawell.ssrc.org/?p=510382> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> <http://purl.org/dc/terms/publisher> "History of Humanities 4(2), 257–262 (Kasper Risbjerg Eskildsen, 2019), doi:10.1086/704812, Roskilde University repository copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> <http://purl.org/dc/terms/title> "Leopold Von Ranke (1795–1886): Criticizing an Early Modern Historian" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> <https://schema.org/url> <https://rucforsk.ruc.dk/ws/files/75942451/704812.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s2> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s2> <http://purl.org/dc/terms/title> "Leopold von Ranke" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s2> <https://schema.org/url> <https://www.britannica.com/biography/Leopold-von-Ranke> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <http://purl.org/dc/terms/publisher> "eSharp, Historical Perspectives special issue, University of Glasgow (Andreas Boldt)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <http://purl.org/dc/terms/title> "Perception, Depiction and Description of European History: Leopold von Ranke and his Development and Understanding of Modern Historical Writing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <https://schema.org/url> <https://www.gla.ac.uk/media/media_64280_en.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s1> <http://purl.org/dc/terms/publisher> "European Journal of Cognitive Psychology 6(3), 263-285 (Evans, Newstead, Allen & Pollard, 1994), Leeds Trinity University research portal" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s1> <http://purl.org/dc/terms/title> "Debiasing by instruction: The case of belief bias" .

@@ -113,7 +113,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
-| `ct:primary-and-secondary-sources` | cto:Concept |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
 | `ct:tu-quoque` | cto:InformalFallacy |
