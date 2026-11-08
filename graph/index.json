@@ -1421,6 +1421,85 @@
   ]
  },
  {
+  "id": "ct:bayesian-reasoning",
+  "title": "Bayesian reasoning",
+  "aliases": [
+   "Bayesian inference",
+   "Bayesian updating",
+   "Bayesian belief revision",
+   "conditionalization"
+  ],
+  "type": "ReasoningMode",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/bayesian-reasoning.md",
+  "created": "2026-11-08",
+  "summary": "Reasoning that treats beliefs as degrees of probability and revises them in light of evidence by Bayes' theorem: the probability of a hypothesis after the evidence combines its prior probability with how much more likely the evidence is if the hypothesis is true than if it is false.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inference-to-the-best-explanation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:thomas-bayes",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:problem-of-old-evidence",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/Sum2006/entries/epistemology-bayesian/",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01833/pdf",
+   "https://plato.stanford.edu/archives/spr2018/entries/bayes-theorem/",
+   "https://escholarship.org/content/qt5s9754p5/qt5s9754p5.pdf",
+   "https://www.york.ac.uk/depts/maths/histstat/essay.htm"
+  ]
+ },
+ {
   "id": "ct:begging-the-question",
   "title": "Begging the question",
   "aliases": [

@@ -56,6 +56,19 @@ flowchart TD
   o1["Only about 1 in 1,000 accounts is compromised, so most flags are false alarms and the real probability is under 5%."] -. attacks .-> ra
 ```
 
+## Bayesian reasoning (`ct:bayesian-reasoning`)
+
+```mermaid
+flowchart TD
+  p1["About 1% of the card transactions our team reviews turn out to be fraudulent."] --> ra{{"valid"}}
+  p2["The new alert rule flags 90% of fraudulent transactions."] --> ra{{"valid"}}
+  p3["It also flags 9% of legitimate transactions."] --> ra{{"valid"}}
+  p4["This transaction was flagged."] --> ra{{"valid"}}
+  ra --> c["This transaction is probably legitimate: only about 9% of flagged transactions are fraud."]
+  o1["If the 1% base rate was measured on a different customer segment, the posterior may be badly off."] -. attacks .-> ra
+  o2["Two independent alerts on the same transaction would raise the probability sharply; a second check is cheap."] -. attacks .-> ra
+```
+
 ## Begging the question (`ct:begging-the-question`)
 
 ```mermaid

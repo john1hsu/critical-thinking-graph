@@ -1365,6 +1365,85 @@
    ]
   },
   {
+   "@id": "ct:bayesian-reasoning",
+   "@type": "cto:ReasoningMode",
+   "cto:appliedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:problem-of-old-evidence"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map"
+   },
+   "cto:file": "articles/probabilistic-reasoning/bayesian-reasoning.md",
+   "cto:introducedBy": {
+    "@id": "ct:thomas-bayes"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s5"
+    }
+   ],
+   "rdfs:label": "Bayesian reasoning",
+   "skos:altLabel": [
+    "Bayesian belief revision",
+    "Bayesian inference",
+    "Bayesian updating",
+    "conditionalization"
+   ],
+   "skos:broader": {
+    "@id": "ct:inductive-reasoning"
+   },
+   "skos:definition": "Reasoning that treats beliefs as degrees of probability and revises them in light of evidence by Bayes' theorem: the probability of a hypothesis after the evidence combines its prior probability with how much more likely the evidence is if the hypothesis is true than if it is false.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Bayesian reasoning",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:inference-to-the-best-explanation"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    }
+   ]
+  },
+  {
    "@id": "ct:begging-the-question",
    "@type": "cto:InformalFallacy",
    "cto:confusedWith": {
@@ -10339,6 +10418,93 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "cto:verdict": "valid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "This transaction is probably legitimate: only about 9% of flagged transactions are fraud."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If the 1% base rate was measured on a different customer segment, the posterior may be badly off."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Two independent alerts on the same transaction would raise the probability sharply; a second check is cheap."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "About 1% of the card transactions our team reviews turn out to be fraudulent."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The new alert rule flags 90% of fraudulent transactions."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/p3",
+   "@type": "aif:I-node",
+   "aif:claimText": "It also flags 9% of legitimate transactions."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/p4",
+   "@type": "aif:I-node",
+   "aif:claimText": "This transaction was flagged."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/p2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/p3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map/p4"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -12643,6 +12809,76 @@
    "dcterms:title": "Why Can Only 24% Solve Bayesian Reasoning Problems in Natural Frequencies: Frequency Phobia in Spite of Probability Blindness",
    "schema:url": {
     "@id": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01833/text"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Talbott, Summer 2006 archive edition)",
+   "dcterms:title": "Bayesian Epistemology",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/Sum2006/entries/epistemology-bayesian/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 9, 1833 (Weber, Binder & Krauss, 2018)",
+   "dcterms:title": "Why Can Only 24% Solve Bayesian Reasoning Problems in Natural Frequencies: Frequency Phobia in Spite of Probability Blindness",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01833/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Joyce, Spring 2018 archive edition)",
+   "dcterms:title": "Bayes' Theorem",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2018/entries/bayes-theorem/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Vision 7 (Cui, Lo & Liu, 2023), eScholarship, University of California",
+   "dcterms:title": "The Use of Visualizations to Improve Bayesian Reasoning: A Literature Review",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt5s9754p5/qt5s9754p5.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "University of York, Department of Mathematics, history of statistics pages",
+   "dcterms:title": "An Essay towards solving a Problem in the Doctrine of Chances (Bayes, 1763), LaTeX edition",
+   "schema:url": {
+    "@id": "https://www.york.ac.uk/depts/maths/histstat/essay.htm"
    }
   },
   {
