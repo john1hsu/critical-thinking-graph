@@ -3626,6 +3626,93 @@
    ]
   },
   {
+   "@id": "ct:distribution-of-terms",
+   "@type": "cto:Concept",
+   "cto:challengedBy": {
+    "@id": "ct:peter-geach"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/distribution-of-terms.md",
+   "cto:formalizedBy": {
+    "@id": "ct:port-royal-logic"
+   },
+   "cto:influencedBy": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:supposition-theory"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:categorical-proposition"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5"
+    }
+   ],
+   "rdfs:label": "Distribution of terms",
+   "skos:altLabel": [
+    "distributed term",
+    "distribution (syllogistic)",
+    "doctrine of distribution",
+    "undistributed term"
+   ],
+   "skos:broader": {
+    "@id": "ct:categorical-proposition"
+   },
+   "skos:definition": "The traditional property of a term in a categorical proposition of being \"taken universally\", so that the statement says something about every member of the term's class: universals distribute their subject and negatives their predicate, and the syllogistic rules are stated in these terms.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Distribution of terms",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:illicit-minor"
+    },
+    {
+     "@id": "ct:john-buridan"
+    },
+    {
+     "@id": "ct:rules-of-the-categorical-syllogism"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:dual-process-theory",
    "@type": "cto:Framework",
    "cto:challengedBy": [
@@ -15680,6 +15767,76 @@
    "dcterms:title": "Stop Playing Devil's Advocate, and Other Advice for Better Decision Making",
    "schema:url": {
     "@id": "https://behavioralscientist.org/stop-playing-devils-advocate-and-other-advice-for-better-decision-making/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "History and Philosophy of Logic 27(1), 59-74 (Terence Parsons, 2006), PhilPapers record",
+   "dcterms:title": "The doctrine of distribution",
+   "schema:url": {
+    "@id": "https://philpapers.org/rec/TERTDO-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "History and Philosophy of Logic (John N. Martin, 2012), author's copy, University of Cincinnati",
+   "dcterms:title": "Distributive Terms, Truth, and the Port Royal Logic",
+   "schema:url": {
+    "@id": "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Stephen Read, Spring 2003 archive edition)",
+   "dcterms:title": "Medieval Theories: Properties of Terms",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2003/entries/medieval-terms/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "University of Colorado, philosophy course materials",
+   "dcterms:title": "Categorical propositions: distribution (PHIL 1440 handout)",
+   "schema:url": {
+    "@id": "https://rintintin.colorado.edu/~vancecd/phil1440/catprop1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Notre Dame Journal of Formal Logic 35(3), 433-449 (Wallace A. Murphree, 1994), PhilArchive record",
+   "dcterms:title": "The Irrelevance of Distribution for the Syllogism",
+   "schema:url": {
+    "@id": "https://dc2.philarchive.org/rec/WALTIO-6"
    }
   },
   {

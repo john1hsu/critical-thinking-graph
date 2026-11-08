@@ -1689,6 +1689,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/devils-advocacy.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/schwenk-1990-devils-advocacy-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution of terms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#altLabel> "distributed term" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#altLabel> "distribution (syllogistic)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#altLabel> "doctrine of distribution" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#altLabel> "undistributed term" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#definition> "The traditional property of a term in a categorical proposition of being \"taken universally\", so that the statement says something about every member of the term's class: universals distribute their subject and negatives their predicate, and the syllogistic rules are stated in these terms." .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#prefLabel> "Distribution of terms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/distribution-of-terms.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/supposition-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
 <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Dual-process theory" .
@@ -5484,6 +5517,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <https://schema.org/url> <https://behavioralscientist.org/stop-playing-devils-advocate-and-other-advice-for-better-decision-making/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s1> <http://purl.org/dc/terms/publisher> "History and Philosophy of Logic 27(1), 59-74 (Terence Parsons, 2006), PhilPapers record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s1> <http://purl.org/dc/terms/title> "The doctrine of distribution" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s1> <https://schema.org/url> <https://philpapers.org/rec/TERTDO-2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s2> <http://purl.org/dc/terms/publisher> "History and Philosophy of Logic (John N. Martin, 2012), author's copy, University of Cincinnati" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s2> <http://purl.org/dc/terms/title> "Distributive Terms, Truth, and the Port Royal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s2> <https://schema.org/url> <https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Stephen Read, Spring 2003 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3> <http://purl.org/dc/terms/title> "Medieval Theories: Properties of Terms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2003/entries/medieval-terms/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4> <http://purl.org/dc/terms/publisher> "University of Colorado, philosophy course materials" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4> <http://purl.org/dc/terms/title> "Categorical propositions: distribution (PHIL 1440 handout)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4> <https://schema.org/url> <https://rintintin.colorado.edu/~vancecd/phil1440/catprop1.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <http://purl.org/dc/terms/publisher> "Notre Dame Journal of Formal Logic 35(3), 433-449 (Wallace A. Murphree, 1994), PhilArchive record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <http://purl.org/dc/terms/title> "The Irrelevance of Distribution for the Syllogism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <https://schema.org/url> <https://dc2.philarchive.org/rec/WALTIO-6> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s1> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 8(3), 223-241 (Evans & Stanovich, 2013), copy hosted on a Temple University page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s1> <http://purl.org/dc/terms/title> "Dual-process theories of higher cognition: Advancing the debate" .

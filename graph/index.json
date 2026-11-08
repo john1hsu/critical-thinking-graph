@@ -3811,6 +3811,97 @@
   ]
  },
  {
+  "id": "ct:distribution-of-terms",
+  "title": "Distribution of terms",
+  "aliases": [
+   "doctrine of distribution",
+   "distributed term",
+   "undistributed term",
+   "distribution (syllogistic)"
+  ],
+  "type": "Concept",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/distribution-of-terms.md",
+  "created": "2026-11-08",
+  "summary": "The traditional property of a term in a categorical proposition of being \"taken universally\", so that the statement says something about every member of the term's class: universals distribute their subject and negatives their predicate, and the syllogistic rules are stated in these terms.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-minor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:john-buridan"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:peter-geach",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:port-royal-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:supposition-theory",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://philpapers.org/rec/TERTDO-2",
+   "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf",
+   "https://plato.stanford.edu/archives/spr2003/entries/medieval-terms/",
+   "https://rintintin.colorado.edu/~vancecd/phil1440/catprop1.pdf",
+   "https://dc2.philarchive.org/rec/WALTIO-6"
+  ]
+ },
+ {
   "id": "ct:dual-process-theory",
   "title": "Dual-process theory",
   "aliases": [
