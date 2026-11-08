@@ -2366,6 +2366,86 @@
   ]
  },
  {
+  "id": "ct:cogency",
+  "title": "Cogency",
+  "aliases": [
+   "cogent argument",
+   "uncogent argument"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/cogency.md",
+  "created": "2026-11-08",
+  "summary": "The property of a non-deductive argument that is inductively strong and whose premises are all actually true; in informal logic, more broadly, an argument whose premises are acceptable, relevant and sufficient for its conclusion.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:argument-evaluation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:informal-logic",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:bayesian-reasoning",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:logical-self-defense",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/05%3A_Inductive_Arguments/5.02%3A_Cogency_and_Strong_Arguments",
+   "https://oercollective.caul.edu.au/howtothinkcritically/?p=103",
+   "https://philarchive.org/archive/GODAPA-5",
+   "https://rozenbergquarterly.com/?p=7190"
+  ]
+ },
+ {
   "id": "ct:cognitive-bias",
   "title": "Cognitive bias",
   "aliases": [

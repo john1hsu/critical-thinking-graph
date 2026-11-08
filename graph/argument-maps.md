@@ -80,6 +80,16 @@ flowchart TD
   o2["Independent monitoring data or customer incident tickets would supply a reason the doubting party could accept."] -. attacks .-> ra
 ```
 
+## Cogency (`ct:cogency`)
+
+```mermaid
+flowchart TD
+  p1["The supplier delivered on time in each of the past twenty quarters."] --> ra{{"strong"}}
+  p2["Nothing about the supplier's operations has changed."] --> ra{{"strong"}}
+  ra --> c["The supplier will probably deliver on time next quarter."]
+  o1["A strong track record does not rule out a one-off disruption next quarter."] -. attacks .-> ra
+```
+
 ## Conjunction fallacy (`ct:conjunction-fallacy`)
 
 ```mermaid

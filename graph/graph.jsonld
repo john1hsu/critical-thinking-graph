@@ -2267,6 +2267,85 @@
    ]
   },
   {
+   "@id": "ct:cogency",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:informal-logic"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map"
+   },
+   "cto:file": "articles/foundations/cogency.md",
+   "cto:formalizedBy": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:logical-self-defense"
+   },
+   "cto:level": "introductory",
+   "cto:partOf": {
+    "@id": "ct:argument-evaluation"
+   },
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cogency/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cogency/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cogency/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cogency/s4"
+    }
+   ],
+   "rdfs:label": "Cogency",
+   "skos:altLabel": [
+    "cogent argument",
+    "uncogent argument"
+   ],
+   "skos:broader": {
+    "@id": "ct:inductive-reasoning"
+   },
+   "skos:definition": "The property of a non-deductive argument that is inductively strong and whose premises are all actually true; in informal logic, more broadly, an argument whose premises are acceptable, relevant and sufficient for its conclusion.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Cogency",
+   "skos:related": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:cognitive-bias",
    "@type": "cto:Concept",
    "cto:challengedBy": {
@@ -11041,6 +11120,62 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:cogency"
+   },
+   "cto:verdict": "strong"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The supplier will probably deliver on time next quarter."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "A strong track record does not rule out a one-off disruption next quarter."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The supplier delivered on time in each of the past twenty quarters."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Nothing about the supplier's operations has changed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -14032,6 +14167,62 @@
    "dcterms:title": "Stoicism: Inferential logic",
    "schema:url": {
     "@id": "https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cogency/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Noah Levin (Golden West College), Humanities LibreTexts",
+   "dcterms:title": "5.2: Cogency and Strong Arguments, in Critical Reasoning and Writing",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/05%3A_Inductive_Arguments/5.02%3A_Cogency_and_Strong_Arguments"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cogency/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "CAUL OER Collective (Council of Australian University Librarians)",
+   "dcterms:title": "Introduction: soundness and cogency, in How to Think Critically",
+   "schema:url": {
+    "@id": "https://oercollective.caul.edu.au/howtothinkcritically/?p=103"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cogency/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "David Godden and Frank Zenker, Synthese 195(4), 2018, doi 10.1007/s11229-016-1299-2, via PhilArchive",
+   "dcterms:title": "A probabilistic analysis of argument cogency (author's copy)",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/GODAPA-5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cogency/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Takuzo Konishi, Rozenberg Quarterly",
+   "dcterms:title": "Logically Defending for Publication: An Analysis of the Review Process of Logical Self-Defense (ISSA Proceedings 2010)",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/?p=7190"
    }
   },
   {
