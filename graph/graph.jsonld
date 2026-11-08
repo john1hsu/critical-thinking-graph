@@ -8618,6 +8618,92 @@
    ]
   },
   {
+   "@id": "ct:problem-of-induction",
+   "@type": "cto:Concept",
+   "cto:challengedBy": {
+    "@id": "ct:fact-fiction-and-forecast"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/problem-of-induction.md",
+   "cto:introducedBy": {
+    "@id": "ct:david-hume"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:a-treatise-of-human-nature"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    }
+   ],
+   "cto:studiedIn": [
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4"
+    }
+   ],
+   "rdfs:label": "Problem of induction",
+   "skos:altLabel": [
+    "Hume's problem of induction",
+    "Humean problem of induction",
+    "inductive scepticism",
+    "justification of induction"
+   ],
+   "skos:broader": {
+    "@id": "ct:epistemology"
+   },
+   "skos:definition": "The philosophical problem, posed by David Hume, of justifying inferences from observed cases to unobserved ones: any argument that the future will resemble the past either cannot be deductive or must assume the very uniformity it is meant to prove.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Problem of induction",
+   "skos:related": [
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    }
+   ]
+  },
+  {
    "@id": "ct:randomized-controlled-trial",
    "@type": "cto:Method",
    "cto:appliedIn": {
@@ -20533,6 +20619,62 @@
    "dcterms:title": "Prior Analytics",
    "schema:url": {
     "@id": "https://britannica.com/topic/Prior-Analytics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Leah Henderson, first published 2018, revised 2022; Fall 2023 edition)",
+   "dcterms:title": "The Problem of Induction",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/fall2023/entries/induction-problem"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Stathis Psillos and Chrysovalantis Stergiou)",
+   "dcterms:title": "The Problem of Induction",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/problem-of-induction/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "David Hume (1748); course copy hosted for MITx 24.00x on edX",
+   "dcterms:title": "An Enquiry Concerning Human Understanding, Section IV: Sceptical Doubts concerning the Operations of the Understanding",
+   "schema:url": {
+    "@id": "https://courses.edx.org/asset-v1:MITx+24.00x+2T2018+type@asset+block/HumeSkepticalDoubts.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Spring 2019 edition)",
+   "dcterms:title": "Nelson Goodman",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2019/entries/goodman/"
    }
   },
   {

@@ -4,10 +4,10 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 3.96 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:inductive-reasoning` |
-| 3.84 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:logic` |
+| 3.95 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:inductive-reasoning` |
+| 3.82 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:logic` |
 | 3.61 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:existential-fallacy`, `ct:illicit-major`, `ct:method-of-counterexample` |
-| 3.18 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:informal-fallacy` |
+| 3.17 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:informal-fallacy` |
 | 3.15 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman` |
 | 3.02 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:aristotle`, `ct:categorical-syllogism`, `ct:illicit-major`, `ct:john-buridan`, `ct:port-royal-logic` |
 | 2.97 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
@@ -16,7 +16,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.81 | `ct:argumentation-schemes` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:burden-of-proof` |
 | 2.78 | `ct:amos-tversky` | `ct:bounded-rationality` | `ct:behavioral-economics`, `ct:daniel-kahneman`, `ct:gerd-gigerenzer`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
 | 2.77 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
-| 2.77 | `ct:inductive-reasoning` | `ct:karl-popper` | `ct:david-hume`, `ct:problem-of-induction`, `ct:scientific-method`, `ct:william-whewell` |
 | 2.72 | `ct:affirming-a-disjunct` | `ct:deductive-reasoning` | `ct:affirming-the-consequent`, `ct:mental-model-theory`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.65 | `ct:actively-open-minded-thinking` | `ct:numeracy` | `ct:judgment-and-decision-making`, `ct:need-for-cognition`, `ct:thinking-dispositions` |
 | 2.61 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
@@ -24,8 +23,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.52 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.48 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:validity` |
 | 2.48 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:conjunction-fallacy`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:numeracy` |
-| 2.46 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
-| 2.46 | `ct:cognitive-psychology` | `ct:minna-cheves-wilkins` | `ct:deductive-reasoning`, `ct:jonathan-st-b-t-evans`, `ct:psychology`, `ct:syllogism` |
 | 2.46 | `ct:affirming-a-disjunct` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:denying-the-antecedent`, `ct:formal-fallacy`, `ct:method-of-counterexample`, `ct:syllogism` |
+| 2.46 | `ct:cognitive-psychology` | `ct:minna-cheves-wilkins` | `ct:deductive-reasoning`, `ct:jonathan-st-b-t-evans`, `ct:psychology`, `ct:syllogism` |
+| 2.45 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
 | 2.45 | `ct:distribution-of-terms` | `ct:existential-fallacy` | `ct:categorical-syllogism`, `ct:illicit-major`, `ct:rules-of-the-categorical-syllogism`, `ct:square-of-opposition`, `ct:undistributed-middle` |
 | 2.41 | `ct:method-of-counterexample` | `ct:modus-tollens` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:formal-fallacy`, `ct:modus-ponens` |
+| 2.39 | `ct:argumentation-schemes` | `ct:principle-of-charity` | `ct:argument`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:informal-fallacy`, `ct:informal-logic` |

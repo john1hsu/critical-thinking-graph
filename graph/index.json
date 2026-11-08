@@ -9068,6 +9068,98 @@
   ]
  },
  {
+  "id": "ct:problem-of-induction",
+  "title": "Problem of induction",
+  "aliases": [
+   "Hume's problem of induction",
+   "Humean problem of induction",
+   "justification of induction",
+   "inductive scepticism"
+  ],
+  "type": "Concept",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/problem-of-induction.md",
+  "created": "2026-11-08",
+  "summary": "The philosophical problem, posed by David Hume, of justifying inferences from observed cases to unobserved ones: any argument that the future will resemble the past either cannot be deductive or must assume the very uniformity it is meant to prove.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-science"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:david-hume",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:a-treatise-of-human-nature",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:fact-fiction-and-forecast",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/fall2023/entries/induction-problem",
+   "https://iep.utm.edu/problem-of-induction/",
+   "https://courses.edx.org/asset-v1:MITx+24.00x+2T2018+type@asset+block/HumeSkepticalDoubts.pdf",
+   "https://plato.stanford.edu/archives/spr2019/entries/goodman/"
+  ]
+ },
+ {
   "id": "ct:randomized-controlled-trial",
   "title": "Randomized controlled trial",
   "aliases": [

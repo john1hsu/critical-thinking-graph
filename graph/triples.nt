@@ -3828,6 +3828,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2000/01/rdf-schema#label> "Problem of induction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#altLabel> "Hume's problem of induction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#altLabel> "Humean problem of induction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#altLabel> "inductive scepticism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#altLabel> "justification of induction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#definition> "The philosophical problem, posed by David Hume, of justifying inferences from observed cases to unobserved ones: any argument that the future will resemble the past either cannot be deductive or must assume the very uniformity it is meant to prove." .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Problem of induction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/fact-fiction-and-forecast> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/problem-of-induction.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/a-treatise-of-human-nature> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2000/01/rdf-schema#label> "Randomized controlled trial" .
@@ -7525,6 +7557,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prior-analytics/s6> <https://schema.org/url> <https://britannica.com/topic/Prior-Analytics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Leah Henderson, first published 2018, revised 2022; Fall 2023 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s1> <http://purl.org/dc/terms/title> "The Problem of Induction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/fall2023/entries/induction-problem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Stathis Psillos and Chrysovalantis Stergiou)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s2> <http://purl.org/dc/terms/title> "The Problem of Induction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s2> <https://schema.org/url> <https://iep.utm.edu/problem-of-induction/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s3> <http://purl.org/dc/terms/publisher> "David Hume (1748); course copy hosted for MITx 24.00x on edX" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s3> <http://purl.org/dc/terms/title> "An Enquiry Concerning Human Understanding, Section IV: Sceptical Doubts concerning the Operations of the Understanding" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s3> <https://schema.org/url> <https://courses.edx.org/asset-v1:MITx+24.00x+2T2018+type@asset+block/HumeSkepticalDoubts.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Spring 2019 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <http://purl.org/dc/terms/title> "Nelson Goodman" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2019/entries/goodman/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s1> <http://purl.org/dc/terms/publisher> "Journal of the Royal Society of Medicine 104(9), 383-386 (Chalmers, 2011)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s1> <http://purl.org/dc/terms/title> "Why the 1948 MRC trial of streptomycin used treatment allocation based on random numbers" .
