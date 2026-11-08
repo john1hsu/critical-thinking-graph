@@ -6192,6 +6192,79 @@
   ]
  },
  {
+  "id": "ct:kenneth-arrow",
+  "title": "Kenneth Arrow",
+  "aliases": [
+   "Kenneth J. Arrow",
+   "Kenneth Joseph Arrow",
+   "K. J. Arrow"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/kenneth-arrow.md",
+  "created": "2026-11-08",
+  "summary": "American economist (1921-2017) whose impossibility theorem showed that no method of combining individual rankings into a group ranking can meet a short list of fairness conditions, and who, with Anthony Fisher, showed that uncertainty plus irreversibility gives a reason to keep options open.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reversible-and-irreversible-decisions"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:arrows-impossibility-theorem",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:reversible-and-irreversible-decisions",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:quasi-option-value",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:social-choice-and-individual-values",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:arrow-fisher-1974-environmental-preservation-irreversibility",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/spr2022/entries/social-choice/",
+   "https://ideas.repec.org/a/oup/qjecon/v88y1974i2p312-319..html",
+   "https://escholarship.org/content/qt41v56658/qt41v56658.pdf?t=mqg6g5",
+   "https://www.rand.org/news/press/2017/02/22.html",
+   "https://scielosp.org/article/bwho/2004.v82n2/139-140",
+   "https://www.britannica.com/money/Kenneth-Arrow"
+  ]
+ },
+ {
   "id": "ct:key-assumptions-check",
   "title": "Key assumptions check",
   "aliases": [

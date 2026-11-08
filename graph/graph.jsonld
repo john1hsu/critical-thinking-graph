@@ -5851,6 +5851,82 @@
    ]
   },
   {
+   "@id": "ct:kenneth-arrow",
+   "@type": "cto:Person",
+   "cto:authored": [
+    {
+     "@id": "ct:arrow-fisher-1974-environmental-preservation-irreversibility"
+    },
+    {
+     "@id": "ct:social-choice-and-individual-values"
+    }
+   ],
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/kenneth-arrow.md",
+   "cto:introduced": [
+    {
+     "@id": "ct:arrows-impossibility-theorem"
+    },
+    {
+     "@id": "ct:quasi-option-value"
+    },
+    {
+     "@id": "ct:reversible-and-irreversible-decisions"
+    }
+   ],
+   "cto:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s6"
+    }
+   ],
+   "rdfs:label": "Kenneth Arrow",
+   "skos:altLabel": [
+    "K. J. Arrow",
+    "Kenneth J. Arrow",
+    "Kenneth Joseph Arrow"
+   ],
+   "skos:definition": "American economist (1921-2017) whose impossibility theorem showed that no method of combining individual rankings into a group ranking can meet a short list of fairness conditions, and who, with Anthony Fisher, showed that uncertainty plus irreversibility gives a reason to keep options open.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Kenneth Arrow",
+   "skos:related": [
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:reversible-and-irreversible-decisions"
+    }
+   ]
+  },
+  {
    "@id": "ct:key-assumptions-check",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -17172,6 +17248,90 @@
    "dcterms:title": "The Open Society and Its Enemies",
    "schema:url": {
     "@id": "https://cart.press.princeton.edu/open-society-and-its-enemies-pdf.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Christian List; first published 2013), Spring 2022 edition",
+   "dcterms:title": "Social Choice Theory",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2022/entries/social-choice/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Quarterly Journal of Economics 88(2), 312-319 (Arrow & Fisher, 1974), RePEc/IDEAS record",
+   "dcterms:title": "Environmental Preservation, Uncertainty, and Irreversibility",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/oup/qjecon/v88y1974i2p312-319..html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "CUDARE Working Paper 1132, University of California, Berkeley (Christian P. Traeger, 2013)",
+   "dcterms:title": "What's the Option? A Note on Quasi-Option Value and the Dixit-Pindyck Option Value",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt41v56658/qt41v56658.pdf?t=mqg6g5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "RAND Corporation news release (2017-02-22)",
+   "dcterms:title": "Nobel Laureate Kenneth J. Arrow, a RAND Consultant Since 1948, Dies at 95",
+   "schema:url": {
+    "@id": "https://www.rand.org/news/press/2017/02/22.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "intergovernmental",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Bulletin of the World Health Organization 82(2), 139-140 (William D. Savedoff, 2004), SciELO",
+   "dcterms:title": "Kenneth Arrow and the birth of health economics",
+   "schema:url": {
+    "@id": "https://scielosp.org/article/bwho/2004.v82n2/139-140"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/kenneth-arrow/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Kenneth J. Arrow",
+   "schema:url": {
+    "@id": "https://www.britannica.com/money/Kenneth-Arrow"
    }
   },
   {
