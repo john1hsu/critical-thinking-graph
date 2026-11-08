@@ -2949,6 +2949,95 @@
    ]
   },
   {
+   "@id": "ct:correlation-versus-causation",
+   "@type": "cto:Principle",
+   "cto:appliedIn": {
+    "@id": "ct:epidemiology"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:confounding"
+   },
+   "cto:file": "articles/scientific-reasoning/correlation-versus-causation.md",
+   "cto:formalizedBy": {
+    "@id": "ct:causal-diagrams"
+   },
+   "cto:influencedBy": {
+    "@id": "ct:george-udny-yule"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s5"
+    }
+   ],
+   "rdfs:label": "Correlation versus causation",
+   "skos:altLabel": [
+    "association versus causation",
+    "correlation does not imply causation",
+    "correlation is not causation"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:inductive-reasoning"
+    },
+    {
+     "@id": "ct:scientific-method"
+    }
+   ],
+   "skos:definition": "The principle that a statistical association between two variables does not by itself show that one causes the other, because the pattern can also arise from a common cause, reverse causation, selection of the sample, or chance; causal conclusions need further evidence and explicit assumptions.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Correlation versus causation",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-correlation-to-cause"
+    },
+    {
+     "@id": "ct:bradford-hill-criteria"
+    },
+    {
+     "@id": "ct:cum-hoc-ergo-propter-hoc"
+    },
+    {
+     "@id": "ct:mills-methods"
+    },
+    {
+     "@id": "ct:post-hoc-ergo-propter-hoc"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    },
+    {
+     "@id": "ct:selection-bias"
+    },
+    {
+     "@id": "ct:simpsons-paradox"
+    }
+   ]
+  },
+  {
    "@id": "ct:daniel-kahneman",
    "@type": "cto:Person",
    "cto:appliedIn": {
@@ -15553,6 +15642,76 @@
    "dcterms:title": "Awareness of independence of events and erroneous perceptions while gambling (bibliographic record)",
    "schema:url": {
     "@id": "https://manuscript.isc.ac/Inventory/10/143996.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy, Spring 2016 Edition (Hitchcock)",
+   "dcterms:title": "Probabilistic Causation",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/Spr2016/entries/causation-probabilistic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Advances in Methods and Practices in Psychological Science 1(1):27-42 (Rohrer, 2018), doi:10.1177/2515245917745629",
+   "dcterms:title": "Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/ampps/2515245917745629/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Embryo Project Encyclopedia, Arizona State University (Abboud, 2017)",
+   "dcterms:title": "\"The Environment and Disease: Association or Causation?\" (1965), by Austin Bradford Hill",
+   "schema:url": {
+    "@id": "https://embryo.asu.edu/pages/environment-and-disease-association-or-causation-1965-austin-bradford-hill"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "BMJ 349:g7015 (Sumner et al., 2014), PubMed 25498121",
+   "dcterms:title": "The association between exaggeration in health related science news and academic press releases: retrospective observational study",
+   "schema:url": {
+    "@id": "https://www.pubmed.gov/25498121/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correlation-versus-causation/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Statistical Science 10(4):364-376 (Aldrich, 1995), University of Southampton ePrints",
+   "dcterms:title": "Correlations Genuine and Spurious in Pearson and Yule",
+   "schema:url": {
+    "@id": "https://eprints.soton.ac.uk/32919"
    }
   },
   {

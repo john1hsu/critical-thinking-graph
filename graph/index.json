@@ -3099,6 +3099,100 @@
   ]
  },
  {
+  "id": "ct:correlation-versus-causation",
+  "title": "Correlation versus causation",
+  "aliases": [
+   "correlation does not imply causation",
+   "correlation is not causation",
+   "association versus causation"
+  ],
+  "type": "Principle",
+  "domain": "scientific-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/correlation-versus-causation.md",
+  "created": "2026-11-08",
+  "summary": "The principle that a statistical association between two variables does not by itself show that one causes the other, because the pattern can also arise from a common cause, reverse causation, selection of the sample, or chance; causal conclusions need further evidence and explicit assumptions.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:post-hoc-ergo-propter-hoc"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cum-hoc-ergo-propter-hoc"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:simpsons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mills-methods"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bradford-hill-criteria"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-correlation-to-cause"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:confounding",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:causal-diagrams",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:epidemiology",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:george-udny-yule",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/Spr2016/entries/causation-probabilistic/",
+   "https://www.psychologicalscience.org/journals/ampps/2515245917745629/",
+   "https://embryo.asu.edu/pages/environment-and-disease-association-or-causation-1965-austin-bradford-hill",
+   "https://www.pubmed.gov/25498121/",
+   "https://eprints.soton.ac.uk/32919"
+  ]
+ },
+ {
   "id": "ct:daniel-kahneman",
   "title": "Daniel Kahneman",
   "aliases": [

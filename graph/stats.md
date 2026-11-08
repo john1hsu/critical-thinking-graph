@@ -1,10 +1,10 @@
 # Graph statistics
 
-- Articles (nodes written): **134**
-- Frontier nodes (referenced, unwritten): **425**
-- Asserted edges: **1697** (typed + evidenced: **680**)
-- Asserted triples: **9007**; inferred by OWL-RL: **2428**
-- Citations: **680**
+- Articles (nodes written): **135**
+- Frontier nodes (referenced, unwritten): **424**
+- Asserted edges: **1712** (typed + evidenced: **684**)
+- Asserted triples: **9070**; inferred by OWL-RL: **2440**
+- Citations: **685**
 - Critical questions: **63**; argument maps: **24**
 - Weakly connected components: **1**
 - Communities (Louvain): **10**; max k-core: **7**
@@ -15,21 +15,21 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `ct:validity` | 0.0085 | 0.0334 | yes |
+| `ct:validity` | 0.0085 | 0.0347 | yes |
 | `ct:deductive-reasoning` | 0.0082 | 0.0461 | yes |
-| `ct:argument` | 0.0069 | 0.0748 | yes |
-| `ct:aristotle` | 0.0063 | 0.0203 | yes |
-| `ct:method-of-counterexample` | 0.0060 | 0.0473 | yes |
-| `ct:judgment-and-decision-making` | 0.0056 | 0.0971 | yes |
-| `ct:cognitive-psychology` | 0.0053 | 0.1282 | yes |
-| `ct:affirming-the-consequent` | 0.0052 | 0.0073 | yes |
-| `ct:debiasing` | 0.0051 | 0.1191 | yes |
-| `ct:heuristics-and-biases-program` | 0.0048 | 0.0192 | yes |
-| `ct:modus-ponens` | 0.0047 | 0.0111 | yes |
-| `ct:syllogism` | 0.0043 | 0.0402 | yes |
-| `ct:argumentation-theory` | 0.0043 | 0.0192 | yes |
-| `ct:inductive-reasoning` | 0.0043 | 0.0397 | yes |
-| `ct:informal-fallacy` | 0.0041 | 0.0922 | yes |
+| `ct:argument` | 0.0069 | 0.0754 | yes |
+| `ct:aristotle` | 0.0063 | 0.0214 | yes |
+| `ct:method-of-counterexample` | 0.0060 | 0.0470 | yes |
+| `ct:judgment-and-decision-making` | 0.0056 | 0.0967 | yes |
+| `ct:cognitive-psychology` | 0.0053 | 0.1284 | yes |
+| `ct:affirming-the-consequent` | 0.0052 | 0.0068 | yes |
+| `ct:debiasing` | 0.0051 | 0.1186 | yes |
+| `ct:heuristics-and-biases-program` | 0.0048 | 0.0190 | yes |
+| `ct:modus-ponens` | 0.0047 | 0.0112 | yes |
+| `ct:inductive-reasoning` | 0.0044 | 0.0484 | yes |
+| `ct:syllogism` | 0.0043 | 0.0401 | yes |
+| `ct:argumentation-theory` | 0.0043 | 0.0191 | yes |
+| `ct:informal-fallacy` | 0.0041 | 0.0891 | yes |
 
 ## Communities
 
@@ -57,7 +57,7 @@ PageRank = authority; betweenness = bridges between areas.
 - Method: 5
 - Person: 27
 - Phenomenon: 4
-- Principle: 3
+- Principle: 4
 - ProbabilisticFallacy: 3
 - ReasoningForm: 4
 - ReasoningMode: 3
@@ -79,19 +79,19 @@ PageRank = authority; betweenness = bridges between areas.
 - informal-fallacies: 7
 - philosophy-of-reasoning: 6
 - probabilistic-reasoning: 8
-- scientific-reasoning: 8
+- scientific-reasoning: 9
 
 ## By level
 
 - intermediate: 38
-- introductory: 96
+- introductory: 97
 
 ## By evidence status
 
 - contested: 6
 - historical: 40
 - mixed: 30
-- normative: 49
+- normative: 50
 - robust: 9
 
 ## Domain coverage (breadth runs pick the lowest)
@@ -106,7 +106,7 @@ PageRank = authority; betweenness = bridges between areas.
 - informal-fallacies: 7
 - decision-making: 8
 - probabilistic-reasoning: 8
-- scientific-reasoning: 8
 - formal-logic: 9
+- scientific-reasoning: 9
 - debiasing-and-metacognition: 11
 - history-and-thinkers: 35
