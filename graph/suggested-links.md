@@ -4,12 +4,12 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 3.98 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:inductive-reasoning` |
-| 3.86 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:logic` |
+| 3.97 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:inductive-reasoning` |
+| 3.85 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:logic` |
 | 3.61 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:existential-fallacy`, `ct:illicit-major`, `ct:method-of-counterexample` |
-| 3.18 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
 | 3.18 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:informal-fallacy` |
 | 3.15 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman` |
+| 3.13 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
 | 3.02 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:aristotle`, `ct:categorical-syllogism`, `ct:illicit-major`, `ct:john-buridan`, `ct:port-royal-logic` |
 | 2.83 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:false-dilemma`, `ct:informal-fallacy` |
 | 2.82 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
@@ -22,8 +22,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.52 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
 | 2.52 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.48 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:validity` |
-| 2.48 | `ct:inductive-reasoning` | `ct:karl-popper` | `ct:david-hume`, `ct:problem-of-induction`, `ct:william-whewell` |
 | 2.48 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:conjunction-fallacy`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:numeracy` |
+| 2.47 | `ct:inductive-reasoning` | `ct:karl-popper` | `ct:david-hume`, `ct:problem-of-induction`, `ct:william-whewell` |
 | 2.46 | `ct:cognitive-psychology` | `ct:minna-cheves-wilkins` | `ct:deductive-reasoning`, `ct:jonathan-st-b-t-evans`, `ct:psychology`, `ct:syllogism` |
 | 2.46 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
 | 2.46 | `ct:affirming-a-disjunct` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:denying-the-antecedent`, `ct:formal-fallacy`, `ct:method-of-counterexample`, `ct:syllogism` |

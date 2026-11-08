@@ -1036,6 +1036,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mills-methods#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mills-methods#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mills-methods#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/scientific-reasoning/mills-methods.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/mills-methods#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mills-methods#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mills-methods#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mills-methods#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mills-methods#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> .
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/scientific-reasoning/occams-razor.md" .
@@ -10069,6 +10077,70 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <https://schema.org/url> <https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/mills-methods#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2000/01/rdf-schema#label> "Mill's methods" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#altLabel> "Mill's canons of induction" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#altLabel> "Mill's canons" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#altLabel> "Mill's methods of induction" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#altLabel> "methods of experimental inquiry" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#definition> "Five eliminative rules for identifying causes, set out by John Stuart Mill in 1843: the methods of agreement, difference, joint agreement and difference, residues, and concomitant variation, each of which rules out candidate causes by comparing cases where an effect does and does not occur." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mill's methods" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/mills-methods.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-stuart-mill> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/a-system-of-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s1> <http://purl.org/dc/terms/publisher> "John Parker, London (John Stuart Mill, 1851), Project Gutenberg edition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s1> <http://purl.org/dc/terms/title> "A System of Logic, Ratiocinative and Inductive, Vol. 1 (3rd ed.), Book III, ch. VIII: Of the Four Methods of Experimental Inquiry" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s1> <https://schema.org/url> <https://www.gutenberg.org/files/26495/26495.txt> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s2> <http://purl.org/dc/terms/publisher> "The Encyclopedia of Philosophy, Macmillan (J. L. Mackie, 1967), via Encyclopedia.com" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s2> <http://purl.org/dc/terms/title> "Mill's Methods of Induction" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s2> <https://schema.org/url> <https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mills-methods-induction> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy, Winter 2024 Edition (Marcel Weber)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s3> <http://purl.org/dc/terms/title> "Experiment in Biology" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s3> <https://schema.org/url> <https://plato.stanford.edu/archives/win2024/entries/biology-experiment/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s4> <http://purl.org/dc/terms/publisher> "Affordable Learning Georgia (OpenALG), Manifold Scholarship" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s4> <http://purl.org/dc/terms/title> "Causal Reasoning (ch. 10 of The Logic Book: Critical Thinking)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s4> <https://schema.org/url> <https://alg.manifoldapp.org/read/the-logic-book-clayton/section/782338cf-0681-4a96-8f8d-9e7b5812d666> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s5> <http://purl.org/dc/terms/title> "Mill's methods" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mills-methods/s5> <https://schema.org/url> <https://www.britannica.com/print/article/1528471> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
@@ -10319,6 +10391,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/a-behavioral-model-of-rational-choice> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-counterexample-to-modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-counterexample-to-modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/a-system-of-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/a-system-of-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/a-system-of-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> .
@@ -10741,6 +10816,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-illusion> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
@@ -10873,6 +10949,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
@@ -10922,6 +10999,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
@@ -11223,6 +11301,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInstance> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -11444,6 +11523,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
@@ -11500,8 +11580,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
@@ -11607,7 +11689,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/john-locke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-locke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-locke> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/john-stuart-mill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/john-stuart-mill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-stuart-mill> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/john-stuart-mill> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-baron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -11807,6 +11892,11 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/mike-caulfield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mike-caulfield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mike-caulfield> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/minna-cheves-wilkins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -12014,6 +12104,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> .
   <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
@@ -12160,6 +12251,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rationality> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
@@ -12178,6 +12270,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
@@ -12279,10 +12372,12 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/schwenk-1990-devils-advocacy-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
@@ -12676,6 +12771,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wineburg-2022-lateral-reading-classroom-experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .

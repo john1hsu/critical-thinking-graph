@@ -6859,6 +6859,89 @@
   ]
  },
  {
+  "id": "ct:mills-methods",
+  "title": "Mill's methods",
+  "aliases": [
+   "Mill's canons",
+   "Mill's methods of induction",
+   "methods of experimental inquiry",
+   "Mill's canons of induction"
+  ],
+  "type": "Method",
+  "domain": "scientific-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/mills-methods.md",
+  "created": "2026-11-08",
+  "summary": "Five eliminative rules for identifying causes, set out by John Stuart Mill in 1843: the methods of agreement, difference, joint agreement and difference, residues, and concomitant variation, each of which rules out candidate causes by comparing cases where an effect does and does not occur.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:william-whewell"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:causal-diagrams"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:post-hoc-ergo-propter-hoc",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:false-cause",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-stuart-mill",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:a-system-of-logic",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.gutenberg.org/files/26495/26495.txt",
+   "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mills-methods-induction",
+   "https://plato.stanford.edu/archives/win2024/entries/biology-experiment/",
+   "https://alg.manifoldapp.org/read/the-logic-book-clayton/section/782338cf-0681-4a96-8f8d-9e7b5812d666",
+   "https://www.britannica.com/print/article/1528471"
+  ]
+ },
+ {
   "id": "ct:minna-cheves-wilkins",
   "title": "Minna Cheves Wilkins",
   "aliases": [
