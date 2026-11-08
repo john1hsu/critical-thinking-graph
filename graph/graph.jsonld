@@ -10754,6 +10754,98 @@
    ]
   },
   {
+   "@id": "ct:suppressed-evidence",
+   "@type": "cto:InformalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:hasty-generalization"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:texas-sharpshooter-fallacy"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:chan-2004-selective-outcome-reporting-study"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map"
+   },
+   "cto:file": "articles/evidence-and-information-literacy/suppressed-evidence.md",
+   "cto:instanceOf": {
+    "@id": "ct:slanting"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    }
+   ],
+   "cto:supportedBy": {
+    "@id": "ct:dwan-2013-outcome-reporting-bias-review"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s5"
+    }
+   ],
+   "rdfs:label": "Suppressed evidence",
+   "skos:altLabel": [
+    "cherry picking",
+    "cherry-picking the evidence",
+    "cherry-picking",
+    "fallacy of incomplete evidence",
+    "ignoring inconvenient data",
+    "neglected evidence"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of presenting only the evidence that favours a conclusion while leaving out information one knows or suspects is relevant and significant, especially information that would weaken it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Suppressed evidence",
+   "skos:related": [
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    },
+    {
+     "@id": "ct:texas-sharpshooter-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:syllogism",
    "@type": "cto:ReasoningForm",
    "cto:domain": "formal-logic",
@@ -22871,6 +22963,76 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Dowden, California State University, Sacramento)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/fallacy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Critical Reasoning: A User's Manual (Southworth & Swoyer), Humanities LibreTexts",
+   "dcterms:title": "10.6: Suppressed (or Neglected) Evidence",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/10%3A_Relevance_Irrelevance_and_Fallacies/10.06%3A_Suppressed_(or_Neglected)_Evidence"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "JAMA 291(20), 2457-2465 (Chan, Hróbjartsson, Haahr, Gøtzsche & Altman, 2004), copy hosted by PsychRights",
+   "dcterms:title": "Empirical evidence for selective reporting of outcomes in randomized trials: comparison of protocols to published articles",
+   "schema:url": {
+    "@id": "https://www.psychrights.org/Research/Digest/Science4Sale/EmpiricalEvidenceInTrialsJAMA04.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "PLOS ONE 8(7), e66844 (Dwan, Gamble, Williamson & Kirkham, 2013), University of Liverpool repository",
+   "dcterms:title": "Systematic Review of the Empirical Evidence of Study Publication Bias and Outcome Reporting Bias - An Updated Review",
+   "schema:url": {
+    "@id": "https://livrepository.liverpool.ac.uk/2004000/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "James Lind Library",
+   "dcterms:title": "Chan A-W, Hròbjartsson A, Haahr M, Gøtzsche PC, Altman DG (2004)",
+   "schema:url": {
+    "@id": "https://www.jameslindlibrary.org/chan-a-w-hrobjartsson-a-haahr-m-gotzsche-pc-altman-dg-2004/"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1",
    "@type": "cto:Source",
    "cto:sourceType": "scholarly-encyclopedia",
@@ -23791,6 +23953,125 @@
    ],
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:suppressed-evidence"
+   },
+   "rdfs:label": "What evidence on this question exists that the arguer has not mentioned, and would it point the other way?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:suppressed-evidence"
+   },
+   "rdfs:label": "How were the cited cases, studies or figures chosen, and could the selection itself explain the result?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:suppressed-evidence"
+   },
+   "rdfs:label": "Does the arguer have a stake that gives them a reason to leave out unfavourable facts?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:suppressed-evidence"
+   },
+   "rdfs:label": "If the full record were laid out, including the misses, would the conclusion still look as strong?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:suppressed-evidence"
+   },
+   "rdfs:label": "Is the omitted material actually relevant and significant, or just detail that does not bear on the conclusion?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:suppressed-evidence"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "We should move all our orders to the new supplier."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The stated premises are true, but the omitted inspection failures bear directly on whether switching is wise."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Three early deliveries chosen from five orders say little about reliability across the whole record."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The new supplier delivered our last three orders early."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Their unit price is 10 percent below our current supplier's."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/p3",
+   "@type": "aif:I-node",
+   "aif:claimText": "(Unstated) Two of their five shipments this quarter failed quality inspection."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/p2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map/p3"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence/map"
    }
   },
   {

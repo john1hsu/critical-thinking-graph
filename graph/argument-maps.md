@@ -243,6 +243,18 @@ flowchart TD
   o2["Even if full remote work harmed collaboration, that says little about the effect of one remote day."] -. attacks .-> ra
 ```
 
+## Suppressed evidence (`ct:suppressed-evidence`)
+
+```mermaid
+flowchart TD
+  p1["The new supplier delivered our last three orders early."] --> ra{{"fallacious"}}
+  p2["Their unit price is 10 percent below our current supplier's."] --> ra{{"fallacious"}}
+  p3["(Unstated) Two of their five shipments this quarter failed quality inspection."] --> ra{{"fallacious"}}
+  ra --> c["We should move all our orders to the new supplier."]
+  o1["The stated premises are true, but the omitted inspection failures bear directly on whether switching is wise."] -. attacks .-> ra
+  o2["Three early deliveries chosen from five orders say little about reliability across the whole record."] -. attacks .-> ra
+```
+
 ## Syllogism (`ct:syllogism`)
 
 ```mermaid

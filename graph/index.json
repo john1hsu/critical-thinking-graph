@@ -11351,6 +11351,107 @@
   ]
  },
  {
+  "id": "ct:suppressed-evidence",
+  "title": "Suppressed evidence",
+  "aliases": [
+   "cherry picking",
+   "cherry-picking",
+   "cherry-picking the evidence",
+   "fallacy of incomplete evidence",
+   "neglected evidence",
+   "ignoring inconvenient data"
+  ],
+  "type": "InformalFallacy",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/evidence-and-information-literacy/suppressed-evidence.md",
+  "created": "2026-11-08",
+  "summary": "The fallacy of presenting only the evidence that favours a conclusion while leaving out information one knows or suspects is relevant and significant, especially information that would weaken it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:texas-sharpshooter-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:slanting",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:hasty-generalization",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:texas-sharpshooter-fallacy",
+    "source": "s1",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:chan-2004-selective-outcome-reporting-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:dwan-2013-outcome-reporting-bias-review",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "What evidence on this question exists that the arguer has not mentioned, and would it point the other way?",
+   "How were the cited cases, studies or figures chosen, and could the selection itself explain the result?",
+   "Does the arguer have a stake that gives them a reason to leave out unfavourable facts?",
+   "If the full record were laid out, including the misses, would the conclusion still look as strong?",
+   "Is the omitted material actually relevant and significant, or just detail that does not bear on the conclusion?"
+  ],
+  "source_urls": [
+   "https://iep.utm.edu/fallacy/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/10%3A_Relevance_Irrelevance_and_Fallacies/10.06%3A_Suppressed_(or_Neglected)_Evidence",
+   "https://www.psychrights.org/Research/Digest/Science4Sale/EmpiricalEvidenceInTrialsJAMA04.pdf",
+   "https://livrepository.liverpool.ac.uk/2004000/",
+   "https://www.jameslindlibrary.org/chan-a-w-hrobjartsson-a-haahr-m-gotzsche-pc-altman-dg-2004/"
+  ]
+ },
+ {
   "id": "ct:syllogism",
   "title": "Syllogism",
   "aliases": [
