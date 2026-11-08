@@ -2613,6 +2613,91 @@
    ]
   },
   {
+   "@id": "ct:correcting-erroneous-perceptions-of-randomness",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:statistical-reasoning-training"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:gamblers-fallacy"
+    },
+    {
+     "@id": "ct:illusion-of-control"
+    }
+   ],
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/correcting-erroneous-perceptions-of-randomness.md",
+   "cto:introducedBy": {
+    "@id": "ct:robert-ladouceur"
+   },
+   "cto:level": "intermediate",
+   "cto:partOf": {
+    "@id": "ct:cognitive-behavioral-therapy"
+   },
+   "cto:requires": {
+    "@id": "ct:gamblers-fallacy"
+   },
+   "cto:supportedBy": [
+    {
+     "@id": "ct:benhsain-2004-independence-reminders-study"
+    },
+    {
+     "@id": "ct:ladouceur-2001-cognitive-treatment-study"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s6"
+    }
+   ],
+   "rdfs:label": "Correcting erroneous perceptions of randomness",
+   "skos:altLabel": [
+    "cognitive correction of erroneous perceptions",
+    "cognitive correction of gambling beliefs",
+    "independence-of-events reminders"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A structured corrective technique, developed by Robert Ladouceur's group for gambling, that teaches people that random events are independent and uncontrollable, has them catch their own mistaken \"due\" or \"I can beat it\" thoughts as they occur, and corrects those thoughts on the spot.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Correcting erroneous perceptions of randomness",
+   "skos:related": [
+    {
+     "@id": "ct:deliberate-reflection"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    }
+   ]
+  },
+  {
    "@id": "ct:daniel-kahneman",
    "@type": "cto:Person",
    "cto:appliedIn": {
@@ -13915,6 +14000,90 @@
    "dcterms:title": "Overcoming the inevitable anchoring effect (faculty publication record)",
    "schema:url": {
     "@id": "https://www.london.edu/faculty-and-research/academic-research/o/overcoming-the-inevitable-anchoring-effect--considering-the-opposi"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Journal of Nervous and Mental Disease 189(11), 774-780 (Ladouceur et al., 2001), ACNP journal index record",
+   "dcterms:title": "Cognitive treatment of pathological gambling",
+   "schema:url": {
+    "@id": "https://acnpsearch.tweb-dev.unibo.it/singlejournalindex/86451795"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Anuario de Psicología 30(4), 127-135 (Ladouceur & Sylvain, 1999; Spanish version of a 1997 Journal of Consulting and Clinical Psychology study)",
+   "dcterms:title": "Tratamiento del juego patológico: un estudio controlado",
+   "schema:url": {
+    "@id": "https://raco.cat/index.php/AnuarioPsicologia/article/download/61532/88387"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Addictive Behaviors 29, 399-404 (Benhsain, Taillefer & Ladouceur, 2004), QxMD record",
+   "dcterms:title": "Awareness of independence of events and erroneous perceptions while gambling",
+   "schema:url": {
+    "@id": "https://read.qxmd.com/read/14732429/awareness-of-independence-of-events-and-erroneous-perceptions-while-gambling"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Psychology of Addictive Behaviors 20(1), 62-68 (Williams & Connolly, 2006), University of Lethbridge repository",
+   "dcterms:title": "Does learning about the mathematics of gambling change gambling behavior?",
+   "schema:url": {
+    "@id": "https://opus.uleth.ca/handle/10133/369"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Cochrane Database of Systematic Reviews 2012(11), CD008937 (Cowlishaw et al., 2012), Monash University research portal",
+   "dcterms:title": "Psychological therapies for pathological and problem gambling",
+   "schema:url": {
+    "@id": "https://research.monash.edu/en/publications/psychological-therapies-for-pathological-and-problem-gambling-rev/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "ISC manuscript inventory record for Benhsain, Taillefer & Ladouceur (2004), Addictive Behaviors",
+   "dcterms:title": "Awareness of independence of events and erroneous perceptions while gambling (bibliographic record)",
+   "schema:url": {
+    "@id": "https://manuscript.isc.ac/Inventory/10/143996.htm"
    }
   },
   {

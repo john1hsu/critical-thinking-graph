@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:gamblers-fallacy` | cto:ProbabilisticFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -24,6 +22,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:rules-of-the-categorical-syllogism` | 3 | Existential fallacy, Illicit major, Undistributed middle |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Representativeness heuristic, insensitivity-to-sample-size |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
+| `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
@@ -76,6 +75,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
 | `ct:conjunction-fallacy` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:consider-the-opposite` | mixed |  |
+| `ct:correcting-erroneous-perceptions-of-randomness` | mixed |  |
 | `ct:debiasing` | mixed |  |
 | `ct:debiasing-training-games` | mixed |  |
 | `ct:deliberate-reflection` | mixed | `ct:lambe-2018-guided-reflection-null-study` |
@@ -86,9 +86,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:misinformation-and-disinformation` | mixed | `ct:altay-2023-misinformation-on-misinformation` |
 | `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
 | `ct:outside-view` | mixed | `ct:love-ahiaga-dagbui-2018-cost-overrun-critique` |
-| `ct:overconfidence-effect` | mixed | `ct:juslin-2000-hard-easy-critique` |
 
-…and 8 more.
+…and 9 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

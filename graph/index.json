@@ -2743,6 +2743,95 @@
   ]
  },
  {
+  "id": "ct:correcting-erroneous-perceptions-of-randomness",
+  "title": "Correcting erroneous perceptions of randomness",
+  "aliases": [
+   "cognitive correction of gambling beliefs",
+   "cognitive correction of erroneous perceptions",
+   "independence-of-events reminders"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/correcting-erroneous-perceptions-of-randomness.md",
+  "created": "2026-11-08",
+  "summary": "A structured corrective technique, developed by Robert Ladouceur's group for gambling, that teaches people that random events are independent and uncontrollable, has them catch their own mistaken \"due\" or \"I can beat it\" thoughts as they occur, and corrects those thoughts on the spot.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deliberate-reflection"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:gamblers-fallacy",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:illusion-of-control",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:robert-ladouceur",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:cognitive-behavioral-therapy",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:ladouceur-2001-cognitive-treatment-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:benhsain-2004-independence-reminders-study",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:statistical-reasoning-training",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://acnpsearch.tweb-dev.unibo.it/singlejournalindex/86451795",
+   "https://raco.cat/index.php/AnuarioPsicologia/article/download/61532/88387",
+   "https://read.qxmd.com/read/14732429/awareness-of-independence-of-events-and-erroneous-perceptions-while-gambling",
+   "https://opus.uleth.ca/handle/10133/369",
+   "https://research.monash.edu/en/publications/psychological-therapies-for-pathological-and-problem-gambling-rev/",
+   "https://manuscript.isc.ac/Inventory/10/143996.htm"
+  ]
+ },
+ {
   "id": "ct:daniel-kahneman",
   "title": "Daniel Kahneman",
   "aliases": [
