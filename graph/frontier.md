@@ -4,7 +4,7 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 
 | Node | Score | Expected type | Referenced by |
 |---|---|---|---|
-| `ct:categorical-syllogism` | 17.87 | ReasoningForm | `ct:distribution-of-terms`, `ct:existential-fallacy`, `ct:illicit-major`, `ct:john-buridan`, `ct:john-venn`, `ct:minna-cheves-wilkins`, `ct:port-royal-logic`, `ct:prior-analytics`, `ct:rules-of-the-categorical-syllogism`, `ct:syllogism`, `ct:undistributed-middle`, `ct:venn-diagram-test` |
+| `ct:categorical-syllogism` | 17.86 | ReasoningForm | `ct:distribution-of-terms`, `ct:existential-fallacy`, `ct:illicit-major`, `ct:john-buridan`, `ct:john-venn`, `ct:minna-cheves-wilkins`, `ct:port-royal-logic`, `ct:prior-analytics`, `ct:rules-of-the-categorical-syllogism`, `ct:syllogism`, `ct:undistributed-middle`, `ct:venn-diagram-test` |
 | `ct:square-of-opposition` | 7.18 | - | `ct:aristotle`, `ct:distribution-of-terms`, `ct:existential-fallacy`, `ct:john-buridan`, `ct:john-venn`, `ct:organon`, `ct:prior-analytics` |
 | `ct:critical-thinking-education` | 7.14 | - | `ct:blooms-taxonomy`, `ct:delphi-report-on-critical-thinking`, `ct:epistemology`, `ct:metacognition`, `ct:scientific-method`, `ct:socratic-method` |
 | `ct:conditional-probability` | 6.65 | - | `ct:base-rate-neglect`, `ct:bayesian-reasoning`, `ct:gamblers-fallacy`, `ct:natural-frequencies`, `ct:simpsons-paradox` |
@@ -21,21 +21,21 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:risk-communication` | 5.12 | - | `ct:baruch-fischhoff`, `ct:gerd-gigerenzer`, `ct:natural-frequencies`, `ct:sherman-kent` |
 | `ct:fast-and-frugal-heuristics` | 4.64 | - | `ct:bounded-rationality`, `ct:dual-process-theory`, `ct:gerd-gigerenzer`, `ct:heuristics-and-biases-program` |
 | `ct:expected-utility-theory` | 4.60 | - | `ct:bounded-rationality`, `ct:judgment-and-decision-making`, `ct:kenneth-arrow`, `ct:reversible-and-irreversible-decisions` |
-| `ct:argument-from-expert-opinion` | 4.60 | - | `ct:ad-hominem`, `ct:argumentation-schemes`, `ct:richard-whately`, `ct:source-credibility` |
+| `ct:douglas-walton` | 4.60 | Person | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argumentation-schemes`, `ct:begging-the-question` |
 | `ct:null-hypothesis-significance-testing` | 4.58 | - | `ct:austin-bradford-hill`, `ct:hypothesis-testing`, `ct:randomized-controlled-trial`, `ct:researcher-degrees-of-freedom` |
 | `ct:behavioral-economics` | 4.15 | Field | `ct:amos-tversky`, `ct:bounded-rationality`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
 | `ct:prospect-theory` | 4.15 | - | `ct:amos-tversky`, `ct:bounded-rationality`, `ct:daniel-kahneman`, `ct:judgment-and-decision-making` |
 | `ct:attribute-substitution` | 4.14 | - | `ct:bounded-rationality`, `ct:daniel-kahneman`, `ct:dual-process-theory`, `ct:heuristics-and-biases-program` |
-| `ct:many-labs-1-replication-project` | 4.13 | - | `ct:anchoring-effect`, `ct:cognitive-bias`, `ct:gamblers-fallacy`, `ct:heuristics-and-biases-program` |
+| `ct:many-labs-1-replication-project` | 4.12 | - | `ct:anchoring-effect`, `ct:cognitive-bias`, `ct:gamblers-fallacy`, `ct:heuristics-and-biases-program` |
 | `ct:duhem-quine-thesis` | 4.12 | - | `ct:christiaan-huygens`, `ct:falsifiability`, `ct:hypothesis-testing`, `ct:philosophy-of-science` |
 | `ct:richards-heuer` | 4.09 | Person | `ct:intelligence-analysis`, `ct:sherman-kent`, `ct:structured-analytic-techniques`, `ct:tradecraft-primer` |
 | `ct:geopolitical-forecasting` | 4.09 | - | `ct:actively-open-minded-thinking`, `ct:calibration`, `ct:intelligence-analysis`, `ct:outside-view` |
 | `ct:source-evaluation` | 4.08 | - | `ct:lateral-reading`, `ct:primary-and-secondary-sources`, `ct:sift-method`, `ct:source-credibility` |
 | `ct:selection-bias` | 4.08 | - | `ct:austin-bradford-hill`, `ct:confounding`, `ct:correlation-versus-causation`, `ct:randomized-controlled-trial` |
+| `ct:presumption` | 4.07 | - | `ct:argument-from-expert-opinion`, `ct:burden-of-proof`, `ct:richard-whately` |
 | `ct:social-psychology` | 4.06 | Field | `ct:groupthink`, `ct:richard-nisbett`, `ct:william-j-mcguire` |
 | `ct:framing-effect` | 3.58 | - | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:numeracy` |
 | `ct:hasty-generalization` | 3.58 | - | `ct:inductive-reasoning`, `ct:port-royal-logic`, `ct:post-hoc-ergo-propter-hoc` |
-| `ct:douglas-walton` | 3.58 | Person | `ct:ad-hominem`, `ct:argumentation-schemes`, `ct:begging-the-question` |
 | `ct:replication-crisis` | 3.57 | - | `ct:daniel-kahneman`, `ct:researcher-degrees-of-freedom`, `ct:scientific-method` |
 | `ct:red-herring` | 3.57 | - | `ct:ad-hominem`, `ct:straw-man-fallacy`, `ct:tu-quoque` |
 | `ct:cognitive-reflection-test` | 3.56 | - | `ct:affect-heuristic`, `ct:dual-process-theory`, `ct:numeracy` |
@@ -47,19 +47,20 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:anchoring-and-adjustment-heuristic` | 3.08 | - | `ct:anchoring-effect`, `ct:availability-heuristic`, `ct:representativeness-heuristic` |
 | `ct:science-education` | 3.08 | - | `ct:gettier-problem`, `ct:philosophy-of-science`, `ct:scientific-method` |
 | `ct:epistemic-regress-problem` | 3.08 | - | `ct:epistemology`, `ct:justified-true-belief`, `ct:posterior-analytics` |
+| `ct:defeasible-reasoning` | 3.08 | - | `ct:argument-from-expert-opinion`, `ct:argumentation-schemes`, `ct:toulmin-model` |
 | `ct:ludwig-wittgenstein` | 3.07 | Person | `ct:charles-hamblin`, `ct:stephen-toulmin`, `ct:truth-table` |
-| `ct:heuristic` | 3.07 | - | `ct:affect-heuristic`, `ct:availability-heuristic`, `ct:representativeness-heuristic` |
-| `ct:dialectic` | 3.07 | - | `ct:socratic-method`, `ct:sophistical-refutations`, `ct:topics` |
-| `ct:epidemiology` | 3.07 | Field | `ct:confounding`, `ct:correlation-versus-causation`, `ct:regression-to-the-mean` |
 | `ct:argument-evaluation` | 3.07 | - | `ct:burden-of-proof`, `ct:cogency`, `ct:soundness` |
+| `ct:dialectic` | 3.07 | - | `ct:socratic-method`, `ct:sophistical-refutations`, `ct:topics` |
+| `ct:heuristic` | 3.07 | - | `ct:affect-heuristic`, `ct:availability-heuristic`, `ct:representativeness-heuristic` |
+| `ct:epidemiology` | 3.07 | Field | `ct:confounding`, `ct:correlation-versus-causation`, `ct:regression-to-the-mean` |
 | `ct:probabilistic-fallacy` | 3.07 | - | `ct:base-rate-neglect`, `ct:conjunction-fallacy`, `ct:gamblers-fallacy` |
 | `ct:the-uses-of-argument` | 3.06 | Work | `ct:stephen-toulmin`, `ct:the-new-rhetoric`, `ct:toulmin-model` |
 | `ct:john-stuart-mill` | 3.06 | Person | `ct:mills-methods`, `ct:scientific-method`, `ct:william-whewell` |
 | `ct:evans-barston-pollard-1983-belief-bias-experiments` | 3.06 | Study | `ct:belief-bias`, `ct:jonathan-st-b-t-evans`, `ct:minna-cheves-wilkins` |
+| `ct:john-locke` | 3.06 | Person | `ct:ad-hominem`, `ct:argument-from-expert-opinion` |
 | `ct:mandel-tetlock-2018-correcting-judgment-correctives` | 3.06 | - | `ct:key-assumptions-check`, `ct:structured-analytic-techniques`, `ct:tradecraft-primer` |
 | `ct:carl-hovland` | 3.06 | Person | `ct:source-credibility`, `ct:william-j-mcguire` |
 | `ct:information-literacy` | 3.05 | - | `ct:information-disorder-report`, `ct:misinformation-and-disinformation`, `ct:primary-and-secondary-sources` |
-| `ct:presumption` | 3.05 | - | `ct:burden-of-proof`, `ct:richard-whately` |
 | `ct:information-disorder` | 3.05 | - | `ct:information-disorder-report`, `ct:misinformation-and-disinformation` |
 | `ct:false-cause` | 3.05 | - | `ct:mills-methods`, `ct:post-hoc-ergo-propter-hoc` |
 | `ct:inoculation-theory` | 3.05 | - | `ct:prebunking`, `ct:william-j-mcguire` |
@@ -87,16 +88,15 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:the-logic-of-scientific-discovery` | 2.06 | Work | `ct:falsifiability`, `ct:karl-popper` |
 | `ct:verifiability-criterion` | 2.06 | - | `ct:falsifiability`, `ct:karl-popper` |
 | `ct:ease-of-retrieval-effect` | 2.06 | - | `ct:availability-heuristic`, `ct:consider-the-opposite` |
-| `ct:defeasible-reasoning` | 2.06 | - | `ct:argumentation-schemes`, `ct:toulmin-model` |
 | `ct:ulrich-hoffrage` | 2.06 | Person | `ct:gerd-gigerenzer`, `ct:natural-frequencies` |
 | `ct:chandrashekar-2021-conjunction-bias-replication` | 2.06 | - | `ct:conjunction-fallacy`, `ct:representativeness-heuristic` |
 | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` | 2.06 | - | `ct:conjunction-fallacy`, `ct:representativeness-heuristic` |
 | `ct:tversky-kahneman-1983-linda-problem-study` | 2.06 | Study | `ct:conjunction-fallacy`, `ct:representativeness-heuristic` |
 | `ct:herbert-simon` | 2.06 | Person | `ct:bounded-rationality`, `ct:gerd-gigerenzer` |
 | `ct:legal-reasoning` | 2.05 | - | `ct:burden-of-proof`, `ct:philosophy-of-science` |
+| `ct:van-eemeren-garssen-meuffels-2002-freedom-rule-study` | 2.05 | Study | `ct:ad-hominem`, `ct:pragma-dialectics` |
 | `ct:critical-rationalism` | 2.05 | - | `ct:karl-popper`, `ct:pragma-dialectics` |
 | `ct:novum-organum` | 2.05 | - | `ct:organon`, `ct:scientific-method` |
-| `ct:van-eemeren-garssen-meuffels-2002-freedom-rule-study` | 2.05 | Study | `ct:ad-hominem`, `ct:pragma-dialectics` |
 | `ct:charles-sanders-peirce` | 2.05 | Person | `ct:inference-to-the-best-explanation`, `ct:truth-table` |
 | `ct:logical-empiricism` | 2.05 | - | `ct:philosophy-of-science`, `ct:the-new-rhetoric` |
 | `ct:nested-sets-hypothesis` | 2.05 | - | `ct:natural-frequencies` |
@@ -104,11 +104,12 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:myside-bias` | 2.05 | - | `ct:actively-open-minded-thinking`, `ct:confirmation-bias` |
 | `ct:insensitivity-to-sample-size` | 2.05 | CognitiveBias | `ct:representativeness-heuristic`, `ct:statistical-reasoning-training` |
 | `ct:authentic-dissent` | 2.05 | - | `ct:devils-advocacy`, `ct:groupthink` |
+| `ct:testimony` | 2.05 | - | `ct:argument-from-expert-opinion`, `ct:source-credibility` |
 | `ct:logical-self-defense` | 2.05 | Work | `ct:cogency`, `ct:informal-logic` |
-| `ct:illusory-truth-effect` | 2.05 | - | `ct:misinformation-and-disinformation` |
 | `ct:critical-thinking-movement` | 2.05 | - | `ct:delphi-report-on-critical-thinking`, `ct:informal-logic` |
-| `ct:sarah-lichtenstein` | 2.05 | - | `ct:baruch-fischhoff`, `ct:calibration` |
 | `ct:why-there-is-no-argumentum-ad-hominem-fallacy` | 2.05 | - | `ct:ad-hominem`, `ct:tu-quoque` |
+| `ct:illusory-truth-effect` | 2.05 | - | `ct:misinformation-and-disinformation` |
+| `ct:sarah-lichtenstein` | 2.05 | - | `ct:baruch-fischhoff`, `ct:calibration` |
 | `ct:artner-girven-bruce-2016-rand-sat-assessment` | 2.04 | - | `ct:key-assumptions-check`, `ct:structured-analytic-techniques` |
 | `ct:categorical-proposition` | 2.04 | - | `ct:distribution-of-terms` |
 | `ct:debunking` | 2.04 | - | `ct:misinformation-and-disinformation`, `ct:prebunking` |
@@ -182,39 +183,42 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:soundness-theorem` | 1.03 | - | `ct:soundness` |
 | `ct:illusion-of-validity` | 1.03 | CognitiveBias | `ct:representativeness-heuristic` |
 | `ct:methodology-of-scientific-research-programmes` | 1.03 | - | `ct:falsifiability` |
-| `ct:recognition-heuristic` | 1.03 | - | `ct:gerd-gigerenzer` |
 | `ct:j-anthony-blair` | 1.03 | Person | `ct:informal-logic` |
 | `ct:ralph-h-johnson` | 1.03 | Person | `ct:informal-logic` |
+| `ct:recognition-heuristic` | 1.03 | - | `ct:gerd-gigerenzer` |
+| `ct:problem-of-old-evidence` | 1.03 | - | `ct:bayesian-reasoning` |
+| `ct:thomas-bayes` | 1.03 | Person | `ct:bayesian-reasoning` |
 | `ct:belief-perseverance` | 1.03 | - | `ct:confirmation-bias` |
 | `ct:guess-coppock-2020-backlash-experiments` | 1.03 | - | `ct:confirmation-bias` |
 | `ct:hart-2009-selective-exposure-meta-analysis` | 1.03 | - | `ct:confirmation-bias` |
 | `ct:kahneman-tversky-1972-lawyer-engineer-study` | 1.03 | Study | `ct:base-rate-neglect` |
 | `ct:koehler-1996-base-rate-fallacy-reconsidered` | 1.03 | - | `ct:base-rate-neglect` |
-| `ct:problem-of-old-evidence` | 1.03 | - | `ct:bayesian-reasoning` |
-| `ct:thomas-bayes` | 1.03 | Person | `ct:bayesian-reasoning` |
+| `ct:lumer-2022-epistemological-appraisal-of-schemes` | 1.03 | - | `ct:argumentation-schemes` |
+| `ct:nussbaum-2018-critical-questions-study` | 1.03 | - | `ct:argumentation-schemes` |
 | `ct:donald-davidson` | 1.03 | - | `ct:principle-of-charity` |
 | `ct:michael-scriven` | 1.03 | Person | `ct:principle-of-charity` |
 | `ct:n-l-wilson` | 1.03 | Person | `ct:principle-of-charity` |
 | `ct:yeh-1998-argumentative-writing-study` | 1.03 | - | `ct:toulmin-model` |
-| `ct:lumer-2022-epistemological-appraisal-of-schemes` | 1.03 | - | `ct:argumentation-schemes` |
-| `ct:nussbaum-2018-critical-questions-study` | 1.03 | - | `ct:argumentation-schemes` |
-| `ct:gerald-massey` | 1.03 | - | `ct:formal-fallacy` |
 | `ct:elaboration-likelihood-model` | 1.03 | - | `ct:source-credibility` |
 | `ct:hovland-weiss-1951-credibility-study` | 1.03 | Study | `ct:source-credibility` |
 | `ct:kumkale-2010-source-credibility-meta-analysis` | 1.03 | - | `ct:source-credibility` |
 | `ct:sleeper-effect` | 1.03 | - | `ct:source-credibility` |
-| `ct:testimony` | 1.03 | - | `ct:source-credibility` |
+| `ct:gerald-massey` | 1.03 | - | `ct:formal-fallacy` |
 | `ct:englich-2006-judicial-anchoring-study` | 1.03 | Study | `ct:anchoring-effect` |
 | `ct:roseler-2025-insufficient-adjustment-test` | 1.03 | - | `ct:anchoring-effect` |
+| `ct:epistemic-approach-to-argumentation` | 1.03 | - | `ct:pragma-dialectics` |
+| `ct:frans-van-eemeren` | 1.03 | Person | `ct:pragma-dialectics` |
+| `ct:rob-grootendorst` | 1.03 | Person | `ct:pragma-dialectics` |
 | `ct:modal-syllogistic` | 1.03 | - | `ct:prior-analytics` |
 | `ct:natural-deduction` | 1.03 | - | `ct:prior-analytics` |
 | `ct:gallop-bischoff-2016-premortem-risk-study` | 1.03 | Study | `ct:premortem` |
 | `ct:gary-klein` | 1.03 | Person | `ct:premortem` |
 | `ct:prospective-hindsight` | 1.03 | - | `ct:premortem` |
 | `ct:worst-case-scenario-analysis` | 1.03 | - | `ct:premortem` |
-| `ct:epistemic-approach-to-argumentation` | 1.03 | - | `ct:pragma-dialectics` |
-| `ct:frans-van-eemeren` | 1.03 | Person | `ct:pragma-dialectics` |
-| `ct:rob-grootendorst` | 1.03 | Person | `ct:pragma-dialectics` |
+| `ct:commitment-store` | 1.03 | - | `ct:charles-hamblin` |
+| `ct:formal-dialectic` | 1.03 | - | `ct:charles-hamblin` |
+| `ct:hamblins-fallacies` | 1.03 | Work | `ct:charles-hamblin` |
+| `ct:standard-treatment-of-fallacies` | 1.03 | - | `ct:charles-hamblin` |
 | `ct:dialectical-inquiry` | 1.03 | - | `ct:devils-advocacy` |
 | `ct:schwenk-1990-devils-advocacy-meta-analysis` | 1.03 | - | `ct:devils-advocacy` |
 | `ct:strategic-decision-making` | 1.03 | - | `ct:devils-advocacy` |
@@ -222,14 +226,11 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:intelligence-studies` | 1.03 | - | `ct:intelligence-analysis` |
 | `ct:diagrammatic-reasoning` | 1.03 | - | `ct:venn-diagram-test` |
 | `ct:euler-diagram` | 1.03 | - | `ct:venn-diagram-test` |
-| `ct:commitment-store` | 1.03 | - | `ct:charles-hamblin` |
-| `ct:formal-dialectic` | 1.03 | - | `ct:charles-hamblin` |
-| `ct:hamblins-fallacies` | 1.03 | Work | `ct:charles-hamblin` |
-| `ct:standard-treatment-of-fallacies` | 1.03 | - | `ct:charles-hamblin` |
 | `ct:brier-score` | 1.03 | - | `ct:calibration` |
 | `ct:forecast-resolution` | 1.03 | - | `ct:calibration` |
 | `ct:weather-forecasting` | 1.03 | - | `ct:calibration` |
 | `ct:parmenides` | 1.03 | - | `ct:plato` |
+| `ct:barnes-2018-ad-hominem-attacks-on-scientists-study` | 1.03 | Study | `ct:ad-hominem` |
 | `ct:jack-davis` | 1.03 | Person | `ct:structured-analytic-techniques` |
 | `ct:mandel-karvetski-dhami-2018-ach-trial` | 1.03 | - | `ct:structured-analytic-techniques` |
 | `ct:foundationalism` | 1.03 | - | `ct:posterior-analytics` |
@@ -242,13 +243,11 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:john-flavell` | 1.03 | Person | `ct:metacognition` |
 | `ct:ku-ho-2010-metacognition-critical-thinking-study` | 1.03 | - | `ct:metacognition` |
 | `ct:nelson-narens-metamemory-framework` | 1.03 | - | `ct:metacognition` |
-| `ct:against-method` | 1.03 | - | `ct:scientific-method` |
 | `ct:gigerenzer-hoffrage-1995-frequency-formats-study` | 1.03 | Study | `ct:natural-frequencies` |
 | `ct:mcdowell-jacobs-2017-natural-frequencies-meta-analysis` | 1.03 | - | `ct:natural-frequencies` |
+| `ct:against-method` | 1.03 | - | `ct:scientific-method` |
 | `ct:a-treatise-of-human-nature` | 1.03 | Work | `ct:problem-of-induction` |
 | `ct:fact-fiction-and-forecast` | 1.03 | - | `ct:problem-of-induction` |
-| `ct:barnes-2018-ad-hominem-attacks-on-scientists-study` | 1.03 | Study | `ct:ad-hominem` |
-| `ct:john-locke` | 1.03 | Person | `ct:ad-hominem` |
 | `ct:a-behavioral-model-of-rational-choice` | 1.02 | Work | `ct:bounded-rationality` |
 | `ct:rationality` | 1.02 | - | `ct:bounded-rationality` |
 | `ct:francis-galton` | 1.02 | Person | `ct:regression-to-the-mean` |
@@ -267,14 +266,16 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:lichtenstein-1978-judged-frequency-of-lethal-events` | 1.02 | Study | `ct:availability-heuristic` |
 | `ct:yeager-2019-national-sample-replications` | 1.02 | - | `ct:availability-heuristic` |
 | `ct:cullen-2018-argument-visualization-study` | 1.02 | - | `ct:argument-mapping` |
+| `ct:peter-geach` | 1.02 | - | `ct:distribution-of-terms` |
+| `ct:supposition-theory` | 1.02 | - | `ct:distribution-of-terms` |
 | `ct:consilience-of-inductions` | 1.02 | - | `ct:william-whewell` |
 | `ct:history-of-the-inductive-sciences` | 1.02 | Work | `ct:william-whewell` |
 | `ct:philosophy-of-the-inductive-sciences` | 1.02 | Work | `ct:william-whewell` |
-| `ct:peter-geach` | 1.02 | - | `ct:distribution-of-terms` |
-| `ct:supposition-theory` | 1.02 | - | `ct:distribution-of-terms` |
 | `ct:causal-inference` | 1.02 | - | `ct:confounding` |
 | `ct:ronald-fisher` | 1.02 | Person | `ct:confounding` |
 | `ct:the-design-of-experiments` | 1.02 | Work | `ct:confounding` |
+| `ct:isaac-watts` | 1.02 | Person | `ct:straw-man-fallacy` |
+| `ct:wrenching-from-context` | 1.02 | - | `ct:straw-man-fallacy` |
 | `ct:fuller-aldag-1998-organizational-tonypandy` | 1.02 | - | `ct:groupthink` |
 | `ct:group-decision-making` | 1.02 | - | `ct:groupthink` |
 | `ct:irving-janis` | 1.02 | Person | `ct:groupthink` |
@@ -282,8 +283,6 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:mullen-1994-cohesiveness-meta-analysis` | 1.02 | - | `ct:groupthink` |
 | `ct:social-identity-maintenance-model` | 1.02 | - | `ct:groupthink` |
 | `ct:victims-of-groupthink` | 1.02 | Work | `ct:groupthink` |
-| `ct:isaac-watts` | 1.02 | Person | `ct:straw-man-fallacy` |
-| `ct:wrenching-from-context` | 1.02 | - | `ct:straw-man-fallacy` |
 | `ct:cleanthes` | 1.02 | - | `ct:chrysippus` |
 | `ct:sorites-paradox` | 1.02 | - | `ct:chrysippus` |
 | `ct:breakstone-2021-online-course-lateral-reading-study` | 1.02 | Study | `ct:lateral-reading` |
@@ -293,9 +292,11 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:wineburg-2022-lateral-reading-classroom-experiment` | 1.02 | Study | `ct:lateral-reading` |
 | `ct:is-justified-true-belief-knowledge` | 1.02 | Work | `ct:gettier-problem` |
 | `ct:machery-2017-gettier-intuition-study` | 1.02 | - | `ct:gettier-problem` |
+| `ct:argument-from-ignorance` | 1.02 | - | `ct:burden-of-proof` |
+| `ct:formal-dialogue-systems` | 1.02 | - | `ct:burden-of-proof` |
+| `ct:false-signaling-theory-of-hypocrisy` | 1.02 | - | `ct:tu-quoque` |
 | `ct:classical-infallibilism` | 1.02 | - | `ct:justified-true-belief` |
 | `ct:reliabilism` | 1.02 | - | `ct:justified-true-belief` |
-| `ct:false-signaling-theory-of-hypocrisy` | 1.02 | - | `ct:tu-quoque` |
 | `ct:cook-2017-fake-experts-inoculation-experiments` | 1.02 | Study | `ct:prebunking` |
 | `ct:modirrousta-galian-higham-2023-roc-reanalysis` | 1.02 | - | `ct:prebunking` |
 | `ct:chen-2021-hindsight-bias-replications` | 1.02 | - | `ct:hindsight-bias` |
@@ -305,22 +306,30 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:seda-2025-hindsight-bias-replication` | 1.02 | - | `ct:hindsight-bias` |
 | `ct:optimal-data-selection-model` | 1.02 | - | `ct:peter-wason` |
 | `ct:willard-van-orman-quine` | 1.02 | - | `ct:peter-wason` |
-| `ct:argument-from-ignorance` | 1.02 | - | `ct:burden-of-proof` |
-| `ct:formal-dialogue-systems` | 1.02 | - | `ct:burden-of-proof` |
 | `ct:haran-2013-aot-information-acquisition-study` | 1.02 | Study | `ct:actively-open-minded-thinking` |
 | `ct:jonathan-baron` | 1.02 | Person | `ct:actively-open-minded-thinking` |
 | `ct:linchpin-analysis` | 1.02 | - | `ct:key-assumptions-check` |
 | `ct:bickel-1975-berkeley-admissions-study` | 1.02 | Study | `ct:simpsons-paradox` |
 | `ct:statistical-paradox` | 1.02 | - | `ct:simpsons-paradox` |
 | `ct:sure-thing-principle` | 1.02 | - | `ct:simpsons-paradox` |
+| `ct:ad-verecundiam` | 1.02 | - | `ct:argument-from-expert-opinion` |
+| `ct:harris-2016-expert-opinion-bayesian-experiments` | 1.02 | - | `ct:argument-from-expert-opinion` |
+| `ct:artis-logicae-compendium` | 1.02 | - | `ct:richard-whately` |
+| `ct:elements-of-logic` | 1.02 | Work | `ct:richard-whately` |
+| `ct:elements-of-rhetoric` | 1.02 | Work | `ct:richard-whately` |
+| `ct:historic-doubts-relative-to-napoleon-buonaparte` | 1.02 | Work | `ct:richard-whately` |
 | `ct:boethius` | 1.02 | - | `ct:topics` |
 | `ct:endoxa` | 1.02 | - | `ct:topics` |
 | `ct:predicables` | 1.02 | - | `ct:topics` |
-| `ct:casuistry` | 1.02 | - | `ct:stephen-toulmin` |
 | `ct:chaim-perelman` | 1.02 | Person | `ct:the-new-rhetoric` |
 | `ct:lucie-olbrechts-tyteca` | 1.02 | Person | `ct:the-new-rhetoric` |
 | `ct:quasi-logical-argument` | 1.02 | - | `ct:the-new-rhetoric` |
 | `ct:universal-audience` | 1.02 | - | `ct:the-new-rhetoric` |
+| `ct:casuistry` | 1.02 | - | `ct:stephen-toulmin` |
+| `ct:brodsky-2021-civics-course-fact-checking-study` | 1.02 | Study | `ct:sift-method` |
+| `ct:craap-test` | 1.02 | - | `ct:sift-method` |
+| `ct:information-literacy-instruction` | 1.02 | - | `ct:sift-method` |
+| `ct:mike-caulfield` | 1.02 | Person | `ct:sift-method` |
 | `ct:clinical-diagnostic-reasoning` | 1.02 | - | `ct:deliberate-reflection` |
 | `ct:henk-schmidt` | 1.02 | Person | `ct:deliberate-reflection` |
 | `ct:lambe-2018-guided-reflection-null-study` | 1.02 | - | `ct:deliberate-reflection` |
@@ -328,32 +337,24 @@ Nodes that existing articles point to but nobody has written yet. Score = referr
 | `ct:prakash-2019-reflective-strategies-meta-analysis` | 1.02 | - | `ct:deliberate-reflection` |
 | `ct:salient-distracting-features` | 1.02 | - | `ct:deliberate-reflection` |
 | `ct:silvia-mamede` | 1.02 | Person | `ct:deliberate-reflection` |
-| `ct:brodsky-2021-civics-course-fact-checking-study` | 1.02 | Study | `ct:sift-method` |
-| `ct:craap-test` | 1.02 | - | `ct:sift-method` |
-| `ct:information-literacy-instruction` | 1.02 | - | `ct:sift-method` |
-| `ct:mike-caulfield` | 1.02 | Person | `ct:sift-method` |
+| `ct:antoine-arnauld` | 1.02 | Person | `ct:port-royal-logic` |
+| `ct:pierre-nicole` | 1.02 | Person | `ct:port-royal-logic` |
+| `ct:rene-descartes` | 1.02 | - | `ct:port-royal-logic` |
 | `ct:strategic-intelligence-for-american-world-policy` | 1.02 | Work | `ct:sherman-kent` |
 | `ct:words-of-estimative-probability` | 1.02 | - | `ct:sherman-kent` |
-| `ct:artis-logicae-compendium` | 1.02 | - | `ct:richard-whately` |
-| `ct:elements-of-logic` | 1.02 | Work | `ct:richard-whately` |
-| `ct:elements-of-rhetoric` | 1.02 | Work | `ct:richard-whately` |
-| `ct:historic-doubts-relative-to-napoleon-buonaparte` | 1.02 | Work | `ct:richard-whately` |
 | `ct:causal-illusion` | 1.02 | - | `ct:post-hoc-ergo-propter-hoc` |
 | `ct:a-system-of-logic` | 1.02 | Work | `ct:mills-methods` |
 | `ct:mathematical-expectation` | 1.02 | - | `ct:christiaan-huygens` |
 | `ct:treatise-on-light` | 1.02 | Work | `ct:christiaan-huygens` |
 | `ct:subalternation` | 1.02 | - | `ct:existential-fallacy` |
-| `ct:antoine-arnauld` | 1.02 | Person | `ct:port-royal-logic` |
-| `ct:pierre-nicole` | 1.02 | Person | `ct:port-royal-logic` |
-| `ct:rene-descartes` | 1.02 | - | `ct:port-royal-logic` |
 | `ct:conversational-implicature` | 1.02 | - | `ct:affirming-a-disjunct` |
 | `ct:source-criticism` | 1.02 | - | `ct:primary-and-secondary-sources` |
 | `ct:agnoli-krantz-1989-conjunction-training-study` | 1.02 | Study | `ct:statistical-reasoning-training` |
 | `ct:fong-krantz-nisbett-1986-statistical-training-study` | 1.02 | Study | `ct:statistical-reasoning-training` |
 | `ct:truong-2022-conjunction-training-replication` | 1.02 | - | `ct:statistical-reasoning-training` |
-| `ct:california-critical-thinking-disposition-inventory` | 1.02 | - | `ct:delphi-report-on-critical-thinking` |
-| `ct:california-critical-thinking-skills-test` | 1.02 | - | `ct:delphi-report-on-critical-thinking` |
-| `ct:peter-facione` | 1.02 | Person | `ct:delphi-report-on-critical-thinking` |
+| `ct:california-critical-thinking-disposition-inventory` | 1.01 | - | `ct:delphi-report-on-critical-thinking` |
+| `ct:california-critical-thinking-skills-test` | 1.01 | - | `ct:delphi-report-on-critical-thinking` |
+| `ct:peter-facione` | 1.01 | Person | `ct:delphi-report-on-critical-thinking` |
 | `ct:caravona-2019-pragmatic-instruction-experiments` | 1.01 | - | `ct:logical-necessity-instructions` |
 | `ct:evans-1994-debiasing-by-instruction-experiments` | 1.01 | - | `ct:logical-necessity-instructions` |
 | `ct:augustus-de-morgan` | 1.01 | - | `ct:john-venn` |

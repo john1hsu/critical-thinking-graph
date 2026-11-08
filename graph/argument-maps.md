@@ -35,6 +35,17 @@ flowchart TD
   o2["The slowdown matches the leak hypothesis but does not rule out any rival cause."] -. attacks .-> ra
 ```
 
+## Argument from expert opinion (`ct:argument-from-expert-opinion`)
+
+```mermaid
+flowchart TD
+  p1["The structural engineer we hired is a licensed specialist in load-bearing timber frames."] --> ra{{"strong"}}
+  p2["She says the existing beam can carry the proposed rooftop plant room."] --> ra{{"strong"}}
+  ra --> c["We can plan on keeping the existing beam for the plant room."]
+  o1["Did she see the actual beam, or only the original drawings, which may not match what was built?"] -. attacks .-> ra
+  o2["A second engineer's report flags rot at one bearing end, so experts do not yet agree."] -. attacks .-> ra
+```
+
 ## Argumentation schemes (`ct:argumentation-schemes`)
 
 ```mermaid

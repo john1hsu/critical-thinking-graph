@@ -127,5 +127,7 @@ _No results._
 
 _For each argumentation scheme, how many critical questions does it carry and which fallacies misuse it?_ — `queries/08-schemes-and-misuses.rq`
 
-_No results._
+| scheme | criticalQuestions | misusedAs |
+|---|---|---|
+| `ct:argument-from-expert-opinion` | 6 |  |
 
