@@ -9142,6 +9142,110 @@
    ]
   },
   {
+   "@id": "ct:scientific-method",
+   "@type": "cto:Method",
+   "cto:appliedIn": {
+    "@id": "ct:science-education"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:against-method"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/scientific-method.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:francis-bacon"
+    },
+    {
+     "@id": "ct:william-whewell"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s5"
+    }
+   ],
+   "rdfs:label": "Scientific method",
+   "skos:altLabel": [
+    "method of science",
+    "methods of science",
+    "scientific inquiry",
+    "the scientific method"
+   ],
+   "skos:broader": {
+    "@id": "ct:reasoning"
+   },
+   "skos:definition": "The family of practices by which the sciences build reliable knowledge of the natural world: systematic observation, experiment, inductive and deductive reasoning, model building and hypothesis testing, checked by a critical community. Philosophers now mostly doubt that a single fixed recipe captures it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Scientific method",
+   "skos:related": [
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:inference-to-the-best-explanation"
+    },
+    {
+     "@id": "ct:john-stuart-mill"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:mills-methods"
+    },
+    {
+     "@id": "ct:novum-organum"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:thomas-kuhn"
+    }
+   ]
+  },
+  {
    "@id": "ct:sherman-kent",
    "@type": "cto:Person",
    "cto:authored": {
@@ -20727,6 +20831,76 @@
    "dcterms:title": "Rules and Fallacies",
    "schema:url": {
     "@id": "https://mail.philosophypages.com/lg/e08b.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Andersen, substantive revision 2026)",
+   "dcterms:title": "Scientific Method",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/scientific-method/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Science & Education 23, 2069-2093 (Woodcock, 2014)",
+   "dcterms:title": "\"The Scientific Method\" as Myth and Ideal",
+   "schema:url": {
+    "@id": "https://link.springer.com/doi/10.1007/s11191-014-9704-z"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Science & Education 30(2), 345-364 (Ioannidou & Erduran, 2021)",
+   "dcterms:title": "Beyond Hypothesis Testing: Investigating the Diversity of Scientific Methods in Science Teachers' Understanding",
+   "schema:url": {
+    "@id": "https://link.springer.com/10.1007/s11191-020-00185-9"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Peltonen, rev. 2025)",
+   "dcterms:title": "Francis Bacon",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/francis-bacon/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Understanding Science, UC Museum of Paleontology, University of California, Berkeley",
+   "dcterms:title": "Summing up the process",
+   "schema:url": {
+    "@id": "https://undsci.berkeley.edu/understanding-science-101/how-science-works/summing-up-the-process/"
    }
   },
   {

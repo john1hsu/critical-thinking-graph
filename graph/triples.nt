@@ -4050,6 +4050,44 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Probabilistic and statistical reasoning" .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scientific reasoning and research methods" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2000/01/rdf-schema#label> "Scientific method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#altLabel> "method of science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#altLabel> "methods of science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#altLabel> "scientific inquiry" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#altLabel> "the scientific method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#definition> "The family of practices by which the sciences build reliable knowledge of the natural world: systematic observation, experiment, inductive and deductive reasoning, model building and hypothesis testing, checked by a critical community. Philosophers now mostly doubt that a single fixed recipe captures it." .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scientific method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-stuart-mill> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/novum-organum> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/thomas-kuhn> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/science-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/against-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/scientific-method.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/francis-bacon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2000/01/rdf-schema#label> "Sherman Kent" .
@@ -7623,6 +7661,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> <https://schema.org/url> <https://mail.philosophypages.com/lg/e08b.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Andersen, substantive revision 2026)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s1> <http://purl.org/dc/terms/title> "Scientific Method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/scientific-method/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s2> <http://purl.org/dc/terms/publisher> "Science & Education 23, 2069-2093 (Woodcock, 2014)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s2> <http://purl.org/dc/terms/title> "\"The Scientific Method\" as Myth and Ideal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s2> <https://schema.org/url> <https://link.springer.com/doi/10.1007/s11191-014-9704-z> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s3> <http://purl.org/dc/terms/publisher> "Science & Education 30(2), 345-364 (Ioannidou & Erduran, 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s3> <http://purl.org/dc/terms/title> "Beyond Hypothesis Testing: Investigating the Diversity of Scientific Methods in Science Teachers' Understanding" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s3> <https://schema.org/url> <https://link.springer.com/10.1007/s11191-020-00185-9> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Peltonen, rev. 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s4> <http://purl.org/dc/terms/title> "Francis Bacon" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/francis-bacon/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s5> <http://purl.org/dc/terms/publisher> "Understanding Science, UC Museum of Paleontology, University of California, Berkeley" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s5> <http://purl.org/dc/terms/title> "Summing up the process" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/scientific-method/s5> <https://schema.org/url> <https://undsci.berkeley.edu/understanding-science-101/how-science-works/summing-up-the-process/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/publisher> "Jack Davis (November 2002), Sherman Kent Center for Intelligence Analysis Occasional Papers 1(5), Central Intelligence Agency" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/title> "Sherman Kent and the Profession of Intelligence Analysis" .

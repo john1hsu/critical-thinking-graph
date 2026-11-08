@@ -9629,6 +9629,119 @@
   ]
  },
  {
+  "id": "ct:scientific-method",
+  "title": "Scientific method",
+  "aliases": [
+   "the scientific method",
+   "method of science",
+   "scientific inquiry",
+   "methods of science"
+  ],
+  "type": "Method",
+  "domain": "scientific-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/scientific-method.md",
+  "created": "2026-11-08",
+  "summary": "The family of practices by which the sciences build reliable knowledge of the natural world: systematic observation, experiment, inductive and deductive reasoning, model building and hypothesis testing, checked by a critical community. Philosophers now mostly doubt that a single fixed recipe captures it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mills-methods"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inference-to-the-best-explanation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:thomas-kuhn"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:john-stuart-mill"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:novum-organum"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-education"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:francis-bacon",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:william-whewell",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:against-method",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:science-education",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/scientific-method/",
+   "https://link.springer.com/doi/10.1007/s11191-014-9704-z",
+   "https://link.springer.com/10.1007/s11191-020-00185-9",
+   "https://plato.stanford.edu/entries/francis-bacon/",
+   "https://undsci.berkeley.edu/understanding-science-101/how-science-works/summing-up-the-process/"
+  ]
+ },
+ {
   "id": "ct:sherman-kent",
   "title": "Sherman Kent",
   "aliases": [

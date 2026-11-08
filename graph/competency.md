@@ -114,6 +114,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:primary-and-secondary-sources` | cto:Concept |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
+| `ct:scientific-method` | cto:Method |
 | `ct:tu-quoque` | cto:InformalFallacy |
 
 ## Orphan articles (gap)
