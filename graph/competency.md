@@ -83,11 +83,11 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 | `ct:lateral-reading` | mixed |  |
 | `ct:logical-necessity-instructions` | mixed | `ct:evans-1994-debiasing-by-instruction-experiments` |
+| `ct:metacognition` | mixed |  |
 | `ct:misinformation-and-disinformation` | mixed | `ct:altay-2023-misinformation-on-misinformation` |
 | `ct:natural-frequencies` | mixed | `ct:nested-sets-hypothesis` |
-| `ct:outside-view` | mixed | `ct:love-ahiaga-dagbui-2018-cost-overrun-critique` |
 
-…and 9 more.
+…and 10 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

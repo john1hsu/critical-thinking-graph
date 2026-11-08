@@ -5989,6 +5989,102 @@
   ]
  },
  {
+  "id": "ct:metacognition",
+  "title": "Metacognition",
+  "aliases": [
+   "thinking about thinking",
+   "metacognitive monitoring and control",
+   "cognitive monitoring"
+  ],
+  "type": "Concept",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/metacognition.md",
+  "created": "2026-11-08",
+  "summary": "Knowledge about one's own cognition and the ongoing monitoring and control of it: noticing whether you understand, judging how likely an answer is to be right, and changing strategy, slowing down or seeking help in response.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deliberate-reflection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:blooms-taxonomy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-report-on-critical-thinking"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-flavell",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:nelson-narens-metamemory-framework",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:ku-ho-2010-metacognition-critical-thinking-study",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:critical-thinking-education",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://jwilson.coe.uga.edu/emat7050/Students/Wilson/Flavell%20(1979).pdf",
+   "https://sites.socsci.uci.edu/~lnarens/1990/Nelson&Narens_Book_Chapter_1990.pdf",
+   "https://repository.hku.hk/handle/10722/242643",
+   "https://scholars.hkbu.edu.hk/en/publications/metacognitive-strategies-that-enhance-critical-thinking-2/",
+   "https://core.ac.uk/download/232512902.pdf"
+  ]
+ },
+ {
   "id": "ct:method-of-counterexample",
   "title": "Method of counterexample",
   "aliases": [

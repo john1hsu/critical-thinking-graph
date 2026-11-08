@@ -166,6 +166,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/metacognition#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/metacognition#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/metacognition#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/debiasing-and-metacognition/metacognition.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/metacognition#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/metacognition#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/metacognition#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/metacognition#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/metacognition#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/outside-view#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/outside-view#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
 <https://github.com/john1hsu/critical-thinking-graph/id/outside-view#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/debiasing-and-metacognition/outside-view.md" .
@@ -2331,6 +2339,72 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s5> <https://schema.org/url> <https://iep.utm.edu/val-snd> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/metacognition#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2000/01/rdf-schema#label> "Metacognition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#altLabel> "cognitive monitoring" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#altLabel> "metacognitive monitoring and control" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#altLabel> "thinking about thinking" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#definition> "Knowledge about one's own cognition and the ongoing monitoring and control of it: noticing whether you understand, judging how likely an answer is to be right, and changing strategy, slowing down or seeking help in response." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#prefLabel> "Metacognition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/metacognition.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/nelson-narens-metamemory-framework> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-flavell> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ku-ho-2010-metacognition-critical-thinking-study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> <http://purl.org/dc/terms/publisher> "American Psychologist 34(10), 906-911 (Flavell, 1979), copy on a University of Georgia course page" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> <http://purl.org/dc/terms/title> "Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> <https://schema.org/url> <https://jwilson.coe.uga.edu/emat7050/Students/Wilson/Flavell%20(1979).pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s2> <http://purl.org/dc/terms/publisher> "The Psychology of Learning and Motivation 26 (Nelson & Narens, 1990), author's copy, UC Irvine" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s2> <http://purl.org/dc/terms/title> "Metamemory: A theoretical framework and new findings" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s2> <https://schema.org/url> <https://sites.socsci.uci.edu/~lnarens/1990/Nelson&Narens_Book_Chapter_1990.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s3> <http://purl.org/dc/terms/publisher> "Frontiers in Human Neuroscience 8, 443 (Fleming & Lau, 2014), University of Hong Kong repository record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s3> <http://purl.org/dc/terms/title> "How to measure metacognition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s3> <https://schema.org/url> <https://repository.hku.hk/handle/10722/242643> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s4> <http://purl.org/dc/terms/publisher> "Metacognition and Learning 5(3), 251-267 (Ku & Ho, 2010), Hong Kong Baptist University record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s4> <http://purl.org/dc/terms/title> "Metacognitive strategies that enhance critical thinking" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s4> <https://schema.org/url> <https://scholars.hkbu.edu.hk/en/publications/metacognitive-strategies-that-enhance-critical-thinking-2/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s5> <http://purl.org/dc/terms/publisher> "GION, University of Groningen (de Boer, Donker-Bergstra, Kostons, Korpershoek & van der Werf, 2012)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s5> <http://purl.org/dc/terms/title> "Effective strategies for self-regulated learning: A meta-analysis" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s5> <https://schema.org/url> <https://core.ac.uk/download/232512902.pdf> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/outside-view#graph> {
@@ -9826,6 +9900,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
@@ -9898,6 +9973,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/click-restraint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
   <https://github.com/john1hsu/critical-thinking-graph/id/click-restraint> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cogency> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-behavioral-therapy> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasPart> <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
@@ -10211,6 +10288,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-nisbett> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> .
@@ -10652,6 +10730,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/jack-davis> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
   <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/james-w-carey> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/john-flavell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/john-flavell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/john-flavell> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-locke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-locke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-locke> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
@@ -10738,6 +10819,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> .
   <https://github.com/john1hsu/critical-thinking-graph/id/koehler-1996-base-rate-fallacy-reconsidered> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kramer-1998-bay-of-pigs-vietnam-reanalysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ku-ho-2010-metacognition-critical-thinking-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kumkale-2010-source-credibility-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ladouceur-2001-cognitive-treatment-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lambe-2018-guided-reflection-null-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
@@ -10816,13 +10898,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/mcdowell-jacobs-2017-natural-frequencies-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
@@ -10927,6 +11005,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> .
   <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/nelson-narens-metamemory-framework> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nested-sets-hypothesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nested-sets-hypothesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/net-present-value-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> .
@@ -10975,6 +11054,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .

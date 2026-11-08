@@ -28,4 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.40 | `ct:argument-mapping` | `ct:informal-fallacy` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:informal-logic` |
 | 2.39 | `ct:cognitive-psychology` | `ct:validity` | `ct:deductive-reasoning`, `ct:formal-fallacy`, `ct:inductive-reasoning`, `ct:informal-fallacy`, `ct:modus-ponens` |
 | 2.35 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |
-| 2.34 | `ct:deductive-reasoning` | `ct:formal-fallacy` | `ct:affirming-the-consequent`, `ct:argument`, `ct:cognitive-psychology`, `ct:method-of-counterexample`, `ct:modus-ponens` |
+| 2.34 | `ct:confirmation-bias` | `ct:tradecraft-primer` | `ct:analysis-of-competing-hypotheses`, `ct:cognitive-bias`, `ct:debiasing`, `ct:intelligence-analysis`, `ct:key-assumptions-check` |
