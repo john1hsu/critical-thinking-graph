@@ -209,6 +209,18 @@ flowchart TD
   o1["The form is valid, but the conditional premise may be false: the job could have succeeded while writing to a different folder or stamping the file in another time zone."] -. attacks .-> ra
 ```
 
+## Post hoc ergo propter hoc (`ct:post-hoc-ergo-propter-hoc`)
+
+```mermaid
+flowchart TD
+  p1["The office switched to a new IT help-desk ticketing tool in March."] --> ra{{"fallacious"}}
+  p2["Complaints about slow IT support fell sharply in April."] --> ra{{"fallacious"}}
+  ra --> c["So the new ticketing tool reduced complaints."]
+  o1["February had an unusual spike of outages, so complaints may simply have returned to their normal level."] -. attacks .-> ra
+  o2["Two extra support staff were hired in March, which could explain the drop on its own."] -. attacks .-> ra
+  o3["No comparison with teams still on the old tool, or with previous Aprils, was made."] -. attacks .-> ra
+```
+
 ## Straw man fallacy (`ct:straw-man-fallacy`)
 
 ```mermaid

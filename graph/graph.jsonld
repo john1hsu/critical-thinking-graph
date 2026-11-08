@@ -7704,6 +7704,95 @@
    ]
   },
   {
+   "@id": "ct:post-hoc-ergo-propter-hoc",
+   "@type": "cto:InformalFallacy",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:argument-from-correlation-to-cause"
+    },
+    {
+     "@id": "ct:cum-hoc-ergo-propter-hoc"
+    }
+   ],
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:causal-illusion"
+   },
+   "cto:file": "articles/informal-fallacies/post-hoc-ergo-propter-hoc.md",
+   "cto:instanceOf": {
+    "@id": "ct:false-cause"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:inductive-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5"
+    }
+   ],
+   "rdfs:label": "Post hoc ergo propter hoc",
+   "skos:altLabel": [
+    "after this therefore because of this",
+    "post hoc fallacy",
+    "post hoc reasoning",
+    "temporal sequence fallacy"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:false-cause"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "skos:definition": "The fallacy of concluding that one event caused another merely because the first came before the second, treating temporal sequence alone as proof of a causal connection.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Post hoc ergo propter hoc",
+   "skos:related": [
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    },
+    {
+     "@id": "ct:slippery-slope"
+    }
+   ]
+  },
+  {
    "@id": "ct:posterior-analytics",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -12519,6 +12608,132 @@
    ],
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:post-hoc-ergo-propter-hoc"
+   },
+   "rdfs:label": "Apart from the order of events, what independent evidence links the earlier event to the later one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:post-hoc-ergo-propter-hoc"
+   },
+   "rdfs:label": "Would the later event probably have happened anyway, for example through seasonal patterns, spontaneous recovery or a return from an unusual extreme?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:post-hoc-ergo-propter-hoc"
+   },
+   "rdfs:label": "Did anything else change at the same time that could explain the outcome?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:post-hoc-ergo-propter-hoc"
+   },
+   "rdfs:label": "How often does the outcome occur when the supposed cause is absent?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:post-hoc-ergo-propter-hoc"
+   },
+   "rdfs:label": "Is there a plausible mechanism, and has the pattern held up across repeated or controlled comparisons?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:post-hoc-ergo-propter-hoc"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the new ticketing tool reduced complaints."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca3",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "February had an unusual spike of outages, so complaints may simply have returned to their normal level."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Two extra support staff were hired in March, which could explain the drop on its own."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o3",
+   "@type": "aif:I-node",
+   "aif:claimText": "No comparison with teams still on the old tool, or with previous Aprils, was made."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The office switched to a new IT help-desk ticketing tool in March."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Complaints about slow IT support fell sharply in April."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map"
    }
   },
   {
@@ -19169,6 +19384,76 @@
    "dcterms:title": "Logic or the Art of Thinking (trans. and ed. J. V. Buroker)",
    "schema:url": {
     "@id": "https://homepages.uc.edu/~martinj/History_of_Logic/Port_Royal_Logic/Arnauld%20and%20Nicole%20-%20LAP%20-%20ed.%20Buroker.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Dowden)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/fallacy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Cambridge University Press (Tindale, 2007)",
+   "dcterms:title": "Correlation and Cause (ch. 9 of Fallacies and Argument Appraisal)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/abs/fallacies-and-argument-appraisal/correlation-and-cause/B86D8252C4E1E1E344F094ADA51254D9"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 6:888 (Matute, Blanco, Yarritu, Diaz-Lago, Vadillo & Barberia, 2015)",
+   "dcterms:title": "Illusions of causality: how they bias our everyday thinking and how they could be reduced",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00888/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Springer, Law, Governance and Technology Series 23 (Walton, 2016)",
+   "dcterms:title": "Arguments from Correlation to Causation (ch. 6 of Argument Evaluation and Evidence)",
+   "schema:url": {
+    "@id": "https://rd.springer.com/chapter/10.1007/978-3-319-19626-8_6"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Fallacy of false cause",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/fallacy-of-false-cause"
    }
   },
   {

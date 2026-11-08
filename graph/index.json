@@ -8113,6 +8113,99 @@
   ]
  },
  {
+  "id": "ct:post-hoc-ergo-propter-hoc",
+  "title": "Post hoc ergo propter hoc",
+  "aliases": [
+   "post hoc fallacy",
+   "post hoc reasoning",
+   "after this therefore because of this",
+   "temporal sequence fallacy"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/post-hoc-ergo-propter-hoc.md",
+  "created": "2026-11-08",
+  "summary": "The fallacy of concluding that one event caused another merely because the first came before the second, treating temporal sequence alone as proof of a causal connection.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:false-cause"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:slippery-slope"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:false-cause",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:argument-from-correlation-to-cause",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:cum-hoc-ergo-propter-hoc",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:causal-illusion",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Apart from the order of events, what independent evidence links the earlier event to the later one?",
+   "Would the later event probably have happened anyway, for example through seasonal patterns, spontaneous recovery or a return from an unusual extreme?",
+   "Did anything else change at the same time that could explain the outcome?",
+   "How often does the outcome occur when the supposed cause is absent?",
+   "Is there a plausible mechanism, and has the pattern held up across repeated or controlled comparisons?"
+  ],
+  "source_urls": [
+   "https://iep.utm.edu/fallacy/",
+   "https://www.cambridge.org/core/books/abs/fallacies-and-argument-appraisal/correlation-and-cause/B86D8252C4E1E1E344F094ADA51254D9",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00888/pdf",
+   "https://rd.springer.com/chapter/10.1007/978-3-319-19626-8_6",
+   "https://www.britannica.com/topic/fallacy-of-false-cause"
+  ]
+ },
+ {
   "id": "ct:posterior-analytics",
   "title": "Posterior Analytics",
   "aliases": [

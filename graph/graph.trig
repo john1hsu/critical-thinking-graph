@@ -890,6 +890,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-fallacy/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-fallacy/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-fallacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+<https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/informal-fallacies/post-hoc-ergo-propter-hoc.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/informal-fallacies/straw-man-fallacy.md" .
@@ -8638,6 +8646,116 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-fallacy/s4> <https://schema.org/url> <https://orca.cardiff.ac.uk/id/eprint/3308/> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Apart from the order of events, what independent evidence links the earlier event to the later one?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Would the later event probably have happened anyway, for example through seasonal patterns, spontaneous recovery or a return from an unusual extreme?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did anything else change at the same time that could explain the outcome?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "How often does the outcome occur when the supposed cause is absent?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is there a plausible mechanism, and has the pattern held up across repeated or controlled comparisons?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So the new ticketing tool reduced complaints." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca3> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca3> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ca3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "February had an unusual spike of outages, so complaints may simply have returned to their normal level." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Two extra support staff were hired in March, which could explain the drop on its own." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o3> <http://www.arg.dundee.ac.uk/aif#claimText> "No comparison with teams still on the old tool, or with previous Aprils, was made." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/o3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The office switched to a new IT help-desk ticketing tool in March." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Complaints about slow IT support fell sharply in April." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/c> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/p2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2000/01/rdf-schema#label> "Post hoc ergo propter hoc" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#altLabel> "after this therefore because of this" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#altLabel> "post hoc fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#altLabel> "post hoc reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#altLabel> "temporal sequence fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of concluding that one event caused another merely because the first came before the second, treating temporal sequence alone as proof of a causal connection." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#prefLabel> "Post hoc ergo propter hoc" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-correlation-to-cause> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/cum-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/causal-illusion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/post-hoc-ergo-propter-hoc.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Dowden)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> <https://schema.org/url> <https://iep.utm.edu/fallacy/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2> <http://purl.org/dc/terms/publisher> "Cambridge University Press (Tindale, 2007)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2> <http://purl.org/dc/terms/title> "Correlation and Cause (ch. 9 of Fallacies and Argument Appraisal)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s2> <https://schema.org/url> <https://www.cambridge.org/core/books/abs/fallacies-and-argument-appraisal/correlation-and-cause/B86D8252C4E1E1E344F094ADA51254D9> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 6:888 (Matute, Blanco, Yarritu, Diaz-Lago, Vadillo & Barberia, 2015)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3> <http://purl.org/dc/terms/title> "Illusions of causality: how they bias our everyday thinking and how they could be reduced" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00888/pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4> <http://purl.org/dc/terms/publisher> "Springer, Law, Governance and Technology Series 23 (Walton, 2016)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4> <http://purl.org/dc/terms/title> "Arguments from Correlation to Causation (ch. 6 of Argument Evaluation and Evidence)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4> <https://schema.org/url> <https://rd.springer.com/chapter/10.1007/978-3-319-19626-8_6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> <http://purl.org/dc/terms/title> "Fallacy of false cause" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> <https://schema.org/url> <https://www.britannica.com/topic/fallacy-of-false-cause> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
@@ -10321,6 +10439,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-correlation-to-cause> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
@@ -10366,6 +10485,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
@@ -10623,6 +10743,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/causal-illusion> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
@@ -10752,6 +10873,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
@@ -10800,6 +10922,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
@@ -10815,6 +10938,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/croson-sundali-2005-roulette-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/croson-sundali-2005-roulette-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cullen-2018-argument-visualization-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cum-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
@@ -11093,9 +11217,13 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInstance> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -11248,6 +11376,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/hart-2009-selective-exposure-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hayward-2024-problem-of-disinformation> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/henk-schmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/henk-schmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -11379,6 +11508,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
@@ -11392,11 +11522,13 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
@@ -11871,6 +12003,18 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/positive-test-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/positive-test-strategy> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/false-cause> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
@@ -12016,6 +12160,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rationality> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rationality> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
@@ -12048,6 +12193,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reliabilism> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rene-descartes> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
@@ -12172,6 +12318,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
   <https://github.com/john1hsu/critical-thinking-graph/id/skagerlund-2020-affect-heuristic-stability-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/affect-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sleeper-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/social-choice-and-individual-values> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/social-choice-and-individual-values> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/social-choice-and-individual-values> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/kenneth-arrow> .
