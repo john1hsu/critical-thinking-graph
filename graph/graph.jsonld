@@ -6790,6 +6790,92 @@
    ]
   },
   {
+   "@id": "ct:numeracy",
+   "@type": "cto:Disposition",
+   "cto:counteracts": [
+    {
+     "@id": "ct:affect-heuristic"
+    },
+    {
+     "@id": "ct:framing-effect"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:peters-2006-numeracy-and-decision-making-studies"
+   },
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/numeracy.md",
+   "cto:introducedBy": {
+    "@id": "ct:geoffrey-crowther"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s6"
+    }
+   ],
+   "rdfs:label": "Numeracy",
+   "skos:altLabel": [
+    "numerical ability",
+    "quantitative literacy",
+    "statistical numeracy"
+   ],
+   "skos:broader": {
+    "@id": "ct:thinking-dispositions"
+   },
+   "skos:definition": "The ability and readiness to understand and use numbers, especially probabilities, percentages and ratios, in everyday judgment; people high in numeracy are less swayed by how information is framed and by irrelevant feelings such as mood, and respond more precisely to the numbers themselves.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Numeracy",
+   "skos:related": [
+    {
+     "@id": "ct:berlin-numeracy-test"
+    },
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    },
+    {
+     "@id": "ct:need-for-cognition"
+    },
+    {
+     "@id": "ct:risk-literacy"
+    },
+    {
+     "@id": "ct:statistical-literacy"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    }
+   ]
+  },
+  {
    "@id": "ct:occams-razor",
    "@type": "cto:Principle",
    "cto:appliedIn": {
@@ -18198,6 +18284,90 @@
    "dcterms:title": "Base-rate respect: From statistical formats to cognitive structures",
    "schema:url": {
     "@id": "https://core-cms.cambridgecore.org/core/journals/behavioral-and-brain-sciences/article/baserate-respect-from-statistical-formats-to-cognitive-structures/9DAADA1F4F18D0E10457D548E02A78F1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Psychological Science 17(5), 407-413 (Peters, Västfjäll, Slovic, Mertz, Mazzocco & Dickert, 2006), Chalmers University of Technology research record",
+   "dcterms:title": "Numeracy and decision making",
+   "schema:url": {
+    "@id": "https://research.chalmers.se/en/publication/82667"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Psychological Bulletin 135(6), 943-973 (Reyna, Nelson, Han & Dieckmann, 2009), PubMed Central",
+   "dcterms:title": "How numeracy influences risk comprehension and medical decision making",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2844786"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 7(1), 25-47 (Cokely, Galesic, Schulz, Ghazal & Garcia-Retamero, 2012)",
+   "dcterms:title": "Measuring risk literacy: The Berlin Numeracy Test",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/11/11808/jdm11808.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 11 (Skagerlund, Forsblad, Slovic & Västfjäll, 2020)",
+   "dcterms:title": "The affect heuristic and risk perception: Stability across elicitation methods and individual cognitive abilities",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00970/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Current Directions in Psychological Science 21(1) (Peters, 2012), SAGE Journals",
+   "dcterms:title": "Beyond comprehension: The role of numeracy in judgments and decisions",
+   "schema:url": {
+    "@id": "https://journals.sagepub.com/doi/10.1177/0963721411429960"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 3(6), 435-448 (Peters & Levin, 2008), University of Oregon Scholars' Bank",
+   "dcterms:title": "Dissecting the risky-choice framing effect: Numeracy as an individual-difference factor in weighting risky and riskless options",
+   "schema:url": {
+    "@id": "https://scholarsbank.uoregon.edu//bitstreams/94935ed3-ca21-4369-bbe3-a45be53478de/download"
    }
   },
   {

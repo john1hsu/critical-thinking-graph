@@ -7167,6 +7167,95 @@
   ]
  },
  {
+  "id": "ct:numeracy",
+  "title": "Numeracy",
+  "aliases": [
+   "quantitative literacy",
+   "numerical ability",
+   "statistical numeracy"
+  ],
+  "type": "Disposition",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/numeracy.md",
+  "created": "2026-11-08",
+  "summary": "The ability and readiness to understand and use numbers, especially probabilities, percentages and ratios, in everyday judgment; people high in numeracy are less swayed by how information is framed and by irrelevant feelings such as mood, and respond more precisely to the numbers themselves.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:thinking-dispositions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:need-for-cognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-literacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:berlin-numeracy-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-literacy"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:affect-heuristic",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:framing-effect",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:peters-2006-numeracy-and-decision-making-studies",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:geoffrey-crowther",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://research.chalmers.se/en/publication/82667",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2844786",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/11/11808/jdm11808.html",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00970/full",
+   "https://journals.sagepub.com/doi/10.1177/0963721411429960",
+   "https://scholarsbank.uoregon.edu//bitstreams/94935ed3-ca21-4369-bbe3-a45be53478de/download"
+  ]
+ },
+ {
   "id": "ct:occams-razor",
   "title": "Occam's razor",
   "aliases": [

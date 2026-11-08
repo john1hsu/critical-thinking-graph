@@ -3108,6 +3108,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mcdowell-jacobs-2017-natural-frequencies-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Disposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2000/01/rdf-schema#label> "Numeracy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#altLabel> "numerical ability" .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#altLabel> "quantitative literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#altLabel> "statistical numeracy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#definition> "The ability and readiness to understand and use numbers, especially probabilities, percentages and ratios, in everyday judgment; people high in numeracy are less swayed by how information is framed and by irrelevant feelings such as mood, and respond more precisely to the numbers themselves." .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Numeracy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/berlin-numeracy-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/affect-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peters-2006-numeracy-and-decision-making-studies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/numeracy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/geoffrey-crowther> .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/numeracy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <http://www.w3.org/2000/01/rdf-schema#label> "Occam's razor" .
@@ -6568,6 +6600,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s5> <https://schema.org/url> <https://core-cms.cambridgecore.org/core/journals/behavioral-and-brain-sciences/article/baserate-respect-from-statistical-formats-to-cognitive-structures/9DAADA1F4F18D0E10457D548E02A78F1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s1> <http://purl.org/dc/terms/publisher> "Psychological Science 17(5), 407-413 (Peters, Västfjäll, Slovic, Mertz, Mazzocco & Dickert, 2006), Chalmers University of Technology research record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s1> <http://purl.org/dc/terms/title> "Numeracy and decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s1> <https://schema.org/url> <https://research.chalmers.se/en/publication/82667> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s2> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 135(6), 943-973 (Reyna, Nelson, Han & Dieckmann, 2009), PubMed Central" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s2> <http://purl.org/dc/terms/title> "How numeracy influences risk comprehension and medical decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC2844786> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s3> <http://purl.org/dc/terms/publisher> "Judgment and Decision Making 7(1), 25-47 (Cokely, Galesic, Schulz, Ghazal & Garcia-Retamero, 2012)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s3> <http://purl.org/dc/terms/title> "Measuring risk literacy: The Berlin Numeracy Test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s3> <https://schema.org/url> <https://dlab.sauder.ubc.ca/sjdm/journal/11/11808/jdm11808.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s4> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 11 (Skagerlund, Forsblad, Slovic & Västfjäll, 2020)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s4> <http://purl.org/dc/terms/title> "The affect heuristic and risk perception: Stability across elicitation methods and individual cognitive abilities" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s4> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00970/full> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s5> <http://purl.org/dc/terms/publisher> "Current Directions in Psychological Science 21(1) (Peters, 2012), SAGE Journals" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s5> <http://purl.org/dc/terms/title> "Beyond comprehension: The role of numeracy in judgments and decisions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s5> <https://schema.org/url> <https://journals.sagepub.com/doi/10.1177/0963721411429960> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s6> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s6> <http://purl.org/dc/terms/publisher> "Judgment and Decision Making 3(6), 435-448 (Peters & Levin, 2008), University of Oregon Scholars' Bank" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s6> <http://purl.org/dc/terms/title> "Dissecting the risky-choice framing effect: Numeracy as an individual-difference factor in weighting risky and riskless options" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/numeracy/s6> <https://schema.org/url> <https://scholarsbank.uoregon.edu//bitstreams/94935ed3-ca21-4369-bbe3-a45be53478de/download> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Baker, first published 2004, revised 2022)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s1> <http://purl.org/dc/terms/title> "Simplicity" .

@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:affect-heuristic` | cto:Heuristic |
+_No results._
 
 ## Most useful remedies
 
@@ -28,6 +26,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
+| `ct:numeracy` | 2 | Affect heuristic, framing-effect |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:randomized-controlled-trial` | 2 | confounding, selection-bias |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
@@ -89,7 +88,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:metacognition` | mixed |  |
 | `ct:misinformation-and-disinformation` | mixed | `ct:altay-2023-misinformation-on-misinformation` |
 
-…and 11 more.
+…and 12 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
