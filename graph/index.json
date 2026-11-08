@@ -2820,6 +2820,100 @@
   ]
  },
  {
+  "id": "ct:confounding",
+  "title": "Confounding",
+  "aliases": [
+   "confounding bias",
+   "confounder",
+   "confounding variable",
+   "lurking variable",
+   "third-variable problem"
+  ],
+  "type": "Phenomenon",
+  "domain": "scientific-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/scientific-reasoning/confounding.md",
+  "created": "2026-11-08",
+  "summary": "The distortion of an apparent cause-and-effect relationship that occurs when the exposure and the outcome share a common cause, so that the groups being compared differ in their risk of the outcome for reasons other than the exposure itself.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:causal-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:simpsons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mills-methods"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:post-hoc-ergo-propter-hoc"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:causal-diagrams"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:causal-diagrams",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:epidemiology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ronald-fisher",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-design-of-experiments",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:berksons-paradox",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://publications.iarc.fr/_publications/media/download/7289/e5e6a8f8bd7a1e202db8280d5637d8ae0a939284.pdf",
+   "https://www.cambridge.org/core/books/causality/simpsons-paradox-confounding-and-collapsibility/034402052E7C35736C06AA13DF709B59",
+   "https://ftp.cs.ucla.edu/pub/stat_ser/r414.pdf",
+   "https://link.springer.com/article/10.1007/BF01326402",
+   "https://webarchive.library.unt.edu/eot2008/20081105021835/http:/www.ahrq.gov/research/jan04/0104RA6.htm"
+  ]
+ },
+ {
   "id": "ct:conjunction-fallacy",
   "title": "Conjunction fallacy",
   "aliases": [

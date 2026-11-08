@@ -1254,6 +1254,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hart-2009-selective-exposure-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2000/01/rdf-schema#label> "Confounding" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#altLabel> "confounder" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#altLabel> "confounding bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#altLabel> "confounding variable" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#altLabel> "lurking variable" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#altLabel> "third-variable problem" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#definition> "The distortion of an apparent cause-and-effect relationship that occurs when the exposure and the outcome share a common cause, so that the groups being compared differ in their risk of the outcome for reasons other than the exposure itself." .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#prefLabel> "Confounding" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/confounding.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ronald-fisher> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/the-design-of-experiments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/confounding> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the detailed version of the claim really more likely than the shorter claim it contains?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
@@ -5391,6 +5425,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <https://schema.org/url> <https://isps.yale.edu/research/publications/isps18-025> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> <http://purl.org/dc/terms/publisher> "IARC Statistical Methods in Cancer Research Vol. V (Scientific Publication No. 171), ch. 3 (Richardson, Costello, Kaufman et al., 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> <http://purl.org/dc/terms/title> "Confounding: a routine concern in the interpretation of epidemiological studies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "intergovernmental" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> <https://schema.org/url> <https://publications.iarc.fr/_publications/media/download/7289/e5e6a8f8bd7a1e202db8280d5637d8ae0a939284.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s2> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s2> <http://purl.org/dc/terms/publisher> "Causality: Models, Reasoning, and Inference, 2nd ed., ch. 6, pp. 173-200, Cambridge University Press (Pearl, 2009), doi:10.1017/CBO9780511803161.008" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s2> <http://purl.org/dc/terms/title> "Simpson's Paradox, Confounding, and Collapsibility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s2> <https://schema.org/url> <https://www.cambridge.org/core/books/causality/simpsons-paradox-confounding-and-collapsibility/034402052E7C35736C06AA13DF709B59> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s3> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s3> <http://purl.org/dc/terms/publisher> "UCLA Cognitive Systems Laboratory Technical Report R-414 (Pearl, 2013); published in The American Statistician, 2014" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s3> <http://purl.org/dc/terms/title> "Understanding Simpson's Paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s3> <https://schema.org/url> <https://ftp.cs.ucla.edu/pub/stat_ser/r414.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s4> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s4> <http://purl.org/dc/terms/publisher> "Sozial- und Präventivmedizin 47(4):216-224 (Vandenbroucke, 2002), doi:10.1007/BF01326402" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s4> <http://purl.org/dc/terms/title> "The history of confounding" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s4> <https://schema.org/url> <https://link.springer.com/article/10.1007/BF01326402> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s5> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s5> <http://purl.org/dc/terms/publisher> "Agency for Healthcare Research and Quality, Research Activities, January 2004 (summarising Ray, American Journal of Epidemiology 158(9):915-920, 2003); archived by the UNT End of Term web archive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s5> <http://purl.org/dc/terms/title> "Confounding factors may be the reason that randomized controlled trials of HRT conflict with observational studies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s5> <https://schema.org/url> <https://webarchive.library.unt.edu/eot2008/20081105021835/http:/www.ahrq.gov/research/jan04/0104RA6.htm> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> <http://purl.org/dc/terms/publisher> "Psychological Review 90(4), 293-315 (Tversky & Kahneman, 1983), UC San Diego course copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/conjunction-fallacy/s1> <http://purl.org/dc/terms/title> "Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment" .

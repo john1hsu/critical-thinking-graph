@@ -29,7 +29,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 | `ct:numeracy` | 2 | Affect heuristic, framing-effect |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
-| `ct:randomized-controlled-trial` | 2 | confounding, selection-bias |
+| `ct:randomized-controlled-trial` | 2 | Confounding, selection-bias |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
 | `ct:argument-mapping` | 1 | Begging the question |

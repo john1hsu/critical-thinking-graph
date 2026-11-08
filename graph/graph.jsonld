@@ -2695,6 +2695,92 @@
    ]
   },
   {
+   "@id": "ct:confounding",
+   "@type": "cto:Phenomenon",
+   "cto:appliedIn": {
+    "@id": "ct:epidemiology"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:berksons-paradox"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/scientific-reasoning/confounding.md",
+   "cto:formalizedBy": {
+    "@id": "ct:causal-diagrams"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:ronald-fisher"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:the-design-of-experiments"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:correlation-versus-causation"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s5"
+    }
+   ],
+   "rdfs:label": "Confounding",
+   "skos:altLabel": [
+    "confounder",
+    "confounding bias",
+    "confounding variable",
+    "lurking variable",
+    "third-variable problem"
+   ],
+   "skos:broader": {
+    "@id": "ct:causal-inference"
+   },
+   "skos:definition": "The distortion of an apparent cause-and-effect relationship that occurs when the exposure and the outcome share a common cause, so that the groups being compared differ in their risk of the outcome for reasons other than the exposure itself.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Confounding",
+   "skos:related": [
+    {
+     "@id": "ct:causal-diagrams"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:mills-methods"
+    },
+    {
+     "@id": "ct:post-hoc-ergo-propter-hoc"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:selection-bias"
+    },
+    {
+     "@id": "ct:simpsons-paradox"
+    }
+   ]
+  },
+  {
    "@id": "ct:conjunction-fallacy",
    "@type": "cto:ProbabilisticFallacy",
    "cto:challengedBy": {
@@ -15565,6 +15651,76 @@
    "dcterms:title": "Does counter-attitudinal information cause backlash? Results from three large survey experiments",
    "schema:url": {
     "@id": "https://isps.yale.edu/research/publications/isps18-025"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "intergovernmental",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "IARC Statistical Methods in Cancer Research Vol. V (Scientific Publication No. 171), ch. 3 (Richardson, Costello, Kaufman et al., 2024)",
+   "dcterms:title": "Confounding: a routine concern in the interpretation of epidemiological studies",
+   "schema:url": {
+    "@id": "https://publications.iarc.fr/_publications/media/download/7289/e5e6a8f8bd7a1e202db8280d5637d8ae0a939284.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Causality: Models, Reasoning, and Inference, 2nd ed., ch. 6, pp. 173-200, Cambridge University Press (Pearl, 2009), doi:10.1017/CBO9780511803161.008",
+   "dcterms:title": "Simpson's Paradox, Confounding, and Collapsibility",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/causality/simpsons-paradox-confounding-and-collapsibility/034402052E7C35736C06AA13DF709B59"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "UCLA Cognitive Systems Laboratory Technical Report R-414 (Pearl, 2013); published in The American Statistician, 2014",
+   "dcterms:title": "Understanding Simpson's Paradox",
+   "schema:url": {
+    "@id": "https://ftp.cs.ucla.edu/pub/stat_ser/r414.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Sozial- und Präventivmedizin 47(4):216-224 (Vandenbroucke, 2002), doi:10.1007/BF01326402",
+   "dcterms:title": "The history of confounding",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/BF01326402"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-08"
+   },
+   "dcterms:publisher": "Agency for Healthcare Research and Quality, Research Activities, January 2004 (summarising Ray, American Journal of Epidemiology 158(9):915-920, 2003); archived by the UNT End of Term web archive",
+   "dcterms:title": "Confounding factors may be the reason that randomized controlled trials of HRT conflict with observational studies",
+   "schema:url": {
+    "@id": "https://webarchive.library.unt.edu/eot2008/20081105021835/http:/www.ahrq.gov/research/jan04/0104RA6.htm"
    }
   },
   {
