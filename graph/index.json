@@ -2028,6 +2028,106 @@
   ]
  },
  {
+  "id": "ct:calibration",
+  "title": "Calibration",
+  "aliases": [
+   "probability calibration",
+   "calibrated probability assessment",
+   "forecast reliability",
+   "calibration of confidence"
+  ],
+  "type": "Concept",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/calibration.md",
+  "created": "2026-11-08",
+  "summary": "The match between stated confidence and actual hit rate: a judge is well calibrated when, across many judgments given the same probability, that share of them turns out true. It is one component of probabilistic accuracy, distinct from resolution, and is measured with scoring rules such as the Brier score.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hard-easy-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:baruch-fischhoff"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sarah-lichtenstein"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sherman-kent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:intelligence-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hindsight-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:brier-score",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:forecast-resolution",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:geopolitical-forecasting",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:weather-forecasting",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://apps.dtic.mil/sti/pdfs/ADA033248.pdf",
+   "https://escholarship.org/content/qt4rg4n9vr/qt4rg4n9vr_noSplash_4ff67e56b3dac616e0163b75090705e6.pdf",
+   "https://ore.exeter.ac.uk/rest/bitstreams/141507/retrieve",
+   "https://glossary.ametsoc.org/wiki/brier-score/"
+  ]
+ },
+ {
   "id": "ct:charles-hamblin",
   "title": "Charles Hamblin",
   "aliases": [

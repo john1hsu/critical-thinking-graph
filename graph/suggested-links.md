@@ -18,6 +18,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.73 | `ct:affirming-a-disjunct` | `ct:deductive-reasoning` | `ct:affirming-the-consequent`, `ct:mental-model-theory`, `ct:method-of-counterexample`, `ct:syllogism`, `ct:validity` |
 | 2.62 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
 | 2.53 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
+| 2.52 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
 | 2.49 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:validity` |
 | 2.48 | `ct:inductive-reasoning` | `ct:karl-popper` | `ct:david-hume`, `ct:problem-of-induction`, `ct:william-whewell` |
 | 2.48 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
@@ -28,4 +29,3 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.40 | `ct:argument-mapping` | `ct:informal-fallacy` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:informal-logic` |
 | 2.39 | `ct:cognitive-psychology` | `ct:validity` | `ct:deductive-reasoning`, `ct:formal-fallacy`, `ct:inductive-reasoning`, `ct:informal-fallacy`, `ct:modus-ponens` |
 | 2.37 | `ct:baruch-fischhoff` | `ct:cognitive-bias` | `ct:amos-tversky`, `ct:daniel-kahneman`, `ct:debiasing`, `ct:heuristics-and-biases-program`, `ct:hindsight-bias` |
-| 2.35 | `ct:burden-of-proof` | `ct:informal-logic` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:charles-hamblin`, `ct:informal-fallacy` |

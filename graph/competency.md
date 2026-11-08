@@ -102,6 +102,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | node | type |
 |---|---|
 | `ct:affirming-a-disjunct` | cto:FormalFallacy |
+| `ct:calibration` | cto:Concept |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:logical-necessity-instructions` | cto:Technique |
