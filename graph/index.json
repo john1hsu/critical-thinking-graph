@@ -5515,6 +5515,88 @@
   ]
  },
  {
+  "id": "ct:john-venn",
+  "title": "John Venn",
+  "aliases": [
+   "J. Venn"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/john-venn.md",
+  "created": "2026-11-08",
+  "summary": "English logician and Cambridge don (1834-1923) who formalised the overlapping-circle diagrams that now bear his name, read universal propositions as making no claim that anything exists (so subalternation and weakened syllogisms fail), and was a founder of the frequency interpretation of probability in The Logic of Chance (1866).",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:george-boole"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:existential-fallacy",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:frequency-interpretation-of-probability",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:the-logic-of-chance",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:george-boole",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:augustus-de-morgan",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/modern-logic-boolean-period-venn",
+   "https://mathshistory.st-andrews.ac.uk/DSB/Venn.pdf",
+   "https://www.combinatorics.org/files/Surveys/ds5/VennJohnEJC.html",
+   "https://zenodo.org/record/1431145",
+   "https://bun.kyoto-u.ac.jp/archive/jp/philosophy_and_history_of_science/phs-archives/gallery/venn_note.html"
+  ]
+ },
+ {
   "id": "ct:jonathan-st-b-t-evans",
   "title": "Jonathan St B. T. Evans",
   "aliases": [
