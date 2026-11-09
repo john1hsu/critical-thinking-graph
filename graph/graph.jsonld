@@ -4654,6 +4654,108 @@
    ]
   },
   {
+   "@id": "ct:fast-and-frugal-heuristics",
+   "@type": "cto:Framework",
+   "cto:appliedIn": {
+    "@id": "ct:medicine"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:pohl-2011-recognition-heuristic-debate-review"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:heuristics-and-biases-program"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": {
+    "@id": "ct:ecological-rationality"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/fast-and-frugal-heuristics.md",
+   "cto:influencedBy": {
+    "@id": "ct:herbert-simon"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:gerd-gigerenzer"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:reasoning-the-fast-and-frugal-way"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:bounded-rationality"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:phillips-2017-fftrees-benchmark"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s6"
+    }
+   ],
+   "rdfs:label": "Fast-and-frugal heuristics",
+   "skos:altLabel": [
+    "adaptive toolbox",
+    "fast and frugal heuristics program",
+    "simple heuristics program"
+   ],
+   "skos:broader": {
+    "@id": "ct:bounded-rationality"
+   },
+   "skos:definition": "The research program, launched by Gerd Gigerenzer and colleagues in the mid-1990s, that models judgment as the use of simple, precisely specified rules which search little information, stop early and decide on one or a few cues, and that judges such rules by how well they fit the structure of the environment rather than by logical or statistical norms.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Fast-and-frugal heuristics",
+   "skos:related": [
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:ecological-rationality"
+    },
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:herbert-simon"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:overfitting"
+    },
+    {
+     "@id": "ct:recognition-heuristic"
+    },
+    {
+     "@id": "ct:satisficing"
+    }
+   ]
+  },
+  {
    "@id": "ct:formal-fallacy",
    "@type": "cto:Concept",
    "cto:challengedBy": {
@@ -18397,6 +18499,90 @@
    "dcterms:title": "Underdetermination of Scientific Theory",
    "schema:url": {
     "@id": "https://plato.stanford.edu/entries/scientific-underdetermination/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Psychological Review 103(4), 650-669 (Gigerenzer & Goldstein, 1996), author's copy",
+   "dcterms:title": "Reasoning the fast and frugal way: Models of bounded rationality",
+   "schema:url": {
+    "@id": "https://www.dangoldstein.com/papers/FastFrugalPsychReview.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Annual Review of Psychology 62, 451-482 (Gigerenzer & Gaissmaier, 2011), University of Konstanz repository record",
+   "dcterms:title": "Heuristic decision making",
+   "schema:url": {
+    "@id": "https://kops.uni-konstanz.de/entities/publication/641996fe-73e8-4d82-b940-1e49598102ac"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 6(5), 423-438 (Pohl, 2011)",
+   "dcterms:title": "On the use of recognition in inferential decision making: An overview of the debate",
+   "schema:url": {
+    "@id": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/740657BB9CD07AC20033402527379F85/S1930297500001388a.pdf/on-the-use-of-recognition-in-inferential-decision-making-an-overview-of-the-debate.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 12(4), 344-368 (Phillips, Neth, Woike & Gaissmaier, 2017)",
+   "dcterms:title": "FFTrees: A toolbox to create, visualize, and evaluate fast-and-frugal decision trees",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EBA944267A2D0EE5970471B38BC1CA84/S1930297500006239a.pdf/fftrees-a-toolbox-to-create-visualize-and-evaluate-fast-and-frugal-decision-trees.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Dialogues in Clinical Neuroscience 14(1) (Marewski & Gigerenzer, 2012)",
+   "dcterms:title": "Heuristic decision making in medicine",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/full/10.31887/DCNS.2012.14.1/jmarewski"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Topics in Cognitive Science 3, 197-205 (Brighton & Gigerenzer, 2011), Max Planck Society repository",
+   "dcterms:title": "Towards competitive instead of biased testing of heuristics: A reply to Hilbig and Richter (2011)",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2098985_1/component/file_2098984/HB_Towards_2011.pdf"
    }
   },
   {

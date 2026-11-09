@@ -4919,6 +4919,127 @@
   ]
  },
  {
+  "id": "ct:fast-and-frugal-heuristics",
+  "title": "Fast-and-frugal heuristics",
+  "aliases": [
+   "simple heuristics program",
+   "adaptive toolbox",
+   "fast and frugal heuristics program"
+  ],
+  "type": "Framework",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/heuristics-and-dual-process/fast-and-frugal-heuristics.md",
+  "created": "2026-11-09",
+  "summary": "The research program, launched by Gerd Gigerenzer and colleagues in the mid-1990s, that models judgment as the use of simple, precisely specified rules which search little information, stop early and decide on one or a few cues, and that judges such rules by how well they fit the structure of the environment rather than by logical or statistical norms.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:recognition-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:satisficing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ecological-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gerd-gigerenzer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overfitting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:herbert-simon"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:reasoning-the-fast-and-frugal-way",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:herbert-simon",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:ecological-rationality",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:heuristics-and-biases-program",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:medicine",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:phillips-2017-fftrees-benchmark",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:pohl-2011-recognition-heuristic-debate-review",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.dangoldstein.com/papers/FastFrugalPsychReview.pdf",
+   "https://kops.uni-konstanz.de/entities/publication/641996fe-73e8-4d82-b940-1e49598102ac",
+   "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/740657BB9CD07AC20033402527379F85/S1930297500001388a.pdf/on-the-use-of-recognition-in-inferential-decision-making-an-overview-of-the-debate.pdf",
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EBA944267A2D0EE5970471B38BC1CA84/S1930297500006239a.pdf/fftrees-a-toolbox-to-create-visualize-and-evaluate-fast-and-frugal-decision-trees.pdf",
+   "https://informahealthcare.com/doi/full/10.31887/DCNS.2012.14.1/jmarewski",
+   "https://pure.mpg.de/pubman/item/item_2098985_1/component/file_2098984/HB_Towards_2011.pdf"
+  ]
+ },
+ {
   "id": "ct:formal-fallacy",
   "title": "Formal fallacy",
   "aliases": [
