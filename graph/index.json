@@ -4608,6 +4608,98 @@
   ]
  },
  {
+  "id": "ct:disjunctive-syllogism",
+  "title": "Disjunctive syllogism",
+  "aliases": [
+   "modus tollendo ponens",
+   "fifth indemonstrable",
+   "argument by elimination of alternatives"
+  ],
+  "type": "ReasoningForm",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/disjunctive-syllogism.md",
+  "created": "2026-11-09",
+  "summary": "The valid inference form \"P or Q; not P; therefore Q\", which reaches one alternative of a disjunction by ruling out the other.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:false-dilemma"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:chrysippus"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-explosion"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:stoic-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:affirming-a-disjunct",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:propositional-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:paraconsistent-logic",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:relevance-logic",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/win2021/entries/logic-ancient/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/04%3A_Deductive_Arguments/4.05%3A_Commons_Forms_of_Arguments",
+   "https://plato.stanford.edu/entries/logic-paraconsistent/",
+   "https://iep.utm.edu/para-log/",
+   "https://www.uvm.edu/~jbailly/courses/196Stoicism/notes/StoicLogic.html"
+  ]
+ },
+ {
   "id": "ct:distribution-of-terms",
   "title": "Distribution of terms",
   "aliases": [

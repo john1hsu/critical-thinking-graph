@@ -132,6 +132,17 @@ flowchart TD
   o2["The conditional names one sufficient route to the target, not the only one."] -. attacks .-> ra
 ```
 
+## Disjunctive syllogism (`ct:disjunctive-syllogism`)
+
+```mermaid
+flowchart TD
+  p1["The shared printer is failing because of the network connection or because of the print driver."] --> ra{{"valid"}}
+  p2["Network diagnostics show the printer's connection is working."] --> ra{{"valid"}}
+  ra --> c["The printer is failing because of the print driver."]
+  o1["The form is valid, but the first premise may leave out live options such as a paper jam or a hardware fault, which would make the argument unsound."] -. attacks .-> ra
+  o2["If the diagnostics are unreliable, the second premise is doubtful and the elimination does not go through."] -. attacks .-> ra
+```
+
 ## Exclusive premises (`ct:exclusive-premises`)
 
 ```mermaid

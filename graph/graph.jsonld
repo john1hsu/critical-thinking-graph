@@ -4351,6 +4351,95 @@
    ]
   },
   {
+   "@id": "ct:disjunctive-syllogism",
+   "@type": "cto:ReasoningForm",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:paraconsistent-logic"
+    },
+    {
+     "@id": "ct:relevance-logic"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:affirming-a-disjunct"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map"
+   },
+   "cto:file": "articles/formal-logic/disjunctive-syllogism.md",
+   "cto:formalizedBy": {
+    "@id": "ct:stoic-logic"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:validity"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:propositional-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s5"
+    }
+   ],
+   "rdfs:label": "Disjunctive syllogism",
+   "skos:altLabel": [
+    "argument by elimination of alternatives",
+    "fifth indemonstrable",
+    "modus tollendo ponens"
+   ],
+   "skos:broader": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "skos:definition": "The valid inference form \"P or Q; not P; therefore Q\", which reaches one alternative of a disjunction by ruling out the other.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Disjunctive syllogism",
+   "skos:related": [
+    {
+     "@id": "ct:chrysippus"
+    },
+    {
+     "@id": "ct:false-dilemma"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:principle-of-explosion"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:truth-table"
+    }
+   ]
+  },
+  {
    "@id": "ct:distribution-of-terms",
    "@type": "cto:Concept",
    "cto:challengedBy": {
@@ -14267,6 +14356,77 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:disjunctive-syllogism"
+   },
+   "cto:verdict": "valid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The printer is failing because of the print driver."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The form is valid, but the first premise may leave out live options such as a paper jam or a hardware fault, which would make the argument unsound."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "If the diagnostics are unreliable, the second premise is doubtful and the elimination does not go through."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The shared printer is failing because of the network connection or because of the print driver."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Network diagnostics show the printer's connection is working."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -19098,6 +19258,76 @@
    "dcterms:title": "Stop Playing Devil's Advocate, and Other Advice for Better Decision Making",
    "schema:url": {
     "@id": "https://behavioralscientist.org/stop-playing-devils-advocate-and-other-advice-for-better-decision-making/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Susanne Bobzien, Winter 2021 edition)",
+   "dcterms:title": "Ancient Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/win2021/entries/logic-ancient/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Critical Reasoning and Writing (Levin et al.), Humanities LibreTexts, CC BY-NC-SA",
+   "dcterms:title": "4.5: Common Forms of Arguments",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/04%3A_Deductive_Arguments/4.05%3A_Commons_Forms_of_Arguments"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Priest, Tanaka and Weber; rev. 2026)",
+   "dcterms:title": "Paraconsistent Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/logic-paraconsistent/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Zach Weber)",
+   "dcterms:title": "Paraconsistent Logic",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/para-log/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "University of Vermont",
+   "dcterms:title": "Course notes: Stoic Logic (CLAS/PHIL 196, Stoicism)",
+   "schema:url": {
+    "@id": "https://www.uvm.edu/~jbailly/courses/196Stoicism/notes/StoicLogic.html"
    }
   },
   {
