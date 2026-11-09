@@ -5141,6 +5141,81 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
 <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "What are the intermediate steps between the first move and the feared outcome, and is each one supported by evidence rather than just asserted?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Why would we lose the ability to stop partway, and could a clear rule or bright line be drawn to halt the slide?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "How likely is the final outcome, and is it really as bad as claimed?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is the argument just a warning about bad consequences dressed up as an unstoppable chain?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So we must not let the design team work from home on Fridays." .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ca3> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ca3> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/o3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ca3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "No evidence is offered that each step makes the next one likely; requests for Fridays at home do not force management to grant Mondays." .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Management keeps control at every step: a written policy capping remote days is a bright line that stops the slide." .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/o3> <http://www.arg.dundee.ac.uk/aif#claimText> "The feared end state is assumed to be catastrophic without asking how other firms with hybrid schedules have fared." .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/o3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "If we let the design team work from home on Fridays, the other teams will ask for the same." .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Once every team has Fridays at home, people will start asking for Mondays too, and soon nobody will come in at all." .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/p3> <http://www.arg.dundee.ac.uk/aif#claimText> "An empty office would destroy our collaboration and culture." .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/p3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/p3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2000/01/rdf-schema#label> "Slippery slope" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#altLabel> "slippery slope argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#altLabel> "slippery slope fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#altLabel> "thin edge of the wedge" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#altLabel> "wedge argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#definition> "An argument that a proposed first step should be rejected because it would set off a chain of further steps ending in an unacceptable outcome; it is fallacious when the chain, the point of no return or the outcome's likelihood is asserted rather than supported." .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#prefLabel> "Slippery slope" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/slippery-slope.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
 <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2000/01/rdf-schema#label> "Socratic method" .
@@ -9454,6 +9529,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/simpsons-paradox/s4> <https://schema.org/url> <https://www.mdpi.com/2077-0383/12/4/1633> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s1> <http://purl.org/dc/terms/publisher> "Informal Logic 35(3), 273-311 (Walton, 2015); CRRAR, University of Windsor" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s1> <http://purl.org/dc/terms/title> "The Basic Slippery Slope Argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s1> <https://schema.org/url> <https://scholar.uwindsor.ca/crrarpub/29> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s2> <http://purl.org/dc/terms/publisher> "Journal of Memory and Language 64(2), 133-152 (Corner, Hahn & Oaksford, 2011); ORCA, Cardiff University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s2> <http://purl.org/dc/terms/title> "The psychological mechanism of the slippery slope argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s2> <https://schema.org/url> <https://orca.cardiff.ac.uk/id/eprint/30687/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s3> <http://purl.org/dc/terms/publisher> "Memory & Cognition 44(5), 819-836 (Haigh, Wood & Stewart, 2016); Northumbria Research Link" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s3> <http://purl.org/dc/terms/title> "Slippery slope arguments imply opposition to change" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s3> <https://schema.org/url> <https://nrl.northumbria.ac.uk/id/eprint/26101> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> <http://purl.org/dc/terms/publisher> "Decoding Deception (Daly & Jarrette, University of Arizona), Humanities LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> <http://purl.org/dc/terms/title> "2.6: Slippery Slope Arguments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/02%3A_Common_Fallacies_(and_How_to_Find_Them)/2.06%3A_Slippery_Slope_Arguments> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://purl.org/dc/terms/publisher> "Behaviour Research and Therapy 70:32-37 (Braun, Strunk, Sasso and Cooper, 2015), PMC author manuscript" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://purl.org/dc/terms/title> "Therapist use of Socratic questioning predicts session-to-session symptom change in cognitive therapy for depression" .

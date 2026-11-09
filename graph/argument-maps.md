@@ -276,6 +276,19 @@ flowchart TD
   o3["No comparison with teams still on the old tool, or with previous Aprils, was made."] -. attacks .-> ra
 ```
 
+## Slippery slope (`ct:slippery-slope`)
+
+```mermaid
+flowchart TD
+  p1["If we let the design team work from home on Fridays, the other teams will ask for the same."] --> ra{{"fallacious"}}
+  p2["Once every team has Fridays at home, people will start asking for Mondays too, and soon nobody will come in at all."] --> ra{{"fallacious"}}
+  p3["An empty office would destroy our collaboration and culture."] --> ra{{"fallacious"}}
+  ra --> c["So we must not let the design team work from home on Fridays."]
+  o1["No evidence is offered that each step makes the next one likely; requests for Fridays at home do not force management to grant Mondays."] -. attacks .-> ra
+  o2["Management keeps control at every step: a written policy capping remote days is a bright line that stops the slide."] -. attacks .-> ra
+  o3["The feared end state is assumed to be catastrophic without asking how other firms with hybrid schedules have fared."] -. attacks .-> ra
+```
+
 ## Straw man fallacy (`ct:straw-man-fallacy`)
 
 ```mermaid

@@ -12269,6 +12269,87 @@
   ]
  },
  {
+  "id": "ct:slippery-slope",
+  "title": "Slippery slope",
+  "aliases": [
+   "slippery slope argument",
+   "slippery slope fallacy",
+   "thin edge of the wedge",
+   "wedge argument"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/slippery-slope.md",
+  "created": "2026-11-09",
+  "summary": "An argument that a proposed first step should be rejected because it would set off a chain of further steps ending in an unacceptable outcome; it is fallacious when the chain, the point of no return or the outcome's likelihood is asserted rather than supported.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:post-hoc-ergo-propter-hoc"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sorites-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:false-dilemma"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:argument-from-consequences",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:bayesian-reasoning",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "What are the intermediate steps between the first move and the feared outcome, and is each one supported by evidence rather than just asserted?",
+   "Why would we lose the ability to stop partway, and could a clear rule or bright line be drawn to halt the slide?",
+   "How likely is the final outcome, and is it really as bad as claimed?",
+   "Is the argument just a warning about bad consequences dressed up as an unstoppable chain?"
+  ],
+  "source_urls": [
+   "https://scholar.uwindsor.ca/crrarpub/29",
+   "https://orca.cardiff.ac.uk/id/eprint/30687/",
+   "https://nrl.northumbria.ac.uk/id/eprint/26101",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/02%3A_Common_Fallacies_(and_How_to_Find_Them)/2.06%3A_Slippery_Slope_Arguments"
+  ]
+ },
+ {
   "id": "ct:socratic-method",
   "title": "Socratic method",
   "aliases": [
