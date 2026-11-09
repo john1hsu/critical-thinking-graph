@@ -12043,6 +12043,88 @@
   ]
  },
  {
+  "id": "ct:systematic-review",
+  "title": "Systematic review",
+  "aliases": [
+   "systematic literature review",
+   "systematic research synthesis"
+  ],
+  "type": "Method",
+  "domain": "evidence-and-information-literacy",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/evidence-and-information-literacy/systematic-review.md",
+  "created": "2026-11-09",
+  "summary": "A review of research that answers a clearly formulated question by finding, selecting, appraising and synthesising all eligible studies with explicit methods fixed in advance, so that the choice of evidence cannot be bent toward a preferred answer.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:meta-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:suppressed-evidence",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:publication-bias",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:archie-cochrane",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:evidence-based-medicine",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:ioannidis-2016-mass-production-of-systematic-reviews",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-i",
+   "https://dukespace.lib.duke.edu/server/api/core/bitstreams/5541cd3e-4a21-461a-9862-fe5a69294275/content",
+   "https://eprints.whiterose.ac.uk/id/eprint/173303/1/bmj.n71.full.pdf",
+   "https://www.milbank.org/quarterly/articles/mass-production-redundant-misleading-conflicted-systematic-reviews-meta-analyses/"
+  ]
+ },
+ {
   "id": "ct:the-new-rhetoric",
   "title": "The New Rhetoric",
   "aliases": [

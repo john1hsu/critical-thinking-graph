@@ -11395,6 +11395,80 @@
    ]
   },
   {
+   "@id": "ct:systematic-review",
+   "@type": "cto:Method",
+   "cto:appliedIn": {
+    "@id": "ct:evidence-based-medicine"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:ioannidis-2016-mass-production-of-systematic-reviews"
+   },
+   "cto:counteracts": {
+    "@id": "ct:suppressed-evidence"
+   },
+   "cto:detects": {
+    "@id": "ct:publication-bias"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/evidence-and-information-literacy/systematic-review.md",
+   "cto:influencedBy": {
+    "@id": "ct:archie-cochrane"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:source-credibility"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s4"
+    }
+   ],
+   "rdfs:label": "Systematic review",
+   "skos:altLabel": [
+    "systematic literature review",
+    "systematic research synthesis"
+   ],
+   "skos:broader": {
+    "@id": "ct:scientific-method"
+   },
+   "skos:definition": "A review of research that answers a clearly formulated question by finding, selecting, appraising and synthesising all eligible studies with explicit methods fixed in advance, so that the choice of evidence cannot be bent toward a preferred answer.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Systematic review",
+   "skos:related": [
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:meta-analysis"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    }
+   ]
+  },
+  {
    "@id": "ct:the-new-rhetoric",
    "@type": "cto:Work",
    "cto:authoredBy": [
@@ -24007,6 +24081,62 @@
    "dcterms:title": "Theories of the Syllogism: A Meta-Analysis",
    "schema:url": {
     "@id": "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Cochrane (2024)",
+   "dcterms:title": "Chapter I: Introduction (Cumpston, Flemyng, Thomas, Higgins, Deeks & Clarke), Cochrane Handbook for Systematic Reviews of Interventions, version 6.5",
+   "schema:url": {
+    "@id": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-i"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Evaluation & the Health Professions 25(1), 12-37 (Chalmers, Hedges & Cooper, 2002), Duke University repository",
+   "dcterms:title": "A brief history of research synthesis",
+   "schema:url": {
+    "@id": "https://dukespace.lib.duke.edu/server/api/core/bitstreams/5541cd3e-4a21-461a-9862-fe5a69294275/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "BMJ 372, n71 (Page, McKenzie, Bossuyt et al., 2021), White Rose eprints",
+   "dcterms:title": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/id/eprint/173303/1/bmj.n71.full.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "The Milbank Quarterly 94(3), 485-514 (Ioannidis, 2016)",
+   "dcterms:title": "The Mass Production of Redundant, Misleading, and Conflicted Systematic Reviews and Meta-analyses",
+   "schema:url": {
+    "@id": "https://www.milbank.org/quarterly/articles/mass-production-redundant-misleading-conflicted-systematic-reviews-meta-analyses/"
    }
   },
   {

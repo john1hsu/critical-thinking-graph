@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:suppressed-evidence` | cto:InformalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -32,6 +30,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:randomized-controlled-trial` | 2 | Confounding, selection-bias |
+| `ct:systematic-review` | 2 | Suppressed evidence, publication-bias |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
 | `ct:antilogism` | 1 | Exclusive premises |
@@ -121,6 +120,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
 | `ct:suppressed-evidence` | cto:InformalFallacy |
+| `ct:systematic-review` | cto:Method |
 | `ct:tu-quoque` | cto:InformalFallacy |
 
 ## Orphan articles (gap)

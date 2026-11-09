@@ -8875,6 +8875,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s4> <https://schema.org/url> <https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s1> <http://purl.org/dc/terms/publisher> "Cochrane (2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s1> <http://purl.org/dc/terms/title> "Chapter I: Introduction (Cumpston, Flemyng, Thomas, Higgins, Deeks & Clarke), Cochrane Handbook for Systematic Reviews of Interventions, version 6.5" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s1> <https://schema.org/url> <https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-i> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s2> <http://purl.org/dc/terms/publisher> "Evaluation & the Health Professions 25(1), 12-37 (Chalmers, Hedges & Cooper, 2002), Duke University repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s2> <http://purl.org/dc/terms/title> "A brief history of research synthesis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s2> <https://schema.org/url> <https://dukespace.lib.duke.edu/server/api/core/bitstreams/5541cd3e-4a21-461a-9862-fe5a69294275/content> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s3> <http://purl.org/dc/terms/publisher> "BMJ 372, n71 (Page, McKenzie, Bossuyt et al., 2021), White Rose eprints" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s3> <http://purl.org/dc/terms/title> "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s3> <https://schema.org/url> <https://eprints.whiterose.ac.uk/id/eprint/173303/1/bmj.n71.full.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s4> <http://purl.org/dc/terms/publisher> "The Milbank Quarterly 94(3), 485-514 (Ioannidis, 2016)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s4> <http://purl.org/dc/terms/title> "The Mass Production of Redundant, Misleading, and Conflicted Systematic Reviews and Meta-analyses" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s4> <https://schema.org/url> <https://www.milbank.org/quarterly/articles/mass-production-redundant-misleading-conflicted-systematic-reviews-meta-analyses/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1> <http://purl.org/dc/terms/publisher> "Springer (van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij & Wagemans, 2014)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1> <http://purl.org/dc/terms/title> "The New Rhetoric (chapter 5), in Handbook of Argumentation Theory" .
@@ -9528,6 +9552,34 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2000/01/rdf-schema#label> "Systematic review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#altLabel> "systematic literature review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#altLabel> "systematic research synthesis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#definition> "A review of research that answers a clearly formulated question by finding, selecting, appraising and synthesising all eligible studies with explicit methods fixed in advance, so that the choice of evidence cannot be bent toward a preferred answer." .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#prefLabel> "Systematic review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/systematic-review/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ioannidis-2016-mass-production-of-systematic-reviews> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/systematic-review.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/archie-cochrane> .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
 <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://www.w3.org/2000/01/rdf-schema#label> "The New Rhetoric" .
