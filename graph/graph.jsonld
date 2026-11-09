@@ -5723,6 +5723,84 @@
    ]
   },
   {
+   "@id": "ct:ignoratio-elenchi",
+   "@type": "cto:InformalFallacy",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:non-sequitur"
+    },
+    {
+     "@id": "ct:red-herring"
+    }
+   ],
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map"
+   },
+   "cto:file": "articles/informal-fallacies/ignoratio-elenchi.md",
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s3"
+    }
+   ],
+   "rdfs:label": "Ignoratio elenchi",
+   "skos:altLabel": [
+    "ignorance of refutation",
+    "irrelevant conclusion",
+    "missing the point",
+    "wrong conclusion fallacy"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of offering an argument, often a perfectly good one, for a conclusion other than the one actually at issue, so that it misses the point it was meant to establish or refute.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Ignoratio elenchi",
+   "skos:related": [
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:fallacies-of-relevance"
+    },
+    {
+     "@id": "ct:richard-whately"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:illicit-major",
    "@type": "cto:FormalFallacy",
    "cto:contrastsWith": [
@@ -13990,6 +14068,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "rdfs:label": "What exactly is the conclusion in dispute, stated in one sentence?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "rdfs:label": "What conclusion do the premises actually support, and is it the same claim?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "rdfs:label": "If the argument succeeds completely, does the disputed claim stand or fall, or is it untouched?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "rdfs:label": "Does the argument contradict the opponent's thesis in the same respect, at the same time and about the same thing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "rdfs:label": "Is there a definite alternative conclusion being argued for, or is the argument simply drifting away from the issue?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So we should switch to the new expense tool next quarter."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The evidence supports 'the new tool looks better', not 'switching next quarter is worth the cost and disruption'."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Nothing in the argument addresses migration effort, accuracy of reimbursements or staff training, which the decision turns on."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The question on the table is whether the new expense tool should replace the old one next quarter."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The finance lead shows that the new tool's dashboards are more attractive and that its vendor has won design awards."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -19395,6 +19584,48 @@
    "dcterms:title": "On the failure to eliminate hypotheses in a conceptual task",
    "schema:url": {
     "@id": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Aristotle, trans. W. A. Pickard-Cambridge, The Internet Classics Archive (MIT)",
+   "dcterms:title": "On Sophistical Refutations (Parts 5-6)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Informal Logic 24(1), 71-103 (Douglas Walton, 2004)",
+   "dcterms:title": "Classification of Fallacies of Relevance",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2133.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University (Lee C. Archie)",
+   "dcterms:title": "Ignoratio Elenchi (Irrelevant Conclusion)",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/ignoratio.html"
    }
   },
   {

@@ -2664,6 +2664,75 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "What exactly is the conclusion in dispute, stated in one sentence?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "What conclusion do the premises actually support, and is it the same claim?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "If the argument succeeds completely, does the disputed claim stand or fall, or is it untouched?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does the argument contradict the opponent's thesis in the same respect, at the same time and about the same thing?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is there a definite alternative conclusion being argued for, or is the argument simply drifting away from the issue?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So we should switch to the new expense tool next quarter." .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The evidence supports 'the new tool looks better', not 'switching next quarter is worth the cost and disruption'." .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Nothing in the argument addresses migration effort, accuracy of reimbursements or staff training, which the decision turns on." .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The question on the table is whether the new expense tool should replace the old one next quarter." .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "The finance lead shows that the new tool's dashboards are more attractive and that its vendor has won design awards." .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2000/01/rdf-schema#label> "Ignoratio elenchi" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#altLabel> "ignorance of refutation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#altLabel> "irrelevant conclusion" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#altLabel> "missing the point" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#altLabel> "wrong conclusion fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of offering an argument, often a perfectly good one, for a conclusion other than the one actually at issue, so that it misses the point it was meant to establish or refute." .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ignoratio elenchi" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/ignoratio-elenchi.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the conclusion's predicate about all members of its class while the premise spoke only of some of them?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
@@ -6861,6 +6930,24 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hypothesis-testing/s4> <https://schema.org/url> <https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s1> <http://purl.org/dc/terms/publisher> "Aristotle, trans. W. A. Pickard-Cambridge, The Internet Classics Archive (MIT)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s1> <http://purl.org/dc/terms/title> "On Sophistical Refutations (Parts 5-6)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s1> <https://schema.org/url> <https://classics.mit.edu/Aristotle/sophist_refut.1.1.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 24(1), 71-103 (Douglas Walton, 2004)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s2> <http://purl.org/dc/terms/title> "Classification of Fallacies of Relevance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2133.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s3> <http://purl.org/dc/terms/publisher> "Philosophy 103: Introduction to Logic, Lander University (Lee C. Archie)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s3> <http://purl.org/dc/terms/title> "Ignoratio Elenchi (Irrelevant Conclusion)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/ignoratio-elenchi/s3> <https://schema.org/url> <https://philosophy.lander.edu/logic/ignoratio.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1> <http://purl.org/dc/terms/publisher> "Philosophy 103: Introduction to Logic, Lander University" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s1> <http://purl.org/dc/terms/title> "Syllogistic Fallacies: Illicit Major and Illicit Minor" .

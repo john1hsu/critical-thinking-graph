@@ -176,6 +176,17 @@ flowchart TD
   o1["If each check is independent, the chance the next one fails is still about one in ten; seven passes do not create a debt that the next shipment must repay."] -. attacks .-> ra
 ```
 
+## Ignoratio elenchi (`ct:ignoratio-elenchi`)
+
+```mermaid
+flowchart TD
+  p1["The question on the table is whether the new expense tool should replace the old one next quarter."] --> ra{{"fallacious"}}
+  p2["The finance lead shows that the new tool's dashboards are more attractive and that its vendor has won design awards."] --> ra{{"fallacious"}}
+  ra --> c["So we should switch to the new expense tool next quarter."]
+  o1["The evidence supports 'the new tool looks better', not 'switching next quarter is worth the cost and disruption'."] -. attacks .-> ra
+  o2["Nothing in the argument addresses migration effort, accuracy of reimbursements or staff training, which the decision turns on."] -. attacks .-> ra
+```
+
 ## Illicit major (`ct:illicit-major`)
 
 ```mermaid

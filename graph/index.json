@@ -6093,6 +6093,93 @@
   ]
  },
  {
+  "id": "ct:ignoratio-elenchi",
+  "title": "Ignoratio elenchi",
+  "aliases": [
+   "irrelevant conclusion",
+   "missing the point",
+   "ignorance of refutation",
+   "wrong conclusion fallacy"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/ignoratio-elenchi.md",
+  "created": "2026-11-09",
+  "summary": "The fallacy of offering an argument, often a perfectly good one, for a conclusion other than the one actually at issue, so that it misses the point it was meant to establish or refute.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-whately"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacies-of-relevance"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:red-herring",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:non-sequitur",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "What exactly is the conclusion in dispute, stated in one sentence?",
+   "What conclusion do the premises actually support, and is it the same claim?",
+   "If the argument succeeds completely, does the disputed claim stand or fall, or is it untouched?",
+   "Does the argument contradict the opponent's thesis in the same respect, at the same time and about the same thing?",
+   "Is there a definite alternative conclusion being argued for, or is the argument simply drifting away from the issue?"
+  ],
+  "source_urls": [
+   "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html",
+   "https://distantreader.org/stacks/journals/il/il-2133.pdf",
+   "https://philosophy.lander.edu/logic/ignoratio.html"
+  ]
+ },
+ {
   "id": "ct:illicit-major",
   "title": "Illicit major",
   "aliases": [
