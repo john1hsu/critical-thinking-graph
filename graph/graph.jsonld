@@ -4207,6 +4207,105 @@
    ]
   },
   {
+   "@id": "ct:exclusive-premises",
+   "@type": "cto:FormalFallacy",
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:distribution-of-terms"
+   },
+   "cto:file": "articles/formal-fallacies/exclusive-premises.md",
+   "cto:introducedIn": {
+    "@id": "ct:prior-analytics"
+   },
+   "cto:invalidFormOf": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s5"
+    }
+   ],
+   "rdfs:label": "Exclusive premises",
+   "skos:altLabel": [
+    "exclusive premisses",
+    "fallacy of exclusive premises",
+    "fallacy of two negative premises",
+    "two negative premises"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The syllogistic fallacy of drawing a conclusion from two negative premises. Because each premise only excludes one class from the middle term, the premises fix no relation between the conclusion's two terms, so every categorical syllogism with two negative premises is invalid.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Exclusive premises",
+   "skos:related": [
+    {
+     "@id": "ct:existential-fallacy"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:john-buridan"
+    },
+    {
+     "@id": "ct:mental-model-theory"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:rules-of-the-categorical-syllogism"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:existential-fallacy",
    "@type": "cto:FormalFallacy",
    "cto:confusedWith": {
@@ -9718,6 +9817,9 @@
    "skos:prefLabel": "Rules of the categorical syllogism",
    "skos:related": [
     {
+     "@id": "ct:exclusive-premises"
+    },
+    {
      "@id": "ct:illicit-minor"
     },
     {
@@ -13006,6 +13108,112 @@
    },
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:exclusive-premises"
+   },
+   "rdfs:label": "Are both premises negative, so that each one only says which things are excluded from the middle class?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:exclusive-premises"
+   },
+   "rdfs:label": "Does anything in the premises say how the conclusion's subject and predicate relate to each other directly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:exclusive-premises"
+   },
+   "rdfs:label": "Can you describe a case where both premises are true and the conclusion is false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:exclusive-premises"
+   },
+   "rdfs:label": "Did the arguer mean a stronger affirmative claim, such as \"only X can do this\", that should be stated and defended?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:exclusive-premises"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "No interns can approve expenses."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The premises only say who is outside the security team; an intern could still approve expenses through a project budget role."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Both premises would stay true even if every intern could approve expenses, so they cannot rule it out."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "No members of the security team can approve expenses."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "No interns are members of the security team."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map"
    }
   },
   {
@@ -17511,6 +17719,76 @@
    "dcterms:title": "The Problem With Percy: Epistemology, Understanding and Critical Thinking",
    "schema:url": {
     "@id": "https://distantreader.org/stacks/journals/il/il-2325.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive, MIT",
+   "dcterms:title": "Prior Analytics, Book I (trans. A. J. Jenkinson)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/prior.1.i.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Lagerlund, rev. 2026)",
+   "dcterms:title": "Medieval Theories of the Syllogism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/medieval-syllogism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University (Lee C. Archie)",
+   "dcterms:title": "Syllogistic Fallacies: Exclusive Premisses",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/exclusive_fall.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Psychological Bulletin 138(3), 427-457 (Khemlani & Johnson-Laird, 2012), authors' copy",
+   "dcterms:title": "Theories of the Syllogism: A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Exclusive Premisses",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/exclprem.html"
    }
   },
   {

@@ -132,6 +132,17 @@ flowchart TD
   o2["The conditional names one sufficient route to the target, not the only one."] -. attacks .-> ra
 ```
 
+## Exclusive premises (`ct:exclusive-premises`)
+
+```mermaid
+flowchart TD
+  p1["No members of the security team can approve expenses."] --> ra{{"invalid"}}
+  p2["No interns are members of the security team."] --> ra{{"invalid"}}
+  ra --> c["No interns can approve expenses."]
+  o1["The premises only say who is outside the security team; an intern could still approve expenses through a project budget role."] -. attacks .-> ra
+  o2["Both premises would stay true even if every intern could approve expenses, so they cannot rule it out."] -. attacks .-> ra
+```
+
 ## Existential fallacy (`ct:existential-fallacy`)
 
 ```mermaid

@@ -12,7 +12,7 @@ summary: >-
 level: intermediate
 evidenceStatus: normative
 broader: [ct:categorical-syllogism]
-related: [ct:venn-diagram-test, ct:syllogism, ct:port-royal-logic, ct:illicit-minor, ct:validity, ct:method-of-counterexample]
+related: [ct:venn-diagram-test, ct:syllogism, ct:port-royal-logic, ct:illicit-minor, ct:validity, ct:method-of-counterexample, ct:exclusive-premises]
 requires: [ct:categorical-syllogism, ct:distribution-of-terms, ct:validity]
 relations:
   - {predicate: detects, object: ct:existential-fallacy, source: s5, confidence: high}

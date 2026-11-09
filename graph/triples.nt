@@ -1955,6 +1955,80 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/epistemology.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Are both premises negative, so that each one only says which things are excluded from the middle class?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does anything in the premises say how the conclusion's subject and predicate relate to each other directly?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Can you describe a case where both premises are true and the conclusion is false?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Did the arguer mean a stronger affirmative claim, such as \"only X can do this\", that should be stated and defended?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "No interns can approve expenses." .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The premises only say who is outside the security team; an intern could still approve expenses through a project budget role." .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Both premises would stay true even if every intern could approve expenses, so they cannot rule it out." .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "No members of the security team can approve expenses." .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "No interns are members of the security team." .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2000/01/rdf-schema#label> "Exclusive premises" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#altLabel> "exclusive premisses" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of exclusive premises" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of two negative premises" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#altLabel> "two negative premises" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#definition> "The syllogistic fallacy of drawing a conclusion from two negative premises. Because each premise only excludes one class from the middle term, the premises fix no relation between the conclusion's two terms, so every categorical syllogism with two negative premises is invalid." .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#prefLabel> "Exclusive premises" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/exclusive-premises.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#invalidFormOf> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Do the premises say that anything in the subject class actually exists, or only what would be true of its members?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
@@ -4266,6 +4340,7 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2004/02/skos/core#definition> "A checklist test for categorical syllogisms: a standard-form syllogism is valid exactly when it satisfies a short set of rules about distribution, negative premises and quantity, and each broken rule names the formal fallacy committed, from the undistributed middle to the existential fallacy." .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rules of the categorical syllogism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
@@ -6122,6 +6197,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2325.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive, MIT" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/title> "Prior Analytics, Book I (trans. A. J. Jenkinson)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <https://schema.org/url> <https://classics.mit.edu/Aristotle/prior.1.i.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Lagerlund, rev. 2026)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s2> <http://purl.org/dc/terms/title> "Medieval Theories of the Syllogism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s2> <https://schema.org/url> <https://plato.stanford.edu/entries/medieval-syllogism/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s3> <http://purl.org/dc/terms/publisher> "Philosophy 103: Introduction to Logic, Lander University (Lee C. Archie)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s3> <http://purl.org/dc/terms/title> "Syllogistic Fallacies: Exclusive Premisses" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s3> <https://schema.org/url> <https://philosophy.lander.edu/logic/exclusive_fall.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s4> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 138(3), 427-457 (Khemlani & Johnson-Laird, 2012), authors' copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s4> <http://purl.org/dc/terms/title> "Theories of the Syllogism: A Meta-Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s4> <https://schema.org/url> <https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s5> <http://purl.org/dc/terms/publisher> "The Fallacy Files (Gary N. Curtis)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s5> <http://purl.org/dc/terms/title> "Exclusive Premisses" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s5> <https://schema.org/url> <https://fallacyfiles.org/exclprem.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> <http://purl.org/dc/terms/publisher> "Introduction to Logic, Lander University" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s1> <http://purl.org/dc/terms/title> "Existential Fallacy" .

@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:exclusive-premises` | cto:FormalFallacy |
 | `ct:suppressed-evidence` | cto:InformalFallacy |
 
 ## Most useful remedies

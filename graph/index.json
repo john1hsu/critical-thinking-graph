@@ -4434,6 +4434,114 @@
   ]
  },
  {
+  "id": "ct:exclusive-premises",
+  "title": "Exclusive premises",
+  "aliases": [
+   "fallacy of exclusive premises",
+   "two negative premises",
+   "fallacy of two negative premises",
+   "exclusive premisses"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/exclusive-premises.md",
+  "created": "2026-11-09",
+  "summary": "The syllogistic fallacy of drawing a conclusion from two negative premises. Because each premise only excludes one class from the middle term, the premises fix no relation between the conclusion's two terms, so every categorical syllogism with two negative premises is invalid.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:john-buridan"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mental-model-theory"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:categorical-syllogism",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:prior-analytics",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:distribution-of-terms",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Are both premises negative, so that each one only says which things are excluded from the middle class?",
+   "Does anything in the premises say how the conclusion's subject and predicate relate to each other directly?",
+   "Can you describe a case where both premises are true and the conclusion is false?",
+   "Did the arguer mean a stronger affirmative claim, such as \"only X can do this\", that should be stated and defended?"
+  ],
+  "source_urls": [
+   "https://classics.mit.edu/Aristotle/prior.1.i.html",
+   "https://plato.stanford.edu/entries/medieval-syllogism/",
+   "https://philosophy.lander.edu/logic/exclusive_fall.html",
+   "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf",
+   "https://fallacyfiles.org/exclprem.html"
+  ]
+ },
+ {
   "id": "ct:existential-fallacy",
   "title": "Existential fallacy",
   "aliases": [
@@ -10224,6 +10332,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:exclusive-premises"
    },
    {
     "predicate": "cto:requires",
