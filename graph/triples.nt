@@ -10213,6 +10213,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/validity/s5> <https://schema.org/url> <https://link.springer.com/article/10.3758/s13423-018-1460-7/fulltext.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s1> <http://purl.org/dc/terms/publisher> "MIT Sloan Management Review (Ralph L. Keeney)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s1> <http://purl.org/dc/terms/title> "Creativity in Decision Making with Value-Focused Thinking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s1> <https://schema.org/url> <https://sloanreview.mit.edu/article/creativity-in-decision-making-with-valuefocused-thinking/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s2> <http://purl.org/dc/terms/publisher> "Military Operations Research 13(2), 6-17 (Ralph L. Keeney, 2008), Duke Scholars record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s2> <http://purl.org/dc/terms/title> "Applying Value-Focused Thinking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s2> <https://schema.org/url> <https://scholars.duke.edu/publication/780161> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s3> <http://purl.org/dc/terms/publisher> "Management Science 54(1), 56-70 (Bond, Carlson & Keeney, 2008), Georgia Tech author copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s3> <http://purl.org/dc/terms/title> "Generating Objectives: Can Decision Makers Articulate What They Want?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s3> <https://schema.org/url> <https://www.scheller.gatech.edu/directory/research/marketing/bond/pdf/bond_carlson_keeney-man-sci-2008.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s4> <http://purl.org/dc/terms/publisher> "Operations Research 63(5), 1144-1158 (Siebert & Keeney, 2015), doi:10.1287/opre.2015.1411, RePEc record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s4> <http://purl.org/dc/terms/title> "Creating More and Better Alternatives for Decisions Using Objectives" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s4> <https://schema.org/url> <https://econpapers.repec.org/RePEc:inm:oropre:v:63:y:2015:i:5:p:1144-1158> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s5> <http://purl.org/dc/terms/publisher> "University of Bayreuth via idw Informationsdienst Wissenschaft, 14 September 2015" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s5> <http://purl.org/dc/terms/title> "University of Bayreuth press release on the Siebert & Keeney alternative-creation studies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s5> <https://schema.org/url> <https://idw-online.de/en/news637479> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s6> <http://purl.org/dc/terms/publisher> "Academy of Management Executive 13(4), 75-89 (Paul C. Nutt, 1999), CEBMa copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s6> <http://purl.org/dc/terms/title> "Surprising but True: Half the Decisions in Organizations Fail" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s6> <https://schema.org/url> <https://cebma.org/assets/Uploads/Nutt-1999-gecomprimeerd.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> <http://purl.org/dc/terms/publisher> "Introduction to Logic, Philosophy Department, Lander University" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s1> <http://purl.org/dc/terms/title> "Categorical Syllogisms: Venn Diagrams" .
@@ -11048,6 +11084,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2000/01/rdf-schema#label> "Value-focused thinking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#altLabel> "VFT" .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#altLabel> "objectives-first decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#altLabel> "values-first decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#definition> "A decision technique developed by decision analyst Ralph Keeney in which the decision maker first states what they fundamentally care about as explicit objectives, then uses those objectives to create and judge alternatives, instead of starting from whatever options happen to be on the table." .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Value-focused thinking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/maximizing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/satisficing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/satisficing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/value-focused-thinking.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ralph-keeney> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking-a-path-to-creative-decisionmaking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bond-carlson-keeney-2008-generating-objectives-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/siebert-keeney-2015-creating-alternatives-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2000/01/rdf-schema#label> "Venn diagram test" .

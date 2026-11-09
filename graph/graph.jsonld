@@ -13524,6 +13524,97 @@
    ]
   },
   {
+   "@id": "ct:value-focused-thinking",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:decision-analysis"
+   },
+   "cto:counteracts": {
+    "@id": "ct:satisficing"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/value-focused-thinking.md",
+   "cto:introducedBy": {
+    "@id": "ct:ralph-keeney"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:value-focused-thinking-a-path-to-creative-decisionmaking"
+   },
+   "cto:level": "intermediate",
+   "cto:supportedBy": [
+    {
+     "@id": "ct:bond-carlson-keeney-2008-generating-objectives-study"
+    },
+    {
+     "@id": "ct:siebert-keeney-2015-creating-alternatives-study"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s6"
+    }
+   ],
+   "rdfs:label": "Value-focused thinking",
+   "skos:altLabel": [
+    "VFT",
+    "objectives-first decision making",
+    "values-first decision making"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    }
+   ],
+   "skos:definition": "A decision technique developed by decision analyst Ralph Keeney in which the decision maker first states what they fundamentally care about as explicit objectives, then uses those objectives to create and judge alternatives, instead of starting from whatever options happen to be on the table.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Value-focused thinking",
+   "skos:related": [
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:decision-analysis"
+    },
+    {
+     "@id": "ct:key-assumptions-check"
+    },
+    {
+     "@id": "ct:maximizing"
+    },
+    {
+     "@id": "ct:premortem"
+    },
+    {
+     "@id": "ct:satisficing"
+    }
+   ]
+  },
+  {
    "@id": "ct:venn-diagram-test",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -27623,6 +27714,90 @@
    "dcterms:title": "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.3758/s13423-018-1460-7/fulltext.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "MIT Sloan Management Review (Ralph L. Keeney)",
+   "dcterms:title": "Creativity in Decision Making with Value-Focused Thinking",
+   "schema:url": {
+    "@id": "https://sloanreview.mit.edu/article/creativity-in-decision-making-with-valuefocused-thinking/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Military Operations Research 13(2), 6-17 (Ralph L. Keeney, 2008), Duke Scholars record",
+   "dcterms:title": "Applying Value-Focused Thinking",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/780161"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Management Science 54(1), 56-70 (Bond, Carlson & Keeney, 2008), Georgia Tech author copy",
+   "dcterms:title": "Generating Objectives: Can Decision Makers Articulate What They Want?",
+   "schema:url": {
+    "@id": "https://www.scheller.gatech.edu/directory/research/marketing/bond/pdf/bond_carlson_keeney-man-sci-2008.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Operations Research 63(5), 1144-1158 (Siebert & Keeney, 2015), doi:10.1287/opre.2015.1411, RePEc record",
+   "dcterms:title": "Creating More and Better Alternatives for Decisions Using Objectives",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:inm:oropre:v:63:y:2015:i:5:p:1144-1158"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "University of Bayreuth via idw Informationsdienst Wissenschaft, 14 September 2015",
+   "dcterms:title": "University of Bayreuth press release on the Siebert & Keeney alternative-creation studies",
+   "schema:url": {
+    "@id": "https://idw-online.de/en/news637479"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/value-focused-thinking/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Academy of Management Executive 13(4), 75-89 (Paul C. Nutt, 1999), CEBMa copy",
+   "dcterms:title": "Surprising but True: Half the Decisions in Organizations Fail",
+   "schema:url": {
+    "@id": "https://cebma.org/assets/Uploads/Nutt-1999-gecomprimeerd.pdf"
    }
   },
   {

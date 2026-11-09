@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:satisficing` | cto:Heuristic |
 | `ct:slippery-slope` | cto:InformalFallacy |
 
 ## Most useful remedies
@@ -48,7 +47,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:sift-method` | 1 | Misinformation and disinformation |
 | `ct:stasis-theory` | 1 | Ignoratio elenchi |
 
-…and 1 more.
+…and 2 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -97,7 +96,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:debiasing-training-games` | mixed |  |
 | `ct:deliberate-reflection` | mixed | `ct:lambe-2018-guided-reflection-null-study` |
 
-…and 19 more.
+…and 20 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

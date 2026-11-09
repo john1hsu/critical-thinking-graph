@@ -14323,6 +14323,101 @@
   ]
  },
  {
+  "id": "ct:value-focused-thinking",
+  "title": "Value-focused thinking",
+  "aliases": [
+   "VFT",
+   "values-first decision making",
+   "objectives-first decision making"
+  ],
+  "type": "Technique",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/value-focused-thinking.md",
+  "created": "2026-11-09",
+  "summary": "A decision technique developed by decision analyst Ralph Keeney in which the decision maker first states what they fundamentally care about as explicit objectives, then uses those objectives to create and judge alternatives, instead of starting from whatever options happen to be on the table.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:satisficing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:maximizing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:key-assumptions-check"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:decision-analysis"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ralph-keeney",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:value-focused-thinking-a-path-to-creative-decisionmaking",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:satisficing",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:bond-carlson-keeney-2008-generating-objectives-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:siebert-keeney-2015-creating-alternatives-study",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:decision-analysis",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://sloanreview.mit.edu/article/creativity-in-decision-making-with-valuefocused-thinking/",
+   "https://scholars.duke.edu/publication/780161",
+   "https://www.scheller.gatech.edu/directory/research/marketing/bond/pdf/bond_carlson_keeney-man-sci-2008.pdf",
+   "https://econpapers.repec.org/RePEc:inm:oropre:v:63:y:2015:i:5:p:1144-1158",
+   "https://idw-online.de/en/news637479",
+   "https://cebma.org/assets/Uploads/Nutt-1999-gecomprimeerd.pdf"
+  ]
+ },
+ {
   "id": "ct:venn-diagram-test",
   "title": "Venn diagram test",
   "aliases": [

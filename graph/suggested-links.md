@@ -10,7 +10,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.88 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:ignoratio-elenchi`, `ct:inductive-reasoning` |
 | 3.66 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.53 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-major` |
-| 3.50 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman` |
+| 3.49 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman` |
 | 3.27 | `ct:exclusive-premises` | `ct:square-of-opposition` | `ct:antilogism`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:existential-fallacy` |
 | 3.12 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
 | 3.11 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
