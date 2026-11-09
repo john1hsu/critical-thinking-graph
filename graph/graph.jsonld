@@ -6909,6 +6909,84 @@
    ]
   },
   {
+   "@id": "ct:john-dewey",
+   "@type": "cto:Person",
+   "cto:authored": [
+    {
+     "@id": "ct:how-we-think"
+    },
+    {
+     "@id": "ct:logic-the-theory-of-inquiry"
+    }
+   ],
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/john-dewey.md",
+   "cto:influenced": {
+    "@id": "ct:edward-glaser"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:reflective-thinking"
+    }
+   ],
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-dewey/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-dewey/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-dewey/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-dewey/s4"
+    }
+   ],
+   "rdfs:label": "John Dewey",
+   "skos:altLabel": [
+    "Dewey",
+    "J. Dewey"
+   ],
+   "skos:definition": "American pragmatist philosopher and educator (1859-1952) whose book How We Think (1910) defined \"reflective thinking\", analysed a complete act of thought into five phases, and made the critical, inquiring habit of mind an explicit aim of schooling.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "John Dewey",
+   "skos:related": [
+    {
+     "@id": "ct:blooms-taxonomy"
+    },
+    {
+     "@id": "ct:critical-thinking-movement"
+    },
+    {
+     "@id": "ct:deliberate-reflection"
+    },
+    {
+     "@id": "ct:delphi-report-on-critical-thinking"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:philosophy-of-education"
+    },
+    {
+     "@id": "ct:scientific-method"
+    }
+   ]
+  },
+  {
    "@id": "ct:john-venn",
    "@type": "cto:Person",
    "cto:authored": {
@@ -20855,6 +20933,62 @@
    "dcterms:title": "Jean Buridan",
    "schema:url": {
     "@id": "https://britannica.com/EBchecked/topic/85330/Jean-Buridan"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-dewey/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "D. C. Heath & Co., Boston (John Dewey, 1910); Project Gutenberg eBook #37423",
+   "dcterms:title": "How We Think",
+   "schema:url": {
+    "@id": "https://gutenberg.org/files/37423/37423-h/37423-h.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-dewey/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hitchcock, 2022)",
+   "dcterms:title": "Critical Thinking, Supplement: History",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/critical-thinking/history.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-dewey/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Richard Field, Northwest Missouri State University)",
+   "dcterms:title": "Dewey, John",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/john-dewey/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/john-dewey/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (print article)",
+   "dcterms:title": "John Dewey",
+   "schema:url": {
+    "@id": "https://www.britannica.com/print/article/160445"
    }
   },
   {

@@ -7380,6 +7380,88 @@
   ]
  },
  {
+  "id": "ct:john-dewey",
+  "title": "John Dewey",
+  "aliases": [
+   "Dewey",
+   "J. Dewey"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/john-dewey.md",
+  "created": "2026-11-09",
+  "summary": "American pragmatist philosopher and educator (1859-1952) whose book How We Think (1910) defined \"reflective thinking\", analysed a complete act of thought into five phases, and made the critical, inquiring habit of mind an explicit aim of schooling.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-movement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-report-on-critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:blooms-taxonomy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-education"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deliberate-reflection"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:critical-thinking-education",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:reflective-thinking",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:how-we-think",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:logic-the-theory-of-inquiry",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:edward-glaser",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://gutenberg.org/files/37423/37423-h/37423-h.htm",
+   "https://plato.stanford.edu/ENTRIES/critical-thinking/history.html",
+   "https://iep.utm.edu/john-dewey/",
+   "https://www.britannica.com/print/article/160445"
+  ]
+ },
+ {
   "id": "ct:john-venn",
   "title": "John Venn",
   "aliases": [
