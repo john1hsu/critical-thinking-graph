@@ -2834,6 +2834,92 @@
   ]
  },
  {
+  "id": "ct:conditional-probability",
+  "title": "Conditional probability",
+  "aliases": [
+   "probability of A given B",
+   "P(A|B)",
+   "relative probability"
+  ],
+  "type": "Concept",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/conditional-probability.md",
+  "created": "2026-11-09",
+  "summary": "The probability that one event occurs given that another event occurs, standardly defined as the probability of both divided by the probability of the conditioning event (when that is above zero); the building block of Bayesian updating, independence and most statistical evidence.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:simpsons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inverse-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-literacy"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:andrey-kolmogorov",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:what-conditional-probability-could-not-be",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:joint-probability",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://dn790007.ca.archive.org/0/items/foundationsofthe00kolm/foundationsofthe00kolm.pdf",
+   "https://plato.stanford.edu/archives/win2003/entries/probability-interpret/",
+   "https://mail.joelvelasco.net/teaching/3865/hajekwhatcpcouldntbe.pdf",
+   "https://www.redalyc.org/pdf/2912/291226280007.pdf",
+   "https://eprints.kingston.ac.uk/6308"
+  ]
+ },
+ {
   "id": "ct:confirmation-bias",
   "title": "Confirmation bias",
   "aliases": [

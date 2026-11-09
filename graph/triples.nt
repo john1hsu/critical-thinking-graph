@@ -1300,6 +1300,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ulric-neisser> .
 <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2000/01/rdf-schema#label> "Conditional probability" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#altLabel> "P(A|B)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#altLabel> "probability of A given B" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#altLabel> "relative probability" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#definition> "The probability that one event occurs given that another event occurs, standardly defined as the probability of both divided by the probability of the conditioning event (when that is above zero); the building block of Bayesian updating, independence and most statistical evidence." .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conditional probability" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/what-conditional-probability-could-not-be> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/joint-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/conditional-probability.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/andrey-kolmogorov> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://purl.org/dc/terms/modified> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
@@ -5533,6 +5564,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-psychology/s5> <https://schema.org/url> <https://www.britannica.com/science/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> <http://purl.org/dc/terms/publisher> "Chelsea Publishing, New York (Kolmogorov, trans. ed. Morrison, 1950), Internet Archive scan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> <http://purl.org/dc/terms/title> "Foundations of the Theory of Probability (English translation of Grundbegriffe der Wahrscheinlichkeitsrechnung, 1933)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> <https://schema.org/url> <https://dn790007.ca.archive.org/0/items/foundationsofthe00kolm/foundationsofthe00kolm.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Winter 2003 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s2> <http://purl.org/dc/terms/title> "Interpretations of Probability" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/win2003/entries/probability-interpret/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s3> <http://purl.org/dc/terms/publisher> "Synthese 137, 273–323 (Hájek, 2003), course-hosted copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s3> <http://purl.org/dc/terms/title> "What Conditional Probability Could Not Be" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s3> <https://schema.org/url> <https://mail.joelvelasco.net/teaching/3865/hajekwhatcpcouldntbe.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s4> <http://purl.org/dc/terms/publisher> "Bolema 26(44), 1207–1225 (Díaz, Contreras, Batanero & Roa, 2012)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s4> <http://purl.org/dc/terms/title> "Assessing Prospective Secondary School Teachers' Biases in Conditional Probability Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s4> <https://schema.org/url> <https://www.redalyc.org/pdf/2912/291226280007.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s5> <http://purl.org/dc/terms/publisher> "Memory & Cognition 30(2), 171–178 (Villejoubert & Mandel, 2002), Kingston University repository record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s5> <http://purl.org/dc/terms/title> "The inverse fallacy: An account of deviations from Bayes's theorem and the additivity principle" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s5> <https://schema.org/url> <https://eprints.kingston.ac.uk/6308> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> <http://purl.org/dc/terms/publisher> "Review of General Psychology 2(2), 175-220 (Nickerson, 1998), copy hosted by UC San Diego" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s1> <http://purl.org/dc/terms/title> "Confirmation bias: A ubiquitous phenomenon in many guises" .

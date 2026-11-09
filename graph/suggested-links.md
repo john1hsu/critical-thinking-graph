@@ -23,9 +23,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.55 | `ct:square-of-opposition` | `ct:topics` | `ct:aristotle`, `ct:boethius`, `ct:organon`, `ct:prior-analytics` |
 | 2.52 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
 | 2.52 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
-| 2.50 | `ct:inductive-reasoning` | `ct:informal-fallacy` | `ct:argument`, `ct:bayesian-reasoning`, `ct:cogency`, `ct:cognitive-psychology`, `ct:post-hoc-ergo-propter-hoc` |
+| 2.49 | `ct:inductive-reasoning` | `ct:informal-fallacy` | `ct:argument`, `ct:bayesian-reasoning`, `ct:cogency`, `ct:cognitive-psychology`, `ct:post-hoc-ergo-propter-hoc` |
 | 2.49 | `ct:confounding` | `ct:regression-to-the-mean` | `ct:correlation-versus-causation`, `ct:epidemiology`, `ct:george-udny-yule`, `ct:post-hoc-ergo-propter-hoc`, `ct:randomized-controlled-trial` |
-| 2.48 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:conjunction-fallacy`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:numeracy` |
 | 2.48 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:method-of-counterexample`, `ct:modus-ponens`, `ct:validity` |
+| 2.47 | `ct:judgment-and-decision-making` | `ct:natural-frequencies` | `ct:base-rate-neglect`, `ct:conjunction-fallacy`, `ct:debiasing`, `ct:gerd-gigerenzer`, `ct:numeracy` |
 | 2.46 | `ct:affirming-a-disjunct` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:denying-the-antecedent`, `ct:formal-fallacy`, `ct:method-of-counterexample`, `ct:syllogism` |
 | 2.46 | `ct:cognitive-psychology` | `ct:minna-cheves-wilkins` | `ct:deductive-reasoning`, `ct:jonathan-st-b-t-evans`, `ct:psychology`, `ct:syllogism` |
