@@ -9568,6 +9568,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s7> <https://schema.org/url> <https://www.neh.gov/award/stephen-toulmin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s1> <http://purl.org/dc/terms/publisher> "Routledge Encyclopedia of Philosophy (Sedley, 1998)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s1> <http://purl.org/dc/terms/title> "Stoicism: Inferential logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s1> <https://schema.org/url> <https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s2> <http://purl.org/dc/terms/publisher> "Cambridge University Press (Barnes, Bobzien & Mignucci; eds. Algra, Barnes, Mansfeld & Schofield, 1999)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s2> <http://purl.org/dc/terms/title> "Logic (ch. 5), in The Cambridge History of Hellenistic Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s2> <https://schema.org/url> <https://cambridge.org/core/product/identifier/CBO9781139053617A013/type/BOOK_PART> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s3> <http://purl.org/dc/terms/publisher> "McMaster University (Hitchcock, 2002)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s3> <http://purl.org/dc/terms/title> "Stoic Propositional Logic: A New Reconstruction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s3> <https://schema.org/url> <https://experts.mcmaster.ca/display/publication1933971> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s4> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s4> <http://purl.org/dc/terms/title> "History of logic: The Megarians and the Stoics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s4> <https://schema.org/url> <https://britannica.com/topic/history-of-logic/The-Megarians-and-the-Stoics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/straw-man-fallacy/s1> <http://purl.org/dc/terms/title> "Fallacies" .
@@ -10166,6 +10190,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2000/01/rdf-schema#label> "Stoic logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "Stoic dialectic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "Stoic hypothetical syllogistic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "Stoic propositional logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#definition> "The logic developed by the Stoic school of ancient Greece, above all by Chrysippus (3rd century BCE): a system of whole propositions joined by connectives such as \"if\", \"or\", \"and\" and \"not\", with five basic argument forms (the indemonstrables) and rules for reducing other arguments to them; it is the earliest substantial forerunner of modern propositional logic." .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stoic logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothetical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/material-conditional> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/stoic-logic.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/diodorus-cronus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Would the other side recognise this description as their own position, stated in their own terms?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .

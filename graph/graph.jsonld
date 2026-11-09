@@ -12089,6 +12089,101 @@
    ]
   },
   {
+   "@id": "ct:stoic-logic",
+   "@type": "cto:Field",
+   "cto:contrastsWith": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/formal-logic/stoic-logic.md",
+   "cto:influencedBy": {
+    "@id": "ct:diodorus-cronus"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:chrysippus"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s4"
+    }
+   ],
+   "rdfs:label": "Stoic logic",
+   "skos:altLabel": [
+    "Stoic dialectic",
+    "Stoic hypothetical syllogistic",
+    "Stoic propositional logic"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-logic"
+   },
+   "skos:definition": "The logic developed by the Stoic school of ancient Greece, above all by Chrysippus (3rd century BCE): a system of whole propositions joined by connectives such as \"if\", \"or\", \"and\" and \"not\", with five basic argument forms (the indemonstrables) and rules for reducing other arguments to them; it is the earliest substantial forerunner of modern propositional logic.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Stoic logic",
+   "skos:related": [
+    {
+     "@id": "ct:chrysippus"
+    },
+    {
+     "@id": "ct:disjunctive-syllogism"
+    },
+    {
+     "@id": "ct:hypothetical-syllogism"
+    },
+    {
+     "@id": "ct:liar-paradox"
+    },
+    {
+     "@id": "ct:material-conditional"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:organon"
+    },
+    {
+     "@id": "ct:propositional-logic"
+    },
+    {
+     "@id": "ct:sorites-paradox"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:straw-man-fallacy",
    "@type": "cto:InformalFallacy",
    "cto:amplifies": {
@@ -25973,6 +26068,62 @@
    "dcterms:title": "Stephen Toulmin, Jefferson Lecture 1997",
    "schema:url": {
     "@id": "https://www.neh.gov/award/stephen-toulmin"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Routledge Encyclopedia of Philosophy (Sedley, 1998)",
+   "dcterms:title": "Stoicism: Inferential logic",
+   "schema:url": {
+    "@id": "https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Cambridge University Press (Barnes, Bobzien & Mignucci; eds. Algra, Barnes, Mansfeld & Schofield, 1999)",
+   "dcterms:title": "Logic (ch. 5), in The Cambridge History of Hellenistic Philosophy",
+   "schema:url": {
+    "@id": "https://cambridge.org/core/product/identifier/CBO9781139053617A013/type/BOOK_PART"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "McMaster University (Hitchcock, 2002)",
+   "dcterms:title": "Stoic Propositional Logic: A New Reconstruction",
+   "schema:url": {
+    "@id": "https://experts.mcmaster.ca/display/publication1933971"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stoic-logic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "History of logic: The Megarians and the Stoics",
+   "schema:url": {
+    "@id": "https://britannica.com/topic/history-of-logic/The-Megarians-and-the-Stoics"
    }
   },
   {

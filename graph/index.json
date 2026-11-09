@@ -12794,6 +12794,109 @@
   ]
  },
  {
+  "id": "ct:stoic-logic",
+  "title": "Stoic logic",
+  "aliases": [
+   "Stoic dialectic",
+   "Stoic propositional logic",
+   "Stoic hypothetical syllogistic"
+  ],
+  "type": "Field",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/formal-logic/stoic-logic.md",
+  "created": "2026-11-09",
+  "summary": "The logic developed by the Stoic school of ancient Greece, above all by Chrysippus (3rd century BCE): a system of whole propositions joined by connectives such as \"if\", \"or\", \"and\" and \"not\", with five basic argument forms (the indemonstrables) and rules for reducing other arguments to them; it is the earliest substantial forerunner of modern propositional logic.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:chrysippus"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:disjunctive-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothetical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:liar-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sorites-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:chrysippus",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:diodorus-cronus",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:categorical-syllogism",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.rep.routledge.com/articles/thematic/stoicism/v-1/sections/inferential-logic",
+   "https://cambridge.org/core/product/identifier/CBO9781139053617A013/type/BOOK_PART",
+   "https://experts.mcmaster.ca/display/publication1933971",
+   "https://britannica.com/topic/history-of-logic/The-Megarians-and-the-Stoics"
+  ]
+ },
+ {
   "id": "ct:straw-man-fallacy",
   "title": "Straw man fallacy",
   "aliases": [
