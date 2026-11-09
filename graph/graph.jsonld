@@ -6333,6 +6333,95 @@
    ]
   },
   {
+   "@id": "ct:insensitivity-to-sample-size",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": {
+    "@id": "ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:kahneman-tversky-1972-hospital-problem-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": {
+    "@id": "ct:representativeness-heuristic"
+   },
+   "cto:file": "articles/cognitive-biases/insensitivity-to-sample-size.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:introducedIn": {
+    "@id": "ct:judgment-under-uncertainty-heuristics-and-biases"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:representativeness-heuristic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s5"
+    }
+   ],
+   "rdfs:label": "Insensitivity to sample size",
+   "skos:altLabel": [
+    "neglect of sample size",
+    "sample size neglect",
+    "sample-size insensitivity"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to judge how likely a sample result is, or how much a sample proves, by how closely it resembles the population while ignoring how many cases it contains, so that small samples are trusted too much and their greater variability goes unnoticed.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Insensitivity to sample size",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:gamblers-fallacy"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:law-of-small-numbers"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    }
+   ]
+  },
+  {
    "@id": "ct:intelligence-analysis",
    "@type": "cto:Field",
    "cto:domain": "decision-making",
@@ -20034,6 +20123,76 @@
    "dcterms:title": "Journalism, 'Fake News' and Disinformation: A Handbook for Journalism Education and Training (modules)",
    "schema:url": {
     "@id": "https://en.unesco.org/fightfakenews/modules"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Cognitive Psychology 3, 430-454 (Kahneman & Tversky, 1972), copy hosted on a UC San Diego faculty page",
+   "dcterms:title": "Subjective probability: A judgment of representativeness",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mckenzie/Kahneman&Tversky1972CogPsych.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Science 185(4157), 1124-1131 (Tversky & Kahneman, 1974), copy hosted on an NC State course page",
+   "dcterms:title": "Judgment under uncertainty: Heuristics and biases",
+   "schema:url": {
+    "@id": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Tversky+Kahneman-heuristics-biases-1974.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Journal of Behavioral Decision Making 10, 33-51 (Sedlmeier & Gigerenzer, 1997), CORE open-access copy",
+   "dcterms:title": "Intuitions about sample size: The empirical law of large numbers",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/288620432.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "The University of Hong Kong, HKU Scholars Hub (Hong, 2023, MSocSc thesis, Registered Report)",
+   "dcterms:title": "Revisiting the 'belief in the law of small numbers': replication and extensions of problems reviewed in Tversky and Kahneman (1971)",
+   "schema:url": {
+    "@id": "https://hub.hku.hk/handle/10722/335948"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Peer Community in Registered Reports (recommender M. Syed, 2023)",
+   "dcterms:title": "Revisiting the 'Belief in the law of small numbers': Conceptual replication and extensions (Stage 1 recommendation)",
+   "schema:url": {
+    "@id": "https://rr.peercommunityin.org/articles/rec?id=410"
    }
   },
   {

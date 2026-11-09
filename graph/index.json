@@ -6760,6 +6760,104 @@
   ]
  },
  {
+  "id": "ct:insensitivity-to-sample-size",
+  "title": "Insensitivity to sample size",
+  "aliases": [
+   "sample size neglect",
+   "sample-size insensitivity",
+   "neglect of sample size"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/cognitive-biases/insensitivity-to-sample-size.md",
+  "created": "2026-11-09",
+  "summary": "The tendency to judge how likely a sample result is, or how much a sample proves, by how closely it resembles the population while ignoring how many cases it contains, so that small samples are trusted too much and their greater variability goes unnoticed.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:law-of-small-numbers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:representativeness-heuristic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:judgment-under-uncertainty-heuristics-and-biases",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:kahneman-tversky-1972-hospital-problem-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pages.ucsd.edu/~mckenzie/Kahneman&Tversky1972CogPsych.pdf",
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Tversky+Kahneman-heuristics-biases-1974.pdf",
+   "https://core.ac.uk/download/288620432.pdf",
+   "https://hub.hku.hk/handle/10722/335948",
+   "https://rr.peercommunityin.org/articles/rec?id=410"
+  ]
+ },
+ {
   "id": "ct:intelligence-analysis",
   "title": "Intelligence analysis",
   "aliases": [

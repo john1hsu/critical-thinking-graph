@@ -20,7 +20,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
 | `ct:rules-of-the-categorical-syllogism` | 3 | Existential fallacy, Illicit major, Undistributed middle |
-| `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Representativeness heuristic, insensitivity-to-sample-size |
+| `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
@@ -69,6 +69,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
 | `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
 | `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
+| `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
@@ -90,9 +91,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 | `ct:lateral-reading` | mixed |  |
 | `ct:logical-necessity-instructions` | mixed | `ct:evans-1994-debiasing-by-instruction-experiments` |
-| `ct:metacognition` | mixed |  |
 
-…and 13 more.
+…and 14 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
