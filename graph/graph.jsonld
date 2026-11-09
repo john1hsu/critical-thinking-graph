@@ -3484,6 +3484,96 @@
    ]
   },
   {
+   "@id": "ct:critical-thinking-education",
+   "@type": "cto:Field",
+   "cto:challengedBy": {
+    "@id": "ct:huber-kuncel-2016-college-critical-thinking-meta-analysis"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/philosophy-of-reasoning/critical-thinking-education.md",
+   "cto:influencedBy": {
+    "@id": "ct:john-dewey"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:abrami-2015-critical-thinking-instruction-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s5"
+    }
+   ],
+   "rdfs:label": "Critical thinking education",
+   "skos:altLabel": [
+    "critical thinking instruction",
+    "critical-thinking pedagogy",
+    "teaching critical thinking"
+   ],
+   "skos:broader": {
+    "@id": "ct:philosophy-of-education"
+   },
+   "skos:definition": "The theory and practice of deliberately teaching people to reason well, covering what to teach, whether to teach it in stand-alone courses or inside subjects, and how much instruction actually improves measured reasoning and carries over to new problems.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Critical thinking education",
+   "skos:related": [
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:blooms-taxonomy"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:critical-thinking-movement"
+    },
+    {
+     "@id": "ct:delphi-report-on-critical-thinking"
+    },
+    {
+     "@id": "ct:educational-assessment"
+    },
+    {
+     "@id": "ct:metacognition"
+    },
+    {
+     "@id": "ct:socratic-method"
+    },
+    {
+     "@id": "ct:thinking-dispositions"
+    },
+    {
+     "@id": "ct:transfer-of-learning"
+    }
+   ]
+  },
+  {
    "@id": "ct:daniel-kahneman",
    "@type": "cto:Person",
    "cto:appliedIn": {
@@ -17977,6 +18067,76 @@
    "dcterms:title": "Correlations Genuine and Spurious in Pearson and Yule",
    "schema:url": {
     "@id": "https://eprints.soton.ac.uk/32919"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hitchcock, 2022)",
+   "dcterms:title": "Critical Thinking, Supplement: Educational Methods",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/eNtRIeS/critical-thinking/methods.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "NSW Department of Education (Willingham, 2019)",
+   "dcterms:title": "How to Teach Critical Thinking (Education: Future Frontiers occasional paper)",
+   "schema:url": {
+    "@id": "https://education.nsw.gov.au:443/content/dam/main-education/teaching-and-learning/education-for-a-changing-world/media/documents/How-to-teach-critical-thinking-Willingham.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "College Teaching 53(1), 41-48 (van Gelder, 2005); copy hosted by Aga Khan University",
+   "dcterms:title": "Teaching Critical Thinking: Some Lessons From Cognitive Science",
+   "schema:url": {
+    "@id": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Review of Educational Research 86(2), 431-468 (Huber & Kuncel, 2016); University of Minnesota Experts record",
+   "dcterms:title": "Does College Teach Critical Thinking? A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://experts.umn.edu/en/publications/does-college-teach-critical-thinking-a-meta-analysis/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking-education/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "American Educational Research Association (2015)",
+   "dcterms:title": "Study Snapshot: Does College Teach Critical Thinking?",
+   "schema:url": {
+    "@id": "https://www.aera.net/Newsroom/Study-Snapshot-Does-College-Teach-Critical-Thinking"
    }
   },
   {

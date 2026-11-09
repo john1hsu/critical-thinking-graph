@@ -84,15 +84,15 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:conjunction-fallacy` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:correcting-erroneous-perceptions-of-randomness` | mixed |  |
+| `ct:critical-thinking-education` | mixed | `ct:huber-kuncel-2016-college-critical-thinking-meta-analysis` |
 | `ct:debiasing` | mixed |  |
 | `ct:debiasing-training-games` | mixed |  |
 | `ct:deliberate-reflection` | mixed | `ct:lambe-2018-guided-reflection-null-study` |
 | `ct:devils-advocacy` | mixed |  |
 | `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
 | `ct:lateral-reading` | mixed |  |
-| `ct:logical-necessity-instructions` | mixed | `ct:evans-1994-debiasing-by-instruction-experiments` |
 
-…and 14 more.
+…and 15 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -109,6 +109,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:affirming-a-disjunct` | cto:FormalFallacy |
 | `ct:calibration` | cto:Concept |
 | `ct:correlation-versus-causation` | cto:Principle |
+| `ct:critical-thinking-education` | cto:Field |
 | `ct:distribution-of-terms` | cto:Concept |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:illicit-major` | cto:FormalFallacy |
