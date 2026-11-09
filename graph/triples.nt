@@ -8844,6 +8844,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/square-of-opposition/s5> <https://schema.org/url> <https://sites.oxy.edu/traiger/logic/primer/chapter8/revised-square.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s1> <http://purl.org/dc/terms/publisher> "Classical Quarterly 44(1), 114-129 (Malcolm Heath, 1994; author's version, White Rose Research Online)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s1> <http://purl.org/dc/terms/title> "The substructure of stasis-theory from Hermagoras to Hermogenes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s1> <https://schema.org/url> <https://eprints.whiterose.ac.uk/524/1/heathm19.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s2> <http://purl.org/dc/terms/publisher> "Greek, Roman, and Byzantine Studies 2(1), 51-71 (Ray Nadeau, 1959)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s2> <http://purl.org/dc/terms/title> "Classical Systems of Stases in Greek: Hermagoras to Hermogenes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s2> <https://schema.org/url> <https://grbs.library.duke.edu/index.php/grbs/article/view/12411> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s3> <http://purl.org/dc/terms/publisher> "Dictionnaire de l'argumentation 2021, ICAR laboratory, CNRS (Christian Plantin)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s3> <http://purl.org/dc/terms/title> "Stasis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s3> <https://schema.org/url> <https://icar.cnrs.fr/dicoplantin/?p=5617> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s4> <http://purl.org/dc/terms/publisher> "Writing Arguments in STEM, California State University Pressbooks (John R. Edlund)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s4> <http://purl.org/dc/terms/title> "Stasis Theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s4> <https://schema.org/url> <https://pressbooks.calstate.edu/writingargumentsinstem/chapter/stasis-theory/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s5> <http://purl.org/dc/terms/publisher> "Purdue Online Writing Lab, Purdue University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s5> <http://purl.org/dc/terms/title> "Stasis Theory for Teamwork" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s5> <https://schema.org/url> <https://owl.purdue.edu/owl/general_writing/the_writing_process/stasis_theory/stasis_for_teamwork.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1> <http://purl.org/dc/terms/publisher> "Cognitive Psychology 18(3), 253-292 (Fong, Krantz & Nisbett, 1986), University of Michigan Deep Blue copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s1> <http://purl.org/dc/terms/title> "The effects of statistical training on thinking about everyday problems" .
@@ -9416,6 +9446,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
 <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Stasis theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "doctrine of the stases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "issue theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "stases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "stasis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "status causae" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "status theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#definition> "A classical rhetorical framework for locating the exact point at issue in a dispute by asking, in order, whether the disagreement is about fact, definition, quality or policy, so that arguments address the question that actually divides the parties." .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stasis theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/stasis-theory.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hermagoras-of-temnos> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <http://www.w3.org/2000/01/rdf-schema#label> "Statistical reasoning training" .

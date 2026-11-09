@@ -11704,6 +11704,95 @@
   ]
  },
  {
+  "id": "ct:stasis-theory",
+  "title": "Stasis theory",
+  "aliases": [
+   "stasis",
+   "stases",
+   "status theory",
+   "issue theory",
+   "doctrine of the stases",
+   "status causae"
+  ],
+  "type": "Framework",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/stasis-theory.md",
+  "created": "2026-11-09",
+  "summary": "A classical rhetorical framework for locating the exact point at issue in a dispute by asking, in order, whether the disagreement is about fact, definition, quality or policy, so that arguments address the question that actually divides the parties.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:rhetoric"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:hermagoras-of-temnos",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:ignoratio-elenchi",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:group-decision-making",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://eprints.whiterose.ac.uk/524/1/heathm19.pdf",
+   "https://grbs.library.duke.edu/index.php/grbs/article/view/12411",
+   "https://icar.cnrs.fr/dicoplantin/?p=5617",
+   "https://pressbooks.calstate.edu/writingargumentsinstem/chapter/stasis-theory/",
+   "https://owl.purdue.edu/owl/general_writing/the_writing_process/stasis_theory/stasis_for_teamwork.html"
+  ]
+ },
+ {
   "id": "ct:statistical-reasoning-training",
   "title": "Statistical reasoning training",
   "aliases": [

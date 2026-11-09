@@ -11055,6 +11055,92 @@
    ]
   },
   {
+   "@id": "ct:stasis-theory",
+   "@type": "cto:Framework",
+   "cto:appliedIn": {
+    "@id": "ct:group-decision-making"
+   },
+   "cto:counteracts": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/stasis-theory.md",
+   "cto:introducedBy": {
+    "@id": "ct:hermagoras-of-temnos"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s5"
+    }
+   ],
+   "rdfs:label": "Stasis theory",
+   "skos:altLabel": [
+    "doctrine of the stases",
+    "issue theory",
+    "stases",
+    "stasis",
+    "status causae",
+    "status theory"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:rhetoric"
+    }
+   ],
+   "skos:definition": "A classical rhetorical framework for locating the exact point at issue in a dispute by asking, in order, whether the disagreement is about fact, definition, quality or policy, so that arguments address the question that actually divides the parties.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Stasis theory",
+   "skos:related": [
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:dialectic"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:statistical-reasoning-training",
    "@type": "cto:Technique",
    "cto:counteracts": [
@@ -24050,6 +24136,76 @@
    "dcterms:title": "The Revised Square (Logic Primer, chapter 8)",
    "schema:url": {
     "@id": "https://sites.oxy.edu/traiger/logic/primer/chapter8/revised-square.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Classical Quarterly 44(1), 114-129 (Malcolm Heath, 1994; author's version, White Rose Research Online)",
+   "dcterms:title": "The substructure of stasis-theory from Hermagoras to Hermogenes",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/524/1/heathm19.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Greek, Roman, and Byzantine Studies 2(1), 51-71 (Ray Nadeau, 1959)",
+   "dcterms:title": "Classical Systems of Stases in Greek: Hermagoras to Hermogenes",
+   "schema:url": {
+    "@id": "https://grbs.library.duke.edu/index.php/grbs/article/view/12411"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Dictionnaire de l'argumentation 2021, ICAR laboratory, CNRS (Christian Plantin)",
+   "dcterms:title": "Stasis",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/?p=5617"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Writing Arguments in STEM, California State University Pressbooks (John R. Edlund)",
+   "dcterms:title": "Stasis Theory",
+   "schema:url": {
+    "@id": "https://pressbooks.calstate.edu/writingargumentsinstem/chapter/stasis-theory/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/stasis-theory/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Purdue Online Writing Lab, Purdue University",
+   "dcterms:title": "Stasis Theory for Teamwork",
+   "schema:url": {
+    "@id": "https://owl.purdue.edu/owl/general_writing/the_writing_process/stasis_theory/stasis_for_teamwork.html"
    }
   },
   {

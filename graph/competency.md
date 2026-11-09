@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:ignoratio-elenchi` | cto:InformalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -44,6 +42,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
 | `ct:sift-method` | 1 | Misinformation and disinformation |
+| `ct:stasis-theory` | 1 | Ignoratio elenchi |
 | `ct:structured-analytic-techniques` | 1 | Confirmation bias |
 
 ## Heuristic -> bias -> remedy chains
