@@ -1,5 +1,91 @@
 [
  {
+  "id": "ct:abraham-de-moivre",
+  "title": "Abraham de Moivre",
+  "aliases": [
+   "Abraham De Moivre",
+   "Abraham Demoivre",
+   "De Moivre"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/abraham-de-moivre.md",
+  "created": "2026-11-09",
+  "summary": "French-born Huguenot mathematician (1667-1754) who worked in London and whose Doctrine of Chances (1718; 2nd ed. 1738; 3rd ed. 1756) gave the first textbook theory of probability, stating the rules for independent and dependent events that underlie conditional probability, and who first formulated the normal approximation to the binomial in 1733.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:christiaan-huygens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:andrey-kolmogorov"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:thomas-bayes"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:conditional-probability",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:statistical-independence",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:central-limit-theorem",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:the-doctrine-of-chances",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:christiaan-huygens",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:probability-theory",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre.html",
+   "https://arxiv.org/pdf/0708.3965",
+   "https://core.ac.uk/download/189091293.pdf",
+   "https://arxiv.org/pdf/1001.1653",
+   "https://web.universiteitleiden.nl/fsw/verduin/stathist/sh_18.htm"
+  ]
+ },
+ {
   "id": "ct:actively-open-minded-thinking",
   "title": "Actively open-minded thinking",
   "aliases": [

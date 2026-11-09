@@ -665,6 +665,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
+<https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/abraham-de-moivre.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> .
 <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/alfred-tarski.md" .
@@ -7119,6 +7127,69 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s6> <https://schema.org/url> <https://open.lnu.se/index.php/metapsychology/article/view/2474> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2000/01/rdf-schema#label> "Abraham de Moivre" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#altLabel> "Abraham De Moivre" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#altLabel> "Abraham Demoivre" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#altLabel> "De Moivre" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#definition> "French-born Huguenot mathematician (1667-1754) who worked in London and whose Doctrine of Chances (1718; 2nd ed. 1738; 3rd ed. 1756) gave the first textbook theory of probability, stating the rules for independent and dependent events that underlie conditional probability, and who first formulated the normal approximation to the binomial in 1733." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abraham de Moivre" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/andrey-kolmogorov> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/thomas-bayes> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/the-doctrine-of-chances> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/abraham-de-moivre.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/central-limit-theorem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-independence> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1> <http://purl.org/dc/terms/publisher> "MacTutor History of Mathematics Archive, University of St Andrews (J. J. O'Connor and E. F. Robertson)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1> <http://purl.org/dc/terms/title> "Abraham de Moivre (biography)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1> <https://schema.org/url> <https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2> <http://purl.org/dc/terms/publisher> "Statistical Science 22(1), 109-136 (David R. Bellhouse and Christian Genest, 2007), doi:10.1214/088342306000000268, arXiv author's copy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2> <http://purl.org/dc/terms/title> "Maty's Biography of Abraham De Moivre, Translated, Annotated and Augmented" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2> <https://schema.org/url> <https://arxiv.org/pdf/0708.3965> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3> <http://purl.org/dc/terms/publisher> "Ivo Schneider (Münchner Zentrum für Wissenschafts- und Technikgeschichte), ch. 14 of Historia de la Probabilidad y la Estadística (IV), pp. 231-240" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3> <http://purl.org/dc/terms/title> "The aftermath of Abraham de Moivre's Doctrine of Chances and Annuities on Lives in 18th-century Europe" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3> <https://schema.org/url> <https://core.ac.uk/download/189091293.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4> <http://purl.org/dc/terms/publisher> "Glenn Shafer, Rutgers working paper no. 31 (revised 2018), arXiv:1001.1653" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4> <http://purl.org/dc/terms/title> "A betting interpretation for probabilities and Dempster-Shafer degrees of belief" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "preprint" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4> <https://schema.org/url> <https://arxiv.org/pdf/1001.1653> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5> <http://purl.org/dc/terms/publisher> "Kees Verduin, Leiden University (course material)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5> <http://purl.org/dc/terms/title> "History of statistics: 18th century" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5> <https://schema.org/url> <https://web.universiteitleiden.nl/fsw/verduin/stathist/sh_18.htm> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -11937,6 +12008,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/a-treatise-of-human-nature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-treatise-of-human-nature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-treatise-of-human-nature> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> .
@@ -12053,6 +12125,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/andrey-kolmogorov> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/andrey-kolmogorov> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/antilogism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/antilogism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -12275,6 +12348,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
@@ -12437,6 +12511,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-illusion> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/central-limit-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/chaim-perelman> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
@@ -12467,6 +12542,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/chen-moskowitz-shue-2016-sequential-decisions-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/christine-ladd-franklin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/christine-ladd-franklin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/christine-ladd-franklin> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/antilogism> .
@@ -12558,6 +12635,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
@@ -13096,6 +13175,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> .
@@ -14000,6 +14080,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-mental-models-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -14352,6 +14435,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/statistical-independence> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-paradox> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
@@ -14483,6 +14567,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/the-design-of-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-design-of-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-design-of-experiments> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/the-doctrine-of-chances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/the-doctrine-of-chances> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/the-doctrine-of-chances> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-chance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-chance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-chance> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
@@ -14509,6 +14596,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thomas-bayes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thomas-bayes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/thomas-bayes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thomas-bayes> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thomas-kuhn> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thomas-kuhn> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .

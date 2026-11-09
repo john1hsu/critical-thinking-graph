@@ -15,6 +15,86 @@
  },
  "@graph": [
   {
+   "@id": "ct:abraham-de-moivre",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:the-doctrine-of-chances"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/abraham-de-moivre.md",
+   "cto:influencedBy": {
+    "@id": "ct:christiaan-huygens"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:central-limit-theorem"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:statistical-independence"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:studiedIn": {
+    "@id": "ct:probability-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5"
+    }
+   ],
+   "rdfs:label": "Abraham de Moivre",
+   "skos:altLabel": [
+    "Abraham De Moivre",
+    "Abraham Demoivre",
+    "De Moivre"
+   ],
+   "skos:definition": "French-born Huguenot mathematician (1667-1754) who worked in London and whose Doctrine of Chances (1718; 2nd ed. 1738; 3rd ed. 1756) gave the first textbook theory of probability, stating the rules for independent and dependent events that underlie conditional probability, and who first formulated the normal approximation to the binomial in 1733.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Abraham de Moivre",
+   "skos:related": [
+    {
+     "@id": "ct:andrey-kolmogorov"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:christiaan-huygens"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:gamblers-fallacy"
+    },
+    {
+     "@id": "ct:thomas-bayes"
+    }
+   ]
+  },
+  {
    "@id": "ct:actively-open-minded-thinking",
    "@type": "cto:Disposition",
    "cto:appliedIn": {
@@ -14916,6 +14996,76 @@
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning",
    "@type": "skos:ConceptScheme",
    "skos:prefLabel": "Scientific reasoning and research methods"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "MacTutor History of Mathematics Archive, University of St Andrews (J. J. O'Connor and E. F. Robertson)",
+   "dcterms:title": "Abraham de Moivre (biography)",
+   "schema:url": {
+    "@id": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Statistical Science 22(1), 109-136 (David R. Bellhouse and Christian Genest, 2007), doi:10.1214/088342306000000268, arXiv author's copy",
+   "dcterms:title": "Maty's Biography of Abraham De Moivre, Translated, Annotated and Augmented",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/0708.3965"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Ivo Schneider (Münchner Zentrum für Wissenschafts- und Technikgeschichte), ch. 14 of Historia de la Probabilidad y la Estadística (IV), pp. 231-240",
+   "dcterms:title": "The aftermath of Abraham de Moivre's Doctrine of Chances and Annuities on Lives in 18th-century Europe",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/189091293.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Glenn Shafer, Rutgers working paper no. 31 (revised 2018), arXiv:1001.1653",
+   "dcterms:title": "A betting interpretation for probabilities and Dempster-Shafer degrees of belief",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/1001.1653"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abraham-de-moivre/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Kees Verduin, Leiden University (course material)",
+   "dcterms:title": "History of statistics: 18th century",
+   "schema:url": {
+    "@id": "https://web.universiteitleiden.nl/fsw/verduin/stathist/sh_18.htm"
+   }
   },
   {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s1",
