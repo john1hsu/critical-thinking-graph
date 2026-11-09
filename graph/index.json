@@ -11841,6 +11841,96 @@
   ]
  },
  {
+  "id": "ct:satisficing",
+  "title": "Satisficing",
+  "aliases": [
+   "satisfice",
+   "satisficing heuristic",
+   "good-enough choice",
+   "aspiration-level search"
+  ],
+  "type": "Heuristic",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/satisficing.md",
+  "created": "2026-11-09",
+  "summary": "A decision strategy, named by Herbert Simon in 1956, in which options are examined one at a time and search stops at the first option that meets a preset aspiration level, with the aspiration raised or lowered according to how easy satisfactory options prove to find.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:analysis-of-competing-hypotheses"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ecological-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:herbert-simon",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:rational-choice-and-the-structure-of-the-environment",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:maximizing",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:caplin-dean-martin-2011-search-and-satisficing",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iiif.library.cmu.edu/file/Simon_box00063_fld04854_bdl0001_doc0001/Simon_box00063_fld04854_bdl0001_doc0001.pdf",
+   "https://pure.mpg.de/pubman/item/item_3189752_10/component/file_3597261/s039900_9780262366175.pdf",
+   "https://ideas.repec.org/a/aea/aecrev/v101y2011i7p2899-2922.html",
+   "https://works.swarthmore.edu/fac-psychology/101",
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/73A1FB6A9BCBC4D0DF2ADA87FBFBD6EC/S1930297500000383a.pdf/are-maximizers-really-unhappy-the-measurement-of-maximizing-tendency.pdf",
+   "https://www.cambridge.org/core/journals/judgment-and-decision-making/article/maximization-inventory/65E17A586A76DA4B9AAFE8BAD14F7B49"
+  ]
+ },
+ {
   "id": "ct:scientific-method",
   "title": "Scientific method",
   "aliases": [

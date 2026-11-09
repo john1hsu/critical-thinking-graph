@@ -11181,6 +11181,93 @@
    ]
   },
   {
+   "@id": "ct:satisficing",
+   "@type": "cto:Heuristic",
+   "cto:contrastsWith": {
+    "@id": "ct:maximizing"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/heuristics-and-dual-process/satisficing.md",
+   "cto:introducedBy": {
+    "@id": "ct:herbert-simon"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:rational-choice-and-the-structure-of-the-environment"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:bounded-rationality"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:caplin-dean-martin-2011-search-and-satisficing"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s6"
+    }
+   ],
+   "rdfs:label": "Satisficing",
+   "skos:altLabel": [
+    "aspiration-level search",
+    "good-enough choice",
+    "satisfice",
+    "satisficing heuristic"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:heuristic"
+    }
+   ],
+   "skos:definition": "A decision strategy, named by Herbert Simon in 1956, in which options are examined one at a time and search stops at the first option that meets a preset aspiration level, with the aspiration raised or lowered according to how easy satisfactory options prove to find.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Satisficing",
+   "skos:related": [
+    {
+     "@id": "ct:analysis-of-competing-hypotheses"
+    },
+    {
+     "@id": "ct:ecological-rationality"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    }
+   ]
+  },
+  {
    "@id": "ct:scientific-method",
    "@type": "cto:Method",
    "cto:appliedIn": {
@@ -25399,6 +25486,90 @@
    "dcterms:title": "Rules and Fallacies",
    "schema:url": {
     "@id": "https://mail.philosophypages.com/lg/e08b.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Psychological Review 63(2), 129-138 (Herbert A. Simon, 1956), Carnegie Mellon University Libraries Simon archive copy",
+   "dcterms:title": "Rational Choice and the Structure of the Environment",
+   "schema:url": {
+    "@id": "https://iiif.library.cmu.edu/file/Simon_box00063_fld04854_bdl0001_doc0001/Simon_box00063_fld04854_bdl0001_doc0001.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Hertwig & Kozyreva, ch. 8.5 in Knauff & Spohn (eds.), The Handbook of Rationality, MIT Press, 2021, Max Planck Society repository",
+   "dcterms:title": "Bounded Rationality: A Vision of Rational Choice in the Real World",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_3189752_10/component/file_3597261/s039900_9780262366175.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "American Economic Review 101(7), 2899-2922 (Caplin, Dean & Martin, 2011), RePEc record",
+   "dcterms:title": "Search and Satisficing",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/aea/aecrev/v101y2011i7p2899-2922.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 83(5), 1178-1197 (Schwartz, Ward, Monterosso, Lyubomirsky, White & Lehman, 2002), Swarthmore College repository",
+   "dcterms:title": "Maximizing Versus Satisficing: Happiness Is a Matter of Choice",
+   "schema:url": {
+    "@id": "https://works.swarthmore.edu/fac-psychology/101"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 3(5), 364-370 (Diab, Gillespie & Highhouse, 2008)",
+   "dcterms:title": "Are maximizers really unhappy? The measurement of maximizing tendency",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/73A1FB6A9BCBC4D0DF2ADA87FBFBD6EC/S1930297500000383a.pdf/are-maximizers-really-unhappy-the-measurement-of-maximizing-tendency.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/satisficing/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 7(1), 48-60 (Turner, Rim, Betz & Nygren, 2012), doi:10.1017/S1930297500001820",
+   "dcterms:title": "The Maximization Inventory",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/judgment-and-decision-making/article/maximization-inventory/65E17A586A76DA4B9AAFE8BAD14F7B49"
    }
   },
   {
