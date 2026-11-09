@@ -7770,6 +7770,87 @@
    ]
   },
   {
+   "@id": "ct:necessary-and-sufficient-conditions",
+   "@type": "cto:Concept",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:causal-inference"
+    },
+    {
+     "@id": "ct:conceptual-analysis"
+    }
+   ],
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/necessary-and-sufficient-conditions.md",
+   "cto:formalizedBy": {
+    "@id": "ct:material-conditional"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/necessary-and-sufficient-conditions/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/necessary-and-sufficient-conditions/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/necessary-and-sufficient-conditions/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/necessary-and-sufficient-conditions/s4"
+    }
+   ],
+   "rdfs:label": "Necessary and sufficient conditions",
+   "skos:altLabel": [
+    "jointly sufficient conditions",
+    "necessary condition",
+    "necessity and sufficiency",
+    "sufficient condition"
+   ],
+   "skos:broader": {
+    "@id": "ct:conditional-statement"
+   },
+   "skos:definition": "A necessary condition for Y is one without which Y cannot hold; a sufficient condition for Y is one whose presence guarantees Y. In a true conditional \"if P then Q\", P is sufficient for Q and Q is necessary for P.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Necessary and sufficient conditions",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:conditional-perfection"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:numeracy",
    "@type": "cto:Disposition",
    "cto:counteracts": [
@@ -20832,6 +20913,62 @@
    "dcterms:title": "Base-rate respect: From statistical formats to cognitive structures",
    "schema:url": {
     "@id": "https://core-cms.cambridgecore.org/core/journals/behavioral-and-brain-sciences/article/baserate-respect-from-statistical-formats-to-cognitive-structures/9DAADA1F4F18D0E10457D548E02A78F1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/necessary-and-sufficient-conditions/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Andrew Brennan, first published 2003, revised 2022)",
+   "dcterms:title": "Necessary and Sufficient Conditions",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/necessary-sufficient/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/necessary-and-sufficient-conditions/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Joe Y. F. Lau, Humanities LibreTexts",
+   "dcterms:title": "1.4: Necessary and Sufficient Conditions, in A Miniguide to Critical Thinking",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/A_Miniguide_to_Critical_Thinking_(Lau)/01%3A_Chapters/1.04%3A_Necessary_and_Sufficient_Conditions"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/necessary-and-sufficient-conditions/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Jason Southworth and Chris Swoyer, Humanities LibreTexts",
+   "dcterms:title": "3.2: Necessary and Sufficient Conditions, in Critical Reasoning: A User's Manual",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/03%3A_Conditionals_and_Conditional_Arguments/3.02%3A_Necessary_and_Sufficient_Conditions"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/necessary-and-sufficient-conditions/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Ruth M. J. Byrne, Suzanne Egan and Juan A. García-Madruga, Proceedings of the Annual Meeting of the Cognitive Science Society 25 (2003), eScholarship",
+   "dcterms:title": "Counterfactual 'only if' conditionals",
+   "schema:url": {
+    "@id": "https://repositories.cdlib.org/content/qt373511jh/qt373511jh.pdf?t=os5l2c"
    }
   },
   {

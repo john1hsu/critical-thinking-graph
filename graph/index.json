@@ -8226,6 +8226,92 @@
   ]
  },
  {
+  "id": "ct:necessary-and-sufficient-conditions",
+  "title": "Necessary and sufficient conditions",
+  "aliases": [
+   "necessary condition",
+   "sufficient condition",
+   "necessity and sufficiency",
+   "jointly sufficient conditions"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/necessary-and-sufficient-conditions.md",
+  "created": "2026-11-09",
+  "summary": "A necessary condition for Y is one without which Y cannot hold; a sufficient condition for Y is one whose presence guarantees Y. In a true conditional \"if P then Q\", P is sufficient for Q and Q is necessary for P.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:conditional-statement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-perfection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:material-conditional",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:conceptual-analysis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:causal-inference",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/necessary-sufficient/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/A_Miniguide_to_Critical_Thinking_(Lau)/01%3A_Chapters/1.04%3A_Necessary_and_Sufficient_Conditions",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/03%3A_Conditionals_and_Conditional_Arguments/3.02%3A_Necessary_and_Sufficient_Conditions",
+   "https://repositories.cdlib.org/content/qt373511jh/qt373511jh.pdf?t=os5l2c"
+  ]
+ },
+ {
   "id": "ct:numeracy",
   "title": "Numeracy",
   "aliases": [

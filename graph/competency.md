@@ -115,6 +115,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modus-tollens` | cto:ReasoningForm |
+| `ct:necessary-and-sufficient-conditions` | cto:Concept |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
