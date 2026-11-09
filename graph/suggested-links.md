@@ -4,28 +4,28 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
+| 4.57 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
 | 4.54 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:formal-logic` |
-| 4.16 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
-| 4.14 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major`, `ct:method-of-counterexample` |
+| 4.09 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major`, `ct:method-of-counterexample` |
 | 3.89 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:ignoratio-elenchi`, `ct:inductive-reasoning` |
-| 3.69 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:formal-logic` |
-| 3.58 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-major` |
+| 3.67 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:formal-logic` |
+| 3.54 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-major` |
 | 3.50 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman` |
-| 3.29 | `ct:exclusive-premises` | `ct:square-of-opposition` | `ct:antilogism`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:existential-fallacy` |
+| 3.28 | `ct:exclusive-premises` | `ct:square-of-opposition` | `ct:antilogism`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:existential-fallacy` |
 | 3.14 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
 | 3.13 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
 | 3.12 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:informal-fallacy` |
-| 3.01 | `ct:antilogism` | `ct:john-venn` | `ct:categorical-syllogism`, `ct:existential-import`, `ct:george-boole`, `ct:square-of-opposition`, `ct:syllogism` |
+| 2.99 | `ct:antilogism` | `ct:john-venn` | `ct:categorical-syllogism`, `ct:existential-import`, `ct:george-boole`, `ct:square-of-opposition`, `ct:syllogism` |
 | 2.95 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
+| 2.79 | `ct:formal-fallacy` | `ct:rules-of-the-categorical-syllogism` | `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms`, `ct:illicit-major`, `ct:method-of-counterexample` |
 | 2.78 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:false-dilemma`, `ct:informal-fallacy` |
-| 2.75 | `ct:affirming-a-disjunct` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:denying-the-antecedent`, `ct:disjunctive-syllogism`, `ct:formal-fallacy`, `ct:method-of-counterexample` |
 | 2.75 | `ct:argument-mapping` | `ct:informal-fallacy` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:ignoratio-elenchi` |
-| 2.72 | `ct:method-of-counterexample` | `ct:modus-tollens` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:formal-fallacy`, `ct:modus-ponens` |
-| 2.67 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
+| 2.74 | `ct:affirming-a-disjunct` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:denying-the-antecedent`, `ct:disjunctive-syllogism`, `ct:formal-fallacy`, `ct:method-of-counterexample` |
+| 2.71 | `ct:method-of-counterexample` | `ct:modus-tollens` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:formal-fallacy`, `ct:modus-ponens` |
+| 2.68 | `ct:exclusive-premises` | `ct:fallacy-of-four-terms` | `ct:categorical-syllogism`, `ct:formal-fallacy`, `ct:illicit-major`, `ct:rules-of-the-categorical-syllogism`, `ct:syllogism` |
+| 2.68 | `ct:existential-fallacy` | `ct:fallacy-of-four-terms` | `ct:categorical-syllogism`, `ct:formal-fallacy`, `ct:illicit-major`, `ct:rules-of-the-categorical-syllogism`, `ct:syllogism` |
 | 2.66 | `ct:amos-tversky` | `ct:bounded-rationality` | `ct:behavioral-economics`, `ct:daniel-kahneman`, `ct:gerd-gigerenzer`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
+| 2.66 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
 | 2.57 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
 | 2.57 | `ct:deductive-reasoning` | `ct:formal-fallacy` | `ct:affirming-the-consequent`, `ct:argument`, `ct:cognitive-psychology`, `ct:formal-logic`, `ct:method-of-counterexample` |
-| 2.54 | `ct:distribution-of-terms` | `ct:existential-fallacy` | `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-major`, `ct:rules-of-the-categorical-syllogism`, `ct:square-of-opposition` |
 | 2.53 | `ct:square-of-opposition` | `ct:topics` | `ct:aristotle`, `ct:boethius`, `ct:organon`, `ct:prior-analytics` |
-| 2.53 | `ct:affirming-a-disjunct` | `ct:deductive-reasoning` | `ct:affirming-the-consequent`, `ct:disjunctive-syllogism`, `ct:mental-model-theory`, `ct:method-of-counterexample`, `ct:syllogism` |
-| 2.52 | `ct:formal-logic` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:logic`, `ct:prior-analytics`, `ct:square-of-opposition` |

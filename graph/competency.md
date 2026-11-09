@@ -16,10 +16,10 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 |---|---|---|
 | `ct:consider-the-opposite` | 4 | Anchoring effect, Hindsight bias, Overconfidence effect, biased-assimilation |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, Confirmation bias, fundamental-attribution-error |
+| `ct:rules-of-the-categorical-syllogism` | 4 | Existential fallacy, Fallacy of four terms, Illicit major, Undistributed middle |
 | `ct:outside-view` | 3 | Base-rate neglect, Representativeness heuristic, planning-fallacy |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
-| `ct:rules-of-the-categorical-syllogism` | 3 | Existential fallacy, Illicit major, Undistributed middle |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
@@ -113,6 +113,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
+| `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:logical-necessity-instructions` | cto:Technique |

@@ -5137,6 +5137,95 @@
   ]
  },
  {
+  "id": "ct:fallacy-of-four-terms",
+  "title": "Fallacy of four terms",
+  "aliases": [
+   "quaternio terminorum",
+   "four-term fallacy",
+   "fallacy of more than three terms"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/fallacy-of-four-terms.md",
+  "created": "2026-11-09",
+  "summary": "The syllogistic fallacy of an argument that looks like a categorical syllogism but uses four terms instead of three, usually because one word carries two meanings, so the middle term never actually links the subject and predicate of the conclusion.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguous-middle-term"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:categorical-syllogism",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:equivocation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:undistributed-middle",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Does each key word or phrase mean exactly the same thing in both places it appears?",
+   "If the shared term were replaced by a precise definition, would the two premises still talk about the same class?",
+   "Does the argument look valid even though its premises are true and its conclusion is plainly false?",
+   "Once the terms are counted by meaning rather than by wording, are there still only three?"
+  ],
+  "source_urls": [
+   "https://fallacyfiles.org/fourterm.html",
+   "https://philosophy.lander.edu/logic/four_fall.html",
+   "https://phil240.tamu.edu/LectureNotes/6.5.pdf",
+   "https://etc.usf.edu/lit2go/189/deductive-logic/3940/part-3-chapter-30/",
+   "https://plato.stanford.edu/archives/sum2025/entries/medieval-syllogism/"
+  ]
+ },
+ {
   "id": "ct:false-dilemma",
   "title": "False dilemma",
   "aliases": [
@@ -11627,6 +11716,12 @@
    {
     "predicate": "cto:detects",
     "object": "ct:illicit-major",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:fallacy-of-four-terms",
     "source": "s3",
     "confidence": "high"
    },

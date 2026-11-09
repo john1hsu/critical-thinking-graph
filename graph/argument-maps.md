@@ -166,6 +166,17 @@ flowchart TD
   o3["Adding the premise that at least one employee beat quota makes the argument valid."] -. attacks .-> ra
 ```
 
+## Fallacy of four terms (`ct:fallacy-of-four-terms`)
+
+```mermaid
+flowchart TD
+  p1["All tools that have passed the security review are approved for production use."] --> ra{{"invalid"}}
+  p2["All of the vendor's plugins have passed a security review."] --> ra{{"invalid"}}
+  ra --> c["All of the vendor's plugins are approved for production use."]
+  o1["The first premise means the company's own formal review; the second may mean the vendor's internal check."] -. attacks .-> ra
+  o2["With two different reviews in play, the argument has four terms, and nothing links the plugins to approval."] -. attacks .-> ra
+```
+
 ## False dilemma (`ct:false-dilemma`)
 
 ```mermaid

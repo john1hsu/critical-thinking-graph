@@ -18,6 +18,7 @@ relations:
   - {predicate: detects, object: ct:existential-fallacy, source: s5, confidence: high}
   - {predicate: detects, object: ct:undistributed-middle, source: s3, confidence: high}
   - {predicate: detects, object: ct:illicit-major, source: s3, confidence: high}
+  - {predicate: detects, object: ct:fallacy-of-four-terms, source: s3, confidence: high}
   - {predicate: explainedBy, object: ct:distribution-of-terms, source: s1, confidence: high}
   - {predicate: contrastsWith, object: ct:venn-diagram-test, source: s4, confidence: medium}
 sameAs: []
@@ -53,6 +54,7 @@ sources:
     type: community
     accessed: 2026-11-07
 created: 2026-11-07
+modified: 2026-11-09
 ---
 
 # Rules of the categorical syllogism

@@ -2298,6 +2298,75 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
 <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does each key word or phrase mean exactly the same thing in both places it appears?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "If the shared term were replaced by a precise definition, would the two premises still talk about the same class?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Does the argument look valid even though its premises are true and its conclusion is plainly false?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Once the terms are counted by meaning rather than by wording, are there still only three?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "All of the vendor's plugins are approved for production use." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The first premise means the company's own formal review; the second may mean the vendor's internal check." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "With two different reviews in play, the argument has four terms, and nothing links the plugins to approval." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "All tools that have passed the security review are approved for production use." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "All of the vendor's plugins have passed a security review." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2000/01/rdf-schema#label> "Fallacy of four terms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of more than three terms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#altLabel> "four-term fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#altLabel> "quaternio terminorum" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#definition> "The syllogistic fallacy of an argument that looks like a categorical syllogism but uses four terms instead of three, usually because one word carries two meanings, so the middle term never actually links the subject and predicate of the conclusion." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fallacy of four terms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguous-middle-term> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/fallacy-of-four-terms.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#invalidFormOf> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Are the options offered really the only ones, or has a third course, a compromise or a combination been left out?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
@@ -4823,6 +4892,7 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/presumption> .
 <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://purl.org/dc/terms/modified> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2000/01/rdf-schema#label> "Rules of the categorical syllogism" .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2004/02/skos/core#altLabel> "rule method for testing syllogisms" .
@@ -4846,6 +4916,7 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
@@ -6905,6 +6976,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-fallacy/s5> <https://schema.org/url> <https://www.fallacyfiles.org/existent.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://purl.org/dc/terms/publisher> "The Fallacy Files (Gary N. Curtis)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://purl.org/dc/terms/title> "The Four Term Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <https://schema.org/url> <https://fallacyfiles.org/fourterm.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s2> <http://purl.org/dc/terms/publisher> "Philosophy 103: Introduction to Logic, Lander University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s2> <http://purl.org/dc/terms/title> "Syllogistic Fallacies: Four Term Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s2> <https://schema.org/url> <https://philosophy.lander.edu/logic/four_fall.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s3> <http://purl.org/dc/terms/publisher> "PHIL 240 lecture notes, Texas A&M University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s3> <http://purl.org/dc/terms/title> "6.5 Rules for Evaluating Syllogisms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s3> <https://schema.org/url> <https://phil240.tamu.edu/LectureNotes/6.5.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s4> <http://purl.org/dc/terms/publisher> "G. W. J. Stock (1888), Lit2Go, University of South Florida" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s4> <http://purl.org/dc/terms/title> "Deductive Logic, Part III, Chapter XXX: Of Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s4> <https://schema.org/url> <https://etc.usf.edu/lit2go/189/deductive-logic/3940/part-3-chapter-30/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s5> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Henrik Lagerlund, rev. 2022; Summer 2025 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s5> <http://purl.org/dc/terms/title> "Medieval Theories of the Syllogism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s5> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2025/entries/medieval-syllogism/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://purl.org/dc/terms/publisher> "Logical Reasoning (Dowden, California State University Sacramento), Humanities LibreTexts" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/false-dilemma/s1> <http://purl.org/dc/terms/title> "8.11: Glossary" .
