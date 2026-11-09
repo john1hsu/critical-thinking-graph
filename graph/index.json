@@ -687,6 +687,120 @@
   ]
  },
  {
+  "id": "ct:antilogism",
+  "title": "Antilogism",
+  "aliases": [
+   "inconsistent triad",
+   "Ladd-Franklin's antilogism",
+   "antilogism test",
+   "inconsistent triad test"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/antilogism.md",
+  "created": "2026-11-09",
+  "summary": "A single-rule test for categorical syllogisms devised by Christine Ladd(-Franklin): pair the two premises with the contradictory of the conclusion, and the syllogism is valid exactly when that trio has the shape of an inconsistent triad (two universal exclusions, one particular, with the right pattern of positive and negated terms).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:george-boole"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:exclusive-premises",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:christine-ladd-franklin",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:on-the-algebra-of-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:charles-sanders-peirce",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:rules-of-the-categorical-syllogism",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cambridge.org/core/journals/bulletin-of-symbolic-logic/article/syllogisms-final-solution/64B927F7328426E5D5FD35185FA1022B",
+   "https://sites.uci.edu/asl2023/files/2023/03/asl-2023.pdf",
+   "https://www.hist-analytic.com/NagelInconsistentriad.pdf",
+   "https://periodicos.ufpel.edu.br/index.php/dissertatio/article/view/13731/8800",
+   "https://old.maa.org/node/2019045",
+   "https://www.uni-siegen.de/fb6/phima/women/ladd_franklin.html"
+  ]
+ },
+ {
   "id": "ct:argument",
   "title": "Argument",
   "aliases": [
@@ -4457,6 +4571,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:antilogism"
    },
    {
     "predicate": "skos:related",

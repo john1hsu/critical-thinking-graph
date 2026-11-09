@@ -666,6 +666,111 @@
    ]
   },
   {
+   "@id": "ct:antilogism",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:rules-of-the-categorical-syllogism"
+   },
+   "cto:detects": {
+    "@id": "ct:exclusive-premises"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/antilogism.md",
+   "cto:influencedBy": {
+    "@id": "ct:charles-sanders-peirce"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:christine-ladd-franklin"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:on-the-algebra-of-logic"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s6"
+    }
+   ],
+   "rdfs:label": "Antilogism",
+   "skos:altLabel": [
+    "Ladd-Franklin's antilogism",
+    "antilogism test",
+    "inconsistent triad test",
+    "inconsistent triad"
+   ],
+   "skos:broader": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "skos:definition": "A single-rule test for categorical syllogisms devised by Christine Ladd(-Franklin): pair the two premises with the contradictory of the conclusion, and the syllogism is valid exactly when that trio has the shape of an inconsistent triad (two universal exclusions, one particular, with the right pattern of positive and negated terms).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Antilogism",
+   "skos:related": [
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:george-boole"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:rules-of-the-categorical-syllogism"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:argument",
    "@type": "cto:Concept",
    "cto:contrastsWith": [
@@ -4276,6 +4381,9 @@
    },
    "skos:prefLabel": "Exclusive premises",
    "skos:related": [
+    {
+     "@id": "ct:antilogism"
+    },
     {
      "@id": "ct:existential-fallacy"
     },
@@ -14695,6 +14803,90 @@
    "dcterms:title": "Measures of Anchoring in Estimation Tasks (replication record)",
    "schema:url": {
     "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/01461672952111004/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Bulletin of Symbolic Logic 5(4), 451-469 (I. Susan Russinoff, 1999), Cambridge Core",
+   "dcterms:title": "The Syllogism's Final Solution",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/bulletin-of-symbolic-logic/article/syllogisms-final-solution/64B927F7328426E5D5FD35185FA1022B"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Sara L. Uckelman, Durham University; talk slides, ASL 2023 Annual Meeting, UC Irvine",
+   "dcterms:title": "What Problem Did Ladd-Franklin (Think She) Solve(d)?",
+   "schema:url": {
+    "@id": "https://sites.uci.edu/asl2023/files/2023/03/asl-2023.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Morris R. Cohen & Ernest Nagel, Harcourt, Brace and Company (textbook excerpt)",
+   "dcterms:title": "An Introduction to Logic and Scientific Method: the antilogism or inconsistent triad (excerpt)",
+   "schema:url": {
+    "@id": "https://www.hist-analytic.com/NagelInconsistentriad.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Dissertatio 47, 84-94 (Frank Thomas Sautter, 2018), Universidade Federal de Pelotas",
+   "dcterms:title": "Diagramas para o Antilogismo de Ladd",
+   "schema:url": {
+    "@id": "https://periodicos.ufpel.edu.br/index.php/dissertatio/article/view/13731/8800"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Convergence, Mathematical Association of America (2019)",
+   "dcterms:title": "Christine Ladd-Franklin's 'On the Algebra of Logic': On Elimination (annotated by Julia M. Parker)",
+   "schema:url": {
+    "@id": "https://old.maa.org/node/2019045"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/antilogism/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Women in Philosophy and Mathematics, Universität Siegen",
+   "dcterms:title": "Christine Ladd-Franklin",
+   "schema:url": {
+    "@id": "https://www.uni-siegen.de/fb6/phima/women/ladd_franklin.html"
    }
   },
   {

@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: normative
 broader: [ct:formal-fallacy]
-related: [ct:rules-of-the-categorical-syllogism, ct:syllogism, ct:venn-diagram-test, ct:illicit-major, ct:undistributed-middle, ct:existential-fallacy, ct:method-of-counterexample, ct:john-buridan, ct:mental-model-theory]
+related: [ct:rules-of-the-categorical-syllogism, ct:antilogism, ct:syllogism, ct:venn-diagram-test, ct:illicit-major, ct:undistributed-middle, ct:existential-fallacy, ct:method-of-counterexample, ct:john-buridan, ct:mental-model-theory]
 requires: [ct:categorical-syllogism, ct:categorical-proposition, ct:validity]
 relations:
   - {predicate: invalidFormOf, object: ct:categorical-syllogism, source: s3, confidence: high}

@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:exclusive-premises` | cto:FormalFallacy |
 | `ct:suppressed-evidence` | cto:InformalFallacy |
 
 ## Most useful remedies
@@ -35,6 +34,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:randomized-controlled-trial` | 2 | Confounding, selection-bias |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
+| `ct:antilogism` | 1 | Exclusive premises |
 | `ct:argument-mapping` | 1 | Begging the question |
 | `ct:hypothesis-testing` | 1 | Confirmation bias |
 | `ct:key-assumptions-check` | 1 | Confirmation bias |
