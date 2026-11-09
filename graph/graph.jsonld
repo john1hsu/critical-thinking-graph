@@ -7681,6 +7681,103 @@
    ]
   },
   {
+   "@id": "ct:logic",
+   "@type": "cto:Field",
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/logic.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:gottlob-frege"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    }
+   ],
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s6"
+    }
+   ],
+   "rdfs:label": "Logic",
+   "skos:altLabel": [
+    "science of consequence",
+    "study of inference"
+   ],
+   "skos:broader": {
+    "@id": "ct:philosophy"
+   },
+   "skos:definition": "The discipline that studies correct inference: which conclusions follow from which premises, why they follow, and how strongly; it includes formal (deductive) logic, inductive logic and informal logic as branches.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Logic",
+   "skos:related": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:chrysippus"
+    },
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:formal-logic"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:logical-consequence"
+    },
+    {
+     "@id": "ct:organon"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:logical-necessity-instructions",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -21619,6 +21716,90 @@
    "dcterms:title": "Perception, Depiction and Description of European History: Leopold von Ranke and his Development and Understanding of Modern Historical Writing",
    "schema:url": {
     "@id": "https://www.gla.ac.uk/media/media_64280_en.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Matthew McKeon, Michigan State University)",
+   "dcterms:title": "Logical Consequence",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/logcon/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Open Logic Project, University of Calgary (Magnus, Button, Trueman & Zach)",
+   "dcterms:title": "forall x: Calgary, Chapter 2: The scope of logic",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/html/Ch2.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Bobzien, Summer 2020 archive edition)",
+   "dcterms:title": "Ancient Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2020/entries/logic-ancient/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Roy T. Cook, 2023)",
+   "dcterms:title": "Frege's Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/frege-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (James Hawthorne, Spring 2018 archive edition)",
+   "dcterms:title": "Inductive Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2018/entries/logic-inductive/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Logic",
+   "schema:url": {
+    "@id": "https://britannica.com/topic/logic/Introduction"
    }
   },
   {

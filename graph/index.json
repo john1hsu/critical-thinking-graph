@@ -8181,6 +8181,106 @@
   ]
  },
  {
+  "id": "ct:logic",
+  "title": "Logic",
+  "aliases": [
+   "study of inference",
+   "science of consequence"
+  ],
+  "type": "Field",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/logic.md",
+  "created": "2026-11-09",
+  "summary": "The discipline that studies correct inference: which conclusions follow from which premises, why they follow, and how strongly; it includes formal (deductive) logic, inductive logic and informal logic as branches.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-consequence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:chrysippus"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:stoic-logic",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:gottlob-frege",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/logcon/",
+   "https://forallx.openlogicproject.org/html/Ch2.html",
+   "https://plato.stanford.edu/archives/sum2020/entries/logic-ancient/",
+   "https://plato.stanford.edu/entries/frege-logic/",
+   "https://plato.stanford.edu/archives/spr2018/entries/logic-inductive/",
+   "https://britannica.com/topic/logic/Introduction"
+  ]
+ },
+ {
   "id": "ct:logical-necessity-instructions",
   "title": "Logical necessity instructions",
   "aliases": [

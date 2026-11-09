@@ -3514,6 +3514,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
 <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/historiography> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2000/01/rdf-schema#label> "Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#altLabel> "science of consequence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#altLabel> "study of inference" .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#definition> "The discipline that studies correct inference: which conclusions follow from which premises, why they follow, and how strongly; it includes formal (deductive) logic, inductive logic and informal logic as branches." .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/logic.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> <http://www.w3.org/2000/01/rdf-schema#label> "Logical necessity instructions" .
@@ -7739,6 +7774,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <https://schema.org/url> <https://www.gla.ac.uk/media/media_64280_en.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Matthew McKeon, Michigan State University)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> <http://purl.org/dc/terms/title> "Logical Consequence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> <https://schema.org/url> <https://iep.utm.edu/logcon/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s2> <http://purl.org/dc/terms/publisher> "Open Logic Project, University of Calgary (Magnus, Button, Trueman & Zach)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s2> <http://purl.org/dc/terms/title> "forall x: Calgary, Chapter 2: The scope of logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s2> <https://schema.org/url> <https://forallx.openlogicproject.org/html/Ch2.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Bobzien, Summer 2020 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s3> <http://purl.org/dc/terms/title> "Ancient Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s3> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2020/entries/logic-ancient/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Roy T. Cook, 2023)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s4> <http://purl.org/dc/terms/title> "Frege's Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/frege-logic/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s5> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (James Hawthorne, Spring 2018 archive edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s5> <http://purl.org/dc/terms/title> "Inductive Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s5> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2018/entries/logic-inductive/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s6> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s6> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s6> <http://purl.org/dc/terms/title> "Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s6> <https://schema.org/url> <https://britannica.com/topic/logic/Introduction> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s1> <http://purl.org/dc/terms/publisher> "European Journal of Cognitive Psychology 6(3), 263-285 (Evans, Newstead, Allen & Pollard, 1994), Leeds Trinity University research portal" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s1> <http://purl.org/dc/terms/title> "Debiasing by instruction: The case of belief bias" .
