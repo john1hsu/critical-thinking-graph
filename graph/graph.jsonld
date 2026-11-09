@@ -4758,6 +4758,99 @@
    ]
   },
   {
+   "@id": "ct:formal-logic",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:computer-science"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/formal-logic.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:george-boole"
+    },
+    {
+     "@id": "ct:gottlob-frege"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    }
+   ],
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5"
+    }
+   ],
+   "rdfs:label": "Formal logic",
+   "skos:altLabel": "symbolic logic",
+   "skos:broader": {
+    "@id": "ct:logic"
+   },
+   "skos:definition": "The branch of logic that studies deductive inference by abstracting from what statements are about to the structures (logical forms) they share, and that states those forms in precisely defined artificial languages so that validity can be tested by form alone.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Formal logic",
+   "skos:related": [
+    {
+     "@id": "ct:alfred-tarski"
+    },
+    {
+     "@id": "ct:formal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:predicate-logic"
+    },
+    {
+     "@id": "ct:propositional-logic"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:truth-table"
+    }
+   ]
+  },
+  {
    "@id": "ct:framing-effect",
    "@type": "cto:CognitiveBias",
    "cto:challengedBy": [
@@ -18219,6 +18312,76 @@
    "dcterms:title": "A Meta-Analysis of Conditional Reasoning",
    "schema:url": {
     "@id": "https://modeltheory.org/papers/2019meta-conditionals.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Pietroski, Spring 2024 edition)",
+   "dcterms:title": "Logical Form",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2024/entries/logical-form/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Kouri Kissel, rev. 2026)",
+   "dcterms:title": "Classical Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/logic-classical/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Magnus, Button, Loftis, Trueman, Thomas-Bolduc & Zach, University of Calgary / Open Logic Project (Fall 2021, CC BY 4.0)",
+   "dcterms:title": "forall x: Calgary. An Introduction to Formal Logic",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/forallxyyc.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Jackson, rev. 2026)",
+   "dcterms:title": "George Boole",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/boole/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Formal logic",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/formal-logic"
    }
   },
   {

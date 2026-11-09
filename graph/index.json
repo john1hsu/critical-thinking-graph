@@ -5030,6 +5030,108 @@
   ]
  },
  {
+  "id": "ct:formal-logic",
+  "title": "Formal logic",
+  "aliases": [
+   "symbolic logic"
+  ],
+  "type": "Field",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/formal-logic.md",
+  "created": "2026-11-09",
+  "summary": "The branch of logic that studies deductive inference by abstracting from what statements are about to the structures (logical forms) they share, and that states those forms in precisely defined artificial languages so that validity can be tested by form alone.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:alfred-tarski"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:stoic-logic",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:george-boole",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:gottlob-frege",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:computer-science",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/spr2024/entries/logical-form/",
+   "https://plato.stanford.edu/entries/logic-classical/",
+   "https://forallx.openlogicproject.org/forallxyyc.html",
+   "https://plato.stanford.edu/entries/boole/",
+   "https://www.britannica.com/topic/formal-logic"
+  ]
+ },
+ {
   "id": "ct:framing-effect",
   "title": "Framing effect",
   "aliases": [

@@ -4,28 +4,28 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 4.16 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major`, `ct:method-of-counterexample` |
-| 3.92 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:inductive-reasoning` |
-| 3.88 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:illicit-major` |
-| 3.81 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:logic` |
+| 4.23 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:denying-the-antecedent`, `ct:formal-logic` |
+| 4.21 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
+| 4.15 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major`, `ct:method-of-counterexample` |
+| 3.73 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:inductive-reasoning`, `ct:logic` |
+| 3.69 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.58 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-major` |
-| 3.54 | `ct:antilogism` | `ct:john-venn` | `ct:categorical-syllogism`, `ct:existential-import`, `ct:george-boole`, `ct:square-of-opposition`, `ct:syllogism` |
-| 3.36 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:john-buridan` |
 | 3.29 | `ct:exclusive-premises` | `ct:square-of-opposition` | `ct:antilogism`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:existential-fallacy` |
 | 3.15 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:informal-fallacy` |
 | 3.14 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman` |
+| 3.01 | `ct:antilogism` | `ct:john-venn` | `ct:categorical-syllogism`, `ct:existential-import`, `ct:george-boole`, `ct:square-of-opposition`, `ct:syllogism` |
 | 2.97 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
+| 2.83 | `ct:formal-logic` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:logic`, `ct:prior-analytics`, `ct:square-of-opposition` |
 | 2.81 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:false-dilemma`, `ct:informal-fallacy` |
-| 2.80 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
 | 2.80 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
-| 2.74 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
+| 2.79 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
+| 2.78 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:formal-logic`, `ct:method-of-counterexample`, `ct:modus-ponens` |
+| 2.73 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
 | 2.68 | `ct:amos-tversky` | `ct:bounded-rationality` | `ct:behavioral-economics`, `ct:daniel-kahneman`, `ct:gerd-gigerenzer`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
 | 2.65 | `ct:actively-open-minded-thinking` | `ct:numeracy` | `ct:judgment-and-decision-making`, `ct:need-for-cognition`, `ct:thinking-dispositions` |
+| 2.64 | `ct:deductive-reasoning` | `ct:formal-fallacy` | `ct:affirming-the-consequent`, `ct:argument`, `ct:cognitive-psychology`, `ct:formal-logic`, `ct:method-of-counterexample` |
 | 2.60 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
+| 2.54 | `ct:formal-logic` | `ct:modus-ponens` | `ct:deductive-reasoning`, `ct:formal-fallacy`, `ct:method-of-counterexample`, `ct:stoic-logic`, `ct:syllogism` |
 | 2.54 | `ct:distribution-of-terms` | `ct:existential-fallacy` | `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-major`, `ct:rules-of-the-categorical-syllogism`, `ct:square-of-opposition` |
-| 2.54 | `ct:square-of-opposition` | `ct:topics` | `ct:aristotle`, `ct:boethius`, `ct:organon`, `ct:prior-analytics` |
-| 2.52 | `ct:the-new-rhetoric` | `ct:toulmin-model` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:informal-logic`, `ct:pragma-dialectics` |
-| 2.52 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
-| 2.49 | `ct:antilogism` | `ct:john-buridan` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:exclusive-premises`, `ct:rules-of-the-categorical-syllogism`, `ct:square-of-opposition` |
-| 2.49 | `ct:john-buridan` | `ct:venn-diagram-test` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:exclusive-premises`, `ct:rules-of-the-categorical-syllogism`, `ct:square-of-opposition` |
-| 2.49 | `ct:inductive-reasoning` | `ct:informal-fallacy` | `ct:argument`, `ct:bayesian-reasoning`, `ct:cogency`, `ct:cognitive-psychology`, `ct:post-hoc-ergo-propter-hoc` |
+| 2.53 | `ct:square-of-opposition` | `ct:topics` | `ct:aristotle`, `ct:boethius`, `ct:organon`, `ct:prior-analytics` |
+| 2.52 | `ct:argument` | `ct:formal-logic` | `ct:argumentation-theory`, `ct:deductive-reasoning`, `ct:formal-fallacy`, `ct:informal-logic`, `ct:logic` |

@@ -2278,6 +2278,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2000/01/rdf-schema#label> "Formal logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "symbolic logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#definition> "The branch of logic that studies deductive inference by abstracting from what statements are about to the structures (logical forms) they share, and that states those forms in precisely defined artificial languages so that validity can be tested by form alone." .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formal logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/computer-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/formal-logic.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2000/01/rdf-schema#label> "Framing effect" .
@@ -6405,6 +6438,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s5> <https://schema.org/url> <https://modeltheory.org/papers/2019meta-conditionals.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Pietroski, Spring 2024 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s1> <http://purl.org/dc/terms/title> "Logical Form" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2024/entries/logical-form/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s2> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Kouri Kissel, rev. 2026)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s2> <http://purl.org/dc/terms/title> "Classical Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s2> <https://schema.org/url> <https://plato.stanford.edu/entries/logic-classical/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s3> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s3> <http://purl.org/dc/terms/publisher> "Magnus, Button, Loftis, Trueman, Thomas-Bolduc & Zach, University of Calgary / Open Logic Project (Fall 2021, CC BY 4.0)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s3> <http://purl.org/dc/terms/title> "forall x: Calgary. An Introduction to Formal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s3> <https://schema.org/url> <https://forallx.openlogicproject.org/forallxyyc.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s4> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Jackson, rev. 2026)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s4> <http://purl.org/dc/terms/title> "George Boole" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/boole/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> <http://purl.org/dc/terms/title> "Formal logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> <https://schema.org/url> <https://www.britannica.com/topic/formal-logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://purl.org/dc/terms/publisher> "Science 211(4481), 453-458 (Tversky & Kahneman, 1981), PubMed record" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://purl.org/dc/terms/title> "The framing of decisions and the psychology of choice" .
