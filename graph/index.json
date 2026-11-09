@@ -6483,6 +6483,85 @@
   ]
  },
  {
+  "id": "ct:iain-chalmers",
+  "title": "Iain Chalmers",
+  "aliases": [
+   "Sir Iain Chalmers"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/iain-chalmers.md",
+  "created": "2026-11-09",
+  "summary": "British health services researcher who, with colleagues in Oxford in the 1970s and 1980s, built the first large body of systematic reviews of randomized trials (Effective Care in Pregnancy and Childbirth, 1989), founded the UK Cochrane Centre in 1992 and co-founded the Cochrane Collaboration, and later promoted public critical thinking about treatment claims through the James Lind Initiative and the Informed Health Choices Key Concepts.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:archie-cochrane"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:meta-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:suppressed-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:evidence-based-medicine"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:systematic-review",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:informed-health-choices-key-concepts",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:research-waste",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:effective-care-in-pregnancy-and-childbirth",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:archie-cochrane",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://core.ac.uk/download/212889338.pdf",
+   "https://www.cmaj.ca/content/cmaj/early/2013/08/26/cmaj.131213.full.pdf",
+   "https://www.cochrane.org/zh-hant/about-us/news/remembering-dr-murray-enkin",
+   "https://metrics.stanford.edu/people/iain-chalmers",
+   "https://ru.testingtreatments.org/wp-content/uploads/sites/5/2018/06/609-2018-Chalmers-et-al-BMJ_Key-Concepts-for-IHC.pdf",
+   "https://blogs.bmj.com/bmj/2016/01/14/paul-glasziou-and-iain-chalmers-is-85-of-health-research-really-wasted/"
+  ]
+ },
+ {
   "id": "ct:ignoratio-elenchi",
   "title": "Ignoratio elenchi",
   "aliases": [

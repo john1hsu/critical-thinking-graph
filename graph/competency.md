@@ -123,7 +123,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
 | `ct:suppressed-evidence` | cto:InformalFallacy |
-| `ct:systematic-review` | cto:Method |
 | `ct:tu-quoque` | cto:InformalFallacy |
 
 ## Orphan articles (gap)

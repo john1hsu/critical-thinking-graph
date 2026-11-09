@@ -6082,6 +6082,82 @@
    ]
   },
   {
+   "@id": "ct:iain-chalmers",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:effective-care-in-pregnancy-and-childbirth"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/iain-chalmers.md",
+   "cto:influencedBy": {
+    "@id": "ct:archie-cochrane"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:informed-health-choices-key-concepts"
+    },
+    {
+     "@id": "ct:research-waste"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ],
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s6"
+    }
+   ],
+   "rdfs:label": "Iain Chalmers",
+   "skos:altLabel": "Sir Iain Chalmers",
+   "skos:definition": "British health services researcher who, with colleagues in Oxford in the 1970s and 1980s, built the first large body of systematic reviews of randomized trials (Effective Care in Pregnancy and Childbirth, 1989), founded the UK Cochrane Centre in 1992 and co-founded the Cochrane Collaboration, and later promoted public critical thinking about treatment claims through the James Lind Initiative and the Informed Health Choices Key Concepts.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Iain Chalmers",
+   "skos:related": [
+    {
+     "@id": "ct:archie-cochrane"
+    },
+    {
+     "@id": "ct:evidence-based-medicine"
+    },
+    {
+     "@id": "ct:meta-analysis"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:suppressed-evidence"
+    }
+   ]
+  },
+  {
    "@id": "ct:ignoratio-elenchi",
    "@type": "cto:InformalFallacy",
    "cto:contrastsWith": [
@@ -20644,6 +20720,90 @@
    "dcterms:title": "On the failure to eliminate hypotheses in a conceptual task",
    "schema:url": {
     "@id": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/wason-qjep1960.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Journal of the Association for Information Science and Technology 68(12), 2693-2708 (Laura Sheble, 2017), CORE author copy",
+   "dcterms:title": "Macro-level diffusion of a methodological knowledge innovation: Research synthesis methods, 1972-2011",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/212889338.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "CMAJ, Humanities essay (Alan Cassels, 2013), doi:10.1503/cmaj.131213",
+   "dcterms:title": "The Cochrane Collaboration celebrates 20 years",
+   "schema:url": {
+    "@id": "https://www.cmaj.ca/content/cmaj/early/2013/08/26/cmaj.131213.full.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Cochrane (news, 14 June 2021)",
+   "dcterms:title": "Remembering Dr Murray Enkin",
+   "schema:url": {
+    "@id": "https://www.cochrane.org/zh-hant/about-us/news/remembering-dr-murray-enkin"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Meta-Research Innovation Center at Stanford (METRICS), Stanford University",
+   "dcterms:title": "Iain Chalmers",
+   "schema:url": {
+    "@id": "https://metrics.stanford.edu/people/iain-chalmers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "BMJ Evidence-Based Medicine 23(1), 29-33 (Chalmers, Oxman, Austvoll-Dahlgren et al., 2018), Testing Treatments author copy",
+   "dcterms:title": "Key Concepts for Informed Health Choices: a framework for helping people learn how to assess treatment claims and make informed choices",
+   "schema:url": {
+    "@id": "https://ru.testingtreatments.org/wp-content/uploads/sites/5/2018/06/609-2018-Chalmers-et-al-BMJ_Key-Concepts-for-IHC.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/iain-chalmers/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "The BMJ Opinion blog (Glasziou & Chalmers, 14 January 2016)",
+   "dcterms:title": "Paul Glasziou and Iain Chalmers: Is 85% of health research really \"wasted\"?",
+   "schema:url": {
+    "@id": "https://blogs.bmj.com/bmj/2016/01/14/paul-glasziou-and-iain-chalmers-is-85-of-health-research-really-wasted/"
    }
   },
   {
