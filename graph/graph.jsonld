@@ -587,6 +587,93 @@
    ]
   },
   {
+   "@id": "ct:ambiguity",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": {
+    "@id": "ct:vagueness"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:communicative-efficiency"
+   },
+   "cto:explains": {
+    "@id": "ct:equivocation"
+   },
+   "cto:file": "articles/foundations/ambiguity.md",
+   "cto:influencedBy": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-language"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s6"
+    }
+   ],
+   "rdfs:label": "Ambiguity",
+   "skos:altLabel": [
+    "ambiguous expression",
+    "lexical and structural ambiguity",
+    "linguistic ambiguity"
+   ],
+   "skos:broader": {
+    "@id": "ct:philosophy-of-language"
+   },
+   "skos:definition": "The property of a word, phrase or sentence that has more than one distinct, legitimate meaning, such as \"bank\" (river edge or lender) or \"visiting relatives can be tiresome\"; unnoticed in an argument, it lets a term or sentence shift meaning between premises and conclusion.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Ambiguity",
+   "skos:related": [
+    {
+     "@id": "ct:amphiboly"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:fallacy-of-four-terms"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    },
+    {
+     "@id": "ct:vagueness"
+    }
+   ]
+  },
+  {
    "@id": "ct:amos-tversky",
    "@type": "cto:Person",
    "cto:appliedIn": {
@@ -16366,6 +16453,90 @@
    "dcterms:title": "Semantic Theory of Truth",
    "schema:url": {
     "@id": "https://iep.utm.edu/s-truth/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Sennet, rev. 2021)",
+   "dcterms:title": "Ambiguity",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/Entries/ambiguity"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "On Sophistical Refutations, Parts 1 and 4 (trans. W. A. Pickard-Cambridge)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Cognition 122(3), 280-291 (Piantadosi, Tily & Gibson, 2012), author copy",
+   "dcterms:title": "The communicative function of ambiguity in language",
+   "schema:url": {
+    "@id": "https://pdodds.w3.uvm.edu/files/papers/others/2012/piantadosi2012b.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Logical Reasoning (Dowden, California State University Sacramento), Humanities LibreTexts",
+   "dcterms:title": "3.1.4: Equivocation",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/03%3A_Writing_with_the_Appropriate_Precision/3.01%3A_Being_Ambiguous/3.1.04%3A_Equivocation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Critical Reasoning and Writing (Levin, Golden West College), Humanities LibreTexts",
+   "dcterms:title": "3.4: Fallacies of Ambiguity and Grammatical Analogy",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/03%3A_Informal_Fallacies_-_Mistakes_in_Reasoning/3.04%3A_Fallacies_of_Ambiguity_and_Grammatical_Analogy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ambiguity/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Dictionnaire de l'argumentation 2021 (Plantin), ICAR lab, CNRS",
+   "dcterms:title": "Fallacies 2: Aristotle's Foundational List",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/fallacies-ii-aristotles-foundational-lis/"
    }
   },
   {

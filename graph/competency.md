@@ -109,6 +109,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | node | type |
 |---|---|
 | `ct:affirming-a-disjunct` | cto:FormalFallacy |
+| `ct:ambiguity` | cto:Concept |
 | `ct:calibration` | cto:Concept |
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |

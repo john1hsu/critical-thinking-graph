@@ -615,6 +615,99 @@
   ]
  },
  {
+  "id": "ct:ambiguity",
+  "title": "Ambiguity",
+  "aliases": [
+   "linguistic ambiguity",
+   "ambiguous expression",
+   "lexical and structural ambiguity"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/ambiguity.md",
+  "created": "2026-11-09",
+  "summary": "The property of a word, phrase or sentence that has more than one distinct, legitimate meaning, such as \"bank\" (river edge or lender) or \"visiting relatives can be tiresome\"; unnoticed in an argument, it lets a term or sentence shift meaning between premises and conclusion.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy-of-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amphiboly"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-four-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-language",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:vagueness",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explains",
+    "object": "ct:equivocation",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:sophistical-refutations",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:communicative-efficiency",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/Entries/ambiguity",
+   "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html",
+   "https://pdodds.w3.uvm.edu/files/papers/others/2012/piantadosi2012b.pdf",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/03%3A_Writing_with_the_Appropriate_Precision/3.01%3A_Being_Ambiguous/3.1.04%3A_Equivocation",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/03%3A_Informal_Fallacies_-_Mistakes_in_Reasoning/3.04%3A_Fallacies_of_Ambiguity_and_Grammatical_Analogy",
+   "https://icar.cnrs.fr/dicoplantin/fallacies-ii-aristotles-foundational-lis/"
+  ]
+ },
+ {
   "id": "ct:amos-tversky",
   "title": "Amos Tversky",
   "aliases": [
