@@ -16,7 +16,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.13 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
 | 3.12 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:informal-fallacy` |
 | 3.01 | `ct:antilogism` | `ct:john-venn` | `ct:categorical-syllogism`, `ct:existential-import`, `ct:george-boole`, `ct:square-of-opposition`, `ct:syllogism` |
-| 2.96 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
+| 2.95 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
 | 2.83 | `ct:formal-logic` | `ct:organon` | `ct:aristotle`, `ct:deductive-reasoning`, `ct:logic`, `ct:prior-analytics`, `ct:square-of-opposition` |
 | 2.78 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:false-dilemma`, `ct:informal-fallacy` |
 | 2.76 | `ct:syllogism` | `ct:truth-table` | `ct:affirming-a-disjunct`, `ct:disjunctive-syllogism`, `ct:formal-logic`, `ct:method-of-counterexample`, `ct:modus-ponens` |
@@ -25,7 +25,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.70 | `ct:affirming-the-consequent` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:aristotle`, `ct:deductive-reasoning`, `ct:method-of-counterexample`, `ct:modus-ponens` |
 | 2.66 | `ct:amos-tversky` | `ct:bounded-rationality` | `ct:behavioral-economics`, `ct:daniel-kahneman`, `ct:gerd-gigerenzer`, `ct:heuristics-and-biases-program`, `ct:judgment-and-decision-making` |
 | 2.59 | `ct:deductive-reasoning` | `ct:formal-fallacy` | `ct:affirming-the-consequent`, `ct:argument`, `ct:cognitive-psychology`, `ct:formal-logic`, `ct:method-of-counterexample` |
-| 2.58 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
+| 2.57 | `ct:anchoring-effect` | `ct:availability-heuristic` | `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:cognitive-bias`, `ct:consider-the-opposite`, `ct:daniel-kahneman` |
 | 2.54 | `ct:distribution-of-terms` | `ct:existential-fallacy` | `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-major`, `ct:rules-of-the-categorical-syllogism`, `ct:square-of-opposition` |
 | 2.54 | `ct:formal-logic` | `ct:modus-ponens` | `ct:deductive-reasoning`, `ct:formal-fallacy`, `ct:method-of-counterexample`, `ct:stoic-logic`, `ct:syllogism` |
 | 2.53 | `ct:square-of-opposition` | `ct:topics` | `ct:aristotle`, `ct:boethius`, `ct:organon`, `ct:prior-analytics` |

@@ -33,6 +33,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:systematic-review` | 2 | Suppressed evidence, publication-bias |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
+| `ct:analysis-of-competing-hypotheses` | 1 | Confirmation bias |
 | `ct:antilogism` | 1 | Exclusive premises |
 | `ct:argument-mapping` | 1 | Begging the question |
 | `ct:hypothesis-testing` | 1 | Confirmation bias |
@@ -43,7 +44,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
 | `ct:sift-method` | 1 | Misinformation and disinformation |
 | `ct:stasis-theory` | 1 | Ignoratio elenchi |
-| `ct:structured-analytic-techniques` | 1 | Confirmation bias |
+
+…and 1 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -61,6 +63,9 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 | node | status | challenger |
 |---|---|---|
+| `ct:analysis-of-competing-hypotheses` | contested | `ct:cheikes-2004-confirmation-bias-complex-analyses-study` |
+| `ct:analysis-of-competing-hypotheses` | contested | `ct:dhami-belton-mandel-2019-ach-protocol-study` |
+| `ct:analysis-of-competing-hypotheses` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:blooms-taxonomy` | contested | `ct:newton-2020-blooms-verb-list-study` |
 | `ct:dual-process-theory` | contested | `ct:de-neys-2023-fast-and-slow-revision` |
 | `ct:dual-process-theory` | contested | `ct:gerd-gigerenzer` |
@@ -88,11 +93,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:debiasing` | mixed |  |
 | `ct:debiasing-training-games` | mixed |  |
 | `ct:deliberate-reflection` | mixed | `ct:lambe-2018-guided-reflection-null-study` |
-| `ct:devils-advocacy` | mixed |  |
-| `ct:heuristics-and-biases-program` | mixed | `ct:gerd-gigerenzer` |
-| `ct:lateral-reading` | mixed |  |
 
-…and 15 more.
+…and 18 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

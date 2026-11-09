@@ -692,6 +692,120 @@
   ]
  },
  {
+  "id": "ct:analysis-of-competing-hypotheses",
+  "title": "Analysis of competing hypotheses",
+  "aliases": [
+   "ACH",
+   "ACH matrix",
+   "competing hypotheses matrix"
+  ],
+  "type": "Technique",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/decision-making/analysis-of-competing-hypotheses.md",
+  "created": "2026-11-09",
+  "summary": "A structured analytic technique, devised by the CIA analyst Richards Heuer, in which an analyst lays out every plausible explanation side by side in a matrix, scores each item of evidence against all of them, and favours the hypothesis with the least evidence against it rather than the most for it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:key-assumptions-check"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inference-to-the-best-explanation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:richards-heuer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:psychology-of-intelligence-analysis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:intelligence-analysis",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:confirmation-bias",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:satisficing",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:mandel-karvetski-dhami-2018-ach-trial",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:dhami-belton-mandel-2019-ach-protocol-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:cheikes-2004-confirmation-bias-complex-analyses-study",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf",
+   "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf",
+   "https://mdx-repository.prod-uk.cayuse.com/download/68a5c6461fa622c2ea8d16f5f32e28fc06861520af1a4341f7740e8173d2cc48/229327/Dhami_et_al-2019-Applied_Cognitive_Psychology.pdf",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/18/18803/jdm18803.html",
+   "https://www.mitre.org/sites/default/files/pdf/04_0985.pdf"
+  ]
+ },
+ {
   "id": "ct:anchoring-effect",
   "title": "Anchoring effect",
   "aliases": [

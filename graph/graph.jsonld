@@ -667,6 +667,106 @@
    ]
   },
   {
+   "@id": "ct:analysis-of-competing-hypotheses",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:intelligence-analysis"
+   },
+   "cto:challengedBy": [
+    {
+     "@id": "ct:cheikes-2004-confirmation-bias-complex-analyses-study"
+    },
+    {
+     "@id": "ct:dhami-belton-mandel-2019-ach-protocol-study"
+    },
+    {
+     "@id": "ct:mandel-karvetski-dhami-2018-ach-trial"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:satisficing"
+   },
+   "cto:counteracts": {
+    "@id": "ct:confirmation-bias"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/decision-making/analysis-of-competing-hypotheses.md",
+   "cto:introducedBy": {
+    "@id": "ct:richards-heuer"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:psychology-of-intelligence-analysis"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:confirmation-bias"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s5"
+    }
+   ],
+   "rdfs:label": "Analysis of competing hypotheses",
+   "skos:altLabel": [
+    "ACH matrix",
+    "ACH",
+    "competing hypotheses matrix"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    }
+   ],
+   "skos:definition": "A structured analytic technique, devised by the CIA analyst Richards Heuer, in which an analyst lays out every plausible explanation side by side in a matrix, scores each item of evidence against all of them, and favours the hypothesis with the least evidence against it rather than the most for it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Analysis of competing hypotheses",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:inference-to-the-best-explanation"
+    },
+    {
+     "@id": "ct:key-assumptions-check"
+    }
+   ]
+  },
+  {
    "@id": "ct:anchoring-effect",
    "@type": "cto:CognitiveBias",
    "cto:challengedBy": {
@@ -15673,6 +15773,76 @@
    "dcterms:title": "On the reality of cognitive illusions",
    "schema:url": {
     "@id": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Kahneman+Tversky-cognitive-illusions-1996.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Richards J. Heuer Jr., Center for the Study of Intelligence, Central Intelligence Agency (1999)",
+   "dcterms:title": "Psychology of Intelligence Analysis, Chapter 8: Analysis of Competing Hypotheses",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "US Government, Central Intelligence Agency, Center for the Study of Intelligence (March 2009)",
+   "dcterms:title": "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Applied Cognitive Psychology (Dhami, Belton & Mandel, 2019), doi:10.1002/acp.3550, author manuscript",
+   "dcterms:title": "The \"analysis of competing hypotheses\" in intelligence analysis",
+   "schema:url": {
+    "@id": "https://mdx-repository.prod-uk.cayuse.com/download/68a5c6461fa622c2ea8d16f5f32e28fc06861520af1a4341f7740e8173d2cc48/229327/Dhami_et_al-2019-Applied_Cognitive_Psychology.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 13(6), 607-621 (Mandel, Karvetski & Dhami, 2018)",
+   "dcterms:title": "Boosting intelligence analysts' judgment accuracy: What works, what fails?",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/18/18803/jdm18803.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-09"
+   },
+   "dcterms:publisher": "MITRE Technical Report MTR 04B0000017 (Cheikes, Brown, Lehner & Adelman, 2004)",
+   "dcterms:title": "Confirmation Bias in Complex Analyses",
+   "schema:url": {
+    "@id": "https://www.mitre.org/sites/default/files/pdf/04_0985.pdf"
    }
   },
   {
