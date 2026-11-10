@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:quantifier-shift-fallacy` | cto:FormalFallacy |
 | `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:sunk-cost-fallacy` | cto:CognitiveBias |
 
@@ -49,7 +48,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
 | `ct:sift-method` | 1 | Misinformation and disinformation |
 
-…and 3 more.
+…and 4 more.
 
 ## Heuristic -> bias -> remedy chains
 

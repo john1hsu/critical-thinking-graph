@@ -15014,6 +15014,92 @@
   ]
  },
  {
+  "id": "ct:truth-tree",
+  "title": "Truth tree",
+  "aliases": [
+   "semantic tableau",
+   "semantic tableaux",
+   "analytic tableaux",
+   "method of analytic tableaux",
+   "tree method",
+   "tableau method"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/truth-tree.md",
+  "created": "2026-11-10",
+  "summary": "A test of validity that lists an argument's premises together with the negation of its conclusion and breaks them down by rule into branches; if every branch closes on a contradiction the argument is valid, and a finished open branch describes a counterexample.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:quantifier-scope"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:raymond-smullyan"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:quantifier-shift-fallacy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:evert-willem-beth",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:jaakko-hintikka",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:gerhard-gentzen",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.logicinaction.org/docs/ch8.pdf",
+   "https://www.cs.cornell.edu/courses/cs4860/2020fa/resources/Smullyan-Book-Full.pdf",
+   "https://human.libretexts.org/Bookshelves/Logic/Map%3A_A_Modern_Formal_Logic_Primer_(Teller)/Volume_I%3A_Sentence_Logic/8%3A_Truth_Trees_for_Sentence_Logic_-_Fundamentals/8.3%3A_Proving_Invalidity_with_Truth_Trees",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/A_Modern_Formal_Logic_Primer_(Teller)/03%3A_Volume_II-_Predicate_Logic/3.08%3A_More_on_Truth_Trees_for_Predicate_Logic/3.8.04%3A_Infinite_Trees",
+   "https://homepages.hass.rpi.edu/heuveb/Teaching/Logic/CompLogic/Web/Presentations/QTrees.pdf",
+   "https://users.cecs.anu.edu.au/~jks/LogicNotes/quantifiers-in-tableaux.html"
+  ]
+ },
+ {
   "id": "ct:tu-quoque",
   "title": "Tu quoque",
   "aliases": [

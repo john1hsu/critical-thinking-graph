@@ -14161,6 +14161,92 @@
    ]
   },
   {
+   "@id": "ct:truth-tree",
+   "@type": "cto:Technique",
+   "cto:detects": {
+    "@id": "ct:quantifier-shift-fallacy"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/truth-tree.md",
+   "cto:influencedBy": {
+    "@id": "ct:gerhard-gentzen"
+   },
+   "cto:introducedBy": [
+    {
+     "@id": "ct:evert-willem-beth"
+    },
+    {
+     "@id": "ct:jaakko-hintikka"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:validity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s6"
+    }
+   ],
+   "rdfs:label": "Truth tree",
+   "skos:altLabel": [
+    "analytic tableaux",
+    "method of analytic tableaux",
+    "semantic tableau",
+    "semantic tableaux",
+    "tableau method",
+    "tree method"
+   ],
+   "skos:broader": {
+    "@id": "ct:predicate-logic"
+   },
+   "skos:definition": "A test of validity that lists an argument's premises together with the negation of its conclusion and breaks them down by rule into branches; if every branch closes on a contradiction the argument is valid, and a finished open branch describes a counterexample.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Truth tree",
+   "skos:related": [
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:propositional-logic"
+    },
+    {
+     "@id": "ct:quantifier-scope"
+    },
+    {
+     "@id": "ct:raymond-smullyan"
+    },
+    {
+     "@id": "ct:truth-table"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:tu-quoque",
    "@type": "cto:InformalFallacy",
    "cto:challengedBy": {
@@ -29511,6 +29597,90 @@
    "dcterms:title": "Formal logic: The propositional calculus",
    "schema:url": {
     "@id": "https://www.britannica.com/topic/formal-logic/The-propositional-calculus"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Logic in Action, open course book (Institute for Logic, Language and Computation, University of Amsterdam)",
+   "dcterms:title": "Chapter 8: Validity Testing",
+   "schema:url": {
+    "@id": "https://www.logicinaction.org/docs/ch8.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Springer-Verlag, Ergebnisse der Mathematik und ihrer Grenzgebiete 43 (course copy, Cornell CS 4860)",
+   "dcterms:title": "First-Order Logic (Raymond M. Smullyan, 1968), preface and ch. II, Analytic Tableaux",
+   "schema:url": {
+    "@id": "https://www.cs.cornell.edu/courses/cs4860/2020fa/resources/Smullyan-Book-Full.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "A Modern Formal Logic Primer, Vol. I (Paul Teller), LibreTexts",
+   "dcterms:title": "8.3: Proving Invalidity with Truth Trees",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Logic/Map%3A_A_Modern_Formal_Logic_Primer_(Teller)/Volume_I%3A_Sentence_Logic/8%3A_Truth_Trees_for_Sentence_Logic_-_Fundamentals/8.3%3A_Proving_Invalidity_with_Truth_Trees"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "A Modern Formal Logic Primer, Vol. II (Paul Teller), LibreTexts",
+   "dcterms:title": "3.8.4: Infinite Trees",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/A_Modern_Formal_Logic_Primer_(Teller)/03%3A_Volume_II-_Predicate_Logic/3.08%3A_More_on_Truth_Trees_for_Predicate_Logic/3.8.04%3A_Infinite_Trees"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Computability and Logic course slides, Rensselaer Polytechnic Institute",
+   "dcterms:title": "Truth Trees for Predicate Logic",
+   "schema:url": {
+    "@id": "https://homepages.hass.rpi.edu/heuveb/Teaching/Logic/CompLogic/Web/Presentations/QTrees.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/truth-tree/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "The Logic Notes, Australian National University",
+   "dcterms:title": "Quantifiers in tableaux",
+   "schema:url": {
+    "@id": "https://users.cecs.anu.edu.au/~jks/LogicNotes/quantifiers-in-tableaux.html"
    }
   },
   {
