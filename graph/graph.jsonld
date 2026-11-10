@@ -6328,6 +6328,101 @@
    ]
   },
   {
+   "@id": "ct:hasty-generalization",
+   "@type": "cto:InformalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:fallacy-of-accident"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map"
+   },
+   "cto:explainedBy": [
+    {
+     "@id": "ct:anecdotal-bias"
+    },
+    {
+     "@id": "ct:law-of-small-numbers"
+    }
+   ],
+   "cto:file": "articles/informal-fallacies/hasty-generalization.md",
+   "cto:instanceOf": {
+    "@id": "ct:jumping-to-conclusions"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:port-royal-logic"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:inductive-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5"
+    }
+   ],
+   "rdfs:label": "Hasty generalization",
+   "skos:altLabel": [
+    "converse accident",
+    "fallacy of insufficient sample",
+    "false induction",
+    "faulty induction",
+    "generalizing from too few cases",
+    "overgeneralization"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of drawing a general conclusion about a whole class from too few, or too unrepresentative, cases, or of treating a rule that holds only usually as if it had no exceptions.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Hasty generalization",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-analogy"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:defeasible-reasoning"
+    },
+    {
+     "@id": "ct:insensitivity-to-sample-size"
+    },
+    {
+     "@id": "ct:post-hoc-ergo-propter-hoc"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    },
+    {
+     "@id": "ct:selection-bias"
+    },
+    {
+     "@id": "ct:suppressed-evidence"
+    }
+   ]
+  },
+  {
    "@id": "ct:heuristics-and-biases-program",
    "@type": "cto:Framework",
    "cto:challengedBy": {
@@ -16223,6 +16318,132 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hasty-generalization"
+   },
+   "rdfs:label": "How many cases is the conclusion based on, and is that enough for a claim this broad?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hasty-generalization"
+   },
+   "rdfs:label": "How were the cases chosen, and could the way they were found make them unusual?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hasty-generalization"
+   },
+   "rdfs:label": "Does the conclusion say \"all\" or \"always\" when the evidence supports only \"many\" or \"usually\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hasty-generalization"
+   },
+   "rdfs:label": "Were counterexamples looked for, and what happened to the ones that turned up?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hasty-generalization"
+   },
+   "rdfs:label": "How much is at stake if the generalization is wrong, and does that call for a higher standard of proof?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:hasty-generalization"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So most of our customers want dark mode, and it should be next quarter's top priority."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca3",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Five requests out of several thousand active customers is a tiny sample."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Trade-show visitors and people who file tickets are self-selected and may not resemble the typical customer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o3",
+   "@type": "aif:I-node",
+   "aif:claimText": "Nobody checked the feature-request backlog or usage survey for competing priorities."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "At the trade show, three visitors to our booth said they wanted a dark mode in the app."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Two support tickets last week also asked for a dark mode."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -22443,6 +22664,76 @@
    "dcterms:title": "Revisiting the Bay of Pigs and Vietnam Decisions 25 Years Later: How Well Has the Groupthink Hypothesis Stood the Test of Time?",
    "schema:url": {
     "@id": "https://econpapers.repec.org/RePEc:eee:jobhdp:v:73:y:1998:i:2-3:p:236-271"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Informal Logic 29(2) (Walton & Gordon, 2009)",
+   "dcterms:title": "Jumping to a Conclusion: Fallacies and Standards of Proof",
+   "schema:url": {
+    "@id": "https://doaj.org/article/caa261e5b9f144b6b301b6747f95fb4e"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Lander University, Department of Philosophy (Archie)",
+   "dcterms:title": "Fallacy of Accident (Introduction to Logic)",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/accident.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Psychological Bulletin 76(2):105-110 (Tversky & Kahneman, 1971)",
+   "dcterms:title": "Belief in the law of small numbers",
+   "schema:url": {
+    "@id": "https://literature.wolkersdorfer.info/literature/Belief%20in%20the%20law%20of%20small%20numbers.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Organizational Behavior and Human Decision Processes 160:51-67 (Freling, Yang, Saini, Itani & Rashad Abualsamh, 2020)",
+   "dcterms:title": "When poignant stories outweigh cold hard facts: A meta-analysis of the anecdotal bias",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:eee:jobhdp:v:160:y:2020:i:c:p:51-67"
    }
   },
   {

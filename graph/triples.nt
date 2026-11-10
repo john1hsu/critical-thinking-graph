@@ -3013,6 +3013,87 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/victims-of-groupthink> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "How many cases is the conclusion based on, and is that enough for a claim this broad?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "How were the cases chosen, and could the way they were found make them unusual?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Does the conclusion say \"all\" or \"always\" when the evidence supports only \"many\" or \"usually\"?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Were counterexamples looked for, and what happened to the ones that turned up?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "How much is at stake if the generalization is wrong, and does that call for a higher standard of proof?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So most of our customers want dark mode, and it should be next quarter's top priority." .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca3> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca3> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ca3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Five requests out of several thousand active customers is a tiny sample." .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Trade-show visitors and people who file tickets are self-selected and may not resemble the typical customer." .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o3> <http://www.arg.dundee.ac.uk/aif#claimText> "Nobody checked the feature-request backlog or usage survey for competing priorities." .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/o3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "At the trade show, three visitors to our booth said they wanted a dark mode in the app." .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Two support tickets last week also asked for a dark mode." .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2000/01/rdf-schema#label> "Hasty generalization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#altLabel> "converse accident" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of insufficient sample" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#altLabel> "false induction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#altLabel> "faulty induction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#altLabel> "generalizing from too few cases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#altLabel> "overgeneralization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of drawing a general conclusion about a whole class from too few, or too unrepresentative, cases, or of treating a rule that holds only usually as if it had no exceptions." .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hasty generalization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/anecdotal-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/hasty-generalization.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/jumping-to-conclusions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2000/01/rdf-schema#label> "Heuristics and biases program" .
@@ -7881,6 +7962,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s5> <https://schema.org/url> <https://econpapers.repec.org/RePEc:eee:jobhdp:v:73:y:1998:i:2-3:p:236-271> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/fallacies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 29(2) (Walton & Gordon, 2009)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s2> <http://purl.org/dc/terms/title> "Jumping to a Conclusion: Fallacies and Standards of Proof" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s2> <https://schema.org/url> <https://doaj.org/article/caa261e5b9f144b6b301b6747f95fb4e> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s3> <http://purl.org/dc/terms/publisher> "Lander University, Department of Philosophy (Archie)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s3> <http://purl.org/dc/terms/title> "Fallacy of Accident (Introduction to Logic)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s3> <https://schema.org/url> <https://philosophy.lander.edu/logic/accident.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s4> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 76(2):105-110 (Tversky & Kahneman, 1971)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s4> <http://purl.org/dc/terms/title> "Belief in the law of small numbers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s4> <https://schema.org/url> <https://literature.wolkersdorfer.info/literature/Belief%20in%20the%20law%20of%20small%20numbers.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> <http://purl.org/dc/terms/publisher> "Organizational Behavior and Human Decision Processes 160:51-67 (Freling, Yang, Saini, Itani & Rashad Abualsamh, 2020)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> <http://purl.org/dc/terms/title> "When poignant stories outweigh cold hard facts: A meta-analysis of the anecdotal bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> <https://schema.org/url> <https://econpapers.repec.org/RePEc:eee:jobhdp:v:160:y:2020:i:c:p:51-67> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s1> <http://purl.org/dc/terms/publisher> "Psychological Review 103(3), 582-591 (Kahneman & Tversky, 1996), copy hosted on an NC State course page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s1> <http://purl.org/dc/terms/title> "On the reality of cognitive illusions" .

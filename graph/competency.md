@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:hasty-generalization` | cto:InformalFallacy |
 | `ct:quantifier-shift-fallacy` | cto:FormalFallacy |
 | `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:sunk-cost-fallacy` | cto:CognitiveBias |

@@ -219,6 +219,18 @@ flowchart TD
   o1["If each check is independent, the chance the next one fails is still about one in ten; seven passes do not create a debt that the next shipment must repay."] -. attacks .-> ra
 ```
 
+## Hasty generalization (`ct:hasty-generalization`)
+
+```mermaid
+flowchart TD
+  p1["At the trade show, three visitors to our booth said they wanted a dark mode in the app."] --> ra{{"fallacious"}}
+  p2["Two support tickets last week also asked for a dark mode."] --> ra{{"fallacious"}}
+  ra --> c["So most of our customers want dark mode, and it should be next quarter's top priority."]
+  o1["Five requests out of several thousand active customers is a tiny sample."] -. attacks .-> ra
+  o2["Trade-show visitors and people who file tickets are self-selected and may not resemble the typical customer."] -. attacks .-> ra
+  o3["Nobody checked the feature-request backlog or usage survey for competing priorities."] -. attacks .-> ra
+```
+
 ## Ignoratio elenchi (`ct:ignoratio-elenchi`)
 
 ```mermaid

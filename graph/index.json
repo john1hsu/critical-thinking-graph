@@ -6727,6 +6727,111 @@
   ]
  },
  {
+  "id": "ct:hasty-generalization",
+  "title": "Hasty generalization",
+  "aliases": [
+   "converse accident",
+   "faulty induction",
+   "false induction",
+   "generalizing from too few cases",
+   "overgeneralization",
+   "fallacy of insufficient sample"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/hasty-generalization.md",
+  "created": "2026-11-10",
+  "summary": "The fallacy of drawing a general conclusion about a whole class from too few, or too unrepresentative, cases, or of treating a rule that holds only usually as if it had no exceptions.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:insensitivity-to-sample-size"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-analogy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:post-hoc-ergo-propter-hoc"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:suppressed-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:jumping-to-conclusions",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:fallacy-of-accident",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:port-royal-logic",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:law-of-small-numbers",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:anecdotal-bias",
+    "source": "s5",
+    "confidence": "low"
+   }
+  ],
+  "criticalQuestions": [
+   "How many cases is the conclusion based on, and is that enough for a claim this broad?",
+   "How were the cases chosen, and could the way they were found make them unusual?",
+   "Does the conclusion say \"all\" or \"always\" when the evidence supports only \"many\" or \"usually\"?",
+   "Were counterexamples looked for, and what happened to the ones that turned up?",
+   "How much is at stake if the generalization is wrong, and does that call for a higher standard of proof?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://doaj.org/article/caa261e5b9f144b6b301b6747f95fb4e",
+   "https://philosophy.lander.edu/logic/accident.html",
+   "https://literature.wolkersdorfer.info/literature/Belief%20in%20the%20law%20of%20small%20numbers.pdf",
+   "https://econpapers.repec.org/RePEc:eee:jobhdp:v:160:y:2020:i:c:p:51-67"
+  ]
+ },
+ {
   "id": "ct:heuristics-and-biases-program",
   "title": "Heuristics and biases program",
   "aliases": [
