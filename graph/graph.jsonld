@@ -1207,6 +1207,100 @@
    ]
   },
   {
+   "@id": "ct:argument-from-consequences",
+   "@type": "cto:ArgumentScheme",
+   "cto:contrastsWith": {
+    "@id": "ct:appeal-to-consequences"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:expected-utility-theory"
+   },
+   "cto:file": "articles/argumentation/argument-from-consequences.md",
+   "cto:influencedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:instanceOf": {
+    "@id": "ct:value-based-practical-reasoning"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argumentation-schemes"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s6"
+    }
+   ],
+   "rdfs:label": "Argument from consequences",
+   "skos:altLabel": [
+    "argument from negative consequences",
+    "argument from positive consequences",
+    "consequentialist argument",
+    "pragmatic argument"
+   ],
+   "skos:broader": {
+    "@id": "ct:argumentation-schemes"
+   },
+   "skos:definition": "The presumptive argument pattern \"if A is brought about, good (or bad) consequences will plausibly follow; so A should (or should not) be brought about\". It is a reasonable but defeasible basis for decisions about action, and it becomes the fallacy of appeal to consequences when it is used to settle what is true rather than what to do.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Argument from consequences",
+   "skos:related": [
+    {
+     "@id": "ct:ad-baculum"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:cost-benefit-reasoning-training"
+    },
+    {
+     "@id": "ct:defeasible-reasoning"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:slippery-slope"
+    }
+   ]
+  },
+  {
    "@id": "ct:argument-from-expert-opinion",
    "@type": "cto:ArgumentScheme",
    "cto:contrastsWith": {
@@ -16119,6 +16213,120 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-consequences"
+   },
+   "rdfs:label": "How likely is it that the cited consequences will actually follow if the action is taken?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-consequences"
+   },
+   "rdfs:label": "What evidence supports the claim that those consequences will occur?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-consequences"
+   },
+   "rdfs:label": "Are there consequences of the opposite value, such as benefits of acting or costs of not acting, that should also be weighed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-consequences"
+   },
+   "rdfs:label": "Is the question really a decision about what to do, or a question of fact on which good or bad consequences have no bearing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-consequences"
+   },
+   "rdfs:label": "Is the speaker the one who would bring about the bad outcome, turning a warning into a threat?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:argument-from-consequences"
+   },
+   "cto:verdict": "strong"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "We should not cut over to the new billing system on the holiday weekend."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "A tested rollback plan makes a three-day outage unlikely, so the bad consequence is less probable than claimed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Waiting also has a cost: the old system's support contract lapses at month end."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If we cut over to the new billing system on the holiday weekend and the cutover fails, customers may be unable to pay for up to three days."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Three days of failed payments would cost us more than waiting two weeks would."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:argument-from-consequences"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -19670,6 +19878,90 @@
    "dcterms:title": "Faulty Analogy",
    "schema:url": {
     "@id": "https://www.txst.edu/philosophy/resources/fallacy-definitions/Faulty-Analogy.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Informal Logic 29(1), 54-83 (Douglas Walton, 2009), journal archive copy",
+   "dcterms:title": "Dialectical Shifts Underlying Arguments from Consequences",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-684.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Argument & Computation 6(3), 219-245 (Walton & Macagno, 2015), PhilArchive copy",
+   "dcterms:title": "A classification system for argumentation schemes",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/WALACS-7"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Bradley Dowden)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/fallacy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Thinking & Reasoning 18(3), 379-393 (Jean-François Bonnefon, 2012), author copy",
+   "dcterms:title": "Utility conditionals as consequential arguments: A random sampling experiment",
+   "schema:url": {
+    "@id": "https://jfbonnefon.github.io/publication/tar12/tar12.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Proceedings of the 28th Annual Meeting of the Cognitive Science Society (Corner, Hahn & Oaksford, 2006), eScholarship",
+   "dcterms:title": "The Slippery Slope Argument: Probability, Utility & Category Reappraisal",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt4m59x3cq/qt4m59x3cq.pdf?t=op2kje"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-consequences/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "OSSA Conference Archive, OSSA 5, University of Windsor (Douglas Walton, 2003), CORE copy",
+   "dcterms:title": "Commentary on Feteris",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/72794604.pdf"
    }
   },
   {

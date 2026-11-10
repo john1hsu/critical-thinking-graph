@@ -111,6 +111,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:affirming-a-disjunct` | cto:FormalFallacy |
 | `ct:ambiguity` | cto:Concept |
 | `ct:argument-from-analogy` | cto:ArgumentScheme |
+| `ct:argument-from-consequences` | cto:ArgumentScheme |
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:calibration` | cto:Concept |
 | `ct:correlation-versus-causation` | cto:Principle |
@@ -149,5 +150,6 @@ _For each argumentation scheme, how many critical questions does it carry and wh
 | scheme | criticalQuestions | misusedAs |
 |---|---|---|
 | `ct:argument-from-analogy` | 5 | `ct:faulty-analogy` |
+| `ct:argument-from-consequences` | 5 |  |
 | `ct:argument-from-expert-opinion` | 6 |  |
 

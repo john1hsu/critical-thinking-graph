@@ -46,6 +46,17 @@ flowchart TD
   o2["The engineering team tried the same change and missed two release dates, a counter-analogy."] -. attacks .-> ra
 ```
 
+## Argument from consequences (`ct:argument-from-consequences`)
+
+```mermaid
+flowchart TD
+  p1["If we cut over to the new billing system on the holiday weekend and the cutover fails, customers may be unable to pay for up to three days."] --> ra{{"strong"}}
+  p2["Three days of failed payments would cost us more than waiting two weeks would."] --> ra{{"strong"}}
+  ra --> c["We should not cut over to the new billing system on the holiday weekend."]
+  o1["A tested rollback plan makes a three-day outage unlikely, so the bad consequence is less probable than claimed."] -. attacks .-> ra
+  o2["Waiting also has a cost: the old system's support contract lapses at month end."] -. attacks .-> ra
+```
+
 ## Argument from expert opinion (`ct:argument-from-expert-opinion`)
 
 ```mermaid

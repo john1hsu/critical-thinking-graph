@@ -1278,6 +1278,110 @@
   ]
  },
  {
+  "id": "ct:argument-from-consequences",
+  "title": "Argument from consequences",
+  "aliases": [
+   "argument from positive consequences",
+   "argument from negative consequences",
+   "consequentialist argument",
+   "pragmatic argument"
+  ],
+  "type": "ArgumentScheme",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/argument-from-consequences.md",
+  "created": "2026-11-10",
+  "summary": "The presumptive argument pattern \"if A is brought about, good (or bad) consequences will plausibly follow; so A should (or should not) be brought about\". It is a reasonable but defeasible basis for decisions about action, and it becomes the fallacy of appeal to consequences when it is used to settle what is true rather than what to do.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:slippery-slope"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cost-benefit-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-baculum"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:appeal-to-consequences",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:value-based-practical-reasoning",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:expected-utility-theory",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "How likely is it that the cited consequences will actually follow if the action is taken?",
+   "What evidence supports the claim that those consequences will occur?",
+   "Are there consequences of the opposite value, such as benefits of acting or costs of not acting, that should also be weighed?",
+   "Is the question really a decision about what to do, or a question of fact on which good or bad consequences have no bearing?",
+   "Is the speaker the one who would bring about the bad outcome, turning a warning into a threat?"
+  ],
+  "source_urls": [
+   "https://distantreader.org/stacks/journals/il/il-684.pdf",
+   "https://philarchive.org/archive/WALACS-7",
+   "https://iep.utm.edu/fallacy/",
+   "https://jfbonnefon.github.io/publication/tar12/tar12.pdf",
+   "https://escholarship.org/content/qt4m59x3cq/qt4m59x3cq.pdf?t=op2kje",
+   "https://core.ac.uk/download/72794604.pdf"
+  ]
+ },
+ {
   "id": "ct:argument-from-expert-opinion",
   "title": "Argument from expert opinion",
   "aliases": [
