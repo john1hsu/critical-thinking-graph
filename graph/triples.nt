@@ -5032,6 +5032,43 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2000/01/rdf-schema#label> "Power analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "a priori power analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "sample size calculation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "sample size justification" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "statistical power analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#definition> "The practice of working out, before data are collected, how large a sample a study needs to have a good chance of detecting an effect of a given size at a chosen significance level, using the fixed relationship among sample size, alpha, effect size and statistical power." .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Power analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/power-analysis.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jacob-cohen> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/button-2013-power-failure-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2000/01/rdf-schema#label> "Pragma-dialectics" .
@@ -9955,6 +9992,48 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/posterior-analytics/s6> <https://schema.org/url> <https://classics.mit.edu/Aristotle/posterior.2.ii.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s1> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 112(1), 155-159 (Cohen, 1992), hosted copy at the University of Victoria" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s1> <http://purl.org/dc/terms/title> "A power primer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s1> <https://schema.org/url> <https://www.ece.uvic.ca/~bctill/papers/mocap/Cohen_1992.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s2> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 76(2), 105-110 (Tversky & Kahneman, 1971), hosted copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s2> <http://purl.org/dc/terms/title> "Belief in the law of small numbers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s2> <https://schema.org/url> <https://literature.wolkersdorfer.info/literature/Belief%20in%20the%20law%20of%20small%20numbers.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s3> <http://purl.org/dc/terms/publisher> "CAUSE (Consortium for the Advancement of Undergraduate Statistics Education) literature index; Sedlmeier & Gigerenzer, Psychological Bulletin 105(2), 1989" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s3> <http://purl.org/dc/terms/title> "Do studies of statistical power have an effect on the power of studies?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s3> <https://schema.org/url> <https://www.causeweb.org/cause/node/7370> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s4> <http://purl.org/dc/terms/publisher> "Daniel Lakens, open textbook (Eindhoven University of Technology)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s4> <http://purl.org/dc/terms/title> "Sample Size Justification (chapter 8 of Improving Your Statistical Inferences)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s4> <https://schema.org/url> <https://lakens.github.io/statistical_inferences/08-samplesizejustification.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s5> <http://purl.org/dc/terms/publisher> "Nature Reviews Neuroscience 14, 365-376 (Button et al., 2013), University of Bristol research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s5> <http://purl.org/dc/terms/title> "Power failure: why small sample size undermines the reliability of neuroscience" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s5> <https://schema.org/url> <https://research-information.bris.ac.uk/en/publications/power-failure-why-small-sample-size-undermines-the-reliability-of/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s6> <http://purl.org/dc/terms/publisher> "British Psychological Society Research Digest (2013)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s6> <http://purl.org/dc/terms/title> "Serious power failure threatens the entire field of neuroscience" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s6> <https://schema.org/url> <https://bps.org.uk/research-digest/serious-power-failure-threatens-entire-field-neuroscience> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s7> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s7> <http://purl.org/dc/terms/publisher> "Nature Reviews Neuroscience 14, 877 (Hoppe, 2013, correspondence on Button et al.)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s7> <http://purl.org/dc/terms/title> "A test is not a test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s7> <https://schema.org/url> <https://www.nature.com/articles/nrn3475-c5.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> <http://purl.org/dc/terms/publisher> "Informal Logic 23(1), 91-108 (Hitchcock, 2003)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s1> <http://purl.org/dc/terms/title> "Review of Advances in Pragma-Dialectics (ed. van Eemeren)" .

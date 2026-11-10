@@ -11629,6 +11629,109 @@
   ]
  },
  {
+  "id": "ct:power-analysis",
+  "title": "Power analysis",
+  "aliases": [
+   "statistical power analysis",
+   "a priori power analysis",
+   "sample size calculation",
+   "sample size justification"
+  ],
+  "type": "Method",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/power-analysis.md",
+  "created": "2026-11-10",
+  "summary": "The practice of working out, before data are collected, how large a sample a study needs to have a good chance of detecting an effect of a given size at a chosen significance level, using the fixed relationship among sample size, alpha, effect size and statistical power.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:law-of-small-numbers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:insensitivity-to-sample-size"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:random-sampling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:law-of-small-numbers",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:replication-crisis",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:jacob-cohen",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:null-hypothesis-significance-testing",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:button-2013-power-failure-analysis",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.ece.uvic.ca/~bctill/papers/mocap/Cohen_1992.pdf",
+   "https://literature.wolkersdorfer.info/literature/Belief%20in%20the%20law%20of%20small%20numbers.pdf",
+   "https://www.causeweb.org/cause/node/7370",
+   "https://lakens.github.io/statistical_inferences/08-samplesizejustification.html",
+   "https://research-information.bris.ac.uk/en/publications/power-failure-why-small-sample-size-undermines-the-reliability-of/",
+   "https://bps.org.uk/research-digest/serious-power-failure-threatens-entire-field-neuroscience",
+   "https://www.nature.com/articles/nrn3475-c5.pdf"
+  ]
+ },
+ {
   "id": "ct:pragma-dialectics",
   "title": "Pragma-dialectics",
   "aliases": [

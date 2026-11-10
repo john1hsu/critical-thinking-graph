@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:law-of-small-numbers` | cto:CognitiveBias |
+_No results._
 
 ## Most useful remedies
 
@@ -31,6 +29,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
+| `ct:power-analysis` | 2 | Law of small numbers, replication-crisis |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:random-sampling` | 2 | Hasty generalization, selection-bias |
 | `ct:randomized-controlled-trial` | 2 | Confounding, selection-bias |
@@ -45,9 +44,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:key-assumptions-check` | 1 | Confirmation bias |
 | `ct:lateral-reading` | 1 | Misinformation and disinformation |
 | `ct:logical-necessity-instructions` | 1 | Belief bias |
-| `ct:natural-frequencies` | 1 | Base-rate neglect |
 
-…and 6 more.
+…and 7 more.
 
 ## Heuristic -> bias -> remedy chains
 

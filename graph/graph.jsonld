@@ -10966,6 +10966,107 @@
    ]
   },
   {
+   "@id": "ct:power-analysis",
+   "@type": "cto:Method",
+   "cto:appliedIn": {
+    "@id": "ct:null-hypothesis-significance-testing"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:law-of-small-numbers"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    }
+   ],
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/power-analysis.md",
+   "cto:introducedBy": {
+    "@id": "ct:jacob-cohen"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:null-hypothesis-significance-testing"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:button-2013-power-failure-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s7"
+    }
+   ],
+   "rdfs:label": "Power analysis",
+   "skos:altLabel": [
+    "a priori power analysis",
+    "sample size calculation",
+    "sample size justification",
+    "statistical power analysis"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:scientific-method"
+    },
+    {
+     "@id": "ct:statistical-reasoning"
+    }
+   ],
+   "skos:definition": "The practice of working out, before data are collected, how large a sample a study needs to have a good chance of detecting an effect of a given size at a chosen significance level, using the fixed relationship among sample size, alpha, effect size and statistical power.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Power analysis",
+   "skos:related": [
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:insensitivity-to-sample-size"
+    },
+    {
+     "@id": "ct:law-of-small-numbers"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:random-sampling"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    }
+   ]
+  },
+  {
    "@id": "ct:pragma-dialectics",
    "@type": "cto:Framework",
    "cto:challengedBy": {
@@ -27629,6 +27730,104 @@
    "dcterms:title": "Posterior Analytics, Book II (trans. G. R. G. Mure)",
    "schema:url": {
     "@id": "https://classics.mit.edu/Aristotle/posterior.2.ii.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Psychological Bulletin 112(1), 155-159 (Cohen, 1992), hosted copy at the University of Victoria",
+   "dcterms:title": "A power primer",
+   "schema:url": {
+    "@id": "https://www.ece.uvic.ca/~bctill/papers/mocap/Cohen_1992.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Psychological Bulletin 76(2), 105-110 (Tversky & Kahneman, 1971), hosted copy",
+   "dcterms:title": "Belief in the law of small numbers",
+   "schema:url": {
+    "@id": "https://literature.wolkersdorfer.info/literature/Belief%20in%20the%20law%20of%20small%20numbers.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "CAUSE (Consortium for the Advancement of Undergraduate Statistics Education) literature index; Sedlmeier & Gigerenzer, Psychological Bulletin 105(2), 1989",
+   "dcterms:title": "Do studies of statistical power have an effect on the power of studies?",
+   "schema:url": {
+    "@id": "https://www.causeweb.org/cause/node/7370"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Daniel Lakens, open textbook (Eindhoven University of Technology)",
+   "dcterms:title": "Sample Size Justification (chapter 8 of Improving Your Statistical Inferences)",
+   "schema:url": {
+    "@id": "https://lakens.github.io/statistical_inferences/08-samplesizejustification.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Nature Reviews Neuroscience 14, 365-376 (Button et al., 2013), University of Bristol research portal",
+   "dcterms:title": "Power failure: why small sample size undermines the reliability of neuroscience",
+   "schema:url": {
+    "@id": "https://research-information.bris.ac.uk/en/publications/power-failure-why-small-sample-size-undermines-the-reliability-of/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "British Psychological Society Research Digest (2013)",
+   "dcterms:title": "Serious power failure threatens the entire field of neuroscience",
+   "schema:url": {
+    "@id": "https://bps.org.uk/research-digest/serious-power-failure-threatens-entire-field-neuroscience"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/power-analysis/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Nature Reviews Neuroscience 14, 877 (Hoppe, 2013, correspondence on Button et al.)",
+   "dcterms:title": "A test is not a test",
+   "schema:url": {
+    "@id": "https://www.nature.com/articles/nrn3475-c5.pdf"
    }
   },
   {
