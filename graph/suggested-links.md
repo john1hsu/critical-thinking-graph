@@ -28,4 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.71 | `ct:affirming-a-disjunct` | `ct:modus-ponens` | `ct:affirming-the-consequent`, `ct:denying-the-antecedent`, `ct:disjunctive-syllogism`, `ct:formal-fallacy`, `ct:method-of-counterexample` |
 | 2.70 | `ct:categorical-proposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 2.69 | `ct:categorical-syllogism` | `ct:deductive-reasoning` | `ct:aristotle`, `ct:belief-bias`, `ct:cognitive-psychology`, `ct:minna-cheves-wilkins`, `ct:prior-analytics` |
-| 2.69 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program`, `ct:numeracy` |
+| 2.68 | `ct:categorical-proposition` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |

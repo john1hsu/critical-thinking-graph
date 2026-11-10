@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:sunk-cost-fallacy` | cto:CognitiveBias |
+_No results._
 
 ## Most useful remedies
 
@@ -25,6 +23,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
+| `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
@@ -45,9 +44,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:lateral-reading` | 1 | Misinformation and disinformation |
 | `ct:logical-necessity-instructions` | 1 | Belief bias |
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
-| `ct:principle-of-charity` | 1 | Straw man fallacy |
 
-…and 5 more.
+…and 6 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -93,10 +91,10 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:conjunction-fallacy` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:correcting-erroneous-perceptions-of-randomness` | mixed |  |
-| `ct:critical-thinking-education` | mixed | `ct:huber-kuncel-2016-college-critical-thinking-meta-analysis` |
-| `ct:debiasing` | mixed |  |
+| `ct:cost-benefit-reasoning-training` | mixed | `ct:arkes-blumer-1985-sunk-cost-experiments` |
+| `ct:cost-benefit-reasoning-training` | mixed | `ct:roth-2015-sunk-cost-meta-analysis` |
 
-…and 23 more.
+…and 25 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -118,6 +116,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:calibration` | cto:Concept |
 | `ct:correlation-versus-causation` | cto:Principle |
+| `ct:cost-benefit-reasoning-training` | cto:Technique |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |

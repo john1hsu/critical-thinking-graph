@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [ct:cognitive-bias]
-related: [ct:reversible-and-irreversible-decisions, ct:escalation-of-commitment, ct:judgment-and-decision-making, ct:framing-effect]
+related: [ct:reversible-and-irreversible-decisions, ct:escalation-of-commitment, ct:judgment-and-decision-making, ct:framing-effect, ct:cost-benefit-reasoning-training]
 requires: []
 relations:
   - {predicate: introducedBy, object: ct:hal-arkes, source: s3, confidence: high}

@@ -4327,6 +4327,98 @@
   ]
  },
  {
+  "id": "ct:cost-benefit-reasoning-training",
+  "title": "Cost-benefit reasoning training",
+  "aliases": [
+   "economic reasoning training",
+   "sunk cost principle training",
+   "cost-benefit rule training",
+   "training in economic choice rules"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/cost-benefit-reasoning-training.md",
+  "created": "2026-11-10",
+  "summary": "A debiasing technique that explicitly teaches the cost-benefit rules of microeconomics, chiefly that unrecoverable past costs should be ignored and that forgone alternatives count as costs, with varied worked examples, so that people apply them to everyday choices. Targeted rule training reduces sunk cost reasoning in experiments, while general economics coursework shows little effect.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:transfer-of-learning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:escalation-of-commitment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing-training-games"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behavioral-economics"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:sunk-cost-fallacy"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:sunk-cost-fallacy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:opportunity-cost-neglect",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:larrick-morgan-nisbett-1990-cost-benefit-training-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:bishop-feltz-conway-critical-thinking-class-field-experiment",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:arkes-blumer-1985-sunk-cost-experiments",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:roth-2015-sunk-cost-meta-analysis",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://Www.Gwern.net/doc/psychology/cognitive-bias/sunk-cost/1990-larrick.pdf",
+   "https://cognition.aau.at/bg/BA/Arkes%20%26%20Blumer%201985.pdf",
+   "https://eprints.soton.ac.uk/510148/1/Bishop_et_al_2026_Critical_Thinking_Classes_Can_Debias_Reasoning_JAP_Preprint.pdf",
+   "https://link.springer.com/article/10.1007/s40685-014-0014-8",
+   "https://docs.iza.org/dp17639.pdf",
+   "https://scholars.duke.edu/individual/pub893241"
+  ]
+ },
+ {
   "id": "ct:critical-thinking-education",
   "title": "Critical thinking education",
   "aliases": [
@@ -14429,6 +14521,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cost-benefit-reasoning-training"
    },
    {
     "predicate": "cto:introducedBy",

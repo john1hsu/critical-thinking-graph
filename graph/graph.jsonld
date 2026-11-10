@@ -4083,6 +4083,95 @@
    ]
   },
   {
+   "@id": "ct:cost-benefit-reasoning-training",
+   "@type": "cto:Technique",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:arkes-blumer-1985-sunk-cost-experiments"
+    },
+    {
+     "@id": "ct:roth-2015-sunk-cost-meta-analysis"
+    }
+   ],
+   "cto:counteracts": [
+    {
+     "@id": "ct:opportunity-cost-neglect"
+    },
+    {
+     "@id": "ct:sunk-cost-fallacy"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:larrick-morgan-nisbett-1990-cost-benefit-training-study"
+   },
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/cost-benefit-reasoning-training.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:sunk-cost-fallacy"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:bishop-feltz-conway-critical-thinking-class-field-experiment"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s6"
+    }
+   ],
+   "rdfs:label": "Cost-benefit reasoning training",
+   "skos:altLabel": [
+    "cost-benefit rule training",
+    "economic reasoning training",
+    "sunk cost principle training",
+    "training in economic choice rules"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A debiasing technique that explicitly teaches the cost-benefit rules of microeconomics, chiefly that unrecoverable past costs should be ignored and that forgone alternatives count as costs, with varied worked examples, so that people apply them to everyday choices. Targeted rule training reduces sunk cost reasoning in experiments, while general economics coursework shows little effect.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Cost-benefit reasoning training",
+   "skos:related": [
+    {
+     "@id": "ct:behavioral-economics"
+    },
+    {
+     "@id": "ct:debiasing-training-games"
+    },
+    {
+     "@id": "ct:escalation-of-commitment"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    },
+    {
+     "@id": "ct:transfer-of-learning"
+    }
+   ]
+  },
+  {
    "@id": "ct:critical-thinking-education",
    "@type": "cto:Field",
    "cto:challengedBy": {
@@ -13646,6 +13735,9 @@
    "skos:prefLabel": "Sunk cost fallacy",
    "skos:related": [
     {
+     "@id": "ct:cost-benefit-reasoning-training"
+    },
+    {
      "@id": "ct:escalation-of-commitment"
     },
     {
@@ -21408,6 +21500,90 @@
    "dcterms:title": "Correlations Genuine and Spurious in Pearson and Yule",
    "schema:url": {
     "@id": "https://eprints.soton.ac.uk/32919"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Psychological Science 1(6), 362-370 (Larrick, Morgan & Nisbett, 1990), copy hosted by Gwern.net",
+   "dcterms:title": "Teaching the use of cost-benefit reasoning in everyday life",
+   "schema:url": {
+    "@id": "https://Www.Gwern.net/doc/psychology/cognitive-bias/sunk-cost/1990-larrick.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Organizational Behavior and Human Decision Processes 35(1), 124-140 (Arkes & Blumer, 1985), copy hosted by University of Klagenfurt",
+   "dcterms:title": "The psychology of sunk cost",
+   "schema:url": {
+    "@id": "https://cognition.aau.at/bg/BA/Arkes%20%26%20Blumer%201985.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Journal of Applied Psychology (Bishop, Feltz & Conway, 2026), accepted manuscript at University of Southampton ePrints",
+   "dcterms:title": "Critical thinking classes can reduce common biases: results from a field experiment",
+   "schema:url": {
+    "@id": "https://eprints.soton.ac.uk/510148/1/Bishop_et_al_2026_Critical_Thinking_Classes_Can_Debias_Reasoning_JAP_Preprint.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Business Research 8, 99-138 (Roth, Robbert & Straus, 2015), Springer",
+   "dcterms:title": "On the sunk-cost effect in economic decision-making: a meta-analytic review",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s40685-014-0014-8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "IZA Discussion Paper No. 17639 (Milovanska-Farrington & Mateer, 2025)",
+   "dcterms:title": "Does learning economics make you less susceptible to the sunk cost fallacy?",
+   "schema:url": {
+    "@id": "https://docs.iza.org/dp17639.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cost-benefit-reasoning-training/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Duke University Scholars@Duke",
+   "dcterms:title": "Teaching the use of cost-benefit reasoning in everyday life (record and abstract)",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/individual/pub893241"
    }
   },
   {
