@@ -198,6 +198,16 @@ flowchart TD
   o3["Adding the premise that at least one employee beat quota makes the argument valid."] -. attacks .-> ra
 ```
 
+## Exists-forall to forall-exists inference (`ct:exists-forall-to-forall-exists-inference`)
+
+```mermaid
+flowchart TD
+  p1["There is one senior engineer who reviewed every pull request merged this sprint."] --> ra{{"valid"}}
+  ra --> c["Every pull request merged this sprint was reviewed by some senior engineer."]
+  o1["The form is valid, but the premise may be false; check the review log before relying on it."] -. attacks .-> ra
+  o2["The conclusion is weaker than the premise, so it cannot be used to argue back to a single reviewer."] -. attacks .-> ra
+```
+
 ## Fallacy of four terms (`ct:fallacy-of-four-terms`)
 
 ```mermaid

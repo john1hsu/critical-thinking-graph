@@ -17,6 +17,7 @@ requires: [ct:predicate-logic, ct:validity]
 relations:
   - {predicate: formalizedBy, object: ct:predicate-logic, source: s1, confidence: high}
   - {predicate: explainedBy, object: ct:quantifier-scope, source: s2, confidence: high}
+  - {predicate: invalidFormOf, object: ct:exists-forall-to-forall-exists-inference, source: s1, confidence: high}
 criticalQuestions:
   - Does the premise allow a different B for each A, or does it really say one B serves them all?
   - Can you describe a case where every A has its own B but no single B works for every A?
@@ -61,6 +62,7 @@ sources:
     type: community
     accessed: 2026-11-10
 created: 2026-11-10
+modified: 2026-11-10
 ---
 
 # Quantifier shift fallacy
@@ -92,6 +94,7 @@ Ask whether the premise lets the "some" vary with the "every". If it does, build
 - **Formalized by predicate logic.** Predicate logic makes quantifier order explicit and shows that ∃y∀x implies ∀x∃y but not the reverse.[^s1]
 - **Explained by quantifier scope.** The fallacy is a change in which quantifier takes wider scope, from the universal in the premise to the existential in the conclusion.[^s2][^s5]
 - **Related to amphiboly and ambiguity.** Scope ambiguity in English sentences lets the shift pass unnoticed, so the error sits on the border between formal and informal fallacy.[^s5]
+- **Invalid look-alike of the exists-forall to forall-exists inference.** The valid step runs from ∃y∀x to ∀x∃y; the fallacy reverses it.[^s1]
 - **Related to the method of counterexample.** A case where each A has its own B and no B serves all is the standard way to show invalidity.[^s2]
 - **Related to Peter Geach and Aristotle.** Geach probably coined the name and, with Anscombe, charged Aristotle with it, a charge later disputed.[^s4][^s5]
 

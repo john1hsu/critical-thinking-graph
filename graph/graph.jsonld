@@ -5649,6 +5649,86 @@
    ]
   },
   {
+   "@id": "ct:exists-forall-to-forall-exists-inference",
+   "@type": "cto:ReasoningForm",
+   "cto:appliedIn": {
+    "@id": "ct:real-analysis"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:quantifier-shift-fallacy"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:quantifier-scope"
+   },
+   "cto:file": "articles/formal-logic/exists-forall-to-forall-exists-inference.md",
+   "cto:formalizedBy": {
+    "@id": "ct:predicate-logic"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:predicate-logic"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s5"
+    }
+   ],
+   "rdfs:label": "Exists-forall to forall-exists inference",
+   "skos:altLabel": [
+    "∃∀ to ∀∃ inference",
+    "someone-to-everyone inference",
+    "valid quantifier shift"
+   ],
+   "skos:broader": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "skos:definition": "The valid inference from \"some single y is related to every x\" to \"every x is related to some y\" (from ∃y∀x Rxy to ∀x∃y Rxy), which moves an existential quantifier inside a universal one and so trades a strong claim for a weaker one that it guarantees.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Exists-forall to forall-exists inference",
+   "skos:related": [
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:quantifier-shift-fallacy"
+    },
+    {
+     "@id": "ct:truth-tree"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:fallacy-of-four-terms",
    "@type": "cto:FormalFallacy",
    "cto:contrastsWith": {
@@ -11396,6 +11476,9 @@
    "cto:formalizedBy": {
     "@id": "ct:predicate-logic"
    },
+   "cto:invalidFormOf": {
+    "@id": "ct:exists-forall-to-forall-exists-inference"
+   },
    "cto:level": "intermediate",
    "cto:requires": [
     {
@@ -11406,6 +11489,10 @@
     }
    ],
    "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:modified": {
     "@type": "xsd:date",
     "@value": "2026-11-10"
    },
@@ -16713,6 +16800,67 @@
    },
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:exists-forall-to-forall-exists-inference"
+   },
+   "cto:verdict": "valid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "Every pull request merged this sprint was reviewed by some senior engineer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The form is valid, but the premise may be false; check the review log before relying on it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The conclusion is weaker than the premise, so it cannot be used to argue back to a single reviewer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "There is one senior engineer who reviewed every pull request merged this sprint."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/c"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map/p1"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference/map"
    }
   },
   {
@@ -22774,6 +22922,76 @@
    "dcterms:title": "The Existential Fallacy",
    "schema:url": {
     "@id": "https://www.fallacyfiles.org/existent.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Introduction to Formal Logic, 2nd ed. (Peter Smith), Logic Matters",
+   "dcterms:title": "Exercises 31: Informal quantifier arguments (solutions)",
+   "schema:url": {
+    "@id": "https://logicmatters.net/ifl/pdfs/Exercises_solutions_31-1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "P. D. Magnus, T. Button, J. R. Loftis, R. Trueman, A. Thomas-Bolduc and R. Zach, Open Logic Project, CC BY 4.0",
+   "dcterms:title": "forall x: Calgary. An Introduction to Formal Logic (Fall 2021)",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/MAGFXCv4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "CSC110/111 course notes, Department of Computer Science, University of Toronto",
+   "dcterms:title": "3.7 Logical Statements with Multiple Quantifiers",
+   "schema:url": {
+    "@id": "https://teach.cs.toronto.edu/~csc110y/fall/notes/03-logic/07-multiple-quantifiers.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "MATH 3361 Introduction to Mathematical Logic (Fall 2004), Dalhousie University",
+   "dcterms:title": "Handout 2: Quantifier Problems",
+   "schema:url": {
+    "@id": "https://www.mathstat.dal.ca/~selinger/3361/handouts/handout2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/exists-forall-to-forall-exists-inference/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "18.100A Real Analysis (Fall 2020), MIT OpenCourseWare",
+   "dcterms:title": "Lecture 17: Uniform Continuity and the Definition of the Derivative",
+   "schema:url": {
+    "@id": "https://live.ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/mit18_100af20_lec17.pdf"
    }
   },
   {

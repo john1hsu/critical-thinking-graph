@@ -5994,6 +5994,84 @@
   ]
  },
  {
+  "id": "ct:exists-forall-to-forall-exists-inference",
+  "title": "Exists-forall to forall-exists inference",
+  "aliases": [
+   "valid quantifier shift",
+   "∃∀ to ∀∃ inference",
+   "someone-to-everyone inference"
+  ],
+  "type": "ReasoningForm",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/exists-forall-to-forall-exists-inference.md",
+  "created": "2026-11-10",
+  "summary": "The valid inference from \"some single y is related to every x\" to \"every x is related to some y\" (from ∃y∀x Rxy to ∀x∃y Rxy), which moves an existential quantifier inside a universal one and so trades a strong claim for a weaker one that it guarantees.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:quantifier-shift-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-tree"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:predicate-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:quantifier-scope",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:quantifier-shift-fallacy",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:real-analysis",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://logicmatters.net/ifl/pdfs/Exercises_solutions_31-1.pdf",
+   "https://philarchive.org/archive/MAGFXCv4",
+   "https://teach.cs.toronto.edu/~csc110y/fall/notes/03-logic/07-multiple-quantifiers.html",
+   "https://www.mathstat.dal.ca/~selinger/3361/handouts/handout2.pdf",
+   "https://live.ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/mit18_100af20_lec17.pdf"
+  ]
+ },
+ {
   "id": "ct:fallacy-of-four-terms",
   "title": "Fallacy of four terms",
   "aliases": [
@@ -12126,6 +12204,12 @@
     "predicate": "cto:explainedBy",
     "object": "ct:quantifier-scope",
     "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:exists-forall-to-forall-exists-inference",
+    "source": "s1",
     "confidence": "high"
    }
   ],

@@ -100,9 +100,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 _Which written formal fallacies have no invalidFormOf edge to the valid reasoning form they mimic?_ — `queries/05-invalid-lookalikes.rq`
 
-| fallacy |
-|---|
-| `ct:quantifier-shift-fallacy` |
+_No results._
 
 ## Concepts with no recorded origin (gap)
 
@@ -119,6 +117,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:cost-benefit-reasoning-training` | cto:Technique |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
+| `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:illicit-major` | cto:FormalFallacy |
