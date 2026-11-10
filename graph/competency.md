@@ -126,6 +126,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
+| `ct:philosophical-skepticism` | cto:Concept |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:quantifier-shift-fallacy` | cto:FormalFallacy |

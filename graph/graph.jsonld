@@ -10124,6 +10124,89 @@
    ]
   },
   {
+   "@id": "ct:philosophical-skepticism",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:dogmatism"
+    },
+    {
+     "@id": "ct:foundationalism"
+    }
+   ],
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/philosophical-skepticism.md",
+   "cto:influencedBy": {
+    "@id": "ct:plato"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:justified-true-belief"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:epistemology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s4"
+    }
+   ],
+   "rdfs:label": "Philosophical skepticism",
+   "skos:altLabel": [
+    "epistemic skepticism",
+    "epistemological skepticism",
+    "philosophical scepticism"
+   ],
+   "skos:broader": {
+    "@id": "ct:epistemology"
+   },
+   "skos:definition": "The family of philosophical positions and arguments holding that we lack knowledge (or justified belief) in some domain where we ordinarily claim it, so that suspending judgment is the only fully warranted attitude; it ranges from local doubts about induction or the external world to the ancient Pyrrhonian suspension of all belief.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Philosophical skepticism",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:david-hume"
+    },
+    {
+     "@id": "ct:gettier-problem"
+    },
+    {
+     "@id": "ct:justified-true-belief"
+    },
+    {
+     "@id": "ct:problem-of-induction"
+    },
+    {
+     "@id": "ct:rene-descartes"
+    },
+    {
+     "@id": "ct:socratic-method"
+    }
+   ]
+  },
+  {
    "@id": "ct:philosophy-of-science",
    "@type": "cto:Field",
    "cto:appliedIn": [
@@ -26253,6 +26336,62 @@
    "dcterms:title": "Semantics as a foundation for psychology: A case study of Wason's selection task",
    "schema:url": {
     "@id": "https://www.phil.uu.nl/ozsl/articles/Lambalgen04.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Peter Klein; first published 2001, substantive revision 11 January 2026; Spring 2026 edition)",
+   "dcterms:title": "Skepticism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2026/entries/skepticism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Harald Thorsrud, New Mexico State University)",
+   "dcterms:title": "Ancient Greek Skepticism",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/skepanci"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Lex Newman; first published 1997, substantive revision 2023)",
+   "dcterms:title": "Descartes' Epistemology",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/descartes-epistemology/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Leo Groarke; Spring 2004 edition)",
+   "dcterms:title": "Ancient Skepticism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2004/entries/skepticism-ancient/"
    }
   },
   {
