@@ -3492,6 +3492,96 @@
    ]
   },
   {
+   "@id": "ct:conflict-of-interest",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:evidence-based-medicine"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:cain-loewenstein-moore-2005-coin-jar-experiment"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/evidence-and-information-literacy/conflict-of-interest.md",
+   "cto:introducedBy": {
+    "@id": "ct:dennis-f-thompson"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": [
+    {
+     "@id": "ct:lundh-2017-industry-sponsorship-review"
+    },
+    {
+     "@id": "ct:sah-2019-disclosure-replication"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s5"
+    }
+   ],
+   "rdfs:label": "Conflict of interest",
+   "skos:altLabel": [
+    "COI",
+    "competing interests",
+    "conflicts of interest",
+    "financial conflict of interest"
+   ],
+   "skos:broader": {
+    "@id": "ct:source-evaluation"
+   },
+   "skos:definition": "A set of circumstances that creates a substantial risk that a person's professional judgment about a primary interest (a patient's welfare, the validity of research, a client's outcome) will be unduly influenced by a secondary interest such as financial gain; it names a risk of bias, not proof that bias occurred, and it is a legitimate reason to seek independent evidence.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Conflict of interest",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:bias-blind-spot"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ]
+  },
+  {
    "@id": "ct:confounding",
    "@type": "cto:Phenomenon",
    "cto:appliedIn": {
@@ -19825,6 +19915,76 @@
    "dcterms:title": "Does counter-attitudinal information cause backlash? Results from three large survey experiments",
    "schema:url": {
     "@id": "https://isps.yale.edu/research/publications/isps18-025"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen, 136-140 (Thompson, 2009), author's copy via CORE / Harvard",
+   "dcterms:title": "The Challenge of Conflict of Interest in Medicine",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/28941848.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Cochrane Database of Systematic Reviews, MR000033.pub3 (Lundh, Lexchin, Mintzes, Schroll & Bero, 2017)",
+   "dcterms:title": "Industry sponsorship and research outcome",
+   "schema:url": {
+    "@id": "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.MR000033.pub3/information"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Carnegie Mellon University, Tepper School of Business (Cain); experiments published in Journal of Legal Studies 34(1), 1-25 (Cain, Loewenstein & Moore, 2005)",
+   "dcterms:title": "The Dirt on Coming Clean: The Perverse Effects of Disclosing Conflicts of Interest (doctoral dissertation)",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/tepper/programs/phd/program/assets/dissertations/organizational-behavior-and-theory-cain-dissertation.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Journal of Consumer Research 37(5) (Cain, Loewenstein & Moore, 2011), author's copy at Carnegie Mellon",
+   "dcterms:title": "When Sunlight Fails to Disinfect: Understanding the Perverse Effects of Disclosing Conflicts of Interest",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/WhenSunLightFails.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Journal of Economic Psychology 75, 102118 (Sah, 2019)",
+   "dcterms:title": "Understanding the (perverse) effects of disclosing conflicts of interest: A direct replication study",
+   "schema:url": {
+    "@id": "https://www.sciencedirect.com/science/article/abs/pii/S0167487018302964"
    }
   },
   {

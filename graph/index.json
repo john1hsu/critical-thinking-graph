@@ -3687,6 +3687,105 @@
   ]
  },
  {
+  "id": "ct:conflict-of-interest",
+  "title": "Conflict of interest",
+  "aliases": [
+   "conflicts of interest",
+   "COI",
+   "competing interests",
+   "financial conflict of interest"
+  ],
+  "type": "Concept",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/conflict-of-interest.md",
+  "created": "2026-11-10",
+  "summary": "A set of circumstances that creates a substantial risk that a person's professional judgment about a primary interest (a patient's welfare, the validity of research, a client's outcome) will be unduly influenced by a secondary interest such as financial gain; it names a risk of bias, not proof that bias occurred, and it is a legitimate reason to seek independent evidence.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:dennis-f-thompson",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:lundh-2017-industry-sponsorship-review",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:cain-loewenstein-moore-2005-coin-jar-experiment",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:sah-2019-disclosure-replication",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:evidence-based-medicine",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://core.ac.uk/download/28941848.pdf",
+   "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.MR000033.pub3/information",
+   "https://www.cmu.edu/tepper/programs/phd/program/assets/dissertations/organizational-behavior-and-theory-cain-dissertation.pdf",
+   "https://www.cmu.edu/dietrich/sds/docs/loewenstein/WhenSunLightFails.pdf",
+   "https://www.sciencedirect.com/science/article/abs/pii/S0167487018302964"
+  ]
+ },
+ {
   "id": "ct:confounding",
   "title": "Confounding",
   "aliases": [

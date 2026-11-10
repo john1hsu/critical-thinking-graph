@@ -1657,6 +1657,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hart-2009-selective-exposure-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2000/01/rdf-schema#label> "Conflict of interest" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#altLabel> "COI" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#altLabel> "competing interests" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#altLabel> "conflicts of interest" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#altLabel> "financial conflict of interest" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#definition> "A set of circumstances that creates a substantial risk that a person's professional judgment about a primary interest (a patient's welfare, the validity of research, a client's outcome) will be unduly influenced by a secondary interest such as financial gain; it names a risk of bias, not proof that bias occurred, and it is a legitimate reason to seek independent evidence." .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conflict of interest" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/cain-loewenstein-moore-2005-coin-jar-experiment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/conflict-of-interest.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/dennis-f-thompson> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/lundh-2017-industry-sponsorship-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sah-2019-disclosure-replication> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2000/01/rdf-schema#label> "Confounding" .
@@ -6774,6 +6808,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <https://schema.org/url> <https://isps.yale.edu/research/publications/isps18-025> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s1> <http://purl.org/dc/terms/publisher> "Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen, 136-140 (Thompson, 2009), author's copy via CORE / Harvard" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s1> <http://purl.org/dc/terms/title> "The Challenge of Conflict of Interest in Medicine" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s1> <https://schema.org/url> <https://core.ac.uk/download/28941848.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s2> <http://purl.org/dc/terms/publisher> "Cochrane Database of Systematic Reviews, MR000033.pub3 (Lundh, Lexchin, Mintzes, Schroll & Bero, 2017)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s2> <http://purl.org/dc/terms/title> "Industry sponsorship and research outcome" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s2> <https://schema.org/url> <https://cochranelibrary.com/cdsr/doi/10.1002/14651858.MR000033.pub3/information> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s3> <http://purl.org/dc/terms/publisher> "Carnegie Mellon University, Tepper School of Business (Cain); experiments published in Journal of Legal Studies 34(1), 1-25 (Cain, Loewenstein & Moore, 2005)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s3> <http://purl.org/dc/terms/title> "The Dirt on Coming Clean: The Perverse Effects of Disclosing Conflicts of Interest (doctoral dissertation)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s3> <https://schema.org/url> <https://www.cmu.edu/tepper/programs/phd/program/assets/dissertations/organizational-behavior-and-theory-cain-dissertation.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s4> <http://purl.org/dc/terms/publisher> "Journal of Consumer Research 37(5) (Cain, Loewenstein & Moore, 2011), author's copy at Carnegie Mellon" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s4> <http://purl.org/dc/terms/title> "When Sunlight Fails to Disinfect: Understanding the Perverse Effects of Disclosing Conflicts of Interest" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s4> <https://schema.org/url> <https://www.cmu.edu/dietrich/sds/docs/loewenstein/WhenSunLightFails.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s5> <http://purl.org/dc/terms/publisher> "Journal of Economic Psychology 75, 102118 (Sah, 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s5> <http://purl.org/dc/terms/title> "Understanding the (perverse) effects of disclosing conflicts of interest: A direct replication study" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conflict-of-interest/s5> <https://schema.org/url> <https://www.sciencedirect.com/science/article/abs/pii/S0167487018302964> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> <http://purl.org/dc/terms/publisher> "IARC Statistical Methods in Cancer Research Vol. V (Scientific Publication No. 171), ch. 3 (Richardson, Costello, Kaufman et al., 2024)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/confounding/s1> <http://purl.org/dc/terms/title> "Confounding: a routine concern in the interpretation of epidemiological studies" .

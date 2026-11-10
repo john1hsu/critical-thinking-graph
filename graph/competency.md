@@ -89,15 +89,15 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:bounded-rationality` | mixed |  |
 | `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
+| `ct:conflict-of-interest` | mixed |  |
 | `ct:conjunction-fallacy` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:correcting-erroneous-perceptions-of-randomness` | mixed |  |
 | `ct:critical-thinking-education` | mixed | `ct:huber-kuncel-2016-college-critical-thinking-meta-analysis` |
 | `ct:debiasing` | mixed |  |
 | `ct:debiasing-training-games` | mixed |  |
-| `ct:deliberate-reflection` | mixed | `ct:lambe-2018-guided-reflection-null-study` |
 
-…and 21 more.
+…and 22 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
