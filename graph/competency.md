@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:hasty-generalization` | cto:InformalFallacy |
 | `ct:quantifier-shift-fallacy` | cto:FormalFallacy |
 | `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:sunk-cost-fallacy` | cto:CognitiveBias |
@@ -34,6 +33,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
+| `ct:random-sampling` | 2 | Hasty generalization, selection-bias |
 | `ct:randomized-controlled-trial` | 2 | Confounding, selection-bias |
 | `ct:systematic-review` | 2 | Suppressed evidence, publication-bias |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
@@ -48,9 +48,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
 | `ct:sift-method` | 1 | Misinformation and disinformation |
-| `ct:stasis-theory` | 1 | Ignoratio elenchi |
 
-…and 2 more.
+…and 3 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -131,6 +130,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:quantifier-shift-fallacy` | cto:FormalFallacy |
+| `ct:random-sampling` | cto:Method |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
 | `ct:slippery-slope` | cto:InformalFallacy |

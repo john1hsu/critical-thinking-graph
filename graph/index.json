@@ -11888,6 +11888,97 @@
   ]
  },
  {
+  "id": "ct:random-sampling",
+  "title": "Random sampling",
+  "aliases": [
+   "probability sampling",
+   "random selection",
+   "simple random sampling"
+  ],
+  "type": "Method",
+  "domain": "scientific-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/random-sampling.md",
+  "created": "2026-11-10",
+  "summary": "Choosing the members of a sample by a chance mechanism that gives every member of the population a known (often equal) chance of selection, so that the sample is likely to resemble the population and the size of its sampling error can be estimated.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:insensitivity-to-sample-size"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:law-of-small-numbers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:nonresponse-bias"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:hasty-generalization",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:selection-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:convenience-sampling",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:purposive-selection",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:jerzy-neyman",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:survey-research",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_1e_(OpenStax)/01%3A_Sampling_and_Data/1.03%3A_Data_Sampling_and_Variation_in_Data_and_Sampling",
+   "https://open.library.okstate.edu/logicandcriticalthinkingexercises/?p=73",
+   "https://errorstatistics.com/wp-content/uploads/2019/01/neyman-1934.pdf",
+   "https://pdixon.stat.iastate.edu/stat587/resources/president-landon-and-the-1936-literary-digest-poll-were-automobile-and-telephone-owners-to-blame.pdf",
+   "https://www.aapor.org/wp-content/uploads/2022/11/NPS_TF_Report_Final_7_revised_FNL_6_22_13.pdf",
+   "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_1e_(OpenStax)/01%3A_Sampling_and_Data/1.05%3A_Experimental_Design_and_Ethics"
+  ]
+ },
+ {
   "id": "ct:randomized-controlled-trial",
   "title": "Randomized controlled trial",
   "aliases": [

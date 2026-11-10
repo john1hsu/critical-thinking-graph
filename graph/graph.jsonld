@@ -11215,6 +11215,94 @@
    ]
   },
   {
+   "@id": "ct:random-sampling",
+   "@type": "cto:Method",
+   "cto:appliedIn": {
+    "@id": "ct:survey-research"
+   },
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:convenience-sampling"
+    },
+    {
+     "@id": "ct:purposive-selection"
+    }
+   ],
+   "cto:counteracts": [
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:selection-bias"
+    }
+   ],
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/random-sampling.md",
+   "cto:formalizedBy": {
+    "@id": "ct:jerzy-neyman"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:inductive-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s6"
+    }
+   ],
+   "rdfs:label": "Random sampling",
+   "skos:altLabel": [
+    "probability sampling",
+    "random selection",
+    "simple random sampling"
+   ],
+   "skos:broader": {
+    "@id": "ct:scientific-method"
+   },
+   "skos:definition": "Choosing the members of a sample by a chance mechanism that gives every member of the population a known (often equal) chance of selection, so that the sample is likely to resemble the population and the size of its sampling error can be estimated.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Random sampling",
+   "skos:related": [
+    {
+     "@id": "ct:insensitivity-to-sample-size"
+    },
+    {
+     "@id": "ct:law-of-small-numbers"
+    },
+    {
+     "@id": "ct:nonresponse-bias"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    }
+   ]
+  },
+  {
    "@id": "ct:randomized-controlled-trial",
    "@type": "cto:Method",
    "cto:appliedIn": {
@@ -26987,6 +27075,90 @@
    "dcterms:title": "Quantifier-Shift Fallacy",
    "schema:url": {
     "@id": "https://fallacyfiles.org/quanshif.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "OpenStax / LibreTexts (Illowsky & Dean)",
+   "dcterms:title": "1.3: Data, Sampling, and Variation in Data and Sampling (Introductory Statistics, OpenStax)",
+   "schema:url": {
+    "@id": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_1e_(OpenStax)/01%3A_Sampling_and_Data/1.03%3A_Data_Sampling_and_Variation_in_Data_and_Sampling"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Oklahoma State University Libraries open edition (Dowden, California State University Sacramento)",
+   "dcterms:title": "Logical Reasoning, Chapter 6: Inductive Reasoning and Arguments",
+   "schema:url": {
+    "@id": "https://open.library.okstate.edu/logicandcriticalthinkingexercises/?p=73"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Journal of the Royal Statistical Society 97(4):558-625 (Neyman, 1934)",
+   "dcterms:title": "On the Two Different Aspects of the Representative Method: The Method of Stratified Sampling and the Method of Purposive Selection",
+   "schema:url": {
+    "@id": "https://errorstatistics.com/wp-content/uploads/2019/01/neyman-1934.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Social Science History 36(1):23-54 (Lusinchi, 2012)",
+   "dcterms:title": "'President' Landon and the 1936 Literary Digest Poll: Were Automobile and Telephone Owners to Blame?",
+   "schema:url": {
+    "@id": "https://pdixon.stat.iastate.edu/stat587/resources/president-landon-and-the-1936-literary-digest-poll-were-automobile-and-telephone-owners-to-blame.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "American Association for Public Opinion Research (Baker, Brick et al., 2013)",
+   "dcterms:title": "Report of the AAPOR Task Force on Non-Probability Sampling",
+   "schema:url": {
+    "@id": "https://www.aapor.org/wp-content/uploads/2022/11/NPS_TF_Report_Final_7_revised_FNL_6_22_13.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "OpenStax / LibreTexts (Illowsky & Dean)",
+   "dcterms:title": "1.5: Experimental Design and Ethics (Introductory Statistics, OpenStax)",
+   "schema:url": {
+    "@id": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_1e_(OpenStax)/01%3A_Sampling_and_Data/1.05%3A_Experimental_Design_and_Ethics"
    }
   },
   {

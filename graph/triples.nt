@@ -5134,6 +5134,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2000/01/rdf-schema#label> "Random sampling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#altLabel> "probability sampling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#altLabel> "random selection" .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#altLabel> "simple random sampling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#definition> "Choosing the members of a sample by a chance mechanism that gives every member of the population a known (often equal) chance of selection, so that the sample is likely to resemble the population and the size of its sampling error can be estimated." .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Random sampling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/nonresponse-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/survey-research> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/convenience-sampling> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/purposive-selection> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/random-sampling.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jerzy-neyman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <http://www.w3.org/2000/01/rdf-schema#label> "Randomized controlled trial" .
@@ -9794,6 +9826,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s5> <https://schema.org/url> <https://fallacyfiles.org/quanshif.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s1> <http://purl.org/dc/terms/publisher> "OpenStax / LibreTexts (Illowsky & Dean)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s1> <http://purl.org/dc/terms/title> "1.3: Data, Sampling, and Variation in Data and Sampling (Introductory Statistics, OpenStax)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s1> <https://schema.org/url> <https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_1e_(OpenStax)/01%3A_Sampling_and_Data/1.03%3A_Data_Sampling_and_Variation_in_Data_and_Sampling> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s2> <http://purl.org/dc/terms/publisher> "Oklahoma State University Libraries open edition (Dowden, California State University Sacramento)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s2> <http://purl.org/dc/terms/title> "Logical Reasoning, Chapter 6: Inductive Reasoning and Arguments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s2> <https://schema.org/url> <https://open.library.okstate.edu/logicandcriticalthinkingexercises/?p=73> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s3> <http://purl.org/dc/terms/publisher> "Journal of the Royal Statistical Society 97(4):558-625 (Neyman, 1934)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s3> <http://purl.org/dc/terms/title> "On the Two Different Aspects of the Representative Method: The Method of Stratified Sampling and the Method of Purposive Selection" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s3> <https://schema.org/url> <https://errorstatistics.com/wp-content/uploads/2019/01/neyman-1934.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s4> <http://purl.org/dc/terms/publisher> "Social Science History 36(1):23-54 (Lusinchi, 2012)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s4> <http://purl.org/dc/terms/title> "'President' Landon and the 1936 Literary Digest Poll: Were Automobile and Telephone Owners to Blame?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s4> <https://schema.org/url> <https://pdixon.stat.iastate.edu/stat587/resources/president-landon-and-the-1936-literary-digest-poll-were-automobile-and-telephone-owners-to-blame.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s5> <http://purl.org/dc/terms/publisher> "American Association for Public Opinion Research (Baker, Brick et al., 2013)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s5> <http://purl.org/dc/terms/title> "Report of the AAPOR Task Force on Non-Probability Sampling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s5> <https://schema.org/url> <https://www.aapor.org/wp-content/uploads/2022/11/NPS_TF_Report_Final_7_revised_FNL_6_22_13.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s6> <http://purl.org/dc/terms/publisher> "OpenStax / LibreTexts (Illowsky & Dean)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s6> <http://purl.org/dc/terms/title> "1.5: Experimental Design and Ethics (Introductory Statistics, OpenStax)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/random-sampling/s6> <https://schema.org/url> <https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_1e_(OpenStax)/01%3A_Sampling_and_Data/1.05%3A_Experimental_Design_and_Ethics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s1> <http://purl.org/dc/terms/publisher> "Journal of the Royal Society of Medicine 104(9), 383-386 (Chalmers, 2011)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s1> <http://purl.org/dc/terms/title> "Why the 1948 MRC trial of streptomycin used treatment allocation based on random numbers" .
