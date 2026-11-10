@@ -4691,6 +4691,124 @@
   ]
  },
  {
+  "id": "ct:defeasible-reasoning",
+  "title": "Defeasible reasoning",
+  "aliases": [
+   "defeasible inference",
+   "defeasible argument",
+   "defeasibility",
+   "prima facie reasoning"
+  ],
+  "type": "ReasoningMode",
+  "domain": "foundations",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/defeasible-reasoning.md",
+  "created": "2026-11-10",
+  "summary": "Reasoning whose premises give real but provisional support to a conclusion, so that the conclusion can be rationally withdrawn when new information (a defeater) arrives, even though none of the original premises is retracted.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inference-to-the-best-explanation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-analogy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presumption"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cogency"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:deductive-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:nonmonotonic-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:h-l-a-hart",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:artificial-intelligence",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:suppression-effect",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/reasoning-defeasible",
+   "https://philpapers.org/rec/POLDR",
+   "https://tomblackson.com/PHI_319_420/lecture12.html",
+   "https://escholarship.org/content/qt1v95d3dg/qt1v95d3dg.pdf?t=op2jgy"
+  ]
+ },
+ {
   "id": "ct:deliberate-reflection",
   "title": "Deliberate reflection",
   "aliases": [

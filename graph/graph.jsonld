@@ -4424,6 +4424,113 @@
    ]
   },
   {
+   "@id": "ct:defeasible-reasoning",
+   "@type": "cto:ReasoningMode",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:artificial-intelligence"
+    },
+    {
+     "@id": "ct:legal-reasoning"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map"
+   },
+   "cto:file": "articles/foundations/defeasible-reasoning.md",
+   "cto:formalizedBy": {
+    "@id": "ct:nonmonotonic-logic"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:h-l-a-hart"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:supportedBy": {
+    "@id": "ct:suppression-effect"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s4"
+    }
+   ],
+   "rdfs:label": "Defeasible reasoning",
+   "skos:altLabel": [
+    "defeasibility",
+    "defeasible argument",
+    "defeasible inference",
+    "prima facie reasoning"
+   ],
+   "skos:broader": {
+    "@id": "ct:reasoning"
+   },
+   "skos:definition": "Reasoning whose premises give real but provisional support to a conclusion, so that the conclusion can be rationally withdrawn when new information (a defeater) arrives, even though none of the original premises is retracted.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Defeasible reasoning",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-analogy"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:cogency"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    },
+    {
+     "@id": "ct:inference-to-the-best-explanation"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:presumption"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:deliberate-reflection",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -15614,6 +15721,77 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:defeasible-reasoning"
+   },
+   "cto:verdict": "strong"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The office is about 21 degrees."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Facilities reports that this thermostat's sensor has been faulty all week (undercutting defeater)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "A freshly calibrated thermometer on the same desk reads 26 degrees (rebutting defeater)."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The office thermostat reads 21 degrees."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Thermostat readings are normally accurate."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -21096,6 +21274,62 @@
    "dcterms:title": "On the conflict between logic and belief in syllogistic reasoning",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.3758/BF03196976"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Robert Koons, first published 2005, substantive revision 2025)",
+   "dcterms:title": "Defeasible Reasoning",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/reasoning-defeasible"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "John L. Pollock, Cognitive Science, record on PhilPapers",
+   "dcterms:title": "Defeasible Reasoning (Cognitive Science 11(4), 1987, 481-518)",
+   "schema:url": {
+    "@id": "https://philpapers.org/rec/POLDR"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Thomas A. Blackson, Arizona State University course notes",
+   "dcterms:title": "Philosophy, Computing, and Artificial Intelligence (PHI 319), lecture on defeasible reasoning",
+   "schema:url": {
+    "@id": "https://tomblackson.com/PHI_319_420/lecture12.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "De Neys, Dieussaert, Schaeken and d'Ydewalle, Proceedings of the Annual Meeting of the Cognitive Science Society 26, 2004, eScholarship",
+   "dcterms:title": "Inference Suppression and Working Memory Capacity: Inhibition of the Disabler Search",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt1v95d3dg/qt1v95d3dg.pdf?t=op2jgy"
    }
   },
   {

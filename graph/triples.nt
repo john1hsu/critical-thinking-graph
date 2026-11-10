@@ -2058,6 +2058,69 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The office is about 21 degrees." .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Facilities reports that this thermostat's sensor has been faulty all week (undercutting defeater)." .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "A freshly calibrated thermometer on the same desk reads 26 degrees (rebutting defeater)." .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The office thermostat reads 21 degrees." .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Thermostat readings are normally accurate." .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "strong" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ReasoningMode> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2000/01/rdf-schema#label> "Defeasible reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "defeasibility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "defeasible argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "defeasible inference" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "prima facie reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#definition> "Reasoning whose premises give real but provisional support to a conclusion, so that the conclusion can be rationally withdrawn when new information (a defeater) arrives, even though none of the original premises is retracted." .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Defeasible reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/presumption> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/artificial-intelligence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/foundations/defeasible-reasoning.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/nonmonotonic-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/h-l-a-hart> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/suppression-effect> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> <http://www.w3.org/2000/01/rdf-schema#label> "Deliberate reflection" .
@@ -7290,6 +7353,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s5> <https://schema.org/url> <https://link.springer.com/article/10.3758/BF03196976> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Robert Koons, first published 2005, substantive revision 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> <http://purl.org/dc/terms/title> "Defeasible Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/reasoning-defeasible> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s2> <http://purl.org/dc/terms/publisher> "John L. Pollock, Cognitive Science, record on PhilPapers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s2> <http://purl.org/dc/terms/title> "Defeasible Reasoning (Cognitive Science 11(4), 1987, 481-518)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s2> <https://schema.org/url> <https://philpapers.org/rec/POLDR> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s3> <http://purl.org/dc/terms/publisher> "Thomas A. Blackson, Arizona State University course notes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s3> <http://purl.org/dc/terms/title> "Philosophy, Computing, and Artificial Intelligence (PHI 319), lecture on defeasible reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s3> <https://schema.org/url> <https://tomblackson.com/PHI_319_420/lecture12.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s4> <http://purl.org/dc/terms/publisher> "De Neys, Dieussaert, Schaeken and d'Ydewalle, Proceedings of the Annual Meeting of the Cognitive Science Society 26, 2004, eScholarship" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s4> <http://purl.org/dc/terms/title> "Inference Suppression and Working Memory Capacity: Inhibition of the Disabler Search" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s4> <https://schema.org/url> <https://escholarship.org/content/qt1v95d3dg/qt1v95d3dg.pdf?t=op2jgy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s1> <http://purl.org/dc/terms/publisher> "JAMA 304(11), 1198-1203 (Mamede, van Gog, van den Berge, Rikers, van Saase, van Guldener & Schmidt, 2010), PubMed record" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s1> <http://purl.org/dc/terms/title> "Effect of availability bias and reflective reasoning on diagnostic accuracy among internal medicine residents" .

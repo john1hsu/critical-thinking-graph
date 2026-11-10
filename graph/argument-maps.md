@@ -142,6 +142,17 @@ flowchart TD
   o1["The conclusion is only as reliable as the premises: if the limit was raised last quarter, the argument stays valid but becomes unsound."] -. attacks .-> ra
 ```
 
+## Defeasible reasoning (`ct:defeasible-reasoning`)
+
+```mermaid
+flowchart TD
+  p1["The office thermostat reads 21 degrees."] --> ra{{"strong"}}
+  p2["Thermostat readings are normally accurate."] --> ra{{"strong"}}
+  ra --> c["The office is about 21 degrees."]
+  o1["Facilities reports that this thermostat's sensor has been faulty all week (undercutting defeater)."] -. attacks .-> ra
+  o2["A freshly calibrated thermometer on the same desk reads 26 degrees (rebutting defeater)."] -. attacks .-> ra
+```
+
 ## Denying the antecedent (`ct:denying-the-antecedent`)
 
 ```mermaid
