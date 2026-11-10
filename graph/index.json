@@ -2829,6 +2829,89 @@
   ]
  },
  {
+  "id": "ct:categorical-proposition",
+  "title": "Categorical proposition",
+  "aliases": [
+   "categorical statement",
+   "categorical sentence",
+   "A E I O propositions",
+   "standard-form categorical proposition"
+  ],
+  "type": "Concept",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/categorical-proposition.md",
+  "created": "2026-11-10",
+  "summary": "A statement that relates two classes by saying that all, none or some of the members of a subject class are or are not included in a predicate class; its four standard forms, A, E, I and O, are the building blocks of syllogistic logic.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:prior-analytics",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:formal-logic",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:george-boole",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/aristotle-logic/",
+   "https://www.Britannica.Com/topic/history-of-logic/Aristotle",
+   "https://philosophy.lander.Edu/logic/prop.html",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Thinking_Well_-_A_Logic_And_Critical_Thinking_Textbook_4e_(Lavin)/05b:_Categorical_Logic/5b.1:_The_Basics",
+   "https://rintintin.colorado.edu/~vancecd/phil1440/Venn1.pdf"
+  ]
+ },
+ {
   "id": "ct:categorical-syllogism",
   "title": "Categorical syllogism",
   "aliases": [

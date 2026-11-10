@@ -2666,6 +2666,85 @@
    ]
   },
   {
+   "@id": "ct:categorical-proposition",
+   "@type": "cto:Concept",
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/categorical-proposition.md",
+   "cto:formalizedBy": {
+    "@id": "ct:george-boole"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:prior-analytics"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:formal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s5"
+    }
+   ],
+   "rdfs:label": "Categorical proposition",
+   "skos:altLabel": [
+    "A E I O propositions",
+    "categorical sentence",
+    "categorical statement",
+    "standard-form categorical proposition"
+   ],
+   "skos:broader": {
+    "@id": "ct:proposition"
+   },
+   "skos:definition": "A statement that relates two classes by saying that all, none or some of the members of a subject class are or are not included in a predicate class; its four standard forms, A, E, I and O, are the building blocks of syllogistic logic.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Categorical proposition",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:existential-fallacy"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:categorical-syllogism",
    "@type": "cto:ReasoningForm",
    "cto:domain": "formal-logic",
@@ -19018,6 +19097,76 @@
    "dcterms:title": "Brier score",
    "schema:url": {
     "@id": "https://glossary.ametsoc.org/wiki/brier-score/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Louis F. Groarke, St. Francis Xavier University)",
+   "dcterms:title": "Aristotle: Logic",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "History of logic: Aristotle",
+   "schema:url": {
+    "@id": "https://www.Britannica.Com/topic/history-of-logic/Aristotle"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Lander University, Introduction to Logic course site (updated 2021)",
+   "dcterms:title": "Standard Form Categorical Propositions: Quantity, Quality, and Distribution",
+   "schema:url": {
+    "@id": "https://philosophy.lander.Edu/logic/prop.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Andrew Lavin, Butte College, Humanities LibreTexts (CC BY 4.0)",
+   "dcterms:title": "5b.1: The Basics (Thinking Well: A Logic and Critical Thinking Textbook, 4th ed.)",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Thinking_Well_-_A_Logic_And_Critical_Thinking_Textbook_4e_(Lavin)/05b:_Categorical_Logic/5b.1:_The_Basics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-proposition/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "University of Colorado, philosophy course materials",
+   "dcterms:title": "Venn diagrams for categorical propositions (PHIL 1440 handout)",
+   "schema:url": {
+    "@id": "https://rintintin.colorado.edu/~vancecd/phil1440/Venn1.pdf"
    }
   },
   {
