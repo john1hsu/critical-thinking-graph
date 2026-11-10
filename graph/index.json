@@ -2649,6 +2649,80 @@
   ]
  },
  {
+  "id": "ct:bright-line-rule",
+  "title": "Bright-line rule",
+  "aliases": [
+   "bright line",
+   "bright-line test",
+   "clear stopping point"
+  ],
+  "type": "Principle",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/decision-making/bright-line-rule.md",
+  "created": "2026-11-10",
+  "summary": "A rule fixed in advance by a sharp, easily checked criterion (a number, a date, a named category) rather than a case-by-case judgment; in reasoning about slippery slopes, showing that such a line can be drawn in the gray zone is a standard way to block the slide.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sorites-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reversible-and-irreversible-decisions"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:slippery-slope"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:slippery-slope",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:balancing-test",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:jurisprudence",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://core.ac.uk/download/72794564.pdf",
+   "https://www2.law.ucla.edu/Volokh/slippery.htm",
+   "https://scholarship.law.duke.edu/dlj/vol42/iss3/2",
+   "https://core.ac.uk/download/216925069.pdf",
+   "https://escholarship.org/content/qt4m59x3cq/qt4m59x3cq.pdf?t=op2kje"
+  ]
+ },
+ {
   "id": "ct:burden-of-proof",
   "title": "Burden of proof",
   "aliases": [

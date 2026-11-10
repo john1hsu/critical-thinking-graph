@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:sunk-cost-fallacy` | cto:CognitiveBias |
 
 ## Most useful remedies
@@ -40,15 +39,15 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:analysis-of-competing-hypotheses` | 1 | Confirmation bias |
 | `ct:antilogism` | 1 | Exclusive premises |
 | `ct:argument-mapping` | 1 | Begging the question |
+| `ct:bright-line-rule` | 1 | Slippery slope |
 | `ct:hypothesis-testing` | 1 | Confirmation bias |
 | `ct:key-assumptions-check` | 1 | Confirmation bias |
 | `ct:lateral-reading` | 1 | Misinformation and disinformation |
 | `ct:logical-necessity-instructions` | 1 | Belief bias |
 | `ct:natural-frequencies` | 1 | Base-rate neglect |
 | `ct:principle-of-charity` | 1 | Straw man fallacy |
-| `ct:sift-method` | 1 | Misinformation and disinformation |
 
-…and 4 more.
+…and 5 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -116,6 +115,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:affirming-a-disjunct` | cto:FormalFallacy |
 | `ct:ambiguity` | cto:Concept |
 | `ct:argument-from-analogy` | cto:ArgumentScheme |
+| `ct:bright-line-rule` | cto:Principle |
 | `ct:calibration` | cto:Concept |
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |

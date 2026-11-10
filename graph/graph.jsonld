@@ -2498,6 +2498,78 @@
    ]
   },
   {
+   "@id": "ct:bright-line-rule",
+   "@type": "cto:Principle",
+   "cto:appliedIn": {
+    "@id": "ct:legal-reasoning"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:balancing-test"
+   },
+   "cto:counteracts": {
+    "@id": "ct:slippery-slope"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/decision-making/bright-line-rule.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:slippery-slope"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:jurisprudence"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5"
+    }
+   ],
+   "rdfs:label": "Bright-line rule",
+   "skos:altLabel": [
+    "bright line",
+    "bright-line test",
+    "clear stopping point"
+   ],
+   "skos:broader": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "skos:definition": "A rule fixed in advance by a sharp, easily checked criterion (a number, a date, a named category) rather than a case-by-case judgment; in reasoning about slippery slopes, showing that such a line can be drawn in the gray zone is a standard way to block the slide.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Bright-line rule",
+   "skos:related": [
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:reversible-and-irreversible-decisions"
+    },
+    {
+     "@id": "ct:sorites-paradox"
+    },
+    {
+     "@id": "ct:vagueness"
+    }
+   ]
+  },
+  {
    "@id": "ct:burden-of-proof",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -19895,6 +19967,76 @@
    "dcterms:title": "Bounded rationality",
    "schema:url": {
     "@id": "https://britannica.com/topic/bounded-rationality"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Informal Logic 35(3), 273-311 (Walton, 2015); CORE open-access copy",
+   "dcterms:title": "The Basic Slippery Slope Argument",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/72794564.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Harvard Law Review 116 (Volokh, 2003); author's copy, UCLA School of Law",
+   "dcterms:title": "The Mechanisms of the Slippery Slope",
+   "schema:url": {
+    "@id": "https://www2.law.ucla.edu/Volokh/slippery.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Duke Law Journal 42(3), 557-629 (Kaplow, 1992); Duke Law Scholarship Repository",
+   "dcterms:title": "Rules Versus Standards: An Economic Analysis",
+   "schema:url": {
+    "@id": "https://scholarship.law.duke.edu/dlj/vol42/iss3/2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Arizona State Law Journal 27, 773 (Wilson, 1995); EngagedScholarship@CSU via CORE",
+   "dcterms:title": "Surveying the Forms of Doctrine on the Bright Line-Balancing Test Continuum",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/216925069.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Proceedings of the Annual Meeting of the Cognitive Science Society 28, 1145-1150 (Corner, Hahn & Oaksford, 2006); eScholarship",
+   "dcterms:title": "The Slippery Slope Argument - Probability, Utility & Category Reappraisal",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt4m59x3cq/qt4m59x3cq.pdf?t=op2kje"
    }
   },
   {

@@ -1246,6 +1246,34 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2000/01/rdf-schema#label> "Bright-line rule" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "bright line" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "bright-line test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "clear stopping point" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#definition> "A rule fixed in advance by a sharp, easily checked criterion (a number, a date, a named category) rather than a case-by-case judgment; in reasoning about slippery slopes, showing that such a line can be drawn in the gray zone is a standard way to block the slide." .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bright-line rule" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/balancing-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/bright-line-rule.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/jurisprudence> .
 <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://www.w3.org/2000/01/rdf-schema#label> "Burden of proof" .
@@ -6712,6 +6740,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/bounded-rationality/s5> <https://schema.org/url> <https://britannica.com/topic/bounded-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s1> <http://purl.org/dc/terms/publisher> "Informal Logic 35(3), 273-311 (Walton, 2015); CORE open-access copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s1> <http://purl.org/dc/terms/title> "The Basic Slippery Slope Argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s1> <https://schema.org/url> <https://core.ac.uk/download/72794564.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s2> <http://purl.org/dc/terms/publisher> "Harvard Law Review 116 (Volokh, 2003); author's copy, UCLA School of Law" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s2> <http://purl.org/dc/terms/title> "The Mechanisms of the Slippery Slope" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s2> <https://schema.org/url> <https://www2.law.ucla.edu/Volokh/slippery.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3> <http://purl.org/dc/terms/publisher> "Duke Law Journal 42(3), 557-629 (Kaplow, 1992); Duke Law Scholarship Repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3> <http://purl.org/dc/terms/title> "Rules Versus Standards: An Economic Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3> <https://schema.org/url> <https://scholarship.law.duke.edu/dlj/vol42/iss3/2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4> <http://purl.org/dc/terms/publisher> "Arizona State Law Journal 27, 773 (Wilson, 1995); EngagedScholarship@CSU via CORE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4> <http://purl.org/dc/terms/title> "Surveying the Forms of Doctrine on the Bright Line-Balancing Test Continuum" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4> <https://schema.org/url> <https://core.ac.uk/download/216925069.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> <http://purl.org/dc/terms/publisher> "Proceedings of the Annual Meeting of the Cognitive Science Society 28, 1145-1150 (Corner, Hahn & Oaksford, 2006); eScholarship" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> <http://purl.org/dc/terms/title> "The Slippery Slope Argument - Probability, Utility & Category Reappraisal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> <https://schema.org/url> <https://escholarship.org/content/qt4m59x3cq/qt4m59x3cq.pdf?t=op2kje> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s1> <http://purl.org/dc/terms/publisher> "Pragmatics & Cognition 15(2), 2007 (Godden and Walton), PhilArchive copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/burden-of-proof/s1> <http://purl.org/dc/terms/title> "A Theory of Presumption for Everyday Argumentation" .
