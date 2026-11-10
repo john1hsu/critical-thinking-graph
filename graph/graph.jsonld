@@ -1122,6 +1122,91 @@
    ]
   },
   {
+   "@id": "ct:argument-from-analogy",
+   "@type": "cto:ArgumentScheme",
+   "cto:appliedIn": {
+    "@id": "ct:legal-reasoning"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:inductive-reasoning"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map"
+   },
+   "cto:file": "articles/argumentation/argument-from-analogy.md",
+   "cto:influencedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:level": "introductory",
+   "cto:misusedAs": {
+    "@id": "ct:faulty-analogy"
+   },
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-analogy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-analogy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-analogy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-analogy/s4"
+    }
+   ],
+   "rdfs:label": "Argument from analogy",
+   "skos:altLabel": [
+    "analogical argument",
+    "argument by analogy",
+    "argument from a parallel case",
+    "argument from similarity"
+   ],
+   "skos:broader": {
+    "@id": "ct:argumentation-schemes"
+   },
+   "skos:definition": "The presumptive argument pattern \"case C1 is similar to case C2; conclusion A holds in C1; so A plausibly holds in C2\". Its strength depends on whether the shared features are relevant to A, whether relevant differences undercut the comparison, and whether a rival analogy points the other way.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Argument from analogy",
+   "skos:related": [
+    {
+     "@id": "ct:analogical-reasoning"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:defeasible-reasoning"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:inductive-reasoning"
+    },
+    {
+     "@id": "ct:structure-mapping-theory"
+    },
+    {
+     "@id": "ct:thomas-reid"
+    }
+   ]
+  },
+  {
    "@id": "ct:argument-from-expert-opinion",
    "@type": "cto:ArgumentScheme",
    "cto:contrastsWith": {
@@ -14260,6 +14345,120 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-analogy"
+   },
+   "rdfs:label": "Are there differences between the two cases that would undermine the similarity being relied on?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-analogy"
+   },
+   "rdfs:label": "Are the shared features actually relevant to the conclusion, or only superficial?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-analogy"
+   },
+   "rdfs:label": "Is the conclusion really correct for the source case in the first place?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-analogy"
+   },
+   "rdfs:label": "Is there another similar case where a different conclusion was reached?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-analogy"
+   },
+   "rdfs:label": "Is the conclusion modest enough for the strength of the comparison?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:argument-from-analogy"
+   },
+   "cto:verdict": "weak"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The sales team can move to a four-day week without hurting its results."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Sales closes most deals in Friday client meetings, a difference that matters to the conclusion."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The engineering team tried the same change and missed two release dates, a counter-analogy."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Last year the support team moved to a four-day week and its response times stayed steady."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The sales team is similar: same office, similar headcount, mostly remote customer contact."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:argument-from-analogy"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -17412,6 +17611,62 @@
    "dcterms:title": "Christine Ladd-Franklin",
    "schema:url": {
     "@id": "https://www.uni-siegen.de/fb6/phima/women/ladd_franklin.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-analogy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Paul Bartha, first published 2013; substantive revision 2019)",
+   "dcterms:title": "Analogy and Analogical Reasoning",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/reasoning-analogy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-analogy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Douglas Walton, in H. J. Ribeiro (ed.), Systematic Approaches to Argument by Analogy, Springer, 2014, pp. 23-40; CORE open-access copy",
+   "dcterms:title": "Argumentation Schemes for Argument from Analogy",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/72794547.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-analogy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Argumentation 31(2), 359-393 (Luís Duarte d'Almeida & Cláudio Michelon, 2017)",
+   "dcterms:title": "The Structure of Arguments by Analogy in Law",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s10503-016-9409-3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-analogy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Texas State University, Department of Philosophy, fallacy definitions",
+   "dcterms:title": "Faulty Analogy",
+   "schema:url": {
+    "@id": "https://www.txst.edu/philosophy/resources/fallacy-definitions/Faulty-Analogy.html"
    }
   },
   {

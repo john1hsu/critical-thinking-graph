@@ -1182,6 +1182,102 @@
   ]
  },
  {
+  "id": "ct:argument-from-analogy",
+  "title": "Argument from analogy",
+  "aliases": [
+   "argument by analogy",
+   "analogical argument",
+   "argument from similarity",
+   "argument from a parallel case"
+  ],
+  "type": "ArgumentScheme",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/argument-from-analogy.md",
+  "created": "2026-11-10",
+  "summary": "The presumptive argument pattern \"case C1 is similar to case C2; conclusion A holds in C1; so A plausibly holds in C2\". Its strength depends on whether the shared features are relevant to A, whether relevant differences undercut the comparison, and whether a rival analogy points the other way.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:analogical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:structure-mapping-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:thomas-reid"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:misusedAs",
+    "object": "ct:faulty-analogy",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inductive-reasoning",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Are there differences between the two cases that would undermine the similarity being relied on?",
+   "Are the shared features actually relevant to the conclusion, or only superficial?",
+   "Is the conclusion really correct for the source case in the first place?",
+   "Is there another similar case where a different conclusion was reached?",
+   "Is the conclusion modest enough for the strength of the comparison?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/reasoning-analogy/",
+   "https://core.ac.uk/download/72794547.pdf",
+   "https://link.springer.com/article/10.1007/s10503-016-9409-3",
+   "https://www.txst.edu/philosophy/resources/fallacy-definitions/Faulty-Analogy.html"
+  ]
+ },
+ {
   "id": "ct:argument-from-expert-opinion",
   "title": "Argument from expert opinion",
   "aliases": [

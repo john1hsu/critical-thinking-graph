@@ -35,6 +35,17 @@ flowchart TD
   o2["The slowdown matches the leak hypothesis but does not rule out any rival cause."] -. attacks .-> ra
 ```
 
+## Argument from analogy (`ct:argument-from-analogy`)
+
+```mermaid
+flowchart TD
+  p1["Last year the support team moved to a four-day week and its response times stayed steady."] --> ra{{"weak"}}
+  p2["The sales team is similar: same office, similar headcount, mostly remote customer contact."] --> ra{{"weak"}}
+  ra --> c["The sales team can move to a four-day week without hurting its results."]
+  o1["Sales closes most deals in Friday client meetings, a difference that matters to the conclusion."] -. attacks .-> ra
+  o2["The engineering team tried the same change and missed two release dates, a counter-analogy."] -. attacks .-> ra
+```
+
 ## Argument from expert opinion (`ct:argument-from-expert-opinion`)
 
 ```mermaid

@@ -6,9 +6,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 |---|---|---|---|
 | 4.85 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
 | 4.54 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
+| 4.27 | `ct:argument` | `ct:aristotle` | `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:ignoratio-elenchi` |
 | 4.05 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major`, `ct:method-of-counterexample` |
-| 3.88 | `ct:argument` | `ct:aristotle` | `ct:argumentation-theory`, `ct:begging-the-question`, `ct:deductive-reasoning`, `ct:ignoratio-elenchi`, `ct:inductive-reasoning` |
-| 3.75 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:illicit-major` |
+| 3.74 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:illicit-major` |
 | 3.63 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.49 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-major` |
 | 3.48 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman` |
