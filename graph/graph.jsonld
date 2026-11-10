@@ -2581,6 +2581,92 @@
    ]
   },
   {
+   "@id": "ct:categorical-syllogism",
+   "@type": "cto:ReasoningForm",
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map"
+   },
+   "cto:file": "articles/formal-logic/categorical-syllogism.md",
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:prior-analytics"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s5"
+    }
+   ],
+   "rdfs:label": "Categorical syllogism",
+   "skos:altLabel": [
+    "Aristotelian syllogism",
+    "mood and figure",
+    "standard-form categorical syllogism"
+   ],
+   "skos:broader": {
+    "@id": "ct:syllogism"
+   },
+   "skos:definition": "A deductive argument made of exactly three categorical propositions (two premises and a conclusion) using exactly three terms, each appearing twice; its form is fixed by its mood and figure, and validity depends on that form alone.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Categorical syllogism",
+   "skos:related": [
+    {
+     "@id": "ct:antilogism"
+    },
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:john-buridan"
+    },
+    {
+     "@id": "ct:rules-of-the-categorical-syllogism"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:charles-hamblin",
    "@type": "cto:Person",
    "cto:authored": {
@@ -14652,6 +14738,62 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "cto:verdict": "valid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "No summer interns have administrator access."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The form (EAE-1, Celarent) is valid, but if any intern was hired as a regular employee the second premise is false and the conclusion is unproven."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "No contractors have administrator access."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "All summer interns are contractors."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/cogency/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -18544,6 +18686,76 @@
    "dcterms:title": "Brier score",
    "schema:url": {
     "@id": "https://glossary.ametsoc.org/wiki/brier-score/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "History of logic: Syllogisms",
+   "schema:url": {
+    "@id": "https://britannica.com/topic/history-of-logic/Syllogisms"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Lagerlund, Spring 2005 archive edition)",
+   "dcterms:title": "Medieval Theories of the Syllogism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2005/entries/medieval-syllogism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "PHIL 240 Introduction to Logic, Texas A&M University",
+   "dcterms:title": "6.1 Standard Form, Mood, and Figure (lecture notes)",
+   "schema:url": {
+    "@id": "https://phil240.tamu.edu/LectureNotes/6.1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Lumen Learning for El Paso Community College (adapted from Kemerling, Philosophy Pages, CC BY-SA)",
+   "dcterms:title": "Categorical Syllogisms (Introduction to Philosophy, ch. 2: Logic)",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/elpaso-introphilosophy/?p=395"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/categorical-syllogism/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Psicologica 34, 313-326 (Espino & Santamaria, 2013)",
+   "dcterms:title": "Presentation format and syllogistic reasoning",
+   "schema:url": {
+    "@id": "https://www.uv.es/revispsi/articulos2.13/10Espino.pdf"
    }
   },
   {

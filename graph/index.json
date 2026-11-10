@@ -2733,6 +2733,90 @@
   ]
  },
  {
+  "id": "ct:categorical-syllogism",
+  "title": "Categorical syllogism",
+  "aliases": [
+   "standard-form categorical syllogism",
+   "Aristotelian syllogism",
+   "mood and figure"
+  ],
+  "type": "ReasoningForm",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/categorical-syllogism.md",
+  "created": "2026-11-10",
+  "summary": "A deductive argument made of exactly three categorical propositions (two premises and a conclusion) using exactly three terms, each appearing twice; its form is fixed by its mood and figure, and validity depends on that form alone.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:john-buridan"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:antilogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:prior-analytics",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://britannica.com/topic/history-of-logic/Syllogisms",
+   "https://plato.stanford.edu/archives/spr2005/entries/medieval-syllogism/",
+   "https://phil240.tamu.edu/LectureNotes/6.1.pdf",
+   "https://courses.lumenlearning.com/elpaso-introphilosophy/?p=395",
+   "https://www.uv.es/revispsi/articulos2.13/10Espino.pdf"
+  ]
+ },
+ {
   "id": "ct:charles-hamblin",
   "title": "Charles Hamblin",
   "aliases": [

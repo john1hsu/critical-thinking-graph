@@ -91,6 +91,16 @@ flowchart TD
   o2["Independent monitoring data or customer incident tickets would supply a reason the doubting party could accept."] -. attacks .-> ra
 ```
 
+## Categorical syllogism (`ct:categorical-syllogism`)
+
+```mermaid
+flowchart TD
+  p1["No contractors have administrator access."] --> ra{{"valid"}}
+  p2["All summer interns are contractors."] --> ra{{"valid"}}
+  ra --> c["No summer interns have administrator access."]
+  o1["The form (EAE-1, Celarent) is valid, but if any intern was hired as a regular employee the second premise is false and the conclusion is unproven."] -. attacks .-> ra
+```
+
 ## Cogency (`ct:cogency`)
 
 ```mermaid
