@@ -12358,6 +12358,119 @@
   ]
  },
  {
+  "id": "ct:propositional-logic",
+  "title": "Propositional logic",
+  "aliases": [
+   "sentential logic",
+   "statement logic",
+   "propositional calculus",
+   "sentential calculus",
+   "truth-functional logic"
+  ],
+  "type": "Field",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/propositional-logic.md",
+  "created": "2026-11-10",
+  "summary": "The branch of formal logic that treats whole statements as unanalysed units and studies how connectives such as \"not\", \"and\", \"or\", \"if…then\" and \"if and only if\" combine them, and which inferences are valid purely in virtue of that connective structure.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-tree"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:disjunctive-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:chrysippus"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:emil-post"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:stoic-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:george-boole",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:gottlob-frege",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:predicate-logic",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:computer-science",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/propositional-logic-sentential-logic/",
+   "https://plato.stanford.edu/entries/logic-propositional/",
+   "https://forallx.openlogicproject.org/forallxyyc.html",
+   "https://mathshistory.st-andrews.ac.uk/DSB/Post.pdf"
+  ]
+ },
+ {
   "id": "ct:quantifier-shift-fallacy",
   "title": "Quantifier shift fallacy",
   "aliases": [

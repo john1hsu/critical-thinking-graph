@@ -11660,6 +11660,108 @@
    ]
   },
   {
+   "@id": "ct:propositional-logic",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:computer-science"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:predicate-logic"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/propositional-logic.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:george-boole"
+    },
+    {
+     "@id": "ct:gottlob-frege"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4"
+    }
+   ],
+   "rdfs:label": "Propositional logic",
+   "skos:altLabel": [
+    "propositional calculus",
+    "sentential calculus",
+    "sentential logic",
+    "statement logic",
+    "truth-functional logic"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-logic"
+   },
+   "skos:definition": "The branch of formal logic that treats whole statements as unanalysed units and studies how connectives such as \"not\", \"and\", \"or\", \"if…then\" and \"if and only if\" combine them, and which inferences are valid purely in virtue of that connective structure.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Propositional logic",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:chrysippus"
+    },
+    {
+     "@id": "ct:disjunctive-syllogism"
+    },
+    {
+     "@id": "ct:emil-post"
+    },
+    {
+     "@id": "ct:material-conditional"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:truth-table"
+    },
+    {
+     "@id": "ct:truth-tree"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:quantifier-shift-fallacy",
    "@type": "cto:FormalFallacy",
    "cto:domain": "formal-fallacies",
@@ -28360,6 +28462,62 @@
    "dcterms:title": "Nelson Goodman",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2019/entries/goodman/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Kevin C. Klement)",
+   "dcterms:title": "Propositional Logic",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/propositional-logic-sentential-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Curtis Franks, 2023)",
+   "dcterms:title": "Propositional Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/logic-propositional/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Open Logic Project (Magnus, Button, Loftis, Trueman, Thomas-Bolduc & Zach; CC BY 4.0)",
+   "dcterms:title": "forall x: Calgary. An Introduction to Formal Logic (Fall 2021)",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/forallxyyc.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Complete Dictionary of Scientific Biography (Hubert C. Kennedy, 2008), via MacTutor, University of St Andrews",
+   "dcterms:title": "Post, Emil Leon",
+   "schema:url": {
+    "@id": "https://mathshistory.st-andrews.ac.uk/DSB/Post.pdf"
    }
   },
   {

@@ -5290,6 +5290,44 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2000/01/rdf-schema#label> "Propositional logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "propositional calculus" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "sentential calculus" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "sentential logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "statement logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#altLabel> "truth-functional logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#definition> "The branch of formal logic that treats whole statements as unanalysed units and studies how connectives such as \"not\", \"and\", \"or\", \"if…then\" and \"if and only if\" combine them, and which inferences are valid purely in virtue of that connective structure." .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Propositional logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/emil-post> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/material-conditional> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/computer-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/propositional-logic.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the premise allow a different B for each A, or does it really say one B serves them all?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
@@ -10262,6 +10300,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2019/entries/goodman/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Kevin C. Klement)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> <http://purl.org/dc/terms/title> "Propositional Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> <https://schema.org/url> <https://iep.utm.edu/propositional-logic-sentential-logic/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Curtis Franks, 2023)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s2> <http://purl.org/dc/terms/title> "Propositional Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s2> <https://schema.org/url> <https://plato.stanford.edu/entries/logic-propositional/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s3> <http://purl.org/dc/terms/publisher> "Open Logic Project (Magnus, Button, Loftis, Trueman, Thomas-Bolduc & Zach; CC BY 4.0)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s3> <http://purl.org/dc/terms/title> "forall x: Calgary. An Introduction to Formal Logic (Fall 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s3> <https://schema.org/url> <https://forallx.openlogicproject.org/forallxyyc.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> <http://purl.org/dc/terms/publisher> "Complete Dictionary of Scientific Biography (Hubert C. Kennedy, 2008), via MacTutor, University of St Andrews" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> <http://purl.org/dc/terms/title> "Post, Emil Leon" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> <https://schema.org/url> <https://mathshistory.st-andrews.ac.uk/DSB/Post.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1> <http://purl.org/dc/terms/publisher> "A Modern Formal Logic Primer, Vol. II, ch. 3 (Paul Teller), LibreTexts Humanities" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1> <http://purl.org/dc/terms/title> "Some Examples of Multiple Quantification" .
