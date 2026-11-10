@@ -5452,6 +5452,124 @@
   ]
  },
  {
+  "id": "ct:ecological-rationality",
+  "title": "Ecological rationality",
+  "aliases": [
+   "environment-relative rationality",
+   "mind-environment fit"
+  ],
+  "type": "Concept",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/heuristics-and-dual-process/ecological-rationality.md",
+  "created": "2026-11-10",
+  "summary": "The view, developed by Gerd Gigerenzer, Peter Todd and the ABC Research Group, that a decision strategy is rational to the degree that it fits the information structure of the environment it is used in, so the same simple heuristic can be smart in one setting and error-prone in another.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:satisficing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:recognition-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:take-the-best"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overfitting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gerd-gigerenzer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:herbert-simon"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:peter-m-todd",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:herbert-simon",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:egon-brunswik",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:bias-variance-tradeoff",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:heuristics-and-biases-program",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:gigerenzer-brighton-2009-homo-heuristicus",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:hilbig-richter-2011-homo-heuristicus-outnumbered",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://abcwest.cogs.indiana.edu/pmwiki/pdf/todd.currentdirections.2007.pdf",
+   "https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf",
+   "https://plato.stanford.edu/entries/bounded-rationality/",
+   "https://www.psychologie.uni-wuerzburg.de/fileadmin/06020400/user_upload/Richter/hilbig_richter_inpress.pdf"
+  ]
+ },
+ {
   "id": "ct:epistemology",
   "title": "Epistemology",
   "aliases": [

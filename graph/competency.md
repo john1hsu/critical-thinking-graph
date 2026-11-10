@@ -75,6 +75,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:dual-process-theory` | contested | `ct:de-neys-2023-fast-and-slow-revision` |
 | `ct:dual-process-theory` | contested | `ct:gerd-gigerenzer` |
 | `ct:dual-process-theory` | contested | `ct:keren-schul-2009-two-system-critique` |
+| `ct:ecological-rationality` | contested | `ct:hilbig-richter-2011-homo-heuristicus-outnumbered` |
 | `ct:fast-and-frugal-heuristics` | contested | `ct:pohl-2011-recognition-heuristic-debate-review` |
 | `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
 | `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
@@ -97,9 +98,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:correcting-erroneous-perceptions-of-randomness` | mixed |  |
 | `ct:critical-thinking-education` | mixed | `ct:huber-kuncel-2016-college-critical-thinking-meta-analysis` |
 | `ct:debiasing` | mixed |  |
-| `ct:debiasing-training-games` | mixed |  |
 
-…and 22 more.
+…and 23 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

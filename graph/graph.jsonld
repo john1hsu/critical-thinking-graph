@@ -5146,6 +5146,105 @@
    ]
   },
   {
+   "@id": "ct:ecological-rationality",
+   "@type": "cto:Concept",
+   "cto:challengedBy": {
+    "@id": "ct:hilbig-richter-2011-homo-heuristicus-outnumbered"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:heuristics-and-biases-program"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": {
+    "@id": "ct:bias-variance-tradeoff"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/ecological-rationality.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:egon-brunswik"
+    },
+    {
+     "@id": "ct:herbert-simon"
+    }
+   ],
+   "cto:introducedBy": [
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:peter-m-todd"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:bounded-rationality"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:gigerenzer-brighton-2009-homo-heuristicus"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s4"
+    }
+   ],
+   "rdfs:label": "Ecological rationality",
+   "skos:altLabel": [
+    "environment-relative rationality",
+    "mind-environment fit"
+   ],
+   "skos:broader": {
+    "@id": "ct:bounded-rationality"
+   },
+   "skos:definition": "The view, developed by Gerd Gigerenzer, Peter Todd and the ABC Research Group, that a decision strategy is rational to the degree that it fits the information structure of the environment it is used in, so the same simple heuristic can be smart in one setting and error-prone in another.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Ecological rationality",
+   "skos:related": [
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:herbert-simon"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:overfitting"
+    },
+    {
+     "@id": "ct:recognition-heuristic"
+    },
+    {
+     "@id": "ct:satisficing"
+    },
+    {
+     "@id": "ct:take-the-best"
+    }
+   ]
+  },
+  {
    "@id": "ct:epistemology",
    "@type": "cto:Field",
    "cto:appliedIn": {
@@ -21862,6 +21961,62 @@
    "dcterms:title": "Cognitive reflection and decision making",
    "schema:url": {
     "@id": "https://econpapers.repec.org/RePEc:aea:jecper:v:19:y:2005:i:4:p:25-42"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Current Directions in Psychological Science 16(3), 167-171 (Todd & Gigerenzer, 2007), author's copy",
+   "dcterms:title": "Environments that make us smart: Ecological rationality",
+   "schema:url": {
+    "@id": "https://abcwest.cogs.indiana.edu/pmwiki/pdf/todd.currentdirections.2007.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Topics in Cognitive Science 1, 107-143 (Gigerenzer & Brighton, 2009), course reading copy, UC Irvine",
+   "dcterms:title": "Homo heuristicus: Why biased minds make better inferences",
+   "schema:url": {
+    "@id": "https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Wheeler, 2018; revised 2024)",
+   "dcterms:title": "Bounded Rationality",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/bounded-rationality/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Topics in Cognitive Science 3 (Hilbig & Richter, 2011), authors' in-press copy, University of Würzburg",
+   "dcterms:title": "Homo heuristicus outnumbered: Comment on Gigerenzer and Brighton (2009)",
+   "schema:url": {
+    "@id": "https://www.psychologie.uni-wuerzburg.de/fileadmin/06020400/user_upload/Richter/hilbig_richter_inpress.pdf"
    }
   },
   {
