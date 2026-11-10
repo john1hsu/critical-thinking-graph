@@ -129,6 +129,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:quantifier-shift-fallacy` | cto:FormalFallacy |
 | `ct:random-sampling` | cto:Method |
+| `ct:reasoning` | cto:Concept |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
 | `ct:slippery-slope` | cto:InformalFallacy |

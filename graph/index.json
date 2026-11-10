@@ -12408,6 +12408,81 @@
   ]
  },
  {
+  "id": "ct:reasoning",
+  "title": "Reasoning",
+  "aliases": [
+   "the activity of reasoning",
+   "reasoning process"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/reasoning.md",
+  "created": "2026-11-10",
+  "summary": "The mental activity of drawing conclusions from reasons: moving from some beliefs, evidence or goals to a new or revised belief (theoretical reasoning) or to a decision about what to do (practical reasoning).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:logical-consequence",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:argumentative-theory-of-reasoning",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/practical-reason/",
+   "https://openstax.org/books/introduction-philosophy/pages/5-4-types-of-inferences",
+   "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/harman-gilbert-1938",
+   "https://pubmed.ncbi.nlm.nih.gov/21447233/",
+   "https://moodle2.units.it/pluginfile.php/745149/mod_resource/content/0/Trouche%2C%20Sanders%20%20Mercier%202014.pdf"
+  ]
+ },
+ {
   "id": "ct:regression-to-the-mean",
   "title": "Regression to the mean",
   "aliases": [

@@ -5344,6 +5344,33 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/randomized-controlled-trial.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2000/01/rdf-schema#label> "Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "reasoning process" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "the activity of reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#definition> "The mental activity of drawing conclusions from reasons: moving from some beliefs, evidence or goals to a new or revised belief (theoretical reasoning) or to a decision about what to do (practical reasoning)." .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inference> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/argumentative-theory-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/foundations/reasoning.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2000/01/rdf-schema#label> "Regression to the mean" .
@@ -10157,6 +10184,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/randomized-controlled-trial/s5> <https://schema.org/url> <https://www.jameslindlibrary.org/records/medical-research-council-1948b/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Benjamin Kiesewetter and R. Jay Wallace, rev. 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s1> <http://purl.org/dc/terms/title> "Practical Reason" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/practical-reason/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s2> <http://purl.org/dc/terms/publisher> "Nathan Smith, OpenStax / Rice University (2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s2> <http://purl.org/dc/terms/title> "5.4 Types of Inferences, in Introduction to Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s2> <https://schema.org/url> <https://openstax.org/books/introduction-philosophy/pages/5-4-types-of-inferences> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s3> <http://purl.org/dc/terms/publisher> "David Sosa, Encyclopedia of Philosophy (2nd ed., 2005), via Encyclopedia.com" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s3> <http://purl.org/dc/terms/title> "Harman, Gilbert (1938–)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s3> <https://schema.org/url> <https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/harman-gilbert-1938> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s4> <http://purl.org/dc/terms/publisher> "Hugo Mercier and Dan Sperber, Behavioral and Brain Sciences 34(2), 57–74 (2011), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s4> <http://purl.org/dc/terms/title> "Why do humans reason? Arguments for an argumentative theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s4> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/21447233/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s5> <http://purl.org/dc/terms/publisher> "Emmanuel Trouche, Emmanuel Sander and Hugo Mercier, Journal of Experimental Psychology General 143(5), 1958–1971 (2014), course copy at University of Trieste" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s5> <http://purl.org/dc/terms/title> "Arguments, more than confidence, explain the good performance of reasoning groups" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reasoning/s5> <https://schema.org/url> <https://moodle2.units.it/pluginfile.php/745149/mod_resource/content/0/Trouche%2C%20Sanders%20%20Mercier%202014.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> <http://purl.org/dc/terms/publisher> "International Journal of Epidemiology 34(1), 215-220 (Barnett, van der Pols & Dobson, 2005), PubMed record" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s1> <http://purl.org/dc/terms/title> "Regression to the mean: what it is and how to deal with it" .
