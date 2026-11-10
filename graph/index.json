@@ -9416,6 +9416,114 @@
   ]
  },
  {
+  "id": "ct:law-of-small-numbers",
+  "title": "Law of small numbers",
+  "aliases": [
+   "belief in the law of small numbers",
+   "representativeness of small samples",
+   "small-sample representativeness belief"
+  ],
+  "type": "CognitiveBias",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/probabilistic-reasoning/law-of-small-numbers.md",
+  "created": "2026-11-10",
+  "summary": "The mistaken intuition, named by Tversky and Kahneman in 1971, that even a small random sample will closely resemble the population it came from, so that small-sample results look more stable, more conclusive and more likely to replicate than sampling theory allows.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:insensitivity-to-sample-size"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:random-sampling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hot-hand-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:random-sampling"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:representativeness-heuristic",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:matthew-rabin",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:hong-2023-law-of-small-numbers-replication",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:benjamin-2019-errors-in-probabilistic-reasoning",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:behavioral-economics",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://literature.wolkersdorfer.info/literature/Belief%20in%20the%20law%20of%20small%20numbers.pdf",
+   "https://escholarship.org/content/qt4sw8n41t/qt4sw8n41t.pdf",
+   "https://hub.hku.hk/handle/10722/335948",
+   "https://www.nber.org/papers/w25200.pdf",
+   "https://rr.peercommunityin.org/articles/rec?id=410"
+  ]
+ },
+ {
   "id": "ct:leopold-von-ranke",
   "title": "Leopold von Ranke",
   "aliases": [

@@ -8840,6 +8840,103 @@
    ]
   },
   {
+   "@id": "ct:law-of-small-numbers",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": {
+    "@id": "ct:benjamin-2019-errors-in-probabilistic-reasoning"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": {
+    "@id": "ct:representativeness-heuristic"
+   },
+   "cto:file": "articles/probabilistic-reasoning/law-of-small-numbers.md",
+   "cto:formalizedBy": {
+    "@id": "ct:matthew-rabin"
+   },
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:random-sampling"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:behavioral-economics"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:hong-2023-law-of-small-numbers-replication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s5"
+    }
+   ],
+   "rdfs:label": "Law of small numbers",
+   "skos:altLabel": [
+    "belief in the law of small numbers",
+    "representativeness of small samples",
+    "small-sample representativeness belief"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The mistaken intuition, named by Tversky and Kahneman in 1971, that even a small random sample will closely resemble the population it came from, so that small-sample results look more stable, more conclusive and more likely to replicate than sampling theory allows.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Law of small numbers",
+   "skos:related": [
+    {
+     "@id": "ct:gamblers-fallacy"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:hot-hand-fallacy"
+    },
+    {
+     "@id": "ct:insensitivity-to-sample-size"
+    },
+    {
+     "@id": "ct:random-sampling"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    }
+   ]
+  },
+  {
    "@id": "ct:leopold-von-ranke",
    "@type": "cto:Person",
    "cto:authored": {
@@ -25698,6 +25795,76 @@
    "dcterms:title": "Lateral Reading on the Open Internet (citation record)",
    "schema:url": {
     "@id": "https://mediawell.ssrc.org/?p=510382"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Psychological Bulletin 76(2), 105-110 (Tversky & Kahneman, 1971), hosted copy",
+   "dcterms:title": "Belief in the law of small numbers",
+   "schema:url": {
+    "@id": "https://literature.wolkersdorfer.info/literature/Belief%20in%20the%20law%20of%20small%20numbers.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "UC Berkeley Department of Economics working paper (Rabin, 2000; published in Quarterly Journal of Economics 117(3), 2002), eScholarship",
+   "dcterms:title": "Inference by believers in the law of small numbers",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt4sw8n41t/qt4sw8n41t.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "The University of Hong Kong, HKU Scholars Hub (Hong, 2023, MSocSc thesis, Registered Report)",
+   "dcterms:title": "Revisiting the 'belief in the law of small numbers': replication and extensions of problems reviewed in Tversky and Kahneman (1971)",
+   "schema:url": {
+    "@id": "https://hub.hku.hk/handle/10722/335948"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "National Bureau of Economic Research Working Paper 25200 (Benjamin, 2018; chapter for the Handbook of Behavioral Economics)",
+   "dcterms:title": "Errors in probabilistic reasoning and judgment biases",
+   "schema:url": {
+    "@id": "https://www.nber.org/papers/w25200.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Peer Community in Registered Reports (recommender M. Syed, 2023)",
+   "dcterms:title": "Revisiting the 'Belief in the law of small numbers': Conceptual replication and extensions (Stage 1 recommendation)",
+   "schema:url": {
+    "@id": "https://rr.peercommunityin.org/articles/rec?id=410"
    }
   },
   {

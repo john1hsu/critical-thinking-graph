@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:law-of-small-numbers` | cto:CognitiveBias |
 
 ## Most useful remedies
 
@@ -78,6 +80,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
+| `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
@@ -92,9 +95,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:consider-the-opposite` | mixed |  |
 | `ct:correcting-erroneous-perceptions-of-randomness` | mixed |  |
 | `ct:cost-benefit-reasoning-training` | mixed | `ct:arkes-blumer-1985-sunk-cost-experiments` |
-| `ct:cost-benefit-reasoning-training` | mixed | `ct:roth-2015-sunk-cost-meta-analysis` |
 
-…and 25 more.
+…and 26 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
