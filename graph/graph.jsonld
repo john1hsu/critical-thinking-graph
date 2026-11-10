@@ -12120,6 +12120,88 @@
    ]
   },
   {
+   "@id": "ct:richard-larrick",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:larrick-2004-debiasing-chapter"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/richard-larrick.md",
+   "cto:influencedBy": {
+    "@id": "ct:richard-nisbett"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:cost-benefit-reasoning-training"
+    },
+    {
+     "@id": "ct:misappreciation-of-the-averaging-principle"
+    },
+    {
+     "@id": "ct:mpg-illusion"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s6"
+    }
+   ],
+   "rdfs:label": "Richard P. Larrick",
+   "skos:altLabel": [
+    "R. P. Larrick",
+    "Rick Larrick"
+   ],
+   "skos:definition": "American decision researcher at Duke University's Fuqua School of Business who, as a Michigan graduate student with Richard Nisbett, showed in 1990 that brief training in cost-benefit rules reduces sunk cost reasoning, later sorted debiasing methods into motivational, cognitive and technological strategies, and identified the MPG illusion and people's misappreciation of averaging opinions.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Richard P. Larrick",
+   "skos:related": [
+    {
+     "@id": "ct:choice-architecture"
+    },
+    {
+     "@id": "ct:debiasing"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    },
+    {
+     "@id": "ct:sunk-cost-fallacy"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:richard-nisbett",
    "@type": "cto:Person",
    "cto:authored": {
@@ -28399,6 +28481,90 @@
    "dcterms:title": "2015 Letter to Shareholders (Exhibit 99.1 to Form 8-K)",
    "schema:url": {
     "@id": "https://sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Duke University, Fuqua School of Business",
+   "dcterms:title": "Richard Larrick (faculty profile)",
+   "schema:url": {
+    "@id": "https://www.fuqua.duke.edu/faculty/richard-larrick"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Psychological Science 1(6), 362-370 (Larrick, Morgan & Nisbett, 1990), copy hosted by Gwern.net",
+   "dcterms:title": "Teaching the use of cost-benefit reasoning in everyday life",
+   "schema:url": {
+    "@id": "https://Www.Gwern.net/doc/psychology/cognitive-bias/sunk-cost/1990-larrick.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Duke University Scholars@Duke; in Blackwell Handbook of Judgment and Decision Making, 316-337 (Larrick, 2004)",
+   "dcterms:title": "Debiasing (book section record)",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/1056892"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 6, 1120 (Aczel, Bago, Szollosi, Foldes & Lukacs, 2015), doi:10.3389/fpsyg.2015.01120",
+   "dcterms:title": "Is it time for studying real-life debiasing? Evaluation of the effectiveness of an analogical intervention technique",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01120/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Science 320(5883), 1593-1594 (Larrick & Soll, 2008), doi:10.1126/science.1154983, copy hosted by University of Vermont",
+   "dcterms:title": "The MPG Illusion",
+   "schema:url": {
+    "@id": "https://pdodds.w3.uvm.edu/files/papers/others/2008/larrick2008a.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Management Science 52(1), 111-127 (Larrick & Soll, 2006), doi:10.1287/mnsc.1050.0459, EconPapers record",
+   "dcterms:title": "Intuitions About Combining Opinions: Misappreciation of the Averaging Principle",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:inm:ormnsc:v:52:y:2006:i:1:p:111-127"
    }
   },
   {

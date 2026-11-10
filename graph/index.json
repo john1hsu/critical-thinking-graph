@@ -12839,6 +12839,92 @@
   ]
  },
  {
+  "id": "ct:richard-larrick",
+  "title": "Richard P. Larrick",
+  "aliases": [
+   "Rick Larrick",
+   "R. P. Larrick"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/richard-larrick.md",
+  "created": "2026-11-10",
+  "summary": "American decision researcher at Duke University's Fuqua School of Business who, as a Michigan graduate student with Richard Nisbett, showed in 1990 that brief training in cost-benefit rules reduces sunk cost reasoning, later sorted debiasing methods into motivational, cognitive and technological strategies, and identified the MPG illusion and people's misappreciation of averaging opinions.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sunk-cost-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:choice-architecture"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:cost-benefit-reasoning-training",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:mpg-illusion",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:misappreciation-of-the-averaging-principle",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:larrick-2004-debiasing-chapter",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:richard-nisbett",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.fuqua.duke.edu/faculty/richard-larrick",
+   "https://Www.Gwern.net/doc/psychology/cognitive-bias/sunk-cost/1990-larrick.pdf",
+   "https://scholars.duke.edu/publication/1056892",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01120/full",
+   "https://pdodds.w3.uvm.edu/files/papers/others/2008/larrick2008a.pdf",
+   "https://econpapers.repec.org/RePEc:inm:ormnsc:v:52:y:2006:i:1:p:111-127"
+  ]
+ },
+ {
   "id": "ct:richard-nisbett",
   "title": "Richard E. Nisbett",
   "aliases": [

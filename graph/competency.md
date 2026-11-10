@@ -114,7 +114,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:calibration` | cto:Concept |
 | `ct:correlation-versus-causation` | cto:Principle |
-| `ct:cost-benefit-reasoning-training` | cto:Technique |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |

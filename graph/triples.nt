@@ -5493,6 +5493,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/quasi-option-value> .
 <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bullens-van-harreveld-2016-reversibility-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2000/01/rdf-schema#label> "Richard P. Larrick" .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#altLabel> "R. P. Larrick" .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#altLabel> "Rick Larrick" .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#definition> "American decision researcher at Duke University's Fuqua School of Business who, as a Michigan graduate student with Richard Nisbett, showed in 1990 that brief training in cost-benefit rules reduces sunk cost reasoning, later sorted debiasing methods into motivational, cognitive and technological strategies, and identified the MPG illusion and people's misappreciation of averaging opinions." .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#prefLabel> "Richard P. Larrick" .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/larrick-2004-debiasing-chapter> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/richard-larrick.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richard-nisbett> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/cost-benefit-reasoning-training> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/misappreciation-of-the-averaging-principle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/mpg-illusion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/richard-nisbett> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/richard-nisbett> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/richard-nisbett> <http://www.w3.org/2000/01/rdf-schema#label> "Richard E. Nisbett" .
@@ -10328,6 +10358,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s5> <https://schema.org/url> <https://sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s1> <http://purl.org/dc/terms/publisher> "Duke University, Fuqua School of Business" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s1> <http://purl.org/dc/terms/title> "Richard Larrick (faculty profile)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s1> <https://schema.org/url> <https://www.fuqua.duke.edu/faculty/richard-larrick> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s2> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s2> <http://purl.org/dc/terms/publisher> "Psychological Science 1(6), 362-370 (Larrick, Morgan & Nisbett, 1990), copy hosted by Gwern.net" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s2> <http://purl.org/dc/terms/title> "Teaching the use of cost-benefit reasoning in everyday life" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s2> <https://schema.org/url> <https://Www.Gwern.net/doc/psychology/cognitive-bias/sunk-cost/1990-larrick.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s3> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s3> <http://purl.org/dc/terms/publisher> "Duke University Scholars@Duke; in Blackwell Handbook of Judgment and Decision Making, 316-337 (Larrick, 2004)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s3> <http://purl.org/dc/terms/title> "Debiasing (book section record)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s3> <https://schema.org/url> <https://scholars.duke.edu/publication/1056892> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s4> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s4> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 6, 1120 (Aczel, Bago, Szollosi, Foldes & Lukacs, 2015), doi:10.3389/fpsyg.2015.01120" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s4> <http://purl.org/dc/terms/title> "Is it time for studying real-life debiasing? Evaluation of the effectiveness of an analogical intervention technique" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s4> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01120/full> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s5> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s5> <http://purl.org/dc/terms/publisher> "Science 320(5883), 1593-1594 (Larrick & Soll, 2008), doi:10.1126/science.1154983, copy hosted by University of Vermont" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s5> <http://purl.org/dc/terms/title> "The MPG Illusion" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s5> <https://schema.org/url> <https://pdodds.w3.uvm.edu/files/papers/others/2008/larrick2008a.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s6> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s6> <http://purl.org/dc/terms/publisher> "Management Science 52(1), 111-127 (Larrick & Soll, 2006), doi:10.1287/mnsc.1050.0459, EconPapers record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s6> <http://purl.org/dc/terms/title> "Intuitions About Combining Opinions: Misappreciation of the Averaging Principle" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/richard-larrick/s6> <https://schema.org/url> <https://econpapers.repec.org/RePEc:inm:ormnsc:v:52:y:2006:i:1:p:111-127> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s1> <http://purl.org/dc/terms/publisher> "University of Michigan, Department of Psychology (personal faculty page, 2002)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-nisbett/s1> <http://purl.org/dc/terms/title> "Brief Biography for Richard E. Nisbett" .
