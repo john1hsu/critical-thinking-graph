@@ -6465,6 +6465,89 @@
    ]
   },
   {
+   "@id": "ct:fundamental-attribution-error",
+   "@type": "cto:CognitiveBias",
+   "cto:confusedWith": {
+    "@id": "ct:actor-observer-asymmetry"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:jones-harris-1967-attitude-attribution-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": {
+    "@id": "ct:characterization-correction-model"
+   },
+   "cto:file": "articles/cognitive-biases/fundamental-attribution-error.md",
+   "cto:introducedBy": {
+    "@id": "ct:lee-ross"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:social-psychology"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:many-labs-2-replication-project"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s5"
+    }
+   ],
+   "rdfs:label": "Fundamental attribution error",
+   "skos:altLabel": [
+    "correspondence bias",
+    "overattribution effect"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to explain other people's behaviour by their personality, attitudes or abilities while underweighting the situation that shaped it, so that observers infer stable traits from actions the circumstances largely explain.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Fundamental attribution error",
+   "skos:related": [
+    {
+     "@id": "ct:actor-observer-asymmetry"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:bias-blind-spot"
+    },
+    {
+     "@id": "ct:debiasing-training-games"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:richard-nisbett"
+    }
+   ]
+  },
+  {
    "@id": "ct:gamblers-fallacy",
    "@type": "cto:ProbabilisticFallacy",
    "cto:contrastsWith": {
@@ -24288,6 +24371,76 @@
    "dcterms:title": "The Foreign-Language Effect: Thinking in a Foreign Tongue Reduces Decision Biases (lecture 12)",
    "schema:url": {
     "@id": "https://ocw.mit.edu/courses/9-59j-lab-in-psycholinguistics-spring-2017/6526aafa6c124f893a8b0795bba9a58d_MIT9_59jS17_lec12.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Psychological Bulletin 117(1), 21-38 (Gilbert & Malone, 1995), copy hosted by Harvard University",
+   "dcterms:title": "The Correspondence Bias",
+   "schema:url": {
+    "@id": "https://scholar.harvard.edu/files/danielgilbert/files/gilbert__malone_correspondence_bias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Management Science 64(4), 1879-1910 (Scopelliti, Min, McCormick, Kassam & Morewedge, 2018), City Research Online",
+   "dcterms:title": "Individual Differences in Correspondence Bias: Measurement, Consequences, and Correction of Biased Interpersonal Attributions",
+   "schema:url": {
+    "@id": "https://openaccess.city.ac.uk/id/eprint/15814/8/Correspondence%20Bias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Principles of Social Psychology, 1st International H5P Edition (Jhangiani & Tarry), BCcampus, CC BY-NC-SA 4.0",
+   "dcterms:title": "Biases in Attribution",
+   "schema:url": {
+    "@id": "https://opentextbc.ca/socialpsychology/chapter/biases-in-attribution/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "FORRT Replication Atlas",
+   "dcterms:title": "Cultural variation in correspondence bias (Miyamoto & Kitayama, 2002): replication record",
+   "schema:url": {
+    "@id": "https://forrt.org/flora-replication-atlas/doi/10.1037/0022-3514.83.5.1239/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fundamental-attribution-error/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Association for Psychological Science, commentary on Many Labs 2 (Miyamoto & Kitayama, 2018)",
+   "dcterms:title": "Cultural Differences in Correspondence Bias Are Systematic and Multifaceted",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/redesign/wp-content/uploads/2018/11/Miyamoto_Kitayama_ML2_Commentary.pdf"
    }
   },
   {

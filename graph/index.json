@@ -6878,6 +6878,99 @@
   ]
  },
  {
+  "id": "ct:fundamental-attribution-error",
+  "title": "Fundamental attribution error",
+  "aliases": [
+   "correspondence bias",
+   "overattribution effect"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/fundamental-attribution-error.md",
+  "created": "2026-11-10",
+  "summary": "The tendency to explain other people's behaviour by their personality, attitudes or abilities while underweighting the situation that shaped it, so that observers infer stable traits from actions the circumstances largely explain.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actor-observer-asymmetry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debiasing-training-games"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-nisbett"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:lee-ross",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:jones-harris-1967-attitude-attribution-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:characterization-correction-model",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:many-labs-2-replication-project",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:actor-observer-asymmetry",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://scholar.harvard.edu/files/danielgilbert/files/gilbert__malone_correspondence_bias.pdf",
+   "https://openaccess.city.ac.uk/id/eprint/15814/8/Correspondence%20Bias.pdf",
+   "https://opentextbc.ca/socialpsychology/chapter/biases-in-attribution/",
+   "https://forrt.org/flora-replication-atlas/doi/10.1037/0022-3514.83.5.1239/",
+   "https://www.psychologicalscience.org/redesign/wp-content/uploads/2018/11/Miyamoto_Kitayama_ML2_Commentary.pdf"
+  ]
+ },
+ {
   "id": "ct:gamblers-fallacy",
   "title": "Gambler's fallacy",
   "aliases": [
