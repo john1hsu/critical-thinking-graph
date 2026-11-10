@@ -11473,6 +11473,80 @@
   ]
  },
  {
+  "id": "ct:quantifier-shift-fallacy",
+  "title": "Quantifier shift fallacy",
+  "aliases": [
+   "illicit quantifier shift",
+   "quantifier switch fallacy",
+   "fallacy of every and some"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/quantifier-shift-fallacy.md",
+  "created": "2026-11-10",
+  "summary": "The invalid inference from \"every A stands in relation R to some B\" to \"some single B stands in relation R to every A\", which swaps the order of a universal and an existential quantifier and so turns a weak claim into a much stronger one.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amphiboly"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:peter-geach"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:predicate-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:quantifier-scope",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the premise allow a different B for each A, or does it really say one B serves them all?",
+   "Can you describe a case where every A has its own B but no single B works for every A?",
+   "If the conclusion needs one B for all, what separate evidence shows that such a B exists?"
+  ],
+  "source_urls": [
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/A_Modern_Formal_Logic_Primer_(Teller)/03%3A_Volume_II-_Predicate_Logic/3.03%3A_More_about_Quantifiers/3.3.01%3A_Some_Examples_of_Multiple_Quantification",
+   "https://rlee.hosted.uark.edu/intrsp03/oh/quantifiershift.html",
+   "https://rlee.hosted.uark.edu/intrsp07/oh/3rd-way-plus.html",
+   "https://core.ac.uk/download/344751851.pdf",
+   "https://fallacyfiles.org/quanshif.html"
+  ]
+ },
+ {
   "id": "ct:randomized-controlled-trial",
   "title": "Randomized controlled trial",
   "aliases": [

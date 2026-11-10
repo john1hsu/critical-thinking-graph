@@ -10837,6 +10837,83 @@
    ]
   },
   {
+   "@id": "ct:quantifier-shift-fallacy",
+   "@type": "cto:FormalFallacy",
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:quantifier-scope"
+   },
+   "cto:file": "articles/formal-fallacies/quantifier-shift-fallacy.md",
+   "cto:formalizedBy": {
+    "@id": "ct:predicate-logic"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:predicate-logic"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s5"
+    }
+   ],
+   "rdfs:label": "Quantifier shift fallacy",
+   "skos:altLabel": [
+    "fallacy of every and some",
+    "illicit quantifier shift",
+    "quantifier switch fallacy"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The invalid inference from \"every A stands in relation R to some B\" to \"some single B stands in relation R to every A\", which swaps the order of a universal and an existential quantifier and so turns a weak claim into a much stronger one.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Quantifier shift fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:amphiboly"
+    },
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:peter-geach"
+    }
+   ]
+  },
+  {
    "@id": "ct:randomized-controlled-trial",
    "@type": "cto:Method",
    "cto:appliedIn": {
@@ -16748,6 +16825,91 @@
    ],
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:quantifier-shift-fallacy"
+   },
+   "rdfs:label": "Does the premise allow a different B for each A, or does it really say one B serves them all?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:quantifier-shift-fallacy"
+   },
+   "rdfs:label": "Can you describe a case where every A has its own B but no single B works for every A?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:quantifier-shift-fallacy"
+   },
+   "rdfs:label": "If the conclusion needs one B for all, what separate evidence shows that such a B exists?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:quantifier-shift-fallacy"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "Someone on the finance team can sign off every project's budget."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Sign-off rights may be split by business unit, so each project has an approver but no one approves all of them."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "To show one person covers everything, check the approval matrix directly; the premise does not say so."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Every project in the portfolio has someone on the finance team who can sign off its budget."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/c"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map/p1"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map"
    }
   },
   {
@@ -26075,6 +26237,76 @@
    "dcterms:title": "Nelson Goodman",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2019/entries/goodman/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "A Modern Formal Logic Primer, Vol. II, ch. 3 (Paul Teller), LibreTexts Humanities",
+   "dcterms:title": "Some Examples of Multiple Quantification",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/A_Modern_Formal_Logic_Primer_(Teller)/03%3A_Volume_II-_Predicate_Logic/3.03%3A_More_about_Quantifiers/3.3.01%3A_Some_Examples_of_Multiple_Quantification"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Introduction to Philosophy course notes, University of Arkansas (Richard Lee)",
+   "dcterms:title": "The Quantifier Shift Fallacy",
+   "schema:url": {
+    "@id": "https://rlee.hosted.uark.edu/intrsp03/oh/quantifiershift.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Introduction to Philosophy course notes, University of Arkansas (Richard Lee)",
+   "dcterms:title": "Aquinas's \"Third Way\"",
+   "schema:url": {
+    "@id": "https://rlee.hosted.uark.edu/intrsp07/oh/3rd-way-plus.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Aristos 1(2), 1-18, University of Notre Dame Australia (Jack Green, 2015)",
+   "dcterms:title": "Aristotle's Illicit Quantifier Shift: Is He Guilty or Innocent",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/344751851.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Quantifier-Shift Fallacy",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/quanshif.html"
    }
   },
   {

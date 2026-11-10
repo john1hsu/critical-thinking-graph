@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:quantifier-shift-fallacy` | cto:FormalFallacy |
 | `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:sunk-cost-fallacy` | cto:CognitiveBias |
 
@@ -103,7 +104,9 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 _Which written formal fallacies have no invalidFormOf edge to the valid reasoning form they mimic?_ — `queries/05-invalid-lookalikes.rq`
 
-_No results._
+| fallacy |
+|---|
+| `ct:quantifier-shift-fallacy` |
 
 ## Concepts with no recorded origin (gap)
 
@@ -126,6 +129,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
+| `ct:quantifier-shift-fallacy` | cto:FormalFallacy |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
 | `ct:slippery-slope` | cto:InformalFallacy |

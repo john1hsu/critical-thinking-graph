@@ -297,6 +297,16 @@ flowchart TD
   o3["No comparison with teams still on the old tool, or with previous Aprils, was made."] -. attacks .-> ra
 ```
 
+## Quantifier shift fallacy (`ct:quantifier-shift-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["Every project in the portfolio has someone on the finance team who can sign off its budget."] --> ra{{"invalid"}}
+  ra --> c["Someone on the finance team can sign off every project's budget."]
+  o1["Sign-off rights may be split by business unit, so each project has an approver but no one approves all of them."] -. attacks .-> ra
+  o2["To show one person covers everything, check the approval matrix directly; the premise does not say so."] -. attacks .-> ra
+```
+
 ## Slippery slope (`ct:slippery-slope`)
 
 ```mermaid
