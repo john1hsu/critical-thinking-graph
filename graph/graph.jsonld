@@ -12793,6 +12793,83 @@
    ]
   },
   {
+   "@id": "ct:sunk-cost-fallacy",
+   "@type": "cto:CognitiveBias",
+   "cto:demonstratedBy": {
+    "@id": "ct:arkes-blumer-1985-sunk-cost-experiments"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:prospect-theory"
+    },
+    {
+     "@id": "ct:waste-avoidance"
+    }
+   ],
+   "cto:file": "articles/cognitive-biases/sunk-cost-fallacy.md",
+   "cto:introducedBy": {
+    "@id": "ct:hal-arkes"
+   },
+   "cto:level": "introductory",
+   "cto:supportedBy": [
+    {
+     "@id": "ct:petrov-2023-sunk-time-versus-money-replication"
+    },
+    {
+     "@id": "ct:roth-2015-sunk-cost-meta-analysis"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sunk-cost-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sunk-cost-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sunk-cost-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sunk-cost-fallacy/s4"
+    }
+   ],
+   "rdfs:label": "Sunk cost fallacy",
+   "skos:altLabel": [
+    "Concorde fallacy",
+    "sunk cost effect",
+    "sunk-cost bias",
+    "throwing good money after bad"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to keep investing in, or keep using, something because of money, time or effort already spent and unrecoverable, even though only future costs and benefits should bear on the decision.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Sunk cost fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:escalation-of-commitment"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:reversible-and-irreversible-decisions"
+    }
+   ]
+  },
+  {
    "@id": "ct:suppressed-evidence",
    "@type": "cto:InformalFallacy",
    "cto:confusedWith": {
@@ -27453,6 +27530,62 @@
    "dcterms:title": "Improving the Analysis of Foreign Affairs: Evaluating Structured Analytic Techniques",
    "schema:url": {
     "@id": "https://d-scholarship.pitt.edu/26055/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sunk-cost-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Organizational Behavior and Human Decision Processes 35(1), 124-140 (Arkes & Blumer, 1985), copy hosted by University of Klagenfurt",
+   "dcterms:title": "The psychology of sunk cost",
+   "schema:url": {
+    "@id": "https://cognition.aau.at/bg/BA/Arkes%20%26%20Blumer%201985.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sunk-cost-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Business Research 8, 99-138 (Roth, Robbert & Straus, 2015), Springer",
+   "dcterms:title": "On the sunk-cost effect in economic decision-making: a meta-analytic review",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s40685-014-0014-8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sunk-cost-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "International Review of Social Psychology 36, 17 (Petrov et al., 2023), PubMed Central",
+   "dcterms:title": "Sunk Cost Effects for Time Versus Money: Replication and Extensions Registered Report of Soman (2001)",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12372683/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sunk-cost-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-10"
+   },
+   "dcterms:publisher": "Peer Community in Registered Reports (Zhu & Feldman, recommended by Markant, 2024)",
+   "dcterms:title": "Revisiting the Psychology of Waste: Replication and extensions (Stage 2 recommendation)",
+   "schema:url": {
+    "@id": "https://rr.peercommunityin.org/articles/rec?id=801"
    }
   },
   {

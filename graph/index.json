@@ -13543,6 +13543,88 @@
   ]
  },
  {
+  "id": "ct:sunk-cost-fallacy",
+  "title": "Sunk cost fallacy",
+  "aliases": [
+   "sunk cost effect",
+   "sunk-cost bias",
+   "Concorde fallacy",
+   "throwing good money after bad"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/cognitive-biases/sunk-cost-fallacy.md",
+  "created": "2026-11-10",
+  "summary": "The tendency to keep investing in, or keep using, something because of money, time or effort already spent and unrecoverable, even though only future costs and benefits should bear on the decision.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reversible-and-irreversible-decisions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:escalation-of-commitment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:hal-arkes",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:arkes-blumer-1985-sunk-cost-experiments",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:prospect-theory",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:waste-avoidance",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:roth-2015-sunk-cost-meta-analysis",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:petrov-2023-sunk-time-versus-money-replication",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://cognition.aau.at/bg/BA/Arkes%20%26%20Blumer%201985.pdf",
+   "https://link.springer.com/article/10.1007/s40685-014-0014-8",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12372683/",
+   "https://rr.peercommunityin.org/articles/rec?id=801"
+  ]
+ },
+ {
   "id": "ct:suppressed-evidence",
   "title": "Suppressed evidence",
   "aliases": [
