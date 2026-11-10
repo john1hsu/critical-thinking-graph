@@ -15183,6 +15183,79 @@
   ]
  },
  {
+  "id": "ct:theaetetus",
+  "title": "Theaetetus",
+  "aliases": [
+   "Plato's Theaetetus",
+   "Theaitetos"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/theaetetus.md",
+  "created": "2026-11-10",
+  "summary": "Plato's dialogue (about 369 BCE) in which Socrates and the young mathematician Theaetetus test three definitions of knowledge (perception, true judgement, and true judgement with an account) and reject all three; its last proposal is the usual ancestor cited for the justified-true-belief analysis of knowledge.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:plato"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:justified-true-belief"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gettier-problem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:plato",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:justified-true-belief",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:maieutics",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/plato-theaetetus/",
+   "https://iep.utm.edu/theatetu/",
+   "https://www.gutenberg.org/files/1726/1726-h/1726-h.htm",
+   "https://plato.stanford.edu/entries/knowledge-analysis/",
+   "https://fermatslibrary.com/s/is-justified-true-belief-knowledge"
+  ]
+ },
+ {
   "id": "ct:topics",
   "title": "Topics",
   "aliases": [
