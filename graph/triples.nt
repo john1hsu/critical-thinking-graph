@@ -4761,6 +4761,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hong-2023-law-of-small-numbers-replication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2000/01/rdf-schema#label> "Legal reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "judicial reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "legal argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "reasoning in law" .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#definition> "The reasoning lawyers and judges use to work out what the law requires and to justify deciding a particular case one way rather than another, chiefly by interpreting authoritative texts, arguing from precedent and analogy, and weighing defeasible arguments for and against a conclusion." .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legal reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/h-l-a-hart> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/presumption> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stare-decisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/legal-reasoning.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/abstract-argumentation-frameworks> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/edward-levi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-law> .
 <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <http://www.w3.org/2000/01/rdf-schema#label> "Leopold von Ranke" .
@@ -10575,6 +10611,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/law-of-small-numbers/s5> <https://schema.org/url> <https://rr.peercommunityin.org/articles/rec?id=410> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Grant Lamond, first published 2006)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s1> <http://purl.org/dc/terms/title> "Precedent and Analogy in Legal Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/legal-reas-prec/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Julie Dickson, 2001, revised 2010)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s2> <http://purl.org/dc/terms/title> "Interpretation and Coherence in Legal Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s2> <https://schema.org/url> <https://plato.stanford.edu/entries/legal-reas-interpret/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s3> <http://purl.org/dc/terms/publisher> "Edward H. Levi (1949), University of Chicago Press; excerpt hosted on a University of Washington course site" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s3> <http://purl.org/dc/terms/title> "An Introduction to Legal Reasoning (opening pages)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s3> <https://schema.org/url> <https://bpb-us-e1.wpmucdn.com/sites.uw.edu/dist/e/1511/files/2024/03/Edward-Levi-Introduction-to-Legal-Reasoning-433cb6d126e549c5.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s4> <http://purl.org/dc/terms/publisher> "Trevor Bench-Capon, Henry Prakken & Giovanni Sartor (c. 2009), book chapter, author's copy at Utrecht University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s4> <http://purl.org/dc/terms/title> "Argumentation in legal reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s4> <https://schema.org/url> <https://webspace.science.uu.nl/~prakk101/pubs/capon_etal.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s5> <http://purl.org/dc/terms/publisher> "Frederick Schauer (2008), New York University Law Review 83, 1109" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s5> <http://purl.org/dc/terms/title> "A Critical Guide to Vehicles in the Park" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/legal-reasoning/s5> <https://schema.org/url> <https://www.nyulawreview.org/wp-content/uploads/2018/08/NYULawReview-83-4-Schauer.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> <http://purl.org/dc/terms/publisher> "History of Humanities 4(2), 257–262 (Kasper Risbjerg Eskildsen, 2019), doi:10.1086/704812, Roskilde University repository copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s1> <http://purl.org/dc/terms/title> "Leopold Von Ranke (1795–1886): Criticizing an Early Modern Historian" .

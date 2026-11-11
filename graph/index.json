@@ -10868,6 +10868,112 @@
   ]
  },
  {
+  "id": "ct:legal-reasoning",
+  "title": "Legal reasoning",
+  "aliases": [
+   "judicial reasoning",
+   "legal argumentation",
+   "reasoning in law"
+  ],
+  "type": "Field",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/legal-reasoning.md",
+  "created": "2026-11-11",
+  "summary": "The reasoning lawyers and judges use to work out what the law requires and to justify deciding a particular case one way rather than another, chiefly by interpreting authoritative texts, arguing from precedent and analogy, and weighing defeasible arguments for and against a conclusion.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-analogy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presumption"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bright-line-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stare-decisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:h-l-a-hart"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-law",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:abstract-argumentation-frameworks",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:edward-levi",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/legal-reas-prec/",
+   "https://plato.stanford.edu/entries/legal-reas-interpret/",
+   "https://bpb-us-e1.wpmucdn.com/sites.uw.edu/dist/e/1511/files/2024/03/Edward-Levi-Introduction-to-Legal-Reasoning-433cb6d126e549c5.pdf",
+   "https://webspace.science.uu.nl/~prakk101/pubs/capon_etal.pdf",
+   "https://www.nyulawreview.org/wp-content/uploads/2018/08/NYULawReview-83-4-Schauer.pdf"
+  ]
+ },
+ {
   "id": "ct:leopold-von-ranke",
   "title": "Leopold von Ranke",
   "aliases": [
