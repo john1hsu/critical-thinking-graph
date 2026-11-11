@@ -757,6 +757,113 @@
    ]
   },
   {
+   "@id": "ct:amphiboly",
+   "@type": "cto:InformalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:equivocation"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:ambiguity"
+   },
+   "cto:file": "articles/informal-fallacies/amphiboly.md",
+   "cto:instanceOf": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:argument"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s6"
+    }
+   ],
+   "rdfs:label": "Amphiboly",
+   "skos:altLabel": [
+    "amphibolia",
+    "amphibology",
+    "fallacy of amphiboly",
+    "fallacy of syntactic ambiguity"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:fallacy-of-ambiguity"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "skos:definition": "The fallacy of reasoning from a sentence whose grammatical structure allows two readings, accepting a premise on one reading and drawing the conclusion on the other, even though no single word in it is ambiguous.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Amphiboly",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:de-re-de-dicto-distinction"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:quantifier-shift-fallacy"
+    },
+    {
+     "@id": "ct:william-of-ockham"
+    }
+   ]
+  },
+  {
    "@id": "ct:analysis-of-competing-hypotheses",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -17631,6 +17738,109 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:amphiboly"
+   },
+   "rdfs:label": "Which sentence in the argument can be parsed in more than one way, and what are the readings?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:amphiboly"
+   },
+   "rdfs:label": "On the reading that makes the premise true or authoritative, does the conclusion still follow?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:amphiboly"
+   },
+   "rdfs:label": "Is there evidence from context, the author's purpose or how the text has been applied before that settles which reading was intended?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:amphiboly"
+   },
+   "rdfs:label": "Could the sentence be rewritten so that only one structure is possible, and does the argument survive the rewrite?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:amphiboly"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "No receipt is required for this lunch."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The policy sentence can mean 'all meals, plus taxi fares over $25' or 'meals over $25 and taxi fares over $25'; the conclusion needs the second reading."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "If finance wrote the rule to cover every meal, the first premise is true only on the reading under which the conclusion does not follow."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The expense policy says receipts are required for meals and taxi fares over $25."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "This client lunch cost $18, which is not over $25."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -21325,6 +21535,90 @@
    "dcterms:title": "On the reality of cognitive illusions",
    "schema:url": {
     "@id": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Kahneman+Tversky-cognitive-illusions-1996.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, Spring 2024 edition)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2024/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Dowden)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/fallacy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Informal Logic 40(1) (Walton, 2020), doi:10.22329/il.v40i1.5997, record via Isidore",
+   "dcterms:title": "Profiles of Dialogue for Amphiboly",
+   "schema:url": {
+    "@id": "https://isidore.science/document/10670/1.fld19j"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Critical Reasoning and Writing (Levin, Golden West College), Humanities LibreTexts",
+   "dcterms:title": "3.4: Fallacies of Ambiguity and Grammatical Analogy",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/03%3A_Informal_Fallacies_-_Mistakes_in_Reasoning/3.04%3A_Fallacies_of_Ambiguity_and_Grammatical_Analogy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "William of Ockham, Latin text and translation, The Logic Museum",
+   "dcterms:title": "Summa Logicae, Book III-4, Chapter 5 (on amphiboly)",
+   "schema:url": {
+    "@id": "https://www.logicmuseum.com/wiki/Authors/Ockham/Summa_Logicae/Book_III-4/Chapter_5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Critical Thinking, Logic, and Argument, AU Press (Athabasca University)",
+   "dcterms:title": "Chapter 21: Fallacy Round-Up",
+   "schema:url": {
+    "@id": "https://read.aupress.ca/read/critical-thinking-logic-and-argument/section/79d847f7-75b3-474e-8e16-2465da141e85"
    }
   },
   {

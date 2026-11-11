@@ -789,6 +789,123 @@
   ]
  },
  {
+  "id": "ct:amphiboly",
+  "title": "Amphiboly",
+  "aliases": [
+   "amphibology",
+   "fallacy of amphiboly",
+   "amphibolia",
+   "fallacy of syntactic ambiguity"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/amphiboly.md",
+  "created": "2026-11-11",
+  "summary": "The fallacy of reasoning from a sentence whose grammatical structure allows two readings, accepting a premise on one reading and drawing the conclusion on the other, even though no single word in it is ambiguous.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fallacy-of-ambiguity"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:quantifier-shift-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:de-re-de-dicto-distinction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:william-of-ockham"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:sophistical-refutations",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:fallacy-of-ambiguity",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:equivocation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:ambiguity",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Which sentence in the argument can be parsed in more than one way, and what are the readings?",
+   "On the reading that makes the premise true or authoritative, does the conclusion still follow?",
+   "Is there evidence from context, the author's purpose or how the text has been applied before that settles which reading was intended?",
+   "Could the sentence be rewritten so that only one structure is possible, and does the argument survive the rewrite?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/spr2024/entries/fallacies/",
+   "https://iep.utm.edu/fallacy/",
+   "https://isidore.science/document/10670/1.fld19j",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/03%3A_Informal_Fallacies_-_Mistakes_in_Reasoning/3.04%3A_Fallacies_of_Ambiguity_and_Grammatical_Analogy",
+   "https://www.logicmuseum.com/wiki/Authors/Ockham/Summa_Logicae/Book_III-4/Chapter_5",
+   "https://read.aupress.ca/read/critical-thinking-logic-and-argument/section/79d847f7-75b3-474e-8e16-2465da141e85"
+  ]
+ },
+ {
   "id": "ct:analysis-of-competing-hypotheses",
   "title": "Analysis of competing hypotheses",
   "aliases": [

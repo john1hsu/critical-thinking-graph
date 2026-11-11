@@ -389,6 +389,81 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/amos-tversky.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which sentence in the argument can be parsed in more than one way, and what are the readings?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "On the reading that makes the premise true or authoritative, does the conclusion still follow?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is there evidence from context, the author's purpose or how the text has been applied before that settles which reading was intended?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Could the sentence be rewritten so that only one structure is possible, and does the argument survive the rewrite?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "No receipt is required for this lunch." .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The policy sentence can mean 'all meals, plus taxi fares over $25' or 'meals over $25 and taxi fares over $25'; the conclusion needs the second reading." .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "If finance wrote the rule to cover every meal, the first premise is true only on the reading under which the conclusion does not follow." .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The expense policy says receipts are required for meals and taxi fares over $25." .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "This client lunch cost $18, which is not over $25." .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2000/01/rdf-schema#label> "Amphiboly" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#altLabel> "amphibolia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#altLabel> "amphibology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of amphiboly" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of syntactic ambiguity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of reasoning from a sentence whose grammatical structure allows two readings, accepting a premise on one reading and drawing the conclusion on the other, even though no single word in it is ambiguous." .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amphiboly" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/amphiboly.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> <http://www.w3.org/2000/01/rdf-schema#label> "Analysis of competing hypotheses" .
@@ -7119,6 +7194,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/amos-tversky/s8> <https://schema.org/url> <https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Kahneman+Tversky-cognitive-illusions-1996.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, Spring 2024 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2024/entries/fallacies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Dowden)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s2> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s2> <https://schema.org/url> <https://iep.utm.edu/fallacy/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s3> <http://purl.org/dc/terms/publisher> "Informal Logic 40(1) (Walton, 2020), doi:10.22329/il.v40i1.5997, record via Isidore" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s3> <http://purl.org/dc/terms/title> "Profiles of Dialogue for Amphiboly" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s3> <https://schema.org/url> <https://isidore.science/document/10670/1.fld19j> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s4> <http://purl.org/dc/terms/publisher> "Critical Reasoning and Writing (Levin, Golden West College), Humanities LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s4> <http://purl.org/dc/terms/title> "3.4: Fallacies of Ambiguity and Grammatical Analogy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s4> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/03%3A_Informal_Fallacies_-_Mistakes_in_Reasoning/3.04%3A_Fallacies_of_Ambiguity_and_Grammatical_Analogy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s5> <http://purl.org/dc/terms/publisher> "William of Ockham, Latin text and translation, The Logic Museum" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s5> <http://purl.org/dc/terms/title> "Summa Logicae, Book III-4, Chapter 5 (on amphiboly)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s5> <https://schema.org/url> <https://www.logicmuseum.com/wiki/Authors/Ockham/Summa_Logicae/Book_III-4/Chapter_5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s6> <http://purl.org/dc/terms/publisher> "Critical Thinking, Logic, and Argument, AU Press (Athabasca University)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s6> <http://purl.org/dc/terms/title> "Chapter 21: Fallacy Round-Up" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/amphiboly/s6> <https://schema.org/url> <https://read.aupress.ca/read/critical-thinking-logic-and-argument/section/79d847f7-75b3-474e-8e16-2465da141e85> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s1> <http://purl.org/dc/terms/publisher> "Richards J. Heuer Jr., Center for the Study of Intelligence, Central Intelligence Agency (1999)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/analysis-of-competing-hypotheses/s1> <http://purl.org/dc/terms/title> "Psychology of Intelligence Analysis, Chapter 8: Analysis of Competing Hypotheses" .

@@ -35,6 +35,17 @@ flowchart TD
   o2["The slowdown matches the leak hypothesis but does not rule out any rival cause."] -. attacks .-> ra
 ```
 
+## Amphiboly (`ct:amphiboly`)
+
+```mermaid
+flowchart TD
+  p1["The expense policy says receipts are required for meals and taxi fares over $25."] --> ra{{"fallacious"}}
+  p2["This client lunch cost $18, which is not over $25."] --> ra{{"fallacious"}}
+  ra --> c["No receipt is required for this lunch."]
+  o1["The policy sentence can mean 'all meals, plus taxi fares over $25' or 'meals over $25 and taxi fares over $25'; the conclusion needs the second reading."] -. attacks .-> ra
+  o2["If finance wrote the rule to cover every meal, the first premise is true only on the reading under which the conclusion does not follow."] -. attacks .-> ra
+```
+
 ## Argument from analogy (`ct:argument-from-analogy`)
 
 ```mermaid
