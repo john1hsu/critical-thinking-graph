@@ -12132,6 +12132,102 @@
   ]
  },
  {
+  "id": "ct:predicate-logic",
+  "title": "Predicate logic",
+  "aliases": [
+   "first-order logic",
+   "quantificational logic",
+   "predicate calculus",
+   "first-order predicate calculus",
+   "FOL"
+  ],
+  "type": "Field",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/predicate-logic.md",
+  "created": "2026-11-11",
+  "summary": "The branch of formal logic that analyses statements into names, predicates and relations, and adds the quantifiers \"for all\" and \"there exists\", so that it can judge the validity of inferences that turn on generality and on what is said about particular things.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:quantifier-shift-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:exists-forall-to-forall-exists-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-tree"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:alfred-tarski"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-consequence"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:gottlob-frege",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:charles-sanders-peirce",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:propositional-logic",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:begriffsschrift",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/logic-firstorder-emergence/",
+   "https://plato.stanford.edu/archives/spr2007/entries/logic-classical/",
+   "https://forallx.openlogicproject.org/forallxyyc.pdf",
+   "https://plato.stanford.edu/ENTRIES/turing-machine/",
+   "https://plato.stanford.edu/ENTRIES/church/supplementA.html"
+  ]
+ },
+ {
   "id": "ct:premortem",
   "title": "Premortem",
   "aliases": [

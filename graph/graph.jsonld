@@ -11430,6 +11430,97 @@
    ]
   },
   {
+   "@id": "ct:predicate-logic",
+   "@type": "cto:Field",
+   "cto:contrastsWith": {
+    "@id": "ct:propositional-logic"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/predicate-logic.md",
+   "cto:influencedBy": {
+    "@id": "ct:charles-sanders-peirce"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:gottlob-frege"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:begriffsschrift"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:propositional-logic"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s5"
+    }
+   ],
+   "rdfs:label": "Predicate logic",
+   "skos:altLabel": [
+    "FOL",
+    "first-order logic",
+    "first-order predicate calculus",
+    "predicate calculus",
+    "quantificational logic"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-logic"
+   },
+   "skos:definition": "The branch of formal logic that analyses statements into names, predicates and relations, and adds the quantifiers \"for all\" and \"there exists\", so that it can judge the validity of inferences that turn on generality and on what is said about particular things.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Predicate logic",
+   "skos:related": [
+    {
+     "@id": "ct:alfred-tarski"
+    },
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:exists-forall-to-forall-exists-inference"
+    },
+    {
+     "@id": "ct:logical-consequence"
+    },
+    {
+     "@id": "ct:quantifier-shift-fallacy"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:truth-tree"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:premortem",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -28543,6 +28634,76 @@
    "dcterms:title": "Gamified Inoculation Interventions Do Not Improve Discrimination Between True and Fake News: Reanalyzing Existing Research With Receiver Operating Characteristic Analysis",
    "schema:url": {
     "@id": "https://eprints.soton.ac.uk/475360/2/2023_JEPG_Accepted_Manuscript.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (William Ewald, 2018)",
+   "dcterms:title": "The Emergence of First-Order Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/logic-firstorder-emergence/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Stewart Shapiro; Spring 2007 archive edition)",
+   "dcterms:title": "Classical Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2007/entries/logic-classical/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Open Logic Project (Magnus, Button, Loftis, Trueman, Thomas-Bolduc & Zach; CC BY 4.0)",
+   "dcterms:title": "forall x: Calgary. An Introduction to Formal Logic (PDF edition)",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/forallxyyc.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Liesbeth De Mol, rev. 2025)",
+   "dcterms:title": "Turing Machines",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/turing-machine/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy",
+   "dcterms:title": "Supplement to Alonzo Church: The Entscheidungsproblem and related results",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/church/supplementA.html"
    }
   },
   {
