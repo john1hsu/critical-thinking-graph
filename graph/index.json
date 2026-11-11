@@ -2013,6 +2013,106 @@
   ]
  },
  {
+  "id": "ct:aristotles-rhetoric",
+  "title": "Rhetoric (Aristotle)",
+  "aliases": [
+   "Ars Rhetorica",
+   "On Rhetoric",
+   "Aristotle's Rhetoric",
+   "Techne Rhetorike"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/aristotles-rhetoric.md",
+  "created": "2026-11-11",
+  "summary": "Aristotle's three-book treatise (4th century BCE) defining rhetoric as the ability to see the available means of persuasion in a case. It names three kinds of proof (the speaker's character, the audience's emotions and the argument itself) and treats argument through two rhetorical counterparts of logic: the enthymeme for deduction and the example (paradeigma) for induction, the first systematic account of arguing from one similar case to another.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:topics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:endoxa"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:the-new-rhetoric"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stasis-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:persuasion"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:argument-from-analogy",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:enthymeme",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:topics",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:argumentation-theory",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRiES/aristotle-rhetoric/",
+   "https://classics.mit.edu/Aristotle/rhetoric.mb.txt",
+   "https://ojs.tnkul.pl/index.php/rf/article/view/11156",
+   "https://rozenbergquarterly.com/issa-proceedings-2014-arguments-by-analogy-and-what-we-can-learn-about-them-from-aristotle/?print=pdf"
+  ]
+ },
+ {
   "id": "ct:attribute-substitution",
   "title": "Attribute substitution",
   "aliases": [

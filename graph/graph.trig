@@ -965,6 +965,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/aristotle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/aristotle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/aristotle#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/aristotles-rhetoric.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
 <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/austin-bradford-hill.md" .
@@ -10307,6 +10314,67 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s4> <https://schema.org/url> <https://www.britannica.com/summary/Aristotle> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2000/01/rdf-schema#label> "Rhetoric (Aristotle)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "Aristotle's Rhetoric" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "Ars Rhetorica" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "On Rhetoric" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#altLabel> "Techne Rhetorike" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#definition> "Aristotle's three-book treatise (4th century BCE) defining rhetoric as the ability to see the available means of persuasion in a case. It names three kinds of proof (the speaker's character, the audience's emotions and the argument itself) and treats argument through two rhetorical counterparts of logic: the enthymeme for deduction and the example (paradeigma) for induction, the first systematic account of arguing from one similar case to another." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rhetoric (Aristotle)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endoxa> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/persuasion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/aristotles-rhetoric.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Christof Rapp, first published 2002; substantive revision 2022)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s1> <http://purl.org/dc/terms/title> "Aristotle's Rhetoric" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRiES/aristotle-rhetoric/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s2> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive (MIT)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s2> <http://purl.org/dc/terms/title> "Rhetoric (trans. W. Rhys Roberts)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s2> <https://schema.org/url> <https://classics.mit.edu/Aristotle/rhetoric.mb.txt> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s3> <http://purl.org/dc/terms/publisher> "Roczniki Filozoficzne 69(2), 101-129 (Andrzej P. Stefańczyk, 2021), doi:10.18290/rf21692-5" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s3> <http://purl.org/dc/terms/title> "What Kind of Reasoning Is, according to Aristotle, the Argument by Example (Paradeigma)?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s3> <https://schema.org/url> <https://ojs.tnkul.pl/index.php/rf/article/view/11156> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s4> <http://purl.org/dc/terms/publisher> "Manfred Kraus (University of Tübingen), ISSA Proceedings 2014, republished by Rozenberg Quarterly" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s4> <http://purl.org/dc/terms/title> "Arguments by Analogy (and What We Can Learn about Them from Aristotle)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotles-rhetoric/s4> <https://schema.org/url> <https://rozenbergquarterly.com/issa-proceedings-2014-arguments-by-analogy-and-what-we-can-learn-about-them-from-aristotle/?print=pdf> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -16781,6 +16849,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -16848,6 +16917,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> .
@@ -16973,12 +17043,14 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentative-theory-of-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argumentative-theory-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categories> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
@@ -16986,6 +17058,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/categories> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
@@ -17015,6 +17088,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/arkes-blumer-1985-sunk-cost-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/arkes-blumer-1985-sunk-cost-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/arkes-blumer-1985-sunk-cost-experiments> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/cost-benefit-reasoning-training> .
@@ -17864,6 +17938,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/diagrammatic-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus> .
@@ -17974,6 +18049,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/emily-pronin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/emily-pronin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/emily-pronin> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endoxa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/endoxa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/englich-2006-judicial-anchoring-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/englich-2006-judicial-anchoring-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
@@ -17981,6 +18057,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
@@ -18587,6 +18664,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
@@ -19292,6 +19370,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/paul-slovic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/affect-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/persuasion-unimodel> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-abelard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-abelard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-abelard> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
@@ -19542,6 +19621,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/principles-of-medical-statistics> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
@@ -19861,6 +19941,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -20123,6 +20204,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-independence> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
@@ -20320,6 +20402,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-scientific-discovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-scientific-discovery> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
@@ -20353,8 +20436,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/time-pressure> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifies> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categories> .
   <https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/topics> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .

@@ -108,7 +108,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
-| `ct:argument-from-analogy` | cto:ArgumentScheme |
 | `ct:behavioral-economics` | cto:Field |
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:correlation-versus-causation` | cto:Principle |

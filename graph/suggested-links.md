@@ -4,21 +4,21 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 5.30 | `ct:argument` | `ct:aristotle` | `ct:amphiboly`, `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:categories` |
-| 5.13 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
+| 5.64 | `ct:argument` | `ct:aristotle` | `ct:amphiboly`, `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:aristotles-rhetoric`, `ct:begging-the-question` |
+| 5.12 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
 | 4.45 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
 | 4.28 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major` |
 | 4.12 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:attribute-substitution`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology` |
-| 3.92 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:existential-fallacy` |
+| 3.91 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:existential-fallacy` |
 | 3.82 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
-| 3.68 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:illicit-major` |
-| 3.34 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
+| 3.67 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:illicit-major` |
+| 3.33 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
 | 3.32 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:douglas-walton` |
 | 3.28 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
 | 3.22 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:expected-utility-theory`, `ct:heuristics-and-biases-program` |
-| 3.16 | `ct:aristotle` | `ct:informal-fallacy` | `ct:amphiboly`, `ct:argument-from-consequences`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:equivocation` |
+| 3.15 | `ct:aristotle` | `ct:informal-fallacy` | `ct:amphiboly`, `ct:argument-from-consequences`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:equivocation` |
 | 3.11 | `ct:argument-mapping` | `ct:informal-fallacy` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:ignoratio-elenchi` |
-| 3.06 | `ct:categorical-proposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
+| 3.05 | `ct:categorical-proposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.01 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:douglas-walton`, `ct:false-dilemma` |
 | 3.00 | `ct:argument` | `ct:argument-from-consequences` | `ct:argument-from-expert-opinion`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:defeasible-reasoning` |
 | 2.97 | `ct:method-of-counterexample` | `ct:predicate-logic` | `ct:alfred-tarski`, `ct:exists-forall-to-forall-exists-inference`, `ct:formal-logic`, `ct:masked-man-fallacy`, `ct:quantifier-shift-fallacy` |
