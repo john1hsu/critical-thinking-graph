@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:amphiboly` | cto:InformalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -47,7 +45,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:hypothesis-testing` | 1 | Confirmation bias |
 | `ct:key-assumptions-check` | 1 | Confirmation bias |
 
-…and 10 more.
+…and 11 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -96,7 +94,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
 | `ct:conflict-of-interest` | mixed |  |
 
-…and 32 more.
+…and 33 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -125,6 +123,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 | `ct:philosophical-skepticism` | cto:Concept |
 | `ct:philosophy-of-science` | cto:Field |
+| `ct:plain-language` | cto:Technique |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:precising-definition` | cto:Technique |
 | `ct:propositional-logic` | cto:Field |

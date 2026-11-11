@@ -12726,6 +12726,100 @@
   ]
  },
  {
+  "id": "ct:plain-language",
+  "title": "Plain language",
+  "aliases": [
+   "plain English",
+   "plain writing",
+   "plain-language drafting",
+   "plain language movement"
+  ],
+  "type": "Technique",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/argumentation/plain-language.md",
+  "created": "2026-11-11",
+  "summary": "A set of writing and testing practices (short single-idea sentences, careful placement of modifiers, \"must\" for obligations, no \"and/or\", lists for multiple conditions, and checking drafts with real readers) meant to make a document mean one thing to its intended audience on first reading.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:clarity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amphiboly"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:legal-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:amphiboly",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:amphiboly",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:masson-waldron-1994-legal-contracts-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:last-antecedent-rule",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.fai.gov/sites/fai/files/2016-12-22-Federal-Rulemaking-VAAR-FederalPLGuidelines.pdf",
+   "https://open.lib.umn.edu/goodreasoning/chapter/chapter-5-specifying/",
+   "https://scilit.com/publications/56d000a7a93f02741784f9d935268024",
+   "https://www.michbar.org/file/barjournal/article/documents/pdf4article2972.pdf",
+   "https://judicature.duke.edu/wp-content/uploads/sites/3/2022/07/Grammar-v1.pdf",
+   "https://centerforplainlanguage.org/learning-training/tools-training/brief-history-of-the-u-s-federal-plain-language-movement/"
+  ]
+ },
+ {
   "id": "ct:plato",
   "title": "Plato",
   "aliases": [

@@ -11953,6 +11953,94 @@
    ]
   },
   {
+   "@id": "ct:plain-language",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:legal-reasoning"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:last-antecedent-rule"
+   },
+   "cto:counteracts": {
+    "@id": "ct:amphiboly"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:masson-waldron-1994-legal-contracts-study"
+   },
+   "cto:detects": {
+    "@id": "ct:amphiboly"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/argumentation/plain-language.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:ambiguity"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s6"
+    }
+   ],
+   "rdfs:label": "Plain language",
+   "skos:altLabel": [
+    "plain English",
+    "plain language movement",
+    "plain writing",
+    "plain-language drafting"
+   ],
+   "skos:broader": {
+    "@id": "ct:clarity"
+   },
+   "skos:definition": "A set of writing and testing practices (short single-idea sentences, careful placement of modifiers, \"must\" for obligations, no \"and/or\", lists for multiple conditions, and checking drafts with real readers) meant to make a document mean one thing to its intended audience on first reading.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Plain language",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:amphiboly"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:legal-reasoning"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:vagueness"
+    }
+   ]
+  },
+  {
    "@id": "ct:plato",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -30822,6 +30910,90 @@
    "dcterms:title": "Philosophy of science: Eliminativism and falsification",
    "schema:url": {
     "@id": "https://britannica.com/topic/philosophy-of-science/Eliminativism-and-falsification"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Plain Language Action and Information Network (PLAIN), U.S. federal government; copy hosted by the Federal Acquisition Institute",
+   "dcterms:title": "Federal Plain Language Guidelines (March 2011, Revision 1 May 2011)",
+   "schema:url": {
+    "@id": "https://www.fai.gov/sites/fai/files/2016-12-22-Federal-Rulemaking-VAAR-FederalPLGuidelines.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "A Guide to Good Reasoning: Cultivating Intellectual Virtues, 2nd ed. (D. C. Wilson), University of Minnesota Libraries Publishing",
+   "dcterms:title": "Chapter 5: Specifying",
+   "schema:url": {
+    "@id": "https://open.lib.umn.edu/goodreasoning/chapter/chapter-5-specifying/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Applied Cognitive Psychology 8(1), 67-85 (Masson & Waldron, 1994), doi:10.1002/acp.2350080107, record via Scilit",
+   "dcterms:title": "Comprehension of legal contracts by non-experts: Effectiveness of plain language redrafting",
+   "schema:url": {
+    "@id": "https://scilit.com/publications/56d000a7a93f02741784f9d935268024"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Michigan Bar Journal, Plain Language column (Kimble, October 2016)",
+   "dcterms:title": "Solid Evidence That Plain Language Works Best",
+   "schema:url": {
+    "@id": "https://www.michbar.org/file/barjournal/article/documents/pdf4article2972.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Judicature 99(2), Bolch Judicial Institute, Duke Law School (Kimble, reprinted from Scribes Journal of Legal Writing)",
+   "dcterms:title": "The Doctrine of the Last Antecedent, the Example in Barnhart, and Why Both Are Weak",
+   "schema:url": {
+    "@id": "https://judicature.duke.edu/wp-content/uploads/sites/3/2022/07/Grammar-v1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Center for Plain Language",
+   "dcterms:title": "Brief History of the U.S. Federal Plain Language Movement",
+   "schema:url": {
+    "@id": "https://centerforplainlanguage.org/learning-training/tools-training/brief-history-of-the-u-s-federal-plain-language-movement/"
    }
   },
   {
