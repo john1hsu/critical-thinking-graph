@@ -4621,6 +4621,81 @@
    ]
   },
   {
+   "@id": "ct:de-re-de-dicto-distinction",
+   "@type": "cto:Technique",
+   "cto:detects": {
+    "@id": "ct:masked-man-fallacy"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:quantifier-scope"
+   },
+   "cto:file": "articles/formal-logic/de-re-de-dicto-distinction.md",
+   "cto:formalizedBy": {
+    "@id": "ct:theory-of-descriptions"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:peter-abelard"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:predicate-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-re-de-dicto-distinction/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-re-de-dicto-distinction/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-re-de-dicto-distinction/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-re-de-dicto-distinction/s4"
+    }
+   ],
+   "rdfs:label": "De re/de dicto distinction",
+   "skos:altLabel": [
+    "de re and de dicto readings",
+    "relational/notional distinction",
+    "wide-scope/narrow-scope reading of attitude reports"
+   ],
+   "skos:broader": {
+    "@id": "ct:predicate-logic"
+   },
+   "skos:definition": "The practice of separating two readings of a belief, knowledge or modal claim: de dicto, about how the subject thinks of or describes something (the term stays inside the \"that\"-clause), and de re, about the thing itself however it is described (the term takes wide scope). Fixing the reading shows when swapping co-referring terms is licensed.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "De re/de dicto distinction",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:masked-man-fallacy"
+    },
+    {
+     "@id": "ct:quantifier-shift-fallacy"
+    },
+    {
+     "@id": "ct:referential-opacity"
+    },
+    {
+     "@id": "ct:sense-and-reference"
+    },
+    {
+     "@id": "ct:willard-van-orman-quine"
+    }
+   ]
+  },
+  {
    "@id": "ct:debiasing",
    "@type": "cto:Technique",
    "cto:counteracts": [
@@ -24420,6 +24495,62 @@
    "dcterms:title": "'I am certain psychology will see many more train wrecks'",
    "schema:url": {
     "@id": "https://bps.org.uk/psychologist/i-am-certain-psychology-will-see-many-more-train-wrecks"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-re-de-dicto-distinction/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Thomas McKay and Michael Nelson)",
+   "dcterms:title": "The De Re/De Dicto Distinction (supplement to Propositional Attitude Reports), Winter 2012 edition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/Win2012/entries/prop-attitude-reports/dere.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-re-de-dicto-distinction/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Vivarium 60(2-3), 162-191 (Irene Binini, 2022), author's copy via University of Parma repository",
+   "dcterms:title": "The De re-De dicto Distinction: A Twelfth-Century Logical Discovery",
+   "schema:url": {
+    "@id": "https://air.unipr.it/retrieve/07761e64-c565-44d3-914e-8962219f9449/Binini_De%20Re%20De%20Dicto_Vivarium%202022%2c%2060%2c%202-3.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-re-de-dicto-distinction/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Frege's Problem: Referential Opacity",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/referential-opacity/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-re-de-dicto-distinction/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "MIT OpenCourseWare (Richard Holton, Spring 2005)",
+   "dcterms:title": "24.251 Handout 3 (lecture notes on Russell on denoting)",
+   "schema:url": {
+    "@id": "https://dspace.mit.edu/bitstream/handle/1721.1/152349/24-251-spring-2005/contents/lecture-notes/handout3.pdf"
    }
   },
   {

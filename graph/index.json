@@ -4902,6 +4902,87 @@
   ]
  },
  {
+  "id": "ct:de-re-de-dicto-distinction",
+  "title": "De re/de dicto distinction",
+  "aliases": [
+   "de re and de dicto readings",
+   "relational/notional distinction",
+   "wide-scope/narrow-scope reading of attitude reports"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/de-re-de-dicto-distinction.md",
+  "created": "2026-11-11",
+  "summary": "The practice of separating two readings of a belief, knowledge or modal claim: de dicto, about how the subject thinks of or describes something (the term stays inside the \"that\"-clause), and de re, about the thing itself however it is described (the term takes wide scope). Fixing the reading shows when swapping co-referring terms is licensed.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:masked-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:referential-opacity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:quantifier-shift-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sense-and-reference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:willard-van-orman-quine"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:masked-man-fallacy",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:quantifier-scope",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:theory-of-descriptions",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:peter-abelard",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/Win2012/entries/prop-attitude-reports/dere.html",
+   "https://air.unipr.it/retrieve/07761e64-c565-44d3-914e-8962219f9449/Binini_De%20Re%20De%20Dicto_Vivarium%202022%2c%2060%2c%202-3.pdf",
+   "https://iep.utm.edu/referential-opacity/",
+   "https://dspace.mit.edu/bitstream/handle/1721.1/152349/24-251-spring-2005/contents/lecture-notes/handout3.pdf"
+  ]
+ },
+ {
   "id": "ct:debiasing",
   "title": "Debiasing",
   "aliases": [
