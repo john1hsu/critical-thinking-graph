@@ -15,8 +15,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.09 | `ct:categorical-proposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.06 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:informal-fallacy` |
 | 3.05 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
-| 3.05 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
 | 3.05 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program`, `ct:numeracy` |
+| 3.05 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
 | 2.97 | `ct:argumentation-theory` | `ct:reasoning` | `ct:argument`, `ct:argumentation`, `ct:argumentative-theory-of-reasoning`, `ct:logic` |
 | 2.94 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
 | 2.92 | `ct:categorical-proposition` | `ct:john-venn` | `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:existential-import`, `ct:george-boole`, `ct:square-of-opposition` |
@@ -28,4 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.74 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:false-dilemma`, `ct:informal-fallacy` |
 | 2.74 | `ct:cognitive-psychology` | `ct:minna-cheves-wilkins` | `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:jonathan-st-b-t-evans`, `ct:psychology`, `ct:syllogism` |
 | 2.74 | `ct:formal-fallacy` | `ct:rules-of-the-categorical-syllogism` | `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms`, `ct:illicit-major`, `ct:method-of-counterexample` |
-| 2.74 | `ct:inductive-reasoning` | `ct:informal-fallacy` | `ct:argument`, `ct:bayesian-reasoning`, `ct:cogency`, `ct:cognitive-psychology`, `ct:hasty-generalization` |
+| 2.73 | `ct:inductive-reasoning` | `ct:informal-fallacy` | `ct:argument`, `ct:bayesian-reasoning`, `ct:cogency`, `ct:cognitive-psychology`, `ct:hasty-generalization` |

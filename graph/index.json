@@ -5840,6 +5840,111 @@
   ]
  },
  {
+  "id": "ct:elaboration-likelihood-model",
+  "title": "Elaboration likelihood model",
+  "aliases": [
+   "ELM",
+   "ELM of persuasion",
+   "central and peripheral routes to persuasion"
+  ],
+  "type": "Framework",
+  "domain": "evidence-and-information-literacy",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/elaboration-likelihood-model.md",
+  "created": "2026-11-11",
+  "summary": "A dual-process model of persuasion holding that people change their attitudes either by scrutinising the merits of a message's arguments (the central route) or by reacting to simple cues such as a source's expertise or likeability (the peripheral route), with motivation and ability to think deciding which route dominates.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:need-for-cognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sleeper-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristic-systematic-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rhetoric"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:richard-petty",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-cacioppo",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:petty-cacioppo-goldman-1981-involvement-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:petty-cacioppo-schumann-1983-advertising-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:persuasion-unimodel",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:many-labs-3-replication-project",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/wintersemester2011-12/attitudesandsocialjudgment/petty_cacioppo_goldman_1981_jpsp.pdf",
+   "https://intranet.fucape.br/uploads/MATERIAIS_AULAS/33022-CENTRA~1.PDF",
+   "https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/kruglanski_thompson_perssingleroute_psychinq1999.pdf",
+   "https://salford-repository.worktribe.com/output/1404485/the-elaboration-likelihood-model-review-critique-and-research-agenda",
+   "https://psychology.unt.edu/system/files/Many%20labs%203.pdf",
+   "https://aquila.usm.edu/fac_pubs/15288"
+  ]
+ },
+ {
   "id": "ct:epistemology",
   "title": "Epistemology",
   "aliases": [

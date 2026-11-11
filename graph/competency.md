@@ -94,7 +94,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:correcting-erroneous-perceptions-of-randomness` | mixed |  |
 | `ct:cost-benefit-reasoning-training` | mixed | `ct:arkes-blumer-1985-sunk-cost-experiments` |
 
-…and 26 more.
+…and 28 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
