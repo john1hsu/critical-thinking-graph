@@ -2517,6 +2517,43 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/supposition-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2000/01/rdf-schema#label> "Douglas Walton" .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#altLabel> "Doug Walton" .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#altLabel> "Douglas N. Walton" .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#altLabel> "Douglas Neil Walton" .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#definition> "Canadian philosopher and argumentation theorist (1942-2020), at Winnipeg and later Windsor's CRRAR, who catalogued presumptive argumentation schemes with matching critical questions, built a typology of dialogue types with Erik Krabbe, and argued that most \"fallacies\" are reasonable arguments misused in context." .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#prefLabel> "Douglas Walton" .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/commitment-store> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-dialogue-systems> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/douglas-walton.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-woods> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Dual-process theory" .
@@ -8264,6 +8301,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <https://schema.org/url> <https://dc2.philarchive.org/rec/WALTIO-6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s1> <http://purl.org/dc/terms/publisher> "Argumentation 35(3), 513-518 (Erik C. W. Krabbe and Bart Verheij, 2021), doi:10.1007/s10503-020-09531-1" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s1> <http://purl.org/dc/terms/title> "Douglas Neil Walton (1942-2020)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s1> <https://schema.org/url> <https://link.springer.com/article/10.1007/s10503-020-09531-1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s2> <http://purl.org/dc/terms/publisher> "Katie Atkinson, Trevor Bench-Capon, Floris Bex, Thomas Gordon, Henry Prakken, Giovanni Sartor and Bart Verheij, author manuscript hosted by Utrecht University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s2> <http://purl.org/dc/terms/title> "In Memoriam Douglas N. Walton: The influence of Doug Walton on AI and Law" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s2> <https://schema.org/url> <https://webspace.science.uu.nl/~prakk101/pubs/In_Memoriam_Doug_Walton.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s3> <http://purl.org/dc/terms/publisher> "Informal Logic 29(1), 54-83 (Douglas Walton, 2009)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s3> <http://purl.org/dc/terms/title> "Dialectical Shifts Underlying Arguments from Consequences" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s3> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-684.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s4> <http://purl.org/dc/terms/publisher> "Argument and Computation 6(3), 219-245 (Douglas Walton and Fabrizio Macagno, 2015), PhilArchive copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s4> <http://purl.org/dc/terms/title> "A classification system for argumentation schemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s4> <https://schema.org/url> <https://philarchive.org/archive/WALACS-7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s5> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Leo Groarke, Spring 2006 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s5> <http://purl.org/dc/terms/title> "Informal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s5> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2006/entries/logic-informal/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s1> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 8(3), 223-241 (Evans & Stanovich, 2013), copy hosted on a Temple University page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s1> <http://purl.org/dc/terms/title> "Dual-process theories of higher cognition: Advancing the debate" .

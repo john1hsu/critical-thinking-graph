@@ -5634,6 +5634,116 @@
   ]
  },
  {
+  "id": "ct:douglas-walton",
+  "title": "Douglas Walton",
+  "aliases": [
+   "Douglas N. Walton",
+   "Douglas Neil Walton",
+   "Doug Walton"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/douglas-walton.md",
+  "created": "2026-11-11",
+  "summary": "Canadian philosopher and argumentation theorist (1942-2020), at Winnipeg and later Windsor's CRRAR, who catalogued presumptive argumentation schemes with matching critical questions, built a typology of dialogue types with Erik Krabbe, and argued that most \"fallacies\" are reasonable arguments misused in context.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-analogy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:slippery-slope"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-dialogue-systems"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:commitment-store"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:argument-from-consequences",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:dialogue-types",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:charles-hamblin",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:john-woods",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://link.springer.com/article/10.1007/s10503-020-09531-1",
+   "https://webspace.science.uu.nl/~prakk101/pubs/In_Memoriam_Doug_Walton.pdf",
+   "https://distantreader.org/stacks/journals/il/il-684.pdf",
+   "https://philarchive.org/archive/WALACS-7",
+   "https://plato.stanford.edu/archives/spr2006/entries/logic-informal/"
+  ]
+ },
+ {
   "id": "ct:dual-process-theory",
   "title": "Dual-process theory",
   "aliases": [

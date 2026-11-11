@@ -5316,6 +5316,109 @@
    ]
   },
   {
+   "@id": "ct:douglas-walton",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/douglas-walton.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:john-woods"
+    }
+   ],
+   "cto:introduced": [
+    {
+     "@id": "ct:argument-from-consequences"
+    },
+    {
+     "@id": "ct:dialogue-types"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s5"
+    }
+   ],
+   "rdfs:label": "Douglas Walton",
+   "skos:altLabel": [
+    "Doug Walton",
+    "Douglas N. Walton",
+    "Douglas Neil Walton"
+   ],
+   "skos:definition": "Canadian philosopher and argumentation theorist (1942-2020), at Winnipeg and later Windsor's CRRAR, who catalogued presumptive argumentation schemes with matching critical questions, built a typology of dialogue types with Erik Krabbe, and argued that most \"fallacies\" are reasonable arguments misused in context.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Douglas Walton",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:argument-from-analogy"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:commitment-store"
+    },
+    {
+     "@id": "ct:formal-dialogue-systems"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:slippery-slope"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:dual-process-theory",
    "@type": "cto:Framework",
    "cto:challengedBy": [
@@ -23792,6 +23895,76 @@
    "dcterms:title": "The Irrelevance of Distribution for the Syllogism",
    "schema:url": {
     "@id": "https://dc2.philarchive.org/rec/WALTIO-6"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Argumentation 35(3), 513-518 (Erik C. W. Krabbe and Bart Verheij, 2021), doi:10.1007/s10503-020-09531-1",
+   "dcterms:title": "Douglas Neil Walton (1942-2020)",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s10503-020-09531-1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Katie Atkinson, Trevor Bench-Capon, Floris Bex, Thomas Gordon, Henry Prakken, Giovanni Sartor and Bart Verheij, author manuscript hosted by Utrecht University",
+   "dcterms:title": "In Memoriam Douglas N. Walton: The influence of Doug Walton on AI and Law",
+   "schema:url": {
+    "@id": "https://webspace.science.uu.nl/~prakk101/pubs/In_Memoriam_Doug_Walton.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Informal Logic 29(1), 54-83 (Douglas Walton, 2009)",
+   "dcterms:title": "Dialectical Shifts Underlying Arguments from Consequences",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-684.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Argument and Computation 6(3), 219-245 (Douglas Walton and Fabrizio Macagno, 2015), PhilArchive copy",
+   "dcterms:title": "A classification system for argumentation schemes",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/WALACS-7"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/douglas-walton/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Leo Groarke, Spring 2006 edition)",
+   "dcterms:title": "Informal Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2006/entries/logic-informal/"
    }
   },
   {
