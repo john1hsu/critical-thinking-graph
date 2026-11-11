@@ -17202,6 +17202,96 @@
    ]
   },
   {
+   "@id": "ct:vagueness",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:legal-reasoning"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:explains": [
+    {
+     "@id": "ct:line-drawing-fallacy"
+    },
+    {
+     "@id": "ct:sorites-paradox"
+    }
+   ],
+   "cto:file": "articles/philosophy-of-reasoning/vagueness.md",
+   "cto:introducedBy": {
+    "@id": "ct:charles-sanders-peirce"
+   },
+   "cto:level": "intermediate",
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-language"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s5"
+    }
+   ],
+   "rdfs:label": "Vagueness",
+   "skos:altLabel": [
+    "borderline vagueness",
+    "semantic vagueness",
+    "vague predicate",
+    "vague term"
+   ],
+   "skos:broader": {
+    "@id": "ct:philosophy-of-language"
+   },
+   "skos:definition": "The property of a word or claim that has borderline cases, where it is unclear whether it applies, such as \"bald\", \"tall\", \"poor\" or \"likely\"; unlike ambiguity it involves one fuzzy meaning rather than several distinct ones, and it is what generates the sorites paradox and line-drawing disputes.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Vagueness",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:bright-line-rule"
+    },
+    {
+     "@id": "ct:legal-reasoning"
+    },
+    {
+     "@id": "ct:line-drawing-fallacy"
+    },
+    {
+     "@id": "ct:plain-language"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:slippery-slope"
+    },
+    {
+     "@id": "ct:sorites-paradox"
+    },
+    {
+     "@id": "ct:words-of-estimative-probability"
+    }
+   ]
+  },
+  {
    "@id": "ct:validity",
    "@type": "cto:Concept",
    "cto:contrastsWith": [
@@ -35362,6 +35452,76 @@
    "dcterms:title": "Characterizing belief bias in syllogistic reasoning: A hierarchical Bayesian meta-analysis of ROC data",
    "schema:url": {
     "@id": "https://link.springer.com/10.3758/s13423-018-1460-7"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Sorensen, rev. 2022)",
+   "dcterms:title": "Vagueness",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/vagueness/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Logical Reasoning (Dowden, California State University Sacramento), Humanities LibreTexts",
+   "dcterms:title": "3.2: Being Too Vague",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/03%3A_Writing_with_the_Appropriate_Precision/3.02%3A_Being_Too_Vague"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Critical Reasoning: A User's Manual (Southworth & Swoyer), Humanities LibreTexts",
+   "dcterms:title": "11.3: Drawing the Line",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/11%3A_Fallacies-_Common_Ways_of_Reasoning_Badly/11.03%3A_Drawing_the_Line"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Sherman Kent, Central Intelligence Agency, Center for the Study of Intelligence",
+   "dcterms:title": "Words of Estimative Probability",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "PLOS ONE 14(4) e0213522 (Wintle, Fraser, Wills, Nicholson & Fidler, 2019), University of Melbourne repository",
+   "dcterms:title": "Verbal probabilities: Very likely to be somewhat more confusing than numbers",
+   "schema:url": {
+    "@id": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/3d6edf87-1815-5d22-95d6-0b4510f8ea6b/content"
    }
   },
   {

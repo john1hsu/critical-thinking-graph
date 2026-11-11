@@ -18242,6 +18242,103 @@
   ]
  },
  {
+  "id": "ct:vagueness",
+  "title": "Vagueness",
+  "aliases": [
+   "vague predicate",
+   "vague term",
+   "borderline vagueness",
+   "semantic vagueness"
+  ],
+  "type": "Concept",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/vagueness.md",
+  "created": "2026-11-11",
+  "summary": "The property of a word or claim that has borderline cases, where it is unclear whether it applies, such as \"bald\", \"tall\", \"poor\" or \"likely\"; unlike ambiguity it involves one fuzzy meaning rather than several distinct ones, and it is what generates the sorites paradox and line-drawing disputes.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy-of-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sorites-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bright-line-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:slippery-slope"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:words-of-estimative-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:plain-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:legal-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:line-drawing-fallacy"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-language",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explains",
+    "object": "ct:sorites-paradox",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:charles-sanders-peirce",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explains",
+    "object": "ct:line-drawing-fallacy",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/vagueness/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/03%3A_Writing_with_the_Appropriate_Precision/3.02%3A_Being_Too_Vague",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/11%3A_Fallacies-_Common_Ways_of_Reasoning_Badly/11.03%3A_Drawing_the_Line",
+   "https://www.cia.gov/resources/csi/static/Words-of-Estimative-Probability.pdf",
+   "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/3d6edf87-1815-5d22-95d6-0b4510f8ea6b/content"
+  ]
+ },
+ {
   "id": "ct:validity",
   "title": "Validity",
   "aliases": [
