@@ -1158,6 +1158,16 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/sarah-lichtenstein.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/sherman-kent.md" .
@@ -11599,6 +11609,82 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/richard-whately/s6> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-456.pdf> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2000/01/rdf-schema#label> "Sarah Lichtenstein" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#altLabel> "Lichtenstein" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#altLabel> "S. Lichtenstein" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#definition> "American decision researcher, a student of Ward Edwards and co-founder of Decision Research (1976), who with Paul Slovic discovered preference reversals (1971) and with Baruch Fischhoff and Lawrence Phillips laid the foundations of psychological research on the calibration of probability judgments." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sarah Lichtenstein" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lichtenstein-1978-judged-frequency-of-lethal-events> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/paul-slovic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/sarah-lichtenstein.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/preference-reversal> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> <http://purl.org/dc/terms/publisher> "Decision Research, Eugene, Oregon" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> <http://purl.org/dc/terms/title> "About Decision Research" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> <https://schema.org/url> <https://www.decisionresearch.org/about> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2> <http://purl.org/dc/terms/publisher> "Journal of Experimental Psychology 89, 46-55 (Lichtenstein & Slovic, 1971), University of Oregon Scholars' Bank record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2> <http://purl.org/dc/terms/title> "Reversals of preference between bids and choices in gambling decisions" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2> <https://schema.org/url> <https://scholarsbank.uoregon.edu/items/0412bdbb-67c9-4646-bd57-d039326c1e98/full> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3> <http://purl.org/dc/terms/publisher> "Lichtenstein, Fischhoff & Phillips, Oregon Research Institute for DARPA/ONR, August 1976 (DTIC ADA033248)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3> <http://purl.org/dc/terms/title> "Calibration of Probabilities: The State of the Art (Technical Report DDI 3)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/ADA033248.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4> <http://purl.org/dc/terms/publisher> "In Kahneman, Slovic & Tversky (eds.), Judgment under Uncertainty: Heuristics and Biases, pp. 306-334, Cambridge University Press, 1982, doi:10.1017/CBO9780511809477.023" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4> <http://purl.org/dc/terms/title> "Calibration of probabilities: The state of the art to 1980" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4> <https://schema.org/url> <https://www.cambridge.org/core/books/abs/judgment-under-uncertainty/calibration-of-probabilities-the-state-of-the-art-to-1980/9F0C9EC2997AEEB6DDDB304C2F935A16> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5> <http://purl.org/dc/terms/publisher> "Journal of Experimental Psychology: Human Learning and Memory 4, 551-578 (Lichtenstein, Slovic, Fischhoff, Layman & Combs, 1978), University of Oregon Scholars' Bank record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5> <http://purl.org/dc/terms/title> "Judged frequency of lethal events" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5> <https://schema.org/url> <https://scholarsbank.uoregon.edu/items/6e84075e-f186-4dfb-bbb1-380229907c3f/full> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6> <http://purl.org/dc/terms/publisher> "Decision Research book collection (Lichtenstein & Slovic, eds., Cambridge University Press, 2006)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6> <http://purl.org/dc/terms/title> "The Construction of Preference" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6> <https://schema.org/url> <https://decisionresearch.org/book-collection/the-construction-of-preference> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7> <http://purl.org/dc/terms/publisher> "Current Contents, 1986 (commentary by Paul Slovic), Eugene Garfield archive, University of Pennsylvania" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7> <http://purl.org/dc/terms/title> "This Week's Citation Classic: Behavioral decision theory (Slovic, Fischhoff & Lichtenstein, Annual Review of Psychology 28, 1977)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7> <https://schema.org/url> <https://garfield.library.upenn.edu/classics1986/A1986A161500001.pdf> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -15762,6 +15848,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
@@ -15910,6 +15997,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/breakstone-2021-online-course-lateral-reading-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/breakstone-2021-online-course-lateral-reading-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/breakstone-2021-online-course-lateral-reading-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -15941,6 +16029,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/california-critical-thinking-disposition-inventory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/california-critical-thinking-skills-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
@@ -16726,6 +16815,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rationality> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
@@ -17063,6 +17153,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-nisbett> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
@@ -17523,6 +17614,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lichtenstein-1978-judged-frequency-of-lethal-events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lichtenstein-1978-judged-frequency-of-lethal-events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/lichtenstein-1978-judged-frequency-of-lethal-events> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lichtenstein-1978-judged-frequency-of-lethal-events> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/linchpin-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logic-the-theory-of-inquiry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -17835,6 +17927,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifiedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
@@ -17849,6 +17942,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/parmenides> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
   <https://github.com/john1hsu/critical-thinking-graph/id/paul-slovic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/paul-slovic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/paul-slovic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/paul-slovic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/affect-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/persuasion-unimodel> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
@@ -18026,6 +18120,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/preference-reversal> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
@@ -18432,7 +18527,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/sam-wineburg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sam-wineburg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sam-wineburg> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sarah-mcgrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -19044,6 +19139,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/vosoughi-2018-spread-of-true-and-false-news> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ward-edwards> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wason-1960-rule-discovery-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wason-1960-rule-discovery-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .

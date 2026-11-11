@@ -14239,6 +14239,89 @@
   ]
  },
  {
+  "id": "ct:sarah-lichtenstein",
+  "title": "Sarah Lichtenstein",
+  "aliases": [
+   "S. Lichtenstein",
+   "Lichtenstein"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/sarah-lichtenstein.md",
+  "created": "2026-11-11",
+  "summary": "American decision researcher, a student of Ward Edwards and co-founder of Decision Research (1976), who with Paul Slovic discovered preference reversals (1971) and with Baruch Fischhoff and Lawrence Phillips laid the foundations of psychological research on the calibration of probability judgments.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:baruch-fischhoff"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:paul-slovic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:brier-score"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lichtenstein-1978-judged-frequency-of-lethal-events"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:calibration",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:preference-reversal",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:ward-edwards",
+    "source": "s7",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s7",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.decisionresearch.org/about",
+   "https://scholarsbank.uoregon.edu/items/0412bdbb-67c9-4646-bd57-d039326c1e98/full",
+   "https://apps.dtic.mil/sti/pdfs/ADA033248.pdf",
+   "https://www.cambridge.org/core/books/abs/judgment-under-uncertainty/calibration-of-probabilities-the-state-of-the-art-to-1980/9F0C9EC2997AEEB6DDDB304C2F935A16",
+   "https://scholarsbank.uoregon.edu/items/6e84075e-f186-4dfb-bbb1-380229907c3f/full",
+   "https://decisionresearch.org/book-collection/the-construction-of-preference",
+   "https://garfield.library.upenn.edu/classics1986/A1986A161500001.pdf"
+  ]
+ },
+ {
   "id": "ct:satisficing",
   "title": "Satisficing",
   "aliases": [

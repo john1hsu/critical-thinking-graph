@@ -13432,6 +13432,91 @@
    ]
   },
   {
+   "@id": "ct:sarah-lichtenstein",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/sarah-lichtenstein.md",
+   "cto:influencedBy": {
+    "@id": "ct:ward-edwards"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:preference-reversal"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7"
+    }
+   ],
+   "rdfs:label": "Sarah Lichtenstein",
+   "skos:altLabel": [
+    "Lichtenstein",
+    "S. Lichtenstein"
+   ],
+   "skos:definition": "American decision researcher, a student of Ward Edwards and co-founder of Decision Research (1976), who with Paul Slovic discovered preference reversals (1971) and with Baruch Fischhoff and Lawrence Phillips laid the foundations of psychological research on the calibration of probability judgments.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Sarah Lichtenstein",
+   "skos:related": [
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:baruch-fischhoff"
+    },
+    {
+     "@id": "ct:brier-score"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:lichtenstein-1978-judged-frequency-of-lethal-events"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:paul-slovic"
+    }
+   ]
+  },
+  {
    "@id": "ct:satisficing",
    "@type": "cto:Heuristic",
    "cto:contrastsWith": {
@@ -30705,6 +30790,104 @@
    "dcterms:title": "Rules and Fallacies",
    "schema:url": {
     "@id": "https://mail.philosophypages.com/lg/e08b.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Decision Research, Eugene, Oregon",
+   "dcterms:title": "About Decision Research",
+   "schema:url": {
+    "@id": "https://www.decisionresearch.org/about"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology 89, 46-55 (Lichtenstein & Slovic, 1971), University of Oregon Scholars' Bank record",
+   "dcterms:title": "Reversals of preference between bids and choices in gambling decisions",
+   "schema:url": {
+    "@id": "https://scholarsbank.uoregon.edu/items/0412bdbb-67c9-4646-bd57-d039326c1e98/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Lichtenstein, Fischhoff & Phillips, Oregon Research Institute for DARPA/ONR, August 1976 (DTIC ADA033248)",
+   "dcterms:title": "Calibration of Probabilities: The State of the Art (Technical Report DDI 3)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA033248.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "In Kahneman, Slovic & Tversky (eds.), Judgment under Uncertainty: Heuristics and Biases, pp. 306-334, Cambridge University Press, 1982, doi:10.1017/CBO9780511809477.023",
+   "dcterms:title": "Calibration of probabilities: The state of the art to 1980",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/abs/judgment-under-uncertainty/calibration-of-probabilities-the-state-of-the-art-to-1980/9F0C9EC2997AEEB6DDDB304C2F935A16"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology: Human Learning and Memory 4, 551-578 (Lichtenstein, Slovic, Fischhoff, Layman & Combs, 1978), University of Oregon Scholars' Bank record",
+   "dcterms:title": "Judged frequency of lethal events",
+   "schema:url": {
+    "@id": "https://scholarsbank.uoregon.edu/items/6e84075e-f186-4dfb-bbb1-380229907c3f/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Decision Research book collection (Lichtenstein & Slovic, eds., Cambridge University Press, 2006)",
+   "dcterms:title": "The Construction of Preference",
+   "schema:url": {
+    "@id": "https://decisionresearch.org/book-collection/the-construction-of-preference"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Current Contents, 1986 (commentary by Paul Slovic), Eugene Garfield archive, University of Pennsylvania",
+   "dcterms:title": "This Week's Citation Classic: Behavioral decision theory (Slovic, Fischhoff & Lichtenstein, Annual Review of Psychology 28, 1977)",
+   "schema:url": {
+    "@id": "https://garfield.library.upenn.edu/classics1986/A1986A161500001.pdf"
    }
   },
   {

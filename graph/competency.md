@@ -112,7 +112,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:ambiguity` | cto:Concept |
 | `ct:argument-from-analogy` | cto:ArgumentScheme |
 | `ct:bright-line-rule` | cto:Principle |
-| `ct:calibration` | cto:Concept |
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
