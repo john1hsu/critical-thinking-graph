@@ -15541,6 +15541,87 @@
   ]
  },
  {
+  "id": "ct:richard-thaler",
+  "title": "Richard H. Thaler",
+  "aliases": [
+   "Richard Thaler",
+   "R. H. Thaler"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/richard-thaler.md",
+  "created": "2026-11-11",
+  "summary": "American economist at the University of Chicago Booth School of Business, widely credited with founding behavioral economics, who coined the term endowment effect, developed mental accounting and the planner-doer model of self-control, co-proposed libertarian paternalism and the nudge with Cass Sunstein, and received the 2017 Nobel memorial prize in economics.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:choice-architecture"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:madrian-shea-2001-automatic-enrollment-study"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:behavioral-economics",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:endowment-effect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:libertarian-paternalism",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:toward-a-positive-theory-of-consumer-choice",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:prospect-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.kva.se/app/uploads/2017/10/scibackeken17.pdf",
+   "https://www.chicagobooth.edu/faculty/directory/t/richard-h-thaler",
+   "https://economics.cornell.edu/news/behavioral-economics-born-cornell-embraced-policymakers",
+   "https://econpapers.repec.org/RePEc:eee:jeborg:v:1:y:1980:i:1:p:39-60",
+   "https://news.uchicago.edu/story/prof-richard-thaler-delivers-nobel-prize-lecture"
+  ]
+ },
+ {
   "id": "ct:richard-whately",
   "title": "Richard Whately",
   "aliases": [

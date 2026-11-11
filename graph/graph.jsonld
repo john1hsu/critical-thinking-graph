@@ -14627,6 +14627,84 @@
    ]
   },
   {
+   "@id": "ct:richard-thaler",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:toward-a-positive-theory-of-consumer-choice"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/richard-thaler.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    }
+   ],
+   "cto:introduced": [
+    {
+     "@id": "ct:behavioral-economics"
+    },
+    {
+     "@id": "ct:endowment-effect"
+    },
+    {
+     "@id": "ct:libertarian-paternalism"
+    }
+   ],
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s5"
+    }
+   ],
+   "rdfs:label": "Richard H. Thaler",
+   "skos:altLabel": [
+    "R. H. Thaler",
+    "Richard Thaler"
+   ],
+   "skos:definition": "American economist at the University of Chicago Booth School of Business, widely credited with founding behavioral economics, who coined the term endowment effect, developed mental accounting and the planner-doer model of self-control, co-proposed libertarian paternalism and the nudge with Cass Sunstein, and received the 2017 Nobel memorial prize in economics.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Richard H. Thaler",
+   "skos:related": [
+    {
+     "@id": "ct:choice-architecture"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:loss-aversion"
+    },
+    {
+     "@id": "ct:madrian-shea-2001-automatic-enrollment-study"
+    }
+   ]
+  },
+  {
    "@id": "ct:richard-whately",
    "@type": "cto:Person",
    "cto:authored": [
@@ -33547,6 +33625,76 @@
    "dcterms:title": "Unconscious influences on decision making: A critical review",
    "schema:url": {
     "@id": "https://discovery.ucl.ac.uk/id/eprint/1419217/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Committee for the Prize in Economic Sciences in Memory of Alfred Nobel, Royal Swedish Academy of Sciences (9 October 2017)",
+   "dcterms:title": "Richard H. Thaler: Integrating Economics with Psychology (Scientific Background on the Prize in Economic Sciences 2017)",
+   "schema:url": {
+    "@id": "https://www.kva.se/app/uploads/2017/10/scibackeken17.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "University of Chicago Booth School of Business",
+   "dcterms:title": "Richard H. Thaler (faculty profile)",
+   "schema:url": {
+    "@id": "https://www.chicagobooth.edu/faculty/directory/t/richard-h-thaler"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Cornell University Department of Economics (Hovis, 3 October 2025)",
+   "dcterms:title": "Behavioral economics: Born at Cornell, embraced by policymakers",
+   "schema:url": {
+    "@id": "https://economics.cornell.edu/news/behavioral-economics-born-cornell-embraced-policymakers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Journal of Economic Behavior & Organization 1(1), 39-60 (Thaler, 1980), EconPapers/RePEc record",
+   "dcterms:title": "Toward a positive theory of consumer choice",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:eee:jeborg:v:1:y:1980:i:1:p:39-60"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/richard-thaler/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "UChicago News, University of Chicago (Jones, December 2017)",
+   "dcterms:title": "Prof. Richard Thaler delivers Nobel Prize lecture",
+   "schema:url": {
+    "@id": "https://news.uchicago.edu/story/prof-richard-thaler-delivers-nobel-prize-lecture"
    }
   },
   {
