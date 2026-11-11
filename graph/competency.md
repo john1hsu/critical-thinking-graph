@@ -81,6 +81,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
+| `ct:null-hypothesis-significance-testing` | contested | `ct:amrhein-2019-retire-statistical-significance` |
 | `ct:prospect-theory` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
@@ -92,9 +93,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:bounded-rationality` | mixed |  |
 | `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
-| `ct:conflict-of-interest` | mixed |  |
 
-…and 33 more.
+…and 34 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

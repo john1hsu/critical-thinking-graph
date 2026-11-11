@@ -12127,6 +12127,120 @@
   ]
  },
  {
+  "id": "ct:null-hypothesis-significance-testing",
+  "title": "Null-hypothesis significance testing",
+  "aliases": [
+   "NHST",
+   "significance testing",
+   "statistical significance testing",
+   "p-value testing",
+   "null ritual"
+  ],
+  "type": "Method",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/scientific-reasoning/null-hypothesis-significance-testing.md",
+  "created": "2026-11-11",
+  "summary": "The statistical procedure of assuming a \"no effect\" null hypothesis, computing a p-value (the probability, under that model, of data at least as extreme as those observed) and declaring a result \"statistically significant\" when the p-value falls below a preset threshold, usually 0.05.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:power-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:p-hacking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inverse-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gerd-gigerenzer"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ronald-fisher",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:jerzy-neyman",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:bayesian-reasoning",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:statistics",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:amrhein-2019-retire-statistical-significance",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.yorku.ca/pclassic/Fisher/Methods/chap3.htm",
+   "https://psychology.okstate.edu/faculty/jgrice/psyc4333/GG_Mindless_2004.pdf",
+   "https://www.stat.berkeley.edu/%7Ealdous/Real_World/ASA_statement.pdf",
+   "https://dspace.library.uu.nl/handle/1874/360978",
+   "https://ui.adsabs.harvard.edu/abs/2019Natur.567..305A"
+  ]
+ },
+ {
   "id": "ct:numeracy",
   "title": "Numeracy",
   "aliases": [

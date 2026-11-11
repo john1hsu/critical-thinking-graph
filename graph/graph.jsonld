@@ -11376,6 +11376,111 @@
    ]
   },
   {
+   "@id": "ct:null-hypothesis-significance-testing",
+   "@type": "cto:Method",
+   "cto:challengedBy": {
+    "@id": "ct:amrhein-2019-retire-statistical-significance"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/scientific-reasoning/null-hypothesis-significance-testing.md",
+   "cto:influencedBy": {
+    "@id": "ct:jerzy-neyman"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:ronald-fisher"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:statistics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s5"
+    }
+   ],
+   "rdfs:label": "Null-hypothesis significance testing",
+   "skos:altLabel": [
+    "NHST",
+    "null ritual",
+    "p-value testing",
+    "significance testing",
+    "statistical significance testing"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:statistical-reasoning"
+    }
+   ],
+   "skos:definition": "The statistical procedure of assuming a \"no effect\" null hypothesis, computing a p-value (the probability, under that model, of data at least as extreme as those observed) and declaring a result \"statistically significant\" when the p-value falls below a preset threshold, usually 0.05.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Null-hypothesis significance testing",
+   "skos:related": [
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:inverse-fallacy"
+    },
+    {
+     "@id": "ct:p-hacking"
+    },
+    {
+     "@id": "ct:power-analysis"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    }
+   ]
+  },
+  {
    "@id": "ct:numeracy",
    "@type": "cto:Disposition",
    "cto:counteracts": [
@@ -30670,6 +30775,76 @@
    "dcterms:title": "Counterfactual 'only if' conditionals",
    "schema:url": {
     "@id": "https://repositories.cdlib.org/content/qt373511jh/qt373511jh.pdf?t=os5l2c"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Oliver and Boyd (Fisher, 1925), Classics in the History of Psychology, York University",
+   "dcterms:title": "Statistical Methods for Research Workers, Chapter III: Distributions",
+   "schema:url": {
+    "@id": "https://www.yorku.ca/pclassic/Fisher/Methods/chap3.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "The Journal of Socio-Economics 33, 587-606 (Gigerenzer, 2004), hosted copy at Oklahoma State University",
+   "dcterms:title": "Mindless statistics",
+   "schema:url": {
+    "@id": "https://psychology.okstate.edu/faculty/jgrice/psyc4333/GG_Mindless_2004.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "The American Statistician 70(2), 129-133 (Wasserstein & Lazar, 2016), hosted copy at UC Berkeley",
+   "dcterms:title": "The ASA's statement on p-values: context, process, and purpose",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/%7Ealdous/Real_World/ASA_statement.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Nature Human Behaviour 2, 6-10 (Benjamin et al., 2018), Utrecht University repository",
+   "dcterms:title": "Redefine statistical significance",
+   "schema:url": {
+    "@id": "https://dspace.library.uu.nl/handle/1874/360978"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Nature 567, 305-307 (Amrhein, Greenland & McShane, 2019), NASA ADS record",
+   "dcterms:title": "Scientists rise up against statistical significance",
+   "schema:url": {
+    "@id": "https://ui.adsabs.harvard.edu/abs/2019Natur.567..305A"
    }
   },
   {
