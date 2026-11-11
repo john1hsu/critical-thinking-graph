@@ -320,6 +320,17 @@ flowchart TD
   o2["Rolling back the index and watching the timeouts is a test the inference recommends, not one it replaces."] -. attacks .-> ra
 ```
 
+## Masked-man fallacy (`ct:masked-man-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["The anonymous reviewer of our grant proposal is the head of the research office."] --> ra{{"invalid"}}
+  p2["The project lead believes the anonymous reviewer was unfair to us."] --> ra{{"invalid"}}
+  ra --> c["The project lead believes the head of the research office was unfair to us."]
+  o1["The project lead does not know who the reviewer is, so their belief is about 'the reviewer', not about the head of the office."] -. attacks .-> ra
+  o2["The lead may sincerely say the head of the research office has always treated the team fairly; both reports can be true at once."] -. attacks .-> ra
+```
+
 ## Modus ponens (`ct:modus-ponens`)
 
 ```mermaid

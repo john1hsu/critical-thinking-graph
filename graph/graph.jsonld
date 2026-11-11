@@ -9932,6 +9932,97 @@
    ]
   },
   {
+   "@id": "ct:masked-man-fallacy",
+   "@type": "cto:FormalFallacy",
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map"
+   },
+   "cto:explainedBy": [
+    {
+     "@id": "ct:referential-opacity"
+    },
+    {
+     "@id": "ct:sense-and-reference"
+    }
+   ],
+   "cto:file": "articles/formal-fallacies/masked-man-fallacy.md",
+   "cto:introducedBy": {
+    "@id": "ct:eubulides"
+   },
+   "cto:invalidFormOf": {
+    "@id": "ct:substitution-of-identicals"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:predicate-logic"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s5"
+    }
+   ],
+   "rdfs:label": "Masked-man fallacy",
+   "skos:altLabel": [
+    "hooded man fallacy",
+    "illicit substitution of identicals",
+    "veiled man fallacy"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The invalid inference that swaps one name or description for another that picks out the same thing inside a belief, knowledge or other intensional context (\"a is b; someone believes Fa; so they believe Fb\"), or that concludes two things are distinct because someone thinks of them differently.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Masked-man fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:gottlob-frege"
+    },
+    {
+     "@id": "ct:liar-paradox"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:quantifier-shift-fallacy"
+    },
+    {
+     "@id": "ct:willard-van-orman-quine"
+    }
+   ]
+  },
+  {
    "@id": "ct:metacognition",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -19770,6 +19861,112 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:masked-man-fallacy"
+   },
+   "rdfs:label": "Does the conclusion swap a name or description inside \"believes\", \"knows\", \"wants\" or a similar verb?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:masked-man-fallacy"
+   },
+   "rdfs:label": "Does the person whose attitude is reported know that the two names refer to the same thing?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:masked-man-fallacy"
+   },
+   "rdfs:label": "Could the report be read as being about the thing itself (de re) rather than about how the person thinks of it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:masked-man-fallacy"
+   },
+   "rdfs:label": "Is \"they know a but not b\" being used to prove that a and b are different things?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:masked-man-fallacy"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The project lead believes the head of the research office was unfair to us."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The project lead does not know who the reviewer is, so their belief is about 'the reviewer', not about the head of the office."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The lead may sincerely say the head of the research office has always treated the team fairly; both reports can be true at once."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The anonymous reviewer of our grant proposal is the head of the research office."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The project lead believes the anonymous reviewer was unfair to us."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:substitution-of-identicals"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -28451,6 +28648,76 @@
    "dcterms:title": "Validity and Soundness",
    "schema:url": {
     "@id": "https://iep.utm.edu/val-snd"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "The Masked Man Fallacy",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/illisubs.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Graeme Forbes)",
+   "dcterms:title": "Frege's Problem: Referential Opacity",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/referential-opacity/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "The Journal of Philosophy 53(5), 177-187 (W. V. Quine, 1956), author's text via University of Vermont course page",
+   "dcterms:title": "Quantifiers and Propositional Attitudes",
+   "schema:url": {
+    "@id": "https://www.uvm.edu/~lderosse/courses/lang/Quine(1956).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Michael Nelson)",
+   "dcterms:title": "The De Re/De Dicto Distinction (supplement to Propositional Attitude Reports)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/prop-attitude-reports/dere.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Stephen Read and Paul Vincent Spade)",
+   "dcterms:title": "Notes to Insolubles",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/insolubles/notes.html"
    }
   },
   {

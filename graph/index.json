@@ -10594,6 +10594,101 @@
   ]
  },
  {
+  "id": "ct:masked-man-fallacy",
+  "title": "Masked-man fallacy",
+  "aliases": [
+   "illicit substitution of identicals",
+   "veiled man fallacy",
+   "hooded man fallacy"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/masked-man-fallacy.md",
+  "created": "2026-11-11",
+  "summary": "The invalid inference that swaps one name or description for another that picks out the same thing inside a belief, knowledge or other intensional context (\"a is b; someone believes Fa; so they believe Fb\"), or that concludes two things are distinct because someone thinks of them differently.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gottlob-frege"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:willard-van-orman-quine"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:quantifier-shift-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:liar-paradox"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:substitution-of-identicals",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:referential-opacity",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:sense-and-reference",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:eubulides",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the conclusion swap a name or description inside \"believes\", \"knows\", \"wants\" or a similar verb?",
+   "Does the person whose attitude is reported know that the two names refer to the same thing?",
+   "Could the report be read as being about the thing itself (de re) rather than about how the person thinks of it?",
+   "Is \"they know a but not b\" being used to prove that a and b are different things?"
+  ],
+  "source_urls": [
+   "https://fallacyfiles.org/illisubs.html",
+   "https://iep.utm.edu/referential-opacity/",
+   "https://www.uvm.edu/~lderosse/courses/lang/Quine(1956).pdf",
+   "https://plato.stanford.edu/ENTRIES/prop-attitude-reports/dere.html",
+   "https://plato.stanford.edu/entries/insolubles/notes.html"
+  ]
+ },
+ {
   "id": "ct:metacognition",
   "title": "Metacognition",
   "aliases": [
