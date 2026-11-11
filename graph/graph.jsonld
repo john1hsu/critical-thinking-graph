@@ -10585,6 +10585,93 @@
    ]
   },
   {
+   "@id": "ct:peter-geach",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/peter-geach.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:gottlob-frege"
+    },
+    {
+     "@id": "ct:ludwig-wittgenstein"
+    }
+   ],
+   "cto:introduced": [
+    {
+     "@id": "ct:frege-geach-problem"
+    },
+    {
+     "@id": "ct:quantifier-shift-fallacy"
+    },
+    {
+     "@id": "ct:relative-identity"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:predicate-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s6"
+    }
+   ],
+   "rdfs:label": "Peter Geach",
+   "skos:altLabel": [
+    "P. T. Geach",
+    "Peter Thomas Geach"
+   ],
+   "skos:definition": "British philosopher and logician (1916-2013), Professor of Logic at Leeds, who used Frege's logic to criticise traditional term logic, gave the quantifier shift fallacy its name, argued that identity is relative, and raised the embedding objection now called the Frege-Geach problem.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Peter Geach",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:formal-logic"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:predicate-logic"
+    },
+    {
+     "@id": "ct:quantifier-shift-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:peter-wason",
    "@type": "cto:Person",
    "cto:challengedBy": {
@@ -27975,6 +28062,90 @@
    "dcterms:title": "A simple remedy for overprecision in judgment",
    "schema:url": {
     "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Biographical Memoirs of Fellows of the British Academy XIV, 185-203 (Anthony Kenny, 2015)",
+   "dcterms:title": "Peter Thomas Geach 1916-2013",
+   "schema:url": {
+    "@id": "https://www.thebritishacademy.ac.uk/documents/1529/09_Geach_1820.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Harry Deutsch, first published 2002; Fall 2006 edition)",
+   "dcterms:title": "Relative Identity",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/fall2006/entries/identity-relative/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Mark van Roojen, 2023)",
+   "dcterms:title": "Supplement to Moral Cognitivism vs. Non-Cognitivism: Responses to the Embedding Problem",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/moral-cognitivism/embedding-problem-responses.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Routledge Handbook of Metaethics, ed. McPherson and Plunkett (Jack Woods, 2017), accepted manuscript, White Rose Research Online",
+   "dcterms:title": "The Frege-Geach Problem",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/108348/1/The_Frege-Geach_Problem_-_The_Routledge.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "History and Philosophy of Logic 27(1), 59-74 (Terence Parsons, 2006), PhilPapers record",
+   "dcterms:title": "The doctrine of distribution",
+   "schema:url": {
+    "@id": "https://api.philpapers.org/rec/TERTDO-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peter-geach/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Quantifier-Shift Fallacy",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/quanshif.html"
    }
   },
   {

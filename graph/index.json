@@ -11266,6 +11266,94 @@
   ]
  },
  {
+  "id": "ct:peter-geach",
+  "title": "Peter Geach",
+  "aliases": [
+   "P. T. Geach",
+   "Peter Thomas Geach"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/peter-geach.md",
+  "created": "2026-11-11",
+  "summary": "British philosopher and logician (1916-2013), Professor of Logic at Leeds, who used Frege's logic to criticise traditional term logic, gave the quantifier shift fallacy its name, argued that identity is relative, and raised the embedding objection now called the Frege-Geach problem.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:quantifier-shift-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:relative-identity",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:frege-geach-problem",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:quantifier-shift-fallacy",
+    "source": "s6",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:gottlob-frege",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:ludwig-wittgenstein",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.thebritishacademy.ac.uk/documents/1529/09_Geach_1820.pdf",
+   "https://plato.stanford.edu/archives/fall2006/entries/identity-relative/",
+   "https://plato.stanford.edu/ENTRIES/moral-cognitivism/embedding-problem-responses.html",
+   "https://eprints.whiterose.ac.uk/108348/1/The_Frege-Geach_Problem_-_The_Routledge.pdf",
+   "https://api.philpapers.org/rec/TERTDO-2",
+   "https://fallacyfiles.org/quanshif.html"
+  ]
+ },
+ {
   "id": "ct:peter-wason",
   "title": "Peter Wason",
   "aliases": [

@@ -128,7 +128,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:propositional-logic` | cto:Field |
-| `ct:quantifier-shift-fallacy` | cto:FormalFallacy |
 | `ct:random-sampling` | cto:Method |
 | `ct:reasoning` | cto:Concept |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
