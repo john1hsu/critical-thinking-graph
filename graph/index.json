@@ -6391,6 +6391,116 @@
   ]
  },
  {
+  "id": "ct:expected-utility-theory",
+  "title": "Expected utility theory",
+  "aliases": [
+   "EUT",
+   "expected utility hypothesis",
+   "expected utility maximization",
+   "von Neumann-Morgenstern utility theory"
+  ],
+  "type": "Framework",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/decision-making/expected-utility-theory.md",
+  "created": "2026-11-11",
+  "summary": "The model of choice under risk that values each option by weighting the utility of its possible outcomes by their probabilities and recommends the option with the highest total; it is the classical normative standard for rational decisions and a much-criticised descriptive model of how people actually choose.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:decision-theory"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:satisficing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:kenneth-arrow"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reversible-and-irreversible-decisions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-consequences"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:st-petersburg-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-aversion"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-bernoulli",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:theory-of-games-and-economic-behavior",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:prospect-theory",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:allais-paradox",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/rationality-normative-utility/",
+   "https://cw.fel.cvut.cz/b191/_media/courses/xp36vpd/bernoulli-theorymeasurementofrisk.pdf",
+   "https://muse.jhu.edu/books/9781400829460",
+   "https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk",
+   "https://www2.um.edu.uy/marcaffera/marcelo/Papers/Ambiguity/Starmer%20-%20JEL%20-%202000.pdf",
+   "https://ocw.mit.edu/courses/14-123-microeconomic-theory-iii-spring-2015/b2353bc4abf8a109fb75bba0064b331d_MIT14_123S15_expected1.pdf"
+  ]
+ },
+ {
   "id": "ct:fallacy-of-four-terms",
   "title": "Fallacy of four terms",
   "aliases": [

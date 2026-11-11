@@ -14,9 +14,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.69 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:illicit-major` |
 | 3.37 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:douglas-walton` |
 | 3.36 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
+| 3.36 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:expected-utility-theory`, `ct:heuristics-and-biases-program` |
 | 3.08 | `ct:categorical-proposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.05 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:douglas-walton`, `ct:false-dilemma` |
-| 3.05 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:heuristics-and-biases-program`, `ct:numeracy` |
 | 3.03 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
 | 3.02 | `ct:argument` | `ct:argument-from-consequences` | `ct:argument-from-expert-opinion`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:defeasible-reasoning` |
 | 2.97 | `ct:argumentation-theory` | `ct:reasoning` | `ct:argument`, `ct:argumentation`, `ct:argumentative-theory-of-reasoning`, `ct:logic` |

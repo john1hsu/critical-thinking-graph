@@ -6023,6 +6023,110 @@
    ]
   },
   {
+   "@id": "ct:expected-utility-theory",
+   "@type": "cto:Framework",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:allais-paradox"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    }
+   ],
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/decision-making/expected-utility-theory.md",
+   "cto:formalizedBy": {
+    "@id": "ct:theory-of-games-and-economic-behavior"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:daniel-bernoulli"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:probability-theory"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s6"
+    }
+   ],
+   "rdfs:label": "Expected utility theory",
+   "skos:altLabel": [
+    "EUT",
+    "expected utility hypothesis",
+    "expected utility maximization",
+    "von Neumann-Morgenstern utility theory"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:decision-theory"
+    },
+    {
+     "@id": "ct:rationality"
+    }
+   ],
+   "skos:definition": "The model of choice under risk that values each option by weighting the utility of its possible outcomes by their probabilities and recommends the option with the highest total; it is the classical normative standard for rational decisions and a much-criticised descriptive model of how people actually choose.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Expected utility theory",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-consequences"
+    },
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:kenneth-arrow"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    },
+    {
+     "@id": "ct:reversible-and-irreversible-decisions"
+    },
+    {
+     "@id": "ct:risk-aversion"
+    },
+    {
+     "@id": "ct:satisficing"
+    },
+    {
+     "@id": "ct:st-petersburg-paradox"
+    }
+   ]
+  },
+  {
    "@id": "ct:fallacy-of-four-terms",
    "@type": "cto:FormalFallacy",
    "cto:contrastsWith": {
@@ -24427,6 +24531,90 @@
    "dcterms:title": "Lecture 17: Uniform Continuity and the Definition of the Derivative",
    "schema:url": {
     "@id": "https://live.ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/mit18_100af20_lec17.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Briggs, rev. 2023)",
+   "dcterms:title": "Normative Theories of Rational Choice: Expected Utility",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/rationality-normative-utility/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Econometrica 22(1), 23-36 (Bernoulli, 1738; trans. L. Sommer, 1954), copy hosted on a Czech Technical University course page",
+   "dcterms:title": "Exposition of a New Theory on the Measurement of Risk",
+   "schema:url": {
+    "@id": "https://cw.fel.cvut.cz/b191/_media/courses/xp36vpd/bernoulli-theorymeasurementofrisk.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Princeton University Press (von Neumann & Morgenstern, 1944; 2007 edition), Project MUSE",
+   "dcterms:title": "Theory of Games and Economic Behavior (60th Anniversary Commemorative Edition)",
+   "schema:url": {
+    "@id": "https://muse.jhu.edu/books/9781400829460"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Econometrica 47(2), 263-292 (Kahneman & Tversky, 1979), Econometric Society",
+   "dcterms:title": "Prospect Theory: An Analysis of Decision under Risk",
+   "schema:url": {
+    "@id": "https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Journal of Economic Literature 38(2), 332-382 (Starmer, 2000), copy hosted at Universidad de Montevideo",
+   "dcterms:title": "Developments in Non-Expected Utility Theory: The Hunt for a Descriptive Theory of Choice under Risk",
+   "schema:url": {
+    "@id": "https://www2.um.edu.uy/marcaffera/marcelo/Papers/Ambiguity/Starmer%20-%20JEL%20-%202000.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-utility-theory/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "MIT OpenCourseWare (Denti, 2015)",
+   "dcterms:title": "Expected Utility (lecture notes, 14.123 Microeconomic Theory III)",
+   "schema:url": {
+    "@id": "https://ocw.mit.edu/courses/14-123-microeconomic-theory-iii-spring-2015/b2353bc4abf8a109fb75bba0064b331d_MIT14_123S15_expected1.pdf"
    }
   },
   {

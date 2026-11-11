@@ -71,6 +71,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:dual-process-theory` | contested | `ct:gerd-gigerenzer` |
 | `ct:dual-process-theory` | contested | `ct:keren-schul-2009-two-system-critique` |
 | `ct:ecological-rationality` | contested | `ct:hilbig-richter-2011-homo-heuristicus-outnumbered` |
+| `ct:expected-utility-theory` | contested | `ct:allais-paradox` |
+| `ct:expected-utility-theory` | contested | `ct:prospect-theory` |
 | `ct:fast-and-frugal-heuristics` | contested | `ct:pohl-2011-recognition-heuristic-debate-review` |
 | `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
 | `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
@@ -91,10 +93,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:conflict-of-interest` | mixed |  |
 | `ct:conjunction-fallacy` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 | `ct:consider-the-opposite` | mixed |  |
-| `ct:correcting-erroneous-perceptions-of-randomness` | mixed |  |
-| `ct:cost-benefit-reasoning-training` | mixed | `ct:arkes-blumer-1985-sunk-cost-experiments` |
 
-…and 28 more.
+…and 30 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
