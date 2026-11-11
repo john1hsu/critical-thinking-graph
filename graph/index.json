@@ -407,6 +407,10 @@
     "object": "ct:syllogism"
    },
    {
+    "predicate": "skos:related",
+    "object": "ct:monroe-beardsley"
+   },
+   {
     "predicate": "cto:requires",
     "object": "ct:validity"
    },
@@ -1545,6 +1549,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:monroe-beardsley"
    },
    {
     "predicate": "cto:requires",
@@ -10846,6 +10854,82 @@
    "https://static1.squarespace.com/static/551f03bce4b0bf9fbfefa27c/t/5aae05db8a922d6d3cc98e7f/1521354204788/yalcin+2012+counterexampleMT.pdf",
    "https://link.springer.com/content/pdf/10.3758/BF03193231.pdf",
    "https://iep.utm.edu/pop-sci/"
+  ]
+ },
+ {
+  "id": "ct:monroe-beardsley",
+  "title": "Monroe Beardsley",
+  "aliases": [
+   "Monroe C. Beardsley",
+   "Monroe Curtis Beardsley"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/monroe-beardsley.md",
+  "created": "2026-11-11",
+  "summary": "American philosopher (1915-1985) at Swarthmore and Temple whose Practical Logic (1950) and Thinking Straight were among the first modern critical thinking textbooks; he diagrammed arguments with arrows, coined the terms convergent, divergent and serial argument, and with W. K. Wimsatt named the intentional fallacy.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-a-disjunct"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:disjunctive-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:convergent-argument",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:intentional-fallacy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:affirming-a-disjunct",
+    "source": "s3",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/beardsley-aesthetics/",
+   "https://rozenbergquarterly.com/issa-proceedings-2014-the-linked-convergent-distinction/?print=pdf",
+   "https://distantreader.org/stacks/journals/il/il-2691.pdf",
+   "https://plato.stanford.edu/archives/sum2025/entries/logic-informal/"
   ]
  },
  {

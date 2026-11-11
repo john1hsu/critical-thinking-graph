@@ -424,6 +424,9 @@
      "@id": "ct:method-of-counterexample"
     },
     {
+     "@id": "ct:monroe-beardsley"
+    },
+    {
      "@id": "ct:syllogism"
     }
    ]
@@ -1471,6 +1474,9 @@
     },
     {
      "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:monroe-beardsley"
     },
     {
      "@id": "ct:principle-of-charity"
@@ -10194,6 +10200,79 @@
     },
     {
      "@id": "ct:modus-ponens"
+    }
+   ]
+  },
+  {
+   "@id": "ct:monroe-beardsley",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/monroe-beardsley.md",
+   "cto:introduced": [
+    {
+     "@id": "ct:affirming-a-disjunct"
+    },
+    {
+     "@id": "ct:convergent-argument"
+    },
+    {
+     "@id": "ct:intentional-fallacy"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:informal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s4"
+    }
+   ],
+   "rdfs:label": "Monroe Beardsley",
+   "skos:altLabel": [
+    "Monroe C. Beardsley",
+    "Monroe Curtis Beardsley"
+   ],
+   "skos:definition": "American philosopher (1915-1985) at Swarthmore and Temple whose Practical Logic (1950) and Thinking Straight were among the first modern critical thinking textbooks; he diagrammed arguments with arrows, coined the terms convergent, divergent and serial argument, and with W. K. Wimsatt named the intentional fallacy.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Monroe Beardsley",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-a-disjunct"
+    },
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:disjunctive-syllogism"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:informal-logic"
     }
    ]
   },
@@ -28018,6 +28097,62 @@
    "dcterms:title": "Popper, Karl: Philosophy of Science",
    "schema:url": {
     "@id": "https://iep.utm.edu/pop-sci/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Michael Wreen, first published 2005, substantive revision 2022)",
+   "dcterms:title": "Beardsley's Aesthetics",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/beardsley-aesthetics/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2014 (David Hitchcock, McMaster University), reprinted by Rozenberg Quarterly",
+   "dcterms:title": "The Linked-Convergent Distinction",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-the-linked-convergent-distinction/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Informal Logic 8(3), 133-139 (Brian Kirby, 1986)",
+   "dcterms:title": "A Plea For Affirming a Disjunct",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2691.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Leo Groarke, Summer 2025 edition)",
+   "dcterms:title": "Informal Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2025/entries/logic-informal/"
    }
   },
   {

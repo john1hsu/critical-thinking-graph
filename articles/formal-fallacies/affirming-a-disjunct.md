@@ -10,7 +10,7 @@ summary: >-
 level: introductory
 evidenceStatus: normative
 broader: [ct:formal-fallacy]
-related: [ct:affirming-the-consequent, ct:denying-the-antecedent, ct:false-dilemma, ct:method-of-counterexample, ct:syllogism]
+related: [ct:affirming-the-consequent, ct:denying-the-antecedent, ct:false-dilemma, ct:method-of-counterexample, ct:syllogism, ct:monroe-beardsley]
 requires: [ct:validity]
 relations:
   - {predicate: invalidFormOf, object: ct:disjunctive-syllogism, source: s1, confidence: high}

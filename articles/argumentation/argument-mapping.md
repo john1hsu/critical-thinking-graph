@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: mixed
 broader: [ct:argumentation-theory]
-related: [ct:argument, ct:toulmin-model, ct:informal-logic, ct:argumentation-schemes, ct:principle-of-charity, ct:enthymeme, ct:begging-the-question, ct:structured-analytic-techniques]
+related: [ct:argument, ct:toulmin-model, ct:informal-logic, ct:argumentation-schemes, ct:principle-of-charity, ct:enthymeme, ct:begging-the-question, ct:structured-analytic-techniques, ct:monroe-beardsley]
 requires: [ct:argument]
 relations:
   - {predicate: detects, object: ct:begging-the-question, source: s1, confidence: high}
