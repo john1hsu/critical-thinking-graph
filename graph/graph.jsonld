@@ -3095,6 +3095,93 @@
    ]
   },
   {
+   "@id": "ct:causal-diagrams",
+   "@type": "cto:Method",
+   "cto:appliedIn": {
+    "@id": "ct:epidemiology"
+   },
+   "cto:counteracts": {
+    "@id": "ct:confounding"
+   },
+   "cto:detects": {
+    "@id": "ct:selection-bias"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/causal-diagrams.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:judea-pearl"
+    },
+    {
+     "@id": "ct:sewall-wright"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:confounding"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4"
+    }
+   ],
+   "rdfs:label": "Causal diagrams",
+   "skos:altLabel": [
+    "causal DAG",
+    "causal directed acyclic graph",
+    "causal graph",
+    "directed acyclic graph (DAG) in causal inference"
+   ],
+   "skos:broader": {
+    "@id": "ct:causal-inference"
+   },
+   "skos:definition": "Graphs in which arrows encode assumed direct cause-and-effect relations between variables, used to make causal assumptions explicit and to work out which variables must, and must not, be adjusted for when estimating an effect from observational data.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Causal diagrams",
+   "skos:related": [
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:berksons-paradox"
+    },
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:mills-methods"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:selection-bias"
+    },
+    {
+     "@id": "ct:simpsons-paradox"
+    }
+   ]
+  },
+  {
    "@id": "ct:charles-hamblin",
    "@type": "cto:Person",
    "cto:authored": {
@@ -22820,6 +22907,62 @@
    "dcterms:title": "Order in Multiplicity: Homonymy in the Philosophy of Aristotle",
    "schema:url": {
     "@id": "https://academic.oup.com/book/6594"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hitchcock, first published 2018)",
+   "dcterms:title": "Causal Models",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/causal-models/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Biometrika 82(4):669-710 (Pearl, 1995); author copy hosted by UC Irvine course page",
+   "dcterms:title": "Causal diagrams for empirical research",
+   "schema:url": {
+    "@id": "https://www.ics.uci.edu/~dechter/courses/ics-295cr/2022-23_Q2_Winter/reading/biometrika_1995.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Epidemiology 10(1):37-48 (Greenland, Pearl and Robins, 1999); copy hosted on an Ohio State University course site",
+   "dcterms:title": "Causal Diagrams for Epidemiologic Research",
+   "schema:url": {
+    "@id": "https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/7/36891/files/2020/01/Greenland-Pearl-and-Robins-1999.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "International Journal of Epidemiology 50(2):620-632 (Tennant et al., 2021), doi:10.1093/ije/dyaa213; White Rose Research Online record",
+   "dcterms:title": "Use of directed acyclic graphs (DAGs) to identify confounders in applied health research: review and recommendations",
+   "schema:url": {
+    "@id": "https://eprints.whiterose.ac.uk/id/eprint/180527/"
    }
   },
   {

@@ -22,6 +22,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
+| `ct:causal-diagrams` | 2 | Confounding, Selection bias |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
@@ -43,9 +44,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:hypothesis-testing` | 1 | Confirmation bias |
 | `ct:key-assumptions-check` | 1 | Confirmation bias |
 | `ct:lateral-reading` | 1 | Misinformation and disinformation |
-| `ct:logical-necessity-instructions` | 1 | Belief bias |
 
-…and 8 more.
+…and 9 more.
 
 ## Heuristic -> bias -> remedy chains
 

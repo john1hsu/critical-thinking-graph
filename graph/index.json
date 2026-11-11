@@ -3279,6 +3279,102 @@
   ]
  },
  {
+  "id": "ct:causal-diagrams",
+  "title": "Causal diagrams",
+  "aliases": [
+   "causal DAG",
+   "causal directed acyclic graph",
+   "directed acyclic graph (DAG) in causal inference",
+   "causal graph"
+  ],
+  "type": "Method",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/causal-diagrams.md",
+  "created": "2026-11-11",
+  "summary": "Graphs in which arrows encode assumed direct cause-and-effect relations between variables, used to make causal assumptions explicit and to work out which variables must, and must not, be adjusted for when estimating an effect from observational data.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:causal-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:simpsons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mills-methods"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:berksons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:confounding",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:selection-bias",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:epidemiology",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:sewall-wright",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:judea-pearl",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/causal-models/",
+   "https://www.ics.uci.edu/~dechter/courses/ics-295cr/2022-23_Q2_Winter/reading/biometrika_1995.pdf",
+   "https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/7/36891/files/2020/01/Greenland-Pearl-and-Robins-1999.pdf",
+   "https://eprints.whiterose.ac.uk/id/eprint/180527/"
+  ]
+ },
+ {
   "id": "ct:charles-hamblin",
   "title": "Charles Hamblin",
   "aliases": [

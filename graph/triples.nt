@@ -1532,6 +1532,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/categories> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/categories> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/categories> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2000/01/rdf-schema#label> "Causal diagrams" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#altLabel> "causal DAG" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#altLabel> "causal directed acyclic graph" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#altLabel> "causal graph" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#altLabel> "directed acyclic graph (DAG) in causal inference" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#definition> "Graphs in which arrows encode assumed direct cause-and-effect relations between variables, used to make causal assumptions explicit and to work out which variables must, and must not, be adjusted for when estimating an effect from observational data." .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#prefLabel> "Causal diagrams" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/causal-diagrams.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/judea-pearl> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sewall-wright> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
 <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> <http://www.w3.org/2000/01/rdf-schema#label> "Charles Hamblin" .
@@ -7787,6 +7820,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/categories/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/categories/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/categories/s6> <https://schema.org/url> <https://academic.oup.com/book/6594> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hitchcock, first published 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s1> <http://purl.org/dc/terms/title> "Causal Models" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/causal-models/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s2> <http://purl.org/dc/terms/publisher> "Biometrika 82(4):669-710 (Pearl, 1995); author copy hosted by UC Irvine course page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s2> <http://purl.org/dc/terms/title> "Causal diagrams for empirical research" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s2> <https://schema.org/url> <https://www.ics.uci.edu/~dechter/courses/ics-295cr/2022-23_Q2_Winter/reading/biometrika_1995.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s3> <http://purl.org/dc/terms/publisher> "Epidemiology 10(1):37-48 (Greenland, Pearl and Robins, 1999); copy hosted on an Ohio State University course site" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s3> <http://purl.org/dc/terms/title> "Causal Diagrams for Epidemiologic Research" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s3> <https://schema.org/url> <https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/7/36891/files/2020/01/Greenland-Pearl-and-Robins-1999.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> <http://purl.org/dc/terms/publisher> "International Journal of Epidemiology 50(2):620-632 (Tennant et al., 2021), doi:10.1093/ije/dyaa213; White Rose Research Online record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> <http://purl.org/dc/terms/title> "Use of directed acyclic graphs (DAGs) to identify confounders in applied health research: review and recommendations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> <https://schema.org/url> <https://eprints.whiterose.ac.uk/id/eprint/180527/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s1> <http://purl.org/dc/terms/publisher> "McMaster University, Department of Philosophy (David Hitchcock's course pages)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s1> <http://purl.org/dc/terms/title> "Notes on C. L. Hamblin, Fallacies (graduate seminar study notes, after McBurney's intellectual biography)" .
