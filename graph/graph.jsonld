@@ -14063,6 +14063,93 @@
    ]
   },
   {
+   "@id": "ct:selection-bias",
+   "@type": "cto:Phenomenon",
+   "cto:contrastsWith": {
+    "@id": "ct:confounding"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/scientific-reasoning/selection-bias.md",
+   "cto:formalizedBy": {
+    "@id": "ct:causal-diagrams"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:random-sampling"
+   },
+   "cto:studiedIn": [
+    {
+     "@id": "ct:econometrics"
+    },
+    {
+     "@id": "ct:epidemiology"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s5"
+    }
+   ],
+   "rdfs:label": "Selection bias",
+   "skos:altLabel": [
+    "sample selection bias",
+    "selection effect"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:causal-inference"
+    },
+    {
+     "@id": "ct:statistical-reasoning"
+    }
+   ],
+   "skos:definition": "A systematic error that arises when the people or cases that end up in a study, sample or comparison differ from the population of interest because of how they were chosen, recruited or retained, so the observed association or estimate is distorted.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Selection bias",
+   "skos:related": [
+    {
+     "@id": "ct:berksons-paradox"
+    },
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:random-sampling"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:survivorship-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:sherman-kent",
    "@type": "cto:Person",
    "cto:authored": {
@@ -31766,6 +31853,76 @@
    "dcterms:title": "Summing up the process",
    "schema:url": {
     "@id": "https://undsci.berkeley.edu/understanding-science-101/how-science-works/summing-up-the-process/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Catalogue of Bias, Centre for Evidence-Based Medicine, University of Oxford (Nunan, Bankhead & Aronson, 2017)",
+   "dcterms:title": "Selection bias",
+   "schema:url": {
+    "@id": "https://catalogofbias.org/biases/selection-bias/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Epidemiology 15(5):615-625 (Hernán, Hernández-Díaz & Robins, 2004), doi:10.1097/01.ede.0000135174.63482.43",
+   "dcterms:title": "A structural approach to selection bias",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/15308962/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Econometrica 47(1):153-162 (Heckman, 1979)",
+   "dcterms:title": "Sample selection bias as a specification error",
+   "schema:url": {
+    "@id": "https://www.econometricsociety.org/publications/econometrica/1979/01/01/sample-selection-bias-specification-error"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "American Mathematical Society Feature Column (Casselman, June 2016)",
+   "dcterms:title": "The Legend of Abraham Wald",
+   "schema:url": {
+    "@id": "https://www.ams.org/samplings/feature-column/fc-2016-06"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Biometrics 2(3):47-53 (Berkson, 1946), PubMed record 21001024",
+   "dcterms:title": "Limitations of the application of fourfold table analysis to hospital data",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/21001024/"
    }
   },
   {

@@ -33,8 +33,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
 | `ct:power-analysis` | 2 | Law of small numbers, replication-crisis |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
-| `ct:random-sampling` | 2 | Hasty generalization, selection-bias |
-| `ct:randomized-controlled-trial` | 2 | Confounding, selection-bias |
+| `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
+| `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
 | `ct:systematic-review` | 2 | Suppressed evidence, publication-bias |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
@@ -130,6 +130,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:reasoning` | cto:Concept |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
+| `ct:selection-bias` | cto:Phenomenon |
 | `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:suppressed-evidence` | cto:InformalFallacy |
 | `ct:tu-quoque` | cto:InformalFallacy |

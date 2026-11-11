@@ -14907,6 +14907,95 @@
   ]
  },
  {
+  "id": "ct:selection-bias",
+  "title": "Selection bias",
+  "aliases": [
+   "sample selection bias",
+   "selection effect"
+  ],
+  "type": "Phenomenon",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/scientific-reasoning/selection-bias.md",
+  "created": "2026-11-11",
+  "summary": "A systematic error that arises when the people or cases that end up in a study, sample or comparison differ from the population of interest because of how they were chosen, recruited or retained, so the observed association or estimate is distorted.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:causal-inference"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:random-sampling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:berksons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:survivorship-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:random-sampling"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:confounding",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:causal-diagrams",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epidemiology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:econometrics",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://catalogofbias.org/biases/selection-bias/",
+   "https://pubmed.ncbi.nlm.nih.gov/15308962/",
+   "https://www.econometricsociety.org/publications/econometrica/1979/01/01/sample-selection-bias-specification-error",
+   "https://www.ams.org/samplings/feature-column/fc-2016-06",
+   "https://pubmed.ncbi.nlm.nih.gov/21001024/"
+  ]
+ },
+ {
   "id": "ct:sherman-kent",
   "title": "Sherman Kent",
   "aliases": [
