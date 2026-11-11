@@ -2419,6 +2419,108 @@
   ]
  },
  {
+  "id": "ct:behavioral-economics",
+  "title": "Behavioral economics",
+  "aliases": [
+   "behavioural economics",
+   "psychology and economics",
+   "economics and psychology"
+  ],
+  "type": "Field",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/decision-making/behavioral-economics.md",
+  "created": "2026-11-11",
+  "summary": "The branch of economics that builds more psychologically realistic assumptions about attention, willpower and social motives into economic models, usually by keeping the standard framework of utility maximization and equilibrium and changing one or two assumptions at a time to explain documented anomalies.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:economics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:choice-architecture"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:experimental-economics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:herbert-simon",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:prospect-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:heuristics-and-biases-program",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:expected-utility-theory",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:madrian-shea-2001-automatic-enrollment-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:maier-2022-nudging-publication-bias-reanalysis",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/CamererIntroChapter.AdvancesBE.pdf",
+   "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/",
+   "https://www.nber.org/papers/w7682",
+   "https://authors.library.caltech.edu/records/gr9cr-qjb08",
+   "https://www.pubmed.gov/35858389/"
+  ]
+ },
+ {
   "id": "ct:belief-bias",
   "title": "Belief bias",
   "aliases": [

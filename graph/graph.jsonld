@@ -2274,6 +2274,98 @@
    ]
   },
   {
+   "@id": "ct:behavioral-economics",
+   "@type": "cto:Field",
+   "cto:challengedBy": {
+    "@id": "ct:maier-2022-nudging-publication-bias-reanalysis"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:expected-utility-theory"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/decision-making/behavioral-economics.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:herbert-simon"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:expected-utility-theory"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:madrian-shea-2001-automatic-enrollment-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s5"
+    }
+   ],
+   "rdfs:label": "Behavioral economics",
+   "skos:altLabel": [
+    "behavioural economics",
+    "economics and psychology",
+    "psychology and economics"
+   ],
+   "skos:broader": {
+    "@id": "ct:economics"
+   },
+   "skos:definition": "The branch of economics that builds more psychologically realistic assumptions about attention, willpower and social motives into economic models, usually by keeping the standard framework of utility maximization and equilibrium and changing one or two assumptions at a time to explain documented anomalies.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Behavioral economics",
+   "skos:related": [
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:choice-architecture"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:experimental-economics"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:loss-aversion"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    },
+    {
+     "@id": "ct:publication-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:belief-bias",
    "@type": "cto:CognitiveBias",
    "cto:amplifiedBy": {
@@ -22465,6 +22557,76 @@
    "dcterms:title": "Begging the Question",
    "schema:url": {
     "@id": "https://www.csus.edu/indiv/m/mayesgr/phl4/handouts/phl4begques.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Camerer & Loewenstein, Caltech and Carnegie Mellon, draft of the introductory chapter to Advances in Behavioral Economics (Princeton University Press, 2004), hosted on an Iowa State University faculty archive",
+   "dcterms:title": "Behavioral Economics: Past, Present, Future (introduction to Advances in Behavioral Economics)",
+   "schema:url": {
+    "@id": "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/CamererIntroChapter.AdvancesBE.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "The Royal Swedish Academy of Sciences, NobelPrize.org (9 October 2017)",
+   "dcterms:title": "The Prize in Economic Sciences 2017: press release",
+   "schema:url": {
+    "@id": "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "NBER Working Paper 7682 (Madrian & Shea, 2000; Quarterly Journal of Economics 116(4), 2001)",
+   "dcterms:title": "The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior",
+   "schema:url": {
+    "@id": "https://www.nber.org/papers/w7682"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Science 351(6280), 1433-1436 (Camerer, Dreber, Forsell, Ho, Huber, Johannesson, Kirchler et al., 2016), Caltech Authors repository",
+   "dcterms:title": "Evaluating replicability of laboratory experiments in economics",
+   "schema:url": {
+    "@id": "https://authors.library.caltech.edu/records/gr9cr-qjb08"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Proceedings of the National Academy of Sciences 119(31), e2200300119 (Maier, Bartos, Stanley, Shanks, Harris & Wagenmakers, 2022), PubMed record",
+   "dcterms:title": "No evidence for nudging after adjusting for publication bias",
+   "schema:url": {
+    "@id": "https://www.pubmed.gov/35858389/"
    }
   },
   {

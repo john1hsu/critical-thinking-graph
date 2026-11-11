@@ -1204,6 +1204,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2000/01/rdf-schema#label> "Behavioral economics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#altLabel> "behavioural economics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#altLabel> "economics and psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#altLabel> "psychology and economics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#definition> "The branch of economics that builds more psychologically realistic assumptions about attention, willpower and social motives into economic models, usually by keeping the standard framework of utility maximization and equilibrium and changing one or two assumptions at a time to explain documented anomalies." .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Behavioral economics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/experimental-economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/maier-2022-nudging-publication-bias-reanalysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/behavioral-economics.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/madrian-shea-2001-automatic-enrollment-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2000/01/rdf-schema#label> "Belief bias" .
@@ -7613,6 +7647,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/begging-the-question/s5> <https://schema.org/url> <https://www.csus.edu/indiv/m/mayesgr/phl4/handouts/phl4begques.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s1> <http://purl.org/dc/terms/publisher> "Camerer & Loewenstein, Caltech and Carnegie Mellon, draft of the introductory chapter to Advances in Behavioral Economics (Princeton University Press, 2004), hosted on an Iowa State University faculty archive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s1> <http://purl.org/dc/terms/title> "Behavioral Economics: Past, Present, Future (introduction to Advances in Behavioral Economics)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s1> <https://schema.org/url> <https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/CamererIntroChapter.AdvancesBE.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s2> <http://purl.org/dc/terms/publisher> "The Royal Swedish Academy of Sciences, NobelPrize.org (9 October 2017)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s2> <http://purl.org/dc/terms/title> "The Prize in Economic Sciences 2017: press release" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s2> <https://schema.org/url> <https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s3> <http://purl.org/dc/terms/publisher> "NBER Working Paper 7682 (Madrian & Shea, 2000; Quarterly Journal of Economics 116(4), 2001)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s3> <http://purl.org/dc/terms/title> "The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s3> <https://schema.org/url> <https://www.nber.org/papers/w7682> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s4> <http://purl.org/dc/terms/publisher> "Science 351(6280), 1433-1436 (Camerer, Dreber, Forsell, Ho, Huber, Johannesson, Kirchler et al., 2016), Caltech Authors repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s4> <http://purl.org/dc/terms/title> "Evaluating replicability of laboratory experiments in economics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s4> <https://schema.org/url> <https://authors.library.caltech.edu/records/gr9cr-qjb08> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s5> <http://purl.org/dc/terms/publisher> "Proceedings of the National Academy of Sciences 119(31), e2200300119 (Maier, Bartos, Stanley, Shanks, Harris & Wagenmakers, 2022), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s5> <http://purl.org/dc/terms/title> "No evidence for nudging after adjusting for publication bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/behavioral-economics/s5> <https://schema.org/url> <https://www.pubmed.gov/35858389/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> <http://purl.org/dc/terms/publisher> "Memory & Cognition 11(3), 295-306 (Evans, Barston & Pollard, 1983), Springer" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s1> <http://purl.org/dc/terms/title> "On the conflict between logic and belief in syllogistic reasoning" .
