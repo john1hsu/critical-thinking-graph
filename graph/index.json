@@ -6219,6 +6219,112 @@
   ]
  },
  {
+  "id": "ct:equivocation",
+  "title": "Equivocation",
+  "aliases": [
+   "fallacy of equivocation",
+   "equivocal argument",
+   "semantic equivocation",
+   "homonymy fallacy"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/equivocation.md",
+  "created": "2026-11-11",
+  "summary": "The fallacy of letting a word or phrase that occurs more than once in an argument shift its meaning between occurrences, so that each premise is plausible on one reading but the conclusion follows only if both readings are treated as one.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amphiboly"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-four-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguous-middle-term"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-whately"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:sophistical-refutations",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:amphiboly",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:fallacy-of-ambiguity",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Which key term appears more than once, and can it be replaced by the same precise paraphrase every time it occurs?",
+   "Under the reading that makes the first premise true, is the second premise still true?",
+   "Does the conclusion follow only if two different senses of the term are treated as one?",
+   "Is there a reasonable general reading of the term under which all the premises can be defended, so that the charge of equivocation would be unfair?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/fallacies/",
+   "https://distantreader.org/stacks/journals/il/il-2280.pdf",
+   "https://rozenbergquarterly.com/?p=14051",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/03%3A_Writing_with_the_Appropriate_Precision/3.01%3A_Being_Ambiguous/3.1.04%3A_Equivocation",
+   "https://link.springer.com/978-0-7923-4100-0"
+  ]
+ },
+ {
   "id": "ct:exclusive-premises",
   "title": "Exclusive premises",
   "aliases": [

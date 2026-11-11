@@ -2716,6 +2716,78 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/epistemology.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which key term appears more than once, and can it be replaced by the same precise paraphrase every time it occurs?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Under the reading that makes the first premise true, is the second premise still true?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Does the conclusion follow only if two different senses of the term are treated as one?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is there a reasonable general reading of the term under which all the premises can be defended, so that the charge of equivocation would be unfair?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "This candidate meets the analyst role's experience requirement." .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "In the job requirement, 'experience' means sustained hands-on work on real reports; in the second premise it means any exposure at all." .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Read with one sense throughout, either the second premise is false or the conclusion no longer follows." .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The analyst role requires experience with the company's reporting database." .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "This candidate has experience with the reporting database: they completed a one-hour vendor tutorial on it." .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2000/01/rdf-schema#label> "Equivocation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#altLabel> "equivocal argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of equivocation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#altLabel> "homonymy fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#altLabel> "semantic equivocation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of letting a word or phrase that occurs more than once in an argument shift its meaning between occurrences, so that each premise is plausible on one reading but the conclusion follows only if both readings are treated as one." .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Equivocation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguous-middle-term> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/equivocation.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Are both premises negative, so that each one only says which things are excluded from the middle class?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
@@ -8639,6 +8711,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2325.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/fallacies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 20(3), 261-274 (Walton, 2000), journal PDF via Distant Reader" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s2> <http://purl.org/dc/terms/title> "New Dialectical Rules for Ambiguity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2280.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s3> <http://purl.org/dc/terms/publisher> "ISSA Proceedings 1998 (van Laar, University of Groningen), Rozenberg Quarterly" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s3> <http://purl.org/dc/terms/title> "The Use of Ambiguous Expressions in Discussions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s3> <https://schema.org/url> <https://rozenbergquarterly.com/?p=14051> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s4> <http://purl.org/dc/terms/publisher> "Logical Reasoning (Dowden, California State University Sacramento), Humanities LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s4> <http://purl.org/dc/terms/title> "3.1.4: Equivocation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s4> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/03%3A_Writing_with_the_Appropriate_Precision/3.01%3A_Being_Ambiguous/3.1.04%3A_Equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <http://purl.org/dc/terms/publisher> "Springer, Applied Logic Series vol. 1 (Walton, 1996)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <http://purl.org/dc/terms/title> "Fallacies Arising from Ambiguity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <https://schema.org/url> <https://link.springer.com/978-0-7923-4100-0> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive, MIT" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/title> "Prior Analytics, Book I (trans. A. J. Jenkinson)" .

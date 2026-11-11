@@ -5857,6 +5857,102 @@
    ]
   },
   {
+   "@id": "ct:equivocation",
+   "@type": "cto:InformalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:amphiboly"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map"
+   },
+   "cto:file": "articles/informal-fallacies/equivocation.md",
+   "cto:instanceOf": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:argument"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5"
+    }
+   ],
+   "rdfs:label": "Equivocation",
+   "skos:altLabel": [
+    "equivocal argument",
+    "fallacy of equivocation",
+    "homonymy fallacy",
+    "semantic equivocation"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of letting a word or phrase that occurs more than once in an argument shift its meaning between occurrences, so that each premise is plausible on one reading but the conclusion follows only if both readings are treated as one.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Equivocation",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:ambiguous-middle-term"
+    },
+    {
+     "@id": "ct:amphiboly"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:fallacy-of-four-terms"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:richard-whately"
+    }
+   ]
+  },
+  {
    "@id": "ct:exclusive-premises",
    "@type": "cto:FormalFallacy",
    "cto:domain": "formal-fallacies",
@@ -18221,6 +18317,109 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:equivocation"
+   },
+   "rdfs:label": "Which key term appears more than once, and can it be replaced by the same precise paraphrase every time it occurs?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:equivocation"
+   },
+   "rdfs:label": "Under the reading that makes the first premise true, is the second premise still true?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:equivocation"
+   },
+   "rdfs:label": "Does the conclusion follow only if two different senses of the term are treated as one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:equivocation"
+   },
+   "rdfs:label": "Is there a reasonable general reading of the term under which all the premises can be defended, so that the charge of equivocation would be unfair?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:equivocation"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "This candidate meets the analyst role's experience requirement."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "In the job requirement, 'experience' means sustained hands-on work on real reports; in the second premise it means any exposure at all."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Read with one sense throughout, either the second premise is false or the conclusion no longer follows."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The analyst role requires experience with the company's reporting database."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "This candidate has experience with the reporting database: they completed a one-hour vendor tutorial on it."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/equivocation/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -24749,6 +24948,76 @@
    "dcterms:title": "The Problem With Percy: Epistemology, Understanding and Critical Thinking",
    "schema:url": {
     "@id": "https://distantreader.org/stacks/journals/il/il-2325.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Informal Logic 20(3), 261-274 (Walton, 2000), journal PDF via Distant Reader",
+   "dcterms:title": "New Dialectical Rules for Ambiguity",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2280.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "ISSA Proceedings 1998 (van Laar, University of Groningen), Rozenberg Quarterly",
+   "dcterms:title": "The Use of Ambiguous Expressions in Discussions",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/?p=14051"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Logical Reasoning (Dowden, California State University Sacramento), Humanities LibreTexts",
+   "dcterms:title": "3.1.4: Equivocation",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/03%3A_Writing_with_the_Appropriate_Precision/3.01%3A_Being_Ambiguous/3.1.04%3A_Equivocation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Springer, Applied Logic Series vol. 1 (Walton, 1996)",
+   "dcterms:title": "Fallacies Arising from Ambiguity",
+   "schema:url": {
+    "@id": "https://link.springer.com/978-0-7923-4100-0"
    }
   },
   {

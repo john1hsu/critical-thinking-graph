@@ -186,6 +186,17 @@ flowchart TD
   o2["If the diagnostics are unreliable, the second premise is doubtful and the elimination does not go through."] -. attacks .-> ra
 ```
 
+## Equivocation (`ct:equivocation`)
+
+```mermaid
+flowchart TD
+  p1["The analyst role requires experience with the company's reporting database."] --> ra{{"fallacious"}}
+  p2["This candidate has experience with the reporting database: they completed a one-hour vendor tutorial on it."] --> ra{{"fallacious"}}
+  ra --> c["This candidate meets the analyst role's experience requirement."]
+  o1["In the job requirement, 'experience' means sustained hands-on work on real reports; in the second premise it means any exposure at all."] -. attacks .-> ra
+  o2["Read with one sense throughout, either the second premise is false or the conclusion no longer follows."] -. attacks .-> ra
+```
+
 ## Exclusive premises (`ct:exclusive-premises`)
 
 ```mermaid
