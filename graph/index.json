@@ -3182,6 +3182,103 @@
   ]
  },
  {
+  "id": "ct:categories",
+  "title": "Categories",
+  "aliases": [
+   "Categoriae",
+   "Aristotle's Categories",
+   "Kategoriai"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/categories.md",
+  "created": "2026-11-11",
+  "summary": "Aristotle's short treatise (4th century BCE), placed first in the Organon, that opens by distinguishing homonymous, synonymous and paronymous naming, the first technical account of a word that applies to things under different definitions, and then sorts everything that can be said without combination into ten categories headed by substance.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:organon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:topics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:porphyry"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:definition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:aristotle",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:organon",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:ambiguity",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:porphyry",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:william-of-ockham",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://classics.mit.edu/Aristotle/categories.1.1.html",
+   "https://plato.stanford.edu/Entries/aristotle-categories/",
+   "https://global.uwi.edu/sites/default/files/bnccde/grote/aristotlech3.html",
+   "https://assets.cambridge.org/97805218/74861/excerpt/9780521874861_excerpt.pdf",
+   "https://ndpr.nd.edu/reviews/aristotle-on-homonymy-dialectic-and-science/",
+   "https://academic.oup.com/book/6594"
+  ]
+ },
+ {
   "id": "ct:charles-hamblin",
   "title": "Charles Hamblin",
   "aliases": [
