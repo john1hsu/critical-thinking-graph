@@ -6272,6 +6272,10 @@
     "object": "ct:richard-whately"
    },
    {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
     "predicate": "cto:requires",
     "object": "ct:argument"
    },
@@ -12829,6 +12833,106 @@
    "https://www.apa.org/pubs/highlights/spotlight/issue-243",
    "https://www.memlab.psychol.cam.ac.uk/pubs/Maertens2025%20NatureComms.htm",
    "https://eprints.soton.ac.uk/475360/2/2023_JEPG_Accepted_Manuscript.pdf"
+  ]
+ },
+ {
+  "id": "ct:precising-definition",
+  "title": "Precising definition",
+  "aliases": [
+   "precising definitions",
+   "sharpening a definition",
+   "fixing the sense of a key term"
+  ],
+  "type": "Technique",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/precising-definition.md",
+  "created": "2026-11-11",
+  "summary": "A definition that starts from a term's existing, accepted meaning and narrows it with an explicit criterion for a given context (for example, \"lunchtime means noon to 1:30 p.m.\"), so that a vague or ambiguous word is used in one checkable sense throughout an argument, a rule or a dispute.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amphiboly"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bright-line-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:verbal-dispute"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:equivocation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:equivocation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:definition",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:stipulative-definition",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.csus.edu/indiv/d/dowdenb/4/Logical-Reasoning.pdf",
+   "https://distantreader.org/stacks/journals/il/il-2280.pdf",
+   "https://plato.stanford.edu/entries/definitions/",
+   "https://human.libretexts.org/Courses/Lumen_Learning/Book%3A_Introduction_to_Philosophy-2_(Lumen)/04%3A_Module_2%3A_Logic/04.4%3A_Definition_and_Meaning",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/02%3A_Language_-_Meaning_and_Definition/2.06%3A_Defining_Terms-_Types_and_Purposes_of_Definitions"
   ]
  },
  {

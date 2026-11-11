@@ -2769,6 +2769,7 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> .
@@ -5520,6 +5521,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/prebunking.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2000/01/rdf-schema#label> "Precising definition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#altLabel> "fixing the sense of a key term" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#altLabel> "precising definitions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#altLabel> "sharpening a definition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#definition> "A definition that starts from a term's existing, accepted meaning and narrows it with an explicit criterion for a given context (for example, \"lunchtime means noon to 1:30 p.m.\"), so that a vague or ambiguous word is used in one checkable sense throughout an argument, a rule or a dispute." .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#prefLabel> "Precising definition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/verbal-dispute> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/stipulative-definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/precising-definition.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
 <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/2000/01/rdf-schema#label> "Predicate logic" .
@@ -10950,6 +10985,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s6> <https://schema.org/url> <https://eprints.soton.ac.uk/475360/2/2023_JEPG_Accepted_Manuscript.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s1> <http://purl.org/dc/terms/publisher> "Bradley H. Dowden, California State University Sacramento (open textbook, PDF)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s1> <http://purl.org/dc/terms/title> "Logical Reasoning, ch. 3: Writing with the Appropriate Precision" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s1> <https://schema.org/url> <https://www.csus.edu/indiv/d/dowdenb/4/Logical-Reasoning.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 20(3), 261-274 (Walton, 2000), journal PDF via Distant Reader" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s2> <http://purl.org/dc/terms/title> "New Dialectical Rules for Ambiguity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2280.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Gupta & Mackereth, rev. 2023)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s3> <http://purl.org/dc/terms/title> "Definitions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s3> <https://schema.org/url> <https://plato.stanford.edu/entries/definitions/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s4> <http://purl.org/dc/terms/publisher> "Introduction to Philosophy (Lumen Learning), text by Garth Kemerling, Humanities LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s4> <http://purl.org/dc/terms/title> "4.4: Definition and Meaning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s4> <https://schema.org/url> <https://human.libretexts.org/Courses/Lumen_Learning/Book%3A_Introduction_to_Philosophy-2_(Lumen)/04%3A_Module_2%3A_Logic/04.4%3A_Definition_and_Meaning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s5> <http://purl.org/dc/terms/publisher> "Critical Reasoning and Writing (Levin et al., Golden West College), Humanities LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s5> <http://purl.org/dc/terms/title> "2.6: Defining Terms: Types and Purposes of Definitions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s5> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/02%3A_Language_-_Meaning_and_Definition/2.06%3A_Defining_Terms-_Types_and_Purposes_of_Definitions> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (William Ewald, 2018)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/predicate-logic/s1> <http://purl.org/dc/terms/title> "The Emergence of First-Order Logic" .

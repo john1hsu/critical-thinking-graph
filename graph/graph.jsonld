@@ -5945,6 +5945,9 @@
      "@id": "ct:pragma-dialectics"
     },
     {
+     "@id": "ct:precising-definition"
+    },
+    {
      "@id": "ct:principle-of-charity"
     },
     {
@@ -12084,6 +12087,98 @@
     },
     {
      "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
+   "@id": "ct:precising-definition",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:legal-reasoning"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:stipulative-definition"
+   },
+   "cto:counteracts": {
+    "@id": "ct:equivocation"
+   },
+   "cto:detects": {
+    "@id": "ct:equivocation"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/precising-definition.md",
+   "cto:instanceOf": {
+    "@id": "ct:definition"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:argument"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s5"
+    }
+   ],
+   "rdfs:label": "Precising definition",
+   "skos:altLabel": [
+    "fixing the sense of a key term",
+    "precising definitions",
+    "sharpening a definition"
+   ],
+   "skos:broader": {
+    "@id": "ct:definition"
+   },
+   "skos:definition": "A definition that starts from a term's existing, accepted meaning and narrows it with an explicit criterion for a given context (for example, \"lunchtime means noon to 1:30 p.m.\"), so that a vague or ambiguous word is used in one checkable sense throughout an argument, a rule or a dispute.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Precising definition",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:amphiboly"
+    },
+    {
+     "@id": "ct:bright-line-rule"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:fallacy-of-ambiguity"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:vagueness"
+    },
+    {
+     "@id": "ct:verbal-dispute"
     }
    ]
   },
@@ -30187,6 +30282,76 @@
    "dcterms:title": "Gamified Inoculation Interventions Do Not Improve Discrimination Between True and Fake News: Reanalyzing Existing Research With Receiver Operating Characteristic Analysis",
    "schema:url": {
     "@id": "https://eprints.soton.ac.uk/475360/2/2023_JEPG_Accepted_Manuscript.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Bradley H. Dowden, California State University Sacramento (open textbook, PDF)",
+   "dcterms:title": "Logical Reasoning, ch. 3: Writing with the Appropriate Precision",
+   "schema:url": {
+    "@id": "https://www.csus.edu/indiv/d/dowdenb/4/Logical-Reasoning.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Informal Logic 20(3), 261-274 (Walton, 2000), journal PDF via Distant Reader",
+   "dcterms:title": "New Dialectical Rules for Ambiguity",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2280.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Gupta & Mackereth, rev. 2023)",
+   "dcterms:title": "Definitions",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/definitions/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Introduction to Philosophy (Lumen Learning), text by Garth Kemerling, Humanities LibreTexts",
+   "dcterms:title": "4.4: Definition and Meaning",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Courses/Lumen_Learning/Book%3A_Introduction_to_Philosophy-2_(Lumen)/04%3A_Module_2%3A_Logic/04.4%3A_Definition_and_Meaning"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/precising-definition/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Critical Reasoning and Writing (Levin et al., Golden West College), Humanities LibreTexts",
+   "dcterms:title": "2.6: Defining Terms: Types and Purposes of Definitions",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/02%3A_Language_-_Meaning_and_Definition/2.06%3A_Defining_Terms-_Types_and_Purposes_of_Definitions"
    }
   },
   {

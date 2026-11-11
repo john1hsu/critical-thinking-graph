@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: normative
 broader: [ct:informal-fallacy]
-related: [ct:ambiguity, ct:amphiboly, ct:fallacy-of-four-terms, ct:ambiguous-middle-term, ct:pragma-dialectics, ct:principle-of-charity, ct:douglas-walton, ct:richard-whately]
+related: [ct:ambiguity, ct:amphiboly, ct:fallacy-of-four-terms, ct:ambiguous-middle-term, ct:pragma-dialectics, ct:principle-of-charity, ct:douglas-walton, ct:richard-whately, ct:precising-definition]
 requires: [ct:argument, ct:ambiguity]
 relations:
   - {predicate: introducedIn, object: ct:sophistical-refutations, source: s1, confidence: high}

@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:equivocation` | cto:InformalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -47,7 +45,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:lateral-reading` | 1 | Misinformation and disinformation |
 | `ct:logical-necessity-instructions` | 1 | Belief bias |
 
-…and 7 more.
+…and 8 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -125,6 +123,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:philosophical-skepticism` | cto:Concept |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
+| `ct:precising-definition` | cto:Technique |
 | `ct:propositional-logic` | cto:Field |
 | `ct:random-sampling` | cto:Method |
 | `ct:reasoning` | cto:Concept |
