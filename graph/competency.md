@@ -89,14 +89,14 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:affect-heuristic` | mixed |  |
 | `ct:argument-mapping` | mixed |  |
+| `ct:attribute-substitution` | mixed | `ct:effort-reduction-framework` |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:bounded-rationality` | mixed |  |
 | `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
 | `ct:conflict-of-interest` | mixed |  |
-| `ct:conjunction-fallacy` | mixed | `ct:hertwig-gigerenzer-1999-conjunction-fallacy-revisited` |
 
-…and 31 more.
+…and 32 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

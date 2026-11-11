@@ -1876,6 +1876,109 @@
    ]
   },
   {
+   "@id": "ct:attribute-substitution",
+   "@type": "cto:Framework",
+   "cto:challengedBy": {
+    "@id": "ct:effort-reduction-framework"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:strack-martin-schwarz-1988-dating-happiness-study"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:accessibility"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/attribute-substitution.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:shane-frederick"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s6"
+    }
+   ],
+   "rdfs:label": "Attribute substitution",
+   "skos:altLabel": [
+    "Kahneman-Frederick model of heuristic judgment",
+    "heuristic attribute substitution",
+    "substitution of an easier question"
+   ],
+   "skos:broader": {
+    "@id": "ct:heuristics-and-biases-program"
+   },
+   "skos:definition": "Kahneman and Frederick's model of heuristic judgment: when a target attribute is hard to assess, people often answer by assessing a related, more accessible heuristic attribute instead, usually without noticing the swap, which produces systematic biases wherever the two attributes diverge.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Attribute substitution",
+   "skos:related": [
+    {
+     "@id": "ct:affect-heuristic"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:conjunction-fallacy"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    },
+    {
+     "@id": "ct:scope-neglect"
+    }
+   ]
+  },
+  {
    "@id": "ct:austin-bradford-hill",
    "@type": "cto:Person",
    "cto:authored": {
@@ -22389,6 +22492,90 @@
    "dcterms:title": "Aristotle summary",
    "schema:url": {
     "@id": "https://www.britannica.com/summary/Aristotle"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Heuristics and Biases: The Psychology of Intuitive Judgment, eds. Gilovich, Griffin & Kahneman, Cambridge University Press, 49-81 (Kahneman & Frederick, 2002)",
+   "dcterms:title": "Representativeness revisited: Attribute substitution in intuitive judgment",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/abs/heuristics-and-biases/representativeness-revisited-attribute-substitution-in-intuitive-judgment/AAB5D933A3F944CFB5CB02265D376C8F"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "The Cambridge Handbook of Thinking and Reasoning, Cambridge University Press, 267-289 (Kahneman & Frederick, 2005), authors' manuscript",
+   "dcterms:title": "A model of heuristic judgment",
+   "schema:url": {
+    "@id": "https://cdn2.psychologytoday.com/assets/model_of_heuristic_judgment.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "American Psychologist 58(9), 697-720 (Kahneman, 2003), PubMed record",
+   "dcterms:title": "A perspective on judgment and choice: Mapping bounded rationality",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/14584987/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Psychological Bulletin 134(2), 207-222 (Shah & Oppenheimer, 2008), Princeton University record",
+   "dcterms:title": "Heuristics made easy: An effort-reduction framework",
+   "schema:url": {
+    "@id": "https://collaborate.princeton.edu/en/publications/heuristics-made-easy-an-effort-reduction-framework/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "American Economic Review 93(5) (Kahneman, 2003), Princeton author page",
+   "dcterms:title": "Maps of bounded rationality: Psychology for behavioral economics",
+   "schema:url": {
+    "@id": "https://kahneman.scholar.princeton.edu/document/8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Data Colada 43 (Simonsohn, 2015, updated 2020)",
+   "dcterms:title": "Rain & happiness: Why didn't Schwarz & Clore (1983) 'replicate'?",
+   "schema:url": {
+    "@id": "https://datacolada.org/43"
    }
   },
   {

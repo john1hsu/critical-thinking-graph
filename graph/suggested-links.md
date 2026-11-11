@@ -8,9 +8,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 5.13 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
 | 4.45 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
 | 4.28 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major` |
+| 4.12 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:attribute-substitution`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology` |
 | 3.92 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:existential-fallacy` |
 | 3.82 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
-| 3.77 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology`, `ct:daniel-kahneman` |
 | 3.68 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:illicit-major` |
 | 3.34 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
 | 3.32 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:douglas-walton` |
@@ -24,7 +24,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.97 | `ct:method-of-counterexample` | `ct:predicate-logic` | `ct:alfred-tarski`, `ct:exists-forall-to-forall-exists-inference`, `ct:formal-logic`, `ct:masked-man-fallacy`, `ct:quantifier-shift-fallacy` |
 | 2.96 | `ct:argumentation-theory` | `ct:reasoning` | `ct:argument`, `ct:argumentation`, `ct:argumentative-theory-of-reasoning`, `ct:logic` |
 | 2.94 | `ct:formal-logic` | `ct:modus-ponens` | `ct:deductive-reasoning`, `ct:formal-fallacy`, `ct:method-of-counterexample`, `ct:peter-geach`, `ct:propositional-logic` |
-| 2.94 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
+| 2.93 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
 | 2.92 | `ct:categorical-proposition` | `ct:john-venn` | `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:existential-import`, `ct:george-boole`, `ct:square-of-opposition` |
 | 2.88 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
 | 2.85 | `ct:exclusive-premises` | `ct:square-of-opposition` | `ct:antilogism`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:existential-fallacy` |

@@ -2013,6 +2013,117 @@
   ]
  },
  {
+  "id": "ct:attribute-substitution",
+  "title": "Attribute substitution",
+  "aliases": [
+   "substitution of an easier question",
+   "heuristic attribute substitution",
+   "Kahneman-Frederick model of heuristic judgment"
+  ],
+  "type": "Framework",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/attribute-substitution.md",
+  "created": "2026-11-11",
+  "summary": "Kahneman and Frederick's model of heuristic judgment: when a target attribute is hard to assess, people often answer by assessing a related, more accessible heuristic attribute instead, usually without noticing the swap, which produces systematic biases wherever the two attributes diverge.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affect-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:scope-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:shane-frederick",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:accessibility",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:strack-martin-schwarz-1988-dating-happiness-study",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:effort-reduction-framework",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cambridge.org/core/books/abs/heuristics-and-biases/representativeness-revisited-attribute-substitution-in-intuitive-judgment/AAB5D933A3F944CFB5CB02265D376C8F",
+   "https://cdn2.psychologytoday.com/assets/model_of_heuristic_judgment.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/14584987/",
+   "https://collaborate.princeton.edu/en/publications/heuristics-made-easy-an-effort-reduction-framework/",
+   "https://kahneman.scholar.princeton.edu/document/8",
+   "https://datacolada.org/43"
+  ]
+ },
+ {
   "id": "ct:austin-bradford-hill",
   "title": "Sir Austin Bradford Hill",
   "aliases": [

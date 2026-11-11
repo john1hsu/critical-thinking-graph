@@ -984,6 +984,43 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
 <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2000/01/rdf-schema#label> "Attribute substitution" .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#altLabel> "Kahneman-Frederick model of heuristic judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#altLabel> "heuristic attribute substitution" .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#altLabel> "substitution of an easier question" .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#definition> "Kahneman and Frederick's model of heuristic judgment: when a target attribute is hard to assess, people often answer by assessing a related, more accessible heuristic attribute instead, usually without noticing the swap, which produces systematic biases wherever the two attributes diverge." .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Attribute substitution" .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affect-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/scope-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/effort-reduction-framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/strack-martin-schwarz-1988-dating-happiness-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "heuristics-and-dual-process" .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/accessibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/heuristics-and-dual-process/attribute-substitution.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/shane-frederick> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+<https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> <http://www.w3.org/2000/01/rdf-schema#label> "Sir Austin Bradford Hill" .
@@ -7560,6 +7597,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/aristotle/s4> <https://schema.org/url> <https://www.britannica.com/summary/Aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s1> <http://purl.org/dc/terms/publisher> "Heuristics and Biases: The Psychology of Intuitive Judgment, eds. Gilovich, Griffin & Kahneman, Cambridge University Press, 49-81 (Kahneman & Frederick, 2002)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s1> <http://purl.org/dc/terms/title> "Representativeness revisited: Attribute substitution in intuitive judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s1> <https://schema.org/url> <https://www.cambridge.org/core/books/abs/heuristics-and-biases/representativeness-revisited-attribute-substitution-in-intuitive-judgment/AAB5D933A3F944CFB5CB02265D376C8F> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s2> <http://purl.org/dc/terms/publisher> "The Cambridge Handbook of Thinking and Reasoning, Cambridge University Press, 267-289 (Kahneman & Frederick, 2005), authors' manuscript" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s2> <http://purl.org/dc/terms/title> "A model of heuristic judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s2> <https://schema.org/url> <https://cdn2.psychologytoday.com/assets/model_of_heuristic_judgment.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s3> <http://purl.org/dc/terms/publisher> "American Psychologist 58(9), 697-720 (Kahneman, 2003), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s3> <http://purl.org/dc/terms/title> "A perspective on judgment and choice: Mapping bounded rationality" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s3> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/14584987/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s4> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 134(2), 207-222 (Shah & Oppenheimer, 2008), Princeton University record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s4> <http://purl.org/dc/terms/title> "Heuristics made easy: An effort-reduction framework" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s4> <https://schema.org/url> <https://collaborate.princeton.edu/en/publications/heuristics-made-easy-an-effort-reduction-framework/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s5> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s5> <http://purl.org/dc/terms/publisher> "American Economic Review 93(5) (Kahneman, 2003), Princeton author page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s5> <http://purl.org/dc/terms/title> "Maps of bounded rationality: Psychology for behavioral economics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s5> <https://schema.org/url> <https://kahneman.scholar.princeton.edu/document/8> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s6> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s6> <http://purl.org/dc/terms/publisher> "Data Colada 43 (Simonsohn, 2015, updated 2020)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s6> <http://purl.org/dc/terms/title> "Rain & happiness: Why didn't Schwarz & Clore (1983) 'replicate'?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/attribute-substitution/s6> <https://schema.org/url> <https://datacolada.org/43> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s1> <http://purl.org/dc/terms/publisher> "Inspiring Physicians (Munk's Roll), Royal College of Physicians of London" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/austin-bradford-hill/s1> <http://purl.org/dc/terms/title> "Sir Austin Bradford Hill" .
