@@ -5640,6 +5640,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Prospect theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "CPT" .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "Kahneman-Tversky value function" .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "cumulative prospect theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#definition> "A descriptive model of choice under risk, introduced by Kahneman and Tversky in 1979, in which people value gains and losses relative to a reference point, feel losses more than equal gains, and weight probabilities non-linearly instead of maximising expected utility." .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prospect theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gal-rucker-2018-loss-of-loss-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/prospect-theory.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ruggeri-2020-prospect-theory-replication> .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the premise allow a different B for each A, or does it really say one B serves them all?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
@@ -10925,6 +10957,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s4> <https://schema.org/url> <https://mathshistory.st-andrews.ac.uk/DSB/Post.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s1> <http://purl.org/dc/terms/publisher> "Econometrica 47(2), 263-291 (Kahneman & Tversky, 1979), SSRN record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s1> <http://purl.org/dc/terms/title> "Prospect Theory: An Analysis of Decision under Risk" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s1> <https://schema.org/url> <https://papers.ssrn.com/abstract=1505880> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s2> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s2> <http://purl.org/dc/terms/publisher> "Journal of Risk and Uncertainty 5, 297-323 (Tversky & Kahneman, 1992), copy hosted by California State University, Fullerton" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s2> <http://purl.org/dc/terms/title> "Advances in Prospect Theory: Cumulative Representation of Uncertainty" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s2> <https://schema.org/url> <https://psych.fullerton.edu/mbirnbaum/psych466/articles/Tversky_Kahneman_JRU_92.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s3> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s3> <http://purl.org/dc/terms/publisher> "Nature Human Behaviour 4(6) (Ruggeri et al., 2020), Vrije Universiteit Amsterdam research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s3> <http://purl.org/dc/terms/title> "Replicating patterns of prospect theory for decision under risk" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s3> <https://schema.org/url> <https://research.vu.nl/en/publications/replicating-patterns-of-prospect-theory-for-decision-under-risk/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> <http://purl.org/dc/terms/publisher> "Journal of Consumer Psychology (Gal & Rucker, 2018), SSRN record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> <http://purl.org/dc/terms/title> "The Loss of Loss Aversion: Will It Loom Larger Than Its Gain?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> <https://schema.org/url> <https://papers.ssrn.com/abstract=3049660> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1> <http://purl.org/dc/terms/publisher> "A Modern Formal Logic Primer, Vol. II, ch. 3 (Paul Teller), LibreTexts Humanities" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1> <http://purl.org/dc/terms/title> "Some Examples of Multiple Quantification" .

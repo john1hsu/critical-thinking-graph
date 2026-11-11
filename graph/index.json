@@ -13261,6 +13261,101 @@
   ]
  },
  {
+  "id": "ct:prospect-theory",
+  "title": "Prospect theory",
+  "aliases": [
+   "cumulative prospect theory",
+   "CPT",
+   "Kahneman-Tversky value function"
+  ],
+  "type": "Framework",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/decision-making/prospect-theory.md",
+  "created": "2026-11-11",
+  "summary": "A descriptive model of choice under risk, introduced by Kahneman and Tversky in 1979, in which people value gains and losses relative to a reference point, feel losses more than equal gains, and weight probabilities non-linearly instead of maximising expected utility.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:decision-theory"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sunk-cost-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behavioral-economics"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:expected-utility-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:ruggeri-2020-prospect-theory-replication",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gal-rucker-2018-loss-of-loss-aversion",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://papers.ssrn.com/abstract=1505880",
+   "https://psych.fullerton.edu/mbirnbaum/psych466/articles/Tversky_Kahneman_JRU_92.pdf",
+   "https://research.vu.nl/en/publications/replicating-patterns-of-prospect-theory-for-decision-under-risk/",
+   "https://papers.ssrn.com/abstract=3049660"
+  ]
+ },
+ {
   "id": "ct:quantifier-shift-fallacy",
   "title": "Quantifier shift fallacy",
   "aliases": [

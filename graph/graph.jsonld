@@ -12500,6 +12500,94 @@
    ]
   },
   {
+   "@id": "ct:prospect-theory",
+   "@type": "cto:Framework",
+   "cto:challengedBy": {
+    "@id": "ct:gal-rucker-2018-loss-of-loss-aversion"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:expected-utility-theory"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/decision-making/prospect-theory.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:expected-utility-theory"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:ruggeri-2020-prospect-theory-replication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4"
+    }
+   ],
+   "rdfs:label": "Prospect theory",
+   "skos:altLabel": [
+    "CPT",
+    "Kahneman-Tversky value function",
+    "cumulative prospect theory"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:decision-theory"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    }
+   ],
+   "skos:definition": "A descriptive model of choice under risk, introduced by Kahneman and Tversky in 1979, in which people value gains and losses relative to a reference point, feel losses more than equal gains, and weight probabilities non-linearly instead of maximising expected utility.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Prospect theory",
+   "skos:related": [
+    {
+     "@id": "ct:behavioral-economics"
+    },
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:loss-aversion"
+    },
+    {
+     "@id": "ct:risk-aversion"
+    },
+    {
+     "@id": "ct:sunk-cost-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:quantifier-shift-fallacy",
    "@type": "cto:FormalFallacy",
    "cto:domain": "formal-fallacies",
@@ -30057,6 +30145,62 @@
    "dcterms:title": "Post, Emil Leon",
    "schema:url": {
     "@id": "https://mathshistory.st-andrews.ac.uk/DSB/Post.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Econometrica 47(2), 263-291 (Kahneman & Tversky, 1979), SSRN record",
+   "dcterms:title": "Prospect Theory: An Analysis of Decision under Risk",
+   "schema:url": {
+    "@id": "https://papers.ssrn.com/abstract=1505880"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Journal of Risk and Uncertainty 5, 297-323 (Tversky & Kahneman, 1992), copy hosted by California State University, Fullerton",
+   "dcterms:title": "Advances in Prospect Theory: Cumulative Representation of Uncertainty",
+   "schema:url": {
+    "@id": "https://psych.fullerton.edu/mbirnbaum/psych466/articles/Tversky_Kahneman_JRU_92.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Nature Human Behaviour 4(6) (Ruggeri et al., 2020), Vrije Universiteit Amsterdam research portal",
+   "dcterms:title": "Replicating patterns of prospect theory for decision under risk",
+   "schema:url": {
+    "@id": "https://research.vu.nl/en/publications/replicating-patterns-of-prospect-theory-for-decision-under-risk/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-11"
+   },
+   "dcterms:publisher": "Journal of Consumer Psychology (Gal & Rucker, 2018), SSRN record",
+   "dcterms:title": "The Loss of Loss Aversion: Will It Loom Larger Than Its Gain?",
+   "schema:url": {
+    "@id": "https://papers.ssrn.com/abstract=3049660"
    }
   },
   {
