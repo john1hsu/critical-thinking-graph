@@ -6973,6 +6973,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/false-positive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2000/01/rdf-schema#label> "Reversal test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Bostrom-Ord reversal test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#altLabel> "double reversal test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#definition> "A check for status quo bias: when a change to some quantity seems bad, ask whether the opposite change would also be bad. If both directions seem worse, you owe a reason why the current value happens to be the best one; lacking it, suspect the preference comes from bias." .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reversal test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/omission-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/applied-ethics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/clarke-2016-reversal-test-critique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/nebel-2015-status-quo-conservatism-about-value> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/reversal-test.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/nick-bostrom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/toby-ord> .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> <http://www.w3.org/2000/01/rdf-schema#label> "Reversible and irreversible decisions" .
@@ -13093,6 +13123,24 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/researcher-degrees-of-freedom/s4> <https://schema.org/url> <https://dare.uva.nl/id/0785a9cc-2470-4a3a-bea8-0f34828953c2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s1> <http://purl.org/dc/terms/publisher> "Ethics 116(4), 656-679 (Bostrom & Ord, 2006), author's copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s1> <http://purl.org/dc/terms/title> "The Reversal Test: Eliminating Status Quo Bias in Applied Ethics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s1> <https://schema.org/url> <https://www.nickbostrom.com/ethics/statusquo.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s2> <http://purl.org/dc/terms/publisher> "Ethics 125(2), 449-476 (Nebel, 2015), PhilArchive copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s2> <http://purl.org/dc/terms/title> "Status Quo Bias, Rationality, and Conservatism about Value" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s2> <https://schema.org/url> <https://philarchive.org/archive/NEBSQB> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s3> <http://purl.org/dc/terms/publisher> "Canadian Journal of Philosophy 46(3), 369-386 (Clarke, 2016), Cambridge University Press" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s3> <http://purl.org/dc/terms/title> "The Reversal Test, Status Quo Bias, and Opposition to Human Cognitive Enhancement" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/reversal-test/s3> <https://schema.org/url> <https://www.cambridge.org/core/journals/canadian-journal-of-philosophy/article/reversal-test-status-quo-bias-and-opposition-to-human-cognitive-enhancement/7F2FF188835015750D9C1EF5CDB7E904> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s1> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 82(4), 503-514 (Gilbert & Ebert, 2002), author's copy at Harvard University" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/reversible-and-irreversible-decisions/s1> <http://purl.org/dc/terms/title> "Decisions and revisions: The affective forecasting of changeable outcomes" .

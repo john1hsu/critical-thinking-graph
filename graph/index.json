@@ -16520,6 +16520,103 @@
   ]
  },
  {
+  "id": "ct:reversal-test",
+  "title": "Reversal test",
+  "aliases": [
+   "Bostrom-Ord reversal test",
+   "double reversal test"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/debiasing-and-metacognition/reversal-test.md",
+  "created": "2026-11-12",
+  "summary": "A check for status quo bias: when a change to some quantity seems bad, ask whether the opposite change would also be bad. If both directions seem worse, you owe a reason why the current value happens to be the best one; lacking it, suspect the preference comes from bias.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:status-quo-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:omission-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:endowment-effect"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:status-quo-bias"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:nick-bostrom",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:toby-ord",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:status-quo-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:status-quo-bias",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:applied-ethics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:clarke-2016-reversal-test-critique",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:nebel-2015-status-quo-conservatism-about-value",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.nickbostrom.com/ethics/statusquo.pdf",
+   "https://philarchive.org/archive/NEBSQB",
+   "https://www.cambridge.org/core/journals/canadian-journal-of-philosophy/article/reversal-test-status-quo-bias-and-opposition-to-human-cognitive-enhancement/7F2FF188835015750D9C1EF5CDB7E904"
+  ]
+ },
+ {
   "id": "ct:reversible-and-irreversible-decisions",
   "title": "Reversible and irreversible decisions",
   "aliases": [
