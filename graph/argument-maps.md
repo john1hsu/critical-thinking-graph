@@ -374,6 +374,17 @@ flowchart TD
   o3["No comparison with teams still on the old tool, or with previous Aprils, was made."] -. attacks .-> ra
 ```
 
+## Prosecutor's fallacy (`ct:prosecutors-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["The badge reader logged a card whose partial ID matches this employee's card."] --> ra{{"fallacious"}}
+  p2["Only 1 in 1,000 cards in the building system would share that partial ID by chance."] --> ra{{"fallacious"}}
+  ra --> c["So there is a 99.9% chance this employee entered the server room."]
+  o1["With about 5,000 cards on the system, roughly five would match by chance, so without other evidence the match alone points to one of about six cardholders."] -. attacks .-> ra
+  o2["The 1-in-1,000 figure is the probability of a match if the employee did not enter, not the probability the employee did not enter given the match."] -. attacks .-> ra
+```
+
 ## Quantifier shift fallacy (`ct:quantifier-shift-fallacy`)
 
 ```mermaid

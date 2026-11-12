@@ -26,6 +26,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 2.94 | `ct:formal-logic` | `ct:modus-ponens` | `ct:deductive-reasoning`, `ct:formal-fallacy`, `ct:method-of-counterexample`, `ct:peter-geach`, `ct:propositional-logic` |
 | 2.93 | `ct:regression-to-the-mean` | `ct:simpsons-paradox` | `ct:base-rate-neglect`, `ct:clinical-research`, `ct:correlation-versus-causation`, `ct:george-udny-yule`, `ct:randomized-controlled-trial` |
 | 2.92 | `ct:categorical-proposition` | `ct:john-venn` | `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:existential-import`, `ct:george-boole`, `ct:square-of-opposition` |
-| 2.92 | `ct:argumentation-theory` | `ct:defeasible-reasoning` | `ct:argument`, `ct:argument-from-consequences`, `ct:argumentation-schemes`, `ct:artificial-intelligence`, `ct:burden-of-proof` |
+| 2.91 | `ct:argumentation-theory` | `ct:defeasible-reasoning` | `ct:argument`, `ct:argument-from-consequences`, `ct:argumentation-schemes`, `ct:artificial-intelligence`, `ct:burden-of-proof` |
 | 2.88 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
 | 2.85 | `ct:exclusive-premises` | `ct:square-of-opposition` | `ct:antilogism`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:existential-fallacy` |

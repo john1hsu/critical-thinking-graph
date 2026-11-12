@@ -13719,6 +13719,96 @@
    ]
   },
   {
+   "@id": "ct:prosecutors-fallacy",
+   "@type": "cto:ProbabilisticFallacy",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:defense-attorneys-fallacy"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:thompson-schumann-1987-jury-fallacy-experiments"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map"
+   },
+   "cto:file": "articles/probabilistic-reasoning/prosecutors-fallacy.md",
+   "cto:instanceOf": {
+    "@id": "ct:inverse-fallacy"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:william-c-thompson"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s5"
+    }
+   ],
+   "rdfs:label": "Prosecutor's fallacy",
+   "skos:altLabel": [
+    "false positive inversion",
+    "prosecutor fallacy"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:inverse-fallacy"
+    },
+    {
+     "@id": "ct:probabilistic-fallacy"
+    }
+   ],
+   "skos:definition": "The error of treating the probability that incriminating evidence would turn up if the accused were innocent (for example, a random match probability) as if it were the probability that the accused is innocent given that evidence.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Prosecutor's fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:legal-reasoning"
+    },
+    {
+     "@id": "ct:likelihood-ratio"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    }
+   ]
+  },
+  {
    "@id": "ct:prospect-theory",
    "@type": "cto:Framework",
    "cto:challengedBy": {
@@ -21410,6 +21500,120 @@
    ],
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:prosecutors-fallacy"
+   },
+   "rdfs:label": "Is the figure being quoted the chance of the evidence if the person is innocent, or the chance the person is innocent given the evidence?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:prosecutors-fallacy"
+   },
+   "rdfs:label": "Before this evidence, how many people could plausibly have been responsible?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:prosecutors-fallacy"
+   },
+   "rdfs:label": "Out of everyone who could have produced this evidence by coincidence, how many would we expect to find?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:prosecutors-fallacy"
+   },
+   "rdfs:label": "How much more likely is the evidence if the person is responsible than if they are not?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:prosecutors-fallacy"
+   },
+   "rdfs:label": "Does the rest of the case make guilt likely or unlikely before this evidence is added?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:prosecutors-fallacy"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So there is a 99.9% chance this employee entered the server room."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "With about 5,000 cards on the system, roughly five would match by chance, so without other evidence the match alone points to one of about six cardholders."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The 1-in-1,000 figure is the probability of a match if the employee did not enter, not the probability the employee did not enter given the match."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The badge reader logged a card whose partial ID matches this employee's card."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Only 1 in 1,000 cards in the building system would share that partial ID by chance."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy/map"
    }
   },
   {
@@ -33034,6 +33238,76 @@
    "dcterms:title": "Post, Emil Leon",
    "schema:url": {
     "@id": "https://mathshistory.st-andrews.ac.uk/DSB/Post.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Law and Human Behavior 11(3), 167-187 (Thompson & Schumann, 1987), course copy hosted by Joel Velasco",
+   "dcterms:title": "Interpretation of Statistical Evidence in Criminal Trials: The Prosecutor's Fallacy and the Defense Attorney's Fallacy",
+   "schema:url": {
+    "@id": "https://www.joelvelasco.net/teaching/122/thompson&schumann87-statisticslaw.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "International Journal of Evidence & Proof 28(1), 45-64 (Dahlman, 2024), Lund University Publications",
+   "dcterms:title": "A Systematic Account of Probabilistic Fallacies in Legal Fact-Finding",
+   "schema:url": {
+    "@id": "https://lup.lub.lu.se/search/files/163710477/dahlman_2023_a_systematic_account_of_probabilistic_fallacies_in_legal_fact_finding.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Leverhulme Research Centre for Forensic Science, University of Dundee (Gray)",
+   "dcterms:title": "Probabilities for propositions (section 4.16), Probability, statistics, and the likelihood ratio for non-experts",
+   "schema:url": {
+    "@id": "https://lrcfs-ap2.dundee.ac.uk/lr_book/prosecutor-fallacy.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Royal Statistical Society (Green, 23 January 2002)",
+   "dcterms:title": "Letter from the President of the Royal Statistical Society to the Lord Chancellor regarding the use of statistical evidence in court cases",
+   "schema:url": {
+    "@id": "https://www.rss.org.uk/RSS/media/File-library/Membership/Sections/2020/Sally-Clark-RSS-letter-2002.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/prosecutors-fallacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Law and Human Behavior 39(4), 332-349 (Thompson & Newman, 2015), Australian National University research portal",
+   "dcterms:title": "Lay Understanding of Forensic Statistics: Evaluation of Random Match Probabilities, Likelihood Ratios, and Verbal Equivalents",
+   "schema:url": {
+    "@id": "https://researchportalplus.anu.edu.au/en/publications/lay-understanding-of-forensic-statistics-evaluation-of-random-mat/"
    }
   },
   {

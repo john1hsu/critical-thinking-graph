@@ -14584,6 +14584,103 @@
   ]
  },
  {
+  "id": "ct:prosecutors-fallacy",
+  "title": "Prosecutor's fallacy",
+  "aliases": [
+   "prosecutor fallacy",
+   "false positive inversion"
+  ],
+  "type": "ProbabilisticFallacy",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/prosecutors-fallacy.md",
+  "created": "2026-11-12",
+  "summary": "The error of treating the probability that incriminating evidence would turn up if the accused were innocent (for example, a random match probability) as if it were the probability that the accused is innocent given that evidence.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:probabilistic-fallacy"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:inverse-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:legal-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:likelihood-ratio"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:william-c-thompson",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:thompson-schumann-1987-jury-fallacy-experiments",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:defense-attorneys-fallacy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:inverse-fallacy",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:bayesian-reasoning",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the figure being quoted the chance of the evidence if the person is innocent, or the chance the person is innocent given the evidence?",
+   "Before this evidence, how many people could plausibly have been responsible?",
+   "Out of everyone who could have produced this evidence by coincidence, how many would we expect to find?",
+   "How much more likely is the evidence if the person is responsible than if they are not?",
+   "Does the rest of the case make guilt likely or unlikely before this evidence is added?"
+  ],
+  "source_urls": [
+   "https://www.joelvelasco.net/teaching/122/thompson&schumann87-statisticslaw.pdf",
+   "https://lup.lub.lu.se/search/files/163710477/dahlman_2023_a_systematic_account_of_probabilistic_fallacies_in_legal_fact_finding.pdf",
+   "https://lrcfs-ap2.dundee.ac.uk/lr_book/prosecutor-fallacy.html",
+   "https://www.rss.org.uk/RSS/media/File-library/Membership/Sections/2020/Sally-Clark-RSS-letter-2002.pdf",
+   "https://researchportalplus.anu.edu.au/en/publications/lay-understanding-of-forensic-statistics-evaluation-of-random-mat/"
+  ]
+ },
+ {
   "id": "ct:prospect-theory",
   "title": "Prospect theory",
   "aliases": [
