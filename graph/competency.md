@@ -19,7 +19,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:consider-the-opposite` | 4 | Anchoring effect, Hindsight bias, Overconfidence effect, biased-assimilation |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, Confirmation bias, Fundamental attribution error |
 | `ct:rules-of-the-categorical-syllogism` | 4 | Existential fallacy, Fallacy of four terms, Illicit major, Undistributed middle |
-| `ct:outside-view` | 3 | Base-rate neglect, Representativeness heuristic, planning-fallacy |
+| `ct:outside-view` | 3 | Base-rate neglect, Planning fallacy, Representativeness heuristic |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
 | `ct:preregistration` | 3 | Hindsight bias, Publication bias, reporting-bias |

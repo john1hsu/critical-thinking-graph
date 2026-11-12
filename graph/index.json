@@ -13140,6 +13140,91 @@
   ]
  },
  {
+  "id": "ct:planning-fallacy",
+  "title": "Planning fallacy",
+  "aliases": [
+   "planning bias",
+   "optimistic time prediction"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/planning-fallacy.md",
+  "created": "2026-11-12",
+  "summary": "The tendency to predict that one's own task or project will be finished sooner (and more smoothly) than it actually will be, even while knowing that most similar past tasks ran late.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:outside-view"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:optimism-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:buehler-griffin-ross-1994-thesis-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:inside-view",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:wiese-2016-backward-planning-study",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:roy-christenfeld-2007-memory-bias-study",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/buehler-et-al-1994.pdf",
+   "https://spsp.org/news-center/blog/buehler-planning-fallacy",
+   "https://www.cambridge.org/core/books/judgment-under-uncertainty/intuitive-prediction-biases-and-corrective-procedures/3A2F2ECDC508C662BE17C0FE5FD73C90",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/16/16101/jdm16101.html",
+   "https://jayscholar.etown.edu/facpubharvest/1386"
+  ]
+ },
+ {
   "id": "ct:plato",
   "title": "Plato",
   "aliases": [

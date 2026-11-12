@@ -12334,6 +12334,85 @@
    ]
   },
   {
+   "@id": "ct:planning-fallacy",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": {
+    "@id": "ct:roy-christenfeld-2007-memory-bias-study"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:buehler-griffin-ross-1994-thesis-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": {
+    "@id": "ct:inside-view"
+   },
+   "cto:file": "articles/cognitive-biases/planning-fallacy.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:supportedBy": {
+    "@id": "ct:wiese-2016-backward-planning-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s5"
+    }
+   ],
+   "rdfs:label": "Planning fallacy",
+   "skos:altLabel": [
+    "optimistic time prediction",
+    "planning bias"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to predict that one's own task or project will be finished sooner (and more smoothly) than it actually will be, even while knowing that most similar past tasks ran late.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Planning fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:optimism-bias"
+    },
+    {
+     "@id": "ct:outside-view"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:premortem"
+    }
+   ]
+  },
+  {
    "@id": "ct:plato",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -32140,6 +32219,76 @@
    "dcterms:title": "Brief History of the U.S. Federal Plain Language Movement",
    "schema:url": {
     "@id": "https://centerforplainlanguage.org/learning-training/tools-training/brief-history-of-the-u-s-federal-plain-language-movement/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 67(3), 366-381 (Buehler, Griffin & Ross, 1994), course copy at University of Florida",
+   "dcterms:title": "Exploring the \"planning fallacy\": Why people underestimate their task completion times",
+   "schema:url": {
+    "@id": "https://bear.warrington.ufl.edu/brenner/mar7588/Papers/buehler-et-al-1994.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Society for Personality and Social Psychology, Character & Context blog (Buehler, 2019)",
+   "dcterms:title": "The planning fallacy",
+   "schema:url": {
+    "@id": "https://spsp.org/news-center/blog/buehler-planning-fallacy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Cambridge University Press, in Judgment under Uncertainty, 414-421 (Kahneman & Tversky, 1982)",
+   "dcterms:title": "Intuitive prediction: Biases and corrective procedures",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/judgment-under-uncertainty/intuitive-prediction-biases-and-corrective-procedures/3A2F2ECDC508C662BE17C0FE5FD73C90"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 11(2), 147-167 (Wiese, Buehler & Griffin, 2016)",
+   "dcterms:title": "Backward planning: Effects of planning direction on predictions of task completion time",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/16/16101/jdm16101.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/planning-fallacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Memory & Cognition 35(3), 557-564 (Roy & Christenfeld, 2007), Elizabethtown College repository record",
+   "dcterms:title": "Bias in memory predicts bias in estimation of future task duration",
+   "schema:url": {
+    "@id": "https://jayscholar.etown.edu/facpubharvest/1386"
    }
   },
   {
