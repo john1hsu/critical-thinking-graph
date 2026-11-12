@@ -4,7 +4,8 @@
 Usage:
   python3 scripts/kg.py check                       # validate articles + SHACL + reasoning (exit 1 on errors)
   python3 scripts/kg.py build                       # check, then regenerate everything in graph/
-  python3 scripts/kg.py similar "Candidate title"   # rank existing nodes by similarity to a candidate
+  python3 scripts/kg.py similar "Candidate title" [--summary "one-line definition"]
+                                                    # rank existing nodes by similarity in meaning to a candidate
   python3 scripts/kg.py new <domain> <slug> <Type>  # scaffold an article with the sections its class needs
   python3 scripts/kg.py query <file.rq | 'SPARQL'>  # run SPARQL over asserted + inferred graph + ontology
 
@@ -31,8 +32,8 @@ import sys
 import unicodedata
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
+from functools import lru_cache
 from datetime import date
-from difflib import SequenceMatcher
 from pathlib import Path
 
 try:
@@ -98,6 +99,12 @@ SHINGLE_DUP = 0.35      # 5-word shingle Jaccard: copied text
 TFIDF_DUP = 0.80        # cosine on TF-IDF of bodies: same topic rewritten
 TFIDF_WARN = 0.60
 TITLE_DUP = 0.85
+# `similar` thresholds (see similar()). An exact title/alias match is always a duplicate.
+# Calibrated on the frontier (distinct topics, many of them parents/children of existing
+# nodes, top out around 0.75-0.88) and on synonym pairs (0.78-0.87 without a shared alias).
+SIMILAR_REVIEW = 0.70   # same subject or a close parent/child: read it and decide
+SIMILAR_NEAR = 0.55     # nearby subject: a candidate for `related`, not a duplicate
+EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"   # small ONNX model via fastembed (no PyTorch)
 STOP = set("the a an of and or in on to for is are be as by with that this it its from at which can not but "
            "if than then so such into their they them these those was were has have had more most when".split())
 
@@ -185,7 +192,44 @@ def jaccard(a: set, b: set) -> float:
 
 
 def label_sim(a: str, b: str) -> float:
-    return max(jaccard(tokens(a), tokens(b)), SequenceMatcher(None, norm(a), norm(b)).ratio())
+    """Whole-word overlap of two labels (stemmed, stop words dropped); 1.0 on an exact match.
+
+    Deliberately not character-level: spelling resemblance ("P-hacking" vs "Prebunking")
+    says nothing about whether two labels name the same thing.
+    """
+    if norm(a) and norm(a) == norm(b):
+        return 1.0
+    return jaccard({t for t in tokens(a) if len(t) > 1}, {t for t in tokens(b) if len(t) > 1})
+
+
+@lru_cache(maxsize=1)
+def embedder():
+    """Sentence-embedding model for `similar`, or None (with a warning) if it can't be loaded.
+
+    Set CT_KG_NO_EMBED=1 to skip it (tests). The model is cached under ~/.cache/fastembed.
+    """
+    if os.environ.get("CT_KG_NO_EMBED"):
+        return None
+    try:
+        from fastembed import TextEmbedding
+        cache = Path(os.environ.get("FASTEMBED_CACHE_PATH") or Path.home() / ".cache" / "fastembed")
+        return TextEmbedding(EMBED_MODEL, cache_dir=str(cache))
+    except Exception as e:  # missing package, no network for the first download, etc.
+        print(f"warning: meaning check unavailable ({type(e).__name__}: {e}); "
+              "falling back to word overlap only. Run: pip install -r requirements.txt", file=sys.stderr)
+        return None
+
+
+def embed(model, texts: list[str]) -> list[list[float]]:
+    out = []
+    for v in model.embed(texts):
+        n = math.sqrt(sum(float(x) * float(x) for x in v)) or 1.0
+        out.append([float(x) / n for x in v])
+    return out
+
+
+def dot(a: list[float], b: list[float]) -> float:
+    return sum(x * y for x, y in zip(a, b))
 
 
 def strip_markup(body: str) -> str:
@@ -946,22 +990,71 @@ def full_check(build: bool) -> int:
     return 0
 
 
-def similar(query: str) -> int:
+def similar(query: str, summary: str = "") -> int:
+    """Rank existing nodes by how likely they are to cover the same subject as a candidate.
+
+    Columns (all 0-1; score is their maximum):
+      meaning  sentence-embedding cosine of the candidate against each node's title and
+               aliases, and (with --summary) of candidate title+summary against node
+               title+summary. Catches synonyms that share no words.
+      words    whole-word overlap with the node's title/aliases (1.0 = exact title or alias).
+      tfidf    TF-IDF cosine of the candidate text against the node's title, aliases and summary.
+    """
     arts, _ = load_articles()
     if not arts:
         print("No articles yet. Topic is unique.")
         return 0
+    qtext = f"{query}: {summary}" if summary else query
     docs = [" ".join([a.get("title", "")] + list(a.get("aliases") or []) + [str(a.get("summary", ""))])
-            for a in arts] + [query]
+            for a in arts] + [qtext]
     vec = tfidf(docs)
+    labels = [[str(x) for x in [a.get("title", "")] + list(a.get("aliases") or []) if x] for a in arts]
+
+    meaning = [None] * len(arts)
+    model = embedder()
+    if model is not None:
+        flat = [x for ls in labels for x in ls]
+        texts = [query] + flat
+        if summary:
+            texts += [qtext] + [f"{a.get('title', '')}: {a.get('summary', '')}" for a in arts]
+        e = embed(model, texts)
+        q, lab_e = e[0], e[1:1 + len(flat)]
+        k = 0
+        for i, ls in enumerate(labels):
+            meaning[i] = max(dot(q, lab_e[k + j]) for j in range(len(ls)))
+            k += len(ls)
+        if summary:
+            qd, doc_e = e[1 + len(flat)], e[2 + len(flat):]
+            meaning = [max(m, dot(qd, d)) for m, d in zip(meaning, doc_e)]
+
     scored = []
-    for a, v in zip(arts, vec):
-        labels = [a.get("title", "")] + list(a.get("aliases") or [])
-        lab = 1.0 if norm(query) in {norm(x) for x in labels} else max(label_sim(query, x) for x in labels)
-        scored.append((max(lab, cosine(vec[-1], v)), lab, cosine(vec[-1], v), a["id"], a.get("title")))
-    print("score  label  tfidf  id  title")
-    for s, lab, cs, i, t in sorted(scored, reverse=True)[:10]:
-        print(f"{s:.2f}   {lab:.2f}   {cs:.2f}   {i}  {t}")
+    for i, a in enumerate(arts):
+        words = max(label_sim(query, x) for x in labels[i])
+        cs = cosine(vec[-1], vec[i])
+        m = meaning[i]
+        scored.append((max(words, cs, m if m is not None else 0.0), m, words, cs, a["id"], a.get("title")))
+    scored.sort(key=lambda r: r[0], reverse=True)
+    print("score  meaning  words  tfidf  id  title")
+    for sc, m, w, cs, i, t in scored[:10]:
+        ms = f"{m:.2f}" if m is not None else " -- "
+        print(f"{sc:.2f}   {ms}     {w:.2f}   {cs:.2f}   {i}  {t}")
+    exact = [r for r in scored if r[2] >= 1.0]
+    review = [r for r in scored if r[0] >= SIMILAR_REVIEW and r not in exact]
+    near = [r for r in scored if SIMILAR_NEAR <= r[0] < SIMILAR_REVIEW][:5]
+    print()
+    if exact:
+        print(f"verdict: DUPLICATE - matches the title or an alias of {', '.join(r[4] for r in exact)}; pick another topic.")
+    elif review:
+        print(f"verdict: REVIEW - read {', '.join(r[4] for r in review)} (score >= {SIMILAR_REVIEW}). Write only if "
+              "the subject is clearly distinct (a broader, narrower or neighbouring topic), not a synonym or re-angle.")
+    else:
+        print(f"verdict: UNIQUE - nothing scores >= {SIMILAR_REVIEW}.")
+    if near and not exact:
+        print(f"nearby (candidates for related): {', '.join(r[4] for r in near)}")
+    if not summary:
+        print("tip: add --summary \"one-line definition\" so the meaning check compares definitions, not just names.")
+    if model is None:
+        print("note: meaning column unavailable; synonyms that share no words may be missed.")
     return 0
 
 
@@ -1031,7 +1124,14 @@ def main() -> int:
     if cmd in ("check", "build"):
         return full_check(cmd == "build")
     if cmd == "similar":
-        return similar(" ".join(args))
+        summary = ""
+        if "--summary" in args:
+            i = args.index("--summary")
+            summary, args = " ".join(args[i + 1:]), args[:i]
+        if not args:
+            print(__doc__)
+            return 2
+        return similar(" ".join(args), summary)
     if cmd == "new" and len(args) == 3:
         return new(*args)
     if cmd == "query" and args:

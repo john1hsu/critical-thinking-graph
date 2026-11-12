@@ -46,7 +46,7 @@ articles/<domain>/<slug>.md          Markdown + YAML frontmatter (one node each)
 pip install -r requirements.txt
 python3 scripts/kg.py check                         # validate + reason + SHACL
 python3 scripts/kg.py build                         # ...and regenerate graph/
-python3 scripts/kg.py similar "Myside bias"         # duplicate check for a candidate topic
+python3 scripts/kg.py similar "Myside bias" --summary "Favouring evidence for one's own side"   # meaning-based duplicate check
 python3 scripts/kg.py new cognitive-biases anchoring-effect CognitiveBias   # scaffold
 python3 scripts/kg.py query queries/02-remedy-coverage.rq                   # or an inline SPARQL string
 python3 -m pytest -q tests                          # end-to-end tests on fixture articles

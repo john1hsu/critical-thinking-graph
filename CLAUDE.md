@@ -19,9 +19,14 @@ Use the current UTC hour modulo 3:
 
 Then prove it is unique:
 ```bash
-python3 scripts/kg.py similar "<candidate title>"
+python3 scripts/kg.py similar "<candidate title>" --summary "<one-line definition>"
 ```
-If any score ≥ 0.5, or an existing title/alias names the same thing, pick a different topic. Never write a second article on an existing subject — not a rename, a sub-angle that restates it, an abbreviation, or a synonym. Record alternate names as `aliases`.
+The check compares meaning (sentence embeddings over titles, aliases and summaries), plus whole-word and TF-IDF overlap; it ignores spelling resemblance. Always pass `--summary`. Act on its verdict:
+- **DUPLICATE** (the candidate matches an existing title or alias) → pick a different topic.
+- **REVIEW** (score ≥ 0.70) → read the listed articles' summaries; write only if your subject is clearly distinct (broader, narrower or a neighbour), and say in the commit message which node you ruled out and why.
+- **UNIQUE** → proceed. "Nearby" nodes are candidates for `related`.
+
+If the output says the meaning column is unavailable, the embedding model could not load; judge synonyms yourself before writing. Never write a second article on an existing subject — not a rename, a sub-angle that restates it, an abbreviation, or a synonym. Record alternate names as `aliases`.
 
 ## 3. Research
 - Run several web searches and read the actual pages (WebFetch). Don't rely on snippets or memory.

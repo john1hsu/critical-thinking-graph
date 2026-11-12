@@ -116,7 +116,8 @@ def make_tree(tmp: Path, articles=ARTICLES) -> Path:
 
 
 def run(tmp: Path, *args: str, hashseed: str = "random") -> subprocess.CompletedProcess:
-    return subprocess.run([sys.executable, str(KG), *args], cwd=tmp, env={"PYTHONHASHSEED": hashseed, "CT_KG_ROOT": str(tmp), "PATH": ""},
+    return subprocess.run([sys.executable, str(KG), *args], cwd=tmp, env={"PYTHONHASHSEED": hashseed, "CT_KG_ROOT": str(tmp), "PATH": "",
+                               "CT_KG_NO_EMBED": "1"},
                           capture_output=True, text=True)
 
 
@@ -197,7 +198,10 @@ def test_banned_source(tmp_path):
 def test_similar_and_new(tmp_path):
     t = make_tree(tmp_path)
     r = run(t, "similar", "myside bias")
-    assert r.returncode == 0 and r.stdout.splitlines()[1].split()[3] == "ct:confirmation-bias"
+    assert r.returncode == 0 and r.stdout.splitlines()[1].split()[4] == "ct:confirmation-bias"
+    assert "verdict: DUPLICATE" in r.stdout and "ct:confirmation-bias" in r.stdout.split("verdict:")[1]
+    r = run(t, "similar", "Modus tollens", "--summary", "Denying the consequent of a conditional.")
+    assert r.returncode == 0 and "verdict: DUPLICATE" not in r.stdout
     r = run(t, "new", "informal-fallacies", "straw-man", "InformalFallacy")
     assert r.returncode == 0
     text = (t / "articles" / "informal-fallacies" / "straw-man.md").read_text()
@@ -208,3 +212,12 @@ def test_empty_tree(tmp_path):
     t = make_tree(tmp_path, {})
     r = run(t, "build")
     assert r.returncode == 0, r.stdout
+
+
+def test_label_similarity_ignores_spelling():
+    sys.path.insert(0, str(KG.parent))
+    import kg
+    assert kg.label_sim("P-hacking", "Prebunking") == 0.0          # look-alike spelling, different subject
+    assert kg.label_sim("Source evaluation", "Ignoratio elenchi") == 0.0
+    assert kg.label_sim("Hasty generalisation", "Hasty generalization") == 1.0
+    assert 0 < kg.label_sim("Source evaluation", "Source credibility") < 0.5
