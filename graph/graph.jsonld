@@ -5331,6 +5331,87 @@
    ]
   },
   {
+   "@id": "ct:deepfake",
+   "@type": "cto:Phenomenon",
+   "cto:amplifies": {
+    "@id": "ct:liars-dividend"
+   },
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:groh-2022-deepfake-detection-crowds-study"
+    },
+    {
+     "@id": "ct:kobis-2021-fooled-twice-deepfake-study"
+    }
+   ],
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:generative-adversarial-network"
+   },
+   "cto:exploits": {
+    "@id": "ct:overconfidence-effect"
+   },
+   "cto:file": "articles/evidence-and-information-literacy/deepfake.md",
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:diel-2024-deepfake-detection-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s5"
+    }
+   ],
+   "rdfs:label": "Deepfake",
+   "skos:altLabel": [
+    "AI-generated synthetic media",
+    "deep fake",
+    "deepfakes",
+    "synthetic media forgery"
+   ],
+   "skos:broader": {
+    "@id": "ct:misinformation-and-disinformation"
+   },
+   "skos:definition": "A video, photo, audio recording or other media item that has been fabricated or manipulated with machine learning so that it looks or sounds authentic, for example showing a real person saying or doing something they never did.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Deepfake",
+   "skos:related": [
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:prebunking"
+    },
+    {
+     "@id": "ct:primary-and-secondary-sources"
+    },
+    {
+     "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
    "@id": "ct:defeasible-reasoning",
    "@type": "cto:ReasoningMode",
    "cto:appliedIn": [
@@ -27123,6 +27204,76 @@
    "dcterms:title": "On the conflict between logic and belief in syllogistic reasoning",
    "schema:url": {
     "@id": "https://link.springer.com/article/10.3758/BF03196976"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "iScience 24(11), 103364 (Köbis, Doležalová & Soraperra, 2021), PubMed Central",
+   "dcterms:title": "Fooled twice: People cannot detect deepfakes but think they can",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8602050"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Proceedings of the National Academy of Sciences 119(1), e2110013119 (Groh, Epstein, Firestone & Picard, 2022), PubMed Central",
+   "dcterms:title": "Deepfake detection by human crowds, machines, and machine-informed crowds",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8740705"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Computers in Human Behavior Reports 16, 100538 (Diel, Lalgi, Schröter, MacDorman, Teufel & Bäuerle, 2024), DOAJ record",
+   "dcterms:title": "Human performance in detecting deepfakes: A systematic review and meta-analysis of 56 papers",
+   "schema:url": {
+    "@id": "https://doaj.org/article/a2803c8a1b9441458f000fd0fe82ea47"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "California Law Review 107 (Chesney & Citron, 2019)",
+   "dcterms:title": "Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security",
+   "schema:url": {
+    "@id": "https://www.californialawreview.org/print/deep-fakes-a-looming-challenge-for-privacy-democracy-and-national-security"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "U.S. Government Accountability Office (2020)",
+   "dcterms:title": "Science & Tech Spotlight: Deepfakes (GAO-20-379SP)",
+   "schema:url": {
+    "@id": "https://www.gao.gov/products/GAO-20-379SP"
    }
   },
   {

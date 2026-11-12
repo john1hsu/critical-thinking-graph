@@ -94,7 +94,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:bounded-rationality` | mixed |  |
 | `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
 
-…and 36 more.
+…and 37 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -110,6 +110,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 |---|---|
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:correlation-versus-causation` | cto:Principle |
+| `ct:deepfake` | cto:Phenomenon |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
@@ -137,7 +138,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:selection-bias` | cto:Phenomenon |
 | `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:suppressed-evidence` | cto:InformalFallacy |
-| `ct:tu-quoque` | cto:InformalFallacy |
+
+…and 1 more.
 
 ## Orphan articles (gap)
 

@@ -2473,6 +2473,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2000/01/rdf-schema#label> "Deepfake" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#altLabel> "AI-generated synthetic media" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#altLabel> "deep fake" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#altLabel> "deepfakes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#altLabel> "synthetic media forgery" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#definition> "A video, photo, audio recording or other media item that has been fabricated or manipulated with machine learning so that it looks or sounds authentic, for example showing a real person saying or doing something they never did." .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deepfake" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifies> <https://github.com/john1hsu/critical-thinking-graph/id/liars-dividend> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/groh-2022-deepfake-detection-crowds-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kobis-2021-fooled-twice-deepfake-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/generative-adversarial-network> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#exploits> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/deepfake.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/diel-2024-deepfake-detection-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The office is about 21 degrees." .
 <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning/map/ra> .
@@ -9447,6 +9478,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s5> <https://schema.org/url> <https://link.springer.com/article/10.3758/BF03196976> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s1> <http://purl.org/dc/terms/publisher> "iScience 24(11), 103364 (Köbis, Doležalová & Soraperra, 2021), PubMed Central" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s1> <http://purl.org/dc/terms/title> "Fooled twice: People cannot detect deepfakes but think they can" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s1> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC8602050> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s2> <http://purl.org/dc/terms/publisher> "Proceedings of the National Academy of Sciences 119(1), e2110013119 (Groh, Epstein, Firestone & Picard, 2022), PubMed Central" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s2> <http://purl.org/dc/terms/title> "Deepfake detection by human crowds, machines, and machine-informed crowds" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC8740705> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s3> <http://purl.org/dc/terms/publisher> "Computers in Human Behavior Reports 16, 100538 (Diel, Lalgi, Schröter, MacDorman, Teufel & Bäuerle, 2024), DOAJ record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s3> <http://purl.org/dc/terms/title> "Human performance in detecting deepfakes: A systematic review and meta-analysis of 56 papers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s3> <https://schema.org/url> <https://doaj.org/article/a2803c8a1b9441458f000fd0fe82ea47> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s4> <http://purl.org/dc/terms/publisher> "California Law Review 107 (Chesney & Citron, 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s4> <http://purl.org/dc/terms/title> "Deep Fakes: A Looming Challenge for Privacy, Democracy, and National Security" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s4> <https://schema.org/url> <https://www.californialawreview.org/print/deep-fakes-a-looming-challenge-for-privacy-democracy-and-national-security> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s5> <http://purl.org/dc/terms/publisher> "U.S. Government Accountability Office (2020)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s5> <http://purl.org/dc/terms/title> "Science & Tech Spotlight: Deepfakes (GAO-20-379SP)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/deepfake/s5> <https://schema.org/url> <https://www.gao.gov/products/GAO-20-379SP> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Robert Koons, first published 2005, substantive revision 2025)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/defeasible-reasoning/s1> <http://purl.org/dc/terms/title> "Defeasible Reasoning" .

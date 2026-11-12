@@ -5673,6 +5673,95 @@
   ]
  },
  {
+  "id": "ct:deepfake",
+  "title": "Deepfake",
+  "aliases": [
+   "deep fake",
+   "deepfakes",
+   "AI-generated synthetic media",
+   "synthetic media forgery"
+  ],
+  "type": "Phenomenon",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/deepfake.md",
+  "created": "2026-11-12",
+  "summary": "A video, photo, audio recording or other media item that has been fabricated or manipulated with machine learning so that it looks or sounds authentic, for example showing a real person saying or doing something they never did.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:primary-and-secondary-sources"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:generative-adversarial-network",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:kobis-2021-fooled-twice-deepfake-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:groh-2022-deepfake-detection-crowds-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:diel-2024-deepfake-detection-meta-analysis",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:exploits",
+    "object": "ct:overconfidence-effect",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:amplifies",
+    "object": "ct:liars-dividend",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8602050",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8740705",
+   "https://doaj.org/article/a2803c8a1b9441458f000fd0fe82ea47",
+   "https://www.californialawreview.org/print/deep-fakes-a-looming-challenge-for-privacy-democracy-and-national-security",
+   "https://www.gao.gov/products/GAO-20-379SP"
+  ]
+ },
+ {
   "id": "ct:defeasible-reasoning",
   "title": "Defeasible reasoning",
   "aliases": [
