@@ -5873,6 +5873,94 @@
    ]
   },
   {
+   "@id": "ct:dialectic",
+   "@type": "cto:Method",
+   "cto:appliedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:karl-popper"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:rhetoric"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/dialectic.md",
+   "cto:formalizedBy": {
+    "@id": "ct:topics"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4"
+    }
+   ],
+   "rdfs:label": "Dialectic",
+   "skos:altLabel": [
+    "art of dialectic",
+    "dialectical argument",
+    "dialectical method",
+    "dialectical reasoning"
+   ],
+   "skos:broader": {
+    "@id": "ct:argumentation"
+   },
+   "skos:definition": "Reasoning conducted as an exchange between opposing positions, classically a disciplined question-and-answer contest in which a questioner tries to draw a respondent's concessions into contradiction; the term later also named formal logic (Stoics, medieval schools), Kant's critique of reason overreaching itself, Hegel's account of concepts developing through their own contradictions, and today's dialogue-based theories of argument.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Dialectic",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:endoxa"
+    },
+    {
+     "@id": "ct:formal-dialogue-systems"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:plato"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    },
+    {
+     "@id": "ct:topics"
+    }
+   ]
+  },
+  {
    "@id": "ct:disjunctive-syllogism",
    "@type": "cto:ReasoningForm",
    "cto:challengedBy": [
@@ -28280,6 +28368,62 @@
    "dcterms:title": "Stop Playing Devil's Advocate, and Other Advice for Better Decision Making",
    "schema:url": {
     "@id": "https://behavioralscientist.org/stop-playing-devils-advocate-and-other-advice-for-better-decision-making/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Dialectic (logic)",
+   "schema:url": {
+    "@id": "https://www.britannica.com/print/article/161174"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Smith, rev. 2022; Spring 2026 archive)",
+   "dcterms:title": "Aristotle's Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2026/entries/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Maybee, rev. 2020; Winter 2023 archive)",
+   "dcterms:title": "Hegel's Dialectics",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/Win2023/Entries/hegel-dialectics/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Groarke, rev. 2011; Fall 2016 archive)",
+   "dcterms:title": "Informal Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/fall2016/entries/logic-informal/"
    }
   },
   {

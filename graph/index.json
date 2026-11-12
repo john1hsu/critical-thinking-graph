@@ -6252,6 +6252,104 @@
   ]
  },
  {
+  "id": "ct:dialectic",
+  "title": "Dialectic",
+  "aliases": [
+   "dialectical method",
+   "dialectical reasoning",
+   "art of dialectic",
+   "dialectical argument"
+  ],
+  "type": "Method",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/dialectic.md",
+  "created": "2026-11-12",
+  "summary": "Reasoning conducted as an exchange between opposing positions, classically a disciplined question-and-answer contest in which a questioner tries to draw a respondent's concessions into contradiction; the term later also named formal logic (Stoics, medieval schools), Kant's critique of reason overreaching itself, Hegel's account of concepts developing through their own contradictions, and today's dialogue-based theories of argument.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:plato"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:topics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:endoxa"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stoic-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-dialogue-systems"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:topics",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:rhetoric",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:karl-popper",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.britannica.com/print/article/161174",
+   "https://plato.stanford.edu/archives/spr2026/entries/aristotle-logic/",
+   "https://plato.stanford.edu/archives/Win2023/Entries/hegel-dialectics/",
+   "https://plato.stanford.edu/archives/fall2016/entries/logic-informal/"
+  ]
+ },
+ {
   "id": "ct:disjunctive-syllogism",
   "title": "Disjunctive syllogism",
   "aliases": [

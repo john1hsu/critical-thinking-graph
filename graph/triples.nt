@@ -2736,6 +2736,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/devils-advocacy.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/schwenk-1990-devils-advocacy-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2000/01/rdf-schema#label> "Dialectic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#altLabel> "art of dialectic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#altLabel> "dialectical argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#altLabel> "dialectical method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#altLabel> "dialectical reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#definition> "Reasoning conducted as an exchange between opposing positions, classically a disciplined question-and-answer contest in which a questioner tries to draw a respondent's concessions into contradiction; the term later also named formal logic (Stoics, medieval schools), Kant's critique of reason overreaching itself, Hegel's account of concepts developing through their own contradictions, and today's dialogue-based theories of argument." .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dialectic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endoxa> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-dialogue-systems> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/rhetoric> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/dialectic.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The printer is failing because of the print driver." .
 <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ra> .
@@ -9847,6 +9881,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/devils-advocacy/s6> <https://schema.org/url> <https://behavioralscientist.org/stop-playing-devils-advocate-and-other-advice-for-better-decision-making/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s1> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s1> <http://purl.org/dc/terms/title> "Dialectic (logic)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s1> <https://schema.org/url> <https://www.britannica.com/print/article/161174> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Smith, rev. 2022; Spring 2026 archive)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s2> <http://purl.org/dc/terms/title> "Aristotle's Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2026/entries/aristotle-logic/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Maybee, rev. 2020; Winter 2023 archive)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s3> <http://purl.org/dc/terms/title> "Hegel's Dialectics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s3> <https://schema.org/url> <https://plato.stanford.edu/archives/Win2023/Entries/hegel-dialectics/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Groarke, rev. 2011; Fall 2016 archive)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> <http://purl.org/dc/terms/title> "Informal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/fall2016/entries/logic-informal/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Susanne Bobzien, Winter 2021 edition)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1> <http://purl.org/dc/terms/title> "Ancient Logic" .

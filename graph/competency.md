@@ -111,6 +111,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:deepfake` | cto:Phenomenon |
+| `ct:dialectic` | cto:Method |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
 | `ct:existential-import` | cto:Concept |
@@ -137,7 +138,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:selection-bias` | cto:Phenomenon |
 | `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:suppressed-evidence` | cto:InformalFallacy |
-| `ct:tu-quoque` | cto:InformalFallacy |
+
+…and 1 more.
 
 ## Orphan articles (gap)
 
