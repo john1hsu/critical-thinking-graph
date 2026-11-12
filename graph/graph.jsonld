@@ -17441,6 +17441,104 @@
    ]
   },
   {
+   "@id": "ct:source-evaluation",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:information-literacy-instruction"
+   },
+   "cto:counteracts": {
+    "@id": "ct:misinformation-and-disinformation"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:mcgrew-2018-civic-online-reasoning-assessments"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/evidence-and-information-literacy/source-evaluation.md",
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:epistemology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s7"
+    }
+   ],
+   "rdfs:label": "Source evaluation",
+   "skos:altLabel": [
+    "evaluating information sources",
+    "evaluating sources",
+    "information evaluation"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:critical-thinking"
+    },
+    {
+     "@id": "ct:information-literacy"
+    }
+   ],
+   "skos:definition": "The practice of judging whether a document, website, dataset or person is a reliable enough origin for a claim, given what you need the claim for, by asking who produced it, with what expertise and interests, how it can be corroborated, and whether it fits the question at hand.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Source evaluation",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:conflict-of-interest"
+    },
+    {
+     "@id": "ct:craap-test"
+    },
+    {
+     "@id": "ct:hierarchy-of-evidence"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:primary-and-secondary-sources"
+    },
+    {
+     "@id": "ct:sift-method"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:source-monitoring-framework"
+    },
+    {
+     "@id": "ct:testimony"
+    }
+   ]
+  },
+  {
    "@id": "ct:source-monitoring-framework",
    "@type": "cto:Framework",
    "cto:counteracts": [
@@ -37800,6 +37898,104 @@
    "dcterms:title": "Epistemological Problems of Testimony",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2020/entries/testimony-episprob/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "LOEX Quarterly 31(3), Article 4 (Blakeslee, 2004), Eastern Michigan University DigitalCommons",
+   "dcterms:title": "The CRAAP Test",
+   "schema:url": {
+    "@id": "https://commons.emich.edu/loexquarterly/vol31/iss3/4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Pollak Library, California State University, Fullerton (library guide)",
+   "dcterms:title": "Evaluating Sources: The CRAAP Test",
+   "schema:url": {
+    "@id": "https://libraryguides.fullerton.edu/CRAAP"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Association of College and Research Libraries (filed 2015, adopted 2016, revised 2026)",
+   "dcterms:title": "Framework for Information Literacy for Higher Education",
+   "schema:url": {
+    "@id": "https://www.ala.org/acrl/standards/ilframework"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Theory and Research in Social Education 46(2), 165-193 (McGrew, Breakstone, Ortega, Smith & Wineburg, 2018), ERIC record via Fachportal Pädagogik",
+   "dcterms:title": "Can Students Evaluate Online Sources? Learning from Assessments of Civic Online Reasoning",
+   "schema:url": {
+    "@id": "https://www.fachportal-paedagogik.de/literatur/vollanzeige.html?FId=eric_ej1179994"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Graduate School of Education (report on the Stanford History Education Group study, 22 November 2016)",
+   "dcterms:title": "Stanford researchers find students have trouble judging the credibility of information online",
+   "schema:url": {
+    "@id": "https://ed.stanford.edu/news/stanford-researchers-find-students-have-trouble-judging-credibility-information-online"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Philosophy and Phenomenological Research 63(1), 85-110 (Goldman, 2001), CORE open-access copy",
+   "dcterms:title": "Experts: Which Ones Should You Trust?",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/207789751.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Journal of the American Society for Information Science and Technology 58(13), 2078-2091 (Metzger, 2007), RePEc/IDEAS record",
+   "dcterms:title": "Making sense of credibility on the Web: Models for evaluating online information and recommendations for future research",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/bla/jamist/v58y2007i13p2078-2091.html"
    }
   },
   {

@@ -7762,6 +7762,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kumkale-2010-source-credibility-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2000/01/rdf-schema#label> "Source evaluation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#altLabel> "evaluating information sources" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#altLabel> "evaluating sources" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#altLabel> "information evaluation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#definition> "The practice of judging whether a document, website, dataset or person is a reliable enough origin for a claim, given what you need the claim for, by asking who produced it, with what expertise and interests, how it can be corroborated, and whether it fits the question at hand." .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Source evaluation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/craap-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/testimony> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/information-literacy-instruction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mcgrew-2018-civic-online-reasoning-assessments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/source-evaluation.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> <http://www.w3.org/2000/01/rdf-schema#label> "Source-monitoring framework" .
@@ -13919,6 +13955,48 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/source-credibility/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2020/entries/testimony-episprob/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s1> <http://purl.org/dc/terms/publisher> "LOEX Quarterly 31(3), Article 4 (Blakeslee, 2004), Eastern Michigan University DigitalCommons" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s1> <http://purl.org/dc/terms/title> "The CRAAP Test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s1> <https://schema.org/url> <https://commons.emich.edu/loexquarterly/vol31/iss3/4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s2> <http://purl.org/dc/terms/publisher> "Pollak Library, California State University, Fullerton (library guide)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s2> <http://purl.org/dc/terms/title> "Evaluating Sources: The CRAAP Test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s2> <https://schema.org/url> <https://libraryguides.fullerton.edu/CRAAP> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s3> <http://purl.org/dc/terms/publisher> "Association of College and Research Libraries (filed 2015, adopted 2016, revised 2026)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s3> <http://purl.org/dc/terms/title> "Framework for Information Literacy for Higher Education" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s3> <https://schema.org/url> <https://www.ala.org/acrl/standards/ilframework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s4> <http://purl.org/dc/terms/publisher> "Theory and Research in Social Education 46(2), 165-193 (McGrew, Breakstone, Ortega, Smith & Wineburg, 2018), ERIC record via Fachportal Pädagogik" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s4> <http://purl.org/dc/terms/title> "Can Students Evaluate Online Sources? Learning from Assessments of Civic Online Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s4> <https://schema.org/url> <https://www.fachportal-paedagogik.de/literatur/vollanzeige.html?FId=eric_ej1179994> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s5> <http://purl.org/dc/terms/publisher> "Stanford Graduate School of Education (report on the Stanford History Education Group study, 22 November 2016)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s5> <http://purl.org/dc/terms/title> "Stanford researchers find students have trouble judging the credibility of information online" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s5> <https://schema.org/url> <https://ed.stanford.edu/news/stanford-researchers-find-students-have-trouble-judging-credibility-information-online> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s6> <http://purl.org/dc/terms/publisher> "Philosophy and Phenomenological Research 63(1), 85-110 (Goldman, 2001), CORE open-access copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s6> <http://purl.org/dc/terms/title> "Experts: Which Ones Should You Trust?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s6> <https://schema.org/url> <https://core.ac.uk/download/207789751.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s7> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s7> <http://purl.org/dc/terms/publisher> "Journal of the American Society for Information Science and Technology 58(13), 2078-2091 (Metzger, 2007), RePEc/IDEAS record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s7> <http://purl.org/dc/terms/title> "Making sense of credibility on the Web: Models for evaluating online information and recommendations for future research" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/source-evaluation/s7> <https://schema.org/url> <https://ideas.repec.org/a/bla/jamist/v58y2007i13p2078-2091.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/source-monitoring-framework/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/source-monitoring-framework/s1> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 135(4), 638-677 (Mitchell & Johnson, 2009), PubMed Central" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/source-monitoring-framework/s1> <http://purl.org/dc/terms/title> "Source monitoring 15 years later: What have we learned from fMRI about the neural mechanisms of source memory?" .

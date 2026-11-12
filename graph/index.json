@@ -18566,6 +18566,106 @@
   ]
  },
  {
+  "id": "ct:source-evaluation",
+  "title": "Source evaluation",
+  "aliases": [
+   "evaluating sources",
+   "evaluating information sources",
+   "information evaluation"
+  ],
+  "type": "Technique",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/source-evaluation.md",
+  "created": "2026-11-12",
+  "summary": "The practice of judging whether a document, website, dataset or person is a reliable enough origin for a claim, given what you need the claim for, by asking who produced it, with what expertise and interests, how it can be corroborated, and whether it fits the question at hand.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:information-literacy"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sift-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:craap-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:primary-and-secondary-sources"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conflict-of-interest"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hierarchy-of-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:testimony"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-monitoring-framework"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:information-literacy-instruction",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:mcgrew-2018-civic-online-reasoning-assessments",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:misinformation-and-disinformation",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://commons.emich.edu/loexquarterly/vol31/iss3/4",
+   "https://libraryguides.fullerton.edu/CRAAP",
+   "https://www.ala.org/acrl/standards/ilframework",
+   "https://www.fachportal-paedagogik.de/literatur/vollanzeige.html?FId=eric_ej1179994",
+   "https://ed.stanford.edu/news/stanford-researchers-find-students-have-trouble-judging-credibility-information-online",
+   "https://core.ac.uk/download/207789751.pdf",
+   "https://ideas.repec.org/a/bla/jamist/v58y2007i13p2078-2091.html"
+  ]
+ },
+ {
   "id": "ct:source-monitoring-framework",
   "title": "Source-monitoring framework",
   "aliases": [

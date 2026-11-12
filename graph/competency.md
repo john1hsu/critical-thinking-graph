@@ -45,7 +45,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:bright-line-rule` | 1 | Slippery slope |
 | `ct:de-re-de-dicto-distinction` | 1 | Masked-man fallacy |
 
-…and 16 more.
+…and 17 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -94,7 +94,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:attribute-substitution` | mixed | `ct:effort-reduction-framework` |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 
-…and 41 more.
+…and 42 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -139,7 +139,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:selection-bias` | cto:Phenomenon |
 | `ct:slippery-slope` | cto:InformalFallacy |
 
-…and 2 more.
+…and 3 more.
 
 ## Orphan articles (gap)
 
