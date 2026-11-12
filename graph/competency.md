@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:recognition-heuristic` | cto:Heuristic |
 
 ## Most useful remedies
 
@@ -83,6 +85,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 | `ct:null-hypothesis-significance-testing` | contested | `ct:amrhein-2019-retire-statistical-significance` |
 | `ct:prospect-theory` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
+| `ct:recognition-heuristic` | contested | `ct:basehore-anderson-2016-recognition-tests` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
@@ -92,9 +95,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:bounded-rationality` | mixed |  |
-| `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
 
-…and 37 more.
+…and 38 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

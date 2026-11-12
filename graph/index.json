@@ -16056,6 +16056,95 @@
   ]
  },
  {
+  "id": "ct:recognition-heuristic",
+  "title": "Recognition heuristic",
+  "aliases": [
+   "recognition principle"
+  ],
+  "type": "Heuristic",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/heuristics-and-dual-process/recognition-heuristic.md",
+  "created": "2026-11-12",
+  "summary": "A rule for choosing between two options: if you recognize one and not the other, infer that the recognized one scores higher on the criterion in question. It works when recognition is correlated with that criterion, and it is the simplest member of the fast-and-frugal toolbox.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:take-the-best"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ecological-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:processing-fluency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gerd-gigerenzer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pohl-2011-recognition-heuristic-debate-review"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:ecological-rationality",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:forecasting",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:basehore-anderson-2016-recognition-tests",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://cs.nyu.edu/~shasha/papers/RecognitionHeuristic.pdf",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/11/rh15/rh15.html",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00147/pdf",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/16/16202a/jdm16202a.html"
+  ]
+ },
+ {
   "id": "ct:regression-to-the-mean",
   "title": "Regression to the mean",
   "aliases": [
