@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:recognition-heuristic` | cto:Heuristic |
+| `ct:status-quo-bias` | cto:CognitiveBias |
 
 ## Most useful remedies
 
@@ -96,7 +97,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:base-rate-neglect` | mixed | `ct:koehler-1996-base-rate-fallacy-reconsidered` |
 | `ct:bounded-rationality` | mixed |  |
 
-…and 38 more.
+…and 39 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

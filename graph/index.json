@@ -18468,6 +18468,96 @@
   ]
  },
  {
+  "id": "ct:status-quo-bias",
+  "title": "Status quo bias",
+  "aliases": [
+   "status-quo effect",
+   "preference for the status quo"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/cognitive-biases/status-quo-bias.md",
+  "created": "2026-11-12",
+  "summary": "The tendency to prefer the current state of affairs, such as an existing plan, a previous choice or a pre-set default, more often than its merits alone would justify.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:endowment-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sunk-cost-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:choice-architecture"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behavioral-economics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:william-samuelson",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:richard-zeckhauser",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:samuelson-zeckhauser-1988-status-quo-experiments",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:loss-aversion",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:xiao-2021-status-quo-bias-replication",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:jachimowicz-2019-default-effects-meta-analysis",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:endowment-effect",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ideas.repec.org/a/kap/jrisku/v1y1988i1p7-59.html",
+   "https://www.fermatslibrary.com/s/the-endowment-effect-loss-aversion-and-status-quo-bias",
+   "https://open.lnu.se/index.php/metapsychology/article/view/2470",
+   "https://core-prod.cambridgecore.org/core/product/67AF6972CFB52698A60B6BD94B70C2C0/core-reader"
+  ]
+ },
+ {
   "id": "ct:stephen-toulmin",
   "title": "Stephen Toulmin",
   "aliases": [

@@ -13759,6 +13759,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s4> <https://schema.org/url> <https://yorkspace.library.yorku.ca/xmlui/bitstream/10315/40957/2/Truong_Michael_S_2022_Masters.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> <http://purl.org/dc/terms/publisher> "Journal of Risk and Uncertainty 1(1), 7-59 (Samuelson & Zeckhauser, 1988), RePEc/IDEAS record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> <http://purl.org/dc/terms/title> "Status Quo Bias in Decision Making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> <https://schema.org/url> <https://ideas.repec.org/a/kap/jrisku/v1y1988i1p7-59.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s2> <http://purl.org/dc/terms/publisher> "Journal of Economic Perspectives 5(1), 193-206 (Kahneman, Knetsch & Thaler, 1991), copy hosted by Fermat's Library" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s2> <http://purl.org/dc/terms/title> "Anomalies: The Endowment Effect, Loss Aversion, and Status Quo Bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s2> <https://schema.org/url> <https://www.fermatslibrary.com/s/the-endowment-effect-loss-aversion-and-status-quo-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s3> <http://purl.org/dc/terms/publisher> "Meta-Psychology 5 (Xiao, Lam, Piara & Feldman, 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s3> <http://purl.org/dc/terms/title> "Revisiting status quo bias: Replication of Samuelson and Zeckhauser (1988)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s3> <https://schema.org/url> <https://open.lnu.se/index.php/metapsychology/article/view/2470> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> <http://purl.org/dc/terms/publisher> "Behavioural Public Policy 3(2), 159-186 (Jachimowicz, Duncan, Weber & Johnson, 2019), Cambridge University Press" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> <http://purl.org/dc/terms/title> "When and why defaults influence decisions: a meta-analysis of default effects" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> <https://schema.org/url> <https://core-prod.cambridgecore.org/core/product/67AF6972CFB52698A60B6BD94B70C2C0/core-reader> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1> <http://purl.org/dc/terms/publisher> "University of Southern California Libraries, University Archives" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1> <http://purl.org/dc/terms/title> "Stephen E. Toulmin papers, biographical note" .
@@ -14552,6 +14576,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/truong-2022-conjunction-training-replication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2000/01/rdf-schema#label> "Status quo bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "preference for the status quo" .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "status-quo effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#definition> "The tendency to prefer the current state of affairs, such as an existing plan, a previous choice or a pre-set default, more often than its merits alone would justify." .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#prefLabel> "Status quo bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/samuelson-zeckhauser-1988-status-quo-experiments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/status-quo-bias.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richard-zeckhauser> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/william-samuelson> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jachimowicz-2019-default-effects-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/xiao-2021-status-quo-bias-replication> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/2000/01/rdf-schema#label> "Stephen Toulmin" .
