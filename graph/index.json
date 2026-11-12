@@ -15647,6 +15647,79 @@
   ]
  },
  {
+  "id": "ct:pyrrho",
+  "title": "Pyrrho of Elis",
+  "aliases": [
+   "Pyrrho",
+   "Pyrrhon"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/pyrrho.md",
+  "created": "2026-11-12",
+  "summary": "Greek philosopher (c. 360-270 BCE) from Elis, remembered as the founder or figurehead of Pyrrhonian skepticism: he wrote nothing, but his pupil Timon reports that he judged things indeterminate, told people not to trust their senses or opinions, and promised tranquillity to those who withheld judgment.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophical-skepticism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:suspension-of-judgment"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sextus-empiricus"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:socrates"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:philosophical-skepticism",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:anaxarchus",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:democritus",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:sextus-empiricus",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:dogmatism",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/sum2006/entries/pyrrho/",
+   "https://iep.utm.edu/ancient-greek-skepticism/",
+   "https://plato.stanford.edu/ENTRIES/skepticism-ancient/"
+  ]
+ },
+ {
   "id": "ct:quantifier-shift-fallacy",
   "title": "Quantifier shift fallacy",
   "aliases": [

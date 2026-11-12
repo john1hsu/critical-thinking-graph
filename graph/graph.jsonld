@@ -14696,6 +14696,73 @@
    ]
   },
   {
+   "@id": "ct:pyrrho",
+   "@type": "cto:Person",
+   "cto:contrastsWith": {
+    "@id": "ct:dogmatism"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/pyrrho.md",
+   "cto:influenced": {
+    "@id": "ct:sextus-empiricus"
+   },
+   "cto:influencedBy": [
+    {
+     "@id": "ct:anaxarchus"
+    },
+    {
+     "@id": "ct:democritus"
+    }
+   ],
+   "cto:introduced": {
+    "@id": "ct:philosophical-skepticism"
+   },
+   "cto:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s3"
+    }
+   ],
+   "rdfs:label": "Pyrrho of Elis",
+   "skos:altLabel": [
+    "Pyrrho",
+    "Pyrrhon"
+   ],
+   "skos:definition": "Greek philosopher (c. 360-270 BCE) from Elis, remembered as the founder or figurehead of Pyrrhonian skepticism: he wrote nothing, but his pupil Timon reports that he judged things indeterminate, told people not to trust their senses or opinions, and promised tranquillity to those who withheld judgment.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Pyrrho of Elis",
+   "skos:related": [
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:philosophical-skepticism"
+    },
+    {
+     "@id": "ct:sextus-empiricus"
+    },
+    {
+     "@id": "ct:socrates"
+    },
+    {
+     "@id": "ct:suspension-of-judgment"
+    }
+   ]
+  },
+  {
    "@id": "ct:quantifier-shift-fallacy",
    "@type": "cto:FormalFallacy",
    "cto:domain": "formal-fallacies",
@@ -34792,6 +34859,48 @@
    "dcterms:title": "The File Drawer Problem (Publication Bias)",
    "schema:url": {
     "@id": "https://web.ma.utexas.edu/users/mks/statmistakes/filedrawer.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Richard Bett; Summer 2006 archived edition)",
+   "dcterms:title": "Pyrrho",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2006/entries/pyrrho/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Harald Thorsrud, New Mexico State University)",
+   "dcterms:title": "Ancient Greek Skepticism",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/ancient-greek-skepticism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Katja Vogt; first published 2010, substantive revision 21 September 2022)",
+   "dcterms:title": "Ancient Skepticism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/skepticism-ancient/"
    }
   },
   {

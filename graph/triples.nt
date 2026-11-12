@@ -6640,6 +6640,31 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
 <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/schmucker-2014-non-publication-cohort-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2000/01/rdf-schema#label> "Pyrrho of Elis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#altLabel> "Pyrrho" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#altLabel> "Pyrrhon" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#definition> "Greek philosopher (c. 360-270 BCE) from Elis, remembered as the founder or figurehead of Pyrrhonian skepticism: he wrote nothing, but his pupil Timon reports that he judged things indeterminate, told people not to trust their senses or opinions, and promised tranquillity to those who withheld judgment." .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pyrrho of Elis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sextus-empiricus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/socrates> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/dogmatism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/pyrrho.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/sextus-empiricus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/anaxarchus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/democritus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the premise allow a different B for each A, or does it really say one B serves them all?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
@@ -12730,6 +12755,24 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s6> <https://schema.org/url> <https://web.ma.utexas.edu/users/mks/statmistakes/filedrawer.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Richard Bett; Summer 2006 archived edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s1> <http://purl.org/dc/terms/title> "Pyrrho" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2006/entries/pyrrho/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Harald Thorsrud, New Mexico State University)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s2> <http://purl.org/dc/terms/title> "Ancient Greek Skepticism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s2> <https://schema.org/url> <https://iep.utm.edu/ancient-greek-skepticism/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Katja Vogt; first published 2010, substantive revision 21 September 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s3> <http://purl.org/dc/terms/title> "Ancient Skepticism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pyrrho/s3> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/skepticism-ancient/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1> <http://purl.org/dc/terms/publisher> "A Modern Formal Logic Primer, Vol. II, ch. 3 (Paul Teller), LibreTexts Humanities" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/quantifier-shift-fallacy/s1> <http://purl.org/dc/terms/title> "Some Examples of Multiple Quantification" .

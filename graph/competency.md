@@ -122,7 +122,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
-| `ct:philosophical-skepticism` | cto:Concept |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:plain-language` | cto:Technique |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
@@ -138,8 +137,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:selection-bias` | cto:Phenomenon |
 | `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:suppressed-evidence` | cto:InformalFallacy |
-
-…and 1 more.
+| `ct:tu-quoque` | cto:InformalFallacy |
 
 ## Orphan articles (gap)
 
