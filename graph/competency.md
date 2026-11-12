@@ -117,7 +117,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:legal-reasoning` | cto:Field |
-| `ct:likelihood-ratio` | cto:Framework |
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |

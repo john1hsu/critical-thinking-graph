@@ -10974,6 +10974,89 @@
   ]
  },
  {
+  "id": "ct:lemperts-modeling-relevance",
+  "title": "Lempert's Modeling Relevance",
+  "aliases": [
+   "Modeling Relevance",
+   "Lempert (1977)",
+   "likelihood-ratio theory of relevance"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/lemperts-modeling-relevance.md",
+  "created": "2026-11-12",
+  "summary": "Richard O. Lempert's 1977 Michigan Law Review article that used the odds form of Bayes' theorem to define legally relevant evidence as evidence whose likelihood ratio differs from one, and used regret matrices to model unfair prejudice. It is the usual starting point for treating the likelihood ratio as the measure of relevance and probative value at trial.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:likelihood-ratio"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:legal-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prosecutors-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:likelihood-ratio",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:richard-lempert",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:trial-by-mathematics",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:bergman-moore-1991-mistrial-by-likelihood-ratio",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/legal-probabilism/",
+   "https://core.ac.uk/download/270045519.pdf",
+   "https://webhomes.maths.ed.ac.uk/~v1ranick/dreyfus/tribe.pdf",
+   "https://escholarship.org/content/qt7fd990ks/qt7fd990ks.pdf"
+  ]
+ },
+ {
   "id": "ct:leopold-von-ranke",
   "title": "Leopold von Ranke",
   "aliases": [
