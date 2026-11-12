@@ -11656,6 +11656,90 @@
    ]
   },
   {
+   "@id": "ct:modal-scope-fallacy",
+   "@type": "cto:FormalFallacy",
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:amphiboly"
+   },
+   "cto:file": "articles/formal-fallacies/modal-scope-fallacy.md",
+   "cto:formalizedBy": {
+    "@id": "ct:modal-logic"
+   },
+   "cto:invalidFormOf": {
+    "@id": "ct:modus-ponens"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:modified": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4"
+    }
+   ],
+   "rdfs:label": "Modal scope fallacy",
+   "skos:altLabel": [
+    "confusing necessity of the consequence with necessity of the consequent",
+    "fallacy of necessity",
+    "the modal fallacy"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The invalid inference from \"necessarily, if P then Q\" and \"P\" to \"necessarily Q\", which moves a necessity operator from the whole conditional onto its consequent and so turns a conditional, relative necessity into an absolute one.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Modal scope fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:boethius"
+    },
+    {
+     "@id": "ct:de-re-de-dicto-distinction"
+    },
+    {
+     "@id": "ct:necessary-and-sufficient-conditions"
+    },
+    {
+     "@id": "ct:peter-abelard"
+    },
+    {
+     "@id": "ct:quantifier-shift-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:modus-ponens",
    "@type": "cto:ReasoningForm",
    "cto:challengedBy": {
@@ -22971,6 +23055,109 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:modal-scope-fallacy"
+   },
+   "rdfs:label": "Does the \"must\" or \"cannot\" govern the whole if-then claim, or only the part after \"then\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:modal-scope-fallacy"
+   },
+   "rdfs:label": "Read with the modal over the whole conditional, does the conclusion still follow?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:modal-scope-fallacy"
+   },
+   "rdfs:label": "Read with the modal on the consequent alone, is that premise still true?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:modal-scope-fallacy"
+   },
+   "rdfs:label": "Is the necessity in the conclusion logical, or only relative to the facts assumed in the premises?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:modal-scope-fallacy"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "It is impossible for this release to contain a regression."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "What is impossible is passing every test that would catch a regression while still containing that regression; the 'cannot' governs the whole conditional."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The valid conclusion is only that the release contains no regression the tests check for, not that it could not have contained one."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If the release has passed every regression test, it cannot contain a regression."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The release has passed every regression test."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -33096,6 +33283,62 @@
    "dcterms:title": "Misinformation on Misinformation: Conceptual and Methodological Challenges",
    "schema:url": {
     "@id": "https://acerbialberto.com/publication/2023_misinfo_on_misinfo/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Norman Swartz)",
+   "dcterms:title": "Foreknowledge and Free Will",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/foreknow/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Simo Knuuttila)",
+   "dcterms:title": "Medieval Theories of Future Contingents, Spring 2010 edition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2010/entries/medieval-futcont/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Simon Fraser University, Department of Philosophy (Norman Swartz, rev. 2011)",
+   "dcterms:title": "\"The\" Modal Fallacy",
+   "schema:url": {
+    "@id": "https://sfu.ca/~swartz/modal_fallacy.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Modal Scope Fallacy",
+   "schema:url": {
+    "@id": "https://www.fallacyfiles.org/modlscop.html"
    }
   },
   {

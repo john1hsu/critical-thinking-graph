@@ -654,6 +654,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-fallacies/modal-scope-fallacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-fallacies/quantifier-shift-fallacy.md" .
@@ -7717,6 +7724,100 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s5> <https://schema.org/url> <https://plato.stanford.edu/entries/insolubles/notes.html> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the \"must\" or \"cannot\" govern the whole if-then claim, or only the part after \"then\"?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Read with the modal over the whole conditional, does the conclusion still follow?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Read with the modal on the consequent alone, is that premise still true?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is the necessity in the conclusion logical, or only relative to the facts assumed in the premises?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "It is impossible for this release to contain a regression." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "What is impossible is passing every test that would catch a regression while still containing that regression; the 'cannot' governs the whole conditional." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "The valid conclusion is only that the release contains no regression the tests check for, not that it could not have contained one." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "If the release has passed every regression test, it cannot contain a regression." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "The release has passed every regression test." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/c> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/p2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://purl.org/dc/terms/modified> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2000/01/rdf-schema#label> "Modal scope fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "confusing necessity of the consequence with necessity of the consequent" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of necessity" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "the modal fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#definition> "The invalid inference from \"necessarily, if P then Q\" and \"P\" to \"necessarily Q\", which moves a necessity operator from the whole conditional onto its consequent and so turns a conditional, relative necessity into an absolute one." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Modal scope fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/boethius> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-abelard> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/modal-scope-fallacy.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/modal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#invalidFormOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Norman Swartz)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> <http://purl.org/dc/terms/title> "Foreknowledge and Free Will" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> <https://schema.org/url> <https://iep.utm.edu/foreknow/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Simo Knuuttila)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2> <http://purl.org/dc/terms/title> "Medieval Theories of Future Contingents, Spring 2010 edition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2010/entries/medieval-futcont/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3> <http://purl.org/dc/terms/publisher> "Simon Fraser University, Department of Philosophy (Norman Swartz, rev. 2011)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3> <http://purl.org/dc/terms/title> "\"The\" Modal Fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s3> <https://schema.org/url> <https://sfu.ca/~swartz/modal_fallacy.htm> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4> <http://purl.org/dc/terms/publisher> "The Fallacy Files (Gary N. Curtis)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4> <http://purl.org/dc/terms/title> "Modal Scope Fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s4> <https://schema.org/url> <https://www.fallacyfiles.org/modlscop.html> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy#graph> {
@@ -18601,6 +18702,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/amrhein-2019-retire-statistical-significance> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/an-introduction-to-the-theory-of-statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/an-introduction-to-the-theory-of-statistics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
@@ -18792,6 +18894,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> .
@@ -18903,6 +19006,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
@@ -19117,6 +19221,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/educational-taxonomy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-dewey> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/boethius> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/boethius> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/boethius> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bond-carlson-keeney-2008-generating-objectives-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> .
@@ -19689,6 +19794,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
@@ -20196,6 +20302,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
@@ -20281,6 +20388,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
@@ -20292,6 +20400,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
@@ -21310,6 +21419,17 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modal-syllogistic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modirrousta-galian-higham-2023-roc-reanalysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -21332,7 +21452,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInvalidCounterpart> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInvalidCounterpart> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -21401,6 +21523,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/nebel-2015-status-quo-conservatism-about-value> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-statement> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
@@ -21527,6 +21650,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/persuasion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-abelard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-abelard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/peter-abelard> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-abelard> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-facione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-facione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -21991,6 +22115,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference> .
   <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference> .
   <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
@@ -22958,6 +23083,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .

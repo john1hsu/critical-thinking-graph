@@ -12454,6 +12454,90 @@
   ]
  },
  {
+  "id": "ct:modal-scope-fallacy",
+  "title": "Modal scope fallacy",
+  "aliases": [
+   "the modal fallacy",
+   "fallacy of necessity",
+   "confusing necessity of the consequence with necessity of the consequent"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/modal-scope-fallacy.md",
+  "created": "2026-11-12",
+  "summary": "The invalid inference from \"necessarily, if P then Q\" and \"P\" to \"necessarily Q\", which moves a necessity operator from the whole conditional onto its consequent and so turns a conditional, relative necessity into an absolute one.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:de-re-de-dicto-distinction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:quantifier-shift-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:boethius"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:peter-abelard"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:modal-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:modus-ponens",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:amphiboly",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the \"must\" or \"cannot\" govern the whole if-then claim, or only the part after \"then\"?",
+   "Read with the modal over the whole conditional, does the conclusion still follow?",
+   "Read with the modal on the consequent alone, is that premise still true?",
+   "Is the necessity in the conclusion logical, or only relative to the facts assumed in the premises?"
+  ],
+  "source_urls": [
+   "https://iep.utm.edu/foreknow/",
+   "https://plato.stanford.edu/archives/spr2010/entries/medieval-futcont/",
+   "https://sfu.ca/~swartz/modal_fallacy.htm",
+   "https://www.fallacyfiles.org/modlscop.html"
+  ]
+ },
+ {
   "id": "ct:modus-ponens",
   "title": "Modus ponens",
   "aliases": [

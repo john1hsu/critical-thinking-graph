@@ -353,6 +353,17 @@ flowchart TD
   o2["The lead may sincerely say the head of the research office has always treated the team fairly; both reports can be true at once."] -. attacks .-> ra
 ```
 
+## Modal scope fallacy (`ct:modal-scope-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["If the release has passed every regression test, it cannot contain a regression."] --> ra{{"invalid"}}
+  p2["The release has passed every regression test."] --> ra{{"invalid"}}
+  ra --> c["It is impossible for this release to contain a regression."]
+  o1["What is impossible is passing every test that would catch a regression while still containing that regression; the 'cannot' governs the whole conditional."] -. attacks .-> ra
+  o2["The valid conclusion is only that the release contains no regression the tests check for, not that it could not have contained one."] -. attacks .-> ra
+```
+
 ## Modus ponens (`ct:modus-ponens`)
 
 ```mermaid
