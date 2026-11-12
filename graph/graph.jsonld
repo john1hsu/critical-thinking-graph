@@ -10504,6 +10504,107 @@
    ]
   },
   {
+   "@id": "ct:logical-consequence",
+   "@type": "cto:Concept",
+   "cto:challengedBy": {
+    "@id": "ct:the-concept-of-logical-consequence"
+   },
+   "cto:confusedWith": {
+    "@id": "ct:material-conditional"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:inductive-reasoning"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/logical-consequence.md",
+   "cto:formalizedBy": [
+    {
+     "@id": "ct:natural-deduction"
+    },
+    {
+     "@id": "ct:truth-table"
+    }
+   ],
+   "cto:introducedBy": {
+    "@id": "ct:alfred-tarski"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:formal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consequence/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consequence/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consequence/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consequence/s4"
+    }
+   ],
+   "rdfs:label": "Logical consequence",
+   "skos:altLabel": [
+    "entailment",
+    "follows-from relation",
+    "logical entailment",
+    "semantic consequence"
+   ],
+   "skos:broader": {
+    "@id": "ct:logic"
+   },
+   "skos:definition": "The relation that holds between a set of premises and a conclusion when, by logic alone, the premises cannot all be true while the conclusion is false; it is the relation that a valid argument's premises bear to its conclusion.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Logical consequence",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:predicate-logic"
+    },
+    {
+     "@id": "ct:prior-analytics"
+    },
+    {
+     "@id": "ct:propositional-logic"
+    },
+    {
+     "@id": "ct:reasoning"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:soundness-theorem"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:logical-necessity-instructions",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -30744,6 +30845,62 @@
    "dcterms:title": "Logic",
    "schema:url": {
     "@id": "https://britannica.com/topic/logic/Introduction"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consequence/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Matthew McKeon)",
+   "dcterms:title": "Logical Consequence",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/logcon/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consequence/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (JC Beall & Greg Restall)",
+   "dcterms:title": "Logical Consequence (Spring 2006 edition)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2006/entries/logical-consequence/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consequence/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Journal of Philosophical Logic 25, 617-677 (Greg Ray, 1996)",
+   "dcterms:title": "Logical Consequence: A Defense of Tarski",
+   "schema:url": {
+    "@id": "https://dx.doi.org/10.1007/BF00265256"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consequence/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Open Logic Project (Magnus, Button, Trueman & Zach)",
+   "dcterms:title": "forall x: Calgary, Chapter 12: Semantic concepts",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/html/Ch12.html"
    }
   },
   {

@@ -11222,6 +11222,122 @@
   ]
  },
  {
+  "id": "ct:logical-consequence",
+  "title": "Logical consequence",
+  "aliases": [
+   "entailment",
+   "semantic consequence",
+   "logical entailment",
+   "follows-from relation"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/logical-consequence.md",
+  "created": "2026-11-12",
+  "summary": "The relation that holds between a set of premises and a conclusion when, by logic alone, the premises cannot all be true while the conclusion is false; it is the relation that a valid argument's premises bear to its conclusion.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness-theorem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:alfred-tarski",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:material-conditional",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:natural-deduction",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:truth-table",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inductive-reasoning",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:formal-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:the-concept-of-logical-consequence",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/logcon/",
+   "https://plato.stanford.edu/archives/spr2006/entries/logical-consequence/",
+   "https://dx.doi.org/10.1007/BF00265256",
+   "https://forallx.openlogicproject.org/html/Ch12.html"
+  ]
+ },
+ {
   "id": "ct:logical-necessity-instructions",
   "title": "Logical necessity instructions",
   "aliases": [
