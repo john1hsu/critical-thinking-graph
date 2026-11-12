@@ -16773,6 +16773,97 @@
    ]
   },
   {
+   "@id": "ct:sorites-paradox",
+   "@type": "cto:Concept",
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:vagueness"
+   },
+   "cto:file": "articles/philosophy-of-reasoning/sorites-paradox.md",
+   "cto:formalizedBy": {
+    "@id": "ct:fuzzy-logic"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:eubulides"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:vagueness"
+    }
+   ],
+   "cto:studiedIn": [
+    {
+     "@id": "ct:experimental-philosophy"
+    },
+    {
+     "@id": "ct:philosophy-of-language"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sorites-paradox/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sorites-paradox/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sorites-paradox/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sorites-paradox/s4"
+    }
+   ],
+   "rdfs:label": "Sorites paradox",
+   "skos:altLabel": [
+    "heap paradox",
+    "little-by-little argument",
+    "paradox of the heap"
+   ],
+   "skos:broader": {
+    "@id": "ct:paradox"
+   },
+   "skos:definition": "The ancient puzzle in which a chain of individually plausible small steps (\"removing one grain cannot turn a heap into a non-heap\") leads by valid reasoning from a clearly true starting point to a clearly false conclusion; it arises from tolerant, vague predicates and tests how logic should handle borderline cases.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Sorites paradox",
+   "skos:related": [
+    {
+     "@id": "ct:bright-line-rule"
+    },
+    {
+     "@id": "ct:chrysippus"
+    },
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:liar-paradox"
+    },
+    {
+     "@id": "ct:line-drawing-fallacy"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:slippery-slope"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    }
+   ]
+  },
+  {
    "@id": "ct:soundness",
    "@type": "cto:Concept",
    "cto:confusedWith": {
@@ -36609,6 +36700,62 @@
    "dcterms:title": "The Coherence of Hamblin's Fallacies",
    "schema:url": {
     "@id": "https://distantreader.org/stacks/journals/il/il-3345.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sorites-paradox/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hyde & Raffman, rev. 2025)",
+   "dcterms:title": "Sorites Paradox",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/sorites-paradox/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sorites-paradox/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Critical Reasoning: A User's Manual (Southworth & Swoyer), Humanities LibreTexts",
+   "dcterms:title": "11.3: Drawing the Line",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/11%3A_Fallacies-_Common_Ways_of_Reasoning_Badly/11.03%3A_Drawing_the_Line"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sorites-paradox/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Serchuk, Hargreaves & Zach, Mind & Language (2011), author's copy on PhilArchive",
+   "dcterms:title": "Vagueness, Logic and Use: Four Experimental Studies on Vagueness",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/SERVLA"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/sorites-paradox/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Egré, de Gardelle & Ripley, Journal of Logic, Language and Information 22, 391-420 (2013)",
+   "dcterms:title": "Vagueness and Order Effects in Color Categorization",
+   "schema:url": {
+    "@id": "https://link.springer.com/doi/10.1007/s10849-013-9183-7"
    }
   },
   {

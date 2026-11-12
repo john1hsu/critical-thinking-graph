@@ -17832,6 +17832,105 @@
   ]
  },
  {
+  "id": "ct:sorites-paradox",
+  "title": "Sorites paradox",
+  "aliases": [
+   "paradox of the heap",
+   "heap paradox",
+   "little-by-little argument"
+  ],
+  "type": "Concept",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/sorites-paradox.md",
+  "created": "2026-11-12",
+  "summary": "The ancient puzzle in which a chain of individually plausible small steps (\"removing one grain cannot turn a heap into a non-heap\") leads by valid reasoning from a clearly true starting point to a clearly false conclusion; it arises from tolerant, vague predicates and tests how logic should handle borderline cases.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:slippery-slope"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:line-drawing-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bright-line-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:chrysippus"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stoic-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:liar-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:vagueness",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:eubulides",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-language",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:fuzzy-logic",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:experimental-philosophy",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/sorites-paradox/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning%3A_A_User's_Manual_(Southworth_and_Swoyer)/11%3A_Fallacies-_Common_Ways_of_Reasoning_Badly/11.03%3A_Drawing_the_Line",
+   "https://philarchive.org/archive/SERVLA",
+   "https://link.springer.com/doi/10.1007/s10849-013-9183-7"
+  ]
+ },
+ {
   "id": "ct:soundness",
   "title": "Soundness",
   "aliases": [
