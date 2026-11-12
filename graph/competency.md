@@ -129,7 +129,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:precising-definition` | cto:Technique |
 | `ct:preregistration` | cto:Technique |
 | `ct:propositional-logic` | cto:Field |
-| `ct:publication-bias` | cto:Phenomenon |
 | `ct:random-sampling` | cto:Method |
 | `ct:reasoning` | cto:Concept |
 | `ct:replication-crisis` | cto:Phenomenon |
@@ -138,8 +137,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:selection-bias` | cto:Phenomenon |
 | `ct:slippery-slope` | cto:InformalFallacy |
 | `ct:suppressed-evidence` | cto:InformalFallacy |
-
-…and 1 more.
+| `ct:tu-quoque` | cto:InformalFallacy |
 
 ## Orphan articles (gap)
 

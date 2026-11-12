@@ -1390,6 +1390,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theaetetus/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theaetetus/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theaetetus/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
+<https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/theodore-sterling.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/topics#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/topics#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/topics#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/history-and-thinkers/topics.md" .
@@ -13844,6 +13851,59 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1> <http://purl.org/dc/terms/publisher> "Office of the Vice-President, Academic, Simon Fraser University" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1> <http://purl.org/dc/terms/title> "About the Sterlings (Nora and Ted Sterling Prize in Support of Controversy)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1> <https://schema.org/url> <https://www.sfu.ca/vpacademic/awards/nora-and-ted-sterling-prize/about-the-sterlings.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2> <http://purl.org/dc/terms/publisher> "Journal of the American Statistical Association 54(285), 30-34 (Sterling, 1959); scanned copy hosted by gwern.net" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2> <http://purl.org/dc/terms/title> "Publication Decisions and Their Possible Effects on Inferences Drawn from Tests of Significance - or Vice Versa" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2> <https://schema.org/url> <https://www.Gwern.net/doc/statistics/bias/publication/1959-sterling.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3> <http://purl.org/dc/terms/publisher> "The American Statistician 49(1), 108-112 (Sterling, Rosenbaum & Weinkam, 1995); scanned copy hosted by gwern.net" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3> <http://purl.org/dc/terms/title> "Publication Decisions Revisited" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3> <https://schema.org/url> <https://Www.Gwern.net/doc/statistics/bias/publication/1995-sterling.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> <http://purl.org/dc/terms/publisher> "Marketing Letters 3(2), 127-136 (Hubbard & Armstrong, 1992); author copy, University of Southampton CogPrints archive" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> <http://purl.org/dc/terms/title> "Are Null Results Becoming an Endangered Species in Marketing?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> <https://schema.org/url> <https://web-archive.southampton.ac.uk/cogprints.org/5178/1/are_null_results_becoming.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2000/01/rdf-schema#label> "Theodore Sterling" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#altLabel> "T. D. Sterling" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#altLabel> "Ted Sterling" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#altLabel> "Theodor D. Sterling" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#definition> "Vienna-born American-Canadian statistician (died 2005) whose 1959 survey of psychology journals, showing that almost every published significance test rejected the null hypothesis, was the first empirical warning that the published record is a filtered sample of research; he later founded computing science at Simon Fraser University." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Theodore Sterling" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/registered-reports> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/theodore-sterling.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/hubbard-armstrong-1992-null-results-in-marketing-study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/topics#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive (MIT)" .
@@ -18545,6 +18605,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
@@ -19217,6 +19278,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-statement> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-statement> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -19512,6 +19574,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deepfake> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder> .
@@ -20262,6 +20325,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/how-we-think> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/how-we-think> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/how-we-think> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-dewey> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hubbard-armstrong-1992-null-results-in-marketing-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/huber-kuncel-2016-college-critical-thinking-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -20289,6 +20353,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hypothetical-syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
@@ -21016,6 +21081,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/morewedge-2015-debiasing-training-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -21085,9 +21151,11 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
@@ -21422,6 +21490,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
@@ -21608,9 +21677,11 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reporting-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/iain-chalmers> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
   <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
@@ -21760,6 +21831,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/referential-opacity> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reflective-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-dewey> .
   <https://github.com/john1hsu/critical-thinking-graph/id/registered-reports> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/registered-reports> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
@@ -21780,6 +21852,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
@@ -22337,6 +22410,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> .
   <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/iain-chalmers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/szollosi-2020-is-preregistration-worthwhile> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> .
@@ -22382,6 +22456,13 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/theory-of-descriptions> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/theory-of-games-and-economic-behavior> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
@@ -22591,6 +22672,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .

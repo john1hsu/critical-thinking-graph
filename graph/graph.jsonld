@@ -18536,6 +18536,72 @@
    ]
   },
   {
+   "@id": "ct:theodore-sterling",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/theodore-sterling.md",
+   "cto:influenced": {
+    "@id": "ct:hubbard-armstrong-1992-null-results-in-marketing-study"
+   },
+   "cto:introduced": {
+    "@id": "ct:publication-bias"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:null-hypothesis-significance-testing"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4"
+    }
+   ],
+   "rdfs:label": "Theodore Sterling",
+   "skos:altLabel": [
+    "T. D. Sterling",
+    "Ted Sterling",
+    "Theodor D. Sterling"
+   ],
+   "skos:definition": "Vienna-born American-Canadian statistician (died 2005) whose 1959 survey of psychology journals, showing that almost every published significance test rejected the null hypothesis, was the first empirical warning that the published record is a filtered sample of research; he later founded computing science at Simon Fraser University.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Theodore Sterling",
+   "skos:related": [
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:registered-reports"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ]
+  },
+  {
    "@id": "ct:topics",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -38462,6 +38528,62 @@
    "dcterms:title": "Is Justified True Belief Knowledge?",
    "schema:url": {
     "@id": "https://fermatslibrary.com/s/is-justified-true-belief-knowledge"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Office of the Vice-President, Academic, Simon Fraser University",
+   "dcterms:title": "About the Sterlings (Nora and Ted Sterling Prize in Support of Controversy)",
+   "schema:url": {
+    "@id": "https://www.sfu.ca/vpacademic/awards/nora-and-ted-sterling-prize/about-the-sterlings.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Journal of the American Statistical Association 54(285), 30-34 (Sterling, 1959); scanned copy hosted by gwern.net",
+   "dcterms:title": "Publication Decisions and Their Possible Effects on Inferences Drawn from Tests of Significance - or Vice Versa",
+   "schema:url": {
+    "@id": "https://www.Gwern.net/doc/statistics/bias/publication/1959-sterling.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "The American Statistician 49(1), 108-112 (Sterling, Rosenbaum & Weinkam, 1995); scanned copy hosted by gwern.net",
+   "dcterms:title": "Publication Decisions Revisited",
+   "schema:url": {
+    "@id": "https://Www.Gwern.net/doc/statistics/bias/publication/1995-sterling.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Marketing Letters 3(2), 127-136 (Hubbard & Armstrong, 1992); author copy, University of Southampton CogPrints archive",
+   "dcterms:title": "Are Null Results Becoming an Endangered Species in Marketing?",
+   "schema:url": {
+    "@id": "https://web-archive.southampton.ac.uk/cogprints.org/5178/1/are_null_results_becoming.pdf"
    }
   },
   {

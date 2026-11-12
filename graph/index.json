@@ -19727,6 +19727,71 @@
   ]
  },
  {
+  "id": "ct:theodore-sterling",
+  "title": "Theodore Sterling",
+  "aliases": [
+   "Theodor D. Sterling",
+   "T. D. Sterling",
+   "Ted Sterling"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/theodore-sterling.md",
+  "created": "2026-11-12",
+  "summary": "Vienna-born American-Canadian statistician (died 2005) whose 1959 survey of psychology journals, showing that almost every published significance test rejected the null hypothesis, was the first empirical warning that the published record is a filtered sample of research; he later founded computing science at Simon Fraser University.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:registered-reports"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:publication-bias",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:hubbard-armstrong-1992-null-results-in-marketing-study",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.sfu.ca/vpacademic/awards/nora-and-ted-sterling-prize/about-the-sterlings.html",
+   "https://www.Gwern.net/doc/statistics/bias/publication/1959-sterling.pdf",
+   "https://Www.Gwern.net/doc/statistics/bias/publication/1995-sterling.pdf",
+   "https://web-archive.southampton.ac.uk/cogprints.org/5178/1/are_null_results_becoming.pdf"
+  ]
+ },
+ {
   "id": "ct:topics",
   "title": "Topics",
   "aliases": [
