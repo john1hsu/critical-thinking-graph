@@ -22,7 +22,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
 | `ct:preregistration` | 3 | Hindsight bias, Publication bias, reporting-bias |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
-| `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
+| `ct:venn-diagram-test` | 3 | Illicit major, Illicit minor, Undistributed middle |
 | `ct:causal-diagrams` | 2 | Confounding, Selection bias |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
@@ -116,6 +116,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:illicit-major` | cto:FormalFallacy |
+| `ct:illicit-minor` | cto:FormalFallacy |
 | `ct:legal-reasoning` | cto:Field |
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modus-tollens` | cto:ReasoningForm |

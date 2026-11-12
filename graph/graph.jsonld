@@ -8611,6 +8611,99 @@
    ]
   },
   {
+   "@id": "ct:illicit-minor",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:illicit-major"
+    }
+   ],
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:distribution-of-terms"
+   },
+   "cto:file": "articles/formal-fallacies/illicit-minor.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s5"
+    }
+   ],
+   "rdfs:label": "Illicit minor",
+   "skos:altLabel": [
+    "illicit process of the minor term",
+    "illicit process of the minor"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The syllogistic fallacy committed when the minor term (the subject of the conclusion) is distributed in the conclusion but undistributed in the minor premise, so the conclusion generalizes about a whole class that the premises covered only in part.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Illicit minor",
+   "skos:related": [
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:port-royal-logic"
+    },
+    {
+     "@id": "ct:rules-of-the-categorical-syllogism"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:inductive-reasoning",
    "@type": "cto:ReasoningMode",
    "cto:challengedBy": {
@@ -21533,6 +21626,112 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-minor"
+   },
+   "rdfs:label": "Does the conclusion make a claim about every member of its subject class?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-minor"
+   },
+   "rdfs:label": "In the premise where that subject term appears, is it only the predicate of an affirmative statement?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-minor"
+   },
+   "rdfs:label": "Could some members of the conclusion's subject class lie outside the group the premises actually describe?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-minor"
+   },
+   "rdfs:label": "Would a weaker \"some\" conclusion be all the premises can support?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:illicit-minor"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "All full-time staff are certified in first aid."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The second premise places the team inside the full-time staff; it says nothing about full-time staff who are not on the team."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "A full-time accountant who never joined the team could lack the certificate while both premises stay true."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "All members of the incident-response team are certified in first aid."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "All members of the incident-response team are full-time staff."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -29509,6 +29708,76 @@
    "dcterms:date": {
     "@type": "xsd:date",
     "@value": "2026-11-04"
+   },
+   "dcterms:publisher": "History and Philosophy of Logic (Martin, 2012), author's copy",
+   "dcterms:title": "Distributive Terms, Truth, and the Port Royal Logic",
+   "schema:url": {
+    "@id": "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University",
+   "dcterms:title": "Syllogistic Fallacies: Illicit Major and Illicit Minor",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/illicit_fall.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "PHIL 240 lecture notes, Texas A&M University",
+   "dcterms:title": "6.5 Rules for Evaluating Syllogisms",
+   "schema:url": {
+    "@id": "https://phil240.tamu.edu/LectureNotes/6.5.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Carveth Read (1914), Lit2Go, University of South Florida",
+   "dcterms:title": "Logic, Deductive and Inductive, Chapter 24: Formal Fallacies",
+   "schema:url": {
+    "@id": "https://etc.usf.edu/lit2go/37/logic-deductive-and-inductive/479/chapter-24/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "The Port Royal Logic",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/portroyl/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
    },
    "dcterms:publisher": "History and Philosophy of Logic (Martin, 2012), author's copy",
    "dcterms:title": "Distributive Terms, Truth, and the Port Royal Logic",

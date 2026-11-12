@@ -307,6 +307,17 @@ flowchart TD
   o2["A contractor on the on-call rota could have been granted access through another route."] -. attacks .-> ra
 ```
 
+## Illicit minor (`ct:illicit-minor`)
+
+```mermaid
+flowchart TD
+  p1["All members of the incident-response team are certified in first aid."] --> ra{{"invalid"}}
+  p2["All members of the incident-response team are full-time staff."] --> ra{{"invalid"}}
+  ra --> c["All full-time staff are certified in first aid."]
+  o1["The second premise places the team inside the full-time staff; it says nothing about full-time staff who are not on the team."] -. attacks .-> ra
+  o2["A full-time accountant who never joined the team could lack the certificate while both premises stay true."] -. attacks .-> ra
+```
+
 ## Inductive reasoning (`ct:inductive-reasoning`)
 
 ```mermaid

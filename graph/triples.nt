@@ -4133,6 +4133,76 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the conclusion make a claim about every member of its subject class?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "In the premise where that subject term appears, is it only the predicate of an affirmative statement?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Could some members of the conclusion's subject class lie outside the group the premises actually describe?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Would a weaker \"some\" conclusion be all the premises can support?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "All full-time staff are certified in first aid." .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The second premise places the team inside the full-time staff; it says nothing about full-time staff who are not on the team." .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "A full-time accountant who never joined the team could lack the certificate while both premises stay true." .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "All members of the incident-response team are certified in first aid." .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "All members of the incident-response team are full-time staff." .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2000/01/rdf-schema#label> "Illicit minor" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#altLabel> "illicit process of the minor term" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#altLabel> "illicit process of the minor" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#definition> "The syllogistic fallacy committed when the minor term (the subject of the conclusion) is distributed in the conclusion but undistributed in the minor premise, so the conclusion generalizes about a whole class that the premises covered only in part." .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Illicit minor" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/illicit-minor.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#invalidFormOf> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "Next week's release will probably also cause a first-week spike in support tickets." .
 <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning/map/ra> .
@@ -10487,6 +10557,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-major/s4> <https://schema.org/url> <https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s1> <http://purl.org/dc/terms/publisher> "Philosophy 103: Introduction to Logic, Lander University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s1> <http://purl.org/dc/terms/title> "Syllogistic Fallacies: Illicit Major and Illicit Minor" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s1> <https://schema.org/url> <https://philosophy.lander.edu/logic/illicit_fall.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s2> <http://purl.org/dc/terms/publisher> "PHIL 240 lecture notes, Texas A&M University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s2> <http://purl.org/dc/terms/title> "6.5 Rules for Evaluating Syllogisms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s2> <https://schema.org/url> <https://phil240.tamu.edu/LectureNotes/6.5.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s3> <http://purl.org/dc/terms/publisher> "Carveth Read (1914), Lit2Go, University of South Florida" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s3> <http://purl.org/dc/terms/title> "Logic, Deductive and Inductive, Chapter 24: Formal Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s3> <https://schema.org/url> <https://etc.usf.edu/lit2go/37/logic-deductive-and-inductive/479/chapter-24/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s4> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s4> <http://purl.org/dc/terms/title> "The Port Royal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s4> <https://schema.org/url> <https://iep.utm.edu/portroyl/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s5> <http://purl.org/dc/terms/publisher> "History and Philosophy of Logic (Martin, 2012), author's copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s5> <http://purl.org/dc/terms/title> "Distributive Terms, Truth, and the Port Royal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-minor/s5> <https://schema.org/url> <https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/inductive-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/inductive-reasoning/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Shanahan)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/inductive-reasoning/s1> <http://purl.org/dc/terms/title> "Deductive and Inductive Arguments" .
