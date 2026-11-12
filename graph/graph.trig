@@ -693,6 +693,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-import#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-import#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-import#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-logic/existential-import.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-import#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-import#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-import#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-import#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference> .
 <https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-logic/exists-forall-to-forall-exists-inference.md" .
@@ -8116,6 +8123,62 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/distribution-of-terms/s5> <https://schema.org/url> <https://dc2.philarchive.org/rec/WALTIO-6> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/existential-import#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2000/01/rdf-schema#label> "Existential import" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#altLabel> "existential presupposition of categorical propositions" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#definition> "The property a statement has when its truth requires that something exists, typically that its subject class has at least one member; logicians disagree about which categorical forms (A, E, I, O) carry it, and the answer decides which traditional immediate inferences and syllogisms count as valid." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#prefLabel> "Existential import" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/franz-brentano> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/presupposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/existential-import.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/free-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Parsons and Ciola, rev. 2025)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1> <http://purl.org/dc/terms/title> "The Traditional Square of Opposition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/square/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Nolt, rev. 2025)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2> <http://purl.org/dc/terms/title> "Free Logic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2> <https://schema.org/url> <https://plato.stanford.edu/entries/logic-free/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3> <http://purl.org/dc/terms/publisher> "Kathy Eldred, Pima Community College Open Press (2024, CC BY-NC 4.0)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3> <http://purl.org/dc/terms/title> "3.4 Problems with the Square of Opposition (An Introduction to Logic)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3> <https://schema.org/url> <https://pimaopen.pressbooks.pub/intrologic/?p=862> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4> <http://purl.org/dc/terms/publisher> "Open Philosophy 8(1) (Byeong-uk Yi, 2025), De Gruyter Brill" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4> <http://purl.org/dc/terms/title> "Did Aristotle have a Doctrine of Existential Import?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4> <https://schema.org/url> <https://www.degruyterbrill.com/document/doi/10.1515/opphil-2025-0066/html> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference#graph> {
@@ -18476,6 +18539,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categories> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
   <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
@@ -18780,8 +18844,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/proposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categories> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
@@ -18790,6 +18856,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
@@ -19658,16 +19725,19 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/proposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/antilogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -19882,6 +19952,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/frans-van-eemeren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/frans-van-eemeren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/frans-van-eemeren> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/franz-brentano> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/free-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/frege-geach-problem> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
   <https://github.com/john1hsu/critical-thinking-graph/id/frequency-interpretation-of-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fuller-aldag-1998-organizational-tonypandy> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
@@ -19921,6 +19993,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-berkeley> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/antilogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
@@ -21227,6 +21300,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/exists-forall-to-forall-exists-inference> .
@@ -21269,6 +21343,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/presumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/presumption> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/presumption> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/presupposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deepfake> .
@@ -21345,6 +21420,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/proposition> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/proposition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/proposition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/proposition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/proposition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -22082,6 +22158,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/substitution-of-identicals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/substitution-of-identicals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -22451,6 +22528,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
@@ -22505,6 +22583,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/categories> .
   <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> .

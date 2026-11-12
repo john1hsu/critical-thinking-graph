@@ -7224,6 +7224,91 @@
   ]
  },
  {
+  "id": "ct:existential-import",
+  "title": "Existential import",
+  "aliases": [
+   "existential presupposition of categorical propositions"
+  ],
+  "type": "Concept",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/existential-import.md",
+  "created": "2026-11-12",
+  "summary": "The property a statement has when its truth requires that something exists, typically that its subject class has at least one member; logicians disagree about which categorical forms (A, E, I, O) carry it, and the answer decides which traditional immediate inferences and syllogisms count as valid.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:subalternation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:george-boole"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:william-of-ockham"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:franz-brentano"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:formal-logic",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:free-logic",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:presupposition",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/square/",
+   "https://plato.stanford.edu/entries/logic-free/",
+   "https://pimaopen.pressbooks.pub/intrologic/?p=862",
+   "https://www.degruyterbrill.com/document/doi/10.1515/opphil-2025-0066/html"
+  ]
+ },
+ {
   "id": "ct:exists-forall-to-forall-exists-inference",
   "title": "Exists-forall to forall-exists inference",
   "aliases": [

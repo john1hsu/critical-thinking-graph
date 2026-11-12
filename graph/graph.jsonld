@@ -6775,6 +6775,83 @@
    ]
   },
   {
+   "@id": "ct:existential-import",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": {
+    "@id": "ct:presupposition"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/existential-import.md",
+   "cto:formalizedBy": {
+    "@id": "ct:free-logic"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:categorical-proposition"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:formal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4"
+    }
+   ],
+   "rdfs:label": "Existential import",
+   "skos:altLabel": "existential presupposition of categorical propositions",
+   "skos:broader": {
+    "@id": "ct:categorical-proposition"
+   },
+   "skos:definition": "The property a statement has when its truth requires that something exists, typically that its subject class has at least one member; logicians disagree about which categorical forms (A, E, I, O) carry it, and the answer decides which traditional immediate inferences and syllogisms count as valid.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Existential import",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:existential-fallacy"
+    },
+    {
+     "@id": "ct:franz-brentano"
+    },
+    {
+     "@id": "ct:george-boole"
+    },
+    {
+     "@id": "ct:predicate-logic"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:subalternation"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    },
+    {
+     "@id": "ct:william-of-ockham"
+    }
+   ]
+  },
+  {
    "@id": "ct:exists-forall-to-forall-exists-inference",
    "@type": "cto:ReasoningForm",
    "cto:appliedIn": {
@@ -28726,6 +28803,62 @@
    "dcterms:title": "The Existential Fallacy",
    "schema:url": {
     "@id": "https://www.fallacyfiles.org/existent.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Parsons and Ciola, rev. 2025)",
+   "dcterms:title": "The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/square/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Nolt, rev. 2025)",
+   "dcterms:title": "Free Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/logic-free/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Kathy Eldred, Pima Community College Open Press (2024, CC BY-NC 4.0)",
+   "dcterms:title": "3.4 Problems with the Square of Opposition (An Introduction to Logic)",
+   "schema:url": {
+    "@id": "https://pimaopen.pressbooks.pub/intrologic/?p=862"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/existential-import/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Open Philosophy 8(1) (Byeong-uk Yi, 2025), De Gruyter Brill",
+   "dcterms:title": "Did Aristotle have a Doctrine of Existential Import?",
+   "schema:url": {
+    "@id": "https://www.degruyterbrill.com/document/doi/10.1515/opphil-2025-0066/html"
    }
   },
   {
