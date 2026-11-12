@@ -14531,6 +14531,111 @@
   ]
  },
  {
+  "id": "ct:presumption",
+  "title": "Presumption",
+  "aliases": [
+   "presumptive status",
+   "praesumptio",
+   "rebuttable presumption"
+  ],
+  "type": "Concept",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/presumption.md",
+  "created": "2026-11-12",
+  "summary": "The status a claim has when it may be accepted without proof for now, so that the burden of proof falls on anyone who would reject it; a presumption stands until it is rebutted, but it is always defeasible.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-whately"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:legal-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:burden-of-proof",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:defeasible-reasoning",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:assumption",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:argumentation-theory-without-presumptions",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://philarchive.org/archive/GODATO-3",
+   "https://link.springer.com/10.1007/s10503-017-9421-2",
+   "https://www.cambridge.org/core/books/presumption-and-the-practices-of-tentative-cognition/3BD1D7CD62EAFE66142BC1DA3B0F04D7",
+   "https://scholar.uwindsor.ca/ossaarchive/OSSA2/papersandcommentaries/64"
+  ]
+ },
+ {
   "id": "ct:primary-and-secondary-sources",
   "title": "Primary and secondary sources",
   "aliases": [
