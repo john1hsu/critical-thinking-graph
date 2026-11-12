@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:prosecutors-fallacy` | cto:ProbabilisticFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -47,7 +45,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:de-re-de-dicto-distinction` | 1 | Masked-man fallacy |
 | `ct:hypothesis-testing` | 1 | Confirmation bias |
 
-…and 12 more.
+…and 13 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -119,6 +117,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:legal-reasoning` | cto:Field |
+| `ct:likelihood-ratio` | cto:Framework |
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |

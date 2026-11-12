@@ -10328,6 +10328,85 @@
    ]
   },
   {
+   "@id": "ct:likelihood-ratio",
+   "@type": "cto:Framework",
+   "cto:appliedIn": {
+    "@id": "ct:legal-reasoning"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:thompson-newman-2015-lay-forensic-statistics-study"
+   },
+   "cto:counteracts": {
+    "@id": "ct:prosecutors-fallacy"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "cto:file": "articles/probabilistic-reasoning/likelihood-ratio.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s5"
+    }
+   ],
+   "rdfs:label": "Likelihood ratio framework",
+   "skos:altLabel": [
+    "LR framework",
+    "evaluative reporting",
+    "likelihood ratio",
+    "likelihood-ratio approach to evidence evaluation"
+   ],
+   "skos:broader": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "skos:definition": "A way of weighing evidence by comparing how probable the same findings are under two competing propositions, P(E | H1) / P(E | H2), so that the strength of the evidence is reported separately from how probable either proposition is.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Likelihood ratio framework",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:defense-attorneys-fallacy"
+    },
+    {
+     "@id": "ct:legal-reasoning"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    },
+    {
+     "@id": "ct:prosecutors-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:logic",
    "@type": "cto:Field",
    "cto:domain": "philosophy-of-reasoning",
@@ -30511,6 +30590,76 @@
    "dcterms:title": "Perception, Depiction and Description of European History: Leopold von Ranke and his Development and Understanding of Modern Historical Writing",
    "schema:url": {
     "@id": "https://www.gla.ac.uk/media/media_64280_en.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Di Bello, 2021)",
+   "dcterms:title": "Legal Probabilism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/legal-probabilism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "European Network of Forensic Science Institutes (2015), copy hosted by Roebuck Forensics",
+   "dcterms:title": "ENFSI Guideline for Evaluative Reporting in Forensic Science (approved version 3.0)",
+   "schema:url": {
+    "@id": "https://roebuckforensics.com.au/wp-content/uploads/2024/07/ENFSI-Guideline.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Leverhulme Research Centre for Forensic Science, University of Dundee (Gray)",
+   "dcterms:title": "Relative support for competing propositions (section 5.1), Probability, statistics, and the likelihood ratio for non-experts",
+   "schema:url": {
+    "@id": "https://lrcfs-ap2.dundee.ac.uk/lr_book/relative-support-for-competing-propositions.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Law and Human Behavior 39 (Thompson & Newman, 2015), eScholarship, University of California",
+   "dcterms:title": "Lay Understanding of Forensic Statistics: Evaluation of Random Match Probabilities, Likelihood Ratios, and Verbal Equivalents",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt8g0729b9/qt8g0729b9.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Science and Justice 65(6), 101342 (Morrison, Bali, Martire, Grady & Thompson, 2025), Aston University research portal",
+   "dcterms:title": "What is the best way to present likelihood ratios? A review of past research and recommendations for future research",
+   "schema:url": {
+    "@id": "https://research.aston.ac.uk/en/publications/what-is-the-best-way-to-present-likelihood-ratios-a-review-of-pas/"
    }
   },
   {

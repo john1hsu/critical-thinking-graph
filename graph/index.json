@@ -11039,6 +11039,89 @@
   ]
  },
  {
+  "id": "ct:likelihood-ratio",
+  "title": "Likelihood ratio framework",
+  "aliases": [
+   "likelihood ratio",
+   "LR framework",
+   "likelihood-ratio approach to evidence evaluation",
+   "evaluative reporting"
+  ],
+  "type": "Framework",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/likelihood-ratio.md",
+  "created": "2026-11-12",
+  "summary": "A way of weighing evidence by comparing how probable the same findings are under two competing propositions, P(E | H1) / P(E | H2), so that the strength of the evidence is reported separately from how probable either proposition is.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prosecutors-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defense-attorneys-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:legal-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:prosecutors-fallacy",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:bayesian-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:thompson-newman-2015-lay-forensic-statistics-study",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/legal-probabilism/",
+   "https://roebuckforensics.com.au/wp-content/uploads/2024/07/ENFSI-Guideline.pdf",
+   "https://lrcfs-ap2.dundee.ac.uk/lr_book/relative-support-for-competing-propositions.html",
+   "https://escholarship.org/content/qt8g0729b9/qt8g0729b9.pdf",
+   "https://research.aston.ac.uk/en/publications/what-is-the-best-way-to-present-likelihood-ratios-a-review-of-pas/"
+  ]
+ },
+ {
   "id": "ct:logic",
   "title": "Logic",
   "aliases": [
