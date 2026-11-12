@@ -30,7 +30,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
-| `ct:power-analysis` | 2 | Law of small numbers, replication-crisis |
+| `ct:power-analysis` | 2 | Law of small numbers, Replication crisis |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
 | `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
@@ -128,6 +128,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:propositional-logic` | cto:Field |
 | `ct:random-sampling` | cto:Method |
 | `ct:reasoning` | cto:Concept |
+| `ct:replication-crisis` | cto:Phenomenon |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
 | `ct:selection-bias` | cto:Phenomenon |

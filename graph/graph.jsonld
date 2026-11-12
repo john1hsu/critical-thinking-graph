@@ -14209,6 +14209,92 @@
    ]
   },
   {
+   "@id": "ct:replication-crisis",
+   "@type": "cto:Phenomenon",
+   "cto:challengedBy": {
+    "@id": "ct:gilbert-2016-comment-on-reproducibility"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:open-science-collaboration-2015-reproducibility-project"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    }
+   ],
+   "cto:file": "articles/scientific-reasoning/replication-crisis.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:null-hypothesis-significance-testing"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:why-most-published-research-findings-are-false"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s4"
+    }
+   ],
+   "rdfs:label": "Replication crisis",
+   "skos:altLabel": [
+    "credibility crisis in science",
+    "replicability crisis",
+    "reproducibility crisis"
+   ],
+   "skos:broader": {
+    "@id": "ct:scientific-method"
+   },
+   "skos:definition": "The discovery, concentrated in the 2010s, that a large share of published scientific findings, especially in psychology and biomedicine, do not reappear when independent teams repeat the studies with new data, and that the effects that do reappear are usually much smaller than first reported.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Replication crisis",
+   "skos:related": [
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:p-hacking"
+    },
+    {
+     "@id": "ct:power-analysis"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ]
+  },
+  {
    "@id": "ct:representativeness-heuristic",
    "@type": "cto:Heuristic",
    "cto:challengedBy": [
@@ -33261,6 +33347,62 @@
    "dcterms:title": "On the Psychology of Prediction",
    "schema:url": {
     "@id": "https://scholarsbank.uoregon.edu//bitstreams/2fbae090-7a99-4301-8402-26e6e3a4c00c/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Science 349(6251), aac4716 (Open Science Collaboration, 2015); author copy, Utrecht University repository",
+   "dcterms:title": "Estimating the reproducibility of psychological science",
+   "schema:url": {
+    "@id": "https://dspace.library.uu.nl/bitstream/1874/329878/1/aac4716.full.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "PLoS Medicine 2(8), e124 (Ioannidis, 2005); copy hosted by Carnegie Mellon University, Department of Statistics",
+   "dcterms:title": "Why Most Published Research Findings Are False",
+   "schema:url": {
+    "@id": "https://www.stat.cmu.edu/~ryantibs/journalclub/ioannidis_2005.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Annual Review of Psychology 73, 719-748 (Nosek, Hardwicke, Moshontz, Allard, Corker, Dreber et al., 2022)",
+   "dcterms:title": "Replicability, Robustness, and Reproducibility in Psychological Science",
+   "schema:url": {
+    "@id": "https://annualreviews.org/doi/pdf/10.1146/annurev-psych-020821-114157"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "National Academies of Sciences, Engineering, and Medicine (news release, May 2019)",
+   "dcterms:title": "New Report Examines Reproducibility and Replicability in Science, Recommends Ways to Improve Transparency and Rigor in Research",
+   "schema:url": {
+    "@id": "https://www.nationalacademies.org/news/2019/05/new-report-examines-reproducibility-and-replicability-in-science-recommends-ways-to-improve-transparency-and-rigor-in-research"
    }
   },
   {

@@ -6415,6 +6415,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/francis-galton> .
 <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2000/01/rdf-schema#label> "Replication crisis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#altLabel> "credibility crisis in science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#altLabel> "replicability crisis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#altLabel> "reproducibility crisis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#definition> "The discovery, concentrated in the 2010s, that a large share of published scientific findings, especially in psychology and biomedicine, do not reappear when independent teams repeat the studies with new data, and that the effects that do reappear are usually much smaller than first reported." .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Replication crisis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gilbert-2016-comment-on-reproducibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/open-science-collaboration-2015-reproducibility-project> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/replication-crisis.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/why-most-published-research-findings-are-false> .
 <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Heuristic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> <http://www.w3.org/2000/01/rdf-schema#label> "Representativeness heuristic" .
@@ -12148,6 +12180,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/regression-to-the-mean/s4> <https://schema.org/url> <https://scholarsbank.uoregon.edu//bitstreams/2fbae090-7a99-4301-8402-26e6e3a4c00c/download> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s1> <http://purl.org/dc/terms/publisher> "Science 349(6251), aac4716 (Open Science Collaboration, 2015); author copy, Utrecht University repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s1> <http://purl.org/dc/terms/title> "Estimating the reproducibility of psychological science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s1> <https://schema.org/url> <https://dspace.library.uu.nl/bitstream/1874/329878/1/aac4716.full.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s2> <http://purl.org/dc/terms/publisher> "PLoS Medicine 2(8), e124 (Ioannidis, 2005); copy hosted by Carnegie Mellon University, Department of Statistics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s2> <http://purl.org/dc/terms/title> "Why Most Published Research Findings Are False" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s2> <https://schema.org/url> <https://www.stat.cmu.edu/~ryantibs/journalclub/ioannidis_2005.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s3> <http://purl.org/dc/terms/publisher> "Annual Review of Psychology 73, 719-748 (Nosek, Hardwicke, Moshontz, Allard, Corker, Dreber et al., 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s3> <http://purl.org/dc/terms/title> "Replicability, Robustness, and Reproducibility in Psychological Science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s3> <https://schema.org/url> <https://annualreviews.org/doi/pdf/10.1146/annurev-psych-020821-114157> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s4> <http://purl.org/dc/terms/publisher> "National Academies of Sciences, Engineering, and Medicine (news release, May 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s4> <http://purl.org/dc/terms/title> "New Report Examines Reproducibility and Replicability in Science, Recommends Ways to Improve Transparency and Rigor in Research" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/replication-crisis/s4> <https://schema.org/url> <https://www.nationalacademies.org/news/2019/05/new-report-examines-reproducibility-and-replicability-in-science-recommends-ways-to-improve-transparency-and-rigor-in-research> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s1> <http://purl.org/dc/terms/publisher> "Cognitive Psychology 3, 430-454 (Kahneman & Tversky, 1972), copy hosted on a UC San Diego faculty page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/representativeness-heuristic/s1> <http://purl.org/dc/terms/title> "Subjective probability: A judgment of representativeness" .

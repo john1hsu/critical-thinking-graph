@@ -15092,6 +15092,101 @@
   ]
  },
  {
+  "id": "ct:replication-crisis",
+  "title": "Replication crisis",
+  "aliases": [
+   "replicability crisis",
+   "reproducibility crisis",
+   "credibility crisis in science"
+  ],
+  "type": "Phenomenon",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/scientific-reasoning/replication-crisis.md",
+  "created": "2026-11-12",
+  "summary": "The discovery, concentrated in the 2010s, that a large share of published scientific findings, especially in psychology and biomedicine, do not reappear when independent teams repeat the studies with new data, and that the effects that do reappear are usually much smaller than first reported.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:power-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:p-hacking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:open-science-collaboration-2015-reproducibility-project",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:why-most-published-research-findings-are-false",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:publication-bias",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:researcher-degrees-of-freedom",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gilbert-2016-comment-on-reproducibility",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://dspace.library.uu.nl/bitstream/1874/329878/1/aac4716.full.pdf",
+   "https://www.stat.cmu.edu/~ryantibs/journalclub/ioannidis_2005.pdf",
+   "https://annualreviews.org/doi/pdf/10.1146/annurev-psych-020821-114157",
+   "https://www.nationalacademies.org/news/2019/05/new-report-examines-reproducibility-and-replicability-in-science-recommends-ways-to-improve-transparency-and-rigor-in-research"
+  ]
+ },
+ {
   "id": "ct:representativeness-heuristic",
   "title": "Representativeness heuristic",
   "aliases": [
