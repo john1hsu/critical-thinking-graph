@@ -9033,6 +9033,91 @@
   ]
  },
  {
+  "id": "ct:hierarchy-of-evidence",
+  "title": "Hierarchy of evidence",
+  "aliases": [
+   "levels of evidence",
+   "evidence pyramid",
+   "evidence hierarchy"
+  ],
+  "type": "Framework",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/evidence-and-information-literacy/hierarchy-of-evidence.md",
+  "created": "2026-11-12",
+  "summary": "A ranking of study designs by how well they usually protect against bias, typically placing randomised trials and their systematic reviews above cohort, case-control and case-series studies, used as a quick guide to which evidence should carry more weight for a given kind of question.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:evidence-based-medicine"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:primary-and-secondary-sources"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:iain-chalmers"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:evidence-based-medicine",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:confounding",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:grade-approach",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:grade-approach",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4975798",
+   "https://www.cebm.ox.ac.uk/resources/levels-of-evidence/explanation-of-the-2011-ocebm-levels-of-evidence",
+   "https://hero.epa.gov/reference/783306",
+   "https://bestpractice.bmj.com/info/evidence/learn-ebm/what-is-grade/"
+  ]
+ },
+ {
   "id": "ct:hindsight-bias",
   "title": "Hindsight bias",
   "aliases": [

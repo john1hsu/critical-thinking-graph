@@ -8443,6 +8443,86 @@
    ]
   },
   {
+   "@id": "ct:hierarchy-of-evidence",
+   "@type": "cto:Framework",
+   "cto:appliedIn": {
+    "@id": "ct:evidence-based-medicine"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:grade-approach"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:grade-approach"
+   },
+   "cto:counteracts": {
+    "@id": "ct:confounding"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/evidence-and-information-literacy/hierarchy-of-evidence.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:randomized-controlled-trial"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hierarchy-of-evidence/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hierarchy-of-evidence/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hierarchy-of-evidence/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hierarchy-of-evidence/s4"
+    }
+   ],
+   "rdfs:label": "Hierarchy of evidence",
+   "skos:altLabel": [
+    "evidence hierarchy",
+    "evidence pyramid",
+    "levels of evidence"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:evidence-based-medicine"
+    },
+    {
+     "@id": "ct:source-evaluation"
+    }
+   ],
+   "skos:definition": "A ranking of study designs by how well they usually protect against bias, typically placing randomised trials and their systematic reviews above cohort, case-control and case-series studies, used as a quick guide to which evidence should carry more weight for a given kind of question.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Hierarchy of evidence",
+   "skos:related": [
+    {
+     "@id": "ct:iain-chalmers"
+    },
+    {
+     "@id": "ct:primary-and-secondary-sources"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ]
+  },
+  {
    "@id": "ct:hindsight-bias",
    "@type": "cto:CognitiveBias",
    "cto:amplifies": {
@@ -30384,6 +30464,62 @@
    "dcterms:title": "Daniel Kahneman, Prize Lecture: Maps of Bounded Rationality (8 December 2002)",
    "schema:url": {
     "@id": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hierarchy-of-evidence/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Evidence-Based Medicine 21(4), 125-127 (Murad, Asi, Alsawas & Alahdab, 2016), PubMed Central",
+   "dcterms:title": "New evidence pyramid",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4975798"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hierarchy-of-evidence/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Oxford Centre for Evidence-Based Medicine, University of Oxford (Howick, Chalmers, Glasziou et al., 2011)",
+   "dcterms:title": "Explanation of the 2011 OCEBM Levels of Evidence",
+   "schema:url": {
+    "@id": "https://www.cebm.ox.ac.uk/resources/levels-of-evidence/explanation-of-the-2011-ocebm-levels-of-evidence"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hierarchy-of-evidence/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "BMJ 336(7650), 924-926 (Guyatt, Oxman, Vist, Kunz, Falck-Ytter, Alonso-Coello & Schünemann, 2008), EPA HERO record",
+   "dcterms:title": "GRADE: an emerging consensus on rating quality of evidence and strength of recommendations",
+   "schema:url": {
+    "@id": "https://hero.epa.gov/reference/783306"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hierarchy-of-evidence/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "BMJ Best Practice (Siemieniuk & Guyatt)",
+   "dcterms:title": "What is GRADE?",
+   "schema:url": {
+    "@id": "https://bestpractice.bmj.com/info/evidence/learn-ebm/what-is-grade/"
    }
   },
   {

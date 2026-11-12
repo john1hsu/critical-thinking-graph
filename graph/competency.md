@@ -45,7 +45,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:bright-line-rule` | 1 | Slippery slope |
 | `ct:de-re-de-dicto-distinction` | 1 | Masked-man fallacy |
 
-…and 15 more.
+…and 16 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -118,6 +118,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
+| `ct:hierarchy-of-evidence` | cto:Framework |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
 | `ct:legal-reasoning` | cto:Field |
@@ -137,9 +138,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:scientific-method` | cto:Method |
 | `ct:selection-bias` | cto:Phenomenon |
 | `ct:slippery-slope` | cto:InformalFallacy |
-| `ct:suppressed-evidence` | cto:InformalFallacy |
 
-…and 1 more.
+…and 2 more.
 
 ## Orphan articles (gap)
 
