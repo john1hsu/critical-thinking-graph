@@ -5154,6 +5154,115 @@
   ]
  },
  {
+  "id": "ct:critical-thinking",
+  "title": "Critical thinking",
+  "aliases": [
+   "reasonable reflective thinking",
+   "careful goal-directed thinking",
+   "critical reasoning skills and dispositions"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/critical-thinking.md",
+  "created": "2026-11-12",
+  "summary": "Careful, goal-directed thinking aimed at deciding what to believe or do, combining abilities (clarifying, analysing and judging arguments, sources and inferences) with dispositions (the willingness to use those abilities fairly and consistently).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-education"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-report-on-critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:thinking-dispositions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:transfer-of-learning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:peter-facione"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:robert-ennis"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-dewey",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:critical-thinking-education",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:abrami-2015-critical-thinking-instruction-meta-analysis",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:john-mcpeck",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/critical-thinking",
+   "https://education.illinois.edu/docs/default-source/faculty-documents/robert-ennis/thenatureofcriticalthinking_51711_000.pdf",
+   "https://www.qcc.cuny.edu/socialSciences/ppecorino/CT-Expert-Report.pdf",
+   "https://www.aft.org/ae/fall2020/willingham",
+   "https://www.aera.net/Newsroom/Does-College-Teach-Critical-Thinking-A-Meta-Analysis",
+   "https://www.clearinghouse.edu.tum.de/wp-content/uploads/2023/12/CHU_KR18_ENG_Abrami_2015.pdf"
+  ]
+ },
+ {
   "id": "ct:critical-thinking-education",
   "title": "Critical thinking education",
   "aliases": [

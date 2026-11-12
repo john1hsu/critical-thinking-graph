@@ -4843,6 +4843,105 @@
    ]
   },
   {
+   "@id": "ct:critical-thinking",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:critical-thinking-education"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:john-mcpeck"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/critical-thinking.md",
+   "cto:introducedBy": {
+    "@id": "ct:john-dewey"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:abrami-2015-critical-thinking-instruction-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s6"
+    }
+   ],
+   "rdfs:label": "Critical thinking",
+   "skos:altLabel": [
+    "careful goal-directed thinking",
+    "critical reasoning skills and dispositions",
+    "reasonable reflective thinking"
+   ],
+   "skos:broader": {
+    "@id": "ct:reasoning"
+   },
+   "skos:definition": "Careful, goal-directed thinking aimed at deciding what to believe or do, combining abilities (clarifying, analysing and judging arguments, sources and inferences) with dispositions (the willingness to use those abilities fairly and consistently).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Critical thinking",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:delphi-report-on-critical-thinking"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:metacognition"
+    },
+    {
+     "@id": "ct:peter-facione"
+    },
+    {
+     "@id": "ct:robert-ennis"
+    },
+    {
+     "@id": "ct:source-evaluation"
+    },
+    {
+     "@id": "ct:thinking-dispositions"
+    },
+    {
+     "@id": "ct:transfer-of-learning"
+    }
+   ]
+  },
+  {
    "@id": "ct:critical-thinking-education",
    "@type": "cto:Field",
    "cto:challengedBy": {
@@ -27935,6 +28034,90 @@
    "dcterms:title": "Study Snapshot: Does College Teach Critical Thinking?",
    "schema:url": {
     "@id": "https://www.aera.net/Newsroom/Study-Snapshot-Does-College-Teach-Critical-Thinking"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hitchcock, rev. 2022)",
+   "dcterms:title": "Critical Thinking",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/critical-thinking"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Robert H. Ennis, University of Illinois (rev. 2011)",
+   "dcterms:title": "The Nature of Critical Thinking: Outlines of General Critical Thinking Dispositions and Abilities",
+   "schema:url": {
+    "@id": "https://education.illinois.edu/docs/default-source/faculty-documents/robert-ennis/thenatureofcriticalthinking_51711_000.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Peter A. Facione, American Philosophical Association (1990)",
+   "dcterms:title": "Critical Thinking: A Statement of Expert Consensus for Purposes of Educational Assessment and Instruction (The Delphi Report)",
+   "schema:url": {
+    "@id": "https://www.qcc.cuny.edu/socialSciences/ppecorino/CT-Expert-Report.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Daniel T. Willingham, American Educator (AFT), Fall 2020",
+   "dcterms:title": "Ask the Cognitive Scientist: How Can Educators Teach Critical Thinking?",
+   "schema:url": {
+    "@id": "https://www.aft.org/ae/fall2020/willingham"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Huber & Kuncel, Review of Educational Research (2015), AERA",
+   "dcterms:title": "Does College Teach Critical Thinking? A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://www.aera.net/Newsroom/Does-College-Teach-Critical-Thinking-A-Meta-Analysis"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/critical-thinking/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Clearing House Unterricht, Technical University of Munich (2023)",
+   "dcterms:title": "Short Review 18: Strategies for teaching students to think critically (summary of Abrami et al., 2015)",
+   "schema:url": {
+    "@id": "https://www.clearinghouse.edu.tum.de/wp-content/uploads/2023/12/CHU_KR18_ENG_Abrami_2015.pdf"
    }
   },
   {
