@@ -6041,6 +6041,44 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/premortem.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gary-klein> .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2000/01/rdf-schema#label> "Preregistration" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#altLabel> "pre-analysis plan" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#altLabel> "pre-registration" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#altLabel> "prospective trial registration" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#altLabel> "study preregistration" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#definition> "The practice of recording a study's hypotheses, design, outcomes and analysis plan in a time-stamped, independent registry before the data are collected or examined, so that confirmatory tests can be told apart from exploratory findings and selective reporting becomes visible." .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#prefLabel> "Preregistration" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/open-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/registered-reports> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/claesen-2021-preregistration-adherence-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/szollosi-2020-is-preregistration-worthwhile> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/reporting-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/preregistration.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kaplan-irvin-2015-nhlbi-null-results-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/preregistration> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/scheel-2021-registered-reports-positive-results-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> <http://www.w3.org/2000/01/rdf-schema#label> "Primary and secondary sources" .
@@ -11963,6 +12001,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "preprint" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/premortem/s5> <https://schema.org/url> <https://dlab.sauder.ubc.ca/sjdm/presentations/2021-Poster-Gandhi-Linnea-debiasing-premortem-selfserving~.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s1> <http://purl.org/dc/terms/publisher> "Proceedings of the National Academy of Sciences (Nosek, Ebersole, DeHaven & Mellor, 2018), doi:10.1073/pnas.1708274114; copy hosted by errorstatistics.com" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s1> <http://purl.org/dc/terms/title> "The preregistration revolution" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s1> <https://schema.org/url> <https://errorstatistics.com/wp-content/uploads/2017/07/nosek-et-al-preregistration-revolution.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s2> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s2> <http://purl.org/dc/terms/publisher> "PLOS ONE 10(8), e0132382 (Kaplan & Irvin, 2015); DOAJ record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s2> <http://purl.org/dc/terms/title> "Likelihood of Null Effects of Large NHLBI Clinical Trials Has Increased over Time" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s2> <https://schema.org/url> <https://doaj.org/article/3ca4f2975c8245e09e5311375dc03103> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s3> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s3> <http://purl.org/dc/terms/publisher> "Advances in Methods and Practices in Psychological Science 4(2) (Scheel, Schijen & Lakens, 2021), Association for Psychological Science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s3> <http://purl.org/dc/terms/title> "An Excess of Positive Results: Comparing the Standard Psychology Literature With Registered Reports" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s3> <https://schema.org/url> <https://www.psychologicalscience.org/journals/ampps/25152459211007467/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s4> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s4> <http://purl.org/dc/terms/publisher> "U.S. National Library of Medicine, Lister Hill National Center for Biomedical Communications (Zarin, Bergeris, Ide & Tse, 2005)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s4> <http://purl.org/dc/terms/title> "ClinicalTrials.gov: A Report to the Board of Scientific Counselors (LHNCBC-TR-2005-003)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s4> <https://schema.org/url> <https://www.lhncbc.nlm.nih.gov/LHC-publications/PDF/tr2005003.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s5> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s5> <http://purl.org/dc/terms/publisher> "Trends in Cognitive Sciences (Szollosi, Kellen, Navarro, Shiffrin, van Rooij & Van Zandt, 2020), doi:10.1016/j.tics.2019.11.009; FORRT curated summary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s5> <http://purl.org/dc/terms/title> "Is Preregistration Worthwhile?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s5> <https://schema.org/url> <https://forrt.org/curated_resources/is-preregistration-worthwhile/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s6> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s6> <http://purl.org/dc/terms/publisher> "Royal Society Open Science 8(10) (Claesen, Gomes, Tuerlinckx & Vanpaemel, 2021); DOAJ record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s6> <http://purl.org/dc/terms/title> "Comparing dream to reality: an assessment of adherence of the first generation of preregistered studies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s6> <https://schema.org/url> <https://doaj.org/article/4c3b51be665d4138b3f0af7c0d8ca92c> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/primary-and-secondary-sources/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/primary-and-secondary-sources/s1> <http://purl.org/dc/terms/publisher> "History of Humanities 4(2), 257–262 (Eskildsen, 2019), Roskilde University repository copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/primary-and-secondary-sources/s1> <http://purl.org/dc/terms/title> "Leopold Von Ranke (1795–1886): Criticizing an Early Modern Historian" .

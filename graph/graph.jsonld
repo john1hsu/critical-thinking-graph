@@ -13290,6 +13290,112 @@
    ]
   },
   {
+   "@id": "ct:preregistration",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:randomized-controlled-trial"
+   },
+   "cto:challengedBy": [
+    {
+     "@id": "ct:claesen-2021-preregistration-adherence-study"
+    },
+    {
+     "@id": "ct:szollosi-2020-is-preregistration-worthwhile"
+    }
+   ],
+   "cto:counteracts": [
+    {
+     "@id": "ct:hindsight-bias"
+    },
+    {
+     "@id": "ct:publication-bias"
+    }
+   ],
+   "cto:detects": {
+    "@id": "ct:reporting-bias"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/scientific-reasoning/preregistration.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:hypothesis-testing"
+   },
+   "cto:supportedBy": [
+    {
+     "@id": "ct:kaplan-irvin-2015-nhlbi-null-results-study"
+    },
+    {
+     "@id": "ct:scheel-2021-registered-reports-positive-results-study"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s6"
+    }
+   ],
+   "rdfs:label": "Preregistration",
+   "skos:altLabel": [
+    "pre-analysis plan",
+    "pre-registration",
+    "prospective trial registration",
+    "study preregistration"
+   ],
+   "skos:broader": {
+    "@id": "ct:scientific-method"
+   },
+   "skos:definition": "The practice of recording a study's hypotheses, design, outcomes and analysis plan in a time-stamped, independent registry before the data are collected or examined, so that confirmatory tests can be told apart from exploratory findings and selective reporting becomes visible.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Preregistration",
+   "skos:related": [
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:open-science"
+    },
+    {
+     "@id": "ct:p-hacking"
+    },
+    {
+     "@id": "ct:power-analysis"
+    },
+    {
+     "@id": "ct:registered-reports"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ]
+  },
+  {
    "@id": "ct:primary-and-secondary-sources",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -32888,6 +32994,90 @@
    "dcterms:title": "Premortem debiasing and self-serving attributions (conference poster)",
    "schema:url": {
     "@id": "https://dlab.sauder.ubc.ca/sjdm/presentations/2021-Poster-Gandhi-Linnea-debiasing-premortem-selfserving~.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Proceedings of the National Academy of Sciences (Nosek, Ebersole, DeHaven & Mellor, 2018), doi:10.1073/pnas.1708274114; copy hosted by errorstatistics.com",
+   "dcterms:title": "The preregistration revolution",
+   "schema:url": {
+    "@id": "https://errorstatistics.com/wp-content/uploads/2017/07/nosek-et-al-preregistration-revolution.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "PLOS ONE 10(8), e0132382 (Kaplan & Irvin, 2015); DOAJ record",
+   "dcterms:title": "Likelihood of Null Effects of Large NHLBI Clinical Trials Has Increased over Time",
+   "schema:url": {
+    "@id": "https://doaj.org/article/3ca4f2975c8245e09e5311375dc03103"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Advances in Methods and Practices in Psychological Science 4(2) (Scheel, Schijen & Lakens, 2021), Association for Psychological Science",
+   "dcterms:title": "An Excess of Positive Results: Comparing the Standard Psychology Literature With Registered Reports",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/ampps/25152459211007467/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "U.S. National Library of Medicine, Lister Hill National Center for Biomedical Communications (Zarin, Bergeris, Ide & Tse, 2005)",
+   "dcterms:title": "ClinicalTrials.gov: A Report to the Board of Scientific Counselors (LHNCBC-TR-2005-003)",
+   "schema:url": {
+    "@id": "https://www.lhncbc.nlm.nih.gov/LHC-publications/PDF/tr2005003.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Trends in Cognitive Sciences (Szollosi, Kellen, Navarro, Shiffrin, van Rooij & Van Zandt, 2020), doi:10.1016/j.tics.2019.11.009; FORRT curated summary",
+   "dcterms:title": "Is Preregistration Worthwhile?",
+   "schema:url": {
+    "@id": "https://forrt.org/curated_resources/is-preregistration-worthwhile/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/preregistration/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Royal Society Open Science 8(10) (Claesen, Gomes, Tuerlinckx & Vanpaemel, 2021); DOAJ record",
+   "dcterms:title": "Comparing dream to reality: an assessment of adherence of the first generation of preregistered studies",
+   "schema:url": {
+    "@id": "https://doaj.org/article/4c3b51be665d4138b3f0af7c0d8ca92c"
    }
   },
   {

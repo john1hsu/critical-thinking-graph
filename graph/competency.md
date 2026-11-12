@@ -22,6 +22,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:outside-view` | 3 | Base-rate neglect, Representativeness heuristic, planning-fallacy |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
+| `ct:preregistration` | 3 | Hindsight bias, Publication bias, reporting-bias |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Undistributed middle, illicit-minor |
 | `ct:causal-diagrams` | 2 | Confounding, Selection bias |
@@ -45,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:bright-line-rule` | 1 | Slippery slope |
 | `ct:de-re-de-dicto-distinction` | 1 | Masked-man fallacy |
 | `ct:hypothesis-testing` | 1 | Confirmation bias |
-| `ct:key-assumptions-check` | 1 | Confirmation bias |
 
-…and 11 more.
+…and 12 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -96,7 +96,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:bounded-rationality` | mixed |  |
 | `ct:cognitive-bias` | mixed | `ct:gerd-gigerenzer` |
 
-…and 34 more.
+…and 36 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -127,6 +127,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:plain-language` | cto:Technique |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:precising-definition` | cto:Technique |
+| `ct:preregistration` | cto:Technique |
 | `ct:propositional-logic` | cto:Field |
 | `ct:publication-bias` | cto:Phenomenon |
 | `ct:random-sampling` | cto:Method |

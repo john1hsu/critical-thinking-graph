@@ -14131,6 +14131,122 @@
   ]
  },
  {
+  "id": "ct:preregistration",
+  "title": "Preregistration",
+  "aliases": [
+   "pre-registration",
+   "study preregistration",
+   "pre-analysis plan",
+   "prospective trial registration"
+  ],
+  "type": "Technique",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/scientific-reasoning/preregistration.md",
+  "created": "2026-11-12",
+  "summary": "The practice of recording a study's hypotheses, design, outcomes and analysis plan in a time-stamped, independent registry before the data are collected or examined, so that confirmatory tests can be told apart from exploratory findings and selective reporting becomes visible.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:power-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:p-hacking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:registered-reports"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:open-science"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:publication-bias",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:hindsight-bias",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:reporting-bias",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:randomized-controlled-trial",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:kaplan-irvin-2015-nhlbi-null-results-study",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:scheel-2021-registered-reports-positive-results-study",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:szollosi-2020-is-preregistration-worthwhile",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:claesen-2021-preregistration-adherence-study",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://errorstatistics.com/wp-content/uploads/2017/07/nosek-et-al-preregistration-revolution.pdf",
+   "https://doaj.org/article/3ca4f2975c8245e09e5311375dc03103",
+   "https://www.psychologicalscience.org/journals/ampps/25152459211007467/",
+   "https://www.lhncbc.nlm.nih.gov/LHC-publications/PDF/tr2005003.pdf",
+   "https://forrt.org/curated_resources/is-preregistration-worthwhile/",
+   "https://doaj.org/article/4c3b51be665d4138b3f0af7c0d8ca92c"
+  ]
+ },
+ {
   "id": "ct:primary-and-secondary-sources",
   "title": "Primary and secondary sources",
   "aliases": [
