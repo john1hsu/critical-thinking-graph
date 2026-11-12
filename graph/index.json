@@ -14679,6 +14679,102 @@
   ]
  },
  {
+  "id": "ct:publication-bias",
+  "title": "Publication bias",
+  "aliases": [
+   "file drawer problem",
+   "file-drawer effect",
+   "positive-results bias",
+   "non-publication bias"
+  ],
+  "type": "Phenomenon",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/scientific-reasoning/publication-bias.md",
+  "created": "2026-11-12",
+  "summary": "The distortion of a research literature that arises when whether a study is written up and published depends on the direction or strength of its results, so that significant, favourable findings are over-represented and null or unfavourable ones stay in the file drawer.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reporting-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:meta-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:suppressed-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:power-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conflict-of-interest"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:reporting-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:turner-2008-antidepressant-selective-publication-study",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:franco-2014-tess-file-drawer-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:schmucker-2014-non-publication-cohort-review",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://catalogofbias.org/biases/publication-bias/",
+   "https://www.Gwern.net/doc/statistics/bias/publication/1959-sterling.pdf",
+   "https://Www.Gwern.net/doc/statistics/bias/publication/2014-franco.pdf",
+   "https://read.qxmd.com/read/18199864/selective-publication-of-antidepressant-trials-and-its-influence-on-apparent-efficacy",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4275183/",
+   "https://web.ma.utexas.edu/users/mks/statmistakes/filedrawer.html"
+  ]
+ },
+ {
   "id": "ct:quantifier-shift-fallacy",
   "title": "Quantifier shift fallacy",
   "aliases": [

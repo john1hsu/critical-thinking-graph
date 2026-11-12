@@ -34,7 +34,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
 | `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
-| `ct:systematic-review` | 2 | Suppressed evidence, publication-bias |
+| `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
 | `ct:analysis-of-competing-hypotheses` | 1 | Confirmation bias |
@@ -126,6 +126,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:precising-definition` | cto:Technique |
 | `ct:propositional-logic` | cto:Field |
+| `ct:publication-bias` | cto:Phenomenon |
 | `ct:random-sampling` | cto:Method |
 | `ct:reasoning` | cto:Concept |
 | `ct:replication-crisis` | cto:Phenomenon |

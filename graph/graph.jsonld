@@ -13807,6 +13807,99 @@
    ]
   },
   {
+   "@id": "ct:publication-bias",
+   "@type": "cto:Phenomenon",
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:franco-2014-tess-file-drawer-study"
+    },
+    {
+     "@id": "ct:turner-2008-antidepressant-selective-publication-study"
+    }
+   ],
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/scientific-reasoning/publication-bias.md",
+   "cto:instanceOf": {
+    "@id": "ct:reporting-bias"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:null-hypothesis-significance-testing"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:schmucker-2014-non-publication-cohort-review"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s6"
+    }
+   ],
+   "rdfs:label": "Publication bias",
+   "skos:altLabel": [
+    "file drawer problem",
+    "file-drawer effect",
+    "non-publication bias",
+    "positive-results bias"
+   ],
+   "skos:broader": {
+    "@id": "ct:reporting-bias"
+   },
+   "skos:definition": "The distortion of a research literature that arises when whether a study is written up and published depends on the direction or strength of its results, so that significant, favourable findings are over-represented and null or unfavourable ones stay in the file drawer.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Publication bias",
+   "skos:related": [
+    {
+     "@id": "ct:conflict-of-interest"
+    },
+    {
+     "@id": "ct:meta-analysis"
+    },
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:power-analysis"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:selection-bias"
+    },
+    {
+     "@id": "ct:suppressed-evidence"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ]
+  },
+  {
    "@id": "ct:quantifier-shift-fallacy",
    "@type": "cto:FormalFallacy",
    "cto:domain": "formal-fallacies",
@@ -32997,6 +33090,90 @@
    "dcterms:title": "The Loss of Loss Aversion: Will It Loom Larger Than Its Gain?",
    "schema:url": {
     "@id": "https://papers.ssrn.com/abstract=3049660"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Catalogue of Bias, Centre for Evidence-Based Medicine, University of Oxford (DeVito & Goldacre, 2019)",
+   "dcterms:title": "Publication bias",
+   "schema:url": {
+    "@id": "https://catalogofbias.org/biases/publication-bias/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Journal of the American Statistical Association 54(285), 30-34 (Sterling, 1959); scanned copy hosted by gwern.net",
+   "dcterms:title": "Publication Decisions and Their Possible Effects on Inferences Drawn from Tests of Significance - or Vice Versa",
+   "schema:url": {
+    "@id": "https://www.Gwern.net/doc/statistics/bias/publication/1959-sterling.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Science 345(6203), 1502-1505 (Franco, Malhotra & Simonovits, 2014); author copy hosted by gwern.net",
+   "dcterms:title": "Publication bias in the social sciences: Unlocking the file drawer",
+   "schema:url": {
+    "@id": "https://Www.Gwern.net/doc/statistics/bias/publication/2014-franco.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "New England Journal of Medicine 358(3), 252-260 (Turner, Matthews, Linardatos, Tell & Rosenthal, 2008); abstract via QxMD Read",
+   "dcterms:title": "Selective Publication of Antidepressant Trials and Its Influence on Apparent Efficacy",
+   "schema:url": {
+    "@id": "https://read.qxmd.com/read/18199864/selective-publication-of-antidepressant-trials-and-its-influence-on-apparent-efficacy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "PLOS ONE 9(12), e114023 (Schmucker, Schell, Portalupi et al., OPEN consortium, 2014)",
+   "dcterms:title": "Extent of Non-Publication in Cohorts of Studies Approved by Research Ethics Committees or Included in Trial Registries",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4275183/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-12"
+   },
+   "dcterms:publisher": "Common Mistakes in Using Statistics, Department of Mathematics, University of Texas at Austin",
+   "dcterms:title": "The File Drawer Problem (Publication Bias)",
+   "schema:url": {
+    "@id": "https://web.ma.utexas.edu/users/mks/statmistakes/filedrawer.html"
    }
   },
   {
