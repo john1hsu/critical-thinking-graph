@@ -18383,6 +18383,96 @@
   ]
  },
  {
+  "id": "ct:source-monitoring-framework",
+  "title": "Source-monitoring framework",
+  "aliases": [
+   "source monitoring",
+   "SMF",
+   "source attribution in memory"
+  ],
+  "type": "Framework",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/debiasing-and-metacognition/source-monitoring-framework.md",
+  "created": "2026-11-12",
+  "summary": "A model from memory research of how people decide where a thought, memory or feeling of familiarity came from (something seen, something read, something imagined). Because those decisions are inferences, they can fail, and deliberately checking the source of familiarity is a practical guard against mistaking \"I've heard of it\" for \"it is true, famous or important\".",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:recognition-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:processing-fluency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illusory-truth-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:nelson-narens-metamemory-framework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:marcia-k-johnson",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:recognition-heuristic",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:false-fame-effect",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:misinformation-effect",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:jacoby-1989-becoming-famous-overnight",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859897",
+   "https://www.uni-muenster.de:443/imperia/md/content/psyifp/aeechterhoff/wintersemester2011-12/seminarsozialekognitionundattribution/jacoby_famous-overnight_1989.pdf",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00147/full",
+   "https://link.springer.com/article/10.3758/BF03206381",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4776340"
+  ]
+ },
+ {
   "id": "ct:square-of-opposition",
   "title": "Square of opposition",
   "aliases": [

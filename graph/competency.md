@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:recognition-heuristic` | cto:Heuristic |
+_No results._
 
 ## Most useful remedies
 
@@ -23,6 +21,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
 | `ct:preregistration` | 3 | Hindsight bias, Publication bias, reporting-bias |
+| `ct:source-monitoring-framework` | 3 | Recognition heuristic, false-fame-effect, misinformation-effect |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Illicit minor, Undistributed middle |
 | `ct:causal-diagrams` | 2 | Confounding, Selection bias |
@@ -45,9 +44,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:argument-mapping` | 1 | Begging the question |
 | `ct:bright-line-rule` | 1 | Slippery slope |
 | `ct:de-re-de-dicto-distinction` | 1 | Masked-man fallacy |
-| `ct:hypothesis-testing` | 1 | Confirmation bias |
 
-…and 14 more.
+…and 15 more.
 
 ## Heuristic -> bias -> remedy chains
 
