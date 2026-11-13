@@ -8447,6 +8447,87 @@
    ]
   },
   {
+   "@id": "ct:heuristic",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": {
+    "@id": "ct:algorithm"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:bounded-rationality"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/heuristic.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:george-polya"
+    },
+    {
+     "@id": "ct:herbert-simon"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s4"
+    }
+   ],
+   "rdfs:label": "Heuristic",
+   "skos:altLabel": [
+    "cognitive heuristic",
+    "judgmental heuristic",
+    "mental shortcut",
+    "rule of thumb"
+   ],
+   "skos:broader": {
+    "@id": "ct:reasoning"
+   },
+   "skos:definition": "A simple strategy for judging or choosing that deliberately or automatically ignores part of the available information, cutting the effort a task demands. Heuristics are usually good enough, can produce systematic errors, and in uncertain environments can even beat more complex methods.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Heuristic",
+   "skos:related": [
+    {
+     "@id": "ct:attribute-substitution"
+    },
+    {
+     "@id": "ct:cognitive-bias"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:ecological-rationality"
+    },
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:take-the-best"
+    }
+   ]
+  },
+  {
    "@id": "ct:heuristics-and-biases-program",
    "@type": "cto:Framework",
    "cto:challengedBy": {
@@ -30918,6 +30999,62 @@
    "dcterms:title": "When poignant stories outweigh cold hard facts: A meta-analysis of the anecdotal bias",
    "schema:url": {
     "@id": "https://econpapers.repec.org/RePEc:eee:jobhdp:v:160:y:2020:i:c:p:51-67"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Science 185(4157), 1124-1131 (Tversky & Kahneman, 1974), course copy at NC State University",
+   "dcterms:title": "Judgment under Uncertainty: Heuristics and Biases",
+   "schema:url": {
+    "@id": "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Tversky+Kahneman-heuristics-biases-1974.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Psychological Bulletin 134(2), 207-222 (Shah & Oppenheimer, 2008), Princeton University research portal",
+   "dcterms:title": "Heuristics Made Easy: An Effort-Reduction Framework",
+   "schema:url": {
+    "@id": "https://collaborate.princeton.edu/en/publications/heuristics-made-easy-an-effort-reduction-framework/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Annual Review of Psychology 62, 451-482 (Gigerenzer & Gaissmaier, 2011), KOPS repository, University of Konstanz",
+   "dcterms:title": "Heuristic Decision Making",
+   "schema:url": {
+    "@id": "https://kops.uni-konstanz.de/entities/publication/641996fe-73e8-4d82-b940-1e49598102ac"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Topics in Cognitive Science 1, 107-143 (Gigerenzer & Brighton, 2009), course copy at UC Irvine",
+   "dcterms:title": "Homo Heuristicus: Why Biased Minds Make Better Inferences",
+   "schema:url": {
+    "@id": "https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf"
    }
   },
   {

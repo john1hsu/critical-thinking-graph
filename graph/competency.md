@@ -96,7 +96,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:attribute-substitution` | mixed | `ct:effort-reduction-framework` |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 
-…and 42 more.
+…and 43 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -120,6 +120,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
+| `ct:heuristic` | cto:Concept |
 | `ct:hierarchy-of-evidence` | cto:Framework |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
@@ -139,9 +140,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:replication-crisis` | cto:Phenomenon |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
-| `ct:selection-bias` | cto:Phenomenon |
 
-…and 5 more.
+…and 6 more.
 
 ## Orphan articles (gap)
 

@@ -9037,6 +9037,94 @@
   ]
  },
  {
+  "id": "ct:heuristic",
+  "title": "Heuristic",
+  "aliases": [
+   "mental shortcut",
+   "rule of thumb",
+   "judgmental heuristic",
+   "cognitive heuristic"
+  ],
+  "type": "Concept",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/heuristic.md",
+  "created": "2026-11-13",
+  "summary": "A simple strategy for judging or choosing that deliberately or automatically ignores part of the available information, cutting the effort a task demands. Heuristics are usually good enough, can produce systematic errors, and in uncertain environments can even beat more complex methods.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ecological-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:attribute-substitution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:take-the-best"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:bounded-rationality",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:herbert-simon",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:george-polya",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:algorithm",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Tversky+Kahneman-heuristics-biases-1974.pdf",
+   "https://collaborate.princeton.edu/en/publications/heuristics-made-easy-an-effort-reduction-framework/",
+   "https://kops.uni-konstanz.de/entities/publication/641996fe-73e8-4d82-b940-1e49598102ac",
+   "https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf"
+  ]
+ },
+ {
   "id": "ct:heuristics-and-biases-program",
   "title": "Heuristics and biases program",
   "aliases": [

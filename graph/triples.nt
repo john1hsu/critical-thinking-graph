@@ -4003,6 +4003,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2000/01/rdf-schema#label> "Heuristic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#altLabel> "cognitive heuristic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#altLabel> "judgmental heuristic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#altLabel> "mental shortcut" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#altLabel> "rule of thumb" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#definition> "A simple strategy for judging or choosing that deliberately or automatically ignores part of the available information, cutting the effort a task demands. Heuristics are usually good enough, can produce systematic errors, and in uncertain environments can even beat more complex methods." .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heuristic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/algorithm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "heuristics-and-dual-process" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/heuristics-and-dual-process/heuristic.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/george-polya> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/2000/01/rdf-schema#label> "Heuristics and biases program" .
@@ -10941,6 +10972,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s5> <https://schema.org/url> <https://econpapers.repec.org/RePEc:eee:jobhdp:v:160:y:2020:i:c:p:51-67> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s1> <http://purl.org/dc/terms/publisher> "Science 185(4157), 1124-1131 (Tversky & Kahneman, 1974), course copy at NC State University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s1> <http://purl.org/dc/terms/title> "Judgment under Uncertainty: Heuristics and Biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s1> <https://schema.org/url> <https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Tversky+Kahneman-heuristics-biases-1974.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s2> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 134(2), 207-222 (Shah & Oppenheimer, 2008), Princeton University research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s2> <http://purl.org/dc/terms/title> "Heuristics Made Easy: An Effort-Reduction Framework" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s2> <https://schema.org/url> <https://collaborate.princeton.edu/en/publications/heuristics-made-easy-an-effort-reduction-framework/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s3> <http://purl.org/dc/terms/publisher> "Annual Review of Psychology 62, 451-482 (Gigerenzer & Gaissmaier, 2011), KOPS repository, University of Konstanz" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s3> <http://purl.org/dc/terms/title> "Heuristic Decision Making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s3> <https://schema.org/url> <https://kops.uni-konstanz.de/entities/publication/641996fe-73e8-4d82-b940-1e49598102ac> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s4> <http://purl.org/dc/terms/publisher> "Topics in Cognitive Science 1, 107-143 (Gigerenzer & Brighton, 2009), course copy at UC Irvine" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s4> <http://purl.org/dc/terms/title> "Homo Heuristicus: Why Biased Minds Make Better Inferences" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/heuristic/s4> <https://schema.org/url> <https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s1> <http://purl.org/dc/terms/publisher> "Psychological Review 103(3), 582-591 (Kahneman & Tversky, 1996), copy hosted on an NC State course page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s1> <http://purl.org/dc/terms/title> "On the reality of cognitive illusions" .
