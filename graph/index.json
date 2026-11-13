@@ -13821,6 +13821,90 @@
   ]
  },
  {
+  "id": "ct:periodic-health-examination-report",
+  "title": "The Periodic Health Examination (1979 report)",
+  "aliases": [
+   "Canadian Task Force report (1979)",
+   "The periodic health examination",
+   "Canadian Task Force on the Periodic Health Examination report"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/periodic-health-examination-report.md",
+  "created": "2026-11-13",
+  "summary": "The 1979 report of the Canadian Task Force on the Periodic Health Examination, published in the Canadian Medical Association Journal, which judged preventive check-up practices by ranking the study designs behind them into levels of evidence and grading recommendations from A to E; it is generally credited as the origin of the levels-of-evidence hierarchy.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:hierarchy-of-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:grade-approach"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:evidence-based-medicine"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:iain-chalmers"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:hierarchy-of-evidence",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:us-preventive-services-task-force",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:david-sackett",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:harris-2001-uspstf-methods-review",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3124652",
+   "https://www.encyclopedia.com/education/encyclopedias-almanacs-transcripts-and-maps/canadian-task-force-preventive-health-care",
+   "https://cmaj.ca/content/cmaj/169/11/1137.full.pdf",
+   "https://uspreventiveservicestaskforce.org/uspstf/sites/default/files/inline-files/Harris2001.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4186301",
+   "https://canadiantaskforce.ca/other-guidelines-1979-2006/the-periodic-health-examination-1979/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3263997"
+  ]
+ },
+ {
   "id": "ct:peter-geach",
   "title": "Peter Geach",
   "aliases": [
