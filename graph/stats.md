@@ -1,10 +1,10 @@
 # Graph statistics
 
-- Articles (nodes written): **245**
-- Frontier nodes (referenced, unwritten): **648**
-- Asserted edges: **3285** (typed + evidenced: **1227**)
-- Asserted triples: **16647**; inferred by OWL-RL: **4884**
-- Citations: **1225**
+- Articles (nodes written): **246**
+- Frontier nodes (referenced, unwritten): **647**
+- Asserted edges: **3300** (typed + evidenced: **1233**)
+- Asserted triples: **16710**; inferred by OWL-RL: **4891**
+- Citations: **1230**
 - Critical questions: **139**; argument maps: **45**
 - Weakly connected components: **1**
 - Communities (Louvain): **9**; max k-core: **9**
@@ -15,21 +15,21 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `ct:validity` | 0.0094 | 0.0372 | yes |
+| `ct:validity` | 0.0094 | 0.0371 | yes |
 | `ct:deductive-reasoning` | 0.0086 | 0.0392 | yes |
-| `ct:argument` | 0.0080 | 0.0789 | yes |
-| `ct:aristotle` | 0.0075 | 0.0291 | yes |
-| `ct:judgment-and-decision-making` | 0.0063 | 0.1178 | yes |
+| `ct:argument` | 0.0080 | 0.0786 | yes |
+| `ct:aristotle` | 0.0075 | 0.0290 | yes |
+| `ct:judgment-and-decision-making` | 0.0064 | 0.1154 | yes |
 | `ct:method-of-counterexample` | 0.0061 | 0.0323 | yes |
-| `ct:cognitive-psychology` | 0.0052 | 0.0901 | yes |
-| `ct:modus-ponens` | 0.0049 | 0.0104 | yes |
-| `ct:heuristics-and-biases-program` | 0.0048 | 0.0159 | yes |
-| `ct:affirming-the-consequent` | 0.0047 | 0.0041 | yes |
-| `ct:inductive-reasoning` | 0.0047 | 0.0381 | yes |
-| `ct:argumentation-theory` | 0.0046 | 0.0127 | yes |
-| `ct:syllogism` | 0.0045 | 0.0210 | yes |
-| `ct:informal-fallacy` | 0.0043 | 0.0570 | yes |
-| `ct:debiasing` | 0.0037 | 0.0614 | yes |
+| `ct:cognitive-psychology` | 0.0053 | 0.0923 | yes |
+| `ct:heuristics-and-biases-program` | 0.0050 | 0.0155 | yes |
+| `ct:modus-ponens` | 0.0049 | 0.0105 | yes |
+| `ct:affirming-the-consequent` | 0.0046 | 0.0041 | yes |
+| `ct:inductive-reasoning` | 0.0046 | 0.0381 | yes |
+| `ct:argumentation-theory` | 0.0046 | 0.0129 | yes |
+| `ct:syllogism` | 0.0045 | 0.0211 | yes |
+| `ct:informal-fallacy` | 0.0043 | 0.0567 | yes |
+| `ct:daniel-kahneman` | 0.0038 | 0.0126 | yes |
 
 ## Communities
 
@@ -55,7 +55,7 @@ PageRank = authority; betweenness = bridges between areas.
 - Heuristic: 5
 - InformalFallacy: 13
 - Method: 12
-- Person: 40
+- Person: 41
 - Phenomenon: 9
 - Principle: 6
 - ProbabilisticFallacy: 4
@@ -75,7 +75,7 @@ PageRank = authority; betweenness = bridges between areas.
 - formal-logic: 23
 - foundations: 13
 - heuristics-and-dual-process: 14
-- history-and-thinkers: 53
+- history-and-thinkers: 54
 - informal-fallacies: 13
 - philosophy-of-reasoning: 13
 - probabilistic-reasoning: 13
@@ -84,12 +84,12 @@ PageRank = authority; betweenness = bridges between areas.
 ## By level
 
 - intermediate: 96
-- introductory: 149
+- introductory: 150
 
 ## By evidence status
 
 - contested: 16
-- historical: 61
+- historical: 62
 - mixed: 46
 - normative: 105
 - robust: 17
@@ -109,4 +109,4 @@ PageRank = authority; betweenness = bridges between areas.
 - argumentation: 16
 - scientific-reasoning: 18
 - formal-logic: 23
-- history-and-thinkers: 53
+- history-and-thinkers: 54

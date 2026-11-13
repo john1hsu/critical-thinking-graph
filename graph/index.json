@@ -9240,6 +9240,104 @@
   ]
  },
  {
+  "id": "ct:herbert-simon",
+  "title": "Herbert Simon",
+  "aliases": [
+   "Herbert A. Simon",
+   "Herbert Alexander Simon",
+   "H. A. Simon"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/herbert-simon.md",
+  "created": "2026-11-13",
+  "summary": "American social and cognitive scientist (1916-2001) at Carnegie Mellon who proposed bounded rationality and satisficing and, with Allen Newell and J. C. Shaw, made heuristic search the core of an information-processing theory of human problem solving; 1978 Nobel laureate in economics.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:satisficing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ecological-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gerd-gigerenzer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behavioral-economics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:artificial-intelligence"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:heuristic",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:kurt-lewin",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:expected-utility-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:ecological-rationality",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:heuristics-and-biases-program",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.nobelprize.org/prizes/economic-sciences/1978/simon/biographical/",
+   "https://www.nobelprize.org/uploads/2018/06/simon-lecture.pdf",
+   "https://cse.buffalo.edu/~rapaport/Papers/Papers.by.Others/newell-etal58-EltsThHProbSlvg-PsyRev.pdf",
+   "https://pure.mpg.de/pubman/item/item_3189752_10/component/file_3597261/s039900_9780262366175.pdf",
+   "https://history.computer.org/pioneers/simon.html"
+  ]
+ },
+ {
   "id": "ct:heuristic",
   "title": "Heuristic",
   "aliases": [

@@ -117,7 +117,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
-| `ct:heuristic` | cto:Concept |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
 | `ct:legal-reasoning` | cto:Field |
@@ -138,8 +137,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
 | `ct:selection-bias` | cto:Phenomenon |
+| `ct:slippery-slope` | cto:InformalFallacy |
 
-…and 6 more.
+…and 5 more.
 
 ## Orphan articles (gap)
 

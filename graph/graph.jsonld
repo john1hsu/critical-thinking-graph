@@ -8627,6 +8627,95 @@
    ]
   },
   {
+   "@id": "ct:herbert-simon",
+   "@type": "cto:Person",
+   "cto:contrastsWith": {
+    "@id": "ct:expected-utility-theory"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/herbert-simon.md",
+   "cto:influenced": [
+    {
+     "@id": "ct:ecological-rationality"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    }
+   ],
+   "cto:influencedBy": {
+    "@id": "ct:kurt-lewin"
+   },
+   "cto:introduced": {
+    "@id": "ct:heuristic"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s5"
+    }
+   ],
+   "rdfs:label": "Herbert Simon",
+   "skos:altLabel": [
+    "H. A. Simon",
+    "Herbert A. Simon",
+    "Herbert Alexander Simon"
+   ],
+   "skos:definition": "American social and cognitive scientist (1916-2001) at Carnegie Mellon who proposed bounded rationality and satisficing and, with Allen Newell and J. C. Shaw, made heuristic search the core of an information-processing theory of human problem solving; 1978 Nobel laureate in economics.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Herbert Simon",
+   "skos:related": [
+    {
+     "@id": "ct:artificial-intelligence"
+    },
+    {
+     "@id": "ct:behavioral-economics"
+    },
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:ecological-rationality"
+    },
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:heuristic"
+    },
+    {
+     "@id": "ct:satisficing"
+    }
+   ]
+  },
+  {
    "@id": "ct:heuristic",
    "@type": "cto:Concept",
    "cto:contrastsWith": {
@@ -31852,6 +31941,76 @@
    "dcterms:title": "When poignant stories outweigh cold hard facts: A meta-analysis of the anecdotal bias",
    "schema:url": {
     "@id": "https://econpapers.repec.org/RePEc:eee:jobhdp:v:160:y:2020:i:c:p:51-67"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "The Nobel Prize (Nobel Prize Outreach), autobiographical sketch written for the 1978 award",
+   "dcterms:title": "Herbert Simon - Biographical",
+   "schema:url": {
+    "@id": "https://www.nobelprize.org/prizes/economic-sciences/1978/simon/biographical/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Herbert A. Simon; The Nobel Prize",
+   "dcterms:title": "Rational Decision-Making in Business Organizations (Nobel Memorial Lecture, 8 December 1978)",
+   "schema:url": {
+    "@id": "https://www.nobelprize.org/uploads/2018/06/simon-lecture.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Psychological Review 65(3), 151-166 (Newell, Shaw & Simon, 1958); copy hosted at University at Buffalo",
+   "dcterms:title": "Elements of a theory of human problem solving",
+   "schema:url": {
+    "@id": "https://cse.buffalo.edu/~rapaport/Papers/Papers.by.Others/newell-etal58-EltsThHProbSlvg-PsyRev.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Hertwig & Kozyreva, in Knauff & Spohn (eds.), The Handbook of Rationality, MIT Press (2021), ch. 8.5; MPG.PuRe open-access copy",
+   "dcterms:title": "Bounded Rationality: A Vision of Rational Choice in the Real World",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_3189752_10/component/file_3597261/s039900_9780262366175.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/herbert-simon/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "IEEE Computer Society, Computer Pioneers (J. A. N. Lee, 1995; updated)",
+   "dcterms:title": "Herbert A. Simon",
+   "schema:url": {
+    "@id": "https://history.computer.org/pioneers/simon.html"
    }
   },
   {
