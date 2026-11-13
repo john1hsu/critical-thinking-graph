@@ -18,7 +18,7 @@ requires: []
 relations:
   - {predicate: introduced, object: ct:hypothesis-testing, source: s1, confidence: medium}
   - {predicate: authored, object: ct:treatise-on-light, source: s2, confidence: high}
-  - {predicate: introduced, object: ct:mathematical-expectation, source: s4, confidence: high}
+  - {predicate: introduced, object: ct:expected-value, source: s4, confidence: high}
   - {predicate: studiedIn, object: ct:philosophy-of-science, source: s3, confidence: medium}
 sameAs: []
 sources:

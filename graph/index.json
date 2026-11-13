@@ -4057,7 +4057,7 @@
    },
    {
     "predicate": "cto:introduced",
-    "object": "ct:mathematical-expectation",
+    "object": "ct:expected-value",
     "source": "s4",
     "confidence": "high"
    },
@@ -8361,6 +8361,97 @@
    "https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk",
    "https://www2.um.edu.uy/marcaffera/marcelo/Papers/Ambiguity/Starmer%20-%20JEL%20-%202000.pdf",
    "https://ocw.mit.edu/courses/14-123-microeconomic-theory-iii-spring-2015/b2353bc4abf8a109fb75bba0064b331d_MIT14_123S15_expected1.pdf"
+  ]
+ },
+ {
+  "id": "ct:expected-value",
+  "title": "Expected value",
+  "aliases": [
+   "mathematical expectation",
+   "expectation",
+   "expected monetary value",
+   "EMV"
+  ],
+  "type": "Concept",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/expected-value.md",
+  "created": "2026-11-13",
+  "summary": "The probability-weighted average of the possible outcomes of an uncertain prospect, E[X] = sum of p(x) times x; it is the long-run average payoff per trial and the basic yardstick for comparing bets, investments and decisions under risk.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:decision-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:decision-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:abraham-de-moivre"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:christiaan-huygens",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:st-petersburg-paradox",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:expected-utility-theory",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:decision-analysis",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class04-prep-b.pdf",
+   "https://plato.stanford.edu/archives/spr2013/entries/paradox-stpetersburg/",
+   "https://encyclopediaofmath.org/wiki/Huygens,_Christiaan",
+   "https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk",
+   "https://www.kellogg.northwestern.edu/faculty/weber/DECS-430/Notes_3_Random_variables.pdf"
   ]
  },
  {

@@ -3766,10 +3766,10 @@
    "cto:file": "articles/history-and-thinkers/christiaan-huygens.md",
    "cto:introduced": [
     {
-     "@id": "ct:hypothesis-testing"
+     "@id": "ct:expected-value"
     },
     {
-     "@id": "ct:mathematical-expectation"
+     "@id": "ct:hypothesis-testing"
     }
    ],
    "cto:level": "intermediate",
@@ -7831,6 +7831,91 @@
     },
     {
      "@id": "ct:st-petersburg-paradox"
+    }
+   ]
+  },
+  {
+   "@id": "ct:expected-value",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:decision-analysis"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:st-petersburg-paradox"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:expected-utility-theory"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/probabilistic-reasoning/expected-value.md",
+   "cto:introducedBy": {
+    "@id": "ct:christiaan-huygens"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:probability-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s5"
+    }
+   ],
+   "rdfs:label": "Expected value",
+   "skos:altLabel": [
+    "EMV",
+    "expectation",
+    "expected monetary value",
+    "mathematical expectation"
+   ],
+   "skos:broader": {
+    "@id": "ct:probability-theory"
+   },
+   "skos:definition": "The probability-weighted average of the possible outcomes of an uncertain prospect, E[X] = sum of p(x) times x; it is the long-run average payoff per trial and the basic yardstick for comparing bets, investments and decisions under risk.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Expected value",
+   "skos:related": [
+    {
+     "@id": "ct:abraham-de-moivre"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:decision-analysis"
+    },
+    {
+     "@id": "ct:decision-theory"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:gamblers-fallacy"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    },
+    {
+     "@id": "ct:risk-aversion"
     }
    ]
   },
@@ -32142,6 +32227,76 @@
    "dcterms:title": "Expected Utility (lecture notes, 14.123 Microeconomic Theory III)",
    "schema:url": {
     "@id": "https://ocw.mit.edu/courses/14-123-microeconomic-theory-iii-spring-2015/b2353bc4abf8a109fb75bba0064b331d_MIT14_123S15_expected1.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "MIT OpenCourseWare (Orloff & Bloom, Spring 2022)",
+   "dcterms:title": "Discrete Random Variables: Expected Value (Class 4b), 18.05 Introduction to Probability and Statistics",
+   "schema:url": {
+    "@id": "https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class04-prep-b.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Martin, rev. 2008; Spring 2013 archive edition)",
+   "dcterms:title": "The St. Petersburg Paradox",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2013/entries/paradox-stpetersburg/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Encyclopedia of Mathematics (EMS/Springer; adapted from Schneider)",
+   "dcterms:title": "Huygens, Christiaan",
+   "schema:url": {
+    "@id": "https://encyclopediaofmath.org/wiki/Huygens,_Christiaan"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Econometrica 47(2), 263-292 (Kahneman & Tversky, 1979), Econometric Society",
+   "dcterms:title": "Prospect Theory: An Analysis of Decision under Risk",
+   "schema:url": {
+    "@id": "https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Kellogg School of Management, Northwestern University",
+   "dcterms:title": "Notes 3: Random variables (DECS-430 course notes)",
+   "schema:url": {
+    "@id": "https://www.kellogg.northwestern.edu/faculty/weber/DECS-430/Notes_3_Random_variables.pdf"
    }
   },
   {
