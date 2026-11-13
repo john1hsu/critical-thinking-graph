@@ -4313,6 +4313,110 @@
   ]
  },
  {
+  "id": "ct:cognitive-reflection-test",
+  "title": "Cognitive reflection test",
+  "aliases": [
+   "CRT",
+   "Frederick's cognitive reflection test",
+   "bat-and-ball test"
+  ],
+  "type": "Method",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/cognitive-reflection-test.md",
+  "created": "2026-11-13",
+  "summary": "A short performance test, introduced by Shane Frederick in 2005, made of arithmetic brainteasers whose first, intuitive answer is wrong; the score is taken as a measure of the tendency to check and override that answer with deliberate reasoning.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deliberate-reflection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:attribute-substitution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affect-heuristic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:shane-frederick",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:cognitive-reflection-and-decision-making",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:dual-process-theory",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:toplak-west-stanovich-2011-crt-heuristics-and-biases-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:attali-bar-hillel-2020-false-allure-of-fast-lures",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:numeracy",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://econpapers.repec.org/RePEc:aea:jecper:v:19:y:2005:i:4:p:25-42",
+   "https://paperity.org/p/17559008/the-cognitive-reflection-test-as-a-predictor-of-performance-on-heuristics-and-biases",
+   "https://link.springer.com/content/pdf/10.3758/s13428-017-0963-x.pdf",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/19/191217/jdm191217.html",
+   "https://dlab.sauder.ubc.ca/sjdm/dmidi/Cognitive%20Reflection%20Test.html"
+  ]
+ },
+ {
   "id": "ct:conditional-probability",
   "title": "Conditional probability",
   "aliases": [

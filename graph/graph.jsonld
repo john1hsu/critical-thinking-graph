@@ -4064,6 +4064,96 @@
    ]
   },
   {
+   "@id": "ct:cognitive-reflection-test",
+   "@type": "cto:Method",
+   "cto:challengedBy": {
+    "@id": "ct:attali-bar-hillel-2020-false-allure-of-fast-lures"
+   },
+   "cto:confusedWith": {
+    "@id": "ct:numeracy"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:dual-process-theory"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/cognitive-reflection-test.md",
+   "cto:introducedBy": {
+    "@id": "ct:shane-frederick"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:cognitive-reflection-and-decision-making"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:dual-process-theory"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:toplak-west-stanovich-2011-crt-heuristics-and-biases-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s5"
+    }
+   ],
+   "rdfs:label": "Cognitive reflection test",
+   "skos:altLabel": [
+    "CRT",
+    "Frederick's cognitive reflection test",
+    "bat-and-ball test"
+   ],
+   "skos:broader": {
+    "@id": "ct:dual-process-theory"
+   },
+   "skos:definition": "A short performance test, introduced by Shane Frederick in 2005, made of arithmetic brainteasers whose first, intuitive answer is wrong; the score is taken as a measure of the tendency to check and override that answer with deliberate reasoning.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Cognitive reflection test",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:affect-heuristic"
+    },
+    {
+     "@id": "ct:attribute-substitution"
+    },
+    {
+     "@id": "ct:deliberate-reflection"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:numeracy"
+    }
+   ]
+  },
+  {
    "@id": "ct:conditional-probability",
    "@type": "cto:Concept",
    "cto:challengedBy": {
@@ -27540,6 +27630,76 @@
    "dcterms:title": "Cognitive psychology",
    "schema:url": {
     "@id": "https://www.britannica.com/science/cognitive-psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Journal of Economic Perspectives 19(4), 25-42 (Frederick, 2005), RePEc/EconPapers record",
+   "dcterms:title": "Cognitive Reflection and Decision Making",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:aea:jecper:v:19:y:2005:i:4:p:25-42"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Memory & Cognition 39(7), 1275ff. (Toplak, West & Stanovich, 2011)",
+   "dcterms:title": "The Cognitive Reflection Test as a predictor of performance on heuristics-and-biases tasks",
+   "schema:url": {
+    "@id": "https://paperity.org/p/17559008/the-cognitive-reflection-test-as-a-predictor-of-performance-on-heuristics-and-biases"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Behavior Research Methods 50, 1953-1959 (Białek & Pennycook, 2018)",
+   "dcterms:title": "The cognitive reflection test is robust to multiple exposures",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.3758/s13428-017-0963-x.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 15(1), 93-111 (Attali & Bar-Hillel, 2020)",
+   "dcterms:title": "The false allure of fast lures",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/19/191217/jdm191217.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cognitive-reflection-test/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Decision Making Individual Differences Inventory (DMIDI), University of British Columbia Sauder School of Business",
+   "dcterms:title": "Cognitive Reflection Test (CRT)",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/dmidi/Cognitive%20Reflection%20Test.html"
    }
   },
   {

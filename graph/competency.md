@@ -94,7 +94,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:attribute-substitution` | mixed | `ct:effort-reduction-framework` |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 
-…and 43 more.
+…and 44 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
