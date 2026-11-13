@@ -20526,6 +20526,74 @@
    ]
   },
   {
+   "@id": "ct:zeno-of-elea",
+   "@type": "cto:Person",
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/zeno-of-elea.md",
+   "cto:influenced": {
+    "@id": "ct:aristotle"
+   },
+   "cto:influencedBy": {
+    "@id": "ct:parmenides"
+   },
+   "cto:introduced": {
+    "@id": "ct:dialectic"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s4"
+    }
+   ],
+   "rdfs:label": "Zeno of Elea",
+   "skos:altLabel": "Zeno the Eleatic",
+   "skos:definition": "Greek philosopher from Elea in southern Italy (born c. 490 BCE), a younger associate of Parmenides, known for paradoxes of plurality and motion such as Achilles and the tortoise; he argued by deriving absurd consequences from an opponent's own assumptions, and Aristotle reportedly called him the inventor of dialectic.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Zeno of Elea",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:dialectic"
+    },
+    {
+     "@id": "ct:paradox"
+    },
+    {
+     "@id": "ct:parmenides"
+    },
+    {
+     "@id": "ct:plato"
+    },
+    {
+     "@id": "ct:reductio-ad-absurdum"
+    },
+    {
+     "@id": "ct:socratic-method"
+    },
+    {
+     "@id": "ct:sorites-paradox"
+    }
+   ]
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -41153,6 +41221,62 @@
    "dcterms:title": "William Whewell",
    "schema:url": {
     "@id": "https://www.britannica.com/biography/William-Whewell"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (John Palmer, 2008; revised 2025)",
+   "dcterms:title": "Zeno of Elea",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/zeno-elea/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Nick Huggett, 2002; revised 2024)",
+   "dcterms:title": "Zeno's Paradoxes",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/paradox-zeno/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Bradley Dowden, California State University, Sacramento)",
+   "dcterms:title": "Zeno's Paradoxes",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/?p=33599"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Zeno of Elea",
+   "schema:url": {
+    "@id": "https://britannica.com/print/article/656531"
    }
   },
   {

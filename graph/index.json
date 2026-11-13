@@ -21815,5 +21815,78 @@
    "https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/whewells-consilience-of-inductionsan-evaluation/D984B0C4D394A9CA2BF99A19E852AA5C",
    "https://www.britannica.com/biography/William-Whewell"
   ]
+ },
+ {
+  "id": "ct:zeno-of-elea",
+  "title": "Zeno of Elea",
+  "aliases": [
+   "Zeno the Eleatic"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/zeno-of-elea.md",
+  "created": "2026-11-13",
+  "summary": "Greek philosopher from Elea in southern Italy (born c. 490 BCE), a younger associate of Parmenides, known for paradoxes of plurality and motion such as Achilles and the tortoise; he argued by deriving absurd consequences from an opponent's own assumptions, and Aristotle reportedly called him the inventor of dialectic.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:parmenides"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:plato"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reductio-ad-absurdum"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sorites-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:socratic-method"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:dialectic",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:parmenides",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influenced",
+    "object": "ct:aristotle",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/zeno-elea/",
+   "https://plato.stanford.edu/ENTRIES/paradox-zeno/",
+   "https://iep.utm.edu/?p=33599",
+   "https://britannica.com/print/article/656531"
+  ]
  }
 ]

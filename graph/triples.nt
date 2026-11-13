@@ -15310,6 +15310,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-whewell/s4> <https://schema.org/url> <https://www.britannica.com/biography/William-Whewell> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (John Palmer, 2008; revised 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s1> <http://purl.org/dc/terms/title> "Zeno of Elea" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/zeno-elea/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Nick Huggett, 2002; revised 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s2> <http://purl.org/dc/terms/title> "Zeno's Paradoxes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s2> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/paradox-zeno/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s3> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Bradley Dowden, California State University, Sacramento)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s3> <http://purl.org/dc/terms/title> "Zeno's Paradoxes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s3> <https://schema.org/url> <https://iep.utm.edu/?p=33599> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s4> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s4> <http://purl.org/dc/terms/title> "Zeno of Elea" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s4> <https://schema.org/url> <https://britannica.com/print/article/656531> .
 <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2000/01/rdf-schema#label> "Square of opposition" .
@@ -16354,3 +16378,29 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/consilience-of-inductions> .
 <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2000/01/rdf-schema#label> "Zeno of Elea" .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#altLabel> "Zeno the Eleatic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#definition> "Greek philosopher from Elea in southern Italy (born c. 490 BCE), a younger associate of Parmenides, known for paradoxes of plurality and motion such as Achilles and the tortoise; he argued by deriving absurd consequences from an opponent's own assumptions, and Aristotle reportedly called him the inventor of dialectic." .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zeno of Elea" .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/parmenides> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reductio-ad-absurdum> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/zeno-of-elea/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/zeno-of-elea.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/parmenides> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
