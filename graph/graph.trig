@@ -1627,6 +1627,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-fallacy/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-fallacy/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-fallacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/informal-fallacies/no-true-scotsman.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/informal-fallacies/post-hoc-ergo-propter-hoc.md" .
@@ -16338,6 +16345,106 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/informal-fallacy/s4> <https://schema.org/url> <https://orca.cardiff.ac.uk/id/eprint/3308/> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Was the restriction (\"true\", \"real\", \"genuine\") part of the claim before the counterexample appeared, or was it added only after?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is there an independent, agreed criterion for membership in the group, or is membership now defined by having the property in question?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Could any possible case count against the revised claim, or has it become true by definition?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "If the narrowed claim is now safe, what does it still tell us about the actual members of the group?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is the dispute really about how the term should be defined, and if so, has that been argued for openly?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So that colleague is not really an experienced engineer, and the original claim stands." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Experience was first measured by years on the team; it is now being measured by never skipping tests, which makes the claim true by definition." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "The counterexample should lead to revising the generalization (most experienced engineers run tests), not to reclassifying the colleague." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "No experienced engineer on our team would ever push code without running the tests." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "A colleague with ten years on the team and pushed untested code last week." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p3> <http://www.arg.dundee.ac.uk/aif#claimText> "A truly experienced engineer would never have done that." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/c> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2000/01/rdf-schema#label> "No true Scotsman" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#altLabel> "no true Scotsman ploy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#altLabel> "no-true-Scotsman fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#altLabel> "no-true-Scotsman move" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of rescuing a generalization from a counterexample by quietly narrowing the category, typically by adding \"true\", \"real\" or \"genuine\", so that the counterexample no longer counts as a member." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#prefLabel> "No true Scotsman" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stipulative-definition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/in-group-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/no-true-scotsman.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/antony-flew> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-about-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1> <http://purl.org/dc/terms/publisher> "Anderson, in Modeling and Using Context (CONTEXT 2017), LNAI 10257, Springer, pp. 243-253" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1> <http://purl.org/dc/terms/title> "Is Flew's No True Scotsman Fallacy a True Fallacy? A Contextual Analysis" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1> <https://schema.org/url> <https://link.springer.com/chapter/10.1007/978-3-319-57837-8_19> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2> <http://purl.org/dc/terms/publisher> "Palomar College philosophy course materials" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2> <http://purl.org/dc/terms/title> "No True Scotsman" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2> <https://schema.org/url> <https://www.palomar.edu/users/bthompson/No%20True%20Scotsman.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3> <http://purl.org/dc/terms/publisher> "Chapter in Arp, Barbone & Bruce (eds.), Bad Arguments, Wiley-Blackwell (2018), pp. 374-377; PhilArchive record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3> <http://purl.org/dc/terms/title> "No True Scotsman" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3> <https://schema.org/url> <https://dc2.philarchive.org/rec/MANNTS-2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> <http://purl.org/dc/terms/publisher> "The Fallacy Files (G. N. Curtis)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> <http://purl.org/dc/terms/title> "The No-True-Scotsman Fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> <https://schema.org/url> <https://fallacyfiles.org/scotsman.html> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Apart from the order of events, what independent evidence links the earlier event to the later one?" .
@@ -19830,8 +19937,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -20014,6 +20123,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/antoine-arnauld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/antoine-arnauld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/antoine-arnauld> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/antony-flew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/antony-flew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/antony-flew> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/appeal-to-consequences> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
   <https://github.com/john1hsu/critical-thinking-graph/id/archie-cochrane> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> .
   <https://github.com/john1hsu/critical-thinking-graph/id/archie-cochrane> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/iain-chalmers> .
@@ -20182,6 +20294,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> .
@@ -20458,6 +20571,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
@@ -21676,6 +21790,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fact-fiction-and-forecast> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
@@ -21717,6 +21832,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
@@ -21759,6 +21875,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
   <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
@@ -22021,6 +22138,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
@@ -22241,6 +22359,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/illusory-truth-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illusory-truth-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/imre-lakatos> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/in-group-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
@@ -22297,6 +22416,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
@@ -22310,6 +22430,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
@@ -23008,6 +23129,16 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/nick-bostrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nick-bostrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nick-bostrom> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/noam-chomsky> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nonmonotonic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
@@ -23341,6 +23472,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/definition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
@@ -24255,6 +24387,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/stipulative-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stipulative-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -24465,6 +24598,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/theory-of-descriptions> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/theory-of-games-and-economic-behavior> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/thinking-about-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/thinking-about-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/thinking-about-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .

@@ -13015,6 +13015,89 @@
    ]
   },
   {
+   "@id": "ct:no-true-scotsman",
+   "@type": "cto:InformalFallacy",
+   "cto:confusedWith": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:fallacy-of-accident"
+    }
+   ],
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:in-group-bias"
+   },
+   "cto:file": "articles/informal-fallacies/no-true-scotsman.md",
+   "cto:introducedBy": {
+    "@id": "ct:antony-flew"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:thinking-about-thinking"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4"
+    }
+   ],
+   "rdfs:label": "No true Scotsman",
+   "skos:altLabel": [
+    "no true Scotsman ploy",
+    "no-true-Scotsman fallacy",
+    "no-true-Scotsman move"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of rescuing a generalization from a counterexample by quietly narrowing the category, typically by adding \"true\", \"real\" or \"genuine\", so that the counterexample no longer counts as a member.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "No true Scotsman",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:stipulative-definition"
+    }
+   ]
+  },
+  {
    "@id": "ct:null-hypothesis-significance-testing",
    "@type": "cto:Method",
    "cto:challengedBy": {
@@ -24846,6 +24929,125 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:no-true-scotsman"
+   },
+   "rdfs:label": "Was the restriction (\"true\", \"real\", \"genuine\") part of the claim before the counterexample appeared, or was it added only after?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:no-true-scotsman"
+   },
+   "rdfs:label": "Is there an independent, agreed criterion for membership in the group, or is membership now defined by having the property in question?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:no-true-scotsman"
+   },
+   "rdfs:label": "Could any possible case count against the revised claim, or has it become true by definition?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:no-true-scotsman"
+   },
+   "rdfs:label": "If the narrowed claim is now safe, what does it still tell us about the actual members of the group?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:no-true-scotsman"
+   },
+   "rdfs:label": "Is the dispute really about how the term should be defined, and if so, has that been argued for openly?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:no-true-scotsman"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So that colleague is not really an experienced engineer, and the original claim stands."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Experience was first measured by years on the team; it is now being measured by never skipping tests, which makes the claim true by definition."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The counterexample should lead to revising the generalization (most experienced engineers run tests), not to reclassifying the colleague."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "No experienced engineer on our team would ever push code without running the tests."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "A colleague with ten years on the team and pushed untested code last week."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p3",
+   "@type": "aif:I-node",
+   "aif:claimText": "A truly experienced engineer would never have done that."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map/p3"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -35979,6 +36181,62 @@
    "dcterms:title": "Counterfactual 'only if' conditionals",
    "schema:url": {
     "@id": "https://repositories.cdlib.org/content/qt373511jh/qt373511jh.pdf?t=os5l2c"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Anderson, in Modeling and Using Context (CONTEXT 2017), LNAI 10257, Springer, pp. 243-253",
+   "dcterms:title": "Is Flew's No True Scotsman Fallacy a True Fallacy? A Contextual Analysis",
+   "schema:url": {
+    "@id": "https://link.springer.com/chapter/10.1007/978-3-319-57837-8_19"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Palomar College philosophy course materials",
+   "dcterms:title": "No True Scotsman",
+   "schema:url": {
+    "@id": "https://www.palomar.edu/users/bthompson/No%20True%20Scotsman.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Chapter in Arp, Barbone & Bruce (eds.), Bad Arguments, Wiley-Blackwell (2018), pp. 374-377; PhilArchive record",
+   "dcterms:title": "No True Scotsman",
+   "schema:url": {
+    "@id": "https://dc2.philarchive.org/rec/MANNTS-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "The Fallacy Files (G. N. Curtis)",
+   "dcterms:title": "The No-True-Scotsman Fallacy",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/scotsman.html"
    }
   },
   {

@@ -13903,6 +13903,99 @@
   ]
  },
  {
+  "id": "ct:no-true-scotsman",
+  "title": "No true Scotsman",
+  "aliases": [
+   "no-true-Scotsman move",
+   "no true Scotsman ploy",
+   "no-true-Scotsman fallacy"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/no-true-scotsman.md",
+  "created": "2026-11-13",
+  "summary": "The fallacy of rescuing a generalization from a counterexample by quietly narrowing the category, typically by adding \"true\", \"real\" or \"genuine\", so that the counterexample no longer counts as a member.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stipulative-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:antony-flew",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:thinking-about-thinking",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:fallacy-of-accident",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:in-group-bias",
+    "source": "s3",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:ad-hoc-hypothesis",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Was the restriction (\"true\", \"real\", \"genuine\") part of the claim before the counterexample appeared, or was it added only after?",
+   "Is there an independent, agreed criterion for membership in the group, or is membership now defined by having the property in question?",
+   "Could any possible case count against the revised claim, or has it become true by definition?",
+   "If the narrowed claim is now safe, what does it still tell us about the actual members of the group?",
+   "Is the dispute really about how the term should be defined, and if so, has that been argued for openly?"
+  ],
+  "source_urls": [
+   "https://link.springer.com/chapter/10.1007/978-3-319-57837-8_19",
+   "https://www.palomar.edu/users/bthompson/No%20True%20Scotsman.html",
+   "https://dc2.philarchive.org/rec/MANNTS-2",
+   "https://fallacyfiles.org/scotsman.html"
+  ]
+ },
+ {
   "id": "ct:null-hypothesis-significance-testing",
   "title": "Null-hypothesis significance testing",
   "aliases": [

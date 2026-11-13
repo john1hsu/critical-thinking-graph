@@ -407,6 +407,18 @@ flowchart TD
   o1["The form is valid, but the conditional premise may be false: the job could have succeeded while writing to a different folder or stamping the file in another time zone."] -. attacks .-> ra
 ```
 
+## No true Scotsman (`ct:no-true-scotsman`)
+
+```mermaid
+flowchart TD
+  p1["No experienced engineer on our team would ever push code without running the tests."] --> ra{{"fallacious"}}
+  p2["A colleague with ten years on the team and pushed untested code last week."] --> ra{{"fallacious"}}
+  p3["A truly experienced engineer would never have done that."] --> ra{{"fallacious"}}
+  ra --> c["So that colleague is not really an experienced engineer, and the original claim stands."]
+  o1["Experience was first measured by years on the team; it is now being measured by never skipping tests, which makes the claim true by definition."] -. attacks .-> ra
+  o2["The counterexample should lead to revising the generalization (most experienced engineers run tests), not to reclassifying the colleague."] -. attacks .-> ra
+```
+
 ## Post hoc ergo propter hoc (`ct:post-hoc-ergo-propter-hoc`)
 
 ```mermaid
