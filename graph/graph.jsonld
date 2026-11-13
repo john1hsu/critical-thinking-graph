@@ -5292,6 +5292,87 @@
    ]
   },
   {
+   "@id": "ct:de-morgans-laws",
+   "@type": "cto:Principle",
+   "cto:detects": {
+    "@id": "ct:denying-a-conjunct"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/de-morgans-laws.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:augustus-de-morgan"
+    },
+    {
+     "@id": "ct:william-of-ockham"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:truth-table"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:propositional-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s5"
+    }
+   ],
+   "rdfs:label": "De Morgan's laws",
+   "skos:altLabel": [
+    "De Morgan duality",
+    "De Morgan equivalences",
+    "De Morgan rules",
+    "De Morgan's rules"
+   ],
+   "skos:broader": {
+    "@id": "ct:propositional-logic"
+   },
+   "skos:definition": "The pair of logical equivalences stating that denying a conjunction is the same as asserting that at least one conjunct is false, and denying a disjunction is the same as asserting that every disjunct is false: not-(P and Q) equals not-P or not-Q, and not-(P or Q) equals not-P and not-Q.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "De Morgan's laws",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-a-disjunct"
+    },
+    {
+     "@id": "ct:conjunctive-syllogism"
+    },
+    {
+     "@id": "ct:disjunctive-syllogism"
+    },
+    {
+     "@id": "ct:formal-logic"
+    },
+    {
+     "@id": "ct:george-boole"
+    },
+    {
+     "@id": "ct:truth-table"
+    }
+   ]
+  },
+  {
    "@id": "ct:de-re-de-dicto-distinction",
    "@type": "cto:Technique",
    "cto:detects": {
@@ -29483,6 +29564,76 @@
    "dcterms:title": "'I am certain psychology will see many more train wrecks'",
    "schema:url": {
     "@id": "https://bps.org.uk/psychologist/i-am-certain-psychology-will-see-many-more-train-wrecks"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Propositional Logic",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/prop-log?no_redirect=true"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "P. D. Magnus, Tim Button, Robert Trueman and Richard Zach, Open Logic Project",
+   "dcterms:title": "forall x: Calgary. An Introduction to Formal Logic (Fall 2025 edition), ch. 19.5 and 21.6",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/forallxyyc.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Augustus De Morgan",
+   "schema:url": {
+    "@id": "https://britannica.com/biography/Augustus-De-Morgan"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Acta Psychologica 151, 1-7 (Khemlani, Orenes & Johnson-Laird, 2014), authors' copy",
+   "dcterms:title": "The negations of conjunctions, conditionals, and disjunctions",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/2014sentential-negation.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/de-morgans-laws/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Denying a Conjunct",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/denyconj.html"
    }
   },
   {

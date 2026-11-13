@@ -5644,6 +5644,89 @@
   ]
  },
  {
+  "id": "ct:de-morgans-laws",
+  "title": "De Morgan's laws",
+  "aliases": [
+   "De Morgan's rules",
+   "De Morgan rules",
+   "De Morgan equivalences",
+   "De Morgan duality"
+  ],
+  "type": "Principle",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/de-morgans-laws.md",
+  "created": "2026-11-13",
+  "summary": "The pair of logical equivalences stating that denying a conjunction is the same as asserting that at least one conjunct is false, and denying a disjunction is the same as asserting that every disjunct is false: not-(P and Q) equals not-P or not-Q, and not-(P or Q) equals not-P and not-Q.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:disjunctive-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-a-disjunct"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conjunctive-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:george-boole"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:denying-a-conjunct",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:propositional-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:augustus-de-morgan",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:william-of-ockham",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/prop-log?no_redirect=true",
+   "https://forallx.openlogicproject.org/forallxyyc.pdf",
+   "https://britannica.com/biography/Augustus-De-Morgan",
+   "https://modeltheory.org/papers/2014sentential-negation.pdf",
+   "https://fallacyfiles.org/denyconj.html"
+  ]
+ },
+ {
   "id": "ct:de-re-de-dicto-distinction",
   "title": "De re/de dicto distinction",
   "aliases": [
