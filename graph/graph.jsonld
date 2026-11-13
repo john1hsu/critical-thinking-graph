@@ -6963,6 +6963,91 @@
    ]
   },
   {
+   "@id": "ct:epidemiology",
+   "@type": "cto:Field",
+   "cto:contrastsWith": {
+    "@id": "ct:clinical-medicine"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/scientific-reasoning/epidemiology.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:austin-bradford-hill"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:john-snow"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:statistical-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s4"
+    }
+   ],
+   "rdfs:label": "Epidemiology",
+   "skos:altLabel": [
+    "epidemiological reasoning",
+    "population health science"
+   ],
+   "skos:broader": {
+    "@id": "ct:public-health"
+   },
+   "skos:definition": "The study of how health-related states and events are distributed in specified populations and what determines them, and the application of that study to controlling health problems; the basic science of public health and a training ground for reasoning about cause from observational data.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Epidemiology",
+   "skos:related": [
+    {
+     "@id": "ct:causal-inference"
+    },
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:evidence-based-medicine"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:necessary-and-sufficient-conditions"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    },
+    {
+     "@id": "ct:selection-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:epistemology",
    "@type": "cto:Field",
    "cto:appliedIn": {
@@ -30983,6 +31068,62 @@
    "dcterms:title": "Observe, Hypothesize, Test, Repeat: Luttrell, Petty and Xu (2017) Demonstrate Good Science",
    "schema:url": {
     "@id": "https://aquila.usm.edu/fac_pubs/15288"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Centers for Disease Control and Prevention (3rd ed., archived)",
+   "dcterms:title": "Principles of Epidemiology in Public Health Practice, Lesson 1: Introduction to Epidemiology, Section 1: Definition of Epidemiology",
+   "schema:url": {
+    "@id": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section1.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "American Journal of Public Health 88(10) (Paneth, Vinten-Johansen, Brody & Rip, 1998), UCLA Department of Epidemiology copy",
+   "dcterms:title": "A Rivalry of Foulness: Official and Unofficial Investigations of the London Cholera Epidemic of 1854",
+   "schema:url": {
+    "@id": "https://epi-snow.ph.ucla.edu/articles/Paneth_Nigel_John_Snow_AJPH_1998.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "American Journal of Public Health 95(S1), S144-S150 (Rothman & Greenland, 2005), doi:10.2105/AJPH.2004.059204, University of Kent course copy",
+   "dcterms:title": "Causation and Causal Inference in Epidemiology",
+   "schema:url": {
+    "@id": "https://blogs.kent.ac.uk/jonw/files/2015/03/Rothman-Greenland-05-Causation-and-Causal-Inference-in-Epidemiology.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Bulletin of the World Health Organization 83(2), 144-145 (Michael J. Thun, 2005)",
+   "dcterms:title": "When truth is unwelcome: the first reports on smoking and lung cancer",
+   "schema:url": {
+    "@id": "https://scielosp.org/pdf/bwho/2005.v83n2/144-145/en"
    }
   },
   {

@@ -114,6 +114,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:denying-a-conjunct` | cto:FormalFallacy |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
+| `ct:epidemiology` | cto:Field |
 | `ct:existential-import` | cto:Concept |
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
@@ -137,9 +138,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:risk-communication` | cto:Field |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
-| `ct:selection-bias` | cto:Phenomenon |
 
-…and 6 more.
+…and 7 more.
 
 ## Orphan articles (gap)
 

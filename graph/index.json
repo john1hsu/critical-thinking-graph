@@ -7436,6 +7436,98 @@
   ]
  },
  {
+  "id": "ct:epidemiology",
+  "title": "Epidemiology",
+  "aliases": [
+   "epidemiological reasoning",
+   "population health science"
+  ],
+  "type": "Field",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/scientific-reasoning/epidemiology.md",
+  "created": "2026-11-13",
+  "summary": "The study of how health-related states and events are distributed in specified populations and what determines them, and the application of that study to controlling health problems; the basic science of public health and a training ground for reasoning about cause from observational data.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:public-health"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:causal-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:evidence-based-medicine"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:clinical-medicine",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:john-snow",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:austin-bradford-hill",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:hypothesis-testing",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson1/section1.html",
+   "https://epi-snow.ph.ucla.edu/articles/Paneth_Nigel_John_Snow_AJPH_1998.pdf",
+   "https://blogs.kent.ac.uk/jonw/files/2015/03/Rothman-Greenland-05-Causation-and-Causal-Inference-in-Epidemiology.pdf",
+   "https://scielosp.org/pdf/bwho/2005.v83n2/144-145/en"
+  ]
+ },
+ {
   "id": "ct:epistemology",
   "title": "Epistemology",
   "aliases": [
