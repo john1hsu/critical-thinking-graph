@@ -3343,6 +3343,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence-based medicine" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#altLabel> "EBM" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#altLabel> "evidence-based healthcare" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-practice> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#definition> "An approach to clinical decision making that combines the best current research evidence, appraised for validity and relevance, with the clinician's expertise and the patient's own circumstances and preferences, rather than relying on authority, habit or physiological reasoning alone." .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#prefLabel> "Evidence-based medicine" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/archie-cochrane> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/david-sackett> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/iain-chalmers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifiedBy> <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/russo-williamson-thesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/evidence-based-medicine.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gordon-guyatt> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-medicine> .
 <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Are both premises negative, so that each one only says which things are excluded from the middle class?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
@@ -10859,6 +10892,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <https://schema.org/url> <https://link.springer.com/978-0-7923-4100-0> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> <http://purl.org/dc/terms/publisher> "BMJ 312(7023), 71-72 (Sackett, Rosenberg, Gray, Haynes & Richardson, 1996)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> <http://purl.org/dc/terms/title> "Evidence based medicine: what it is and what it isn't" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> <https://schema.org/url> <https://www.bmj.com/content/312/7023/71> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s2> <http://purl.org/dc/terms/publisher> "AMA Journal of Ethics (Virtual Mentor) 15(1), 71-76 (Zimerman, 2013)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s2> <http://purl.org/dc/terms/title> "Evidence-Based Medicine: A Short History of a Modern Medical Movement" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s2> <https://schema.org/url> <https://journalofethics.ama-assn.org/article/evidence-based-medicine-short-history-modern-medical-movement/2013-01> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s3> <http://purl.org/dc/terms/publisher> "BMJ 348, g3725 (Greenhalgh, Howick & Maskrey, for the Evidence Based Medicine Renaissance Group, 2014)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s3> <http://purl.org/dc/terms/title> "Evidence based medicine: a movement in crisis?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s3> <https://schema.org/url> <https://doi.org/10.1136%2Fbmj.g3725> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s4> <http://purl.org/dc/terms/publisher> "BMC Medical Education 5, 1 (Dawes, Summerskill, Glasziou et al., 2005)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s4> <http://purl.org/dc/terms/title> "Sicily statement on evidence-based practice" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s4> <https://schema.org/url> <https://bmcmededuc.biomedcentral.com/articles/10.1186/1472-6920-5-1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Reiss & Ankeny, 2016)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> <http://purl.org/dc/terms/title> "Philosophy of Medicine" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/medicine/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive, MIT" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/title> "Prior Analytics, Book I (trans. A. J. Jenkinson)" .

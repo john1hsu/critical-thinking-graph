@@ -7121,6 +7121,95 @@
    ]
   },
   {
+   "@id": "ct:evidence-based-medicine",
+   "@type": "cto:Framework",
+   "cto:amplifiedBy": {
+    "@id": "ct:conflict-of-interest"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:russo-williamson-thesis"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:argument-from-expert-opinion"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/evidence-and-information-literacy/evidence-based-medicine.md",
+   "cto:introducedBy": {
+    "@id": "ct:gordon-guyatt"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:randomized-controlled-trial"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-medicine"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5"
+    }
+   ],
+   "rdfs:label": "Evidence-based medicine",
+   "skos:altLabel": [
+    "EBM",
+    "evidence-based healthcare"
+   ],
+   "skos:broader": {
+    "@id": "ct:evidence-based-practice"
+   },
+   "skos:definition": "An approach to clinical decision making that combines the best current research evidence, appraised for validity and relevance, with the clinician's expertise and the patient's own circumstances and preferences, rather than relying on authority, habit or physiological reasoning alone.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Evidence-based medicine",
+   "skos:related": [
+    {
+     "@id": "ct:archie-cochrane"
+    },
+    {
+     "@id": "ct:conflict-of-interest"
+    },
+    {
+     "@id": "ct:david-sackett"
+    },
+    {
+     "@id": "ct:epidemiology"
+    },
+    {
+     "@id": "ct:grade-approach"
+    },
+    {
+     "@id": "ct:hierarchy-of-evidence"
+    },
+    {
+     "@id": "ct:iain-chalmers"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ]
+  },
+  {
    "@id": "ct:exclusive-premises",
    "@type": "cto:FormalFallacy",
    "cto:domain": "formal-fallacies",
@@ -31006,6 +31095,76 @@
    "dcterms:title": "Fallacies Arising from Ambiguity",
    "schema:url": {
     "@id": "https://link.springer.com/978-0-7923-4100-0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "BMJ 312(7023), 71-72 (Sackett, Rosenberg, Gray, Haynes & Richardson, 1996)",
+   "dcterms:title": "Evidence based medicine: what it is and what it isn't",
+   "schema:url": {
+    "@id": "https://www.bmj.com/content/312/7023/71"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "AMA Journal of Ethics (Virtual Mentor) 15(1), 71-76 (Zimerman, 2013)",
+   "dcterms:title": "Evidence-Based Medicine: A Short History of a Modern Medical Movement",
+   "schema:url": {
+    "@id": "https://journalofethics.ama-assn.org/article/evidence-based-medicine-short-history-modern-medical-movement/2013-01"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "BMJ 348, g3725 (Greenhalgh, Howick & Maskrey, for the Evidence Based Medicine Renaissance Group, 2014)",
+   "dcterms:title": "Evidence based medicine: a movement in crisis?",
+   "schema:url": {
+    "@id": "https://doi.org/10.1136%2Fbmj.g3725"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "BMC Medical Education 5, 1 (Dawes, Summerskill, Glasziou et al., 2005)",
+   "dcterms:title": "Sicily statement on evidence-based practice",
+   "schema:url": {
+    "@id": "https://bmcmededuc.biomedcentral.com/articles/10.1186/1472-6920-5-1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Reiss & Ankeny, 2016)",
+   "dcterms:title": "Philosophy of Medicine",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/medicine/"
    }
   },
   {

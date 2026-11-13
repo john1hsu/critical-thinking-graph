@@ -7605,6 +7605,105 @@
   ]
  },
  {
+  "id": "ct:evidence-based-medicine",
+  "title": "Evidence-based medicine",
+  "aliases": [
+   "EBM",
+   "evidence-based healthcare"
+  ],
+  "type": "Framework",
+  "domain": "evidence-and-information-literacy",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/evidence-and-information-literacy/evidence-based-medicine.md",
+  "created": "2026-11-13",
+  "summary": "An approach to clinical decision making that combines the best current research evidence, appraised for validity and relevance, with the clinician's expertise and the patient's own circumstances and preferences, rather than relying on authority, habit or physiological reasoning alone.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:evidence-based-practice"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hierarchy-of-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conflict-of-interest"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:grade-approach"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:iain-chalmers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:archie-cochrane"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:david-sackett"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epidemiology"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:gordon-guyatt",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:argument-from-expert-opinion",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:russo-williamson-thesis",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-medicine",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:amplifiedBy",
+    "object": "ct:conflict-of-interest",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.bmj.com/content/312/7023/71",
+   "https://journalofethics.ama-assn.org/article/evidence-based-medicine-short-history-modern-medical-movement/2013-01",
+   "https://doi.org/10.1136%2Fbmj.g3725",
+   "https://bmcmededuc.biomedcentral.com/articles/10.1186/1472-6920-5-1",
+   "https://plato.stanford.edu/ENTRIES/medicine/"
+  ]
+ },
+ {
   "id": "ct:exclusive-premises",
   "title": "Exclusive premises",
   "aliases": [
