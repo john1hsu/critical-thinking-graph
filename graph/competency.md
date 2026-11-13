@@ -48,7 +48,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:bright-line-rule` | 1 | Slippery slope |
 | `ct:de-morgans-laws` | 1 | Denying a conjunct |
 
-…and 20 more.
+…and 21 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -97,7 +97,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:attribute-substitution` | mixed | `ct:effort-reduction-framework` |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 
-…and 47 more.
+…and 48 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

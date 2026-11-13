@@ -13263,6 +13263,95 @@
    ]
   },
   {
+   "@id": "ct:need-for-cognition",
+   "@type": "cto:Disposition",
+   "cto:challengedBy": {
+    "@id": "ct:many-labs-3-replication-project"
+   },
+   "cto:counteracts": {
+    "@id": "ct:fundamental-attribution-error"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:leboeuf-shafir-2003-framing-study"
+   },
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/need-for-cognition.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:john-cacioppo"
+    },
+    {
+     "@id": "ct:richard-petty"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s6"
+    }
+   ],
+   "rdfs:label": "Need for cognition",
+   "skos:altLabel": [
+    "NFC",
+    "NfC",
+    "need-for-cognition trait"
+   ],
+   "skos:broader": {
+    "@id": "ct:thinking-dispositions"
+   },
+   "skos:definition": "A stable individual difference, measured by John Cacioppo and Richard Petty's Need for Cognition Scale, in how much people engage in and enjoy effortful thinking rather than relying on quick cues and rules of thumb.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Need for cognition",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:elaboration-likelihood-model"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:metacognition"
+    },
+    {
+     "@id": "ct:numeracy"
+    }
+   ]
+  },
+  {
    "@id": "ct:no-true-scotsman",
    "@type": "cto:InformalFallacy",
    "cto:confusedWith": [
@@ -36716,6 +36805,90 @@
    "dcterms:title": "Counterfactual 'only if' conditionals",
    "schema:url": {
     "@id": "https://repositories.cdlib.org/content/qt373511jh/qt373511jh.pdf?t=os5l2c"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Decision Making Individual Differences Inventory, Society for Judgment and Decision Making",
+   "dcterms:title": "Need for Cognition (NFC)",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/dmidi/Need%20for%20Cognition.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Journal of Behavioral Decision Making 16, 77-92 (LeBoeuf & Shafir, 2003), course copy hosted at the University of Washington",
+   "dcterms:title": "Deep Thoughts and Shallow Frames: On the Susceptibility to Framing Effects",
+   "schema:url": {
+    "@id": "https://faculty.washington.edu/mbassok/psych469_readings/framing-shafir-03.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 8, 790 (Grass, Strobel & Strobel, 2017)",
+   "dcterms:title": "Cognitive Investments in Academic Success: The Role of Need for Cognition at University",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00790"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "International Encyclopedia of the Social Sciences (G. Daniel Lassiter), via Encyclopedia.com",
+   "dcterms:title": "Need for Cognition",
+   "schema:url": {
+    "@id": "https://encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/need-cognition"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "FLoRA Replication Atlas, FORRT",
+   "dcterms:title": "Effects of need for cognition on message evaluation, recall, and persuasion (replication record)",
+   "schema:url": {
+    "@id": "https://forrt.org/flora-replication-atlas/doi/10.1037/0022-3514.45.4.805/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/need-for-cognition/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Journal of Experimental Social Psychology 69, 184-186 (Ebersole et al., 2017), University of Southern Mississippi repository",
+   "dcterms:title": "Observe, Hypothesize, Test, Repeat: Luttrell, Petty and Xu (2017) Demonstrate Good Science",
+   "schema:url": {
+    "@id": "https://aquila.usm.edu/fac_pubs/15288"
    }
   },
   {

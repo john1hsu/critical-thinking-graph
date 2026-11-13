@@ -14165,6 +14165,101 @@
   ]
  },
  {
+  "id": "ct:need-for-cognition",
+  "title": "Need for cognition",
+  "aliases": [
+   "NFC",
+   "NfC",
+   "need-for-cognition trait"
+  ],
+  "type": "Disposition",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/need-for-cognition.md",
+  "created": "2026-11-13",
+  "summary": "A stable individual difference, measured by John Cacioppo and Richard Petty's Need for Cognition Scale, in how much people engage in and enjoy effortful thinking rather than relying on quick cues and rules of thumb.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:thinking-dispositions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-cacioppo",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:richard-petty",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:fundamental-attribution-error",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:leboeuf-shafir-2003-framing-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:many-labs-3-replication-project",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://dlab.sauder.ubc.ca/sjdm/dmidi/Need%20for%20Cognition.html",
+   "https://faculty.washington.edu/mbassok/psych469_readings/framing-shafir-03.pdf",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00790",
+   "https://encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/need-cognition",
+   "https://forrt.org/flora-replication-atlas/doi/10.1037/0022-3514.45.4.805/",
+   "https://aquila.usm.edu/fac_pubs/15288"
+  ]
+ },
+ {
   "id": "ct:no-true-scotsman",
   "title": "No true Scotsman",
   "aliases": [
