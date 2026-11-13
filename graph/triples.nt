@@ -6029,6 +6029,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2000/01/rdf-schema#label> "Motivated reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "directionally motivated reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "goal-directed reasoning bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#definition> "The tendency for a person's goals, above all the wish to reach a particular conclusion, to bias how they search memory, construct beliefs and evaluate evidence, while they still feel they are reasoning objectively." .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motivated reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/tappin-pennycook-rand-2020-bayesian-updating-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/tappin-pennycook-rand-2020-causal-inference-critique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kunda-1987-caffeine-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/motivated-reasoning.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ditto-2019-partisan-bias-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/2000/01/rdf-schema#label> "Natural frequency format" .
@@ -13091,6 +13121,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/monroe-beardsley/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2025/entries/logic-informal/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s1> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 108(3), 480-498 (Kunda, 1990), copy hosted by UNC Chapel Hill" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s1> <http://purl.org/dc/terms/title> "The case for motivated reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s1> <https://schema.org/url> <https://fbaum.unc.edu/teaching/articles/Psych-Bulletin-1990-Kunda.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s2> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 14(2), 273-291 (Ditto et al., 2019), Durham University repository record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s2> <http://purl.org/dc/terms/title> "At least bias is bipartisan: A meta-analytic comparison of partisan bias in liberals and conservatives" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s2> <https://schema.org/url> <https://durham-repository.worktribe.com/output/1348442> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s3> <http://purl.org/dc/terms/publisher> "Current Opinion in Behavioral Sciences 34, 81-87 (Tappin, Pennycook & Rand, 2020), MIT DSpace record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s3> <http://purl.org/dc/terms/title> "Thinking clearly about causal inferences of politically motivated reasoning: why paradigmatic study designs often undermine causal inference" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s3> <https://schema.org/url> <https://dspace.mit.edu/handle/1721.1/135504?show=full> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s4> <http://purl.org/dc/terms/publisher> "Cognition (Tappin, Pennycook & Rand, 2020), author manuscript at MIT DSpace" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s4> <http://purl.org/dc/terms/title> "Bayesian or biased? Analytic thinking and political belief updating" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s4> <https://schema.org/url> <https://dspace.mit.edu/bitstream/1721.1/135315/2/BoB-updating_TPR.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://purl.org/dc/terms/publisher> "Psychological Review 102(4), 684-704 (Gigerenzer & Hoffrage, 1995), UC San Diego course copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/natural-frequencies/s1> <http://purl.org/dc/terms/title> "How to improve Bayesian reasoning without instruction: Frequency formats" .

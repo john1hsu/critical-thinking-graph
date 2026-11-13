@@ -12935,6 +12935,88 @@
    ]
   },
   {
+   "@id": "ct:motivated-reasoning",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:tappin-pennycook-rand-2020-bayesian-updating-study"
+    },
+    {
+     "@id": "ct:tappin-pennycook-rand-2020-causal-inference-critique"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:kunda-1987-caffeine-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/cognitive-biases/motivated-reasoning.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:cognitive-bias"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:ditto-2019-partisan-bias-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s4"
+    }
+   ],
+   "rdfs:label": "Motivated reasoning",
+   "skos:altLabel": [
+    "directionally motivated reasoning",
+    "goal-directed reasoning bias"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency for a person's goals, above all the wish to reach a particular conclusion, to bias how they search memory, construct beliefs and evaluate evidence, while they still feel they are reasoning objectively.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Motivated reasoning",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:bias-blind-spot"
+    },
+    {
+     "@id": "ct:biased-assimilation"
+    },
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:myside-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:natural-frequencies",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -36301,6 +36383,62 @@
    "dcterms:title": "Informal Logic",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/sum2025/entries/logic-informal/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Psychological Bulletin 108(3), 480-498 (Kunda, 1990), copy hosted by UNC Chapel Hill",
+   "dcterms:title": "The case for motivated reasoning",
+   "schema:url": {
+    "@id": "https://fbaum.unc.edu/teaching/articles/Psych-Bulletin-1990-Kunda.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science 14(2), 273-291 (Ditto et al., 2019), Durham University repository record",
+   "dcterms:title": "At least bias is bipartisan: A meta-analytic comparison of partisan bias in liberals and conservatives",
+   "schema:url": {
+    "@id": "https://durham-repository.worktribe.com/output/1348442"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Current Opinion in Behavioral Sciences 34, 81-87 (Tappin, Pennycook & Rand, 2020), MIT DSpace record",
+   "dcterms:title": "Thinking clearly about causal inferences of politically motivated reasoning: why paradigmatic study designs often undermine causal inference",
+   "schema:url": {
+    "@id": "https://dspace.mit.edu/handle/1721.1/135504?show=full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motivated-reasoning/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Cognition (Tappin, Pennycook & Rand, 2020), author manuscript at MIT DSpace",
+   "dcterms:title": "Bayesian or biased? Analytic thinking and political belief updating",
+   "schema:url": {
+    "@id": "https://dspace.mit.edu/bitstream/1721.1/135315/2/BoB-updating_TPR.pdf"
    }
   },
   {

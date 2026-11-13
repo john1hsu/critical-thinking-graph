@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:motivated-reasoning` | cto:CognitiveBias |
 | `ct:no-true-scotsman` | cto:InformalFallacy |
 
 ## Most useful remedies
@@ -96,7 +97,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:attribute-substitution` | mixed | `ct:effort-reduction-framework` |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 
-…and 45 more.
+…and 47 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -127,6 +128,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modal-scope-fallacy` | cto:FormalFallacy |
 | `ct:modus-tollens` | cto:ReasoningForm |
+| `ct:motivated-reasoning` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:plain-language` | cto:Technique |
@@ -139,9 +141,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:replication-crisis` | cto:Phenomenon |
 | `ct:risk-communication` | cto:Field |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
-| `ct:scientific-method` | cto:Method |
 
-…and 7 more.
+…and 8 more.
 
 ## Orphan articles (gap)
 

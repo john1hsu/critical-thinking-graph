@@ -13815,6 +13815,94 @@
   ]
  },
  {
+  "id": "ct:motivated-reasoning",
+  "title": "Motivated reasoning",
+  "aliases": [
+   "directionally motivated reasoning",
+   "goal-directed reasoning bias"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cognitive-biases/motivated-reasoning.md",
+  "created": "2026-11-13",
+  "summary": "The tendency for a person's goals, above all the wish to reach a particular conclusion, to bias how they search memory, construct beliefs and evaluate evidence, while they still feel they are reasoning objectively.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:biased-assimilation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:myside-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:kunda-1987-caffeine-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:ditto-2019-partisan-bias-meta-analysis",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:tappin-pennycook-rand-2020-causal-inference-critique",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:tappin-pennycook-rand-2020-bayesian-updating-study",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://fbaum.unc.edu/teaching/articles/Psych-Bulletin-1990-Kunda.pdf",
+   "https://durham-repository.worktribe.com/output/1348442",
+   "https://dspace.mit.edu/handle/1721.1/135504?show=full",
+   "https://dspace.mit.edu/bitstream/1721.1/135315/2/BoB-updating_TPR.pdf"
+  ]
+ },
+ {
   "id": "ct:natural-frequencies",
   "title": "Natural frequency format",
   "aliases": [
