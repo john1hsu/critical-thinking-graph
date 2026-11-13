@@ -16682,6 +16682,89 @@
    ]
   },
   {
+   "@id": "ct:risk-communication",
+   "@type": "cto:Field",
+   "cto:contrastsWith": {
+    "@id": "ct:public-relations"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/probabilistic-reasoning/risk-communication.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:baruch-fischhoff"
+    },
+    {
+     "@id": "ct:gerd-gigerenzer"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s5"
+    }
+   ],
+   "rdfs:label": "Risk communication",
+   "skos:altLabel": [
+    "communicating risk",
+    "risk and benefit communication",
+    "risk and uncertainty communication"
+   ],
+   "skos:broader": {
+    "@id": "ct:science-communication"
+   },
+   "skos:definition": "The research field and professional practice concerned with conveying information about hazards, their probabilities, benefits and uncertainties so that the people affected can understand them and make informed choices, and with testing empirically which formats and processes actually achieve that.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Risk communication",
+   "skos:related": [
+    {
+     "@id": "ct:affect-heuristic"
+    },
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    },
+    {
+     "@id": "ct:numeracy"
+    },
+    {
+     "@id": "ct:sherman-kent"
+    }
+   ]
+  },
+  {
    "@id": "ct:rules-of-the-categorical-syllogism",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -37864,6 +37947,76 @@
    "dcterms:title": "Whately on Arguments Involving Authority",
    "schema:url": {
     "@id": "https://distantreader.org/stacks/journals/il/il-456.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Risk Analysis 15(2), 137-145 (Fischhoff, 1995), National University of Singapore IPUR copy",
+   "dcterms:title": "Risk Perception and Communication Unplugged: Twenty Years of Process",
+   "schema:url": {
+    "@id": "https://ipur.nus.edu.sg/wp-content/uploads/2022/08/Fischhoff-RAUnplugged-RA.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "U.S. Food and Drug Administration (Fischhoff, Brewer & Downs, eds., 2011)",
+   "dcterms:title": "Communicating Risks and Benefits: An Evidence-Based User's Guide",
+   "schema:url": {
+    "@id": "https://www.fda.gov/media/81597/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Psychological Science in the Public Interest 8(2) (Gigerenzer, Gaissmaier, Kurz-Milcke, Schwartz & Woloshin, 2008), UC Berkeley course copy",
+   "dcterms:title": "Helping Doctors and Patients Make Sense of Health Statistics",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/~aldous/157/Papers/health_stats.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Cochrane Database of Systematic Reviews, CD006776.pub2 (Akl, Oxman, Herrin et al., 2011), University at Buffalo research portal",
+   "dcterms:title": "Using alternative statistical formats for presenting risks and risk reductions",
+   "schema:url": {
+    "@id": "https://researchconnect.buffalo.edu/en/publications/using-alternative-statistical-formats-for-presenting-risks-and-ri/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/risk-communication/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Annual Review of Statistics and Its Application 4 (Spiegelhalter, 2017), University of Cambridge repository",
+   "dcterms:title": "Risk and uncertainty communication",
+   "schema:url": {
+    "@id": "https://www.repository.cam.ac.uk/handle/1810/260626"
    }
   },
   {

@@ -17777,6 +17777,92 @@
   ]
  },
  {
+  "id": "ct:risk-communication",
+  "title": "Risk communication",
+  "aliases": [
+   "risk and benefit communication",
+   "communicating risk",
+   "risk and uncertainty communication"
+  ],
+  "type": "Field",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/probabilistic-reasoning/risk-communication.md",
+  "created": "2026-11-13",
+  "summary": "The research field and professional practice concerned with conveying information about hazards, their probabilities, benefits and uncertainties so that the people affected can understand them and make informed choices, and with testing empirically which formats and processes actually achieve that.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:science-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affect-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sherman-kent"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:baruch-fischhoff",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:public-relations",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ipur.nus.edu.sg/wp-content/uploads/2022/08/Fischhoff-RAUnplugged-RA.pdf",
+   "https://www.fda.gov/media/81597/download",
+   "https://www.stat.berkeley.edu/~aldous/157/Papers/health_stats.pdf",
+   "https://researchconnect.buffalo.edu/en/publications/using-alternative-statistical-formats-for-presenting-risks-and-ri/",
+   "https://www.repository.cam.ac.uk/handle/1810/260626"
+  ]
+ },
+ {
   "id": "ct:rules-of-the-categorical-syllogism",
   "title": "Rules of the categorical syllogism",
   "aliases": [

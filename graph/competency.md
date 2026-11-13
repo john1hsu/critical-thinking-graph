@@ -94,7 +94,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:attribute-substitution` | mixed | `ct:effort-reduction-framework` |
 | `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 
-…and 44 more.
+…and 45 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -136,10 +136,10 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:random-sampling` | cto:Method |
 | `ct:reasoning` | cto:Concept |
 | `ct:replication-crisis` | cto:Phenomenon |
+| `ct:risk-communication` | cto:Field |
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
-| `ct:scientific-method` | cto:Method |
 
-…and 6 more.
+…and 7 more.
 
 ## Orphan articles (gap)
 
