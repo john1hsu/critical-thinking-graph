@@ -6184,6 +6184,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2000/01/rdf-schema#label> "Possible-worlds semantics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#altLabel> "Kripke semantics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#altLabel> "possible-world countermodel method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#altLabel> "relational semantics for modal logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/modal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#definition> "A way of evaluating claims about necessity and possibility by treating \"necessarily A\" as A being true in every accessible possible world and \"possibly A\" as A being true in at least one; used as a test, it builds a small model of worlds in which a modal argument's premises hold and its conclusion fails." .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Possible-worlds semantics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/possible-worlds-semantics.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/rudolf-carnap> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/saul-kripke> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/modal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Apart from the order of events, what independent evidence links the earlier event to the later one?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
@@ -12754,6 +12785,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/port-royal-logic/s3> <https://schema.org/url> <https://homepages.uc.edu/~martinj/History_of_Logic/Port_Royal_Logic/Arnauld%20and%20Nicole%20-%20LAP%20-%20ed.%20Buroker.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (James Garson)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s1> <http://purl.org/dc/terms/title> "Modal Logic, Summer 2006 edition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2006/entries/logic-modal> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Roberta Ballarin)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s2> <http://purl.org/dc/terms/title> "Modern Origins of Modal Logic, Summer 2025 edition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2025/entries/logic-modal-origins/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s3> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Johan van Benthem)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s3> <http://purl.org/dc/terms/title> "Modal Logic: A Contemporary View" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s3> <https://schema.org/url> <https://iep.utm.edu/modal-lo/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s4> <http://purl.org/dc/terms/publisher> "Wolfgang Schwarz (open online logic textbook)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s4> <http://purl.org/dc/terms/title> "Logic 2: Modal Logic, chapter 3: Accessibility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s4> <https://schema.org/url> <https://umsu.de/logic2/03-accessibility.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s5> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Norman Swartz)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s5> <http://purl.org/dc/terms/title> "Foreknowledge and Free Will" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s5> <https://schema.org/url> <https://iep.utm.edu/foreknow/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Dowden)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s1> <http://purl.org/dc/terms/title> "Fallacies" .

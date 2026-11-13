@@ -14470,6 +14470,92 @@
   ]
  },
  {
+  "id": "ct:possible-worlds-semantics",
+  "title": "Possible-worlds semantics",
+  "aliases": [
+   "Kripke semantics",
+   "relational semantics for modal logic",
+   "possible-world countermodel method"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/possible-worlds-semantics.md",
+  "created": "2026-11-13",
+  "summary": "A way of evaluating claims about necessity and possibility by treating \"necessarily A\" as A being true in every accessible possible world and \"possibly A\" as A being true in at least one; used as a test, it builds a small model of worlds in which a modal argument's premises hold and its conclusion fails.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:modal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modal-scope-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:de-re-de-dicto-distinction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-tree"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-consequence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:modal-scope-fallacy",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:modal-logic",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:saul-kripke",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:rudolf-carnap",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/sum2006/entries/logic-modal",
+   "https://plato.stanford.edu/archives/sum2025/entries/logic-modal-origins/",
+   "https://iep.utm.edu/modal-lo/",
+   "https://umsu.de/logic2/03-accessibility.html",
+   "https://iep.utm.edu/foreknow/"
+  ]
+ },
+ {
   "id": "ct:post-hoc-ergo-propter-hoc",
   "title": "Post hoc ergo propter hoc",
   "aliases": [

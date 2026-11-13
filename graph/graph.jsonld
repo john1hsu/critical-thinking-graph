@@ -13583,6 +13583,89 @@
    ]
   },
   {
+   "@id": "ct:possible-worlds-semantics",
+   "@type": "cto:Technique",
+   "cto:detects": {
+    "@id": "ct:modal-scope-fallacy"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/possible-worlds-semantics.md",
+   "cto:influencedBy": {
+    "@id": "ct:rudolf-carnap"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:saul-kripke"
+   },
+   "cto:level": "intermediate",
+   "cto:partOf": {
+    "@id": "ct:modal-logic"
+   },
+   "cto:requires": [
+    {
+     "@id": "ct:propositional-logic"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s5"
+    }
+   ],
+   "rdfs:label": "Possible-worlds semantics",
+   "skos:altLabel": [
+    "Kripke semantics",
+    "possible-world countermodel method",
+    "relational semantics for modal logic"
+   ],
+   "skos:broader": {
+    "@id": "ct:modal-logic"
+   },
+   "skos:definition": "A way of evaluating claims about necessity and possibility by treating \"necessarily A\" as A being true in every accessible possible world and \"possibly A\" as A being true in at least one; used as a test, it builds a small model of worlds in which a modal argument's premises hold and its conclusion fails.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Possible-worlds semantics",
+   "skos:related": [
+    {
+     "@id": "ct:de-re-de-dicto-distinction"
+    },
+    {
+     "@id": "ct:logical-consequence"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:modal-scope-fallacy"
+    },
+    {
+     "@id": "ct:truth-tree"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:post-hoc-ergo-propter-hoc",
    "@type": "cto:InformalFallacy",
    "cto:contrastsWith": [
@@ -35157,6 +35240,76 @@
    "dcterms:title": "Logic or the Art of Thinking (trans. and ed. J. V. Buroker)",
    "schema:url": {
     "@id": "https://homepages.uc.edu/~martinj/History_of_Logic/Port_Royal_Logic/Arnauld%20and%20Nicole%20-%20LAP%20-%20ed.%20Buroker.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (James Garson)",
+   "dcterms:title": "Modal Logic, Summer 2006 edition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2006/entries/logic-modal"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Roberta Ballarin)",
+   "dcterms:title": "Modern Origins of Modal Logic, Summer 2025 edition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2025/entries/logic-modal-origins/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Johan van Benthem)",
+   "dcterms:title": "Modal Logic: A Contemporary View",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/modal-lo/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Wolfgang Schwarz (open online logic textbook)",
+   "dcterms:title": "Logic 2: Modal Logic, chapter 3: Accessibility",
+   "schema:url": {
+    "@id": "https://umsu.de/logic2/03-accessibility.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/possible-worlds-semantics/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Norman Swartz)",
+   "dcterms:title": "Foreknowledge and Free Will",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/foreknow/"
    }
   },
   {
