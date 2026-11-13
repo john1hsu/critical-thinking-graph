@@ -6234,6 +6234,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/william-of-ockham> .
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2000/01/rdf-schema#label> "Operational definition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#altLabel> "defining by measurement procedure" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#altLabel> "operationalisation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#altLabel> "operationalism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#altLabel> "operationalization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#altLabel> "operationism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#definition> "Defining a concept or variable by the concrete procedure used to observe or measure it (for example, \"customer churn means no login for 90 days\"), so that whether the concept applies in a given case can be checked by anyone who follows the procedure." .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#prefLabel> "Operational definition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/carl-gustav-hempel> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/conceptual-definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/operational-definition.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/percy-williams-bridgman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-modern-physics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
 <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/organon> <http://www.w3.org/2000/01/rdf-schema#label> "Organon" .
@@ -13161,6 +13196,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/occams-razor/s4> <https://schema.org/url> <https://www.degruyterbrill.com/document/doi/10.1515/dx-2022-0093/html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hasok Chang, first published 2009, substantive revision 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s1> <http://purl.org/dc/terms/title> "Operationalism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/operationalism/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s2> <http://purl.org/dc/terms/publisher> "Flake & Fried, Advances in Methods and Practices in Psychological Science 3(4), 456-465 (2020), doi:10.1177/2515245920952393; author copy hosted by the University of Kansas" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s2> <http://purl.org/dc/terms/title> "Measurement Schmeasurement: Questionable Measurement Practices and How to Avoid Them" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s2> <https://schema.org/url> <https://data.ku.edu/sites/data/files/images/flake2020.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s3> <http://purl.org/dc/terms/publisher> "Research Methods in Psychology & Neuroscience, Dalhousie University (open textbook)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s3> <http://purl.org/dc/terms/title> "Chapter 5: Measurement of Psychological Variables" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s3> <https://schema.org/url> <https://digitaleditions.library.dal.ca/researchmethodspsychneuro/?p=28> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s4> <http://purl.org/dc/terms/publisher> "Verhaegh, Journal of the History of the Behavioral Sciences 57(2), 194-212 (2021), doi:10.1002/jhbs.22071; Tilburg University research portal record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s4> <http://purl.org/dc/terms/title> "Psychological Operationisms at Harvard: Skinner, Boring, and Stevens" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s4> <https://schema.org/url> <https://research.tilburguniversity.edu/en/publications/psychological-operationisms-at-harvard-skinner-boring-and-stevens/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Robin Smith)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/organon/s1> <http://purl.org/dc/terms/title> "Aristotle's Logic" .

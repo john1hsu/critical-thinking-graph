@@ -14289,6 +14289,109 @@
   ]
  },
  {
+  "id": "ct:operational-definition",
+  "title": "Operational definition",
+  "aliases": [
+   "operationalization",
+   "operationalisation",
+   "operationism",
+   "operationalism",
+   "defining by measurement procedure"
+  ],
+  "type": "Method",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/operational-definition.md",
+  "created": "2026-11-13",
+  "summary": "Defining a concept or variable by the concrete procedure used to observe or measure it (for example, \"customer churn means no login for 90 days\"), so that whether the concept applies in a given case can be checked by anyone who follows the procedure.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:definition"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:no-true-scotsman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-science"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:percy-williams-bridgman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-logic-of-modern-physics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:conceptual-definition",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:psychology",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:carl-gustav-hempel",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/operationalism/",
+   "https://data.ku.edu/sites/data/files/images/flake2020.pdf",
+   "https://digitaleditions.library.dal.ca/researchmethodspsychneuro/?p=28",
+   "https://research.tilburguniversity.edu/en/publications/psychological-operationisms-at-harvard-skinner-boring-and-stevens/"
+  ]
+ },
+ {
   "id": "ct:organon",
   "title": "Organon",
   "aliases": [

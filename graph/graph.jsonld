@@ -13370,6 +13370,97 @@
    ]
   },
   {
+   "@id": "ct:operational-definition",
+   "@type": "cto:Method",
+   "cto:appliedIn": {
+    "@id": "ct:psychology"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:carl-gustav-hempel"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:conceptual-definition"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/operational-definition.md",
+   "cto:introducedBy": {
+    "@id": "ct:percy-williams-bridgman"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:the-logic-of-modern-physics"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:vagueness"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s4"
+    }
+   ],
+   "rdfs:label": "Operational definition",
+   "skos:altLabel": [
+    "defining by measurement procedure",
+    "operationalisation",
+    "operationalism",
+    "operationalization",
+    "operationism"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:definition"
+    },
+    {
+     "@id": "ct:scientific-method"
+    }
+   ],
+   "skos:definition": "Defining a concept or variable by the concrete procedure used to observe or measure it (for example, \"customer churn means no login for 90 days\"), so that whether the concept applies in a given case can be checked by anyone who follows the procedure.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Operational definition",
+   "skos:related": [
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:no-true-scotsman"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    },
+    {
+     "@id": "ct:vagueness"
+    }
+   ]
+  },
+  {
    "@id": "ct:organon",
    "@type": "cto:Work",
    "cto:authoredBy": {
@@ -36447,6 +36538,62 @@
    "dcterms:title": "Occam's razor and Hickam's dictum: a dermatologic perspective",
    "schema:url": {
     "@id": "https://www.degruyterbrill.com/document/doi/10.1515/dx-2022-0093/html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hasok Chang, first published 2009, substantive revision 2019)",
+   "dcterms:title": "Operationalism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/operationalism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Flake & Fried, Advances in Methods and Practices in Psychological Science 3(4), 456-465 (2020), doi:10.1177/2515245920952393; author copy hosted by the University of Kansas",
+   "dcterms:title": "Measurement Schmeasurement: Questionable Measurement Practices and How to Avoid Them",
+   "schema:url": {
+    "@id": "https://data.ku.edu/sites/data/files/images/flake2020.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Research Methods in Psychology & Neuroscience, Dalhousie University (open textbook)",
+   "dcterms:title": "Chapter 5: Measurement of Psychological Variables",
+   "schema:url": {
+    "@id": "https://digitaleditions.library.dal.ca/researchmethodspsychneuro/?p=28"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/operational-definition/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Verhaegh, Journal of the History of the Behavioral Sciences 57(2), 194-212 (2021), doi:10.1002/jhbs.22071; Tilburg University research portal record",
+   "dcterms:title": "Psychological Operationisms at Harvard: Skinner, Boring, and Stevens",
+   "schema:url": {
+    "@id": "https://research.tilburguniversity.edu/en/publications/psychological-operationisms-at-harvard-skinner-boring-and-stevens/"
    }
   },
   {
