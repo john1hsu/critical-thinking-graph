@@ -1614,6 +1614,105 @@
   ]
  },
  {
+  "id": "ct:argument-from-ignorance",
+  "title": "Argument from ignorance",
+  "aliases": [
+   "appeal to ignorance",
+   "argumentum ad ignorantiam",
+   "ad ignorantiam"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/argument-from-ignorance.md",
+  "created": "2026-11-13",
+  "summary": "The fallacy of concluding that a claim is false because it has not been proven true, or true because it has not been proven false, treating a lack of evidence as if it were evidence for the opposite.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presumption"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-locke",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:burden-of-proof",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:bayesian-reasoning",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:presumption",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "How thoroughly has anyone actually looked for evidence on this question?",
+   "If the claim were true, how likely is it that the search would have turned up evidence of it?",
+   "Who carries the burden of proof here, and is the arguer quietly shifting it to the other side?",
+   "Is \"not yet known either way\" an available position that the argument skips over?",
+   "Is the conclusion a practical precaution (act as if) or a claim about what is actually true?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://distantreader.org/stacks/journals/il/il-428.pdf",
+   "https://repositories.cdlib.org/content/qt9p43b3xm/qt9p43b3xm.pdf?t=op2n2e",
+   "https://rozenbergquarterly.com/issa-proceedings-2002-conceptualizing-fallacies-the-informal-logic-and-pragma-dialectic-approaches-to-the-argumentum-ad-ignorantiam/?print=pdf",
+   "https://link.springer.com/article/10.1007/s10503-019-09498-8",
+   "https://eprints.bbk.ac.uk/16121/"
+  ]
+ },
+ {
   "id": "ct:argument-mapping",
   "title": "Argument mapping",
   "aliases": [

@@ -79,6 +79,18 @@ flowchart TD
   o2["A second engineer's report flags rot at one bearing end, so experts do not yet agree."] -. attacks .-> ra
 ```
 
+## Argument from ignorance (`ct:argument-from-ignorance`)
+
+```mermaid
+flowchart TD
+  p1["A colleague proposes moving the team's shared files to a new cloud storage tool."] --> ra{{"fallacious"}}
+  p2["Nobody has shown that the new tool causes any problems."] --> ra{{"fallacious"}}
+  ra --> c["So the new tool is safe to adopt for all client files."]
+  o1["No one has tested it yet; a check that was never run cannot come back negative."] -. attacks .-> ra
+  o2["The person proposing the change carries the burden of showing it is safe, not the sceptics of showing it is unsafe."] -. attacks .-> ra
+  o3["A security review that looked for problems and found none would make the same conclusion reasonable."] -. attacks .-> ra
+```
+
 ## Argumentation schemes (`ct:argumentation-schemes`)
 
 ```mermaid

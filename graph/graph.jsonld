@@ -1505,6 +1505,96 @@
    ]
   },
   {
+   "@id": "ct:argument-from-ignorance",
+   "@type": "cto:InformalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:presumption"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:burden-of-proof"
+   },
+   "cto:file": "articles/informal-fallacies/argument-from-ignorance.md",
+   "cto:formalizedBy": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:john-locke"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:burden-of-proof"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s6"
+    }
+   ],
+   "rdfs:label": "Argument from ignorance",
+   "skos:altLabel": [
+    "ad ignorantiam",
+    "appeal to ignorance",
+    "argumentum ad ignorantiam"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of concluding that a claim is false because it has not been proven true, or true because it has not been proven false, treating a lack of evidence as if it were evidence for the opposite.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Argument from ignorance",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:presumption"
+    }
+   ]
+  },
+  {
    "@id": "ct:argument-mapping",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -21456,6 +21546,132 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-ignorance"
+   },
+   "rdfs:label": "How thoroughly has anyone actually looked for evidence on this question?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-ignorance"
+   },
+   "rdfs:label": "If the claim were true, how likely is it that the search would have turned up evidence of it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-ignorance"
+   },
+   "rdfs:label": "Who carries the burden of proof here, and is the arguer quietly shifting it to the other side?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-ignorance"
+   },
+   "rdfs:label": "Is \"not yet known either way\" an available position that the argument skips over?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-ignorance"
+   },
+   "rdfs:label": "Is the conclusion a practical precaution (act as if) or a claim about what is actually true?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:argument-from-ignorance"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the new tool is safe to adopt for all client files."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/ca3",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/o3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "No one has tested it yet; a check that was never run cannot come back negative."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The person proposing the change carries the burden of showing it is safe, not the sceptics of showing it is unsafe."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/o3",
+   "@type": "aif:I-node",
+   "aif:claimText": "A security review that looked for problems and found none would make the same conclusion reasonable."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "A colleague proposes moving the team's shared files to a new cloud storage tool."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Nobody has shown that the new tool causes any problems."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -25641,6 +25857,90 @@
    "dcterms:title": "Fallacies",
    "schema:url": {
     "@id": "https://iep.utm.edu/fallacy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Informal Logic 26(1), 1-24 (Hahn & Oaksford, 2006)",
+   "dcterms:title": "A Normative Theory of Argument Strength",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-428.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Proceedings of the Annual Meeting of the Cognitive Science Society 27 (Hahn, Oaksford & Bayindir, 2005)",
+   "dcterms:title": "How Convinced Should We Be by Negative Evidence?",
+   "schema:url": {
+    "@id": "https://repositories.cdlib.org/content/qt9p43b3xm/qt9p43b3xm.pdf?t=op2n2e"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2002 (Wagemans), Rozenberg Quarterly",
+   "dcterms:title": "Conceptualizing Fallacies: The Informal Logic and Pragma-Dialectic Approaches to the Argumentum ad Ignorantiam",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2002-conceptualizing-fallacies-the-informal-logic-and-pragma-dialectic-approaches-to-the-argumentum-ad-ignorantiam/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Argumentation 33(4), 579-604 (Bodlović, 2019)",
+   "dcterms:title": "Presumptions, and How They Relate to Arguments from Ignorance",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s10503-019-09498-8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-ignorance/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Canadian Journal of Experimental Psychology 58(2), 75-85 (Oaksford & Hahn, 2004), Birkbeck repository record",
+   "dcterms:title": "A Bayesian approach to the argument from ignorance",
+   "schema:url": {
+    "@id": "https://eprints.bbk.ac.uk/16121/"
    }
   },
   {
