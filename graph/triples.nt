@@ -3247,6 +3247,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/petty-cacioppo-schumann-1983-advertising-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2000/01/rdf-schema#label> "Enthymeme" .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#altLabel> "argument with a missing premise" .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#altLabel> "incomplete argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#altLabel> "rhetorical syllogism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#definition> "An argument in which a premise, or sometimes the conclusion, is left unstated because the audience is expected to supply it; finding and fairly filling that gap is a core step in reconstructing and evaluating everyday arguments." .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enthymeme" .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/foundations/enthymeme.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> <http://www.w3.org/2000/01/rdf-schema#label> "Epidemiology" .
@@ -10875,6 +10910,48 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/elaboration-likelihood-model/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/elaboration-likelihood-model/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/elaboration-likelihood-model/s6> <https://schema.org/url> <https://aquila.usm.edu/fac_pubs/15288> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Christof Rapp, 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s1> <http://purl.org/dc/terms/title> "Supplement to Aristotle's Rhetoric: Enthymeme and Inference" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/enthymeme-inference.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Christof Rapp, 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s2> <http://purl.org/dc/terms/title> "Supplement to Aristotle's Rhetoric: Brevity and the Enthymeme" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s2> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/brevity-enthymeme.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s3> <http://purl.org/dc/terms/publisher> "Douglas Walton and Chris Reed, Synthese 145(3), 339-370 (2005), University of Dundee research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s3> <http://purl.org/dc/terms/title> "Argumentation schemes and enthymemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s3> <https://schema.org/url> <https://discovery.dundee.ac.uk/en/publications/argumentation-schemes-and-enthymemes/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s4> <http://purl.org/dc/terms/publisher> "Douglas Walton, Chris Reed and Fabrizio Macagno, Cambridge University Press (2008)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s4> <http://purl.org/dc/terms/title> "Schemes and Enthymemes, ch. 6 of Argumentation Schemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s4> <https://schema.org/url> <https://www.cambridge.org/core/books/argumentation-schemes/schemes-and-enthymemes/8C7B59E1AEB52B8578CA57A4364C651E> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s5> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s5> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive (MIT)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s5> <http://purl.org/dc/terms/title> "Rhetoric, Book I (trans. W. Rhys Roberts)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s5> <https://schema.org/url> <https://classics.mit.edu/Aristotle/rhetoric.1.i.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s6> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s6> <http://purl.org/dc/terms/publisher> "Wayne Grennan, Informal Logic 16(3), 185-196 (1994)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s6> <http://purl.org/dc/terms/title> "Are 'Gap-Fillers' Missing Premisses?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s6> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2456.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s7> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s7> <http://purl.org/dc/terms/publisher> "Lee C. Archie, Philosophy Department, Lander University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s7> <http://purl.org/dc/terms/title> "Enthymemes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s7> <https://schema.org/url> <https://philosophy.lander.edu/logic/enthy.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s1> <http://purl.org/dc/terms/publisher> "Centers for Disease Control and Prevention (3rd ed., archived)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epidemiology/s1> <http://purl.org/dc/terms/title> "Principles of Epidemiology in Public Health Practice, Lesson 1: Introduction to Epidemiology, Section 1: Definition of Epidemiology" .

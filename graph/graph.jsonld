@@ -6963,6 +6963,101 @@
    ]
   },
   {
+   "@id": "ct:enthymeme",
+   "@type": "cto:Concept",
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/enthymeme.md",
+   "cto:formalizedBy": {
+    "@id": "ct:argumentation-schemes"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:aristotles-rhetoric"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s7"
+    }
+   ],
+   "rdfs:label": "Enthymeme",
+   "skos:altLabel": [
+    "argument with a missing premise",
+    "incomplete argument",
+    "rhetorical syllogism"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument"
+   },
+   "skos:definition": "An argument in which a premise, or sometimes the conclusion, is left unstated because the audience is expected to supply it; finding and fairly filling that gap is a core step in reconstructing and evaluating everyday arguments.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Enthymeme",
+   "skos:related": [
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:epidemiology",
    "@type": "cto:Field",
    "cto:contrastsWith": {
@@ -31068,6 +31163,104 @@
    "dcterms:title": "Observe, Hypothesize, Test, Repeat: Luttrell, Petty and Xu (2017) Demonstrate Good Science",
    "schema:url": {
     "@id": "https://aquila.usm.edu/fac_pubs/15288"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Christof Rapp, 2022)",
+   "dcterms:title": "Supplement to Aristotle's Rhetoric: Enthymeme and Inference",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/enthymeme-inference.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Christof Rapp, 2022)",
+   "dcterms:title": "Supplement to Aristotle's Rhetoric: Brevity and the Enthymeme",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/brevity-enthymeme.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Douglas Walton and Chris Reed, Synthese 145(3), 339-370 (2005), University of Dundee research portal",
+   "dcterms:title": "Argumentation schemes and enthymemes",
+   "schema:url": {
+    "@id": "https://discovery.dundee.ac.uk/en/publications/argumentation-schemes-and-enthymemes/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Douglas Walton, Chris Reed and Fabrizio Macagno, Cambridge University Press (2008)",
+   "dcterms:title": "Schemes and Enthymemes, ch. 6 of Argumentation Schemes",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/argumentation-schemes/schemes-and-enthymemes/8C7B59E1AEB52B8578CA57A4364C651E"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive (MIT)",
+   "dcterms:title": "Rhetoric, Book I (trans. W. Rhys Roberts)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/rhetoric.1.i.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Wayne Grennan, Informal Logic 16(3), 185-196 (1994)",
+   "dcterms:title": "Are 'Gap-Fillers' Missing Premisses?",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2456.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/enthymeme/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Lee C. Archie, Philosophy Department, Lander University",
+   "dcterms:title": "Enthymemes",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/enthy.html"
    }
   },
   {

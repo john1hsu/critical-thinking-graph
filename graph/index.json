@@ -7436,6 +7436,102 @@
   ]
  },
  {
+  "id": "ct:enthymeme",
+  "title": "Enthymeme",
+  "aliases": [
+   "incomplete argument",
+   "argument with a missing premise",
+   "rhetorical syllogism"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/enthymeme.md",
+  "created": "2026-11-13",
+  "summary": "An argument in which a premise, or sometimes the conclusion, is left unstated because the audience is expected to supply it; finding and fairly filling that gap is a core step in reconstructing and evaluating everyday arguments.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:aristotles-rhetoric",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:argumentation-schemes",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/enthymeme-inference.html",
+   "https://plato.stanford.edu/ENTRIES/aristotle-rhetoric/brevity-enthymeme.html",
+   "https://discovery.dundee.ac.uk/en/publications/argumentation-schemes-and-enthymemes/",
+   "https://www.cambridge.org/core/books/argumentation-schemes/schemes-and-enthymemes/8C7B59E1AEB52B8578CA57A4364C651E",
+   "https://classics.mit.edu/Aristotle/rhetoric.1.i.html",
+   "https://distantreader.org/stacks/journals/il/il-2456.pdf",
+   "https://philosophy.lander.edu/logic/enthy.html"
+  ]
+ },
+ {
   "id": "ct:epidemiology",
   "title": "Epidemiology",
   "aliases": [
