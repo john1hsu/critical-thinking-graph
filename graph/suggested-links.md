@@ -19,7 +19,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.24 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
 | 3.23 | `ct:exclusive-premises` | `ct:illicit-minor` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:formal-fallacy`, `ct:illicit-major`, `ct:method-of-counterexample` |
 | 3.16 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:cognitive-bias`, `ct:daniel-kahneman`, `ct:expected-utility-theory`, `ct:heuristics-and-biases-program` |
-| 3.14 | `ct:categorical-syllogism` | `ct:formal-fallacy` | `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms`, `ct:illicit-major` |
+| 3.13 | `ct:categorical-syllogism` | `ct:formal-fallacy` | `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms`, `ct:illicit-major` |
 | 3.12 | `ct:aristotle` | `ct:informal-fallacy` | `ct:amphiboly`, `ct:argument-from-consequences`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:equivocation` |
 | 3.12 | `ct:formal-fallacy` | `ct:rules-of-the-categorical-syllogism` | `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms`, `ct:illicit-major`, `ct:illicit-minor` |
 | 3.08 | `ct:argumentation-theory` | `ct:reasoning` | `ct:argument`, `ct:argumentation`, `ct:argumentative-theory-of-reasoning`, `ct:legal-reasoning`, `ct:logic` |

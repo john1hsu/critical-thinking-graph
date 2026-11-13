@@ -18286,6 +18286,79 @@
   ]
  },
  {
+  "id": "ct:social-psychology",
+  "title": "Social psychology",
+  "aliases": [
+   "experimental social psychology"
+  ],
+  "type": "Field",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/cognitive-biases/social-psychology.md",
+  "created": "2026-11-13",
+  "summary": "The empirical science of how individuals' thoughts, feelings and behaviour are shaped by the actual, imagined or implied presence of other people, studied mainly through laboratory and field experiments.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fundamental-attribution-error"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:elaboration-likelihood-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-nisbett"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:william-j-mcguire"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:kurt-lewin",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:emile-durkheim",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:replication-crisis",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://opentextbc.ca/socialpsychology/chapter/defining-social-psychology-history-and-principles/",
+   "https://eclass.uowm.gr/modules/document/file.php/NURED262/Chryssochoou%20Social%20Psychology%202015%20IESBS.pdf",
+   "https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf",
+   "https://www.britannica.com/science/social-psychology"
+  ]
+ },
+ {
   "id": "ct:socratic-method",
   "title": "Socratic method",
   "aliases": [

@@ -141,7 +141,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:scientific-method` | cto:Method |
 | `ct:selection-bias` | cto:Phenomenon |
 
-…and 4 more.
+…and 5 more.
 
 ## Orphan articles (gap)
 

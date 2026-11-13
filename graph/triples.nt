@@ -7702,6 +7702,32 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2000/01/rdf-schema#label> "Social psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "experimental social psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#definition> "The empirical science of how individuals' thoughts, feelings and behaviour are shaped by the actual, imagined or implied presence of other people, studied mainly through laboratory and field experiments." .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Social psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-nisbett> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/social-psychology.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/emile-durkheim> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kurt-lewin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
 <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2000/01/rdf-schema#label> "Socratic method" .
@@ -13969,6 +13995,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/slippery-slope/s4> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/02%3A_Common_Fallacies_(and_How_to_Find_Them)/2.06%3A_Slippery_Slope_Arguments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s1> <http://purl.org/dc/terms/publisher> "Principles of Social Psychology, open textbook, BCcampus Open Education (opentextbc.ca), ch. 1.1" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s1> <http://purl.org/dc/terms/title> "Defining Social Psychology: History and Principles" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s1> <https://schema.org/url> <https://opentextbc.ca/socialpsychology/chapter/defining-social-psychology-history-and-principles/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s2> <http://purl.org/dc/terms/publisher> "International Encyclopedia of the Social & Behavioral Sciences, 2nd ed., vol. 22, pp. 532-537 (Xenia Chryssochoou, Elsevier, 2015), copy hosted at the University of Western Macedonia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s2> <http://purl.org/dc/terms/title> "Social Psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s2> <https://schema.org/url> <https://eclass.uowm.gr/modules/document/file.php/NURED262/Chryssochoou%20Social%20Psychology%202015%20IESBS.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s3> <http://purl.org/dc/terms/publisher> "Science 349(6251), aac4716 (Open Science Collaboration, 2015), copy hosted at the University of Dundee" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s3> <http://purl.org/dc/terms/title> "Estimating the reproducibility of psychological science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s3> <https://schema.org/url> <https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s4> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s4> <http://purl.org/dc/terms/title> "Social psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s4> <https://schema.org/url> <https://www.britannica.com/science/social-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://purl.org/dc/terms/publisher> "Behaviour Research and Therapy 70:32-37 (Braun, Strunk, Sasso and Cooper, 2015), PMC author manuscript" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/socratic-method/s1> <http://purl.org/dc/terms/title> "Therapist use of Socratic questioning predicts session-to-session symptom change in cognitive therapy for depression" .

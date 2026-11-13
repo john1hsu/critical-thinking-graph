@@ -17180,6 +17180,76 @@
    ]
   },
   {
+   "@id": "ct:social-psychology",
+   "@type": "cto:Field",
+   "cto:challengedBy": {
+    "@id": "ct:replication-crisis"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/cognitive-biases/social-psychology.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:emile-durkheim"
+    },
+    {
+     "@id": "ct:kurt-lewin"
+    }
+   ],
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s4"
+    }
+   ],
+   "rdfs:label": "Social psychology",
+   "skos:altLabel": "experimental social psychology",
+   "skos:broader": {
+    "@id": "ct:psychology"
+   },
+   "skos:definition": "The empirical science of how individuals' thoughts, feelings and behaviour are shaped by the actual, imagined or implied presence of other people, studied mainly through laboratory and field experiments.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Social psychology",
+   "skos:related": [
+    {
+     "@id": "ct:cognitive-psychology"
+    },
+    {
+     "@id": "ct:elaboration-likelihood-model"
+    },
+    {
+     "@id": "ct:fundamental-attribution-error"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:richard-nisbett"
+    },
+    {
+     "@id": "ct:william-j-mcguire"
+    }
+   ]
+  },
+  {
    "@id": "ct:socratic-method",
    "@type": "cto:Method",
    "cto:appliedIn": [
@@ -37974,6 +38044,62 @@
    "dcterms:title": "2.6: Slippery Slope Arguments",
    "schema:url": {
     "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/02%3A_Common_Fallacies_(and_How_to_Find_Them)/2.06%3A_Slippery_Slope_Arguments"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Principles of Social Psychology, open textbook, BCcampus Open Education (opentextbc.ca), ch. 1.1",
+   "dcterms:title": "Defining Social Psychology: History and Principles",
+   "schema:url": {
+    "@id": "https://opentextbc.ca/socialpsychology/chapter/defining-social-psychology-history-and-principles/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "International Encyclopedia of the Social & Behavioral Sciences, 2nd ed., vol. 22, pp. 532-537 (Xenia Chryssochoou, Elsevier, 2015), copy hosted at the University of Western Macedonia",
+   "dcterms:title": "Social Psychology",
+   "schema:url": {
+    "@id": "https://eclass.uowm.gr/modules/document/file.php/NURED262/Chryssochoou%20Social%20Psychology%202015%20IESBS.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Science 349(6251), aac4716 (Open Science Collaboration, 2015), copy hosted at the University of Dundee",
+   "dcterms:title": "Estimating the reproducibility of psychological science",
+   "schema:url": {
+    "@id": "https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-psychology/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Social psychology",
+   "schema:url": {
+    "@id": "https://www.britannica.com/science/social-psychology"
    }
   },
   {
