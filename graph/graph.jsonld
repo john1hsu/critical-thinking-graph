@@ -172,6 +172,87 @@
    ]
   },
   {
+   "@id": "ct:ad-hoc-hypothesis",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:inference-to-the-best-explanation"
+    }
+   ],
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:duhem-quine-thesis"
+   },
+   "cto:file": "articles/scientific-reasoning/ad-hoc-hypothesis.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:falsifiability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s5"
+    }
+   ],
+   "rdfs:label": "Ad hoc hypothesis",
+   "skos:altLabel": [
+    "ad hoc auxiliary hypothesis",
+    "ad hoc modification",
+    "ad hoc rescue",
+    "ad hocness"
+   ],
+   "skos:broader": {
+    "@id": "ct:scientific-method"
+   },
+   "skos:definition": "An auxiliary assumption added to a theory only to accommodate evidence that would otherwise refute it, with no independent support and no new testable consequences of its own; it protects the theory instead of extending it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Ad hoc hypothesis",
+   "skos:related": [
+    {
+     "@id": "ct:duhem-quine-thesis"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:no-true-scotsman"
+    },
+    {
+     "@id": "ct:occams-razor"
+    }
+   ]
+  },
+  {
    "@id": "ct:ad-hominem",
    "@type": "cto:InformalFallacy",
    "cto:challengedBy": {
@@ -25967,6 +26048,76 @@
    "dcterms:title": "Actively Open-Minded Thinking Beliefs (AOT)",
    "schema:url": {
     "@id": "https://dlab.sauder.ubc.ca/sjdm/dmidi/Actively_Open-Minded_Thinking_Beliefs.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Shea)",
+   "dcterms:title": "Karl Popper: Philosophy of Science",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/pop-sci/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Journal of the American Philosophical Association 9(4) (Smid, 2023)",
+   "dcterms:title": "The Magic of Ad Hoc Solutions",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/244434941F3F11E1AB9BE7A50240A071/core-reader"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Philosophy of Science 79(1) (Hunt, 2012)",
+   "dcterms:title": "On Ad Hoc Hypotheses",
+   "schema:url": {
+    "@id": "https://cambridge.org/core/journals/philosophy-of-science/article/on-ad-hoc-hypotheses/EE289E1F40825CEEB93B7F3DD12AC201"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Stanford, rev. 2023)",
+   "dcterms:title": "Underdetermination of Scientific Theory",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/scientific-underdetermination/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-hoc-hypothesis/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "arXiv (Friederich, Harlander and Karaca)",
+   "dcterms:title": "Philosophical perspectives on ad hoc hypotheses and the Higgs mechanism",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/1305.5110"
    }
   },
   {

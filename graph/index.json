@@ -171,6 +171,89 @@
   ]
  },
  {
+  "id": "ct:ad-hoc-hypothesis",
+  "title": "Ad hoc hypothesis",
+  "aliases": [
+   "ad hoc rescue",
+   "ad hoc auxiliary hypothesis",
+   "ad hoc modification",
+   "ad hocness"
+  ],
+  "type": "Concept",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/ad-hoc-hypothesis.md",
+  "created": "2026-11-13",
+  "summary": "An auxiliary assumption added to a theory only to accommodate evidence that would otherwise refute it, with no independent support and no new testable consequences of its own; it protects the theory instead of extending it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:duhem-quine-thesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:no-true-scotsman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:occams-razor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:duhem-quine-thesis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:falsifiability",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inference-to-the-best-explanation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/pop-sci/",
+   "https://www.cambridge.org/core/product/244434941F3F11E1AB9BE7A50240A071/core-reader",
+   "https://cambridge.org/core/journals/philosophy-of-science/article/on-ad-hoc-hypotheses/EE289E1F40825CEEB93B7F3DD12AC201",
+   "https://plato.stanford.edu/entries/scientific-underdetermination/",
+   "https://arxiv.org/pdf/1305.5110"
+  ]
+ },
+ {
   "id": "ct:ad-hominem",
   "title": "Ad hominem",
   "aliases": [

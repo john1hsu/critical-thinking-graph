@@ -111,6 +111,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
+| `ct:ad-hoc-hypothesis` | cto:Concept |
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:deepfake` | cto:Phenomenon |
@@ -140,9 +141,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:reasoning` | cto:Concept |
 | `ct:replication-crisis` | cto:Phenomenon |
 | `ct:risk-communication` | cto:Field |
-| `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 
-…and 8 more.
+…and 9 more.
 
 ## Orphan articles (gap)
 
