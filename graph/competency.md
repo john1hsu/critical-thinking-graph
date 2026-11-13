@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:denying-a-conjunct` | cto:FormalFallacy |
 
 ## Most useful remedies
 
@@ -111,6 +113,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:deepfake` | cto:Phenomenon |
+| `ct:denying-a-conjunct` | cto:FormalFallacy |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
 | `ct:existential-import` | cto:Concept |
@@ -137,9 +140,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:rules-of-the-categorical-syllogism` | cto:Technique |
 | `ct:scientific-method` | cto:Method |
 | `ct:selection-bias` | cto:Phenomenon |
-| `ct:slippery-slope` | cto:InformalFallacy |
 
-…and 5 more.
+…and 6 more.
 
 ## Orphan articles (gap)
 

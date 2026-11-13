@@ -6380,6 +6380,93 @@
   ]
  },
  {
+  "id": "ct:denying-a-conjunct",
+  "title": "Denying a conjunct",
+  "aliases": [
+   "denying one conjunct"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/denying-a-conjunct.md",
+  "created": "2026-11-13",
+  "summary": "The invalid inference from \"not both P and Q\" and \"not P\" to \"Q\", which forgets that denying a conjunction leaves open the case where both conjuncts are false.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-a-disjunct"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:false-dilemma"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stoic-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:chrysippus"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:conjunctive-syllogism",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:conjunctive-syllogism",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:disjunctive-syllogism",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Could both conjuncts be false at the same time?",
+   "Has anyone actually established that at least one of the two options must hold, or is that an unstated assumption?",
+   "Does the denied conjunct, on its own, imply the conclusion regardless of the \"not both\" premise?",
+   "Is the speaker treating \"they can't both be true\" as if it meant \"it has to be one or the other\"?"
+  ],
+  "source_urls": [
+   "https://fallacyfiles.org/denyconj.html",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/04%3A_Deductive_Arguments/4.06%3A_Formal_Fallacies",
+   "https://philarchive.org/archive/BOBDAT-2",
+   "https://modeltheory.org/papers/ssk/ssk2012negating-compound-sentences.pdf",
+   "https://www.uvm.edu/~jbailly/courses/196Stoicism/notes/StoicLogic.html"
+  ]
+ },
+ {
   "id": "ct:denying-the-antecedent",
   "title": "Denying the antecedent",
   "aliases": [

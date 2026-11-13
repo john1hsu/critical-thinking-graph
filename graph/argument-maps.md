@@ -187,6 +187,17 @@ flowchart TD
   o2["A freshly calibrated thermometer on the same desk reads 26 degrees (rebutting defeater)."] -. attacks .-> ra
 ```
 
+## Denying a conjunct (`ct:denying-a-conjunct`)
+
+```mermaid
+flowchart TD
+  p1["The outage was not caused by both the database migration and the network change."] --> ra{{"invalid"}}
+  p2["The outage was not caused by the database migration."] --> ra{{"invalid"}}
+  ra --> c["The outage was caused by the network change."]
+  o1["Neither change may be responsible; a third cause, such as an expired certificate, fits both premises."] -. attacks .-> ra
+  o2["The premises only rule out the two changes acting together; they never say one of them must be the cause."] -. attacks .-> ra
+```
+
 ## Denying the antecedent (`ct:denying-the-antecedent`)
 
 ```mermaid

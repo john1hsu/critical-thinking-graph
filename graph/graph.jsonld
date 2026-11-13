@@ -5975,6 +5975,88 @@
    ]
   },
   {
+   "@id": "ct:denying-a-conjunct",
+   "@type": "cto:FormalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:conjunctive-syllogism"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:disjunctive-syllogism"
+   },
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map"
+   },
+   "cto:file": "articles/formal-fallacies/denying-a-conjunct.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:conjunctive-syllogism"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:propositional-logic"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s5"
+    }
+   ],
+   "rdfs:label": "Denying a conjunct",
+   "skos:altLabel": "denying one conjunct",
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The invalid inference from \"not both P and Q\" and \"not P\" to \"Q\", which forgets that denying a conjunction leaves open the case where both conjuncts are false.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Denying a conjunct",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-a-disjunct"
+    },
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:chrysippus"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:false-dilemma"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    }
+   ]
+  },
+  {
    "@id": "ct:denying-the-antecedent",
    "@type": "cto:FormalFallacy",
    "cto:confusedWith": {
@@ -22520,6 +22602,112 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:denying-a-conjunct"
+   },
+   "rdfs:label": "Could both conjuncts be false at the same time?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:denying-a-conjunct"
+   },
+   "rdfs:label": "Has anyone actually established that at least one of the two options must hold, or is that an unstated assumption?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:denying-a-conjunct"
+   },
+   "rdfs:label": "Does the denied conjunct, on its own, imply the conclusion regardless of the \"not both\" premise?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:denying-a-conjunct"
+   },
+   "rdfs:label": "Is the speaker treating \"they can't both be true\" as if it meant \"it has to be one or the other\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:denying-a-conjunct"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The outage was caused by the network change."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Neither change may be responsible; a third cause, such as an expired certificate, fits both premises."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The premises only rule out the two changes acting together; they never say one of them must be the cause."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The outage was not caused by both the database migration and the network change."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The outage was not caused by the database migration."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:conjunctive-syllogism"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -29841,6 +30029,76 @@
    "dcterms:title": "1.7 Expert Consensus Statement (GEOG 882: Geographic Foundations of Geospatial Intelligence)",
    "schema:url": {
     "@id": "https://courses.ems.psu.edu/geog882/node/2118"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Denying a Conjunct",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/denyconj.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Critical Reasoning and Writing (Noah Levin et al.), Golden West College / NGE Far Press, via Humanities LibreTexts",
+   "dcterms:title": "4.06: Formal Fallacies",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/04%3A_Deductive_Arguments/4.06%3A_Formal_Fallacies"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Phronesis (Susanne Bobzien; accepted 2019), author's copy on PhilArchive",
+   "dcterms:title": "Demonstration and the Indemonstrability of the Stoic Indemonstrables",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/BOBDAT-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Proceedings of the 34th Annual Meeting of the Cognitive Science Society (Khemlani, Orenes & Johnson-Laird, 2012), author's copy",
+   "dcterms:title": "Negating compound sentences",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/ssk/ssk2012negating-compound-sentences.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/denying-a-conjunct/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "University of Vermont",
+   "dcterms:title": "Stoic Logic (CLAS 196/PHIL 196 Stoicism course notes)",
+   "schema:url": {
+    "@id": "https://www.uvm.edu/~jbailly/courses/196Stoicism/notes/StoicLogic.html"
    }
   },
   {
