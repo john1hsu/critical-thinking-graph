@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:motivated-reasoning` | cto:CognitiveBias |
 | `ct:no-true-scotsman` | cto:InformalFallacy |
 
 ## Most useful remedies
@@ -39,6 +38,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
 | `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
+| `ct:self-affirmation` | 2 | Motivated reasoning, biased-assimilation |
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
@@ -46,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:antilogism` | 1 | Exclusive premises |
 | `ct:argument-mapping` | 1 | Begging the question |
 | `ct:bright-line-rule` | 1 | Slippery slope |
-| `ct:de-morgans-laws` | 1 | Denying a conjunct |
 
-…and 21 more.
+…and 22 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -89,15 +88,15 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:recognition-heuristic` | contested | `ct:basehore-anderson-2016-recognition-tests` |
 | `ct:reversal-test` | contested | `ct:clarke-2016-reversal-test-critique` |
 | `ct:reversal-test` | contested | `ct:nebel-2015-status-quo-conservatism-about-value` |
+| `ct:self-affirmation` | contested | `ct:hanselman-2017-self-affirmation-school-replication` |
+| `ct:self-affirmation` | contested | `ct:lyons-2022-self-affirmation-political-replications` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:affect-heuristic` | mixed |  |
 | `ct:argument-mapping` | mixed |  |
-| `ct:attribute-substitution` | mixed | `ct:effort-reduction-framework` |
-| `ct:availability-heuristic` | mixed | `ct:yeager-2019-national-sample-replications` |
 
-…and 48 more.
+…and 50 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

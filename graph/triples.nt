@@ -8247,6 +8247,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
 <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/econometrics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2000/01/rdf-schema#label> "Self-affirmation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#altLabel> "affirming the self" .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#altLabel> "self-affirmation intervention" .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#altLabel> "values affirmation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#definition> "A brief intervention in which a person reflects on a personally important value or source of self-worth before meeting threatening information, intended to lower the defensive, motivated processing that otherwise leads them to discount unwelcome evidence." .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Self-affirmation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hanselman-2017-self-affirmation-school-replication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/lyons-2022-self-affirmation-political-replications> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/cohen-aronson-steele-2000-self-affirmation-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/self-affirmation.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/claude-steele> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/epton-2015-self-affirmation-health-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2000/01/rdf-schema#label> "Sherman Kent" .
@@ -15141,6 +15174,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/selection-bias/s5> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/21001024/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s1> <http://purl.org/dc/terms/publisher> "Current Directions in Psychological Science 11(4), 119-123 (Sherman & Cohen, 2002), author's copy, UC Santa Barbara" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s1> <http://purl.org/dc/terms/title> "Accepting threatening information: Self-affirmation and the reduction of defensive biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s1> <https://schema.org/url> <https://labs.psych.ucsb.edu/sherman/david/sites/labs.psych.ucsb.edu.sherman.david/files/pubs/sherman_cohen_2002.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s2> <http://purl.org/dc/terms/publisher> "Health Psychology 34(3), 187-196 (Epton, Harris, Kane, van Koningsbruggen & Sheeran, 2015), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s2> <http://purl.org/dc/terms/title> "The impact of self-affirmation on health-behavior change: a meta-analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s2> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/25133846/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s3> <http://purl.org/dc/terms/publisher> "Journal of Experimental Political Science 9(2), 225-240 (Lyons et al., 2022), Cambridge University Press" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s3> <http://purl.org/dc/terms/title> "Self-Affirmation and Identity-Driven Political Behavior" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s3> <https://schema.org/url> <https://www.cambridge.org/core/product/259498FE3F921E731CA8644F607030A2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> <http://purl.org/dc/terms/publisher> "Journal of Educational Psychology 109(3), 405-424 (Hanselman, Rozek, Grigg & Borman, 2017), Washington University in St. Louis research profile" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> <http://purl.org/dc/terms/title> "New evidence on self-affirmation effects and theorized sources of heterogeneity from large-scale replications" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> <https://schema.org/url> <https://profiles.wustl.edu/en/publications/new-evidence-on-self-affirmation-effects-and-theorized-sources-of/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/publisher> "Jack Davis (November 2002), Sherman Kent Center for Intelligence Analysis Occasional Papers 1(5), Central Intelligence Agency" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/title> "Sherman Kent and the Profession of Intelligence Analysis" .

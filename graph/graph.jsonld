@@ -18437,6 +18437,97 @@
    ]
   },
   {
+   "@id": "ct:self-affirmation",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:risk-communication"
+   },
+   "cto:challengedBy": [
+    {
+     "@id": "ct:hanselman-2017-self-affirmation-school-replication"
+    },
+    {
+     "@id": "ct:lyons-2022-self-affirmation-political-replications"
+    }
+   ],
+   "cto:counteracts": [
+    {
+     "@id": "ct:biased-assimilation"
+    },
+    {
+     "@id": "ct:motivated-reasoning"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:cohen-aronson-steele-2000-self-affirmation-study"
+   },
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/debiasing-and-metacognition/self-affirmation.md",
+   "cto:introducedBy": {
+    "@id": "ct:claude-steele"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:motivated-reasoning"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:epton-2015-self-affirmation-health-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4"
+    }
+   ],
+   "rdfs:label": "Self-affirmation",
+   "skos:altLabel": [
+    "affirming the self",
+    "self-affirmation intervention",
+    "values affirmation"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A brief intervention in which a person reflects on a personally important value or source of self-worth before meeting threatening information, intended to lower the defensive, motivated processing that otherwise leads them to discount unwelcome evidence.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Self-affirmation",
+   "skos:related": [
+    {
+     "@id": "ct:biased-assimilation"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    },
+    {
+     "@id": "ct:motivated-reasoning"
+    },
+    {
+     "@id": "ct:risk-communication"
+    }
+   ]
+  },
+  {
    "@id": "ct:sherman-kent",
    "@type": "cto:Person",
    "cto:authored": {
@@ -41117,6 +41208,62 @@
    "dcterms:title": "Limitations of the application of fourfold table analysis to hospital data",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/21001024/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Current Directions in Psychological Science 11(4), 119-123 (Sherman & Cohen, 2002), author's copy, UC Santa Barbara",
+   "dcterms:title": "Accepting threatening information: Self-affirmation and the reduction of defensive biases",
+   "schema:url": {
+    "@id": "https://labs.psych.ucsb.edu/sherman/david/sites/labs.psych.ucsb.edu.sherman.david/files/pubs/sherman_cohen_2002.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Health Psychology 34(3), 187-196 (Epton, Harris, Kane, van Koningsbruggen & Sheeran, 2015), PubMed record",
+   "dcterms:title": "The impact of self-affirmation on health-behavior change: a meta-analysis",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/25133846/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Journal of Experimental Political Science 9(2), 225-240 (Lyons et al., 2022), Cambridge University Press",
+   "dcterms:title": "Self-Affirmation and Identity-Driven Political Behavior",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/259498FE3F921E731CA8644F607030A2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Journal of Educational Psychology 109(3), 405-424 (Hanselman, Rozek, Grigg & Borman, 2017), Washington University in St. Louis research profile",
+   "dcterms:title": "New evidence on self-affirmation effects and theorized sources of heterogeneity from large-scale replications",
+   "schema:url": {
+    "@id": "https://profiles.wustl.edu/en/publications/new-evidence-on-self-affirmation-effects-and-theorized-sources-of/"
    }
   },
   {

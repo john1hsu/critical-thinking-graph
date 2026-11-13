@@ -19635,6 +19635,111 @@
   ]
  },
  {
+  "id": "ct:self-affirmation",
+  "title": "Self-affirmation",
+  "aliases": [
+   "values affirmation",
+   "self-affirmation intervention",
+   "affirming the self"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/debiasing-and-metacognition/self-affirmation.md",
+  "created": "2026-11-13",
+  "summary": "A brief intervention in which a person reflects on a personally important value or source of self-worth before meeting threatening information, intended to lower the defensive, motivated processing that otherwise leads them to discount unwelcome evidence.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:motivated-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:biased-assimilation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:motivated-reasoning"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:motivated-reasoning",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:biased-assimilation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:claude-steele",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:cohen-aronson-steele-2000-self-affirmation-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:epton-2015-self-affirmation-health-meta-analysis",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:lyons-2022-self-affirmation-political-replications",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:hanselman-2017-self-affirmation-school-replication",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:risk-communication",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://labs.psych.ucsb.edu/sherman/david/sites/labs.psych.ucsb.edu.sherman.david/files/pubs/sherman_cohen_2002.pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/25133846/",
+   "https://www.cambridge.org/core/product/259498FE3F921E731CA8644F607030A2",
+   "https://profiles.wustl.edu/en/publications/new-evidence-on-self-affirmation-effects-and-theorized-sources-of/"
+  ]
+ },
+ {
   "id": "ct:sherman-kent",
   "title": "Sherman Kent",
   "aliases": [
