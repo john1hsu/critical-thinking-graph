@@ -19250,6 +19250,79 @@
    ]
   },
   {
+   "@id": "ct:suspension-of-judgment",
+   "@type": "cto:Principle",
+   "cto:counteracts": {
+    "@id": "ct:argument-from-ignorance"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:evidentialism"
+   },
+   "cto:file": "articles/philosophy-of-reasoning/suspension-of-judgment.md",
+   "cto:influencedBy": {
+    "@id": "ct:philosophical-skepticism"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:epistemology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s4"
+    }
+   ],
+   "rdfs:label": "Suspension of judgment",
+   "skos:altLabel": [
+    "agnosticism about a question",
+    "epoche",
+    "suspended judgment",
+    "withholding judgment"
+   ],
+   "skos:broader": {
+    "@id": "ct:epistemology"
+   },
+   "skos:definition": "The attitude of neither believing nor disbelieving a proposition while its question stays open, and the norm that this is the fitting response when the evidence supports neither side.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Suspension of judgment",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:argument-from-ignorance"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:false-dilemma"
+    },
+    {
+     "@id": "ct:philosophical-skepticism"
+    },
+    {
+     "@id": "ct:pyrrho"
+    }
+   ]
+  },
+  {
    "@id": "ct:syllogism",
    "@type": "cto:ReasoningForm",
    "cto:domain": "formal-logic",
@@ -40473,6 +40546,62 @@
    "dcterms:title": "Chan A-W, Hròbjartsson A, Haahr M, Gøtzsche PC, Altman DG (2004)",
    "schema:url": {
     "@id": "https://www.jameslindlibrary.org/chan-a-w-hrobjartsson-a-haahr-m-gotzsche-pc-altman-dg-2004/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Philosophical Studies 162(2), 165-181 (Friedman, 2013), author's copy",
+   "dcterms:title": "Suspended Judgment",
+   "schema:url": {
+    "@id": "https://jfriedmanphilo.github.io/SJ.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Mittag)",
+   "dcterms:title": "Evidentialism",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/evidentialism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2002 (Wagemans), Rozenberg Quarterly",
+   "dcterms:title": "Conceptualizing Fallacies: The Informal Logic and Pragma-Dialectic Approaches to the Argumentum ad Ignorantiam",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2002-conceptualizing-fallacies-the-informal-logic-and-pragma-dialectic-approaches-to-the-argumentum-ad-ignorantiam/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-13"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Groarke, Spring 2003 edition)",
+   "dcterms:title": "Ancient Skepticism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2003/entries/skepticism-ancient/"
    }
   },
   {

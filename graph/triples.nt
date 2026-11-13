@@ -14970,6 +14970,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s5> <https://schema.org/url> <https://www.jameslindlibrary.org/chan-a-w-hrobjartsson-a-haahr-m-gotzsche-pc-altman-dg-2004/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> <http://purl.org/dc/terms/publisher> "Philosophical Studies 162(2), 165-181 (Friedman, 2013), author's copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> <http://purl.org/dc/terms/title> "Suspended Judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> <https://schema.org/url> <https://jfriedmanphilo.github.io/SJ.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s2> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Mittag)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s2> <http://purl.org/dc/terms/title> "Evidentialism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s2> <https://schema.org/url> <https://iep.utm.edu/evidentialism/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s3> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s3> <http://purl.org/dc/terms/publisher> "ISSA Proceedings 2002 (Wagemans), Rozenberg Quarterly" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s3> <http://purl.org/dc/terms/title> "Conceptualizing Fallacies: The Informal Logic and Pragma-Dialectic Approaches to the Argumentum ad Ignorantiam" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s3> <https://schema.org/url> <https://rozenbergquarterly.com/issa-proceedings-2002-conceptualizing-fallacies-the-informal-logic-and-pragma-dialectic-approaches-to-the-argumentum-ad-ignorantiam/?print=pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s4> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Groarke, Spring 2003 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s4> <http://purl.org/dc/terms/title> "Ancient Skepticism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2003/entries/skepticism-ancient/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Smith, Spring 2006 archive edition)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/syllogism/s1> <http://purl.org/dc/terms/title> "Aristotle's Logic" .
@@ -15927,6 +15951,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/dwan-2013-outcome-reporting-bias-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2000/01/rdf-schema#label> "Suspension of judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#altLabel> "agnosticism about a question" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#altLabel> "epoche" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#altLabel> "suspended judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#altLabel> "withholding judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#definition> "The attitude of neither believing nor disbelieving a proposition while its question stays open, and the norm that this is the fitting response when the evidence supports neither side." .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Suspension of judgment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/evidentialism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/suspension-of-judgment.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "All database migrations need an approved code review." .
 <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism/map/ra> .

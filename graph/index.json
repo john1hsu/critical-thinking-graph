@@ -20485,6 +20485,84 @@
   ]
  },
  {
+  "id": "ct:suspension-of-judgment",
+  "title": "Suspension of judgment",
+  "aliases": [
+   "suspended judgment",
+   "withholding judgment",
+   "epoche",
+   "agnosticism about a question"
+  ],
+  "type": "Principle",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/suspension-of-judgment.md",
+  "created": "2026-11-13",
+  "summary": "The attitude of neither believing nor disbelieving a proposition while its question stays open, and the norm that this is the fitting response when the evidence supports neither side.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-ignorance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophical-skepticism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pyrrho"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:false-dilemma"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:argument-from-ignorance",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:evidentialism",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:philosophical-skepticism",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://jfriedmanphilo.github.io/SJ.pdf",
+   "https://iep.utm.edu/evidentialism/",
+   "https://rozenbergquarterly.com/issa-proceedings-2002-conceptualizing-fallacies-the-informal-logic-and-pragma-dialectic-approaches-to-the-argumentum-ad-ignorantiam/?print=pdf",
+   "https://plato.stanford.edu/archives/spr2003/entries/skepticism-ancient/"
+  ]
+ },
+ {
   "id": "ct:syllogism",
   "title": "Syllogism",
   "aliases": [
