@@ -3401,6 +3401,108 @@
    ]
   },
   {
+   "@id": "ct:broad-bracketing",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:narrow-bracketing"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:loss-aversion"
+    },
+    {
+     "@id": "ct:myopic-loss-aversion"
+    }
+   ],
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/broad-bracketing.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:daniel-read"
+    },
+    {
+     "@id": "ct:george-loewenstein"
+    },
+    {
+     "@id": "ct:matthew-rabin"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:loss-aversion"
+   },
+   "cto:supportedBy": [
+    {
+     "@id": "ct:gneezy-potters-1997-evaluation-periods"
+    },
+    {
+     "@id": "ct:sokol-hessner-2009-thinking-like-a-trader"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6"
+    }
+   ],
+   "rdfs:label": "Broad bracketing",
+   "skos:altLabel": [
+    "broad framing",
+    "portfolio framing",
+    "thinking like a trader"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A decision technique of evaluating a risky choice together with the many similar choices it belongs to, as one item in a portfolio, instead of in isolation, which reduces the pull of loss aversion on each separate decision.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Broad bracketing",
+   "skos:related": [
+    {
+     "@id": "ct:decision-analysis"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:inside-view"
+    },
+    {
+     "@id": "ct:loss-aversion"
+    },
+    {
+     "@id": "ct:outside-view"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    },
+    {
+     "@id": "ct:risk-aversion"
+    }
+   ]
+  },
+  {
    "@id": "ct:burden-of-proof",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -13374,6 +13476,9 @@
    "skos:related": [
     {
      "@id": "ct:behavioral-economics"
+    },
+    {
+     "@id": "ct:broad-bracketing"
     },
     {
      "@id": "ct:endowment-effect"
@@ -30908,6 +31013,90 @@
    "dcterms:title": "The Slippery Slope Argument - Probability, Utility & Category Reappraisal",
    "schema:url": {
     "@id": "https://escholarship.org/content/qt4m59x3cq/qt4m59x3cq.pdf?t=op2kje"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Journal of Risk and Uncertainty 19(1-3), 171-197 (Read, Loewenstein & Rabin, 1999), RePEc/IDEAS record",
+   "dcterms:title": "Choice Bracketing",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/kap/jrisku/v19y1999i1-3p171-97.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Management Science 39(1), 17-31 (Kahneman & Lovallo, 1993), RePEc/IDEAS record",
+   "dcterms:title": "Timid Choices and Bold Forecasts: A Cognitive Perspective on Risk Taking",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/ormnsc/v39y1993i1p17-31.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Quarterly Journal of Economics 112(2), 631-645 (Gneezy & Potters, 1997), author's copy, UC San Diego Rady School",
+   "dcterms:title": "An Experiment on Risk Taking and Evaluation Periods",
+   "schema:url": {
+    "@id": "https://Rady.ucsd.edu/_files/faculty-research/uri-gneezy/risk-taking.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Proceedings of the National Academy of Sciences 106, 5035 (Sokol-Hessner, Hsu, Curley, Delgado, Camerer & Phelps, 2009), NASA ADS record",
+   "dcterms:title": "Thinking like a Trader Selectively Reduces Individuals' Loss Aversion",
+   "schema:url": {
+    "@id": "https://ui.adsabs.harvard.edu/abs/2009PNAS..106.5035S/abstract"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Journal of Behavioral Decision Making 34(3), 405-418 (Hadar, Danziger & Morwitz, 2021), author's copy, Columbia Business School",
+   "dcterms:title": "Choice Bracketing and Experience-Based Choice",
+   "schema:url": {
+    "@id": "https://business.columbia.edu/sites/default/files-efs/pubfiles/26353/choice_bracketing.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Management Science, INFORMS (doi 10.1287/mnsc.2024.05720)",
+   "dcterms:title": "The Consequences of Narrow Framing for Risk Taking: A Stress Test of Myopic Loss Aversion",
+   "schema:url": {
+    "@id": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.05720"
    }
   },
   {

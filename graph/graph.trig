@@ -277,6 +277,15 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/debiasing-and-metacognition/broad-bracketing.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6> .
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/debiasing-and-metacognition/consider-the-opposite.md" .
@@ -4167,6 +4176,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loss aversion" .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
@@ -4628,6 +4638,81 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/actively-open-minded-thinking/s5> <https://schema.org/url> <https://dlab.sauder.ubc.ca/sjdm/dmidi/Actively_Open-Minded_Thinking_Beliefs.html> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2000/01/rdf-schema#label> "Broad bracketing" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#altLabel> "broad framing" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#altLabel> "portfolio framing" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#altLabel> "thinking like a trader" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#definition> "A decision technique of evaluating a risky choice together with the many similar choices it belongs to, as one item in a portfolio, instead of in isolation, which reduces the pull of loss aversion on each separate decision." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Broad bracketing" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inside-view> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/narrow-bracketing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/myopic-loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/broad-bracketing.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-read> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/george-loewenstein> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/matthew-rabin> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gneezy-potters-1997-evaluation-periods> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sokol-hessner-2009-thinking-like-a-trader> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1> <http://purl.org/dc/terms/publisher> "Journal of Risk and Uncertainty 19(1-3), 171-197 (Read, Loewenstein & Rabin, 1999), RePEc/IDEAS record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1> <http://purl.org/dc/terms/title> "Choice Bracketing" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s1> <https://schema.org/url> <https://ideas.repec.org/a/kap/jrisku/v19y1999i1-3p171-97.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2> <http://purl.org/dc/terms/publisher> "Management Science 39(1), 17-31 (Kahneman & Lovallo, 1993), RePEc/IDEAS record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2> <http://purl.org/dc/terms/title> "Timid Choices and Bold Forecasts: A Cognitive Perspective on Risk Taking" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s2> <https://schema.org/url> <https://ideas.repec.org/a/inm/ormnsc/v39y1993i1p17-31.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3> <http://purl.org/dc/terms/publisher> "Quarterly Journal of Economics 112(2), 631-645 (Gneezy & Potters, 1997), author's copy, UC San Diego Rady School" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3> <http://purl.org/dc/terms/title> "An Experiment on Risk Taking and Evaluation Periods" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s3> <https://schema.org/url> <https://Rady.ucsd.edu/_files/faculty-research/uri-gneezy/risk-taking.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4> <http://purl.org/dc/terms/publisher> "Proceedings of the National Academy of Sciences 106, 5035 (Sokol-Hessner, Hsu, Curley, Delgado, Camerer & Phelps, 2009), NASA ADS record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4> <http://purl.org/dc/terms/title> "Thinking like a Trader Selectively Reduces Individuals' Loss Aversion" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s4> <https://schema.org/url> <https://ui.adsabs.harvard.edu/abs/2009PNAS..106.5035S/abstract> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5> <http://purl.org/dc/terms/publisher> "Journal of Behavioral Decision Making 34(3), 405-418 (Hadar, Danziger & Morwitz, 2021), author's copy, Columbia Business School" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5> <http://purl.org/dc/terms/title> "Choice Bracketing and Experience-Based Choice" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s5> <https://schema.org/url> <https://business.columbia.edu/sites/default/files-efs/pubfiles/26353/choice_bracketing.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6> <http://purl.org/dc/terms/publisher> "Management Science, INFORMS (doi 10.1287/mnsc.2024.05720)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6> <http://purl.org/dc/terms/title> "The Consequences of Narrow Framing for Risk Taking: A Stress Test of Myopic Loss Aversion" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/broad-bracketing/s6> <https://schema.org/url> <https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.05720> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite#graph> {
@@ -22676,6 +22761,12 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/brodsky-2021-civics-course-fact-checking-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/brodsky-2021-civics-course-fact-checking-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/brodsky-2021-civics-course-fact-checking-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
@@ -23049,6 +23140,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
@@ -23359,6 +23451,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-read> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-read> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-read> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
@@ -23408,6 +23503,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> .
@@ -23427,6 +23523,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> .
@@ -23465,6 +23562,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
@@ -24170,6 +24268,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
   <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
@@ -24243,6 +24342,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-boole> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/george-loewenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/george-loewenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/george-loewenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-polya> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
@@ -24283,6 +24385,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/gilbert-harman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gilbert-harman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gilbert-harman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/gneezy-potters-1997-evaluation-periods> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/goal-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gordon-guyatt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gordon-guyatt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -24770,6 +24873,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> <https://github.com/john1hsu/critical-thinking-graph/ontology#producedBy> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/inside-view> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inside-view> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inside-view> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -24883,6 +24987,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
@@ -25164,7 +25269,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/love-ahiaga-dagbui-2018-cost-overrun-critique> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lucie-olbrechts-tyteca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lucie-olbrechts-tyteca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -25236,7 +25343,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/matthew-rabin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/matthew-rabin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/matthew-rabin> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/matthew-rabin> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/maximizing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/maximizing> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/satisficing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mcdowell-jacobs-2017-natural-frequencies-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
@@ -25429,6 +25539,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/mrkva-2020-moderating-loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mullen-1994-cohesiveness-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
   <https://github.com/john1hsu/critical-thinking-graph/id/multiverse-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/myopic-loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
@@ -25440,6 +25551,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/nagtegaal-2020-public-managers-anchoring-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nagtegaal-2020-public-managers-anchoring-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/naive-realism> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/narrow-bracketing> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-deduction> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-deduction> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -25589,6 +25701,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -26083,6 +26196,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
@@ -26113,6 +26227,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
@@ -26514,6 +26629,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/richards-heuer> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> .
   <https://github.com/john1hsu/critical-thinking-graph/id/richards-heuer> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> .
   <https://github.com/john1hsu/critical-thinking-graph/id/richards-heuer> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
   <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
@@ -26756,6 +26872,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sokol-hessner-2009-thinking-like-a-trader> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soll-klayman-2004-interval-estimates-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soll-klayman-2004-interval-estimates-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soll-klayman-2004-interval-estimates-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .

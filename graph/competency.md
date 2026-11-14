@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:loss-aversion` | cto:CognitiveBias |
 | `ct:take-the-best` | cto:Heuristic |
 
 ## Most useful remedies
@@ -27,6 +26,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:source-monitoring-framework` | 3 | Recognition heuristic, false-fame-effect, misinformation-effect |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Illicit minor, Undistributed middle |
+| `ct:broad-bracketing` | 2 | Loss aversion, myopic-loss-aversion |
 | `ct:causal-diagrams` | 2 | Confounding, Selection bias |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
@@ -46,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
-| `ct:analysis-of-competing-hypotheses` | 1 | Confirmation bias |
 
-…and 26 more.
+…and 27 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -97,7 +96,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:take-the-best` | contested | `ct:newell-2005-re-visions-of-rationality` |
 
-…and 59 more.
+…and 60 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

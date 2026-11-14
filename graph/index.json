@@ -3632,6 +3632,117 @@
   ]
  },
  {
+  "id": "ct:broad-bracketing",
+  "title": "Broad bracketing",
+  "aliases": [
+   "broad framing",
+   "portfolio framing",
+   "thinking like a trader"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/broad-bracketing.md",
+  "created": "2026-11-14",
+  "summary": "A decision technique of evaluating a risky choice together with the many similar choices it belongs to, as one item in a portfolio, instead of in isolation, which reduces the pull of loss aversion on each separate decision.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:outside-view"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inside-view"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:decision-analysis"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:loss-aversion",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:myopic-loss-aversion",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:narrow-bracketing",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:matthew-rabin",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:george-loewenstein",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-read",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:gneezy-potters-1997-evaluation-periods",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:sokol-hessner-2009-thinking-like-a-trader",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ideas.repec.org/a/kap/jrisku/v19y1999i1-3p171-97.html",
+   "https://ideas.repec.org/a/inm/ormnsc/v39y1993i1p17-31.html",
+   "https://Rady.ucsd.edu/_files/faculty-research/uri-gneezy/risk-taking.pdf",
+   "https://ui.adsabs.harvard.edu/abs/2009PNAS..106.5035S/abstract",
+   "https://business.columbia.edu/sites/default/files-efs/pubfiles/26353/choice_bracketing.pdf",
+   "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.05720"
+  ]
+ },
+ {
   "id": "ct:burden-of-proof",
   "title": "Burden of proof",
   "aliases": [
@@ -14312,6 +14423,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:reversal-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:broad-bracketing"
    },
    {
     "predicate": "cto:introducedBy",

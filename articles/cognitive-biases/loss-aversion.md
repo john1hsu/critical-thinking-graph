@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: contested
 broader: [ct:cognitive-bias]
-related: [ct:prospect-theory, ct:endowment-effect, ct:status-quo-bias, ct:framing-effect, ct:sunk-cost-fallacy, ct:risk-aversion, ct:behavioral-economics, ct:richard-thaler, ct:reversal-test]
+related: [ct:prospect-theory, ct:endowment-effect, ct:status-quo-bias, ct:framing-effect, ct:sunk-cost-fallacy, ct:risk-aversion, ct:behavioral-economics, ct:richard-thaler, ct:reversal-test, ct:broad-bracketing]
 requires: []
 relations:
   - {predicate: introducedBy, object: ct:amos-tversky, source: s1, confidence: high}
