@@ -3913,6 +3913,94 @@
    ]
   },
   {
+   "@id": "ct:causal-inference",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:epidemiology"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:associational-inference"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/causal-inference.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:austin-bradford-hill"
+    },
+    {
+     "@id": "ct:donald-rubin"
+    },
+    {
+     "@id": "ct:judea-pearl"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s3"
+    }
+   ],
+   "rdfs:label": "Causal inference",
+   "skos:altLabel": [
+    "causal analysis",
+    "causal reasoning from data",
+    "inference of cause and effect"
+   ],
+   "skos:broader": {
+    "@id": "ct:inductive-reasoning"
+   },
+   "skos:definition": "The study and practice of drawing justified conclusions about cause and effect, rather than mere association, from experiments, observational data and explicit background assumptions, using tools such as potential outcomes, randomization, structural causal models and causal diagrams.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Causal inference",
+   "skos:related": [
+    {
+     "@id": "ct:causal-diagrams"
+    },
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:mills-methods"
+    },
+    {
+     "@id": "ct:necessary-and-sufficient-conditions"
+    },
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:selection-bias"
+    },
+    {
+     "@id": "ct:simpsons-paradox"
+    },
+    {
+     "@id": "ct:statistical-reasoning"
+    }
+   ]
+  },
+  {
    "@id": "ct:charles-hamblin",
    "@type": "cto:Person",
    "cto:authored": {
@@ -31226,6 +31314,48 @@
    "dcterms:title": "Use of directed acyclic graphs (DAGs) to identify confounders in applied health research: review and recommendations",
    "schema:url": {
     "@id": "https://eprints.whiterose.ac.uk/id/eprint/180527/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Statistics Surveys 3:96-146 (Pearl, 2009), doi:10.1214/09-SS057; UCLA Cognitive Systems Laboratory reprint R-350",
+   "dcterms:title": "Causal inference in statistics: An overview",
+   "schema:url": {
+    "@id": "https://ftp.cs.ucla.edu/pub/stat_ser/r350-reprint.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Journal of the American Statistical Association 81(396):945-960 (Holland, 1986); copy hosted on a Columbia University course page",
+   "dcterms:title": "Statistics and Causal Inference",
+   "schema:url": {
+    "@id": "https://www.cs.columbia.edu/~blei/fogm/2023F/readings/Holland1986.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Embryo Project Encyclopedia, Arizona State University (Abboud, 2017)",
+   "dcterms:title": "\"The Environment and Disease: Association or Causation?\" (1965), by Austin Bradford Hill",
+   "schema:url": {
+    "@id": "https://embryo.asu.edu/pages/environment-and-disease-association-or-causation-1965-austin-bradford-hill"
    }
   },
   {

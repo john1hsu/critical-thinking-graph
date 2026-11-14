@@ -1916,6 +1916,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sewall-wright> .
 <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2000/01/rdf-schema#label> "Causal inference" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#altLabel> "causal analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#altLabel> "causal reasoning from data" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#altLabel> "inference of cause and effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#definition> "The study and practice of drawing justified conclusions about cause and effect, rather than mere association, from experiments, observational data and explicit background assumptions, using tools such as potential outcomes, randomization, structural causal models and causal diagrams." .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#prefLabel> "Causal inference" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/associational-inference> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/causal-inference.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/donald-rubin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/judea-pearl> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
 <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> <http://www.w3.org/2000/01/rdf-schema#label> "Charles Hamblin" .
@@ -10684,6 +10716,24 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/causal-diagrams/s4> <https://schema.org/url> <https://eprints.whiterose.ac.uk/id/eprint/180527/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s1> <http://purl.org/dc/terms/publisher> "Statistics Surveys 3:96-146 (Pearl, 2009), doi:10.1214/09-SS057; UCLA Cognitive Systems Laboratory reprint R-350" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s1> <http://purl.org/dc/terms/title> "Causal inference in statistics: An overview" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s1> <https://schema.org/url> <https://ftp.cs.ucla.edu/pub/stat_ser/r350-reprint.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s2> <http://purl.org/dc/terms/publisher> "Journal of the American Statistical Association 81(396):945-960 (Holland, 1986); copy hosted on a Columbia University course page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s2> <http://purl.org/dc/terms/title> "Statistics and Causal Inference" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s2> <https://schema.org/url> <https://www.cs.columbia.edu/~blei/fogm/2023F/readings/Holland1986.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s3> <http://purl.org/dc/terms/publisher> "Embryo Project Encyclopedia, Arizona State University (Abboud, 2017)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s3> <http://purl.org/dc/terms/title> "\"The Environment and Disease: Association or Causation?\" (1965), by Austin Bradford Hill" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/causal-inference/s3> <https://schema.org/url> <https://embryo.asu.edu/pages/environment-and-disease-association-or-causation-1965-austin-bradford-hill> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s1> <http://purl.org/dc/terms/publisher> "McMaster University, Department of Philosophy (David Hitchcock's course pages)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/charles-hamblin/s1> <http://purl.org/dc/terms/title> "Notes on C. L. Hamblin, Fallacies (graduate seminar study notes, after McBurney's intellectual biography)" .

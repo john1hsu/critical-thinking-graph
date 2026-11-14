@@ -4172,6 +4172,104 @@
   ]
  },
  {
+  "id": "ct:causal-inference",
+  "title": "Causal inference",
+  "aliases": [
+   "causal analysis",
+   "causal reasoning from data",
+   "inference of cause and effect"
+  ],
+  "type": "Field",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/causal-inference.md",
+  "created": "2026-11-14",
+  "summary": "The study and practice of drawing justified conclusions about cause and effect, rather than mere association, from experiments, observational data and explicit background assumptions, using tools such as potential outcomes, randomization, structural causal models and causal diagrams.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:causal-diagrams"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mills-methods"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:simpsons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:donald-rubin",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:judea-pearl",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:austin-bradford-hill",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:epidemiology",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:associational-inference",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ftp.cs.ucla.edu/pub/stat_ser/r350-reprint.pdf",
+   "https://www.cs.columbia.edu/~blei/fogm/2023F/readings/Holland1986.pdf",
+   "https://embryo.asu.edu/pages/environment-and-disease-association-or-causation-1965-austin-bradford-hill"
+  ]
+ },
+ {
   "id": "ct:charles-hamblin",
   "title": "Charles Hamblin",
   "aliases": [
