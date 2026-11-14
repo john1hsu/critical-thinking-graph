@@ -5792,6 +5792,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
 <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/historiography> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2000/01/rdf-schema#label> "Liar paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "Epimenides paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "paradox of the liar" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "strengthened liar" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "the Liar" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#definition> "The family of paradoxes built from a sentence that says of itself that it is false or not true (\"This sentence is not true\"): if it is true it is not, and if it is not, it is, so seemingly obvious principles about truth plus ordinary logic yield a contradiction." .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#prefLabel> "Liar paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/chrysippus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-buridan> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-explosion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reductio-ad-absurdum> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/saul-kripke> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/liar-paradox.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/paraconsistent-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/eubulides> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
 <https://github.com/john1hsu/critical-thinking-graph/id/likelihood-ratio> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/likelihood-ratio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/likelihood-ratio> <http://www.w3.org/2000/01/rdf-schema#label> "Likelihood ratio framework" .
@@ -13469,6 +13500,24 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/leopold-von-ranke/s3> <https://schema.org/url> <https://www.gla.ac.uk/media/media_64280_en.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Rossi, rev. 2026)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s1> <http://purl.org/dc/terms/title> "Liar Paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRiES/liar-paradox/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Dowden)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s2> <http://purl.org/dc/terms/title> "Liar Paradox" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s2> <https://schema.org/url> <https://iep.utm.edu/liar-par/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s3> <http://purl.org/dc/terms/publisher> "Kripke, The Journal of Philosophy 72(19), 690-716 (1975), copy hosted by IMPAN truth seminar" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s3> <http://purl.org/dc/terms/title> "Outline of a Theory of Truth" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s3> <https://schema.org/url> <https://www.impan.pl/~kz/truthseminar/Kripke_Outline.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Di Bello, 2021)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s1> <http://purl.org/dc/terms/title> "Legal Probabilism" .

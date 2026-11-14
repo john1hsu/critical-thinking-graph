@@ -13408,6 +13408,95 @@
   ]
  },
  {
+  "id": "ct:liar-paradox",
+  "title": "Liar paradox",
+  "aliases": [
+   "the Liar",
+   "paradox of the liar",
+   "Epimenides paradox",
+   "strengthened liar"
+  ],
+  "type": "Concept",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/liar-paradox.md",
+  "created": "2026-11-14",
+  "summary": "The family of paradoxes built from a sentence that says of itself that it is false or not true (\"This sentence is not true\"): if it is true it is not, and if it is not, it is, so seemingly obvious principles about truth plus ordinary logic yield a contradiction.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sorites-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:alfred-tarski"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:saul-kripke"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:chrysippus"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stoic-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:john-buridan"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-explosion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reductio-ad-absurdum"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:eubulides",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-language",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:paraconsistent-logic",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRiES/liar-paradox/",
+   "https://iep.utm.edu/liar-par/",
+   "https://www.impan.pl/~kz/truthseminar/Kripke_Outline.pdf"
+  ]
+ },
+ {
   "id": "ct:likelihood-ratio",
   "title": "Likelihood ratio framework",
   "aliases": [

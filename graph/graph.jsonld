@@ -12526,6 +12526,87 @@
    ]
   },
   {
+   "@id": "ct:liar-paradox",
+   "@type": "cto:Concept",
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/liar-paradox.md",
+   "cto:formalizedBy": {
+    "@id": "ct:paraconsistent-logic"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:eubulides"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:propositional-logic"
+   },
+   "cto:studiedIn": [
+    {
+     "@id": "ct:logic"
+    },
+    {
+     "@id": "ct:philosophy-of-language"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s3"
+    }
+   ],
+   "rdfs:label": "Liar paradox",
+   "skos:altLabel": [
+    "Epimenides paradox",
+    "paradox of the liar",
+    "strengthened liar",
+    "the Liar"
+   ],
+   "skos:broader": {
+    "@id": "ct:paradox"
+   },
+   "skos:definition": "The family of paradoxes built from a sentence that says of itself that it is false or not true (\"This sentence is not true\"): if it is true it is not, and if it is not, it is, so seemingly obvious principles about truth plus ordinary logic yield a contradiction.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Liar paradox",
+   "skos:related": [
+    {
+     "@id": "ct:alfred-tarski"
+    },
+    {
+     "@id": "ct:chrysippus"
+    },
+    {
+     "@id": "ct:john-buridan"
+    },
+    {
+     "@id": "ct:principle-of-explosion"
+    },
+    {
+     "@id": "ct:reductio-ad-absurdum"
+    },
+    {
+     "@id": "ct:saul-kripke"
+    },
+    {
+     "@id": "ct:sorites-paradox"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    }
+   ]
+  },
+  {
    "@id": "ct:likelihood-ratio",
    "@type": "cto:Framework",
    "cto:appliedIn": {
@@ -37649,6 +37730,48 @@
    "dcterms:title": "Perception, Depiction and Description of European History: Leopold von Ranke and his Development and Understanding of Modern Historical Writing",
    "schema:url": {
     "@id": "https://www.gla.ac.uk/media/media_64280_en.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Rossi, rev. 2026)",
+   "dcterms:title": "Liar Paradox",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRiES/liar-paradox/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Dowden)",
+   "dcterms:title": "Liar Paradox",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/liar-par/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/liar-paradox/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Kripke, The Journal of Philosophy 72(19), 690-716 (1975), copy hosted by IMPAN truth seminar",
+   "dcterms:title": "Outline of a Theory of Truth",
+   "schema:url": {
+    "@id": "https://www.impan.pl/~kz/truthseminar/Kripke_Outline.pdf"
    }
   },
   {
