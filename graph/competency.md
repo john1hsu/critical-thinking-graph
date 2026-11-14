@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:no-true-scotsman` | cto:InformalFallacy |
 
 ## Most useful remedies
@@ -122,6 +123,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
+| `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
 | `ct:legal-reasoning` | cto:Field |
@@ -139,9 +141,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:random-sampling` | cto:Method |
 | `ct:reasoning` | cto:Concept |
 | `ct:replication-crisis` | cto:Phenomenon |
-| `ct:risk-communication` | cto:Field |
 
-…and 11 more.
+…and 12 more.
 
 ## Orphan articles (gap)
 

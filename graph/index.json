@@ -10817,6 +10817,114 @@
   ]
  },
  {
+  "id": "ct:illicit-conversion",
+  "title": "Illicit conversion",
+  "aliases": [
+   "fallacy of illicit conversion",
+   "simple conversion of A or O",
+   "invalid conversion"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/illicit-conversion.md",
+  "created": "2026-11-14",
+  "summary": "The formal fallacy of swapping the subject and predicate of a universal affirmative (A) or particular negative (O) categorical proposition and treating the converse as following, as in inferring \"all P are S\" from \"all S are P\".",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-minor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prior-analytics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:conversion",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:distribution-of-terms",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:affirming-the-consequent",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s6",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the original statement an \"All\" statement or a \"Some ... are not\" statement? If so, does the swapped version actually follow?",
+   "Does the predicate class contain members that lie outside the subject class?",
+   "Can you name one case where the original statement is true and the swapped one is false?",
+   "If only a weaker claim follows, is \"some P are S\" enough for the argument's purpose?"
+  ],
+  "source_urls": [
+   "https://rintintin.colorado.edu/~vancecd/phil1440/conversion.pdf",
+   "https://philosophy.lander.edu/logic/further.html",
+   "https://plato.stanford.edu/archives/win2001/entries/aristotle-logic/",
+   "https://etc.usf.edu/lit2go/37/logic-deductive-and-inductive/479/chapter-24/",
+   "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html",
+   "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf"
+  ]
+ },
+ {
   "id": "ct:illicit-major",
   "title": "Illicit major",
   "aliases": [

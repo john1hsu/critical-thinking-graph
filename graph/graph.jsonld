@@ -10094,6 +10094,107 @@
    ]
   },
   {
+   "@id": "ct:illicit-conversion",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:affirming-the-consequent"
+   },
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:distribution-of-terms"
+   },
+   "cto:file": "articles/formal-fallacies/illicit-conversion.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:conversion"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s6"
+    }
+   ],
+   "rdfs:label": "Illicit conversion",
+   "skos:altLabel": [
+    "fallacy of illicit conversion",
+    "invalid conversion",
+    "simple conversion of A or O"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The formal fallacy of swapping the subject and predicate of a universal affirmative (A) or particular negative (O) categorical proposition and treating the converse as following, as in inferring \"all P are S\" from \"all S are P\".",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Illicit conversion",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:contraposition"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:illicit-minor"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:prior-analytics"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    }
+   ]
+  },
+  {
    "@id": "ct:illicit-major",
    "@type": "cto:FormalFallacy",
    "cto:contrastsWith": [
@@ -25211,6 +25312,102 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-conversion"
+   },
+   "rdfs:label": "Is the original statement an \"All\" statement or a \"Some ... are not\" statement? If so, does the swapped version actually follow?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-conversion"
+   },
+   "rdfs:label": "Does the predicate class contain members that lie outside the subject class?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-conversion"
+   },
+   "rdfs:label": "Can you name one case where the original statement is true and the swapped one is false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-conversion"
+   },
+   "rdfs:label": "If only a weaker claim follows, is \"some P are S\" enough for the argument's purpose?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:illicit-conversion"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So every supplier that passed the safety audit is one of our certified suppliers."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The premise puts certified suppliers inside the group that passed; it says nothing about suppliers that passed but never applied for certification."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "An uncertified local supplier could pass the same audit while the premise stays true and the conclusion is false."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "All of our certified suppliers passed the safety audit."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/c"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map/p1"
+   },
+   "aif:fulfilsScheme": {
+    "@id": "ct:conversion"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-major/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -34822,6 +35019,90 @@
    "dcterms:title": "Ignoratio Elenchi (Irrelevant Conclusion)",
    "schema:url": {
     "@id": "https://philosophy.lander.edu/logic/ignoratio.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "PHIL 1440 course notes, University of Colorado Boulder",
+   "dcterms:title": "4.4 Conversion, Obversion, & Contraposition",
+   "schema:url": {
+    "@id": "https://rintintin.colorado.edu/~vancecd/phil1440/conversion.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University",
+   "dcterms:title": "Further Immediate Inferences",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/further.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Smith, Winter 2001 archive)",
+   "dcterms:title": "Aristotle's Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/win2001/entries/aristotle-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Carveth Read (1914), Lit2Go, University of South Florida",
+   "dcterms:title": "Logic, Deductive and Inductive, Chapter 24: Formal Fallacies",
+   "schema:url": {
+    "@id": "https://etc.usf.edu/lit2go/37/logic-deductive-and-inductive/479/chapter-24/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive, MIT",
+   "dcterms:title": "On Sophistical Refutations (trans. W. A. Pickard-Cambridge)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-conversion/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Psychological Bulletin 138(3), 427-457 (Khemlani & Johnson-Laird, 2012), authors' copy",
+   "dcterms:title": "Theories of the Syllogism: A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf"
    }
   },
   {

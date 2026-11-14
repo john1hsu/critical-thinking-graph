@@ -319,6 +319,16 @@ flowchart TD
   o2["Nothing in the argument addresses migration effort, accuracy of reimbursements or staff training, which the decision turns on."] -. attacks .-> ra
 ```
 
+## Illicit conversion (`ct:illicit-conversion`)
+
+```mermaid
+flowchart TD
+  p1["All of our certified suppliers passed the safety audit."] --> ra{{"invalid"}}
+  ra --> c["So every supplier that passed the safety audit is one of our certified suppliers."]
+  o1["The premise puts certified suppliers inside the group that passed; it says nothing about suppliers that passed but never applied for certification."] -. attacks .-> ra
+  o2["An uncertified local supplier could pass the same audit while the premise stays true and the conclusion is false."] -. attacks .-> ra
+```
+
 ## Illicit major (`ct:illicit-major`)
 
 ```mermaid
