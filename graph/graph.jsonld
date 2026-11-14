@@ -1313,6 +1313,92 @@
    ]
   },
   {
+   "@id": "ct:argument-evaluation",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:critical-thinking-education"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/argument-evaluation.md",
+   "cto:influencedBy": {
+    "@id": "ct:logical-self-defense"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": [
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:informal-logic"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-evaluation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-evaluation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-evaluation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-evaluation/s4"
+    }
+   ],
+   "rdfs:label": "Argument evaluation",
+   "skos:altLabel": [
+    "appraising arguments",
+    "argument assessment",
+    "evaluating arguments"
+   ],
+   "skos:broader": {
+    "@id": "ct:critical-thinking"
+   },
+   "skos:definition": "The practice of judging how well an argument's reasons support its conclusion, by asking whether the premises are true or acceptable and whether they give the conclusion enough support, whether deductively (validity, soundness) or non-deductively (strength, cogency, or the RSA criteria of relevance, sufficiency and acceptability).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Argument evaluation",
+   "skos:related": [
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:cogency"
+    },
+    {
+     "@id": "ct:dialectic"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:presumption"
+    },
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:argument-from-analogy",
    "@type": "cto:ArgumentScheme",
    "cto:appliedIn": {
@@ -27890,6 +27976,62 @@
    "dcterms:title": "Christine Ladd-Franklin",
    "schema:url": {
     "@id": "https://www.uni-siegen.de/fb6/phima/women/ladd_franklin.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-evaluation/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Dutilh Novaes, 2021)",
+   "dcterms:title": "Argument and Argumentation",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/argument/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-evaluation/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Shanahan)",
+   "dcterms:title": "Deductive and Inductive Arguments",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/deductive-inductive/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-evaluation/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "James B. Freeman, Informal Logic 20(2), 2000, pp. 117-128",
+   "dcterms:title": "The Place of Informal Logic in Philosophy",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2264.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-evaluation/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Michael Hoffmann and Richard Catrambone, Informal Logic 43(1), 2023, pp. 23-90",
+   "dcterms:title": "Bad Arguments and Objectively Bad Arguments",
+   "schema:url": {
+    "@id": "https://releve.erudit.org/fr/revues/informallogic/2023-v43-n1-informallogic07982/1099208ar.pdf"
    }
   },
   {

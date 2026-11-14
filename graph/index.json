@@ -1386,6 +1386,99 @@
   ]
  },
  {
+  "id": "ct:argument-evaluation",
+  "title": "Argument evaluation",
+  "aliases": [
+   "argument assessment",
+   "evaluating arguments",
+   "appraising arguments"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/argument-evaluation.md",
+  "created": "2026-11-14",
+  "summary": "The practice of judging how well an argument's reasons support its conclusion, by asking whether the premises are true or acceptable and whether they give the conclusion enough support, whether deductively (validity, soundness) or non-deductively (strength, cogency, or the RSA criteria of relevance, sufficiency and acceptability).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cogency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presumption"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:logical-self-defense",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:critical-thinking-education",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/argument/",
+   "https://iep.utm.edu/deductive-inductive/",
+   "https://distantreader.org/stacks/journals/il/il-2264.pdf",
+   "https://releve.erudit.org/fr/revues/informallogic/2023-v43-n1-informallogic07982/1099208ar.pdf"
+  ]
+ },
+ {
   "id": "ct:argument-from-analogy",
   "title": "Argument from analogy",
   "aliases": [
