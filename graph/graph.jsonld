@@ -6859,6 +6859,100 @@
    ]
   },
   {
+   "@id": "ct:dialectical-relevance",
+   "@type": "cto:Principle",
+   "cto:detects": [
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:red-herring"
+    }
+   ],
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/dialectical-relevance.md",
+   "cto:influencedBy": {
+    "@id": "ct:pragma-dialectics"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:douglas-walton"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:relevance-in-argumentation"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:dialectic"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4"
+    }
+   ],
+   "rdfs:label": "Dialectical relevance",
+   "skos:altLabel": [
+    "Walton's theory of relevance",
+    "dialogue-relative relevance",
+    "relevance in argumentation"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument-evaluation"
+   },
+   "skos:definition": "The standard, developed by Douglas Walton, that a move in an argument is relevant when it helps the dialogue it belongs to reach its goal, above all when its chain of reasoning can be extended to bear on the thesis actually at issue; moves that lead elsewhere are dialectically irrelevant however topical they sound.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Dialectical relevance",
+   "skos:related": [
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:dialogue-types"
+    },
+    {
+     "@id": "ct:fallacies-of-relevance"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:red-herring"
+    },
+    {
+     "@id": "ct:relevance-logic"
+    },
+    {
+     "@id": "ct:stasis-theory"
+    }
+   ]
+  },
+  {
    "@id": "ct:disjunctive-syllogism",
    "@type": "cto:ReasoningForm",
    "cto:challengedBy": [
@@ -33278,6 +33372,62 @@
    "dcterms:title": "Informal Logic",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/fall2016/entries/logic-informal/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Douglas Walton, Informal Logic 19(2&3), 119-143 (1999)",
+   "dcterms:title": "Dialectical Relevance in Persuasion Dialogue",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2323.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Fabrizio Macagno, Informal Logic 28(2), 102-128 (2008)",
+   "dcterms:title": "Dialectical Relevance and Dialogical Context in Walton's Pragmatic Theory",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/MACDRA-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Douglas Walton, Lawrence Erlbaum / Routledge (2004), publisher page",
+   "dcterms:title": "Relevance in Argumentation",
+   "schema:url": {
+    "@id": "https://www.routledge.com/Relevance-in-Argumentation/Walton/p/book/9780805847604"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Groarke, rev. 2026)",
+   "dcterms:title": "Informal Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/logic-informal/"
    }
   },
   {

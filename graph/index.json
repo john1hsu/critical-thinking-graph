@@ -7315,6 +7315,111 @@
   ]
  },
  {
+  "id": "ct:dialectical-relevance",
+  "title": "Dialectical relevance",
+  "aliases": [
+   "Walton's theory of relevance",
+   "relevance in argumentation",
+   "dialogue-relative relevance"
+  ],
+  "type": "Principle",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/dialectical-relevance.md",
+  "created": "2026-11-14",
+  "summary": "The standard, developed by Douglas Walton, that a move in an argument is relevant when it helps the dialogue it belongs to reach its goal, above all when its chain of reasoning can be extended to bear on the thesis actually at issue; moves that lead elsewhere are dialectically irrelevant however topical they sound.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:red-herring"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacies-of-relevance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialogue-types"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stasis-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:relevance-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:red-herring",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:ignoratio-elenchi",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:douglas-walton",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:relevance-in-argumentation",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:pragma-dialectics",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://distantreader.org/stacks/journals/il/il-2323.pdf",
+   "https://philarchive.org/archive/MACDRA-2",
+   "https://www.routledge.com/Relevance-in-Argumentation/Walton/p/book/9780805847604",
+   "https://plato.stanford.edu/entries/logic-informal/"
+  ]
+ },
+ {
   "id": "ct:disjunctive-syllogism",
   "title": "Disjunctive syllogism",
   "aliases": [

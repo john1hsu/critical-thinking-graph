@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:red-herring` | cto:InformalFallacy |
 | `ct:take-the-best` | cto:Heuristic |
 
 ## Most useful remedies
@@ -33,6 +32,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
+| `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
@@ -46,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
 | `ct:analysis-of-competing-hypotheses` | 1 | Confirmation bias |
-| `ct:antilogism` | 1 | Exclusive premises |
 
-…and 25 more.
+…and 26 more.
 
 ## Heuristic -> bias -> remedy chains
 

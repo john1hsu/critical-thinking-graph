@@ -3183,6 +3183,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2000/01/rdf-schema#label> "Dialectical relevance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#altLabel> "Walton's theory of relevance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#altLabel> "dialogue-relative relevance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#altLabel> "relevance in argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#definition> "The standard, developed by Douglas Walton, that a move in an argument is relevant when it helps the dialogue it belongs to reach its goal, above all when its chain of reasoning can be extended to bear on the thesis actually at issue; moves that lead elsewhere are dialectically irrelevant however topical they sound." .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dialectical relevance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/relevance-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/dialectical-relevance.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/relevance-in-argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The printer is failing because of the print driver." .
 <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ra> .
@@ -11592,6 +11626,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectic/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/fall2016/entries/logic-informal/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s1> <http://purl.org/dc/terms/publisher> "Douglas Walton, Informal Logic 19(2&3), 119-143 (1999)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s1> <http://purl.org/dc/terms/title> "Dialectical Relevance in Persuasion Dialogue" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s1> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2323.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s2> <http://purl.org/dc/terms/publisher> "Fabrizio Macagno, Informal Logic 28(2), 102-128 (2008)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s2> <http://purl.org/dc/terms/title> "Dialectical Relevance and Dialogical Context in Walton's Pragmatic Theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s2> <https://schema.org/url> <https://philarchive.org/archive/MACDRA-2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s3> <http://purl.org/dc/terms/publisher> "Douglas Walton, Lawrence Erlbaum / Routledge (2004), publisher page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s3> <http://purl.org/dc/terms/title> "Relevance in Argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s3> <https://schema.org/url> <https://www.routledge.com/Relevance-in-Argumentation/Walton/p/book/9780805847604> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Groarke, rev. 2026)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> <http://purl.org/dc/terms/title> "Informal Logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/logic-informal/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Susanne Bobzien, Winter 2021 edition)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1> <http://purl.org/dc/terms/title> "Ancient Logic" .
