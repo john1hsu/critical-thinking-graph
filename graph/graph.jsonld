@@ -6848,6 +6848,100 @@
    ]
   },
   {
+   "@id": "ct:duhem-quine-thesis",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": {
+    "@id": "ct:crucial-experiment"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/duhem-quine-thesis.md",
+   "cto:formalizedBy": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "cto:introducedBy": [
+    {
+     "@id": "ct:pierre-duhem"
+    },
+    {
+     "@id": "ct:willard-van-orman-quine"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s5"
+    }
+   ],
+   "rdfs:label": "Duhem–Quine thesis",
+   "skos:altLabel": [
+    "Duhem thesis",
+    "Duhem–Quine problem",
+    "Quine–Duhem problem",
+    "Quine–Duhem thesis",
+    "confirmation holism",
+    "holist underdetermination"
+   ],
+   "skos:broader": {
+    "@id": "ct:underdetermination"
+   },
+   "skos:definition": "The thesis that no scientific hypothesis can be tested in isolation: a prediction follows only from the hypothesis together with auxiliary assumptions, so a failed prediction shows that something in the bundle is false without saying which part.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Duhem–Quine thesis",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:imre-lakatos"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    }
+   ]
+  },
+  {
    "@id": "ct:ecological-rationality",
    "@type": "cto:Concept",
    "cto:challengedBy": {
@@ -31814,6 +31908,76 @@
    "dcterms:title": "Cognitive reflection and decision making",
    "schema:url": {
     "@id": "https://econpapers.repec.org/RePEc:aea:jecper:v:19:y:2005:i:4:p:25-42"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy",
+   "dcterms:title": "Pierre Duhem",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRiES/duhem/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Stanford)",
+   "dcterms:title": "Underdetermination of Scientific Theory",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/scientific-underdetermination/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "The Philosophical Review 60 (Quine, 1951), course reprint, University of Nevada, Las Vegas",
+   "dcterms:title": "Two Dogmas of Empiricism",
+   "schema:url": {
+    "@id": "https://beisecker.faculty.unlv.edu/Courses/Phi-425/Quine-Two_Dogmas_of_Empiricism.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Philosophy of Science 61(4) (Balashov, 1994)",
+   "dcterms:title": "Duhem, Quine, and the Multiplicity of Scientific Tests",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/duhem-quine-and-the-multiplicity-of-scientific-tests/F084044F7FA8022B8C4F71590E42DCA5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "British Journal for the Philosophy of Science 52(3) (Strevens, 2001), PhilArchive record",
+   "dcterms:title": "The Bayesian Treatment of Auxiliary Hypotheses",
+   "schema:url": {
+    "@id": "https://dc2.philarchive.org/rec/STRTBT-2"
    }
   },
   {

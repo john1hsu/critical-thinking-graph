@@ -7296,6 +7296,105 @@
   ]
  },
  {
+  "id": "ct:duhem-quine-thesis",
+  "title": "Duhem–Quine thesis",
+  "aliases": [
+   "Quine–Duhem thesis",
+   "Duhem–Quine problem",
+   "Quine–Duhem problem",
+   "confirmation holism",
+   "Duhem thesis",
+   "holist underdetermination"
+  ],
+  "type": "Concept",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/duhem-quine-thesis.md",
+  "created": "2026-11-14",
+  "summary": "The thesis that no scientific hypothesis can be tested in isolation: a prediction follows only from the hypothesis together with auxiliary assumptions, so a failed prediction shows that something in the bundle is false without saying which part.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:underdetermination"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-science"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:imre-lakatos"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:pierre-duhem",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:willard-van-orman-quine",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:bayesian-reasoning",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:crucial-experiment",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRiES/duhem/",
+   "https://plato.stanford.edu/ENTRIES/scientific-underdetermination/",
+   "https://beisecker.faculty.unlv.edu/Courses/Phi-425/Quine-Two_Dogmas_of_Empiricism.html",
+   "https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/duhem-quine-and-the-multiplicity-of-scientific-tests/F084044F7FA8022B8C4F71590E42DCA5",
+   "https://dc2.philarchive.org/rec/STRTBT-2"
+  ]
+ },
+ {
   "id": "ct:ecological-rationality",
   "title": "Ecological rationality",
   "aliases": [

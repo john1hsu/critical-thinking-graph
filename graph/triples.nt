@@ -3208,6 +3208,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/heuristics-and-dual-process/dual-process-theory.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2000/01/rdf-schema#label> "Duhem–Quine thesis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#altLabel> "Duhem thesis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#altLabel> "Duhem–Quine problem" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#altLabel> "Quine–Duhem problem" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#altLabel> "Quine–Duhem thesis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#altLabel> "confirmation holism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#altLabel> "holist underdetermination" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/underdetermination> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#definition> "The thesis that no scientific hypothesis can be tested in isolation: a prediction follows only from the hypothesis together with auxiliary assumptions, so a failed prediction shows that something in the bundle is false without saying which part." .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Duhem–Quine thesis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/imre-lakatos> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/crucial-experiment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/duhem-quine-thesis.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pierre-duhem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/willard-van-orman-quine> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
 <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> <http://www.w3.org/2000/01/rdf-schema#label> "Ecological rationality" .
@@ -11148,6 +11184,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dual-process-theory/s5> <https://schema.org/url> <https://econpapers.repec.org/RePEc:aea:jecper:v:19:y:2005:i:4:p:25-42> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s1> <http://purl.org/dc/terms/title> "Pierre Duhem" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRiES/duhem/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Stanford)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s2> <http://purl.org/dc/terms/title> "Underdetermination of Scientific Theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s2> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/scientific-underdetermination/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s3> <http://purl.org/dc/terms/publisher> "The Philosophical Review 60 (Quine, 1951), course reprint, University of Nevada, Las Vegas" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s3> <http://purl.org/dc/terms/title> "Two Dogmas of Empiricism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s3> <https://schema.org/url> <https://beisecker.faculty.unlv.edu/Courses/Phi-425/Quine-Two_Dogmas_of_Empiricism.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s4> <http://purl.org/dc/terms/publisher> "Philosophy of Science 61(4) (Balashov, 1994)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s4> <http://purl.org/dc/terms/title> "Duhem, Quine, and the Multiplicity of Scientific Tests" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s4> <https://schema.org/url> <https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/duhem-quine-and-the-multiplicity-of-scientific-tests/F084044F7FA8022B8C4F71590E42DCA5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s5> <http://purl.org/dc/terms/publisher> "British Journal for the Philosophy of Science 52(3) (Strevens, 2001), PhilArchive record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s5> <http://purl.org/dc/terms/title> "The Bayesian Treatment of Auxiliary Hypotheses" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/duhem-quine-thesis/s5> <https://schema.org/url> <https://dc2.philarchive.org/rec/STRTBT-2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s1> <http://purl.org/dc/terms/publisher> "Current Directions in Psychological Science 16(3), 167-171 (Todd & Gigerenzer, 2007), author's copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/ecological-rationality/s1> <http://purl.org/dc/terms/title> "Environments that make us smart: Ecological rationality" .
