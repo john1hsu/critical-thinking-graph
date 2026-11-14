@@ -22567,6 +22567,97 @@
   ]
  },
  {
+  "id": "ct:thinking-dispositions",
+  "title": "Thinking dispositions",
+  "aliases": [
+   "critical thinking dispositions",
+   "intellectual dispositions",
+   "dispositions toward critical thinking"
+  ],
+  "type": "Concept",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/thinking-dispositions.md",
+  "created": "2026-11-14",
+  "summary": "Habitual tendencies to think in particular ways when the occasion calls for it, such as seeking alternatives, weighing reasons fairly and reflecting before judging, that determine whether people actually use the reasoning skills they have.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:need-for-cognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:california-critical-thinking-disposition-inventory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-report-on-critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:robert-ennis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-education"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:cognitive-ability",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:klaczynski-2014-numeracy-ability-reflectiveness-study",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:educational-assessment",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:triadic-theory-of-thinking-dispositions",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_eric_primary_EJ456333",
+   "https://distantreader.org/stacks/journals/il/il-2378.pdf",
+   "https://edinstruments.org/node/532",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00665/pdf"
+  ]
+ },
+ {
   "id": "ct:topics",
   "title": "Topics",
   "aliases": [

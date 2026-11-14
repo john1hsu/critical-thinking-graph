@@ -16214,6 +16214,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/theodore-sterling/s4> <https://schema.org/url> <https://web-archive.southampton.ac.uk/cogprints.org/5178/1/are_null_results_becoming.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s1> <http://purl.org/dc/terms/publisher> "Merrill-Palmer Quarterly 39(1), 1-21 (Perkins, Jay & Tishman, 1993), library catalogue record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s1> <http://purl.org/dc/terms/title> "Beyond Abilities: A Dispositional Theory of Thinking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s1> <https://schema.org/url> <https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_eric_primary_EJ456333> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 18(2&3), 165-182 (Robert H. Ennis, 1996)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s2> <http://purl.org/dc/terms/title> "Critical Thinking Dispositions: Their Nature and Assessability" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2378.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s3> <http://purl.org/dc/terms/publisher> "EdInstruments, Annenberg Institute at Brown University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s3> <http://purl.org/dc/terms/title> "California Critical Thinking Disposition Inventory (CCTDI)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s3> <https://schema.org/url> <https://edinstruments.org/node/532> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s4> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 5:665 (Paul A. Klaczynski, 2014)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s4> <http://purl.org/dc/terms/title> "Heuristics and biases: interactions among numeracy, ability, and reflectiveness predict normative responding" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s4> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00665/pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive (MIT)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/topics/s1> <http://purl.org/dc/terms/title> "Topics, Book I (trans. W. A. Pickard-Cambridge)" .
@@ -17271,6 +17295,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/theodore-sterling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2000/01/rdf-schema#label> "Thinking dispositions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#altLabel> "critical thinking dispositions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#altLabel> "dispositions toward critical thinking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#altLabel> "intellectual dispositions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#definition> "Habitual tendencies to think in particular ways when the occasion calls for it, such as seeking alternatives, weighing reasons fairly and reflecting before judging, that determine whether people actually use the reasoning skills they have." .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thinking dispositions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/california-critical-thinking-disposition-inventory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/robert-ennis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/thinking-dispositions/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-ability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/klaczynski-2014-numeracy-ability-reflectiveness-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/triadic-theory-of-thinking-dispositions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/thinking-dispositions.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/topics> <http://www.w3.org/2000/01/rdf-schema#label> "Topics" .

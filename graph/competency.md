@@ -96,7 +96,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:affect-heuristic` | mixed |  |
 | `ct:argument-mapping` | mixed |  |
 
-…and 51 more.
+…and 52 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -141,7 +141,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:replication-crisis` | cto:Phenomenon |
 | `ct:risk-communication` | cto:Field |
 
-…and 10 more.
+…and 11 more.
 
 ## Orphan articles (gap)
 
