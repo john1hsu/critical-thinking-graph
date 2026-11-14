@@ -97,7 +97,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:affect-heuristic` | mixed |  |
 | `ct:argument-mapping` | mixed |  |
 
-…and 52 more.
+…and 53 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

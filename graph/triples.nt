@@ -2633,6 +2633,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/swaryandini-2025-debiasing-education-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2000/01/rdf-schema#label> "Decision analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "applied decision theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#altLabel> "prescriptive decision analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#definition> "A prescriptive method for hard choices that breaks a decision into its alternatives, uncertainties and values, models them explicitly with tools such as decision trees, probabilities and utilities, and uses the model to find the alternative with the highest expected utility and to show which factors drive it." .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decision analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hubbard-samuelson-2009-analysis-placebos> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/decision-analysis.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/howard-raiffa> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ronald-howard> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis-applied-decision-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "This laptop order needs sign-off from finance." .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/ra> .
@@ -10927,6 +10960,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/debiasing/s4> <https://schema.org/url> <https://figshare.le.ac.uk/articles/journal_contribution/Systematic_review_and_meta-analysis_of_educational_approaches_to_reduce_cognitive_biases_among_students/30208108> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s1> <http://purl.org/dc/terms/publisher> "Operations Research 30(5), 803-838 (Ralph L. Keeney, 1982), Harvard Center for Health Decision Science repository record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s1> <http://purl.org/dc/terms/title> "Decision Analysis: An Overview" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s1> <https://schema.org/url> <https://repository.chds.hsph.harvard.edu/repository/2711/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s2> <http://purl.org/dc/terms/publisher> "Ralph F. Miles Jr., in Edwards, Miles & von Winterfeldt (eds.), Advances in Decision Analysis, Cambridge University Press, 2007" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s2> <http://purl.org/dc/terms/title> "The Emergence of Decision Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s2> <https://schema.org/url> <https://www.cambridge.org/core/books/abs/advances-in-decision-analysis/emergence-of-decision-analysis/D17E93A6C613140B8AD1365B362F70B1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s3> <http://purl.org/dc/terms/publisher> "Howard Raiffa, in Edwards, Miles & von Winterfeldt (eds.), Advances in Decision Analysis, Cambridge University Press, 2007" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s3> <http://purl.org/dc/terms/title> "Decision Analysis: A Personal Account of How It Got Started and Evolved" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s3> <https://schema.org/url> <https://cambridge.org/core/books/advances-in-decision-analysis/decision-analysis-a-personal-account-of-how-it-got-started-and-evolved/149F8E2B27B9FE17E58800B290815E18> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s4> <http://purl.org/dc/terms/publisher> "INFORMS, History of O.R. Excellence biographical profiles" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s4> <http://purl.org/dc/terms/title> "Ronald A. Howard: Brief Biography" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s4> <https://schema.org/url> <https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Howard-Ronald-A> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s5> <http://purl.org/dc/terms/publisher> "Marek J. Druzdzel, Faculty of Computer Science, Bialystok University of Technology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s5> <http://purl.org/dc/terms/title> "Decision Theory and Decision Analysis (course slides)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s5> <https://schema.org/url> <https://www.aragorn.wi.pb.edu.pl/~druzdzel/decision_theory/07%20Decision%20Theory%20and%20Decision%20Analysis.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> <http://purl.org/dc/terms/publisher> "Douglas W. Hubbard & Douglas A. Samuelson, INFORMS Analytics, 7 December 2009" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> <http://purl.org/dc/terms/title> "Analysis Placebos" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> <https://schema.org/url> <https://pubsonline.informs.org/do/10.1287/LYTX.2009.06.10/full/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Shanahan)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1> <http://purl.org/dc/terms/title> "Deductive and Inductive Arguments" .

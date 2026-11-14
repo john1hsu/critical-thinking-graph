@@ -5691,6 +5691,101 @@
    ]
   },
   {
+   "@id": "ct:decision-analysis",
+   "@type": "cto:Method",
+   "cto:challengedBy": {
+    "@id": "ct:hubbard-samuelson-2009-analysis-placebos"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/decision-analysis.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:howard-raiffa"
+    }
+   ],
+   "cto:introducedBy": {
+    "@id": "ct:ronald-howard"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:decision-analysis-applied-decision-theory"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:expected-value"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6"
+    }
+   ],
+   "rdfs:label": "Decision analysis",
+   "skos:altLabel": [
+    "applied decision theory",
+    "prescriptive decision analysis"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:decision-theory"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    }
+   ],
+   "skos:definition": "A prescriptive method for hard choices that breaks a decision into its alternatives, uncertainties and values, models them explicitly with tools such as decision trees, probabilities and utilities, and uses the model to find the alternative with the highest expected utility and to show which factors drive it.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Decision analysis",
+   "skos:related": [
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:expected-value"
+    },
+    {
+     "@id": "ct:reversible-and-irreversible-decisions"
+    },
+    {
+     "@id": "ct:value-focused-thinking"
+    }
+   ]
+  },
+  {
    "@id": "ct:deductive-reasoning",
    "@type": "cto:ReasoningMode",
    "cto:contrastsWith": {
@@ -31533,6 +31628,90 @@
    "dcterms:title": "Systematic review and meta-analysis of educational approaches to reduce cognitive biases among students",
    "schema:url": {
     "@id": "https://figshare.le.ac.uk/articles/journal_contribution/Systematic_review_and_meta-analysis_of_educational_approaches_to_reduce_cognitive_biases_among_students/30208108"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Operations Research 30(5), 803-838 (Ralph L. Keeney, 1982), Harvard Center for Health Decision Science repository record",
+   "dcterms:title": "Decision Analysis: An Overview",
+   "schema:url": {
+    "@id": "https://repository.chds.hsph.harvard.edu/repository/2711/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Ralph F. Miles Jr., in Edwards, Miles & von Winterfeldt (eds.), Advances in Decision Analysis, Cambridge University Press, 2007",
+   "dcterms:title": "The Emergence of Decision Analysis",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/abs/advances-in-decision-analysis/emergence-of-decision-analysis/D17E93A6C613140B8AD1365B362F70B1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Howard Raiffa, in Edwards, Miles & von Winterfeldt (eds.), Advances in Decision Analysis, Cambridge University Press, 2007",
+   "dcterms:title": "Decision Analysis: A Personal Account of How It Got Started and Evolved",
+   "schema:url": {
+    "@id": "https://cambridge.org/core/books/advances-in-decision-analysis/decision-analysis-a-personal-account-of-how-it-got-started-and-evolved/149F8E2B27B9FE17E58800B290815E18"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "INFORMS, History of O.R. Excellence biographical profiles",
+   "dcterms:title": "Ronald A. Howard: Brief Biography",
+   "schema:url": {
+    "@id": "https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Howard-Ronald-A"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Marek J. Druzdzel, Faculty of Computer Science, Bialystok University of Technology",
+   "dcterms:title": "Decision Theory and Decision Analysis (course slides)",
+   "schema:url": {
+    "@id": "https://www.aragorn.wi.pb.edu.pl/~druzdzel/decision_theory/07%20Decision%20Theory%20and%20Decision%20Analysis.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Douglas W. Hubbard & Douglas A. Samuelson, INFORMS Analytics, 7 December 2009",
+   "dcterms:title": "Analysis Placebos",
+   "schema:url": {
+    "@id": "https://pubsonline.informs.org/do/10.1287/LYTX.2009.06.10/full/"
    }
   },
   {

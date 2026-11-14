@@ -6067,6 +6067,102 @@
   ]
  },
  {
+  "id": "ct:decision-analysis",
+  "title": "Decision analysis",
+  "aliases": [
+   "applied decision theory",
+   "prescriptive decision analysis"
+  ],
+  "type": "Method",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/decision-analysis.md",
+  "created": "2026-11-14",
+  "summary": "A prescriptive method for hard choices that breaks a decision into its alternatives, uncertainties and values, models them explicitly with tools such as decision trees, probabilities and utilities, and uses the model to find the alternative with the highest expected utility and to show which factors drive it.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:decision-theory"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:value-focused-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-value"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reversible-and-irreversible-decisions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:expected-value"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ronald-howard",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:decision-analysis-applied-decision-theory",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:howard-raiffa",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:expected-utility-theory",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:hubbard-samuelson-2009-analysis-placebos",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://repository.chds.hsph.harvard.edu/repository/2711/",
+   "https://www.cambridge.org/core/books/abs/advances-in-decision-analysis/emergence-of-decision-analysis/D17E93A6C613140B8AD1365B362F70B1",
+   "https://cambridge.org/core/books/advances-in-decision-analysis/decision-analysis-a-personal-account-of-how-it-got-started-and-evolved/149F8E2B27B9FE17E58800B290815E18",
+   "https://www.informs.org/Explore/History-of-O.R.-Excellence/Biographical-Profiles/Howard-Ronald-A",
+   "https://www.aragorn.wi.pb.edu.pl/~druzdzel/decision_theory/07%20Decision%20Theory%20and%20Decision%20Analysis.pdf",
+   "https://pubsonline.informs.org/do/10.1287/LYTX.2009.06.10/full/"
+  ]
+ },
+ {
   "id": "ct:deductive-reasoning",
   "title": "Deductive reasoning",
   "aliases": [
