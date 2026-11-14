@@ -132,6 +132,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:motivated-reasoning` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
+| `ct:philosophy-of-language` | cto:Field |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:plain-language` | cto:Technique |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
@@ -139,9 +140,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:preregistration` | cto:Technique |
 | `ct:propositional-logic` | cto:Field |
 | `ct:random-sampling` | cto:Method |
-| `ct:reasoning` | cto:Concept |
 
-…and 14 more.
+…and 15 more.
 
 ## Orphan articles (gap)
 

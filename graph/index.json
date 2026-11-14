@@ -16266,6 +16266,99 @@
   ]
  },
  {
+  "id": "ct:philosophy-of-language",
+  "title": "Philosophy of language",
+  "aliases": [
+   "analytic philosophy of language"
+  ],
+  "type": "Field",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/philosophy-of-language.md",
+  "created": "2026-11-14",
+  "summary": "The branch of philosophy that studies meaning, reference, truth and the use of language: how words and sentences come to be about the world, what makes them true, and how speakers convey more than they literally say.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:liar-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sorites-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conversational-implicature"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:logic"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:gottlob-frege",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:bertrand-russell",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:alfred-tarski",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:ludwig-wittgenstein",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/page/lang-phi/",
+   "https://plato.stanford.edu/archives/sum2006/entries/reference/",
+   "https://plato.stanford.edu/ENTRIES/grice/",
+   "https://experts.illinois.edu/en/publications/employing-and-exploiting-the-presumptions-of-communication-in-arg/"
+  ]
+ },
+ {
   "id": "ct:philosophy-of-science",
   "title": "Philosophy of science",
   "aliases": [

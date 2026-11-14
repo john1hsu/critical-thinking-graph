@@ -15227,6 +15227,88 @@
    ]
   },
   {
+   "@id": "ct:philosophy-of-language",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/philosophy-of-language.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:alfred-tarski"
+    },
+    {
+     "@id": "ct:bertrand-russell"
+    },
+    {
+     "@id": "ct:gottlob-frege"
+    },
+    {
+     "@id": "ct:ludwig-wittgenstein"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4"
+    }
+   ],
+   "rdfs:label": "Philosophy of language",
+   "skos:altLabel": "analytic philosophy of language",
+   "skos:broader": {
+    "@id": "ct:philosophy"
+   },
+   "skos:definition": "The branch of philosophy that studies meaning, reference, truth and the use of language: how words and sentences come to be about the world, what makes them true, and how speakers convey more than they literally say.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Philosophy of language",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:conversational-implicature"
+    },
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:liar-paradox"
+    },
+    {
+     "@id": "ct:logic"
+    },
+    {
+     "@id": "ct:sorites-paradox"
+    },
+    {
+     "@id": "ct:vagueness"
+    }
+   ]
+  },
+  {
    "@id": "ct:philosophy-of-science",
    "@type": "cto:Field",
    "cto:appliedIn": [
@@ -40008,6 +40090,62 @@
    "dcterms:title": "Ancient Skepticism",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2004/entries/skepticism-ancient/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Michael P. Wolf)",
+   "dcterms:title": "Philosophy of Language",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/page/lang-phi/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy, Summer 2006 Edition (Marga Reimer)",
+   "dcterms:title": "Reference",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2006/entries/reference/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Richard Warner and Richard E. Grandy, rev. 2026)",
+   "dcterms:title": "Paul Grice",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/grice/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Informal Logic 36(2), 159-191 (Scott Jacobs, 2016), University of Illinois research portal",
+   "dcterms:title": "Employing and exploiting the presumptions of communication in argumentation: An application of normative pragmatics",
+   "schema:url": {
+    "@id": "https://experts.illinois.edu/en/publications/employing-and-exploiting-the-presumptions-of-communication-in-arg/"
    }
   },
   {

@@ -1841,6 +1841,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/philosophy-of-reasoning/philosophy-of-language.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/philosophy-of-reasoning/problem-of-induction.md" .
@@ -18548,6 +18555,63 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2004/entries/skepticism-ancient/> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2000/01/rdf-schema#label> "Philosophy of language" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#altLabel> "analytic philosophy of language" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#definition> "The branch of philosophy that studies meaning, reference, truth and the use of language: how words and sentences come to be about the world, what makes them true, and how speakers convey more than they literally say." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#prefLabel> "Philosophy of language" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conversational-implicature> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/philosophy-of-language.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bertrand-russell> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ludwig-wittgenstein> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Michael P. Wolf)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1> <http://purl.org/dc/terms/title> "Philosophy of Language" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s1> <https://schema.org/url> <https://iep.utm.edu/page/lang-phi/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy, Summer 2006 Edition (Marga Reimer)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2> <http://purl.org/dc/terms/title> "Reference" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2006/entries/reference/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Richard Warner and Richard E. Grandy, rev. 2026)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3> <http://purl.org/dc/terms/title> "Paul Grice" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s3> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/grice/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4> <http://purl.org/dc/terms/publisher> "Informal Logic 36(2), 159-191 (Scott Jacobs, 2016), University of Illinois research portal" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4> <http://purl.org/dc/terms/title> "Employing and exploiting the presumptions of communication in argumentation: An application of normative pragmatics" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-language/s4> <https://schema.org/url> <https://experts.illinois.edu/en/publications/employing-and-exploiting-the-presumptions-of-communication-in-arg/> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -21619,14 +21683,17 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/akaike-information-criterion> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/algorithm> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/allais-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/altay-2023-misinformation-on-misinformation> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categories> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
@@ -21913,6 +21980,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> .
@@ -22243,6 +22311,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
   <https://github.com/john1hsu/critical-thinking-graph/id/berlin-numeracy-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bertrand-russell> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
@@ -22860,6 +22929,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/convenience-sampling> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/convention-t> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> .
   <https://github.com/john1hsu/critical-thinking-graph/id/convergent-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conversational-implicature> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conversational-implicature> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -23438,6 +23508,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> .
   <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
   <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> .
   <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> .
@@ -23456,6 +23527,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categories> .
   <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
@@ -23897,6 +23969,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gottlob-frege> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> .
@@ -24658,6 +24731,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
@@ -24709,7 +24783,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasPart> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
@@ -24747,6 +24823,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/ludwig-wittgenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ludwig-wittgenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ludwig-wittgenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ludwig-wittgenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ludwig-wittgenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ludwig-wittgenstein> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lumer-2022-epistemological-appraisal-of-schemes> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
@@ -25254,11 +25331,12 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-education> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-dewey> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-law> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-law> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-law> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
@@ -25279,7 +25357,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-the-inductive-sciences> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/william-whewell> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
@@ -25297,6 +25377,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
@@ -25310,6 +25391,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pierre-de-fermat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pierre-de-fermat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pierre-de-fermat> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
@@ -26321,6 +26403,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> <https://github.com/john1hsu/critical-thinking-graph/ontology#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
@@ -26847,7 +26930,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/us-preventive-services-task-force> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .

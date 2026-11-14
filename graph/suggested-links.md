@@ -4,8 +4,8 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 6.61 | `ct:argument` | `ct:aristotle` | `ct:amphiboly`, `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:aristotles-rhetoric`, `ct:begging-the-question` |
-| 6.48 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
+| 6.60 | `ct:argument` | `ct:aristotle` | `ct:amphiboly`, `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:aristotles-rhetoric`, `ct:begging-the-question` |
+| 6.47 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
 | 4.73 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
 | 4.69 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:attribute-substitution`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology` |
 | 4.40 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises`, `ct:existential-fallacy` |
@@ -19,13 +19,13 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.79 | `ct:argument-mapping` | `ct:informal-fallacy` | `ct:argument`, `ct:argument-evaluation`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:begging-the-question` |
 | 3.74 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argument-from-ignorance`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:douglas-walton` |
 | 3.68 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
-| 3.59 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
+| 3.58 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
 | 3.40 | `ct:illicit-conversion` | `ct:venn-diagram-test` | `ct:categorical-proposition`, `ct:distribution-of-terms`, `ct:euler-diagram`, `ct:existential-import`, `ct:formal-fallacy` |
 | 3.36 | `ct:categorical-proposition` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises`, `ct:existential-fallacy` |
 | 3.35 | `ct:categorical-proposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
-| 3.25 | `ct:method-of-counterexample` | `ct:predicate-logic` | `ct:alfred-tarski`, `ct:exists-forall-to-forall-exists-inference`, `ct:formal-logic`, `ct:logical-consequence`, `ct:masked-man-fallacy` |
+| 3.23 | `ct:method-of-counterexample` | `ct:predicate-logic` | `ct:alfred-tarski`, `ct:exists-forall-to-forall-exists-inference`, `ct:formal-logic`, `ct:logical-consequence`, `ct:masked-man-fallacy` |
 | 3.23 | `ct:informal-fallacy` | `ct:presumption` | `ct:argument`, `ct:argument-evaluation`, `ct:argument-from-expert-opinion`, `ct:argument-from-ignorance`, `ct:argumentation-schemes` |
-| 3.23 | `ct:logic` | `ct:propositional-logic` | `ct:chrysippus`, `ct:deductive-reasoning`, `ct:formal-logic`, `ct:gottlob-frege`, `ct:liar-paradox` |
 | 3.22 | `ct:douglas-walton` | `ct:principle-of-charity` | `ct:amphiboly`, `ct:argument`, `ct:argumentation-theory`, `ct:enthymeme`, `ct:equivocation` |
 | 3.21 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:douglas-walton` |
+| 3.18 | `ct:logic` | `ct:propositional-logic` | `ct:chrysippus`, `ct:deductive-reasoning`, `ct:formal-logic`, `ct:gottlob-frege`, `ct:liar-paradox` |
 | 3.18 | `ct:exclusive-premises` | `ct:illicit-minor` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:formal-fallacy`, `ct:illicit-major`, `ct:method-of-counterexample` |
