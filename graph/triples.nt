@@ -15696,6 +15696,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning-training/s4> <https://schema.org/url> <https://yorkspace.library.yorku.ca/xmlui/bitstream/10315/40957/2/Truong_Michael_S_2022_Masters.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Romeijn, 2014; revised 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s1> <http://purl.org/dc/terms/title> "Philosophy of Statistics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/statistics/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s2> <http://purl.org/dc/terms/publisher> "Journal of Statistics Education 10(3) (Garfield, 2002)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s2> <http://purl.org/dc/terms/title> "The Challenge of Developing Statistical Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s2> <https://schema.org/url> <https://jse.amstat.org/v10n3/garfield.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s3> <http://purl.org/dc/terms/publisher> "International Statistical Review 67(3), 223-265 (Wild & Pfannkuch, 1999), IASE author copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s3> <http://purl.org/dc/terms/title> "Statistical thinking in empirical enquiry" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s3> <https://schema.org/url> <https://www.stat.auckland.ac.nz/~iase/publications/isr/99.Wild.Pfannkuch.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s4> <http://purl.org/dc/terms/publisher> "Cognition and Instruction 6(1), 59-98 (Konold, 1989), UMass SRRI copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s4> <http://purl.org/dc/terms/title> "Informal Conceptions of Probability" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s4> <https://schema.org/url> <https://srri.umass.edu/sites/srri/files/Konold1989/index.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> <http://purl.org/dc/terms/publisher> "Journal of Risk and Uncertainty 1(1), 7-59 (Samuelson & Zeckhauser, 1988), RePEc/IDEAS record" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s1> <http://purl.org/dc/terms/title> "Status Quo Bias in Decision Making" .
@@ -16585,6 +16609,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/truong-2022-conjunction-training-replication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ReasoningMode> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2000/01/rdf-schema#label> "Statistical reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "reasoning with data" .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "statistical inference in everyday reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#definition> "The way people reason with statistical ideas and make sense of data: drawing conclusions about populations, processes or causes from samples while taking account of variation, chance, sample size and how the data were produced. It is an ampliative, inductive mode of reasoning whose conclusions are probable rather than certain." .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Statistical reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-reasoning/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/outcome-approach> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/statistical-reasoning.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-statistics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/statistics-education> .
 <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <http://www.w3.org/2000/01/rdf-schema#label> "Status quo bias" .

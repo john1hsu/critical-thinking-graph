@@ -141,7 +141,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:replication-crisis` | cto:Phenomenon |
 | `ct:risk-communication` | cto:Field |
 
-…and 9 more.
+…and 10 more.
 
 ## Orphan articles (gap)
 

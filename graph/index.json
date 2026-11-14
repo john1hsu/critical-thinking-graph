@@ -21058,6 +21058,100 @@
   ]
  },
  {
+  "id": "ct:statistical-reasoning",
+  "title": "Statistical reasoning",
+  "aliases": [
+   "reasoning with data",
+   "statistical inference in everyday reasoning"
+  ],
+  "type": "ReasoningMode",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/statistical-reasoning.md",
+  "created": "2026-11-14",
+  "summary": "The way people reason with statistical ideas and make sense of data: drawing conclusions about populations, processes or causes from samples while taking account of variation, chance, sample size and how the data were produced. It is an ampliative, inductive mode of reasoning whose conclusions are probable rather than certain.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:random-sampling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:problem-of-induction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-statistics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:statistics-education",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:probability-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:outcome-approach",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:law-of-small-numbers",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/statistics/",
+   "https://jse.amstat.org/v10n3/garfield.html",
+   "https://www.stat.auckland.ac.nz/~iase/publications/isr/99.Wild.Pfannkuch.pdf",
+   "https://srri.umass.edu/sites/srri/files/Konold1989/index.pdf"
+  ]
+ },
+ {
   "id": "ct:statistical-reasoning-training",
   "title": "Statistical reasoning training",
   "aliases": [
