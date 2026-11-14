@@ -1730,6 +1730,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/red-herring#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/red-herring#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+<https://github.com/john1hsu/critical-thinking-graph/id/red-herring#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/informal-fallacies/red-herring.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/red-herring#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/red-herring#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/red-herring#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/red-herring#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/red-herring#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
 <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/informal-fallacies/slippery-slope.md" .
@@ -17448,6 +17456,113 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/post-hoc-ergo-propter-hoc/s5> <https://schema.org/url> <https://www.britannica.com/topic/fallacy-of-false-cause> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/red-herring#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "What exactly was the question at issue before the new topic came up?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "If everything said about the new topic were true, would it make the original claim any more or less likely?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did the reply engage the opponent's actual position at all, or simply leave it behind?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is there evidence that the shift was a strategic diversion, or is the new point a legitimate, relevant consideration that only looks off-topic?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Has the original question been answered by the end of the exchange?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So we should ship on schedule." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The competitor's outage says nothing about whether our failing payment tests make this release unsafe." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "The original question was abandoned rather than answered; nothing in the discussion bears on the test failures." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The question in the review meeting is whether the release should slip a week because the payment tests are failing." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "The product lead replies that the competitor's app crashed for two days last month and nobody even noticed." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p3> <http://www.arg.dundee.ac.uk/aif#claimText> "The lead then spends the rest of the meeting on how badly the competitor is run." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/c> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2000/01/rdf-schema#label> "Red herring" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#altLabel> "changing the subject" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#altLabel> "diversionary irrelevance" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#altLabel> "red herring fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of diverting a discussion from the issue at hand to a different, often emotionally engaging topic, so that the original question is abandoned rather than answered and no conclusion relevant to it is established." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#prefLabel> "Red herring" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/red-herring.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1> <http://purl.org/dc/terms/publisher> "Douglas Walton, Informal Logic 24(1), 71-103 (2004)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1> <http://purl.org/dc/terms/title> "Classification of Fallacies of Relevance" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2133.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2> <http://purl.org/dc/terms/publisher> "Lee C. Archie, Lander University philosophy course materials" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2> <http://purl.org/dc/terms/title> "Introduction to Logic: Ignoratio Elenchi (section 5, Red Herring)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2> <https://schema.org/url> <https://philosophy.lander.edu/logic/ignoratio.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3> <http://purl.org/dc/terms/publisher> "Florida International University, critical thinking course notes" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3> <http://purl.org/dc/terms/title> "Critical Thinking Lecture 15: Fallacies of Relevance (Red Herrings)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3> <https://schema.org/url> <https://faculty.fiu.edu/~harrisk/Notes/Critical%20Thinking/CT%20Lecture%2015%20Fallacies%20of%20Relevance%20-%20Red%20Herrings.htm> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4> <http://purl.org/dc/terms/publisher> "Indiana University PHIL-P 102 course text (IU Pressbooks)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4> <http://purl.org/dc/terms/title> "Arguments X: Fallacies in Reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4> <https://schema.org/url> <https://iu.pressbooks.pub/shockeyphilp102summer/chapter/fallacies/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5> <http://purl.org/dc/terms/publisher> "The Fallacy Files (G. N. Curtis)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5> <http://purl.org/dc/terms/title> "Red Herring" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5> <https://schema.org/url> <https://fallacyfiles.org/redherrf.html> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "What are the intermediate steps between the first move and the feared outcome, and is each one supported by evidence rather than just asserted?" .
@@ -21504,6 +21619,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
@@ -21608,6 +21724,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
@@ -23234,7 +23351,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/explanatory-virtues> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fact-fiction-and-forecast> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInstance> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
@@ -23282,6 +23402,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
@@ -23785,6 +23906,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
@@ -23918,6 +24040,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
@@ -23932,6 +24055,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
@@ -25048,6 +25172,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
@@ -25530,10 +25655,17 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/recognition-heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> .
   <https://github.com/john1hsu/critical-thinking-graph/id/recognition-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> .
   <https://github.com/john1hsu/critical-thinking-graph/id/recognition-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/red-team-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reductio-ad-absurdum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> .
   <https://github.com/john1hsu/critical-thinking-graph/id/referential-opacity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/de-re-de-dicto-distinction> .
@@ -26105,6 +26237,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .

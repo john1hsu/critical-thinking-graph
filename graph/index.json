@@ -18962,6 +18962,98 @@
   ]
  },
  {
+  "id": "ct:red-herring",
+  "title": "Red herring",
+  "aliases": [
+   "red herring fallacy",
+   "diversionary irrelevance",
+   "changing the subject"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/red-herring.md",
+  "created": "2026-11-14",
+  "summary": "The fallacy of diverting a discussion from the issue at hand to a different, often emotionally engaging topic, so that the original question is abandoned rather than answered and no conclusion relevant to it is established.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fallacies-of-relevance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:tu-quoque"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:ignoratio-elenchi",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:straw-man-fallacy",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:fallacies-of-relevance",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "What exactly was the question at issue before the new topic came up?",
+   "If everything said about the new topic were true, would it make the original claim any more or less likely?",
+   "Did the reply engage the opponent's actual position at all, or simply leave it behind?",
+   "Is there evidence that the shift was a strategic diversion, or is the new point a legitimate, relevant consideration that only looks off-topic?",
+   "Has the original question been answered by the end of the exchange?"
+  ],
+  "source_urls": [
+   "https://distantreader.org/stacks/journals/il/il-2133.pdf",
+   "https://philosophy.lander.edu/logic/ignoratio.html",
+   "https://faculty.fiu.edu/~harrisk/Notes/Critical%20Thinking/CT%20Lecture%2015%20Fallacies%20of%20Relevance%20-%20Red%20Herrings.htm",
+   "https://iu.pressbooks.pub/shockeyphilp102summer/chapter/fallacies/",
+   "https://fallacyfiles.org/redherrf.html"
+  ]
+ },
+ {
   "id": "ct:regression-to-the-mean",
   "title": "Regression to the mean",
   "aliases": [

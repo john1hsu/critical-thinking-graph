@@ -462,6 +462,18 @@ flowchart TD
   o2["To show one person covers everything, check the approval matrix directly; the premise does not say so."] -. attacks .-> ra
 ```
 
+## Red herring (`ct:red-herring`)
+
+```mermaid
+flowchart TD
+  p1["The question in the review meeting is whether the release should slip a week because the payment tests are failing."] --> ra{{"fallacious"}}
+  p2["The product lead replies that the competitor's app crashed for two days last month and nobody even noticed."] --> ra{{"fallacious"}}
+  p3["The lead then spends the rest of the meeting on how badly the competitor is run."] --> ra{{"fallacious"}}
+  ra --> c["So we should ship on schedule."]
+  o1["The competitor's outage says nothing about whether our failing payment tests make this release unsafe."] -. attacks .-> ra
+  o2["The original question was abandoned rather than answered; nothing in the discussion bears on the test failures."] -. attacks .-> ra
+```
+
 ## Slippery slope (`ct:slippery-slope`)
 
 ```mermaid

@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:no-true-scotsman` | cto:InformalFallacy |
+| `ct:red-herring` | cto:InformalFallacy |
 | `ct:take-the-best` | cto:Heuristic |
 
 ## Most useful remedies
@@ -142,7 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:random-sampling` | cto:Method |
 | `ct:reasoning` | cto:Concept |
 
-…and 13 more.
+…and 14 more.
 
 ## Orphan articles (gap)
 

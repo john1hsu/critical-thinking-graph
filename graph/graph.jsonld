@@ -17799,6 +17799,92 @@
    ]
   },
   {
+   "@id": "ct:red-herring",
+   "@type": "cto:InformalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:straw-man-fallacy"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:ignoratio-elenchi"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map"
+   },
+   "cto:file": "articles/informal-fallacies/red-herring.md",
+   "cto:instanceOf": {
+    "@id": "ct:fallacies-of-relevance"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5"
+    }
+   ],
+   "rdfs:label": "Red herring",
+   "skos:altLabel": [
+    "changing the subject",
+    "diversionary irrelevance",
+    "red herring fallacy"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:fallacies-of-relevance"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "skos:definition": "The fallacy of diverting a discussion from the issue at hand to a different, often emotionally engaging topic, so that the original question is abandoned rather than answered and no conclusion relevant to it is established.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Red herring",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    },
+    {
+     "@id": "ct:tu-quoque"
+    }
+   ]
+  },
+  {
    "@id": "ct:regression-to-the-mean",
    "@type": "cto:Phenomenon",
    "cto:appliedIn": {
@@ -26975,6 +27061,125 @@
    },
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:red-herring"
+   },
+   "rdfs:label": "What exactly was the question at issue before the new topic came up?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:red-herring"
+   },
+   "rdfs:label": "If everything said about the new topic were true, would it make the original claim any more or less likely?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:red-herring"
+   },
+   "rdfs:label": "Did the reply engage the opponent's actual position at all, or simply leave it behind?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:red-herring"
+   },
+   "rdfs:label": "Is there evidence that the shift was a strategic diversion, or is the new point a legitimate, relevant consideration that only looks off-topic?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:red-herring"
+   },
+   "rdfs:label": "Has the original question been answered by the end of the exchange?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:red-herring"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So we should ship on schedule."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The competitor's outage says nothing about whether our failing payment tests make this release unsafe."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The original question was abandoned rather than answered; nothing in the discussion bears on the test failures."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The question in the review meeting is whether the release should slip a week because the payment tests are failing."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The product lead replies that the competitor's app crashed for two days last month and nobody even noticed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p3",
+   "@type": "aif:I-node",
+   "aif:claimText": "The lead then spends the rest of the meeting on how badly the competitor is run."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map/p3"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/red-herring/map"
    }
   },
   {
@@ -41734,6 +41939,76 @@
    "dcterms:title": "The Simple Life: New experimental tests of the recognition heuristic",
    "schema:url": {
     "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/16/16202a/jdm16202a.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Douglas Walton, Informal Logic 24(1), 71-103 (2004)",
+   "dcterms:title": "Classification of Fallacies of Relevance",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2133.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Lee C. Archie, Lander University philosophy course materials",
+   "dcterms:title": "Introduction to Logic: Ignoratio Elenchi (section 5, Red Herring)",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/ignoratio.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Florida International University, critical thinking course notes",
+   "dcterms:title": "Critical Thinking Lecture 15: Fallacies of Relevance (Red Herrings)",
+   "schema:url": {
+    "@id": "https://faculty.fiu.edu/~harrisk/Notes/Critical%20Thinking/CT%20Lecture%2015%20Fallacies%20of%20Relevance%20-%20Red%20Herrings.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Indiana University PHIL-P 102 course text (IU Pressbooks)",
+   "dcterms:title": "Arguments X: Fallacies in Reasoning",
+   "schema:url": {
+    "@id": "https://iu.pressbooks.pub/shockeyphilp102summer/chapter/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/red-herring/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "The Fallacy Files (G. N. Curtis)",
+   "dcterms:title": "Red Herring",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/redherrf.html"
    }
   },
   {
