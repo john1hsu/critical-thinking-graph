@@ -69,6 +69,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:analysis-of-competing-hypotheses` | contested | `ct:dhami-belton-mandel-2019-ach-protocol-study` |
 | `ct:analysis-of-competing-hypotheses` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:blooms-taxonomy` | contested | `ct:newton-2020-blooms-verb-list-study` |
+| `ct:choice-architecture` | contested | `ct:maier-2022-nudging-publication-bias-reanalysis` |
 | `ct:dual-process-theory` | contested | `ct:de-neys-2023-fast-and-slow-revision` |
 | `ct:dual-process-theory` | contested | `ct:gerd-gigerenzer` |
 | `ct:dual-process-theory` | contested | `ct:keren-schul-2009-two-system-critique` |
@@ -94,9 +95,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:actively-open-minded-thinking` | mixed |  |
 | `ct:affect-heuristic` | mixed |  |
-| `ct:argument-mapping` | mixed |  |
 
-…and 53 more.
+…and 54 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

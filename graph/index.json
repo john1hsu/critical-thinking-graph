@@ -4180,6 +4180,107 @@
   ]
  },
  {
+  "id": "ct:choice-architecture",
+  "title": "Choice architecture",
+  "aliases": [
+   "nudging",
+   "nudge interventions",
+   "choice environment design"
+  ],
+  "type": "Technique",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/decision-making/choice-architecture.md",
+  "created": "2026-11-14",
+  "summary": "The deliberate design of the setting in which people choose, such as defaults, the order and grouping of options, how options are described and what feedback is given, to steer decisions predictably without forbidding any option or materially changing incentives.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:status-quo-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behavioral-economics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:richard-thaler",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:cass-sunstein",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:public-policy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:exploits",
+    "object": "ct:status-quo-bias",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:exploits",
+    "object": "ct:framing-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:mertens-2022-nudging-meta-analysis",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:jachimowicz-2019-default-effects-meta-analysis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:maier-2022-nudging-publication-bias-reanalysis",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://hls.harvard.edu/bibliography/choice-architecture",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8740589",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9351501",
+   "https://ideas.repec.org/a/cup/bpubpo/v3y2019i02p159-186_00.html"
+  ]
+ },
+ {
   "id": "ct:christiaan-huygens",
   "title": "Christiaan Huygens",
   "aliases": [

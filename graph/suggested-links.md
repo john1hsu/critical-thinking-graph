@@ -7,11 +7,11 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 6.64 | `ct:argument` | `ct:aristotle` | `ct:amphiboly`, `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:aristotles-rhetoric`, `ct:begging-the-question` |
 | 6.48 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
 | 4.73 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
-| 4.72 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:attribute-substitution`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology` |
+| 4.71 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:attribute-substitution`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology` |
 | 4.40 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises`, `ct:existential-fallacy` |
+| 4.22 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
 | 4.14 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 3.92 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major` |
-| 3.85 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman`, `ct:expected-utility-theory` |
 | 3.83 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:existential-fallacy` |
 | 3.80 | `ct:method-of-counterexample` | `ct:propositional-logic` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-a-conjunct`, `ct:formal-logic`, `ct:logical-consequence` |
 | 3.74 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
@@ -21,7 +21,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.36 | `ct:categorical-proposition` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises`, `ct:existential-fallacy` |
 | 3.35 | `ct:categorical-proposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.33 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argument-from-ignorance`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:douglas-walton` |
-| 3.33 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
+| 3.32 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
 | 3.25 | `ct:method-of-counterexample` | `ct:predicate-logic` | `ct:alfred-tarski`, `ct:exists-forall-to-forall-exists-inference`, `ct:formal-logic`, `ct:logical-consequence`, `ct:masked-man-fallacy` |
 | 3.25 | `ct:informal-fallacy` | `ct:presumption` | `ct:argument`, `ct:argument-evaluation`, `ct:argument-from-expert-opinion`, `ct:argument-from-ignorance`, `ct:argumentation-schemes` |
 | 3.24 | `ct:douglas-walton` | `ct:principle-of-charity` | `ct:amphiboly`, `ct:argument`, `ct:argumentation-theory`, `ct:enthymeme`, `ct:equivocation` |
