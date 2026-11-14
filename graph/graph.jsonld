@@ -3087,6 +3087,88 @@
    ]
   },
   {
+   "@id": "ct:biased-assimilation",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:guess-coppock-2020-backlash-experiments"
+    },
+    {
+     "@id": "ct:kuhn-lao-1996-polarization-study"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:lord-ross-lepper-1979-capital-punishment-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:motivated-reasoning"
+   },
+   "cto:file": "articles/cognitive-biases/biased-assimilation.md",
+   "cto:introducedBy": {
+    "@id": "ct:lee-ross"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:cognitive-bias"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:taber-lodge-2006-motivated-skepticism-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s4"
+    }
+   ],
+   "rdfs:label": "Biased assimilation",
+   "skos:altLabel": [
+    "biased assimilation of evidence",
+    "prior attitude effect"
+   ],
+   "skos:broader": {
+    "@id": "ct:confirmation-bias"
+   },
+   "skos:definition": "The tendency to judge evidence that supports one's existing view as more convincing and better conducted than equally rigorous evidence against it, so that people on opposite sides read the same mixed evidence as backing their own position.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Biased assimilation",
+   "skos:related": [
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:belief-perseverance"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:motivated-reasoning"
+    },
+    {
+     "@id": "ct:myside-bias"
+    },
+    {
+     "@id": "ct:self-affirmation"
+    }
+   ]
+  },
+  {
    "@id": "ct:blooms-taxonomy",
    "@type": "cto:Framework",
    "cto:appliedIn": {
@@ -30304,6 +30386,62 @@
    "dcterms:title": "The Bias Blind Spot: Perceptions of Bias in Self Versus Others (replication record)",
    "schema:url": {
     "@id": "https://forrt.org/flora-replication-atlas/doi/10.1177/0146167202286008/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 37(11), 2098-2109 (Lord, Ross & Lepper, 1979), author copy via ResearchGate",
+   "dcterms:title": "Biased assimilation and attitude polarization: The effects of prior theories on subsequently considered evidence",
+   "schema:url": {
+    "@id": "https://www.researchgate.net/profile/Lee_Ross/publication/232555483_Biased_Assimilation_and_Attitude_Polarization_The_Effects_of_Prior_Theories_on_Subsequently_Considered_Evidence/links/0fcfd5101570b5afbd000000.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "American Journal of Political Science 50(3), 755-769 (Taber & Lodge, 2006), copy hosted by UNC Chapel Hill",
+   "dcterms:title": "Motivated skepticism in the evaluation of political beliefs",
+   "schema:url": {
+    "@id": "https://fbaum.unc.edu:443/teaching/articles/AJPS-2006-Taber.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Psychological Science (Kuhn & Lao, 1996), Association for Psychological Science journal page",
+   "dcterms:title": "Effects of evidence on attitudes: Is polarization the norm?",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.1996.tb00340.x/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "British Journal of Political Science (Guess & Coppock, 2020), authors' accepted manuscript",
+   "dcterms:title": "Does counter-attitudinal information cause backlash? Results from three large survey experiments",
+   "schema:url": {
+    "@id": "https://alexandercoppock.com/guess_coppock_2020_preprint.pdf"
    }
   },
   {

@@ -16,7 +16,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 
 | remedy | covers | targets |
 |---|---|---|
-| `ct:consider-the-opposite` | 4 | Anchoring effect, Hindsight bias, Overconfidence effect, biased-assimilation |
+| `ct:consider-the-opposite` | 4 | Anchoring effect, Biased assimilation, Hindsight bias, Overconfidence effect |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, Confirmation bias, Fundamental attribution error |
 | `ct:rules-of-the-categorical-syllogism` | 4 | Existential fallacy, Fallacy of four terms, Illicit major, Undistributed middle |
 | `ct:outside-view` | 3 | Base-rate neglect, Planning fallacy, Representativeness heuristic |
@@ -41,7 +41,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
 | `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
 | `ct:rule-against-conventionalist-stratagems` | 2 | No true Scotsman, pseudoscience |
-| `ct:self-affirmation` | 2 | Motivated reasoning, biased-assimilation |
+| `ct:self-affirmation` | 2 | Biased assimilation, Motivated reasoning |
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 | `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
@@ -96,7 +96,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:take-the-best` | contested | `ct:newell-2005-re-visions-of-rationality` |
 | `ct:actively-open-minded-thinking` | mixed |  |
 
-…and 55 more.
+…and 57 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

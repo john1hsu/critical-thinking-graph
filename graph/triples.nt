@@ -1585,6 +1585,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/emily-pronin> .
 <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/chandrashekar-2021-bias-blind-spot-replication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2000/01/rdf-schema#label> "Biased assimilation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#altLabel> "biased assimilation of evidence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#altLabel> "prior attitude effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#definition> "The tendency to judge evidence that supports one's existing view as more convincing and better conducted than equally rigorous evidence against it, so that people on opposite sides read the same mixed evidence as backing their own position." .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biased assimilation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/guess-coppock-2020-backlash-experiments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kuhn-lao-1996-polarization-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/lord-ross-lepper-1979-capital-punishment-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/biased-assimilation.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/lee-ross> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/taber-lodge-2006-motivated-skepticism-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "Bloom's taxonomy" .
@@ -10306,6 +10336,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/bias-blind-spot/s6> <https://schema.org/url> <https://forrt.org/flora-replication-atlas/doi/10.1177/0146167202286008/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s1> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 37(11), 2098-2109 (Lord, Ross & Lepper, 1979), author copy via ResearchGate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s1> <http://purl.org/dc/terms/title> "Biased assimilation and attitude polarization: The effects of prior theories on subsequently considered evidence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s1> <https://schema.org/url> <https://www.researchgate.net/profile/Lee_Ross/publication/232555483_Biased_Assimilation_and_Attitude_Polarization_The_Effects_of_Prior_Theories_on_Subsequently_Considered_Evidence/links/0fcfd5101570b5afbd000000.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s2> <http://purl.org/dc/terms/publisher> "American Journal of Political Science 50(3), 755-769 (Taber & Lodge, 2006), copy hosted by UNC Chapel Hill" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s2> <http://purl.org/dc/terms/title> "Motivated skepticism in the evaluation of political beliefs" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s2> <https://schema.org/url> <https://fbaum.unc.edu:443/teaching/articles/AJPS-2006-Taber.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s3> <http://purl.org/dc/terms/publisher> "Psychological Science (Kuhn & Lao, 1996), Association for Psychological Science journal page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s3> <http://purl.org/dc/terms/title> "Effects of evidence on attitudes: Is polarization the norm?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s3> <https://schema.org/url> <https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.1996.tb00340.x/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s4> <http://purl.org/dc/terms/publisher> "British Journal of Political Science (Guess & Coppock, 2020), authors' accepted manuscript" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s4> <http://purl.org/dc/terms/title> "Does counter-attitudinal information cause backlash? Results from three large survey experiments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/biased-assimilation/s4> <https://schema.org/url> <https://alexandercoppock.com/guess_coppock_2020_preprint.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s1> <http://purl.org/dc/terms/publisher> "Theory Into Practice 41(4), 212-218 (Krathwohl, 2002)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/blooms-taxonomy/s1> <http://purl.org/dc/terms/title> "A Revision of Bloom's Taxonomy: An Overview" .

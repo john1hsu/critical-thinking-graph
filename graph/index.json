@@ -3292,6 +3292,98 @@
   ]
  },
  {
+  "id": "ct:biased-assimilation",
+  "title": "Biased assimilation",
+  "aliases": [
+   "biased assimilation of evidence",
+   "prior attitude effect"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cognitive-biases/biased-assimilation.md",
+  "created": "2026-11-14",
+  "summary": "The tendency to judge evidence that supports one's existing view as more convincing and better conducted than equally rigorous evidence against it, so that people on opposite sides read the same mixed evidence as backing their own position.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:motivated-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:myside-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-perseverance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:self-affirmation"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:lord-ross-lepper-1979-capital-punishment-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:lee-ross",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:taber-lodge-2006-motivated-skepticism-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:motivated-reasoning",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:kuhn-lao-1996-polarization-study",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:guess-coppock-2020-backlash-experiments",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.researchgate.net/profile/Lee_Ross/publication/232555483_Biased_Assimilation_and_Attitude_Polarization_The_Effects_of_Prior_Theories_on_Subsequently_Considered_Evidence/links/0fcfd5101570b5afbd000000.pdf",
+   "https://fbaum.unc.edu:443/teaching/articles/AJPS-2006-Taber.pdf",
+   "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.1996.tb00340.x/",
+   "https://alexandercoppock.com/guess_coppock_2020_preprint.pdf"
+  ]
+ },
+ {
   "id": "ct:blooms-taxonomy",
   "title": "Bloom's taxonomy",
   "aliases": [
