@@ -4022,6 +4022,103 @@
   ]
  },
  {
+  "id": "ct:carroll-diagram",
+  "title": "Carroll diagram",
+  "aliases": [
+   "Carroll's method of diagrams",
+   "Lewis Carroll's square diagram",
+   "biliteral and triliteral diagrams",
+   "Game of Logic diagram"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/carroll-diagram.md",
+  "created": "2026-11-14",
+  "summary": "Lewis Carroll's square-diagram method for categorical reasoning: the whole universe is a square divided into cells for each combination of attributes and their negations, premises are recorded by marking cells as occupied or empty, and the only legitimate conclusion is whatever the marks transfer to the two-term diagram.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:diagrammatic-reasoning"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:euler-diagram"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirmative-conclusion-from-a-negative-premise"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:affirmative-conclusion-from-a-negative-premise",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:undistributed-middle",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:lewis-carroll",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-game-of-logic",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:venn-diagram-test",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://gutenberg.org/cache/epub/28696/pg28696-images.html",
+   "https://etc.usf.edu/lit2go/136/the-game-of-logic/2513/chapter-1-part-2/",
+   "https://etc.usf.edu/lit2go/136/the-game-of-logic/2514/chapter-1-part-3/",
+   "https://plato.stanford.edu/archives/sum2026/entries/diagrams/",
+   "https://arxiv.org/pdf/1802.04127"
+  ]
+ },
+ {
   "id": "ct:categorical-proposition",
   "title": "Categorical proposition",
   "aliases": [

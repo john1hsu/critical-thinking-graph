@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:affirmative-conclusion-from-a-negative-premise` | cto:FormalFallacy |
 | `ct:take-the-best` | cto:Heuristic |
 
 ## Most useful remedies
@@ -28,6 +27,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Illicit minor, Undistributed middle |
 | `ct:broad-bracketing` | 2 | Loss aversion, myopic-loss-aversion |
+| `ct:carroll-diagram` | 2 | Affirmative conclusion from a negative premise, Undistributed middle |
 | `ct:causal-diagrams` | 2 | Confounding, Selection bias |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
@@ -46,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:self-affirmation` | 2 | Biased assimilation, Motivated reasoning |
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
-| `ct:actively-open-minded-thinking` | 1 | Overconfidence effect |
 
-…and 27 more.
+…and 28 more.
 
 ## Heuristic -> bias -> remedy chains
 

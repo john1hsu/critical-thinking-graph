@@ -3765,6 +3765,100 @@
    ]
   },
   {
+   "@id": "ct:carroll-diagram",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:venn-diagram-test"
+   },
+   "cto:detects": [
+    {
+     "@id": "ct:affirmative-conclusion-from-a-negative-premise"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    }
+   ],
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/carroll-diagram.md",
+   "cto:introducedBy": {
+    "@id": "ct:lewis-carroll"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:the-game-of-logic"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s5"
+    }
+   ],
+   "rdfs:label": "Carroll diagram",
+   "skos:altLabel": [
+    "Carroll's method of diagrams",
+    "Game of Logic diagram",
+    "Lewis Carroll's square diagram",
+    "biliteral and triliteral diagrams"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:diagrammatic-reasoning"
+    }
+   ],
+   "skos:definition": "Lewis Carroll's square-diagram method for categorical reasoning: the whole universe is a square divided into cells for each combination of attributes and their negations, premises are recorded by marking cells as occupied or empty, and the only legitimate conclusion is whatever the marks transfer to the two-term diagram.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Carroll diagram",
+   "skos:related": [
+    {
+     "@id": "ct:affirmative-conclusion-from-a-negative-premise"
+    },
+    {
+     "@id": "ct:euler-diagram"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:rules-of-the-categorical-syllogism"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:categorical-proposition",
    "@type": "cto:Concept",
    "cto:domain": "formal-logic",
@@ -31595,6 +31689,76 @@
    "dcterms:title": "Brier score",
    "schema:url": {
     "@id": "https://glossary.ametsoc.org/wiki/brier-score/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Lewis Carroll (C. L. Dodgson), Macmillan; Project Gutenberg edition",
+   "dcterms:title": "Symbolic Logic, Part I: Elementary (1896), Project Gutenberg eBook #28696",
+   "schema:url": {
+    "@id": "https://gutenberg.org/cache/epub/28696/pg28696-images.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Lewis Carroll; Lit2Go edition, Florida Center for Instructional Technology, University of South Florida",
+   "dcterms:title": "The Game of Logic (1886), Chapter 1, Part 2",
+   "schema:url": {
+    "@id": "https://etc.usf.edu/lit2go/136/the-game-of-logic/2513/chapter-1-part-2/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Lewis Carroll; Lit2Go edition, Florida Center for Instructional Technology, University of South Florida",
+   "dcterms:title": "The Game of Logic (1886), Chapter 1, Part 3",
+   "schema:url": {
+    "@id": "https://etc.usf.edu/lit2go/136/the-game-of-logic/2514/chapter-1-part-3/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Summer 2026 edition)",
+   "dcterms:title": "Diagrams and Diagrammatical Reasoning",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2026/entries/diagrams/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/carroll-diagram/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "arXiv:1802.04127",
+   "dcterms:title": "A New Algorithmic Decision for Categorical Syllogisms via Carroll's Diagrams (Kircali Gursoy, Senturk, Oner & Gursoy)",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/1802.04127"
    }
   },
   {
