@@ -20736,6 +20736,118 @@
   ]
  },
  {
+  "id": "ct:risk-aversion",
+  "title": "Risk aversion",
+  "aliases": [
+   "risk-averse preference",
+   "aversion to risk"
+  ],
+  "type": "Concept",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/decision-making/risk-aversion.md",
+  "created": "2026-11-14",
+  "summary": "A preference for a certain outcome over a gamble whose expected value is equal or higher; in expected utility theory it is modelled by a concave utility function, and its size is measured by the risk premium a person would pay to avoid the gamble.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:decision-theory"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-value"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:broad-bracketing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:allais-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-thaler"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-communication"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:expected-value"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-bernoulli",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:expected-utility-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:holt-laury-2002-lottery-choice-experiment",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:holt-laury-2005-order-effects-replication",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:prospect-theory",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:loss-aversion",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:behavioral-economics",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.econometricsociety.org/publications/econometrica/1964/01/01/risk-aversion-small-and-large",
+   "https://ideas.repec.org:443/a/aea/jecper/v15y2001i1p219-232.html",
+   "https://www2.um.edu.uy/marcaffera/marcelo/Papers/Trust%20Nestor/Holt%20and%20Laury%202002%20AER%20Risk%20Aversion%20and%20Incentives%20Effects.pdf",
+   "https://econweb.ucsd.edu/~jandreon/Econ264/papers/Holt%20Laury%20AER%202005.pdf",
+   "https://www.econometricsociety.org/publications/econometrica/1979/03/01/prospect-theory-analysis-decision-under-risk",
+   "https://plato.stanford.edu/entries/rationality-normative-utility/"
+  ]
+ },
+ {
   "id": "ct:risk-communication",
   "title": "Risk communication",
   "aliases": [
