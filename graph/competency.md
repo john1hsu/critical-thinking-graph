@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:no-true-scotsman` | cto:InformalFallacy |
+| `ct:take-the-best` | cto:Heuristic |
 
 ## Most useful remedies
 
@@ -93,10 +94,10 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:self-affirmation` | contested | `ct:lyons-2022-self-affirmation-political-replications` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
+| `ct:take-the-best` | contested | `ct:newell-2005-re-visions-of-rationality` |
 | `ct:actively-open-minded-thinking` | mixed |  |
-| `ct:affect-heuristic` | mixed |  |
 
-…and 54 more.
+…and 55 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

@@ -21428,6 +21428,91 @@
    ]
   },
   {
+   "@id": "ct:take-the-best",
+   "@type": "cto:Heuristic",
+   "cto:challengedBy": {
+    "@id": "ct:newell-2005-re-visions-of-rationality"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": {
+    "@id": "ct:ecological-rationality"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/take-the-best.md",
+   "cto:introducedBy": {
+    "@id": "ct:gerd-gigerenzer"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:reasoning-the-fast-and-frugal-way"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:fast-and-frugal-heuristics"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:gigerenzer-brighton-2009-homo-heuristicus"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s5"
+    }
+   ],
+   "rdfs:label": "Take-the-best",
+   "skos:altLabel": [
+    "TTB heuristic",
+    "take the best heuristic"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:heuristic"
+    }
+   ],
+   "skos:definition": "A fast-and-frugal rule for deciding which of two options scores higher on a criterion: check cues one at a time in order of their validity, stop at the first cue that tells the options apart, and choose the option that cue favours, ignoring every remaining cue.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Take-the-best",
+   "skos:related": [
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:herbert-simon"
+    },
+    {
+     "@id": "ct:overfitting"
+    },
+    {
+     "@id": "ct:recognition-heuristic"
+    },
+    {
+     "@id": "ct:satisficing"
+    }
+   ]
+  },
+  {
    "@id": "ct:the-new-rhetoric",
    "@type": "cto:Work",
    "cto:authoredBy": [
@@ -44575,6 +44660,76 @@
    "dcterms:title": "The Mass Production of Redundant, Misleading, and Conflicted Systematic Reviews and Meta-analyses",
    "schema:url": {
     "@id": "https://www.milbank.org/quarterly/articles/mass-production-redundant-misleading-conflicted-systematic-reviews-meta-analyses/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Psychological Review 103(4), 650-669 (Gigerenzer & Goldstein, 1996), author's copy",
+   "dcterms:title": "Reasoning the fast and frugal way: Models of bounded rationality",
+   "schema:url": {
+    "@id": "https://www.dangoldstein.com/papers/FastFrugalPsychReview.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 3(3), 205-214 (Bröder & Newell, 2008)",
+   "dcterms:title": "Challenging some common beliefs: Empirical work within the adaptive toolbox metaphor",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/bn2/bn2.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Topics in Cognitive Science 1, 107-143 (Gigerenzer & Brighton, 2009), course copy at UC Irvine",
+   "dcterms:title": "Homo heuristicus: Why biased minds make better inferences",
+   "schema:url": {
+    "@id": "https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Trends in Cognitive Sciences (Newell, 2005), author's manuscript at UCL Discovery",
+   "dcterms:title": "Re-visions of rationality?",
+   "schema:url": {
+    "@id": "https://discovery-pp.ucl.ac.uk/14582/1/14582.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Wheeler, 2018; rev. 2024)",
+   "dcterms:title": "Bounded Rationality",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/bounded-rationality/"
    }
   },
   {

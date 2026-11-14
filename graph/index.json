@@ -22826,6 +22826,99 @@
   ]
  },
  {
+  "id": "ct:take-the-best",
+  "title": "Take-the-best",
+  "aliases": [
+   "take the best heuristic",
+   "TTB heuristic"
+  ],
+  "type": "Heuristic",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/heuristics-and-dual-process/take-the-best.md",
+  "created": "2026-11-14",
+  "summary": "A fast-and-frugal rule for deciding which of two options scores higher on a criterion: check cues one at a time in order of their validity, stop at the first cue that tells the options apart, and choose the option that cue favours, ignoring every remaining cue.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:recognition-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:satisficing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overfitting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:herbert-simon"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:reasoning-the-fast-and-frugal-way",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:ecological-rationality",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:gigerenzer-brighton-2009-homo-heuristicus",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:newell-2005-re-visions-of-rationality",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.dangoldstein.com/papers/FastFrugalPsychReview.pdf",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/bn2/bn2.html",
+   "https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf",
+   "https://discovery-pp.ucl.ac.uk/14582/1/14582.pdf",
+   "https://plato.stanford.edu/ENTRIES/bounded-rationality/"
+  ]
+ },
+ {
   "id": "ct:the-new-rhetoric",
   "title": "The New Rhetoric",
   "aliases": [
