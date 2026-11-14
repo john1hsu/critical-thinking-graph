@@ -13221,6 +13221,99 @@
    ]
   },
   {
+   "@id": "ct:loss-aversion",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": {
+    "@id": "ct:gal-rucker-2018-loss-of-loss-aversion"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/cognitive-biases/loss-aversion.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:behavioral-economics"
+   },
+   "cto:supportedBy": [
+    {
+     "@id": "ct:brown-2024-loss-aversion-meta-analysis"
+    },
+    {
+     "@id": "ct:mrkva-2020-moderating-loss-aversion"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s5"
+    }
+   ],
+   "rdfs:label": "Loss aversion",
+   "skos:altLabel": [
+    "gain-loss asymmetry",
+    "losses loom larger than gains"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to weigh a loss more heavily than a gain of the same size, measured against a reference point such as the status quo, so that giving something up hurts more than getting it pleases.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Loss aversion",
+   "skos:related": [
+    {
+     "@id": "ct:behavioral-economics"
+    },
+    {
+     "@id": "ct:endowment-effect"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    },
+    {
+     "@id": "ct:reversal-test"
+    },
+    {
+     "@id": "ct:richard-thaler"
+    },
+    {
+     "@id": "ct:risk-aversion"
+    },
+    {
+     "@id": "ct:status-quo-bias"
+    },
+    {
+     "@id": "ct:sunk-cost-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:masked-man-fallacy",
    "@type": "cto:FormalFallacy",
    "cto:domain": "formal-fallacies",
@@ -38595,6 +38688,76 @@
    "dcterms:title": "Validity and Soundness",
    "schema:url": {
     "@id": "https://iep.utm.edu/val-snd"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Quarterly Journal of Economics 106(4), 1039-1061 (Tversky & Kahneman, 1991), RePEc/IDEAS record",
+   "dcterms:title": "Loss Aversion in Riskless Choice: A Reference-Dependent Model",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/oup/qjecon/v106y1991i4p1039-1061..html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Journal of Economic Perspectives 5(1), 193-206 (Kahneman, Knetsch & Thaler, 1991), RePEc/IDEAS record",
+   "dcterms:title": "Anomalies: The Endowment Effect, Loss Aversion, and Status Quo Bias",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/aea/jecper/v5y1991i1p193-206.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Journal of Economic Literature 62(2), 485-516 (Brown, Imai, Vieider & Camerer, 2024), American Economic Association",
+   "dcterms:title": "Meta-analysis of Empirical Estimates of Loss Aversion",
+   "schema:url": {
+    "@id": "https://www.aeaweb.org/doi/10.1257/jel.20221698"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Journal of Consumer Psychology 30(3), 407-428 (Mrkva, Johnson, Gächter & Herrmann, 2020), University of Bath research portal",
+   "dcterms:title": "Moderating Loss Aversion: Loss Aversion Has Moderators, But Reports of its Death are Greatly Exaggerated",
+   "schema:url": {
+    "@id": "https://researchportal.bath.ac.uk/en/publications/moderating-loss-aversion-loss-aversion-has-moderators-but-reports/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Journal of Consumer Psychology (Gal & Rucker, 2018), SSRN record",
+   "dcterms:title": "The Loss of Loss Aversion: Will It Loom Larger Than Its Gain?",
+   "schema:url": {
+    "@id": "https://papers.ssrn.com/abstract=3049660"
    }
   },
   {

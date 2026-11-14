@@ -14161,6 +14161,107 @@
   ]
  },
  {
+  "id": "ct:loss-aversion",
+  "title": "Loss aversion",
+  "aliases": [
+   "losses loom larger than gains",
+   "gain-loss asymmetry"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/cognitive-biases/loss-aversion.md",
+  "created": "2026-11-14",
+  "summary": "The tendency to weigh a loss more heavily than a gain of the same size, measured against a reference point such as the status quo, so that giving something up hurts more than getting it pleases.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:endowment-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:status-quo-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sunk-cost-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behavioral-economics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-thaler"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reversal-test"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:brown-2024-loss-aversion-meta-analysis",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:mrkva-2020-moderating-loss-aversion",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gal-rucker-2018-loss-of-loss-aversion",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:behavioral-economics",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ideas.repec.org/a/oup/qjecon/v106y1991i4p1039-1061..html",
+   "https://ideas.repec.org/a/aea/jecper/v5y1991i1p193-206.html",
+   "https://www.aeaweb.org/doi/10.1257/jel.20221698",
+   "https://researchportal.bath.ac.uk/en/publications/moderating-loss-aversion-loss-aversion-has-moderators-but-reports/",
+   "https://papers.ssrn.com/abstract=3049660"
+  ]
+ },
+ {
   "id": "ct:masked-man-fallacy",
   "title": "Masked-man fallacy",
   "aliases": [

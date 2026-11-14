@@ -6051,6 +6051,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/caravona-2019-pragmatic-instruction-experiments> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2000/01/rdf-schema#label> "Loss aversion" .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#altLabel> "gain-loss asymmetry" .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#altLabel> "losses loom larger than gains" .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#definition> "The tendency to weigh a loss more heavily than a gain of the same size, measured against a reference point such as the status quo, so that giving something up hurts more than getting it pleases." .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loss aversion" .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-thaler> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gal-rucker-2018-loss-of-loss-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "contested" .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/loss-aversion.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/amos-tversky> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/brown-2024-loss-aversion-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mrkva-2020-moderating-loss-aversion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the conclusion swap a name or description inside \"believes\", \"knows\", \"wants\" or a similar verb?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
@@ -13849,6 +13882,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logical-necessity-instructions/s5> <https://schema.org/url> <https://iep.utm.edu/val-snd> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s1> <http://purl.org/dc/terms/publisher> "Quarterly Journal of Economics 106(4), 1039-1061 (Tversky & Kahneman, 1991), RePEc/IDEAS record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s1> <http://purl.org/dc/terms/title> "Loss Aversion in Riskless Choice: A Reference-Dependent Model" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s1> <https://schema.org/url> <https://ideas.repec.org/a/oup/qjecon/v106y1991i4p1039-1061..html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s2> <http://purl.org/dc/terms/publisher> "Journal of Economic Perspectives 5(1), 193-206 (Kahneman, Knetsch & Thaler, 1991), RePEc/IDEAS record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s2> <http://purl.org/dc/terms/title> "Anomalies: The Endowment Effect, Loss Aversion, and Status Quo Bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s2> <https://schema.org/url> <https://ideas.repec.org/a/aea/jecper/v5y1991i1p193-206.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s3> <http://purl.org/dc/terms/publisher> "Journal of Economic Literature 62(2), 485-516 (Brown, Imai, Vieider & Camerer, 2024), American Economic Association" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s3> <http://purl.org/dc/terms/title> "Meta-analysis of Empirical Estimates of Loss Aversion" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s3> <https://schema.org/url> <https://www.aeaweb.org/doi/10.1257/jel.20221698> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s4> <http://purl.org/dc/terms/publisher> "Journal of Consumer Psychology 30(3), 407-428 (Mrkva, Johnson, Gächter & Herrmann, 2020), University of Bath research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s4> <http://purl.org/dc/terms/title> "Moderating Loss Aversion: Loss Aversion Has Moderators, But Reports of its Death are Greatly Exaggerated" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s4> <https://schema.org/url> <https://researchportal.bath.ac.uk/en/publications/moderating-loss-aversion-loss-aversion-has-moderators-but-reports/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s5> <http://purl.org/dc/terms/publisher> "Journal of Consumer Psychology (Gal & Rucker, 2018), SSRN record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s5> <http://purl.org/dc/terms/title> "The Loss of Loss Aversion: Will It Loom Larger Than Its Gain?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/loss-aversion/s5> <https://schema.org/url> <https://papers.ssrn.com/abstract=3049660> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s1> <http://purl.org/dc/terms/publisher> "The Fallacy Files (Gary N. Curtis)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s1> <http://purl.org/dc/terms/title> "The Masked Man Fallacy" .

@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:loss-aversion` | cto:CognitiveBias |
 | `ct:take-the-best` | cto:Heuristic |
 
 ## Most useful remedies
@@ -84,6 +85,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
+| `ct:loss-aversion` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
 | `ct:null-hypothesis-significance-testing` | contested | `ct:amrhein-2019-retire-statistical-significance` |
 | `ct:prospect-theory` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
 | `ct:recognition-heuristic` | contested | `ct:basehore-anderson-2016-recognition-tests` |
@@ -94,9 +96,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:take-the-best` | contested | `ct:newell-2005-re-visions-of-rationality` |
-| `ct:actively-open-minded-thinking` | mixed |  |
 
-…and 58 more.
+…and 59 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
