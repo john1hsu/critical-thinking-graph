@@ -2813,6 +2813,44 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/prakash-2019-reflective-strategies-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2000/01/rdf-schema#label> "Delphi method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Delphi process" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Delphi study" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Delphi survey" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Delphi technique" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "e-Delphi" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "modified Delphi" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/expert-elicitation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#definition> "A structured way to elicit and combine expert judgment in which a panel answers questionnaires anonymously over several rounds, receiving a facilitator's summary of the group's answers and reasons between rounds, until the estimates stabilise and are aggregated statistically." .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Delphi method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/medicine> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/nominal-group-technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/delphi-method.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/norman-dalkey> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/olaf-helmer> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2000/01/rdf-schema#label> "Delphi Report on critical thinking" .
@@ -10908,6 +10946,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deliberate-reflection/s6> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02297/pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <http://purl.org/dc/terms/publisher> "Management Science 9(3), 458-467 (Dalkey & Helmer, 1963), record on RePEc/IDEAS" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <http://purl.org/dc/terms/title> "An Experimental Application of the DELPHI Method to the Use of Experts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <https://schema.org/url> <https://ideas.repec.org/a/inm/ormnsc/v9y1963i3p458-467.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <http://purl.org/dc/terms/publisher> "In J. S. Armstrong (ed.), Principles of Forecasting, Kluwer, pp. 125-144 (Rowe & Wright, 2001), author's chapter copy hosted on gwern.net" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <http://purl.org/dc/terms/title> "Expert Opinions in Forecasting: The Role of the Delphi Technique" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <https://schema.org/url> <https://Www.Gwern.net/doc/statistics/prediction/2001-rowe.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <http://purl.org/dc/terms/publisher> "OTexts (Hyndman & Athanasopoulos, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <http://purl.org/dc/terms/title> "Forecasting: Principles and Practice (2nd ed.), section 4.3 The Delphi method" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <https://schema.org/url> <https://otexts.com/fpp2/delphimethod.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <http://purl.org/dc/terms/publisher> "World Journal of Methodology 11(4), 116-129 (Nasa, Jain & Juneja, 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <http://purl.org/dc/terms/title> "Delphi methodology in healthcare research: How to decide its appropriateness" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <https://schema.org/url> <https://www.wjgnet.com/2222-0682/full/v11/i4/116.htm?s=qc> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <http://purl.org/dc/terms/publisher> "INFORMS, History of O.R. Excellence (RAND Corporation slideshow)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <http://purl.org/dc/terms/title> "Norman C. Dalkey oversees a Delphi Experiment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <https://schema.org/url> <https://informs.org/Explore/History-of-O.R.-Excellence/Non-Academic-Institutions/RAND-Corporation/RAND-Slideshow/Norman-C.-Dalkey-oversees-a-Delphi-Experiment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <http://purl.org/dc/terms/publisher> "ARPA-sponsored research plan (Shure & Dalkey, c. 1972), Defense Technical Information Center" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <http://purl.org/dc/terms/title> "Group Judgment Technology: Project Scope and Research Plan (CCBS-TM-2)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/AD0741668.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s1> <http://purl.org/dc/terms/publisher> "American Philosophical Association / California Academic Press (Facione, 1990); copy hosted by Queensborough Community College, CUNY" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s1> <http://purl.org/dc/terms/title> "Critical Thinking: A Statement of Expert Consensus for Purposes of Educational Assessment and Instruction (Executive Summary, 'The Delphi Report')" .

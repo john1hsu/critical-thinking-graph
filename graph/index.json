@@ -6462,6 +6462,116 @@
   ]
  },
  {
+  "id": "ct:delphi-method",
+  "title": "Delphi method",
+  "aliases": [
+   "Delphi technique",
+   "Delphi process",
+   "Delphi study",
+   "Delphi survey",
+   "modified Delphi",
+   "e-Delphi"
+  ],
+  "type": "Method",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/delphi-method.md",
+  "created": "2026-11-14",
+  "summary": "A structured way to elicit and combine expert judgment in which a panel answers questionnaires anonymously over several rounds, receiving a facilitator's summary of the group's answers and reasons between rounds, until the estimates stabilise and are aggregated statistically.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:expert-elicitation"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-report-on-critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:intelligence-analysis"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:olaf-helmer",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:norman-dalkey",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:groupthink",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:bandwagon-effect",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:nominal-group-technique",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:wisdom-of-crowds",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:forecasting",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:medicine",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ideas.repec.org/a/inm/ormnsc/v9y1963i3p458-467.html",
+   "https://Www.Gwern.net/doc/statistics/prediction/2001-rowe.pdf",
+   "https://otexts.com/fpp2/delphimethod.html",
+   "https://www.wjgnet.com/2222-0682/full/v11/i4/116.htm?s=qc",
+   "https://informs.org/Explore/History-of-O.R.-Excellence/Non-Academic-Institutions/RAND-Corporation/RAND-Slideshow/Norman-C.-Dalkey-oversees-a-Delphi-Experiment",
+   "https://apps.dtic.mil/sti/pdfs/AD0741668.pdf"
+  ]
+ },
+ {
   "id": "ct:delphi-report-on-critical-thinking",
   "title": "Delphi Report on critical thinking",
   "aliases": [

@@ -31,6 +31,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
+| `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
@@ -45,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:analysis-of-competing-hypotheses` | 1 | Confirmation bias |
 | `ct:antilogism` | 1 | Exclusive premises |
 | `ct:argument-mapping` | 1 | Begging the question |
-| `ct:bright-line-rule` | 1 | Slippery slope |
 
-…and 22 more.
+…and 23 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -96,7 +96,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:affect-heuristic` | mixed |  |
 | `ct:argument-mapping` | mixed |  |
 
-…and 50 more.
+…and 51 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

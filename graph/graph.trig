@@ -401,6 +401,15 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/decision-making/delphi-method.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/decision-making/devils-advocacy.md" .
@@ -5489,6 +5498,83 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/bright-line-rule/s5> <https://schema.org/url> <https://escholarship.org/content/qt4m59x3cq/qt4m59x3cq.pdf?t=op2kje> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/delphi-method#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2000/01/rdf-schema#label> "Delphi method" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Delphi process" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Delphi study" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Delphi survey" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "Delphi technique" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "e-Delphi" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#altLabel> "modified Delphi" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/expert-elicitation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#definition> "A structured way to elicit and combine expert judgment in which a panel answers questionnaires anonymously over several rounds, receiving a facilitator's summary of the group's answers and reasons between rounds, until the estimates stabilise and are aggregated statistically." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Delphi method" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/medicine> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/nominal-group-technique> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/delphi-method.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/norman-dalkey> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/olaf-helmer> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <http://purl.org/dc/terms/publisher> "Management Science 9(3), 458-467 (Dalkey & Helmer, 1963), record on RePEc/IDEAS" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <http://purl.org/dc/terms/title> "An Experimental Application of the DELPHI Method to the Use of Experts" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1> <https://schema.org/url> <https://ideas.repec.org/a/inm/ormnsc/v9y1963i3p458-467.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <http://purl.org/dc/terms/publisher> "In J. S. Armstrong (ed.), Principles of Forecasting, Kluwer, pp. 125-144 (Rowe & Wright, 2001), author's chapter copy hosted on gwern.net" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <http://purl.org/dc/terms/title> "Expert Opinions in Forecasting: The Role of the Delphi Technique" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2> <https://schema.org/url> <https://Www.Gwern.net/doc/statistics/prediction/2001-rowe.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <http://purl.org/dc/terms/publisher> "OTexts (Hyndman & Athanasopoulos, 2018)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <http://purl.org/dc/terms/title> "Forecasting: Principles and Practice (2nd ed.), section 4.3 The Delphi method" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3> <https://schema.org/url> <https://otexts.com/fpp2/delphimethod.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <http://purl.org/dc/terms/publisher> "World Journal of Methodology 11(4), 116-129 (Nasa, Jain & Juneja, 2021)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <http://purl.org/dc/terms/title> "Delphi methodology in healthcare research: How to decide its appropriateness" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4> <https://schema.org/url> <https://www.wjgnet.com/2222-0682/full/v11/i4/116.htm?s=qc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <http://purl.org/dc/terms/publisher> "INFORMS, History of O.R. Excellence (RAND Corporation slideshow)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <http://purl.org/dc/terms/title> "Norman C. Dalkey oversees a Delphi Experiment" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5> <https://schema.org/url> <https://informs.org/Explore/History-of-O.R.-Excellence/Non-Academic-Institutions/RAND-Corporation/RAND-Slideshow/Norman-C.-Dalkey-oversees-a-Delphi-Experiment> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <http://purl.org/dc/terms/publisher> "ARPA-sponsored research plan (Shure & Dalkey, c. 1972), Defense Technical Information Center" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <http://purl.org/dc/terms/title> "Group Judgment Technology: Project Scope and Research Plan (CCBS-TM-2)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/AD0741668.pdf> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy#graph> {
@@ -20678,6 +20764,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
@@ -20763,6 +20850,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
@@ -21075,6 +21163,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bad-lot-objection> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/balancing-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/barnes-2018-ad-hominem-attacks-on-scientists-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/barnes-2018-ad-hominem-attacks-on-scientists-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/barnes-2018-ad-hominem-attacks-on-scientists-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
@@ -22057,10 +22146,15 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-dewey> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/expert-elicitation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-dewey> .
   <https://github.com/john1hsu/critical-thinking-graph/id/democritus> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dennis-f-thompson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -22419,6 +22513,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/experimental-philosophy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/experimental-philosophy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/experimental-philosophy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/expert-elicitation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/expert-elicitation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/explanatory-virtues> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fact-fiction-and-forecast> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
@@ -22735,7 +22831,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/groh-2022-deepfake-detection-crowds-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groh-2022-deepfake-detection-crowds-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groh-2022-deepfake-detection-crowds-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/deepfake> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifiedBy> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
@@ -22744,6 +22842,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/guess-coppock-2020-backlash-experiments> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/h-l-a-hart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -23168,6 +23267,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-studies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-studies> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
@@ -23313,6 +23413,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-under-uncertainty-heuristics-and-biases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-under-uncertainty-heuristics-and-biases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-under-uncertainty-heuristics-and-biases> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
@@ -23824,10 +23925,14 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/noam-chomsky> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/nominal-group-technique> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nonmonotonic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nonresponse-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nonsense-correlation> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/norman-dalkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/norman-dalkey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/norman-dalkey> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/novum-organum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/novum-organum> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -23862,6 +23967,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
   <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/olaf-helmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/olaf-helmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/olaf-helmer> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/omission-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/on-the-algebra-of-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/on-the-algebra-of-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
@@ -25203,6 +25311,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
@@ -25700,6 +25809,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/wineburg-2022-lateral-reading-classroom-experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wineburg-2022-lateral-reading-classroom-experiment> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/words-of-estimative-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/words-of-estimative-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/worst-case-scenario-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .

@@ -6055,6 +6055,110 @@
    ]
   },
   {
+   "@id": "ct:delphi-method",
+   "@type": "cto:Method",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:forecasting"
+    },
+    {
+     "@id": "ct:medicine"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:nominal-group-technique"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:bandwagon-effect"
+    },
+    {
+     "@id": "ct:groupthink"
+    }
+   ],
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:wisdom-of-crowds"
+   },
+   "cto:file": "articles/decision-making/delphi-method.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:norman-dalkey"
+    },
+    {
+     "@id": "ct:olaf-helmer"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6"
+    }
+   ],
+   "rdfs:label": "Delphi method",
+   "skos:altLabel": [
+    "Delphi process",
+    "Delphi study",
+    "Delphi survey",
+    "Delphi technique",
+    "e-Delphi",
+    "modified Delphi"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:expert-elicitation"
+    },
+    {
+     "@id": "ct:group-decision-making"
+    }
+   ],
+   "skos:definition": "A structured way to elicit and combine expert judgment in which a panel answers questionnaires anonymously over several rounds, receiving a facilitator's summary of the group's answers and reasons between rounds, until the estimates stabilise and are aggregated statistically.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Delphi method",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:delphi-report-on-critical-thinking"
+    },
+    {
+     "@id": "ct:intelligence-analysis"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    }
+   ]
+  },
+  {
    "@id": "ct:delphi-report-on-critical-thinking",
    "@type": "cto:Work",
    "cto:appliedIn": [
@@ -31351,6 +31455,90 @@
    "dcterms:title": "Guided reflection interventions show no effect on diagnostic accuracy in medical students",
    "schema:url": {
     "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02297/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Management Science 9(3), 458-467 (Dalkey & Helmer, 1963), record on RePEc/IDEAS",
+   "dcterms:title": "An Experimental Application of the DELPHI Method to the Use of Experts",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/inm/ormnsc/v9y1963i3p458-467.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "In J. S. Armstrong (ed.), Principles of Forecasting, Kluwer, pp. 125-144 (Rowe & Wright, 2001), author's chapter copy hosted on gwern.net",
+   "dcterms:title": "Expert Opinions in Forecasting: The Role of the Delphi Technique",
+   "schema:url": {
+    "@id": "https://Www.Gwern.net/doc/statistics/prediction/2001-rowe.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "OTexts (Hyndman & Athanasopoulos, 2018)",
+   "dcterms:title": "Forecasting: Principles and Practice (2nd ed.), section 4.3 The Delphi method",
+   "schema:url": {
+    "@id": "https://otexts.com/fpp2/delphimethod.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "World Journal of Methodology 11(4), 116-129 (Nasa, Jain & Juneja, 2021)",
+   "dcterms:title": "Delphi methodology in healthcare research: How to decide its appropriateness",
+   "schema:url": {
+    "@id": "https://www.wjgnet.com/2222-0682/full/v11/i4/116.htm?s=qc"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "INFORMS, History of O.R. Excellence (RAND Corporation slideshow)",
+   "dcterms:title": "Norman C. Dalkey oversees a Delphi Experiment",
+   "schema:url": {
+    "@id": "https://informs.org/Explore/History-of-O.R.-Excellence/Non-Academic-Institutions/RAND-Corporation/RAND-Slideshow/Norman-C.-Dalkey-oversees-a-Delphi-Experiment"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-method/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "ARPA-sponsored research plan (Shure & Dalkey, c. 1972), Defense Technical Information Center",
+   "dcterms:title": "Group Judgment Technology: Project Scope and Research Plan (CCBS-TM-2)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/AD0741668.pdf"
    }
   },
   {
