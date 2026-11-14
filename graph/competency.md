@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:affirmative-conclusion-from-a-negative-premise` | cto:FormalFallacy |
 | `ct:take-the-best` | cto:Heuristic |
 
 ## Most useful remedies

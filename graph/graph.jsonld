@@ -432,6 +432,100 @@
    ]
   },
   {
+   "@id": "ct:affirmative-conclusion-from-a-negative-premise",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:exclusive-premises"
+    },
+    {
+     "@id": "ct:negative-conclusion-from-affirmative-premises"
+    }
+   ],
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map"
+   },
+   "cto:file": "articles/formal-fallacies/affirmative-conclusion-from-a-negative-premise.md",
+   "cto:introducedIn": {
+    "@id": "ct:prior-analytics"
+   },
+   "cto:invalidFormOf": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s5"
+    }
+   ],
+   "rdfs:label": "Affirmative conclusion from a negative premise",
+   "skos:altLabel": [
+    "affirmative conclusion from a negative premiss",
+    "fallacy of drawing an affirmative conclusion from a negative premise",
+    "illicit negative"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The syllogistic fallacy of drawing an affirmative conclusion (an A or I statement) from premises at least one of which is negative (E or O). A negative premise only separates classes, so it cannot supply the inclusion an affirmative conclusion asserts, and every such syllogism is invalid.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Affirmative conclusion from a negative premise",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:exclusive-premises"
+    },
+    {
+     "@id": "ct:illicit-major"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:rules-of-the-categorical-syllogism"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:affirming-a-disjunct",
    "@type": "cto:FormalFallacy",
    "cto:confusedWith": {
@@ -24061,6 +24155,112 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:affirmative-conclusion-from-a-negative-premise"
+   },
+   "rdfs:label": "Is either premise a negative statement (\"No A are B\" or \"Some A are not B\") while the conclusion says that something is included in a class?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:affirmative-conclusion-from-a-negative-premise"
+   },
+   "rdfs:label": "Which premise is supposed to place the conclusion's subject inside its predicate class, and does any premise actually do that?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:affirmative-conclusion-from-a-negative-premise"
+   },
+   "rdfs:label": "Can you describe a case where every premise is true and the affirmative conclusion is false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:affirmative-conclusion-from-a-negative-premise"
+   },
+   "rdfs:label": "Is the arguer relying on an unstated affirmative premise that should be stated and checked?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:affirmative-conclusion-from-a-negative-premise"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "Some people on the onboarding list have completed security training."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If everyone on the onboarding list is a new hire and none has finished training yet, both premises are true and the conclusion is false."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The premises only report who has not been trained; nothing in them says anyone has been."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Some new hires have not completed security training."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "All new hires are on the onboarding list."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:categorical-syllogism"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -28637,6 +28837,76 @@
    "dcterms:title": "The affect heuristic (chapter 23)",
    "schema:url": {
     "@id": "https://www.cambridge.org/core/books/heuristics-and-biases/affect-heuristic/6C8083D76EFA5E4053194F7E938518F2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Aristotle, Elpenor Greek texts",
+   "dcterms:title": "Prior Analytics, Book I (trans. A. J. Jenkinson), web edition page 42",
+   "schema:url": {
+    "@id": "https://www.ellopos.net/elpenor/greek-texts/ancient-Greece/aristotle/prior-analytics.asp?pg=42"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University (Lee C. Archie)",
+   "dcterms:title": "Fallacy of Affirmative Conclusion from a Negative Premiss",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/conclusion_fall.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Affirmative Conclusion from a Negative Premiss",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/afromneg.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "PHIL 240 Introduction to Logic, Texas A&M University",
+   "dcterms:title": "6.5 Rules for Evaluating Categorical Syllogisms (lecture notes)",
+   "schema:url": {
+    "@id": "https://phil240.tamu.edu/LectureNotes/6.5.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/affirmative-conclusion-from-a-negative-premise/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Logic Primer, Occidental College",
+   "dcterms:title": "Rules for Valid Syllogisms (Logic Primer appendix)",
+   "schema:url": {
+    "@id": "https://sites.oxy.edu/traiger/logic/primer/appendix/rules_for_valid_syllogisms.html"
    }
   },
   {

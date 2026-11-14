@@ -449,6 +449,105 @@
   ]
  },
  {
+  "id": "ct:affirmative-conclusion-from-a-negative-premise",
+  "title": "Affirmative conclusion from a negative premise",
+  "aliases": [
+   "affirmative conclusion from a negative premiss",
+   "fallacy of drawing an affirmative conclusion from a negative premise",
+   "illicit negative"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/affirmative-conclusion-from-a-negative-premise.md",
+  "created": "2026-11-14",
+  "summary": "The syllogistic fallacy of drawing an affirmative conclusion (an A or I statement) from premises at least one of which is negative (E or O). A negative premise only separates classes, so it cannot supply the inclusion an affirmative conclusion asserts, and every such syllogism is invalid.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:exclusive-premises"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-major"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:categorical-syllogism",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:prior-analytics",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:exclusive-premises",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:negative-conclusion-from-affirmative-premises",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Is either premise a negative statement (\"No A are B\" or \"Some A are not B\") while the conclusion says that something is included in a class?",
+   "Which premise is supposed to place the conclusion's subject inside its predicate class, and does any premise actually do that?",
+   "Can you describe a case where every premise is true and the affirmative conclusion is false?",
+   "Is the arguer relying on an unstated affirmative premise that should be stated and checked?"
+  ],
+  "source_urls": [
+   "https://www.ellopos.net/elpenor/greek-texts/ancient-Greece/aristotle/prior-analytics.asp?pg=42",
+   "https://philosophy.lander.edu/logic/conclusion_fall.html",
+   "https://fallacyfiles.org/afromneg.html",
+   "https://phil240.tamu.edu/LectureNotes/6.5.pdf",
+   "https://sites.oxy.edu/traiger/logic/primer/appendix/rules_for_valid_syllogisms.html"
+  ]
+ },
+ {
   "id": "ct:affirming-a-disjunct",
   "title": "Affirming a disjunct",
   "aliases": [

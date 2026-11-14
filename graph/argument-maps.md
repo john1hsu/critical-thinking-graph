@@ -13,6 +13,17 @@ flowchart TD
   o2["The comparison's numbers can be verified independently of who compiled them."] -. attacks .-> ra
 ```
 
+## Affirmative conclusion from a negative premise (`ct:affirmative-conclusion-from-a-negative-premise`)
+
+```mermaid
+flowchart TD
+  p1["Some new hires have not completed security training."] --> ra{{"invalid"}}
+  p2["All new hires are on the onboarding list."] --> ra{{"invalid"}}
+  ra --> c["Some people on the onboarding list have completed security training."]
+  o1["If everyone on the onboarding list is a new hire and none has finished training yet, both premises are true and the conclusion is false."] -. attacks .-> ra
+  o2["The premises only report who has not been trained; nothing in them says anyone has been."] -. attacks .-> ra
+```
+
 ## Affirming a disjunct (`ct:affirming-a-disjunct`)
 
 ```mermaid
