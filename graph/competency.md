@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:no-true-scotsman` | cto:InformalFallacy |
 
 ## Most useful remedies
@@ -48,7 +47,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:antilogism` | 1 | Exclusive premises |
 | `ct:argument-mapping` | 1 | Begging the question |
 
-…and 23 more.
+…and 24 more.
 
 ## Heuristic -> bias -> remedy chains
 

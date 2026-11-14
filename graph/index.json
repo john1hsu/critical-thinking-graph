@@ -8274,6 +8274,101 @@
   ]
  },
  {
+  "id": "ct:euler-diagram",
+  "title": "Euler diagram",
+  "aliases": [
+   "Euler circles",
+   "Eulerian circles",
+   "Euler's circles"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/euler-diagram.md",
+  "created": "2026-11-14",
+  "summary": "A way of drawing categorical statements as closed curves whose spatial arrangement (one inside another, overlapping, or apart) shows how the classes relate, used to check immediate inferences and syllogisms by drawing every arrangement the premises allow and asking whether the conclusion holds in all of them.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:diagrammatic-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:illicit-conversion",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:leonhard-euler",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:letters-to-a-german-princess",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:gottfried-wilhelm-leibniz",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:venn-diagram-test",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/fall2005/entries/diagrams/",
+   "https://philarchive.org/archive/LUAFLC",
+   "https://link.springer.com/content/pdf/10.3758/BF03202344.pdf",
+   "https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/",
+   "https://uhra.herts.ac.uk/id/eprint/5195/1/AMS3313806.pdf",
+   "https://mathshistory.st-andrews.ac.uk/Extras/Euler_letters"
+  ]
+ },
+ {
   "id": "ct:evidence-based-medicine",
   "title": "Evidence-based medicine",
   "aliases": [

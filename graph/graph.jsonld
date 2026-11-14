@@ -7761,6 +7761,93 @@
    ]
   },
   {
+   "@id": "ct:euler-diagram",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:venn-diagram-test"
+   },
+   "cto:detects": {
+    "@id": "ct:illicit-conversion"
+   },
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/euler-diagram.md",
+   "cto:influencedBy": {
+    "@id": "ct:gottfried-wilhelm-leibniz"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:leonhard-euler"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:letters-to-a-german-princess"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:categorical-proposition"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s6"
+    }
+   ],
+   "rdfs:label": "Euler diagram",
+   "skos:altLabel": [
+    "Euler circles",
+    "Euler's circles",
+    "Eulerian circles"
+   ],
+   "skos:broader": {
+    "@id": "ct:diagrammatic-reasoning"
+   },
+   "skos:definition": "A way of drawing categorical statements as closed curves whose spatial arrangement (one inside another, overlapping, or apart) shows how the classes relate, used to check immediate inferences and syllogisms by drawing every arrangement the premises allow and asking whether the conclusion holds in all of them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Euler diagram",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:categorical-syllogism"
+    },
+    {
+     "@id": "ct:conversion"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:evidence-based-medicine",
    "@type": "cto:Framework",
    "cto:amplifiedBy": {
@@ -33338,6 +33425,90 @@
    "dcterms:title": "Fallacies Arising from Ambiguity",
    "schema:url": {
     "@id": "https://link.springer.com/978-0-7923-4100-0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Shin & Lemon, Fall 2005 archive)",
+   "dcterms:title": "Diagrams",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/fall2005/entries/diagrams/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Huaping Lu-Adler, in Kant and His German Contemporaries (Cambridge University Press, 2017), author's copy on PhilArchive",
+   "dcterms:title": "From Logical Calculus to Logical Formality: What Kant Did with Euler's Circles",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/LUAFLC"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Donald L. Fisher, Memory & Cognition 9(5), 496-514 (1981)",
+   "dcterms:title": "A three-factor model of syllogistic reasoning: The study of isolable stages",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.3758/BF03202344.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Yuri Sato & Koji Mineshima, Journal of Logic, Language and Information 24(4), 409-455 (2015), University of Brighton research portal",
+   "dcterms:title": "How diagrams can support syllogistic reasoning: an experimental study",
+   "schema:url": {
+    "@id": "https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Brendan Larvor, MathSciNet review, University of Hertfordshire Research Archive",
+   "dcterms:title": "Review of Deborah Bennett, 'Drawing logical conclusions' (Math Horizons, 2015), MR3313806",
+   "schema:url": {
+    "@id": "https://uhra.herts.ac.uk/id/eprint/5195/1/AMS3313806.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "MacTutor History of Mathematics, University of St Andrews",
+   "dcterms:title": "Leonhard Euler's letters to a German Princess",
+   "schema:url": {
+    "@id": "https://mathshistory.st-andrews.ac.uk/Extras/Euler_letters"
    }
   },
   {

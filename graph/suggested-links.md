@@ -5,19 +5,21 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
 | 6.64 | `ct:argument` | `ct:aristotle` | `ct:amphiboly`, `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:aristotles-rhetoric`, `ct:begging-the-question` |
-| 6.50 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
+| 6.48 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
 | 4.73 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
 | 4.72 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:attribute-substitution`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology` |
-| 4.15 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
-| 4.00 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:illicit-major` |
-| 3.95 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major` |
+| 4.40 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises`, `ct:existential-fallacy` |
+| 4.14 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
+| 3.92 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major` |
 | 3.85 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman`, `ct:expected-utility-theory` |
-| 3.85 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:existential-fallacy` |
+| 3.83 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:existential-fallacy` |
 | 3.80 | `ct:method-of-counterexample` | `ct:propositional-logic` | `ct:affirming-the-consequent`, `ct:deductive-reasoning`, `ct:denying-a-conjunct`, `ct:formal-logic`, `ct:logical-consequence` |
 | 3.74 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
 | 3.62 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory`, `ct:begging-the-question` |
+| 3.40 | `ct:illicit-conversion` | `ct:venn-diagram-test` | `ct:categorical-proposition`, `ct:distribution-of-terms`, `ct:euler-diagram`, `ct:existential-import`, `ct:formal-fallacy` |
 | 3.40 | `ct:argument-mapping` | `ct:informal-fallacy` | `ct:argument`, `ct:argument-evaluation`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:begging-the-question` |
-| 3.37 | `ct:categorical-proposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
+| 3.36 | `ct:categorical-proposition` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises`, `ct:existential-fallacy` |
+| 3.35 | `ct:categorical-proposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.33 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:argument`, `ct:argument-from-ignorance`, `ct:argumentation-schemes`, `ct:charles-hamblin`, `ct:douglas-walton` |
 | 3.33 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
 | 3.25 | `ct:method-of-counterexample` | `ct:predicate-logic` | `ct:alfred-tarski`, `ct:exists-forall-to-forall-exists-inference`, `ct:formal-logic`, `ct:logical-consequence`, `ct:masked-man-fallacy` |
@@ -26,6 +28,4 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.23 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof`, `ct:douglas-walton` |
 | 3.21 | `ct:argumentation-theory` | `ct:begging-the-question` | `ct:argument`, `ct:argument-mapping`, `ct:aristotle`, `ct:burden-of-proof`, `ct:charles-hamblin` |
 | 3.18 | `ct:exclusive-premises` | `ct:illicit-minor` | `ct:categorical-syllogism`, `ct:distribution-of-terms`, `ct:formal-fallacy`, `ct:illicit-major`, `ct:method-of-counterexample` |
-| 3.17 | `ct:distribution-of-terms` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-conversion`, `ct:illicit-major` |
-| 3.14 | `ct:argument-from-expert-opinion` | `ct:argument-from-ignorance` | `ct:ad-hominem`, `ct:argumentation-schemes`, `ct:bayesian-reasoning`, `ct:burden-of-proof`, `ct:douglas-walton` |
-| 3.13 | `ct:distribution-of-terms` | `ct:method-of-counterexample` | `ct:antilogism`, `ct:aristotle`, `ct:exclusive-premises`, `ct:illicit-conversion`, `ct:illicit-major` |
+| 3.16 | `ct:distribution-of-terms` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:illicit-conversion`, `ct:illicit-major` |

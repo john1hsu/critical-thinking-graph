@@ -3579,6 +3579,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2000/01/rdf-schema#label> "Euler diagram" .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#altLabel> "Euler circles" .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#altLabel> "Euler's circles" .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#altLabel> "Eulerian circles" .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/diagrammatic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#definition> "A way of drawing categorical statements as closed curves whose spatial arrangement (one inside another, overlapping, or apart) shows how the classes relate, used to check immediate inferences and syllogisms by drawing every arrangement the premises allow and asking whether the conclusion holds in all of them." .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#prefLabel> "Euler diagram" .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-logic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-logic/euler-diagram.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gottfried-wilhelm-leibniz> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/leonhard-euler> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/letters-to-a-german-princess> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/euler-diagram> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence-based medicine" .
@@ -11688,6 +11721,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s5> <https://schema.org/url> <https://link.springer.com/978-0-7923-4100-0> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Shin & Lemon, Fall 2005 archive)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s1> <http://purl.org/dc/terms/title> "Diagrams" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s1> <https://schema.org/url> <https://plato.stanford.edu/archives/fall2005/entries/diagrams/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s2> <http://purl.org/dc/terms/publisher> "Huaping Lu-Adler, in Kant and His German Contemporaries (Cambridge University Press, 2017), author's copy on PhilArchive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s2> <http://purl.org/dc/terms/title> "From Logical Calculus to Logical Formality: What Kant Did with Euler's Circles" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s2> <https://schema.org/url> <https://philarchive.org/archive/LUAFLC> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s3> <http://purl.org/dc/terms/publisher> "Donald L. Fisher, Memory & Cognition 9(5), 496-514 (1981)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s3> <http://purl.org/dc/terms/title> "A three-factor model of syllogistic reasoning: The study of isolable stages" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s3> <https://schema.org/url> <https://link.springer.com/content/pdf/10.3758/BF03202344.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s4> <http://purl.org/dc/terms/publisher> "Yuri Sato & Koji Mineshima, Journal of Logic, Language and Information 24(4), 409-455 (2015), University of Brighton research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s4> <http://purl.org/dc/terms/title> "How diagrams can support syllogistic reasoning: an experimental study" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s4> <https://schema.org/url> <https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s5> <http://purl.org/dc/terms/publisher> "Brendan Larvor, MathSciNet review, University of Hertfordshire Research Archive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s5> <http://purl.org/dc/terms/title> "Review of Deborah Bennett, 'Drawing logical conclusions' (Math Horizons, 2015), MR3313806" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s5> <https://schema.org/url> <https://uhra.herts.ac.uk/id/eprint/5195/1/AMS3313806.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s6> <http://purl.org/dc/terms/publisher> "MacTutor History of Mathematics, University of St Andrews" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s6> <http://purl.org/dc/terms/title> "Leonhard Euler's letters to a German Princess" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/euler-diagram/s6> <https://schema.org/url> <https://mathshistory.st-andrews.ac.uk/Extras/Euler_letters> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> <http://purl.org/dc/terms/publisher> "BMJ 312(7023), 71-72 (Sackett, Rosenberg, Gray, Haynes & Richardson, 1996)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s1> <http://purl.org/dc/terms/title> "Evidence based medicine: what it is and what it isn't" .
