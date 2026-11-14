@@ -12185,6 +12185,102 @@
   ]
  },
  {
+  "id": "ct:information-literacy",
+  "title": "Information literacy",
+  "aliases": [
+   "information competency",
+   "information fluency"
+  ],
+  "type": "Concept",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/information-literacy.md",
+  "created": "2026-11-14",
+  "summary": "The set of abilities and attitudes that let a person recognise when information is needed and then find, evaluate, use and create it effectively and ethically, including thinking critically and making balanced judgements about the information they meet.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sift-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:primary-and-secondary-sources"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-education"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:paul-zurkowski",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:library-and-information-science",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:information-literacy-instruction",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:gross-latham-2007-information-literacy-self-estimates-study",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:vossler-2023-one-shot-instruction-scoping-review",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.ala.org/acrl/publications/whitepapers/presidential",
+   "https://personalpages.manchester.ac.uk/staff/drew.whitworth/burchinal.html",
+   "https://infolit.org.uk/ILdefinitionCILIP2018.pdf",
+   "https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/76",
+   "https://ejournals.library.ualberta.ca/index.php/EBLIP/article/view/1460/0",
+   "https://www.ala.org/sites/default/files/acrl/content/conferences/confsandpreconfs/2023/QuestionableEfficacy1.pdf"
+  ]
+ },
+ {
   "id": "ct:insensitivity-to-sample-size",
   "title": "Insensitivity to sample size",
   "aliases": [

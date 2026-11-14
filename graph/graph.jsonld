@@ -11354,6 +11354,95 @@
    ]
   },
   {
+   "@id": "ct:information-literacy",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:information-literacy-instruction"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:vossler-2023-one-shot-instruction-scoping-review"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:gross-latham-2007-information-literacy-self-estimates-study"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/evidence-and-information-literacy/information-literacy.md",
+   "cto:introducedBy": {
+    "@id": "ct:paul-zurkowski"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:library-and-information-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s6"
+    }
+   ],
+   "rdfs:label": "Information literacy",
+   "skos:altLabel": [
+    "information competency",
+    "information fluency"
+   ],
+   "skos:broader": {
+    "@id": "ct:critical-thinking"
+   },
+   "skos:definition": "The set of abilities and attitudes that let a person recognise when information is needed and then find, evaluate, use and create it effectively and ethically, including thinking critically and making balanced judgements about the information they meet.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Information literacy",
+   "skos:related": [
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:metacognition"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    },
+    {
+     "@id": "ct:numeracy"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:primary-and-secondary-sources"
+    },
+    {
+     "@id": "ct:sift-method"
+    },
+    {
+     "@id": "ct:source-evaluation"
+    }
+   ]
+  },
+  {
    "@id": "ct:insensitivity-to-sample-size",
    "@type": "cto:CognitiveBias",
    "cto:challengedBy": {
@@ -36966,6 +37055,90 @@
    "dcterms:title": "Journalism, 'Fake News' and Disinformation: A Handbook for Journalism Education and Training (modules)",
    "schema:url": {
     "@id": "https://en.unesco.org/fightfakenews/modules"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "American Library Association, Washington, DC (10 January 1989), republished by ACRL",
+   "dcterms:title": "Presidential Committee on Information Literacy: Final Report",
+   "schema:url": {
+    "@id": "https://www.ala.org/acrl/publications/whitepapers/presidential"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Andrew Whitworth, University of Manchester (personal academic pages)",
+   "dcterms:title": "The Communications Revolution: America's Third Century Challenge (Burchinal, 1976), with an introduction on Zurkowski's 1974 report",
+   "schema:url": {
+    "@id": "https://personalpages.manchester.ac.uk/staff/drew.whitworth/burchinal.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "CILIP Information Literacy Group (Coonan, Geekie, Goldstein, Jeskins, Jones, Macrae-Gibson, Secker & Walton, April 2018)",
+   "dcterms:title": "CILIP Definition of Information Literacy 2018",
+   "schema:url": {
+    "@id": "https://infolit.org.uk/ILdefinitionCILIP2018.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Evidence Based Library and Information Practice 1(3), 3-43 (Koufogiannakis & Wiebe, 2006)",
+   "dcterms:title": "Effective Methods for Teaching Information Literacy Skills to Undergraduate Students: A Systematic Review and Meta-Analysis",
+   "schema:url": {
+    "@id": "https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/76"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Evidence Based Library and Information Practice (Haglund & Herron, 2008)",
+   "dcterms:title": "Students with Non-Proficient Information Seeking Skills Greatly Over-Estimate Their Abilities (evidence summary of Gross & Latham, 2007)",
+   "schema:url": {
+    "@id": "https://ejournals.library.ualberta.ca/index.php/EBLIP/article/view/1460/0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "ACRL 2023 conference proceedings, Pittsburgh (Vossler, Horton & Heady, March 2023)",
+   "dcterms:title": "Questionable Efficacy: Preliminary Findings from a Scoping Review of First-Year One-Shot Library Instruction",
+   "schema:url": {
+    "@id": "https://www.ala.org/sites/default/files/acrl/content/conferences/confsandpreconfs/2023/QuestionableEfficacy1.pdf"
    }
   },
   {

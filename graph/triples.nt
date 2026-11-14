@@ -5356,6 +5356,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
 <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://purl.org/dc/terms/created> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2000/01/rdf-schema#label> "Information literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#altLabel> "information competency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#altLabel> "information fluency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#definition> "The set of abilities and attitudes that let a person recognise when information is needed and then find, evaluate, use and create it effectively and ethically, including thinking critically and making balanced judgements about the information they meet." .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Information literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/information-literacy-instruction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/vossler-2023-one-shot-instruction-scoping-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gross-latham-2007-information-literacy-self-estimates-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/information-literacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/paul-zurkowski> .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/library-and-information-science> .
 <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> <http://www.w3.org/2000/01/rdf-schema#label> "Insensitivity to sample size" .
@@ -13156,6 +13189,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "intergovernmental" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/information-disorder-report/s4> <https://schema.org/url> <https://en.unesco.org/fightfakenews/modules> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s1> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s1> <http://purl.org/dc/terms/publisher> "American Library Association, Washington, DC (10 January 1989), republished by ACRL" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s1> <http://purl.org/dc/terms/title> "Presidential Committee on Information Literacy: Final Report" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s1> <https://schema.org/url> <https://www.ala.org/acrl/publications/whitepapers/presidential> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s2> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s2> <http://purl.org/dc/terms/publisher> "Andrew Whitworth, University of Manchester (personal academic pages)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s2> <http://purl.org/dc/terms/title> "The Communications Revolution: America's Third Century Challenge (Burchinal, 1976), with an introduction on Zurkowski's 1974 report" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s2> <https://schema.org/url> <https://personalpages.manchester.ac.uk/staff/drew.whitworth/burchinal.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s3> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s3> <http://purl.org/dc/terms/publisher> "CILIP Information Literacy Group (Coonan, Geekie, Goldstein, Jeskins, Jones, Macrae-Gibson, Secker & Walton, April 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s3> <http://purl.org/dc/terms/title> "CILIP Definition of Information Literacy 2018" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s3> <https://schema.org/url> <https://infolit.org.uk/ILdefinitionCILIP2018.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s4> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s4> <http://purl.org/dc/terms/publisher> "Evidence Based Library and Information Practice 1(3), 3-43 (Koufogiannakis & Wiebe, 2006)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s4> <http://purl.org/dc/terms/title> "Effective Methods for Teaching Information Literacy Skills to Undergraduate Students: A Systematic Review and Meta-Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s4> <https://schema.org/url> <https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/76> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s5> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s5> <http://purl.org/dc/terms/publisher> "Evidence Based Library and Information Practice (Haglund & Herron, 2008)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s5> <http://purl.org/dc/terms/title> "Students with Non-Proficient Information Seeking Skills Greatly Over-Estimate Their Abilities (evidence summary of Gross & Latham, 2007)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s5> <https://schema.org/url> <https://ejournals.library.ualberta.ca/index.php/EBLIP/article/view/1460/0> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s6> <http://purl.org/dc/terms/date> "2026-11-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s6> <http://purl.org/dc/terms/publisher> "ACRL 2023 conference proceedings, Pittsburgh (Vossler, Horton & Heady, March 2023)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s6> <http://purl.org/dc/terms/title> "Questionable Efficacy: Preliminary Findings from a Scoping Review of First-Year One-Shot Library Instruction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/information-literacy/s6> <https://schema.org/url> <https://www.ala.org/sites/default/files/acrl/content/conferences/confsandpreconfs/2023/QuestionableEfficacy1.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s1> <http://purl.org/dc/terms/publisher> "Cognitive Psychology 3, 430-454 (Kahneman & Tversky, 1972), copy hosted on a UC San Diego faculty page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s1> <http://purl.org/dc/terms/title> "Subjective probability: A judgment of representativeness" .

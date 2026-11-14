@@ -96,7 +96,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:take-the-best` | contested | `ct:newell-2005-re-visions-of-rationality` |
 | `ct:actively-open-minded-thinking` | mixed |  |
 
-…and 57 more.
+…and 58 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
