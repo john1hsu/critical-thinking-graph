@@ -20033,6 +20033,108 @@
   ]
  },
  {
+  "id": "ct:rule-against-conventionalist-stratagems",
+  "title": "Rule against conventionalist stratagems",
+  "aliases": [
+   "Popper's anti-conventionalist rule",
+   "ban on conventionalist stratagems",
+   "rule against immunizing a theory"
+  ],
+  "type": "Principle",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/rule-against-conventionalist-stratagems.md",
+  "created": "2026-11-14",
+  "summary": "Karl Popper's methodological decision that a claim facing contrary evidence must not be saved by ad hoc hypotheses, quietly altered definitions, or blanket doubt about the observer or the critic; any rescue must keep or raise testability, and a redefined claim counts as a new claim to be tested afresh.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:no-true-scotsman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:duhem-quine-thesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:immunizing-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:operational-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:karl-popper",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-logic-of-scientific-discovery",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:no-true-scotsman",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:pseudoscience",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:methodology-of-scientific-research-programmes",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://arxiv.org/pdf/1703.02389",
+   "https://core.ac.uk/download/55720879.pdf",
+   "https://philarchive.org/archive/BOUTHT",
+   "https://iep.utm.edu/pseudoscience-demarcation",
+   "https://fallacyfiles.org/scotsman.html"
+  ]
+ },
+ {
   "id": "ct:rules-of-the-categorical-syllogism",
   "title": "Rules of the categorical syllogism",
   "aliases": [

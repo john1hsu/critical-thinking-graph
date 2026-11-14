@@ -18796,6 +18796,98 @@
    ]
   },
   {
+   "@id": "ct:rule-against-conventionalist-stratagems",
+   "@type": "cto:Principle",
+   "cto:challengedBy": {
+    "@id": "ct:methodology-of-scientific-research-programmes"
+   },
+   "cto:counteracts": {
+    "@id": "ct:no-true-scotsman"
+   },
+   "cto:detects": {
+    "@id": "ct:pseudoscience"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/rule-against-conventionalist-stratagems.md",
+   "cto:introducedBy": {
+    "@id": "ct:karl-popper"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:the-logic-of-scientific-discovery"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:falsifiability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s5"
+    }
+   ],
+   "rdfs:label": "Rule against conventionalist stratagems",
+   "skos:altLabel": [
+    "Popper's anti-conventionalist rule",
+    "ban on conventionalist stratagems",
+    "rule against immunizing a theory"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:scientific-method"
+    }
+   ],
+   "skos:definition": "Karl Popper's methodological decision that a claim facing contrary evidence must not be saved by ad hoc hypotheses, quietly altered definitions, or blanket doubt about the observer or the critic; any rescue must keep or raise testability, and a redefined claim counts as a new claim to be tested afresh.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Rule against conventionalist stratagems",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:duhem-quine-thesis"
+    },
+    {
+     "@id": "ct:immunizing-strategy"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:no-true-scotsman"
+    },
+    {
+     "@id": "ct:operational-definition"
+    },
+    {
+     "@id": "ct:precising-definition"
+    }
+   ]
+  },
+  {
    "@id": "ct:rules-of-the-categorical-syllogism",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -42751,6 +42843,76 @@
    "dcterms:title": "Risk and uncertainty communication",
    "schema:url": {
     "@id": "https://www.repository.cam.ac.uk/handle/1810/260626"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Merritt, Studies in History and Philosophy of Modern Physics 57 (2017), 41-52 (author's arXiv copy)",
+   "dcterms:title": "Cosmology and convention",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/1703.02389"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Boudry, doctoral dissertation, Ghent University (2011)",
+   "dcterms:title": "Here Be Dragons: Exploring the Hinterland of Science (ch. 5, Immunizing Strategies & Epistemic Defense Mechanisms)",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/55720879.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Boudry, Logique & Analyse 223 (2013); PhilArchive copy",
+   "dcterms:title": "The Hypothesis That Saves the Day. Ad Hoc Reasoning in Pseudoscience",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/BOUTHT"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Pigliucci, Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Pseudoscience and the Demarcation Problem",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/pseudoscience-demarcation"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rule-against-conventionalist-stratagems/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "The Fallacy Files (G. N. Curtis)",
+   "dcterms:title": "The No-True-Scotsman Fallacy",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/scotsman.html"
    }
   },
   {
