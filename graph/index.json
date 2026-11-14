@@ -17393,6 +17393,91 @@
   ]
  },
  {
+  "id": "ct:probability-theory",
+  "title": "Probability theory",
+  "aliases": [
+   "calculus of probability",
+   "mathematical probability",
+   "theory of probability"
+  ],
+  "type": "Field",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/probability-theory.md",
+  "created": "2026-11-14",
+  "summary": "The branch of mathematics that studies uncertainty: it assigns numbers between 0 and 1 to events and fixes the rules (in modern form, Kolmogorov's 1933 axioms) by which those numbers must combine. It is the formal standard against which reasoning about chance and evidence is judged.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:mathematics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-value"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:abraham-de-moivre"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:christiaan-huygens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:interpretations-of-probability"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:blaise-pascal",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:pierre-de-fermat",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:andrey-kolmogorov",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/probability-interpret/",
+   "https://arxiv.org/pdf/math/0606533",
+   "https://math.dartmouth.edu/~m20s16/prob.pdf",
+   "https://apps.dtic.mil/sti/pdfs/ADA131801.pdf"
+  ]
+ },
+ {
   "id": "ct:problem-of-induction",
   "title": "Problem of induction",
   "aliases": [

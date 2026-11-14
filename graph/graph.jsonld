@@ -16325,6 +16325,86 @@
    ]
   },
   {
+   "@id": "ct:probability-theory",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/probabilistic-reasoning/probability-theory.md",
+   "cto:formalizedBy": {
+    "@id": "ct:andrey-kolmogorov"
+   },
+   "cto:introducedBy": [
+    {
+     "@id": "ct:blaise-pascal"
+    },
+    {
+     "@id": "ct:pierre-de-fermat"
+    }
+   ],
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probability-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probability-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probability-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probability-theory/s4"
+    }
+   ],
+   "rdfs:label": "Probability theory",
+   "skos:altLabel": [
+    "calculus of probability",
+    "mathematical probability",
+    "theory of probability"
+   ],
+   "skos:broader": {
+    "@id": "ct:mathematics"
+   },
+   "skos:definition": "The branch of mathematics that studies uncertainty: it assigns numbers between 0 and 1 to events and fixes the rules (in modern form, Kolmogorov's 1933 axioms) by which those numbers must combine. It is the formal standard against which reasoning about chance and evidence is judged.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Probability theory",
+   "skos:related": [
+    {
+     "@id": "ct:abraham-de-moivre"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:christiaan-huygens"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:conjunction-fallacy"
+    },
+    {
+     "@id": "ct:expected-value"
+    },
+    {
+     "@id": "ct:interpretations-of-probability"
+    },
+    {
+     "@id": "ct:statistical-reasoning"
+    }
+   ]
+  },
+  {
    "@id": "ct:problem-of-induction",
    "@type": "cto:Concept",
    "cto:challengedBy": {
@@ -39799,6 +39879,62 @@
    "dcterms:title": "Prior Analytics",
    "schema:url": {
     "@id": "https://britannica.com/topic/Prior-Analytics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probability-theory/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hájek, 2002; revised 2023)",
+   "dcterms:title": "Interpretations of Probability",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/probability-interpret/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probability-theory/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Statistical Science 21(1), 70-98 (Shafer & Vovk, 2006), arXiv reprint of the published article",
+   "dcterms:title": "The Sources of Kolmogorov's Grundbegriffe",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/math/0606533"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probability-theory/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "American Mathematical Society (Grinstead & Snell, 2003), Dartmouth CHANCE edition",
+   "dcterms:title": "Introduction to Probability (2nd ed.)",
+   "schema:url": {
+    "@id": "https://math.dartmouth.edu/~m20s16/prob.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probability-theory/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-14"
+   },
+   "dcterms:publisher": "Office of Naval Research technical report (Tversky & Kahneman, 1983), published in Psychological Review 90(4)",
+   "dcterms:title": "Extensional vs. Intuitive Reasoning: The Conjunction Fallacy in Probability Judgment",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA131801.pdf"
    }
   },
   {
