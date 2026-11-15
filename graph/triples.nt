@@ -8391,6 +8391,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ruggeri-2020-prospect-theory-replication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2000/01/rdf-schema#label> "Psychology of reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "cognitive psychology of reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#altLabel> "experimental psychology of reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#definition> "The branch of cognitive psychology that studies, by experiment, how people actually draw inferences, test rules and evaluate arguments, and compares their performance with normative standards such as logic and probability theory." .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Psychology of reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "heuristics-and-dual-process" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/heuristics-and-dual-process/psychology-of-reasoning.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://www.w3.org/2000/01/rdf-schema#label> "Publication bias" .
@@ -16242,6 +16274,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prospect-theory/s4> <https://schema.org/url> <https://papers.ssrn.com/abstract=3049660> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s1> <http://purl.org/dc/terms/publisher> "Mike Oaksford and Nick Chater, Annual Review of Psychology 71, 305–330 (2020), doi:10.1146/annurev-psych-010419-051132, via Warwick Research Archive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s1> <http://purl.org/dc/terms/title> "New paradigms in the psychology of reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s1> <https://schema.org/url> <https://wrap.warwick.ac.uk/id/eprint/132540> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s2> <http://purl.org/dc/terms/publisher> "Richard Samuels and Stephen Stich, in The Oxford Handbook of Rationality, ed. Mele and Rawling, Oxford University Press (2004), author's copy via SAS-Space, University of London" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s2> <http://purl.org/dc/terms/title> "Rationality and Psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s2> <https://schema.org/url> <https://sas-space.sas.ac.uk/940/1/R_Samuels_Psychology.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s3> <http://purl.org/dc/terms/publisher> "Philip N. Johnson-Laird, Proceedings of the National Academy of Sciences 107(43), 18243–18250 (2010), doi:10.1073/pnas.1012933107" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s3> <http://purl.org/dc/terms/title> "Mental models and human reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC2972923> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s4> <http://purl.org/dc/terms/publisher> "Jonathan St B. T. Evans, Psychological Bulletin 128(6), 978–996 (2002), via PhilArchive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s4> <http://purl.org/dc/terms/title> "Logic and human reasoning: An assessment of the deduction paradigm" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s4> <https://schema.org/url> <https://dc2.philarchive.org/rec/EVALAH> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> <http://purl.org/dc/terms/publisher> "Mike Oaksford and Nick Chater, Behavioral and Brain Sciences 32(1), 69–84 (2009), doi:10.1017/S0140525X09000284" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> <http://purl.org/dc/terms/title> "Précis of Bayesian Rationality: The probabilistic approach to human reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> <https://schema.org/url> <https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/precis-of-bayesian-rationality-the-probabilistic-approach-to-human-reasoning/164A7469C0C255528A77C61CE3C9C771> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s1> <http://purl.org/dc/terms/publisher> "Catalogue of Bias, Centre for Evidence-Based Medicine, University of Oxford (DeVito & Goldacre, 2019)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s1> <http://purl.org/dc/terms/title> "Publication bias" .

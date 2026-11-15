@@ -152,7 +152,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:precising-definition` | cto:Technique |
 
-…and 18 more.
+…and 19 more.
 
 ## Orphan articles (gap)
 

@@ -19960,6 +19960,101 @@
   ]
  },
  {
+  "id": "ct:psychology-of-reasoning",
+  "title": "Psychology of reasoning",
+  "aliases": [
+   "experimental psychology of reasoning",
+   "cognitive psychology of reasoning"
+  ],
+  "type": "Field",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/heuristics-and-dual-process/psychology-of-reasoning.md",
+  "created": "2026-11-15",
+  "summary": "The branch of cognitive psychology that studies, by experiment, how people actually draw inferences, test rules and evaluate arguments, and compares their performance with normative standards such as logic and probability theory.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mental-model-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:jonathan-st-b-t-evans"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:peter-wason",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:logic",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:bayesian-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:mental-model-theory",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:dual-process-theory",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://wrap.warwick.ac.uk/id/eprint/132540",
+   "https://sas-space.sas.ac.uk/940/1/R_Samuels_Psychology.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2972923",
+   "https://dc2.philarchive.org/rec/EVALAH",
+   "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/precis-of-bayesian-rationality-the-probabilistic-approach-to-human-reasoning/164A7469C0C255528A77C61CE3C9C771"
+  ]
+ },
+ {
   "id": "ct:publication-bias",
   "title": "Publication bias",
   "aliases": [

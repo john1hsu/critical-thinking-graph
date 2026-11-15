@@ -18686,6 +18686,94 @@
    ]
   },
   {
+   "@id": "ct:psychology-of-reasoning",
+   "@type": "cto:Field",
+   "cto:contrastsWith": {
+    "@id": "ct:logic"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/heuristics-and-dual-process/psychology-of-reasoning.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:mental-model-theory"
+    },
+    {
+     "@id": "ct:peter-wason"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5"
+    }
+   ],
+   "rdfs:label": "Psychology of reasoning",
+   "skos:altLabel": [
+    "cognitive psychology of reasoning",
+    "experimental psychology of reasoning"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "skos:definition": "The branch of cognitive psychology that studies, by experiment, how people actually draw inferences, test rules and evaluate arguments, and compares their performance with normative standards such as logic and probability theory.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Psychology of reasoning",
+   "skos:related": [
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:jonathan-st-b-t-evans"
+    },
+    {
+     "@id": "ct:mental-model-theory"
+    },
+    {
+     "@id": "ct:reasoning"
+    }
+   ]
+  },
+  {
    "@id": "ct:publication-bias",
    "@type": "cto:Phenomenon",
    "cto:demonstratedBy": [
@@ -44656,6 +44744,76 @@
    "dcterms:title": "The Loss of Loss Aversion: Will It Loom Larger Than Its Gain?",
    "schema:url": {
     "@id": "https://papers.ssrn.com/abstract=3049660"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Mike Oaksford and Nick Chater, Annual Review of Psychology 71, 305–330 (2020), doi:10.1146/annurev-psych-010419-051132, via Warwick Research Archive",
+   "dcterms:title": "New paradigms in the psychology of reasoning",
+   "schema:url": {
+    "@id": "https://wrap.warwick.ac.uk/id/eprint/132540"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Richard Samuels and Stephen Stich, in The Oxford Handbook of Rationality, ed. Mele and Rawling, Oxford University Press (2004), author's copy via SAS-Space, University of London",
+   "dcterms:title": "Rationality and Psychology",
+   "schema:url": {
+    "@id": "https://sas-space.sas.ac.uk/940/1/R_Samuels_Psychology.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Philip N. Johnson-Laird, Proceedings of the National Academy of Sciences 107(43), 18243–18250 (2010), doi:10.1073/pnas.1012933107",
+   "dcterms:title": "Mental models and human reasoning",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2972923"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Jonathan St B. T. Evans, Psychological Bulletin 128(6), 978–996 (2002), via PhilArchive",
+   "dcterms:title": "Logic and human reasoning: An assessment of the deduction paradigm",
+   "schema:url": {
+    "@id": "https://dc2.philarchive.org/rec/EVALAH"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Mike Oaksford and Nick Chater, Behavioral and Brain Sciences 32(1), 69–84 (2009), doi:10.1017/S0140525X09000284",
+   "dcterms:title": "Précis of Bayesian Rationality: The probabilistic approach to human reasoning",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/precis-of-bayesian-rationality-the-probabilistic-approach-to-human-reasoning/164A7469C0C255528A77C61CE3C9C771"
    }
   },
   {
