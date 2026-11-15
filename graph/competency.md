@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:anchoring-and-adjustment-heuristic` | cto:Heuristic |
 | `ct:endowment-effect` | cto:CognitiveBias |
 | `ct:hot-hand-fallacy` | cto:ProbabilisticFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
@@ -51,7 +50,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 
-…and 32 more.
+…and 33 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -82,6 +81,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:anchoring-and-adjustment-heuristic` | contested | `ct:roseler-2025-insufficient-adjustment-test` |
 | `ct:blooms-taxonomy` | contested | `ct:newton-2020-blooms-verb-list-study` |
 | `ct:choice-architecture` | contested | `ct:maier-2022-nudging-publication-bias-reanalysis` |
+| `ct:dialectical-bootstrapping` | contested | `ct:gomilsek-2024-fermian-guesstimation-study` |
+| `ct:dialectical-bootstrapping` | contested | `ct:white-antonakis-2013-dialectical-bootstrapping-reanalysis` |
 | `ct:dual-process-theory` | contested | `ct:de-neys-2023-fast-and-slow-revision` |
 | `ct:dual-process-theory` | contested | `ct:gerd-gigerenzer` |
 | `ct:dual-process-theory` | contested | `ct:keren-schul-2009-two-system-critique` |
@@ -103,10 +104,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:null-hypothesis-significance-testing` | contested | `ct:amrhein-2019-retire-statistical-significance` |
 | `ct:prospect-theory` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
 | `ct:recognition-heuristic` | contested | `ct:basehore-anderson-2016-recognition-tests` |
-| `ct:reversal-test` | contested | `ct:clarke-2016-reversal-test-critique` |
-| `ct:reversal-test` | contested | `ct:nebel-2015-status-quo-conservatism-about-value` |
 
-…and 68 more.
+…and 70 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

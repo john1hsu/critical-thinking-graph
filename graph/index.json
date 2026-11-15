@@ -8239,6 +8239,111 @@
   ]
  },
  {
+  "id": "ct:dialectical-bootstrapping",
+  "title": "Dialectical bootstrapping",
+  "aliases": [
+   "wisdom of the inner crowd technique",
+   "dialectical estimate averaging"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/debiasing-and-metacognition/dialectical-bootstrapping.md",
+  "created": "2026-11-15",
+  "summary": "A technique for improving a single person's numerical estimate: make a first estimate, assume it is wrong and say why, make a second estimate from that different angle, then average the two so that partly independent errors cancel.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:outside-view"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:stefan-herzog",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ralph-hertwig",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:anchoring-and-adjustment-heuristic",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:wisdom-of-crowds",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:herzog-hertwig-2009-dialectical-estimates-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:vul-pashler-2008-crowd-within-study",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:white-antonakis-2013-dialectical-bootstrapping-reanalysis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gomilsek-2024-fermian-guesstimation-study",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pure.mpg.de/pubman/item/item_2504710_7/component/file_2520393/SH_Wisdom_2009.pdf",
+   "https://perception.jhu.edu/chaz/teaching/courses/tp/files/readings/9/Vul_Pashler_2008_Psychological_Science_Measuring_the_Crowd_Within_Probabilistic_Representations_Within_Individuals.pdf",
+   "https://pure.mpg.de/pubman/item/item_2097012_6/component/file_2097011/SH_Harnessing_2014.pdf",
+   "https://pure.mpg.de/pubman/item/item_2097272_10/component/file_3565967/Herzog_The_2013_VerlPDF_final_LS.pdf",
+   "https://www.nature.com/articles/s41598-024-53639-3.pdf"
+  ]
+ },
+ {
   "id": "ct:dialectical-relevance",
   "title": "Dialectical relevance",
   "aliases": [

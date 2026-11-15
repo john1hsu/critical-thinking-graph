@@ -7704,6 +7704,99 @@
    ]
   },
   {
+   "@id": "ct:dialectical-bootstrapping",
+   "@type": "cto:Technique",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:gomilsek-2024-fermian-guesstimation-study"
+    },
+    {
+     "@id": "ct:white-antonakis-2013-dialectical-bootstrapping-reanalysis"
+    }
+   ],
+   "cto:counteracts": {
+    "@id": "ct:anchoring-and-adjustment-heuristic"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:herzog-hertwig-2009-dialectical-estimates-study"
+   },
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": {
+    "@id": "ct:wisdom-of-crowds"
+   },
+   "cto:file": "articles/debiasing-and-metacognition/dialectical-bootstrapping.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:ralph-hertwig"
+    },
+    {
+     "@id": "ct:stefan-herzog"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:consider-the-opposite"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:vul-pashler-2008-crowd-within-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s5"
+    }
+   ],
+   "rdfs:label": "Dialectical bootstrapping",
+   "skos:altLabel": [
+    "dialectical estimate averaging",
+    "wisdom of the inner crowd technique"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A technique for improving a single person's numerical estimate: make a first estimate, assume it is wrong and say why, make a second estimate from that different angle, then average the two so that partly independent errors cancel.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Dialectical bootstrapping",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:outside-view"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:dialectical-relevance",
    "@type": "cto:Principle",
    "cto:detects": [
@@ -36840,6 +36933,76 @@
    "dcterms:title": "Informal Logic",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/fall2016/entries/logic-informal/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychological Science 20(2), 231-237 (Herzog & Hertwig, 2009), author copy at the Max Planck Society repository",
+   "dcterms:title": "The Wisdom of Many in One Mind: Improving Individual Judgments With Dialectical Bootstrapping",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2504710_7/component/file_2520393/SH_Wisdom_2009.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychological Science 19(7), 645-647 (Vul & Pashler, 2008), course copy at Johns Hopkins University",
+   "dcterms:title": "Measuring the Crowd Within: Probabilistic Representations Within Individuals",
+   "schema:url": {
+    "@id": "https://perception.jhu.edu/chaz/teaching/courses/tp/files/readings/9/Vul_Pashler_2008_Psychological_Science_Measuring_the_Crowd_Within_Probabilistic_Representations_Within_Individuals.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Trends in Cognitive Sciences 18(10), 504-506 (Herzog & Hertwig, 2014), author copy at the Max Planck Society repository",
+   "dcterms:title": "Harnessing the wisdom of the inner crowd",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2097012_6/component/file_2097011/SH_Harnessing_2014.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychological Science 24, 117-119 (Herzog & Hertwig, 2013), author copy at the Max Planck Society repository",
+   "dcterms:title": "The Crowd-Within and the Benefits of Dialectical Bootstrapping: A Reply to White and Antonakis (2013)",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2097272_10/component/file_3565967/Herzog_The_2013_VerlPDF_final_LS.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-bootstrapping/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Scientific Reports 14, 5014 (Gomilsek, Hoffrage & Marewski, 2024)",
+   "dcterms:title": "Fermian guesstimation can boost the wisdom-of-the-inner-crowd",
+   "schema:url": {
+    "@id": "https://www.nature.com/articles/s41598-024-53639-3.pdf"
    }
   },
   {
