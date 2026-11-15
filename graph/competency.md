@@ -51,7 +51,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 
-…and 31 more.
+…and 32 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -153,7 +153,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:plain-language` | cto:Technique |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 
-…and 20 more.
+…and 21 more.
 
 ## Orphan articles (gap)
 

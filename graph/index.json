@@ -24672,6 +24672,83 @@
   ]
  },
  {
+  "id": "ct:steelmanning",
+  "title": "Steelmanning",
+  "aliases": [
+   "steelman argument",
+   "steel-manning",
+   "iron manning"
+  ],
+  "type": "Technique",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/steelmanning.md",
+  "created": "2026-11-15",
+  "summary": "The practice of reconstructing an opposing argument in its strongest defensible form, repairing gaps and weak premises where needed, before evaluating or responding to it, so that criticism engages the best case for a view rather than a weak one.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:straw-man-fallacy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:iron-man-fallacy",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:principle-of-charity",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:stanley-2020-exposure-to-opposing-reasons-study",
+    "source": "s4",
+    "confidence": "low"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://neiudc.neiu.edu/phil-pub/6",
+   "https://rozenbergquarterly.com/issa-proceedings-2014-dont-feed-the-trolls-straw-men-and-iron-men/",
+   "https://link.springer.com/article/10.1007/s10503-024-09648-7",
+   "https://scholars.duke.edu/publication/1456794"
+  ]
+ },
+ {
   "id": "ct:stephen-toulmin",
   "title": "Stephen Toulmin",
   "aliases": [

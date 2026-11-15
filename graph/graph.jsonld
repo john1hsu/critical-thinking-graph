@@ -23091,6 +23091,80 @@
    ]
   },
   {
+   "@id": "ct:steelmanning",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:iron-man-fallacy"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    }
+   ],
+   "cto:counteracts": {
+    "@id": "ct:straw-man-fallacy"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/steelmanning.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:stanley-2020-exposure-to-opposing-reasons-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s4"
+    }
+   ],
+   "rdfs:label": "Steelmanning",
+   "skos:altLabel": [
+    "iron manning",
+    "steel-manning",
+    "steelman argument"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument-evaluation"
+   },
+   "skos:definition": "The practice of reconstructing an opposing argument in its strongest defensible form, repairing gaps and weak premises where needed, before evaluating or responding to it, so that criticism engages the best case for a view rather than a weak one.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Steelmanning",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:stephen-toulmin",
    "@type": "cto:Person",
    "cto:contrastsWith": {
@@ -49114,6 +49188,62 @@
    "dcterms:title": "When and why defaults influence decisions: a meta-analysis of default effects",
    "schema:url": {
     "@id": "https://core-prod.cambridgecore.org/core/product/67AF6972CFB52698A60B6BD94B70C2C0/core-reader"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Topoi 35(2), 431-440 (Aikin & Casey, 2016), Northeastern Illinois University repository record",
+   "dcterms:title": "Straw Men, Iron Men, and Argumentative Virtue",
+   "schema:url": {
+    "@id": "https://neiudc.neiu.edu/phil-pub/6"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2014 (Aikin & Casey), republished by Rozenberg Quarterly",
+   "dcterms:title": "Don't Feed the Trolls: Straw Men and Iron Men",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-dont-feed-the-trolls-straw-men-and-iron-men/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Argumentation 39, 83-102 (Shields, 2025), Springer",
+   "dcterms:title": "Charity Principles in Philosophical Argumentation",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s10503-024-09648-7"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Journal of Experimental Social Psychology 91 (Stanley, Whitehead, Sinnott-Armstrong & Seli, 2020), Duke Scholars record",
+   "dcterms:title": "Exposure to opposing reasons reduces negative impressions of ideological opponents",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/1456794"
    }
   },
   {

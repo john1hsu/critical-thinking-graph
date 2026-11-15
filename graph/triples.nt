@@ -18099,6 +18099,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/status-quo-bias/s4> <https://schema.org/url> <https://core-prod.cambridgecore.org/core/product/67AF6972CFB52698A60B6BD94B70C2C0/core-reader> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s1> <http://purl.org/dc/terms/publisher> "Topoi 35(2), 431-440 (Aikin & Casey, 2016), Northeastern Illinois University repository record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s1> <http://purl.org/dc/terms/title> "Straw Men, Iron Men, and Argumentative Virtue" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s1> <https://schema.org/url> <https://neiudc.neiu.edu/phil-pub/6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s2> <http://purl.org/dc/terms/publisher> "ISSA Proceedings 2014 (Aikin & Casey), republished by Rozenberg Quarterly" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s2> <http://purl.org/dc/terms/title> "Don't Feed the Trolls: Straw Men and Iron Men" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s2> <https://schema.org/url> <https://rozenbergquarterly.com/issa-proceedings-2014-dont-feed-the-trolls-straw-men-and-iron-men/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s3> <http://purl.org/dc/terms/publisher> "Argumentation 39, 83-102 (Shields, 2025), Springer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s3> <http://purl.org/dc/terms/title> "Charity Principles in Philosophical Argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s3> <https://schema.org/url> <https://link.springer.com/article/10.1007/s10503-024-09648-7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s4> <http://purl.org/dc/terms/publisher> "Journal of Experimental Social Psychology 91 (Stanley, Whitehead, Sinnott-Armstrong & Seli, 2020), Duke Scholars record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s4> <http://purl.org/dc/terms/title> "Exposure to opposing reasons reduces negative impressions of ideological opponents" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s4> <https://schema.org/url> <https://scholars.duke.edu/publication/1456794> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1> <http://purl.org/dc/terms/publisher> "University of Southern California Libraries, University Archives" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/stephen-toulmin/s1> <http://purl.org/dc/terms/title> "Stephen E. Toulmin papers, biographical note" .
@@ -19180,6 +19204,34 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jachimowicz-2019-default-effects-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/xiao-2021-status-quo-bias-replication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2000/01/rdf-schema#label> "Steelmanning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#altLabel> "iron manning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#altLabel> "steel-manning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#altLabel> "steelman argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#definition> "The practice of reconstructing an opposing argument in its strongest defensible form, repairing gaps and weak premises where needed, before evaluating or responding to it, so that criticism engages the best case for a view rather than a weak one." .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Steelmanning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/steelmanning/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/iron-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/steelmanning.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stanley-2020-exposure-to-opposing-reasons-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://purl.org/dc/terms/created> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> <http://www.w3.org/2000/01/rdf-schema#label> "Stephen Toulmin" .
