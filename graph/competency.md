@@ -10,6 +10,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 |---|---|
 | `ct:ad-verecundiam` | cto:InformalFallacy |
 | `ct:anchoring-and-adjustment-heuristic` | cto:Heuristic |
+| `ct:myside-bias` | cto:CognitiveBias |
 
 ## Most useful remedies
 
@@ -103,7 +104,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:self-affirmation` | contested | `ct:lyons-2022-self-affirmation-political-replications` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 
-…and 63 more.
+…and 64 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -140,15 +141,15 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modal-scope-fallacy` | cto:FormalFallacy |
 | `ct:modus-tollens` | cto:ReasoningForm |
+| `ct:myside-bias` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 | `ct:philosophy-of-language` | cto:Field |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:plain-language` | cto:Technique |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:precising-definition` | cto:Technique |
-| `ct:preregistration` | cto:Technique |
 
-…and 17 more.
+…and 18 more.
 
 ## Orphan articles (gap)
 

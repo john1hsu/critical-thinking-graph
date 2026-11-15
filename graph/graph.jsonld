@@ -14967,6 +14967,89 @@
    ]
   },
   {
+   "@id": "ct:myside-bias",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": {
+    "@id": "ct:baron-jost-2019-false-equivalence-critique"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:belief-bias"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:stanovich-west-2008-dangerous-car-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/cognitive-biases/myside-bias.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:cognitive-bias"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:ditto-2019-partisan-bias-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s5"
+    }
+   ],
+   "rdfs:label": "Myside bias",
+   "skos:altLabel": [
+    "my-side bias",
+    "myside thinking"
+   ],
+   "skos:broader": {
+    "@id": "ct:confirmation-bias"
+   },
+   "skos:definition": "The tendency to evaluate evidence, generate arguments and test hypotheses in a way that favours one's own prior opinions and attitudes, so that people build and judge cases for their own side more generously than for the other.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Myside bias",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:bias-blind-spot"
+    },
+    {
+     "@id": "ct:biased-assimilation"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:motivated-reasoning"
+    },
+    {
+     "@id": "ct:thinking-dispositions"
+    }
+   ]
+  },
+  {
    "@id": "ct:natural-frequencies",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -41322,6 +41405,76 @@
    "dcterms:title": "Bayesian or biased? Analytic thinking and political belief updating",
    "schema:url": {
     "@id": "https://dspace.mit.edu/bitstream/1721.1/135315/2/BoB-updating_TPR.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Current Directions in Psychological Science 22(4), 259-264 (Stanovich, West & Toplak, 2013), copy hosted by Jagiellonian University",
+   "dcterms:title": "Myside bias, rational thinking, and intelligence",
+   "schema:url": {
+    "@id": "https://iphils.uj.edu.pl/~a.trybus/classes/logic/cs/12.Stanovich.Myside.Bias.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science (Ditto et al., 2019), Association for Psychological Science journal page",
+   "dcterms:title": "At least bias is bipartisan: A meta-analytic comparison of partisan bias in liberals and conservatives",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/perspectives/1745691617746796/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science (Baron & Jost, 2019), Association for Psychological Science journal page",
+   "dcterms:title": "False equivalence: Are liberals and conservatives in the United States equally biased?",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/perspectives/1745691618817753/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science 14(2), 304-316 (Clark, Ditto et al., 2019), Durham University repository",
+   "dcterms:title": "Partisan bias and its discontents",
+   "schema:url": {
+    "@id": "https://durham-repository.worktribe.com/output/1308649/partisan-bias-and-its-discontents"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/myside-bias/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "MIT Press (Stanovich, 2021), MIT Press Bookstore page",
+   "dcterms:title": "The Bias That Divides Us: The Science and Politics of Myside Thinking",
+   "schema:url": {
+    "@id": "https://mitpressbookstore.mit.edu/book/9780262045759"
    }
   },
   {

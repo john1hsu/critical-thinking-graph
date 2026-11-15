@@ -16013,6 +16013,97 @@
   ]
  },
  {
+  "id": "ct:myside-bias",
+  "title": "Myside bias",
+  "aliases": [
+   "myside thinking",
+   "my-side bias"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/cognitive-biases/myside-bias.md",
+  "created": "2026-11-15",
+  "summary": "The tendency to evaluate evidence, generate arguments and test hypotheses in a way that favours one's own prior opinions and attitudes, so that people build and judge cases for their own side more generously than for the other.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:biased-assimilation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:motivated-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:thinking-dispositions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:ditto-2019-partisan-bias-meta-analysis",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:stanovich-west-2008-dangerous-car-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:belief-bias",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:baron-jost-2019-false-equivalence-critique",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iphils.uj.edu.pl/~a.trybus/classes/logic/cs/12.Stanovich.Myside.Bias.pdf",
+   "https://www.psychologicalscience.org/journals/perspectives/1745691617746796/",
+   "https://www.psychologicalscience.org/journals/perspectives/1745691618817753/",
+   "https://durham-repository.worktribe.com/output/1308649/partisan-bias-and-its-discontents",
+   "https://mitpressbookstore.mit.edu/book/9780262045759"
+  ]
+ },
+ {
   "id": "ct:natural-frequencies",
   "title": "Natural frequency format",
   "aliases": [
