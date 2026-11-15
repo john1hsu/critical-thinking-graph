@@ -20424,6 +20424,131 @@
   ]
  },
  {
+  "id": "ct:probabilistic-fallacy",
+  "title": "Probabilistic fallacy",
+  "aliases": [
+   "probabilistic fallacies",
+   "probability fallacy",
+   "fallacy of probabilistic reasoning"
+  ],
+  "type": "Concept",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/probabilistic-fallacy.md",
+  "created": "2026-11-15",
+  "summary": "A reasoning error in judging, combining or interpreting probabilities that violates the rules of probability theory, such as ignoring base rates, transposing a conditional probability, rating a conjunction above one of its parts, or expecting chance to correct itself.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conjunction-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hot-hand-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prosecutors-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inverse-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:insensitivity-to-sample-size"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:law-of-small-numbers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:likelihood-ratio"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:representativeness-heuristic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:bayesian-reasoning",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gerd-gigerenzer",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Tversky+Kahneman-heuristics-biases-1974.pdf",
+   "https://pages.ucsd.edu/~mckenzie/TverskyKahneman1983PsychRev.pdf",
+   "https://www.joelvelasco.net/teaching/122/thompson&schumann87-statisticslaw.pdf",
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Gigerenzer-on-Kahneman+Tversky-1991.pdf",
+   "https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f25/wrap/readings/Kahneman+Tversky-cognitive-illusions-1996.pdf",
+   "https://lrcfs-ap2.dundee.ac.uk/lr_book/prosecutor-fallacy.html"
+  ]
+ },
+ {
   "id": "ct:probability-theory",
   "title": "Probability theory",
   "aliases": [
