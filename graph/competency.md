@@ -113,6 +113,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:causal-inference` | cto:Field |
 | `ct:correlation-versus-causation` | cto:Principle |
+| `ct:decision-theory` | cto:Field |
 | `ct:deepfake` | cto:Phenomenon |
 | `ct:denying-a-conjunct` | cto:FormalFallacy |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
@@ -137,9 +138,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:precising-definition` | cto:Technique |
 | `ct:preregistration` | cto:Technique |
-| `ct:propositional-logic` | cto:Field |
 
-…and 16 more.
+…and 17 more.
 
 ## Orphan articles (gap)
 

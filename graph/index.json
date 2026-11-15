@@ -6854,6 +6854,105 @@
   ]
  },
  {
+  "id": "ct:decision-theory",
+  "title": "Decision theory",
+  "aliases": [
+   "normative decision theory",
+   "theory of rational choice",
+   "rational choice under uncertainty"
+  ],
+  "type": "Field",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/decision-making/decision-theory.md",
+  "created": "2026-11-15",
+  "summary": "The interdisciplinary study of how an agent's beliefs and desires should combine into choices, especially under uncertainty; its orthodox normative core is expected utility theory, built on axioms about coherent preference, and it is contrasted with descriptive research on how people actually choose.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:decision-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-value"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:expected-value"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:theory-of-games-and-economic-behavior",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:probability-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:allais-paradox",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:economics",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRiES/decision-theory/",
+   "https://www.cambridge.org/highereducation/books/an-introduction-to-decision-theory/93E043CC210347D7F3FE39665FD26C9F/decisions-under-ignorance/8D2AA3F1E63A72EE182D6AB527513732",
+   "https://cambridge.org/core/books/decision-making/descriptive-normative-and-prescriptive-interactions-in-decision-making/E9C320AB14791B3F586A583AA4989DD0",
+   "https://econpapers.repec.org/RePEc:oup:qjecon:v:75:y:1961:i:4:p:643-669."
+  ]
+ },
+ {
   "id": "ct:deductive-reasoning",
   "title": "Deductive reasoning",
   "aliases": [

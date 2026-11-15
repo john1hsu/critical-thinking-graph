@@ -6422,6 +6422,95 @@
    ]
   },
   {
+   "@id": "ct:decision-theory",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:economics"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:allais-paradox"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/decision-making/decision-theory.md",
+   "cto:formalizedBy": {
+    "@id": "ct:theory-of-games-and-economic-behavior"
+   },
+   "cto:influencedBy": {
+    "@id": "ct:probability-theory"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:expected-value"
+    },
+    {
+     "@id": "ct:probability-theory"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s4"
+    }
+   ],
+   "rdfs:label": "Decision theory",
+   "skos:altLabel": [
+    "normative decision theory",
+    "rational choice under uncertainty",
+    "theory of rational choice"
+   ],
+   "skos:broader": {
+    "@id": "ct:philosophy"
+   },
+   "skos:definition": "The interdisciplinary study of how an agent's beliefs and desires should combine into choices, especially under uncertainty; its orthodox normative core is expected utility theory, built on axioms about coherent preference, and it is contrasted with descriptive research on how people actually choose.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Decision theory",
+   "skos:related": [
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:decision-analysis"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:expected-value"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    },
+    {
+     "@id": "ct:risk-aversion"
+    }
+   ]
+  },
+  {
    "@id": "ct:deductive-reasoning",
    "@type": "cto:ReasoningMode",
    "cto:contrastsWith": {
@@ -33998,6 +34087,62 @@
    "dcterms:title": "Analysis Placebos",
    "schema:url": {
     "@id": "https://pubsonline.informs.org/do/10.1287/LYTX.2009.06.10/full/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Stefánsson; first published 2015 with Steele; substantive revision 2025)",
+   "dcterms:title": "Decision Theory",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRiES/decision-theory/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Cambridge University Press (Martin Peterson, 2017)",
+   "dcterms:title": "An Introduction to Decision Theory, 2nd ed., chapter 3: Decisions under Ignorance",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/highereducation/books/an-introduction-to-decision-theory/93E043CC210347D7F3FE39665FD26C9F/decisions-under-ignorance/8D2AA3F1E63A72EE182D6AB527513732"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Bell, Raiffa & Tversky, in Bell, Raiffa & Tversky (eds.), Decision Making: Descriptive, Normative, and Prescriptive Interactions, Cambridge University Press, 1988",
+   "dcterms:title": "Descriptive, Normative, and Prescriptive Interactions in Decision Making",
+   "schema:url": {
+    "@id": "https://cambridge.org/core/books/decision-making/descriptive-normative-and-prescriptive-interactions-in-decision-making/E9C320AB14791B3F586A583AA4989DD0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Quarterly Journal of Economics 75(4), 643-669 (Ellsberg, 1961), EconPapers record",
+   "dcterms:title": "Risk, Ambiguity, and the Savage Axioms",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:oup:qjecon:v:75:y:1961:i:4:p:643-669."
    }
   },
   {

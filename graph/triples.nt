@@ -2933,6 +2933,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
 <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Decision theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "normative decision theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "rational choice under uncertainty" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "theory of rational choice" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#definition> "The interdisciplinary study of how an agent's beliefs and desires should combine into choices, especially under uncertainty; its orthodox normative core is expected utility theory, built on axioms about coherent preference, and it is contrasted with descriptive research on how people actually choose." .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decision theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/allais-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/decision-theory.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/theory-of-games-and-economic-behavior> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
+<https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "This laptop order needs sign-off from finance." .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning/map/ra> .
@@ -11788,6 +11821,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/decision-analysis/s6> <https://schema.org/url> <https://pubsonline.informs.org/do/10.1287/LYTX.2009.06.10/full/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Stefánsson; first published 2015 with Steele; substantive revision 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s1> <http://purl.org/dc/terms/title> "Decision Theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRiES/decision-theory/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s2> <http://purl.org/dc/terms/publisher> "Cambridge University Press (Martin Peterson, 2017)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s2> <http://purl.org/dc/terms/title> "An Introduction to Decision Theory, 2nd ed., chapter 3: Decisions under Ignorance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s2> <https://schema.org/url> <https://www.cambridge.org/highereducation/books/an-introduction-to-decision-theory/93E043CC210347D7F3FE39665FD26C9F/decisions-under-ignorance/8D2AA3F1E63A72EE182D6AB527513732> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s3> <http://purl.org/dc/terms/publisher> "Bell, Raiffa & Tversky, in Bell, Raiffa & Tversky (eds.), Decision Making: Descriptive, Normative, and Prescriptive Interactions, Cambridge University Press, 1988" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s3> <http://purl.org/dc/terms/title> "Descriptive, Normative, and Prescriptive Interactions in Decision Making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s3> <https://schema.org/url> <https://cambridge.org/core/books/decision-making/descriptive-normative-and-prescriptive-interactions-in-decision-making/E9C320AB14791B3F586A583AA4989DD0> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s4> <http://purl.org/dc/terms/publisher> "Quarterly Journal of Economics 75(4), 643-669 (Ellsberg, 1961), EconPapers record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s4> <http://purl.org/dc/terms/title> "Risk, Ambiguity, and the Savage Axioms" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/decision-theory/s4> <https://schema.org/url> <https://econpapers.repec.org/RePEc:oup:qjecon:v:75:y:1961:i:4:p:643-669.> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1> <http://purl.org/dc/terms/date> "2026-11-03"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Shanahan)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/deductive-reasoning/s1> <http://purl.org/dc/terms/title> "Deductive and Inductive Arguments" .
