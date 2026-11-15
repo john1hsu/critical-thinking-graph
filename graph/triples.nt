@@ -18144,6 +18144,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/undistributed-middle/s4> <https://schema.org/url> <https://link.springer.com/10.3758/s13423-018-1460-7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s1> <http://purl.org/dc/terms/publisher> "The Fallacy Files (Gary N. Curtis)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s1> <http://purl.org/dc/terms/title> "Some Are/Some Are Not" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s1> <https://schema.org/url> <https://fallacyfiles.org/somernot.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Parsons; rev. Ciola, 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s2> <http://purl.org/dc/terms/title> "The Traditional Square of Opposition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s2> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/square/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Davis, rev. 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s3> <http://purl.org/dc/terms/title> "Implicature" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s3> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/implicature/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s4> <http://purl.org/dc/terms/publisher> "Bott & Noveck, Cardiff University ORCA repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s4> <http://purl.org/dc/terms/title> "Some utterances are underinformative: The onset and time course of scalar inferences (Journal of Memory and Language 51(3), 2004)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s4> <https://schema.org/url> <https://orca.cardiff.ac.uk/id/eprint/3267/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s5> <http://purl.org/dc/terms/publisher> "Noveck, Relevance Theory Online Bibliographic Service, University College London" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s5> <http://purl.org/dc/terms/title> "When children are more logical than adults: Experimental investigations of scalar implicature (Cognition 78(2), 2001), author's announcement" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s5> <https://schema.org/url> <https://www.phon.ucl.ac.uk/home/relevance/relevance_archives/0112.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Sorensen, rev. 2022)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s1> <http://purl.org/dc/terms/title> "Vagueness" .
@@ -19410,6 +19440,73 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
 <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the premise say anything at all about the members of the class that lack the property, or is the \"not\" only suggested by the word \"some\"?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Could every member of the class have the property without making the premise false?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Did the speaker say \"some\" because they lacked information about the rest, rather than because they knew some were excluded?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Would the speaker withdraw anything if told \"in fact, all of them do\"?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So some of our supplier invoices were paid on time." .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "If every invoice in the period was paid late, the premise is still true and the conclusion is false." .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "The auditors may have checked only a sample and said 'some' because they could not speak for the rest." .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The audit report says some of our supplier invoices were paid late." .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2000/01/rdf-schema#label> "Unwarranted contrast" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of unwarranted contrast" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#altLabel> "some are/some are not" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#altLabel> "some-are-some-are-not fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#definition> "The invalid immediate inference from \"Some S are P\" to \"Some S are not P\" (or the reverse). The two statements are subcontraries, which can both be true, so neither entails the other; the \"not all\" reading of \"some\" is a conversational implicature that context can cancel, not a logical implication." .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unwarranted contrast" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/quantifier-shift-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/conversational-implicature> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/unwarranted-contrast.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/the-cambridge-dictionary-of-philosophy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> <http://www.w3.org/2000/01/rdf-schema#label> "Vagueness" .

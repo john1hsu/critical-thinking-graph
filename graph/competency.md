@@ -11,6 +11,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | `ct:ad-verecundiam` | cto:InformalFallacy |
 | `ct:anchoring-and-adjustment-heuristic` | cto:Heuristic |
 | `ct:myside-bias` | cto:CognitiveBias |
+| `ct:unwarranted-contrast` | cto:FormalFallacy |
 
 ## Most useful remedies
 
@@ -110,7 +111,9 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 _Which written formal fallacies have no invalidFormOf edge to the valid reasoning form they mimic?_ — `queries/05-invalid-lookalikes.rq`
 
-_No results._
+| fallacy |
+|---|
+| `ct:unwarranted-contrast` |
 
 ## Concepts with no recorded origin (gap)
 

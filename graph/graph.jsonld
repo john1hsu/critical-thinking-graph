@@ -24130,6 +24130,98 @@
    ]
   },
   {
+   "@id": "ct:unwarranted-contrast",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:existential-fallacy"
+   },
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:conversational-implicature"
+   },
+   "cto:file": "articles/formal-fallacies/unwarranted-contrast.md",
+   "cto:introducedIn": {
+    "@id": "ct:the-cambridge-dictionary-of-philosophy"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:pragmatics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s5"
+    }
+   ],
+   "rdfs:label": "Unwarranted contrast",
+   "skos:altLabel": [
+    "fallacy of unwarranted contrast",
+    "some are/some are not",
+    "some-are-some-are-not fallacy"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The invalid immediate inference from \"Some S are P\" to \"Some S are not P\" (or the reverse). The two statements are subcontraries, which can both be true, so neither entails the other; the \"not all\" reading of \"some\" is a conversational implicature that context can cancel, not a logical implication.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Unwarranted contrast",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:existential-fallacy"
+    },
+    {
+     "@id": "ct:illicit-conversion"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:quantifier-shift-fallacy"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:vagueness",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -49005,6 +49097,76 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Some Are/Some Are Not",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/somernot.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Parsons; rev. Ciola, 2025)",
+   "dcterms:title": "The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/square/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Davis, rev. 2024)",
+   "dcterms:title": "Implicature",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/implicature/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Bott & Noveck, Cardiff University ORCA repository",
+   "dcterms:title": "Some utterances are underinformative: The onset and time course of scalar inferences (Journal of Memory and Language 51(3), 2004)",
+   "schema:url": {
+    "@id": "https://orca.cardiff.ac.uk/id/eprint/3267/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/unwarranted-contrast/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Noveck, Relevance Theory Online Bibliographic Service, University College London",
+   "dcterms:title": "When children are more logical than adults: Experimental investigations of scalar implicature (Cognition 78(2), 2001), author's announcement",
+   "schema:url": {
+    "@id": "https://www.phon.ucl.ac.uk/home/relevance/relevance_archives/0112.html"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/vagueness/s1",
    "@type": "cto:Source",
    "cto:sourceType": "scholarly-encyclopedia",
@@ -50158,6 +50320,99 @@
    },
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:unwarranted-contrast"
+   },
+   "rdfs:label": "Does the premise say anything at all about the members of the class that lack the property, or is the \"not\" only suggested by the word \"some\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:unwarranted-contrast"
+   },
+   "rdfs:label": "Could every member of the class have the property without making the premise false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:unwarranted-contrast"
+   },
+   "rdfs:label": "Did the speaker say \"some\" because they lacked information about the rest, rather than because they knew some were excluded?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:unwarranted-contrast"
+   },
+   "rdfs:label": "Would the speaker withdraw anything if told \"in fact, all of them do\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:unwarranted-contrast"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So some of our supplier invoices were paid on time."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If every invoice in the period was paid late, the premise is still true and the conclusion is false."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The auditors may have checked only a sample and said 'some' because they could not speak for the rest."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The audit report says some of our supplier invoices were paid late."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/c"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map/p1"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast/map"
    }
   }
  ]

@@ -25744,6 +25744,105 @@
   ]
  },
  {
+  "id": "ct:unwarranted-contrast",
+  "title": "Unwarranted contrast",
+  "aliases": [
+   "some are/some are not",
+   "some-are-some-are-not fallacy",
+   "fallacy of unwarranted contrast"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/unwarranted-contrast.md",
+  "created": "2026-11-15",
+  "summary": "The invalid immediate inference from \"Some S are P\" to \"Some S are not P\" (or the reverse). The two statements are subcontraries, which can both be true, so neither entails the other; the \"not all\" reading of \"some\" is a conversational implicature that context can cancel, not a logical implication.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-conversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:quantifier-shift-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:conversational-implicature",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:existential-fallacy",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-cambridge-dictionary-of-philosophy",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:pragmatics",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the premise say anything at all about the members of the class that lack the property, or is the \"not\" only suggested by the word \"some\"?",
+   "Could every member of the class have the property without making the premise false?",
+   "Did the speaker say \"some\" because they lacked information about the rest, rather than because they knew some were excluded?",
+   "Would the speaker withdraw anything if told \"in fact, all of them do\"?"
+  ],
+  "source_urls": [
+   "https://fallacyfiles.org/somernot.html",
+   "https://plato.stanford.edu/ENTRIES/square/",
+   "https://plato.stanford.edu/ENTRIES/implicature/",
+   "https://orca.cardiff.ac.uk/id/eprint/3267/",
+   "https://www.phon.ucl.ac.uk/home/relevance/relevance_archives/0112.html"
+  ]
+ },
+ {
   "id": "ct:vagueness",
   "title": "Vagueness",
   "aliases": [

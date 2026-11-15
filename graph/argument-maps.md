@@ -564,3 +564,13 @@ flowchart TD
   o2["Plenty of uncertified firms use encrypted transfer; the shared trait does not establish membership."] -. attacks .-> ra
 ```
 
+## Unwarranted contrast (`ct:unwarranted-contrast`)
+
+```mermaid
+flowchart TD
+  p1["The audit report says some of our supplier invoices were paid late."] --> ra{{"invalid"}}
+  ra --> c["So some of our supplier invoices were paid on time."]
+  o1["If every invoice in the period was paid late, the premise is still true and the conclusion is false."] -. attacks .-> ra
+  o2["The auditors may have checked only a sample and said 'some' because they could not speak for the rest."] -. attacks .-> ra
+```
+
