@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:anchoring-and-adjustment-heuristic` | cto:Heuristic |
+| `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:myside-bias` | cto:CognitiveBias |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
 

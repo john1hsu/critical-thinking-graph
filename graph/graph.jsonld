@@ -15287,6 +15287,98 @@
    ]
   },
   {
+   "@id": "ct:motte-and-bailey",
+   "@type": "cto:InformalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:equivocation"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:ambiguity"
+   },
+   "cto:file": "articles/informal-fallacies/motte-and-bailey.md",
+   "cto:instanceOf": {
+    "@id": "ct:strategic-ambiguity"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:nicholas-shackel"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:the-vacuity-of-postmodernist-methodology"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:argument"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motte-and-bailey/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motte-and-bailey/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motte-and-bailey/s3"
+    }
+   ],
+   "rdfs:label": "Motte-and-bailey",
+   "skos:altLabel": [
+    "motte and bailey",
+    "motte-and-bailey doctrine",
+    "motte-and-bailey fallacy"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The tactic of advancing a bold, hard-to-defend claim (the bailey) and, when challenged, retreating to a modest, easily defended claim that sounds similar (the motte), then returning to the bold claim once the pressure has passed.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Motte-and-bailey",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    },
+    {
+     "@id": "ct:vagueness"
+    }
+   ]
+  },
+  {
    "@id": "ct:myside-bias",
    "@type": "cto:CognitiveBias",
    "cto:challengedBy": {
@@ -29092,6 +29184,125 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:motte-and-bailey"
+   },
+   "rdfs:label": "What exactly is the claim being defended right now, and is it the same claim that was asserted at the start?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:motte-and-bailey"
+   },
+   "rdfs:label": "If the modest version is granted, does the bold version actually follow from it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:motte-and-bailey"
+   },
+   "rdfs:label": "Once the critic falls silent, does the speaker go back to drawing conclusions that only the bold version supports?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:motte-and-bailey"
+   },
+   "rdfs:label": "Is the speaker really shifting position, or did they hold the modest reading all along, so that calling it a retreat would be uncharitable?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:motte-and-bailey"
+   },
+   "rdfs:label": "Can both versions be stated precisely enough, side by side, that everyone can see which one is in play?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:motte-and-bailey"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the full regional rollout is justified."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Retention rising after the redesign does not show that the redesign caused the rise, still less that it doubled retention."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Conceding the motte leaves the bailey undefended; the rollout needed the bold causal claim, which was never argued for."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Bailey (stated in the planning meeting): The new dashboard proves the onboarding redesign doubled customer retention, so we should roll it out to every region now."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Motte (stated when a colleague asks for the analysis): All I am saying is that the dashboard shows retention went up after the redesign."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/p3",
+   "@type": "aif:I-node",
+   "aif:claimText": "Nobody disputes that retention went up after the redesign."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/p2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map/p3"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -42171,6 +42382,48 @@
    "dcterms:title": "Bayesian or biased? Analytic thinking and political belief updating",
    "schema:url": {
     "@id": "https://dspace.mit.edu/bitstream/1721.1/135315/2/BoB-updating_TPR.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motte-and-bailey/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Metaphilosophy 36(3), 295-320 (Shackel, 2005), author's archived copy via PhilArchive",
+   "dcterms:title": "The Vacuity of Postmodernist Methodology",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/SHATVO-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motte-and-bailey/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Practical Ethics blog, Oxford Uehiro Centre for Practical Ethics, University of Oxford (Shackel, 2014, updated 2015)",
+   "dcterms:title": "Motte and Bailey Doctrines",
+   "schema:url": {
+    "@id": "https://blog.practicalethics.ox.ac.uk/?p=9229"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/motte-and-bailey/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Social Psychological Bulletin 18, e9923 (Frankenhuis, Panchanathan & Smaldino, 2023)",
+   "dcterms:title": "Strategic Ambiguity in the Social Sciences",
+   "schema:url": {
+    "@id": "https://spb.psychopen.eu/index.php/spb/article/download/9923/9923.html?inline=1"
    }
   },
   {

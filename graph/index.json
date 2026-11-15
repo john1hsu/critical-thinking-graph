@@ -16358,6 +16358,114 @@
   ]
  },
  {
+  "id": "ct:motte-and-bailey",
+  "title": "Motte-and-bailey",
+  "aliases": [
+   "motte-and-bailey fallacy",
+   "motte-and-bailey doctrine",
+   "motte and bailey"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/motte-and-bailey.md",
+  "created": "2026-11-15",
+  "summary": "The tactic of advancing a bold, hard-to-defend claim (the bailey) and, when challenged, retreating to a modest, easily defended claim that sounds similar (the motte), then returning to the bold claim once the pressure has passed.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:nicholas-shackel",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:the-vacuity-of-postmodernist-methodology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:equivocation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:ambiguity",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:strategic-ambiguity",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "What exactly is the claim being defended right now, and is it the same claim that was asserted at the start?",
+   "If the modest version is granted, does the bold version actually follow from it?",
+   "Once the critic falls silent, does the speaker go back to drawing conclusions that only the bold version supports?",
+   "Is the speaker really shifting position, or did they hold the modest reading all along, so that calling it a retreat would be uncharitable?",
+   "Can both versions be stated precisely enough, side by side, that everyone can see which one is in play?"
+  ],
+  "source_urls": [
+   "https://philarchive.org/archive/SHATVO-2",
+   "https://blog.practicalethics.ox.ac.uk/?p=9229",
+   "https://spb.psychopen.eu/index.php/spb/article/download/9923/9923.html?inline=1"
+  ]
+ },
+ {
   "id": "ct:myside-bias",
   "title": "Myside bias",
   "aliases": [

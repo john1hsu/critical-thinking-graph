@@ -439,6 +439,18 @@ flowchart TD
   o1["The form is valid, but the conditional premise may be false: the job could have succeeded while writing to a different folder or stamping the file in another time zone."] -. attacks .-> ra
 ```
 
+## Motte-and-bailey (`ct:motte-and-bailey`)
+
+```mermaid
+flowchart TD
+  p1["Bailey (stated in the planning meeting): The new dashboard proves the onboarding redesign doubled customer retention, so we should roll it out to every region now."] --> ra{{"fallacious"}}
+  p2["Motte (stated when a colleague asks for the analysis): All I am saying is that the dashboard shows retention went up after the redesign."] --> ra{{"fallacious"}}
+  p3["Nobody disputes that retention went up after the redesign."] --> ra{{"fallacious"}}
+  ra --> c["So the full regional rollout is justified."]
+  o1["Retention rising after the redesign does not show that the redesign caused the rise, still less that it doubled retention."] -. attacks .-> ra
+  o2["Conceding the motte leaves the bailey undefended; the rollout needed the bold causal claim, which was never argued for."] -. attacks .-> ra
+```
+
 ## No true Scotsman (`ct:no-true-scotsman`)
 
 ```mermaid
