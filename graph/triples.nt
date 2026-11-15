@@ -5016,6 +5016,74 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/gettier-problem> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> .
 <https://github.com/john1hsu/critical-thinking-graph/id/gettier-problem> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/gettier-problem> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/machery-2017-gettier-intuition-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "How many separate claims were made, and how many of them were actually supported with evidence rather than simply asserted?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does the speaker treat the opponent's silence on a point as if it were a refutation or a concession?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Which two or three claims carry the most weight for the conclusion, and do those survive scrutiny on their own?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Was the time or format of the exchange enough for any reasonable person to check every claim made?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "If a sample of the claims turns out to be false or irrelevant, what does that suggest about the reliability of the rest?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So the rival's product is unsafe and we should renew the current contract." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Twelve claims going unanswered in three minutes shows the format was too short, not that the claims are true." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Two of the claims the analyst did check turned out to be false, which counts against trusting the rest without verification." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "In a ten-minute vendor review, the incumbent supplier's account manager lists fourteen alleged problems with a rival's product, from outages to licensing traps to security gaps." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "The procurement analyst has three minutes to reply and shows that two of the claims are out of date." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p3> <http://www.arg.dundee.ac.uk/aif#claimText> "The account manager then points out that the other twelve problems were never answered." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2000/01/rdf-schema#label> "Gish gallop" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#altLabel> "Gish galloping" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#definition> "A debating tactic of flooding an opponent with a rapid stream of claims and arguments, regardless of their accuracy or strength, so that not all of them can be answered in the time available, and then treating whatever goes unanswered as conceded." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gish gallop" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/brandolinis-law> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/firehose-of-falsehood> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifies> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/gish-gallop.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/eugenie-scott> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2000/01/rdf-schema#label> "Groupthink" .
@@ -14057,6 +14125,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gettier-problem/s4> <https://schema.org/url> <https://link.springer.com/10.1007/s11191-018-9972-0> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s1> <http://purl.org/dc/terms/publisher> "National Center for Science Education (Glenn Branch, 20 July 2023)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s1> <http://purl.org/dc/terms/title> "NCSE and the Gish gallop in the Los Angeles Times" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s1> <https://schema.org/url> <https://ncse.ngo/ncse-and-gish-gallop-los-angeles-times> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s2> <http://purl.org/dc/terms/publisher> "Thomas R. Holtz Jr., Science and Global Change program, University of Maryland" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s2> <http://purl.org/dc/terms/title> "CPSG100 First Year Colloquium I: Argumentation and Logical Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s2> <https://schema.org/url> <https://www.geol.umd.edu/sgc/lectures/fallacies.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s3> <http://purl.org/dc/terms/publisher> "Scientific American (opinion, 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s3> <http://purl.org/dc/terms/title> "Trump's Weird Debate Strategies Come from Creationist Tactics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s3> <https://schema.org/url> <https://www.scientificamerican.com/article/trumps-weird-debate-strategies-come-from-creationist-tactics/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s4> <http://purl.org/dc/terms/publisher> "Phil Williamson, Nature 540, 171 (World View, 8 December 2016)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s4> <http://purl.org/dc/terms/title> "Take the time and effort to correct misinformation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s4> <https://schema.org/url> <https://www.nature.com/news/polopoly_fs/1.21106%21/menu/main/topColumns/topLeftColumn/pdf/540171a.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <http://purl.org/dc/terms/publisher> "The TalkOrigins Archive (Richard Trott; Eugenie C. Scott)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <http://purl.org/dc/terms/title> "Debating the ICR's Duane Gish (with Eugenie Scott, Debates and the Globetrotters)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <https://schema.org/url> <https://talkorigins.org/faqs/debating-creationists.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/publisher> "Emerging Leadership Journeys 4(1), Regent University School of Global Leadership & Entrepreneurship (Rose, 2011)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/title> "Diverse Perspectives on the Groupthink Theory: A Literary Review" .

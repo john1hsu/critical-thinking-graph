@@ -11659,6 +11659,76 @@
   ]
  },
  {
+  "id": "ct:gish-gallop",
+  "title": "Gish gallop",
+  "aliases": [
+   "Gish galloping"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/gish-gallop.md",
+  "created": "2026-11-15",
+  "summary": "A debating tactic of flooding an opponent with a rapid stream of claims and arguments, regardless of their accuracy or strength, so that not all of them can be answered in the time available, and then treating whatever goes unanswered as conceded.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-ignorance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:brandolinis-law"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:firehose-of-falsehood"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:eugenie-scott",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:amplifies",
+    "object": "ct:misinformation-and-disinformation",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "How many separate claims were made, and how many of them were actually supported with evidence rather than simply asserted?",
+   "Does the speaker treat the opponent's silence on a point as if it were a refutation or a concession?",
+   "Which two or three claims carry the most weight for the conclusion, and do those survive scrutiny on their own?",
+   "Was the time or format of the exchange enough for any reasonable person to check every claim made?",
+   "If a sample of the claims turns out to be false or irrelevant, what does that suggest about the reliability of the rest?"
+  ],
+  "source_urls": [
+   "https://ncse.ngo/ncse-and-gish-gallop-los-angeles-times",
+   "https://www.geol.umd.edu/sgc/lectures/fallacies.html",
+   "https://www.scientificamerican.com/article/trumps-weird-debate-strategies-come-from-creationist-tactics/",
+   "https://www.nature.com/news/polopoly_fs/1.21106%21/menu/main/topColumns/topLeftColumn/pdf/540171a.pdf",
+   "https://talkorigins.org/faqs/debating-creationists.html"
+  ]
+ },
+ {
   "id": "ct:groupthink",
   "title": "Groupthink",
   "aliases": [

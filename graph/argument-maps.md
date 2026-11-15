@@ -318,6 +318,18 @@ flowchart TD
   o1["If each check is independent, the chance the next one fails is still about one in ten; seven passes do not create a debt that the next shipment must repay."] -. attacks .-> ra
 ```
 
+## Gish gallop (`ct:gish-gallop`)
+
+```mermaid
+flowchart TD
+  p1["In a ten-minute vendor review, the incumbent supplier's account manager lists fourteen alleged problems with a rival's product, from outages to licensing traps to security gaps."] --> ra{{"fallacious"}}
+  p2["The procurement analyst has three minutes to reply and shows that two of the claims are out of date."] --> ra{{"fallacious"}}
+  p3["The account manager then points out that the other twelve problems were never answered."] --> ra{{"fallacious"}}
+  ra --> c["So the rival's product is unsafe and we should renew the current contract."]
+  o1["Twelve claims going unanswered in three minutes shows the format was too short, not that the claims are true."] -. attacks .-> ra
+  o2["Two of the claims the analyst did check turned out to be false, which counts against trusting the rest without verification."] -. attacks .-> ra
+```
+
 ## Hasty generalization (`ct:hasty-generalization`)
 
 ```mermaid

@@ -10873,6 +10873,74 @@
    ]
   },
   {
+   "@id": "ct:gish-gallop",
+   "@type": "cto:InformalFallacy",
+   "cto:amplifies": {
+    "@id": "ct:misinformation-and-disinformation"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map"
+   },
+   "cto:file": "articles/informal-fallacies/gish-gallop.md",
+   "cto:introducedBy": {
+    "@id": "ct:eugenie-scott"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5"
+    }
+   ],
+   "rdfs:label": "Gish gallop",
+   "skos:altLabel": "Gish galloping",
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "A debating tactic of flooding an opponent with a rapid stream of claims and arguments, regardless of their accuracy or strength, so that not all of them can be answered in the time available, and then treating whatever goes unanswered as conceded.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Gish gallop",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-ignorance"
+    },
+    {
+     "@id": "ct:brandolinis-law"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:firehose-of-falsehood"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    }
+   ]
+  },
+  {
    "@id": "ct:groupthink",
    "@type": "cto:Phenomenon",
    "cto:challengedBy": [
@@ -28895,6 +28963,125 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:gish-gallop"
+   },
+   "rdfs:label": "How many separate claims were made, and how many of them were actually supported with evidence rather than simply asserted?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:gish-gallop"
+   },
+   "rdfs:label": "Does the speaker treat the opponent's silence on a point as if it were a refutation or a concession?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:gish-gallop"
+   },
+   "rdfs:label": "Which two or three claims carry the most weight for the conclusion, and do those survive scrutiny on their own?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:gish-gallop"
+   },
+   "rdfs:label": "Was the time or format of the exchange enough for any reasonable person to check every claim made?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:gish-gallop"
+   },
+   "rdfs:label": "If a sample of the claims turns out to be false or irrelevant, what does that suggest about the reliability of the rest?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:gish-gallop"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the rival's product is unsafe and we should renew the current contract."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Twelve claims going unanswered in three minutes shows the format was too short, not that the claims are true."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Two of the claims the analyst did check turned out to be false, which counts against trusting the rest without verification."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "In a ten-minute vendor review, the incumbent supplier's account manager lists fourteen alleged problems with a rival's product, from outages to licensing traps to security gaps."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The procurement analyst has three minutes to reply and shows that two of the claims are out of date."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p3",
+   "@type": "aif:I-node",
+   "aif:claimText": "The account manager then points out that the other twelve problems were never answered."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map/p3"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -39830,6 +40017,76 @@
    "dcterms:title": "Lucky Belief in Science Education",
    "schema:url": {
     "@id": "https://link.springer.com/10.1007/s11191-018-9972-0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "National Center for Science Education (Glenn Branch, 20 July 2023)",
+   "dcterms:title": "NCSE and the Gish gallop in the Los Angeles Times",
+   "schema:url": {
+    "@id": "https://ncse.ngo/ncse-and-gish-gallop-los-angeles-times"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Thomas R. Holtz Jr., Science and Global Change program, University of Maryland",
+   "dcterms:title": "CPSG100 First Year Colloquium I: Argumentation and Logical Fallacies",
+   "schema:url": {
+    "@id": "https://www.geol.umd.edu/sgc/lectures/fallacies.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Scientific American (opinion, 2024)",
+   "dcterms:title": "Trump's Weird Debate Strategies Come from Creationist Tactics",
+   "schema:url": {
+    "@id": "https://www.scientificamerican.com/article/trumps-weird-debate-strategies-come-from-creationist-tactics/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Phil Williamson, Nature 540, 171 (World View, 8 December 2016)",
+   "dcterms:title": "Take the time and effort to correct misinformation",
+   "schema:url": {
+    "@id": "https://www.nature.com/news/polopoly_fs/1.21106%21/menu/main/topColumns/topLeftColumn/pdf/540171a.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "The TalkOrigins Archive (Richard Trott; Eugenie C. Scott)",
+   "dcterms:title": "Debating the ICR's Duane Gish (with Eugenie Scott, Debates and the Globetrotters)",
+   "schema:url": {
+    "@id": "https://talkorigins.org/faqs/debating-creationists.html"
    }
   },
   {

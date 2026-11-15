@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:endowment-effect` | cto:CognitiveBias |
+| `ct:gish-gallop` | cto:InformalFallacy |
 | `ct:hot-hand-fallacy` | cto:ProbabilisticFallacy |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
