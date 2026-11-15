@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:anchoring-and-adjustment-heuristic` | cto:Heuristic |
 
 ## Most useful remedies
 
@@ -53,6 +55,12 @@ _For each heuristic, which biases can it produce and what counteracts them?_ —
 
 | heuristic | bias | remedy |
 |---|---|---|
+| `ct:anchoring-and-adjustment-heuristic` | `ct:anchoring-effect` | `ct:consider-the-opposite` |
+| `ct:anchoring-and-adjustment-heuristic` | `ct:anchoring-effect` | `ct:debiasing-training-games` |
+| `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking` |
+| `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:consider-the-opposite` |
+| `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:debiasing` |
+| `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:premortem` |
 | `ct:availability-heuristic` | `ct:illusory-correlation` |  |
 | `ct:representativeness-heuristic` | `ct:illusion-of-validity` |  |
 | `ct:representativeness-heuristic` | `ct:insensitivity-to-sample-size` | `ct:statistical-reasoning-training` |
@@ -66,6 +74,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:analysis-of-competing-hypotheses` | contested | `ct:cheikes-2004-confirmation-bias-complex-analyses-study` |
 | `ct:analysis-of-competing-hypotheses` | contested | `ct:dhami-belton-mandel-2019-ach-protocol-study` |
 | `ct:analysis-of-competing-hypotheses` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
+| `ct:anchoring-and-adjustment-heuristic` | contested | `ct:roseler-2024-epley-gilovich-replication` |
+| `ct:anchoring-and-adjustment-heuristic` | contested | `ct:roseler-2025-insufficient-adjustment-test` |
 | `ct:blooms-taxonomy` | contested | `ct:newton-2020-blooms-verb-list-study` |
 | `ct:choice-architecture` | contested | `ct:maier-2022-nudging-publication-bias-reanalysis` |
 | `ct:dual-process-theory` | contested | `ct:de-neys-2023-fast-and-slow-revision` |
@@ -91,10 +101,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:self-affirmation` | contested | `ct:hanselman-2017-self-affirmation-school-replication` |
 | `ct:self-affirmation` | contested | `ct:lyons-2022-self-affirmation-political-replications` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
-| `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
-| `ct:take-the-best` | contested | `ct:newell-2005-re-visions-of-rationality` |
 
-…and 61 more.
+…and 63 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

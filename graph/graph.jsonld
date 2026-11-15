@@ -1139,6 +1139,117 @@
    ]
   },
   {
+   "@id": "ct:anchoring-and-adjustment-heuristic",
+   "@type": "cto:Heuristic",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:roseler-2024-epley-gilovich-replication"
+    },
+    {
+     "@id": "ct:roseler-2025-insufficient-adjustment-test"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:selective-accessibility-model"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:epley-gilovich-2001-self-generated-anchor-studies"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": {
+    "@id": "ct:resource-rational-analysis"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/anchoring-and-adjustment-heuristic.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:introducedIn": {
+    "@id": "ct:judgment-under-uncertainty-heuristics-and-biases"
+   },
+   "cto:level": "intermediate",
+   "cto:produces": [
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    }
+   ],
+   "cto:requires": {
+    "@id": "ct:heuristics-and-biases-program"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s7"
+    }
+   ],
+   "rdfs:label": "Anchoring-and-adjustment heuristic",
+   "skos:altLabel": [
+    "adjustment and anchoring",
+    "anchor-and-adjust strategy",
+    "insufficient adjustment model"
+   ],
+   "skos:broader": {
+    "@id": "ct:heuristic"
+   },
+   "skos:definition": "The estimation strategy of starting from an initial value that is at hand (an anchor) and adjusting it step by step toward a plausible answer, which tends to stop too early and leave the final estimate biased toward the starting point.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Anchoring-and-adjustment heuristic",
+   "skos:related": [
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:representativeness-heuristic"
+    },
+    {
+     "@id": "ct:satisficing"
+    }
+   ]
+  },
+  {
    "@id": "ct:anchoring-effect",
    "@type": "cto:CognitiveBias",
    "cto:challengedBy": {
@@ -29909,6 +30020,104 @@
    "dcterms:title": "Confirmation Bias in Complex Analyses",
    "schema:url": {
     "@id": "https://www.mitre.org/sites/default/files/pdf/04_0985.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Science 185(4157), 1124-1131 (Tversky & Kahneman, 1974), copy hosted by the University of Washington Department of Statistics",
+   "dcterms:title": "Judgment under Uncertainty: Heuristics and Biases",
+   "schema:url": {
+    "@id": "https://sites.stat.washington.edu/peter/498.Sp16/Tversky.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychological Science (Epley & Gilovich, 2001), Association for Psychological Science",
+   "dcterms:title": "Putting Adjustment Back in the Anchoring and Adjustment Heuristic: Differential Processing of Self-Generated and Experimenter-Provided Anchors",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/psychological-science/1467-9280.00372/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychological Science 17(4), 311-318 (Epley & Gilovich, 2006), Association for Psychological Science",
+   "dcterms:title": "The Anchoring-and-Adjustment Heuristic: Why the Adjustments Are Insufficient",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2006.01704.x/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 99(6), 917-932 (Simmons, LeBoeuf & Nelson, 2010), author copy at Wharton",
+   "dcterms:title": "The Effect of Accuracy Motivation on Anchoring and Adjustment: Do People Adjust from Provided Anchors?",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Simmons-et-al.-2010.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychonomic Bulletin & Review 25(1), 322-349 (Lieder, Griffiths, Huys & Goodman, 2018), Princeton University research portal",
+   "dcterms:title": "The anchoring bias reflects rational use of cognitive resources",
+   "schema:url": {
+    "@id": "https://collaborate.princeton.edu/en/publications/the-anchoring-bias-reflects-rational-use-of-cognitive-resources/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Meta-Psychology 9 (Röseler, Incerti, Rebholz, Seida & Papenmeier, 2025)",
+   "dcterms:title": "Falsifying the Insufficient Adjustment Model: No Evidence for Unidirectional Adjustment from Anchors",
+   "schema:url": {
+    "@id": "https://open.lnu.se/index.php/metapsychology/article/view/4137/4300"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/anchoring-and-adjustment-heuristic/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Journal of Comments and Replications in Economics 3, 1-42 (Röseler et al., 2024), RePEc/IDEAS record",
+   "dcterms:title": "Need for Cognition, Cognitive Load, and Forewarning do not Moderate Anchoring Effects: A Replication Study of Epley & Gilovich",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/zbw/jcreco/304381.html"
    }
   },
   {

@@ -1202,6 +1202,130 @@
   ]
  },
  {
+  "id": "ct:anchoring-and-adjustment-heuristic",
+  "title": "Anchoring-and-adjustment heuristic",
+  "aliases": [
+   "adjustment and anchoring",
+   "insufficient adjustment model",
+   "anchor-and-adjust strategy"
+  ],
+  "type": "Heuristic",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/heuristics-and-dual-process/anchoring-and-adjustment-heuristic.md",
+  "created": "2026-11-15",
+  "summary": "The estimation strategy of starting from an initial value that is at hand (an anchor) and adjusting it step by step toward a plausible answer, which tends to stop too early and leave the final estimate biased toward the starting point.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:representativeness-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:satisficing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:judgment-under-uncertainty-heuristics-and-biases",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:produces",
+    "object": "ct:anchoring-effect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:produces",
+    "object": "ct:overconfidence-effect",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:epley-gilovich-2001-self-generated-anchor-studies",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:selective-accessibility-model",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:resource-rational-analysis",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:roseler-2025-insufficient-adjustment-test",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:roseler-2024-epley-gilovich-replication",
+    "source": "s7",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://sites.stat.washington.edu/peter/498.Sp16/Tversky.pdf",
+   "https://www.psychologicalscience.org/journals/psychological-science/1467-9280.00372/",
+   "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2006.01704.x/",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Simmons-et-al.-2010.pdf",
+   "https://collaborate.princeton.edu/en/publications/the-anchoring-bias-reflects-rational-use-of-cognitive-resources/",
+   "https://open.lnu.se/index.php/metapsychology/article/view/4137/4300",
+   "https://ideas.repec.org/a/zbw/jcreco/304381.html"
+  ]
+ },
+ {
   "id": "ct:anchoring-effect",
   "title": "Anchoring effect",
   "aliases": [
