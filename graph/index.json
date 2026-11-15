@@ -12703,6 +12703,98 @@
   ]
  },
  {
+  "id": "ct:illicit-contraposition",
+  "title": "Illicit contraposition",
+  "aliases": [
+   "fallacy of illicit contraposition",
+   "invalid contraposition",
+   "contraposition of E or I"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/illicit-contraposition.md",
+  "created": "2026-11-15",
+  "summary": "The formal fallacy of taking the contrapositive of a universal negative (E) or particular affirmative (I) categorical proposition as following from it, as in inferring \"no non-P are non-S\" from \"no S are P\". Contraposition preserves truth only for A and O statements.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-conversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:obversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:topics"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:contraposition",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:illicit-conversion",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the starting statement a \"No S are P\" or a \"Some S are P\" statement? If so, does its contrapositive really follow?",
+   "What does the original statement say about things that are neither S nor P, and does the conclusion claim more than that?",
+   "Can you name something that is neither S nor P which would make the conclusion false while the premise stays true?",
+   "If only a weaker claim is needed, would the obverse or the simple converse of the statement serve instead?"
+  ],
+  "source_urls": [
+   "https://phil240.tamu.edu/LectureNotes/5.3.pdf",
+   "https://read.aupress.ca/read/24c4c0bd-f19f-4b14-8080-258a1e169ca6/section/041ee19f-22e4-4f3e-a817-cf21ee373d10",
+   "https://plato.stanford.edu/archives/sum2012/entries/square/",
+   "https://logoslibrary.org/aristotle/topics/208.html",
+   "https://fallacyfiles.org/ilcontra.html",
+   "https://mail.philosophypages.com/lg/e07b.htm"
+  ]
+ },
+ {
   "id": "ct:illicit-conversion",
   "title": "Illicit conversion",
   "aliases": [
@@ -12737,6 +12829,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-contraposition"
    },
    {
     "predicate": "skos:related",

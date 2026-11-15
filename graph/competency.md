@@ -10,6 +10,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 |---|---|
 | `ct:endowment-effect` | cto:CognitiveBias |
 | `ct:hot-hand-fallacy` | cto:ProbabilisticFallacy |
+| `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
 
@@ -138,6 +139,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:explanation` | cto:Concept |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
+| `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
@@ -150,9 +152,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:philosophy-of-language` | cto:Field |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:plain-language` | cto:Technique |
-| `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 
-…and 21 more.
+…and 22 more.
 
 ## Orphan articles (gap)
 

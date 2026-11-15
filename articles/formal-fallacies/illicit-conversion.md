@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: normative
 broader: [ct:formal-fallacy]
-related: [ct:categorical-proposition, ct:square-of-opposition, ct:existential-import, ct:contraposition, ct:illicit-minor, ct:illicit-major, ct:method-of-counterexample, ct:prior-analytics, ct:aristotle]
+related: [ct:categorical-proposition, ct:square-of-opposition, ct:existential-import, ct:contraposition, ct:illicit-contraposition, ct:illicit-minor, ct:illicit-major, ct:method-of-counterexample, ct:prior-analytics, ct:aristotle]
 requires: [ct:categorical-proposition, ct:distribution-of-terms, ct:validity]
 relations:
   - {predicate: invalidFormOf, object: ct:conversion, source: s2, confidence: high}

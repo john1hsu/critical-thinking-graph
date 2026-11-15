@@ -11817,6 +11817,98 @@
    ]
   },
   {
+   "@id": "ct:illicit-contraposition",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:illicit-conversion"
+   },
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map"
+   },
+   "cto:file": "articles/formal-fallacies/illicit-contraposition.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:contraposition"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s6"
+    }
+   ],
+   "rdfs:label": "Illicit contraposition",
+   "skos:altLabel": [
+    "contraposition of E or I",
+    "fallacy of illicit contraposition",
+    "invalid contraposition"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The formal fallacy of taking the contrapositive of a universal negative (E) or particular affirmative (I) categorical proposition as following from it, as in inferring \"no non-P are non-S\" from \"no S are P\". Contraposition preserves truth only for A and O statements.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Illicit contraposition",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:illicit-conversion"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:obversion"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:topics"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:illicit-conversion",
    "@type": "cto:FormalFallacy",
    "cto:contrastsWith": {
@@ -11899,6 +11991,9 @@
     },
     {
      "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:illicit-contraposition"
     },
     {
      "@id": "ct:illicit-major"
@@ -28948,6 +29043,102 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-contraposition"
+   },
+   "rdfs:label": "Is the starting statement a \"No S are P\" or a \"Some S are P\" statement? If so, does its contrapositive really follow?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-contraposition"
+   },
+   "rdfs:label": "What does the original statement say about things that are neither S nor P, and does the conclusion claim more than that?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-contraposition"
+   },
+   "rdfs:label": "Can you name something that is neither S nor P which would make the conclusion false while the premise stays true?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-contraposition"
+   },
+   "rdfs:label": "If only a weaker claim is needed, would the obverse or the simple converse of the statement serve instead?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:illicit-contraposition"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So no one who is off the payroll is a non-contractor; everyone off the payroll is a contractor."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The premise only separates contractors from payroll staff; it says nothing about people who are neither, such as agency temps, interns paid by a university or visiting auditors."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "One agency temp who is off the payroll and is not a contractor keeps the premise true and makes the conclusion false."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "No contractors are on the company payroll."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/c"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map/p1"
+   },
+   "aif:fulfilsScheme": {
+    "@id": "ct:contraposition"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -40167,6 +40358,90 @@
    "dcterms:title": "Ignoratio Elenchi (Irrelevant Conclusion)",
    "schema:url": {
     "@id": "https://philosophy.lander.edu/logic/ignoratio.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "PHIL 240 Introduction to Logic, Texas A&M University",
+   "dcterms:title": "Lecture notes 5.3: Conversion, obversion and contraposition",
+   "schema:url": {
+    "@id": "https://phil240.tamu.edu/LectureNotes/5.3.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Critical Thinking, Logic, and Argument, AU Press (Athabasca University)",
+   "dcterms:title": "Chapter 11: Categorical Equivalence",
+   "schema:url": {
+    "@id": "https://read.aupress.ca/read/24c4c0bd-f19f-4b14-8080-258a1e169ca6/section/041ee19f-22e4-4f3e-a817-cf21ee373d10"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Parsons, Summer 2012 archive)",
+   "dcterms:title": "The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2012/entries/square/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Aristotle, Logos Library",
+   "dcterms:title": "Topics, Book II, Chapter 8 (trans. W. A. Pickard-Cambridge)",
+   "schema:url": {
+    "@id": "https://logoslibrary.org/aristotle/topics/208.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Illicit Contraposition",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/ilcontra.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-contraposition/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Philosophy Pages (Garth Kemerling)",
+   "dcterms:title": "Immediate Inferences",
+   "schema:url": {
+    "@id": "https://mail.philosophypages.com/lg/e07b.htm"
    }
   },
   {

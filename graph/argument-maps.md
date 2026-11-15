@@ -352,6 +352,16 @@ flowchart TD
   o2["Nothing in the argument addresses migration effort, accuracy of reimbursements or staff training, which the decision turns on."] -. attacks .-> ra
 ```
 
+## Illicit contraposition (`ct:illicit-contraposition`)
+
+```mermaid
+flowchart TD
+  p1["No contractors are on the company payroll."] --> ra{{"invalid"}}
+  ra --> c["So no one who is off the payroll is a non-contractor; everyone off the payroll is a contractor."]
+  o1["The premise only separates contractors from payroll staff; it says nothing about people who are neither, such as agency temps, interns paid by a university or visiting auditors."] -. attacks .-> ra
+  o2["One agency temp who is off the payroll and is not a contractor keeps the premise true and makes the conclusion false."] -. attacks .-> ra
+```
+
 ## Illicit conversion (`ct:illicit-conversion`)
 
 ```mermaid
