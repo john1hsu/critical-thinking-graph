@@ -330,6 +330,17 @@ flowchart TD
   o3["Nobody checked the feature-request backlog or usage survey for competing priorities."] -. attacks .-> ra
 ```
 
+## Hot-hand fallacy (`ct:hot-hand-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["A recruiter has filled her last four open roles within a week each."] --> ra{{"fallacious"}}
+  p2["Her long-run record is that about half of her roles fill within a week."] --> ra{{"fallacious"}}
+  ra --> c["She is on a hot streak, so the next hard-to-fill role is very likely to close within a week if we give it to her."]
+  o1["A run of four quick fills is common for someone with a 50% rate over a year of roles; the streak alone barely moves the estimate for the next role."] -. attacks .-> ra
+  o2["If the recent roles were easier or in a hotter market, the streak reflects the cases, not a change in her skill."] -. attacks .-> ra
+```
+
 ## Ignoratio elenchi (`ct:ignoratio-elenchi`)
 
 ```mermaid

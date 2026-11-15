@@ -10,6 +10,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 |---|---|
 | `ct:anchoring-and-adjustment-heuristic` | cto:Heuristic |
 | `ct:endowment-effect` | cto:CognitiveBias |
+| `ct:hot-hand-fallacy` | cto:ProbabilisticFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
 
@@ -92,6 +93,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:groupthink` | contested | `ct:fuller-aldag-1998-organizational-tonypandy` |
 | `ct:groupthink` | contested | `ct:kramer-1998-bay-of-pigs-vietnam-reanalysis` |
 | `ct:groupthink` | contested | `ct:mullen-1994-cohesiveness-meta-analysis` |
+| `ct:hot-hand-fallacy` | contested | `ct:miller-sanjurjo-2018-streak-selection-bias-study` |
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
@@ -103,9 +105,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:recognition-heuristic` | contested | `ct:basehore-anderson-2016-recognition-tests` |
 | `ct:reversal-test` | contested | `ct:clarke-2016-reversal-test-critique` |
 | `ct:reversal-test` | contested | `ct:nebel-2015-status-quo-conservatism-about-value` |
-| `ct:self-affirmation` | contested | `ct:hanselman-2017-self-affirmation-school-replication` |
 
-…and 67 more.
+…and 68 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

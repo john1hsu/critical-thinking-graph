@@ -11393,6 +11393,96 @@
    ]
   },
   {
+   "@id": "ct:hot-hand-fallacy",
+   "@type": "cto:ProbabilisticFallacy",
+   "cto:challengedBy": {
+    "@id": "ct:miller-sanjurjo-2018-streak-selection-bias-study"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:gilovich-vallone-tversky-1985-hot-hand-study"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "contested",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:law-of-small-numbers"
+   },
+   "cto:file": "articles/probabilistic-reasoning/hot-hand-fallacy.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:thomas-gilovich"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:avugos-2013-hot-hand-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s5"
+    }
+   ],
+   "rdfs:label": "Hot-hand fallacy",
+   "skos:altLabel": [
+    "belief in streak shooting",
+    "hot hand fallacy",
+    "hot-hand belief",
+    "positive recency bias"
+   ],
+   "skos:broader": {
+    "@id": "ct:probabilistic-fallacy"
+   },
+   "skos:definition": "The belief that a person who has just succeeded several times in a row is now more likely to succeed again, read from a short streak even when the sequence of outcomes is no more streaky than chance would produce.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Hot-hand fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:correcting-erroneous-perceptions-of-randomness"
+    },
+    {
+     "@id": "ct:gamblers-fallacy"
+    },
+    {
+     "@id": "ct:law-of-small-numbers"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    },
+    {
+     "@id": "ct:selection-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:hypothesis-testing",
    "@type": "cto:Method",
    "cto:challengedBy": {
@@ -28469,6 +28559,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hot-hand-fallacy"
+   },
+   "rdfs:label": "How long is the record behind this streak, and how often would a streak this long turn up by chance in a record that size?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hot-hand-fallacy"
+   },
+   "rdfs:label": "Is there a plausible mechanism, such as confidence, warm-up or an easier stretch of cases, that could make success genuinely depend on recent success?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hot-hand-fallacy"
+   },
+   "rdfs:label": "Has the streak been compared with the person's long-run success rate, or only with my impression of it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hot-hand-fallacy"
+   },
+   "rdfs:label": "If the streak measure was computed from the same short sequence, has it been corrected for streak selection bias?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:hot-hand-fallacy"
+   },
+   "rdfs:label": "Would I still back this person if I had not seen the last few outcomes?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:hot-hand-fallacy"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "She is on a hot streak, so the next hard-to-fill role is very likely to close within a week if we give it to her."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "A run of four quick fills is common for someone with a 50% rate over a year of roles; the streak alone barely moves the estimate for the next role."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "If the recent roles were easier or in a hotter market, the streak reflects the cases, not a change in her skill."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "A recruiter has filled her last four open roles within a week each."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Her long-run record is that about half of her roles fill within a week."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -39477,6 +39678,76 @@
    "dcterms:title": "Considering Alternative Outcomes of Research: Does Knowing the Actual Outcome Create Bias?",
    "schema:url": {
     "@id": "https://escholarship.org/content/qt4w1069qh/qt4w1069qh.pdf?t=rxyb4b"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Cognitive Psychology 17(3), 295-314 (Gilovich, Vallone & Tversky, 1985), CAUSE statistics education resource record",
+   "dcterms:title": "The hot hand in basketball: On the misperception of random sequences",
+   "schema:url": {
+    "@id": "https://www.causeweb.org/cause/node/5621"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Econometrica 86(6), 2019-2047 (Miller & Sanjurjo, 2018), CORE open-access copy",
+   "dcterms:title": "Surprised by the Hot Hand Fallacy? A Truth in the Law of Small Numbers",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/168384492.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Econometrica 86(6), 2019-2047 (Miller & Sanjurjo, 2018), Econometric Society abstract page",
+   "dcterms:title": "Surprised by the Hot Hand Fallacy? A Truth in the Law of Small Numbers",
+   "schema:url": {
+    "@id": "https://econometricsociety.org/publications/econometrica/2018/11/01/surprised-hot-hand-fallacy-truth-law-small-numbers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Memory & Cognition 32(8), 1369-1378 (Ayton & Fischer, 2004), City, University of London author copy",
+   "dcterms:title": "The hot hand fallacy and the gambler's fallacy: Two faces of subjective randomness?",
+   "schema:url": {
+    "@id": "https://www.staff.city.ac.uk/~sj361/p1369.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/hot-hand-fallacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychology of Sport and Exercise 14(1), 21-27 (Avugos, Köppen, Czienskowski, Raab & Bar-Eli, 2013), Ben-Gurion University research portal",
+   "dcterms:title": "The \"hot hand\" reconsidered: A meta-analytic approach",
+   "schema:url": {
+    "@id": "https://cris.bgu.ac.il/en/publications/the-hot-hand-reconsidered-a-meta-analytic-approach/"
    }
   },
   {

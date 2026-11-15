@@ -12231,6 +12231,109 @@
   ]
  },
  {
+  "id": "ct:hot-hand-fallacy",
+  "title": "Hot-hand fallacy",
+  "aliases": [
+   "hot hand fallacy",
+   "hot-hand belief",
+   "belief in streak shooting",
+   "positive recency bias"
+  ],
+  "type": "ProbabilisticFallacy",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/probabilistic-reasoning/hot-hand-fallacy.md",
+  "created": "2026-11-15",
+  "summary": "The belief that a person who has just succeeded several times in a row is now more likely to succeed again, read from a short streak even when the sequence of outcomes is no more streaky than chance would produce.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:probabilistic-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:law-of-small-numbers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correcting-erroneous-perceptions-of-randomness"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:thomas-gilovich",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:gilovich-vallone-tversky-1985-hot-hand-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:law-of-small-numbers",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:miller-sanjurjo-2018-streak-selection-bias-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:avugos-2013-hot-hand-meta-analysis",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "How long is the record behind this streak, and how often would a streak this long turn up by chance in a record that size?",
+   "Is there a plausible mechanism, such as confidence, warm-up or an easier stretch of cases, that could make success genuinely depend on recent success?",
+   "Has the streak been compared with the person's long-run success rate, or only with my impression of it?",
+   "If the streak measure was computed from the same short sequence, has it been corrected for streak selection bias?",
+   "Would I still back this person if I had not seen the last few outcomes?"
+  ],
+  "source_urls": [
+   "https://www.causeweb.org/cause/node/5621",
+   "https://core.ac.uk/download/168384492.pdf",
+   "https://econometricsociety.org/publications/econometrica/2018/11/01/surprised-hot-hand-fallacy-truth-law-small-numbers",
+   "https://www.staff.city.ac.uk/~sj361/p1369.pdf",
+   "https://cris.bgu.ac.il/en/publications/the-hot-hand-reconsidered-a-meta-analytic-approach/"
+  ]
+ },
+ {
   "id": "ct:hypothesis-testing",
   "title": "Hypothesis testing",
   "aliases": [
