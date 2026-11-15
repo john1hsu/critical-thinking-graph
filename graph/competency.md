@@ -144,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
 | `ct:legal-reasoning` | cto:Field |
+| `ct:logical-consistency` | cto:Concept |
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modal-scope-fallacy` | cto:FormalFallacy |
 | `ct:modus-tollens` | cto:ReasoningForm |
@@ -151,9 +152,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 | `ct:philosophy-of-language` | cto:Field |
 | `ct:philosophy-of-science` | cto:Field |
-| `ct:plain-language` | cto:Technique |
 
-…and 22 more.
+…and 23 more.
 
 ## Orphan articles (gap)
 

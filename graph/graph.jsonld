@@ -14433,6 +14433,93 @@
    ]
   },
   {
+   "@id": "ct:logical-consistency",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:dialetheism"
+    },
+    {
+     "@id": "ct:truth"
+    }
+   ],
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/logical-consistency.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s6"
+    }
+   ],
+   "rdfs:label": "Logical consistency",
+   "skos:altLabel": [
+    "consistency",
+    "consistent set of statements",
+    "inconsistency",
+    "joint possibility"
+   ],
+   "skos:broader": {
+    "@id": "ct:logic"
+   },
+   "skos:definition": "The property of a set of statements that could all be true together; a set is inconsistent when no possible situation makes every member true, so at least one of them must be false.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Logical consistency",
+   "skos:related": [
+    {
+     "@id": "ct:antilogism"
+    },
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:logical-consequence"
+    },
+    {
+     "@id": "ct:principle-of-explosion"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:tu-quoque"
+    },
+    {
+     "@id": "ct:vagueness"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:logical-necessity-instructions",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -42388,6 +42475,90 @@
    "dcterms:title": "forall x: Calgary, Chapter 12: Semantic concepts",
    "schema:url": {
     "@id": "https://forallx.openlogicproject.org/html/Ch12.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Laurence R. Horn, Summer 2026 edition)",
+   "dcterms:title": "Contradiction",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2026/entries/contradiction/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Open Logic Project",
+   "dcterms:title": "forall x, Chapter 3: Other logical notions",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/html/Ch3.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Bradley H. Dowden, Humanities LibreTexts",
+   "dcterms:title": "9.1: Recognizing Inconsistency and Contradiction, in Logical Reasoning",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logical_Reasoning_(Dowden)/09%3A_Consistency_and_Inconsistency/9.01%3A_Recognizing_Inconsistency_and_Contradiction"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Joe Lau and Jonathan Chan, Department of Philosophy, University of Hong Kong",
+   "dcterms:title": "Logical relations, in Critical Thinking Web: Basic Logic",
+   "schema:url": {
+    "@id": "https://philosophy.hku.hk/think/logic/relations.php"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Graham Priest and Francesco Berto)",
+   "dcterms:title": "Dialetheism (Spring 2013 edition)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2013/entries/dialetheism"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/logical-consistency/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "University of Oxford philosophy logic tutorials (logic.philosophy.ox.ac.uk)",
+   "dcterms:title": "Tutorial One: Consistency and Validity",
+   "schema:url": {
+    "@id": "https://logic.philosophy.ox.ac.uk/tutorial1/tut1-01.htm"
    }
   },
   {

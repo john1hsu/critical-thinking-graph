@@ -15489,6 +15489,92 @@
   ]
  },
  {
+  "id": "ct:logical-consistency",
+  "title": "Logical consistency",
+  "aliases": [
+   "consistency",
+   "consistent set of statements",
+   "joint possibility",
+   "inconsistency"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/logical-consistency.md",
+  "created": "2026-11-15",
+  "summary": "The property of a set of statements that could all be true together; a set is inconsistent when no possible situation makes every member true, so at least one of them must be false.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-consequence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-explosion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:antilogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:tu-quoque"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:logic",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:truth",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:dialetheism",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/sum2026/entries/contradiction/",
+   "https://forallx.openlogicproject.org/html/Ch3.html",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logical_Reasoning_(Dowden)/09%3A_Consistency_and_Inconsistency/9.01%3A_Recognizing_Inconsistency_and_Contradiction",
+   "https://philosophy.hku.hk/think/logic/relations.php",
+   "https://plato.stanford.edu/archives/spr2013/entries/dialetheism",
+   "https://logic.philosophy.ox.ac.uk/tutorial1/tut1-01.htm"
+  ]
+ },
+ {
   "id": "ct:logical-necessity-instructions",
   "title": "Logical necessity instructions",
   "aliases": [
