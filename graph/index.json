@@ -9196,6 +9196,10 @@
     "object": "ct:sunk-cost-fallacy"
    },
    {
+    "predicate": "skos:related",
+    "object": "ct:trading-experience"
+   },
+   {
     "predicate": "cto:requires",
     "object": "ct:loss-aversion"
    },
@@ -26707,6 +26711,105 @@
    "https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full",
    "https://econjournals.sgh.waw.pl/JMFS/article/view/732",
    "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.02634/pdf"
+  ]
+ },
+ {
+  "id": "ct:trading-experience",
+  "title": "Trading experience",
+  "aliases": [
+   "market experience",
+   "exchange practice",
+   "forced-trade practice"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/trading-experience.md",
+  "created": "2026-11-15",
+  "summary": "A debiasing intervention in which people gain repeated practice at exchanging or giving up goods they hold, which in field and lab experiments shrinks the endowment effect and the gap between willingness to accept and willingness to pay.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:endowment-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:status-quo-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:broad-bracketing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reversal-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behavioral-economics"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:endowment-effect"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:endowment-effect",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-a-list",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:list-2003-sportscard-market-experiment",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:list-2011-exogenous-market-experience",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:engelmann-hollard-2010-forced-trade-experiment",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:trade-uncertainty",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:behavioral-economics",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ideas.repec.org/a/oup/qjecon/v118y2003i1p41-71..html",
+   "https://ideas.repec.org/p/nbr/nberwo/16908.html",
+   "https://econometricsociety.org/publications/econometrica/2010/11/01/reconsidering-effect-market-experience-“endowment-effect”",
+   "https://link.springer.com/article/10.1007/s40881-017-0044-z"
   ]
  },
  {

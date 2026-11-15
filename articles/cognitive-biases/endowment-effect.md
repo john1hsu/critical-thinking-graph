@@ -11,7 +11,7 @@ summary: >-
 level: introductory
 evidenceStatus: contested
 broader: [ct:cognitive-bias]
-related: [ct:loss-aversion, ct:status-quo-bias, ct:prospect-theory, ct:behavioral-economics, ct:reversal-test, ct:sunk-cost-fallacy]
+related: [ct:loss-aversion, ct:status-quo-bias, ct:prospect-theory, ct:behavioral-economics, ct:reversal-test, ct:sunk-cost-fallacy, ct:trading-experience]
 requires: [ct:loss-aversion]
 relations:
   - {predicate: introducedBy, object: ct:richard-thaler, source: s1, confidence: high}

@@ -3921,6 +3921,7 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> .
 <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> .
 <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s1> .
 <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s3> .
@@ -19021,6 +19022,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/tradecraft-primer/s5> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2018.02634/pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s1> <http://purl.org/dc/terms/publisher> "Quarterly Journal of Economics 118(1), 41-71 (List, 2003), RePEc/IDEAS record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s1> <http://purl.org/dc/terms/title> "Does Market Experience Eliminate Market Anomalies?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s1> <https://schema.org/url> <https://ideas.repec.org/a/oup/qjecon/v118y2003i1p41-71..html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s2> <http://purl.org/dc/terms/publisher> "NBER Working Paper 16908 (List, 2011); published in American Economic Review 101(3), 313-317" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s2> <http://purl.org/dc/terms/title> "Does Market Experience Eliminate Market Anomalies? The Case of Exogenous Market Experience" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s2> <https://schema.org/url> <https://ideas.repec.org/p/nbr/nberwo/16908.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s3> <http://purl.org/dc/terms/publisher> "Econometrica 78(6), 2005-2019 (Engelmann & Hollard, 2010), Econometric Society" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s3> <http://purl.org/dc/terms/title> "Reconsidering the Effect of Market Experience on the 'Endowment Effect'" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s3> <https://schema.org/url> <https://econometricsociety.org/publications/econometrica/2010/11/01/reconsidering-effect-market-experience-“endowment-effect”> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s4> <http://purl.org/dc/terms/publisher> "Journal of the Economic Science Association 3(2), 109-120 (Humphrey, Lindsay & Starmer, 2017), Springer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s4> <http://purl.org/dc/terms/title> "Consumption Experience, Choice Experience and the Endowment Effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s4> <https://schema.org/url> <https://link.springer.com/article/10.1007/s40881-017-0044-z> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> <http://purl.org/dc/terms/date> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> <http://purl.org/dc/terms/publisher> "forall x: Calgary. An Introduction to Formal Logic (P. D. Magnus, Tim Button, with Loftis, Trueman, Thomas-Bolduc and Zach; Open Logic Project, University of Calgary)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/truth-table/s1> <http://purl.org/dc/terms/title> "Characteristic truth tables (Chapter 9)" .
@@ -20270,6 +20295,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
 <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2000/01/rdf-schema#label> "Trading experience" .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#altLabel> "exchange practice" .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#altLabel> "forced-trade practice" .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#altLabel> "market experience" .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#definition> "A debiasing intervention in which people gain repeated practice at exchanging or giving up goods they hold, which in field and lab experiments shrinks the endowment effect and the gap between willingness to accept and willingness to pay." .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trading experience" .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/list-2003-sportscard-market-experiment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/trade-uncertainty> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/trading-experience.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-a-list> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/engelmann-hollard-2010-forced-trade-experiment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/list-2011-exogenous-market-experience> .
 <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://purl.org/dc/terms/created> "2026-11-06"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> <http://www.w3.org/2000/01/rdf-schema#label> "Truth table" .

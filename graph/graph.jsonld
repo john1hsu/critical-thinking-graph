@@ -8630,6 +8630,9 @@
     },
     {
      "@id": "ct:sunk-cost-fallacy"
+    },
+    {
+     "@id": "ct:trading-experience"
     }
    ]
   },
@@ -25004,6 +25007,92 @@
     },
     {
      "@id": "ct:structured-analytic-techniques"
+    }
+   ]
+  },
+  {
+   "@id": "ct:trading-experience",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:behavioral-economics"
+   },
+   "cto:counteracts": {
+    "@id": "ct:endowment-effect"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:list-2003-sportscard-market-experiment"
+   },
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:trade-uncertainty"
+   },
+   "cto:file": "articles/debiasing-and-metacognition/trading-experience.md",
+   "cto:introducedBy": {
+    "@id": "ct:john-a-list"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:endowment-effect"
+   },
+   "cto:supportedBy": [
+    {
+     "@id": "ct:engelmann-hollard-2010-forced-trade-experiment"
+    },
+    {
+     "@id": "ct:list-2011-exogenous-market-experience"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s4"
+    }
+   ],
+   "rdfs:label": "Trading experience",
+   "skos:altLabel": [
+    "exchange practice",
+    "forced-trade practice",
+    "market experience"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A debiasing intervention in which people gain repeated practice at exchanging or giving up goods they hold, which in field and lab experiments shrinks the endowment effect and the gap between willingness to accept and willingness to pay.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Trading experience",
+   "skos:related": [
+    {
+     "@id": "ct:behavioral-economics"
+    },
+    {
+     "@id": "ct:broad-bracketing"
+    },
+    {
+     "@id": "ct:endowment-effect"
+    },
+    {
+     "@id": "ct:loss-aversion"
+    },
+    {
+     "@id": "ct:reversal-test"
+    },
+    {
+     "@id": "ct:status-quo-bias"
     }
    ]
   },
@@ -51441,6 +51530,62 @@
    "dcterms:title": "Better Together: Reliable Application of the Post-9/11 and Post-Iraq US Intelligence Tradecraft Standards Requires Collective Analysis",
    "schema:url": {
     "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.02634/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Quarterly Journal of Economics 118(1), 41-71 (List, 2003), RePEc/IDEAS record",
+   "dcterms:title": "Does Market Experience Eliminate Market Anomalies?",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/oup/qjecon/v118y2003i1p41-71..html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "NBER Working Paper 16908 (List, 2011); published in American Economic Review 101(3), 313-317",
+   "dcterms:title": "Does Market Experience Eliminate Market Anomalies? The Case of Exogenous Market Experience",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/p/nbr/nberwo/16908.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Econometrica 78(6), 2005-2019 (Engelmann & Hollard, 2010), Econometric Society",
+   "dcterms:title": "Reconsidering the Effect of Market Experience on the 'Endowment Effect'",
+   "schema:url": {
+    "@id": "https://econometricsociety.org/publications/econometrica/2010/11/01/reconsidering-effect-market-experience-“endowment-effect”"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/trading-experience/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Journal of the Economic Science Association 3(2), 109-120 (Humphrey, Lindsay & Starmer, 2017), Springer",
+   "dcterms:title": "Consumption Experience, Choice Experience and the Endowment Effect",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s40881-017-0044-z"
    }
   },
   {
