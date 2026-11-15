@@ -6780,6 +6780,99 @@
    ]
   },
   {
+   "@id": "ct:definition",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:argument-from-verbal-classification"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:persuasive-definition"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/definition.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:necessary-and-sufficient-conditions"
+   },
+   "cto:studiedIn": [
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:philosophy-of-language"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s5"
+    }
+   ],
+   "rdfs:label": "Definition",
+   "skos:altLabel": [
+    "definiens and definiendum",
+    "defining a term",
+    "definitions",
+    "kinds of definition"
+   ],
+   "skos:broader": {
+    "@id": "ct:philosophy-of-language"
+   },
+   "skos:definition": "A statement that gives the meaning of a word or phrase (the definiendum) by means of other words (the definiens), either reporting how the term is already used or fixing a new or sharper sense; definitions are sorted by purpose (lexical, stipulative, precising, theoretical, persuasive) and by method (ostensive, synonym, genus and difference), and judged by rules such as matching the right extension and not being circular.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Definition",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:no-true-scotsman"
+    },
+    {
+     "@id": "ct:operational-definition"
+    },
+    {
+     "@id": "ct:persuasive-definition"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:stipulative-definition"
+    },
+    {
+     "@id": "ct:vagueness"
+    },
+    {
+     "@id": "ct:verbal-dispute"
+    }
+   ]
+  },
+  {
    "@id": "ct:deliberate-reflection",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -34339,6 +34432,76 @@
    "dcterms:title": "Inference Suppression and Working Memory Capacity: Inhibition of the Disabler Search",
    "schema:url": {
     "@id": "https://escholarship.org/content/qt1v95d3dg/qt1v95d3dg.pdf?t=op2jgy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Gupta & Mackereth, rev. 2023)",
+   "dcterms:title": "Definitions",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/definitions/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Introduction to Philosophy (Lumen Learning, El Paso), text by Garth Kemerling",
+   "dcterms:title": "Definition and Meaning",
+   "schema:url": {
+    "@id": "https://courses.lumenlearning.com/elpaso-introphilosophy/chapter/definition-and-meaning/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Christian Plantin, Dictionnaire de l'argumentation (2021), ICAR, CNRS",
+   "dcterms:title": "Definition (4): Persuasive Definition",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/definition-iv-persuasive-definition-e/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Argumentation 23(1), 81-107 (Walton & Macagno, 2009), PhilArchive record",
+   "dcterms:title": "Reasoning from Classifications and Definitions",
+   "schema:url": {
+    "@id": "https://philarchive.org/rec/WALRFC"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/definition/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "C. Byrne, St. Francis Xavier University",
+   "dcterms:title": "PHIL 251: Definitions (course handout)",
+   "schema:url": {
+    "@id": "https://people.stfx.ca/cbyrne/Byrne/PHIL251_Definitions_W2019.pdf"
    }
   },
   {

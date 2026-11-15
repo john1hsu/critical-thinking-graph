@@ -7244,6 +7244,105 @@
   ]
  },
  {
+  "id": "ct:definition",
+  "title": "Definition",
+  "aliases": [
+   "definitions",
+   "defining a term",
+   "definiens and definiendum",
+   "kinds of definition"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/definition.md",
+  "created": "2026-11-15",
+  "summary": "A statement that gives the meaning of a word or phrase (the definiendum) by means of other words (the definiens), either reporting how the term is already used or fixing a new or sharper sense; definitions are sorted by purpose (lexical, stipulative, precising, theoretical, persuasive) and by method (ostensive, synonym, genus and difference), and judged by rules such as matching the right extension and not being circular.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy-of-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:operational-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stipulative-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:persuasive-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:no-true-scotsman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:verbal-dispute"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-language",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:argument-from-verbal-classification",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:persuasive-definition",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/definitions/",
+   "https://courses.lumenlearning.com/elpaso-introphilosophy/chapter/definition-and-meaning/",
+   "https://icar.cnrs.fr/dicoplantin/definition-iv-persuasive-definition-e/",
+   "https://philarchive.org/rec/WALRFC",
+   "https://people.stfx.ca/cbyrne/Byrne/PHIL251_Definitions_W2019.pdf"
+  ]
+ },
+ {
   "id": "ct:deliberate-reflection",
   "title": "Deliberate reflection",
   "aliases": [
