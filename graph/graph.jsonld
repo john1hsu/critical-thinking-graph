@@ -16424,6 +16424,92 @@
    ]
   },
   {
+   "@id": "ct:paul-elder-critical-thinking-framework",
+   "@type": "cto:Framework",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:engineering-education"
+    }
+   ],
+   "cto:counteracts": {
+    "@id": "ct:myside-bias"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/paul-elder-critical-thinking-framework.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:linda-elder"
+    },
+    {
+     "@id": "ct:richard-paul"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s6"
+    }
+   ],
+   "rdfs:label": "Paul–Elder critical thinking framework",
+   "skos:altLabel": [
+    "Paul-Elder framework",
+    "Paul-Elder model",
+    "Paul–Elder model of critical thinking",
+    "elements of thought and intellectual standards"
+   ],
+   "skos:broader": {
+    "@id": "ct:critical-thinking"
+   },
+   "skos:definition": "A model of critical thinking developed by Richard Paul and Linda Elder in which thinkers improve their reasoning by applying universal intellectual standards (clarity, accuracy, precision, relevance, depth, breadth, logic, significance, fairness) to eight elements of thought, and so cultivate intellectual traits such as humility, empathy and fair-mindedness.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Paul–Elder critical thinking framework",
+   "skos:related": [
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:delphi-report-on-critical-thinking"
+    },
+    {
+     "@id": "ct:metacognition"
+    },
+    {
+     "@id": "ct:socratic-method"
+    },
+    {
+     "@id": "ct:thinking-dispositions"
+    }
+   ]
+  },
+  {
    "@id": "ct:periodic-health-examination-report",
    "@type": "cto:Work",
    "cto:challengedBy": {
@@ -43250,6 +43336,90 @@
    "dcterms:title": "A simple remedy for overprecision in judgment",
    "schema:url": {
     "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Foundation for Critical Thinking (Paul & Elder, 2006); copy hosted by York University",
+   "dcterms:title": "The Miniature Guide to Critical Thinking Concepts and Tools (4th ed.)",
+   "schema:url": {
+    "@id": "https://yorku.ca/laps/sosc/wp-content/uploads/sites/216/2020/12/CriticalThinkingConcepts_Tools.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Inquiry: Critical Thinking Across the Disciplines 31(1) (Elder, 2016); copy hosted by the Foundation for Critical Thinking",
+   "dcterms:title": "Richard Paul's Contributions to the Field of Critical Thinking Studies and to the Establishment of First Principles in Critical Thinking",
+   "schema:url": {
+    "@id": "https://community.criticalthinking.org/content/library_for_students/52/Elder_Paul__sContributionstotheFieldofCriticalThinkingStudies.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "University of Louisville",
+   "dcterms:title": "Paul-Elder Critical Thinking Framework",
+   "schema:url": {
+    "@id": "https://student.louisville.edu/paul-elder-critical-thinking-framework"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "American Journal of Engineering Education 4(2) (Ralston & Bays, 2013); copy hosted by CORE",
+   "dcterms:title": "Enhancing Critical Thinking Across the Undergraduate Experience: An Exemplar From Engineering",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/268108216.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "American Journal of Engineering Education 6(2), 85-98 (Ralston & Bays, 2015)",
+   "dcterms:title": "Critical Thinking Development in Undergraduate Engineering Students from Freshman Through Senior Year: A 3-Cohort Longitudinal Study",
+   "schema:url": {
+    "@id": "https://clutejournals.com/index.php/AJEE/article/view/9504"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Informal Logic Newsletter (Paul, Sonoma State University); copy hosted by Distant Reader",
+   "dcterms:title": "Teaching Critical Thinking in the 'Strong' Sense: A Focus on Self-Deception, World Views, and a Dialectical Mode of Analysis",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2766.pdf"
    }
   },
   {

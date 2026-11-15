@@ -17599,6 +17599,92 @@
   ]
  },
  {
+  "id": "ct:paul-elder-critical-thinking-framework",
+  "title": "Paul–Elder critical thinking framework",
+  "aliases": [
+   "Paul-Elder framework",
+   "Paul-Elder model",
+   "Paul–Elder model of critical thinking",
+   "elements of thought and intellectual standards"
+  ],
+  "type": "Framework",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/paul-elder-critical-thinking-framework.md",
+  "created": "2026-11-15",
+  "summary": "A model of critical thinking developed by Richard Paul and Linda Elder in which thinkers improve their reasoning by applying universal intellectual standards (clarity, accuracy, precision, relevance, depth, breadth, logic, significance, fairness) to eight elements of thought, and so cultivate intellectual traits such as humility, empathy and fair-mindedness.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:socratic-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-report-on-critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:thinking-dispositions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-education"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:richard-paul",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:linda-elder",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:critical-thinking-education",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:engineering-education",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:myside-bias",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://yorku.ca/laps/sosc/wp-content/uploads/sites/216/2020/12/CriticalThinkingConcepts_Tools.pdf",
+   "https://community.criticalthinking.org/content/library_for_students/52/Elder_Paul__sContributionstotheFieldofCriticalThinkingStudies.pdf",
+   "https://student.louisville.edu/paul-elder-critical-thinking-framework",
+   "https://core.ac.uk/download/268108216.pdf",
+   "https://clutejournals.com/index.php/AJEE/article/view/9504",
+   "https://distantreader.org/stacks/journals/il/il-2766.pdf"
+  ]
+ },
+ {
   "id": "ct:periodic-health-examination-report",
   "title": "The Periodic Health Examination (1979 report)",
   "aliases": [
