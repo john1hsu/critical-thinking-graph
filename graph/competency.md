@@ -135,6 +135,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:epidemiology` | cto:Field |
 | `ct:existential-import` | cto:Concept |
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
+| `ct:explanation` | cto:Concept |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:illicit-conversion` | cto:FormalFallacy |
@@ -150,9 +151,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:plain-language` | cto:Technique |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
-| `ct:precising-definition` | cto:Technique |
 
-…and 19 more.
+…and 20 more.
 
 ## Orphan articles (gap)
 

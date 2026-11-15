@@ -10161,6 +10161,77 @@
   ]
  },
  {
+  "id": "ct:explanation",
+  "title": "Explanation",
+  "aliases": [
+   "explanations versus arguments",
+   "explanandum and explanans",
+   "explanatory account"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/explanation.md",
+  "created": "2026-11-15",
+  "summary": "A set of statements that accounts for why or how something already accepted as true is the case; it shares the \"because\" shape of an argument but aims at understanding a fact rather than at establishing that the fact holds.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inference-to-the-best-explanation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:causal-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inductive-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:argument",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:deductive-nomological-model",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ecampusontario.pressbooks.pub/wsia062018/chapter/8/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Introduction_to_Logic_and_Critical_Thinking_2e_(van_Cleave)/01%3A_Reconstructing_and_Analyzing_Arguments/1.03%3A_Arguments_vs._Explanations",
+   "https://plato.stanford.edu/ENTRIES/scientific-explanation-20th/",
+   "https://plato.stanford.edu/ENTRIES/abduction/"
+  ]
+ },
+ {
   "id": "ct:fallacy-of-four-terms",
   "title": "Fallacy of four terms",
   "aliases": [

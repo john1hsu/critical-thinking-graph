@@ -4398,6 +4398,33 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/christiaan-huygens> .
 <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2000/01/rdf-schema#label> "Explanation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#altLabel> "explanandum and explanans" .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#altLabel> "explanations versus arguments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#altLabel> "explanatory account" .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#definition> "A set of statements that accounts for why or how something already accepted as true is the case; it shares the \"because\" shape of an argument but aims at understanding a fact rather than at establishing that the fact holds." .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Explanation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/foundations/explanation.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-nomological-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does each key word or phrase mean exactly the same thing in both places it appears?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
@@ -13094,6 +13121,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/expected-value/s5> <https://schema.org/url> <https://www.kellogg.northwestern.edu/faculty/weber/DECS-430/Notes_3_Random_variables.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s1> <http://purl.org/dc/terms/publisher> "Trudy Govier, Windsor Studies in Argumentation (updated edition, 2018; CC BY-NC 4.0)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s1> <http://purl.org/dc/terms/title> "Reasons Why Arguments and Explanations are Different, in Problems in Argument Analysis and Evaluation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s1> <https://schema.org/url> <https://ecampusontario.pressbooks.pub/wsia062018/chapter/8/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s2> <http://purl.org/dc/terms/publisher> "Matthew Van Cleave, Lansing Community College, Humanities LibreTexts (CC BY 4.0)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s2> <http://purl.org/dc/terms/title> "1.3: Arguments vs. Explanations, in Introduction to Logic and Critical Thinking 2e" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s2> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Introduction_to_Logic_and_Critical_Thinking_2e_(van_Cleave)/01%3A_Reconstructing_and_Analyzing_Arguments/1.03%3A_Arguments_vs._Explanations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s3> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Lauren Ross, 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s3> <http://purl.org/dc/terms/title> "20th Century Theories of Scientific Explanation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s3> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/scientific-explanation-20th/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Igor Douven, rev. 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> <http://purl.org/dc/terms/title> "Abduction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/abduction/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://purl.org/dc/terms/publisher> "The Fallacy Files (Gary N. Curtis)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://purl.org/dc/terms/title> "The Four Term Fallacy" .
