@@ -17848,6 +17848,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://schema.org/url> <https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> <http://purl.org/dc/terms/publisher> "Founders Online, U.S. National Archives (The Papers of Benjamin Franklin, vol. 19)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> <http://purl.org/dc/terms/title> "Benjamin Franklin to Joseph Priestley, 19 September 1772" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> <https://schema.org/url> <https://founders.archives.gov/documents/Franklin/01-19-02-0200> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s2> <http://purl.org/dc/terms/publisher> "Payne, Bettman & Johnson, Technical Report 86-1, Office of Naval Research (1986), via DTIC" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s2> <http://purl.org/dc/terms/title> "Adaptive Strategy Selection in Decision Making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s2> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/ADA170858.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s3> <http://purl.org/dc/terms/publisher> "Hogarth & Karelaia, Universitat Pompeu Fabra working paper 974 (2006); published as Heuristic and linear models of judgment - Matching rules and environments, Psychological Review 114(3), 2007" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s3> <http://purl.org/dc/terms/title> "On heuristic and linear models of judgment: Mapping the demand for knowledge" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s3> <https://schema.org/url> <https://econ-papers.upf.edu/papers/974.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4> <http://purl.org/dc/terms/publisher> "American Psychologist 34(7), 571-582 (Dawes, 1979), Carnegie Mellon University copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4> <http://purl.org/dc/terms/title> "The robust beauty of improper linear models in decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4> <https://schema.org/url> <https://www.cmu.edu/dietrich/sds/docs/dawes/the-robust-beauty-of-improper-linear-models-in-decision-making.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5> <http://purl.org/dc/terms/publisher> "Gigerenzer, Martignon, Hoffrage, Rieskamp, Czerlinski & Goldstein, Handbook of Experimental Economics Results vol. 1, ch. 108 (Elsevier, 2008), Max Planck repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5> <http://purl.org/dc/terms/title> "One-reason decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5> <https://schema.org/url> <https://pure.mpg.de/pubman/item/item_2100203_3/component/file_2100202/GG_One_2008.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6> <http://purl.org/dc/terms/publisher> "Judgment and Decision Making 13(6), 514-528 (Betsch, Lehmann, Jekel, Lindow & Glöckner, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6> <http://purl.org/dc/terms/title> "Children's application of decision strategies in a compensatory environment" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6> <https://schema.org/url> <https://dlab.sauder.ubc.ca/sjdm/journal/18/18225/jdm18225.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> <http://purl.org/dc/terms/publisher> "American Psychologist 63(4), 270-271 (Jost & Banaji, 2008), doi:10.1037/0003-066X.63.4.270, copy hosted by Harvard University" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/william-j-mcguire/s1> <http://purl.org/dc/terms/title> "William James McGuire (1925-2007)" .
@@ -19038,6 +19074,43 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2000/01/rdf-schema#label> "Weighted additive rule" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "Franklin's rule" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "WADD" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "moral algebra" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "prudential algebra" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "weighted additive strategy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/decision-strategy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#definition> "A compensatory way of choosing among options: rate every option on every relevant attribute, multiply each rating by how much that attribute matters, add the products and pick the option with the highest total, so that strengths on some attributes can make up for weaknesses on others." .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#prefLabel> "Weighted additive rule" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overfitting> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/one-reason-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/elimination-by-aspects> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/weighted-additive-rule.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/benjamin-franklin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/the-robust-beauty-of-improper-linear-models> .
 <https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> <http://www.w3.org/2000/01/rdf-schema#label> "William J. McGuire" .

@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:take-the-best` | cto:Heuristic |
+_No results._
 
 ## Most useful remedies
 
@@ -47,7 +45,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 
-…and 28 more.
+…and 29 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -96,7 +94,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:take-the-best` | contested | `ct:newell-2005-re-visions-of-rationality` |
 
-…and 60 more.
+…and 61 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

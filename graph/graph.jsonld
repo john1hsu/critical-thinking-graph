@@ -23924,6 +23924,103 @@
    ]
   },
   {
+   "@id": "ct:weighted-additive-rule",
+   "@type": "cto:Technique",
+   "cto:challengedBy": {
+    "@id": "ct:one-reason-decision-making"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:elimination-by-aspects"
+   },
+   "cto:counteracts": {
+    "@id": "ct:take-the-best"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/weighted-additive-rule.md",
+   "cto:introducedBy": {
+    "@id": "ct:benjamin-franklin"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:the-robust-beauty-of-improper-linear-models"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6"
+    }
+   ],
+   "rdfs:label": "Weighted additive rule",
+   "skos:altLabel": [
+    "Franklin's rule",
+    "WADD",
+    "moral algebra",
+    "prudential algebra",
+    "weighted additive strategy"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:decision-analysis"
+    },
+    {
+     "@id": "ct:decision-strategy"
+    }
+   ],
+   "skos:definition": "A compensatory way of choosing among options: rate every option on every relevant attribute, multiply each rating by how much that attribute matters, add the products and pick the option with the highest total, so that strengths on some attributes can make up for weaknesses on others.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Weighted additive rule",
+   "skos:related": [
+    {
+     "@id": "ct:bounded-rationality"
+    },
+    {
+     "@id": "ct:ecological-rationality"
+    },
+    {
+     "@id": "ct:expected-utility-theory"
+    },
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:overfitting"
+    },
+    {
+     "@id": "ct:take-the-best"
+    },
+    {
+     "@id": "ct:value-focused-thinking"
+    }
+   ]
+  },
+  {
    "@id": "ct:william-j-mcguire",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -48041,6 +48138,90 @@
    "dcterms:title": "How Diagrams Can Support Syllogistic Reasoning: An Experimental Study",
    "schema:url": {
     "@id": "https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Founders Online, U.S. National Archives (The Papers of Benjamin Franklin, vol. 19)",
+   "dcterms:title": "Benjamin Franklin to Joseph Priestley, 19 September 1772",
+   "schema:url": {
+    "@id": "https://founders.archives.gov/documents/Franklin/01-19-02-0200"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Payne, Bettman & Johnson, Technical Report 86-1, Office of Naval Research (1986), via DTIC",
+   "dcterms:title": "Adaptive Strategy Selection in Decision Making",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA170858.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Hogarth & Karelaia, Universitat Pompeu Fabra working paper 974 (2006); published as Heuristic and linear models of judgment - Matching rules and environments, Psychological Review 114(3), 2007",
+   "dcterms:title": "On heuristic and linear models of judgment: Mapping the demand for knowledge",
+   "schema:url": {
+    "@id": "https://econ-papers.upf.edu/papers/974.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "American Psychologist 34(7), 571-582 (Dawes, 1979), Carnegie Mellon University copy",
+   "dcterms:title": "The robust beauty of improper linear models in decision making",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/dietrich/sds/docs/dawes/the-robust-beauty-of-improper-linear-models-in-decision-making.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Gigerenzer, Martignon, Hoffrage, Rieskamp, Czerlinski & Goldstein, Handbook of Experimental Economics Results vol. 1, ch. 108 (Elsevier, 2008), Max Planck repository",
+   "dcterms:title": "One-reason decision making",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2100203_3/component/file_2100202/GG_One_2008.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 13(6), 514-528 (Betsch, Lehmann, Jekel, Lindow & Glöckner, 2018)",
+   "dcterms:title": "Children's application of decision strategies in a compensatory environment",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/18/18225/jdm18225.html"
    }
   },
   {

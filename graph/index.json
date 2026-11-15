@@ -25496,6 +25496,111 @@
   ]
  },
  {
+  "id": "ct:weighted-additive-rule",
+  "title": "Weighted additive rule",
+  "aliases": [
+   "WADD",
+   "weighted additive strategy",
+   "Franklin's rule",
+   "moral algebra",
+   "prudential algebra"
+  ],
+  "type": "Technique",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/weighted-additive-rule.md",
+  "created": "2026-11-15",
+  "summary": "A compensatory way of choosing among options: rate every option on every relevant attribute, multiply each rating by how much that attribute matters, add the products and pick the option with the highest total, so that strengths on some attributes can make up for weaknesses on others.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:decision-analysis"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:decision-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:take-the-best"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ecological-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:expected-utility-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:value-focused-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overfitting"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:take-the-best",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:benjamin-franklin",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:elimination-by-aspects",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:the-robust-beauty-of-improper-linear-models",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:one-reason-decision-making",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://founders.archives.gov/documents/Franklin/01-19-02-0200",
+   "https://apps.dtic.mil/sti/pdfs/ADA170858.pdf",
+   "https://econ-papers.upf.edu/papers/974.pdf",
+   "https://www.cmu.edu/dietrich/sds/docs/dawes/the-robust-beauty-of-improper-linear-models-in-decision-making.pdf",
+   "https://pure.mpg.de/pubman/item/item_2100203_3/component/file_2100202/GG_One_2008.pdf",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/18/18225/jdm18225.html"
+  ]
+ },
+ {
   "id": "ct:william-j-mcguire",
   "title": "William J. McGuire",
   "aliases": [
