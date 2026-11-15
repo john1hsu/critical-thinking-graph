@@ -14691,6 +14691,9 @@
    "cto:domain": "cognitive-biases",
    "cto:evidenceStatus": "mixed",
    "cto:file": "articles/cognitive-biases/motivated-reasoning.md",
+   "cto:introducedBy": {
+    "@id": "ct:ziva-kunda"
+   },
    "cto:level": "intermediate",
    "cto:requires": {
     "@id": "ct:cognitive-bias"
@@ -14701,6 +14704,10 @@
    "dcterms:created": {
     "@type": "xsd:date",
     "@value": "2026-11-13"
+   },
+   "dcterms:modified": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
    },
    "prov:wasDerivedFrom": [
     {
@@ -24413,6 +24420,82 @@
     },
     {
      "@id": "ct:sorites-paradox"
+    }
+   ]
+  },
+  {
+   "@id": "ct:ziva-kunda",
+   "@type": "cto:Person",
+   "cto:challengedBy": {
+    "@id": "ct:patterson-operskalski-barbey-2015-motivated-explanation-review"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/ziva-kunda.md",
+   "cto:level": "introductory",
+   "cto:studiedIn": [
+    {
+     "@id": "ct:cognitive-science"
+    },
+    {
+     "@id": "ct:social-psychology"
+    }
+   ],
+   "cto:supportedBy": {
+    "@id": "ct:dunning-leuenberger-sherman-1995-motivated-inference-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s6"
+    }
+   ],
+   "rdfs:label": "Ziva Kunda",
+   "skos:altLabel": "Z. Kunda",
+   "skos:definition": "Social psychologist (died 2004), at Princeton and later the University of Waterloo, whose 1987 work on \"motivated inference\" and 1990 Psychological Bulletin review \"The case for motivated reasoning\" founded the modern cognitive account of how wanting a conclusion biases reasoning.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Ziva Kunda",
+   "skos:related": [
+    {
+     "@id": "ct:biased-assimilation"
+    },
+    {
+     "@id": "ct:cognitive-dissonance"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:kunda-1987-caffeine-study"
+    },
+    {
+     "@id": "ct:motivated-reasoning"
+    },
+    {
+     "@id": "ct:myside-bias"
+    },
+    {
+     "@id": "ct:social-psychology"
     }
    ]
   },
@@ -48712,6 +48795,90 @@
    "dcterms:title": "Zeno of Elea",
    "schema:url": {
     "@id": "https://britannica.com/print/article/656531"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychological Bulletin 108(3), 480-498 (Kunda, 1990), copy hosted by UNC Chapel Hill",
+   "dcterms:title": "The case for motivated reasoning",
+   "schema:url": {
+    "@id": "https://fbaum.unc.edu/teaching/articles/Psych-Bulletin-1990-Kunda.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 69(1), 58-68 (Dunning, Leuenberger & Sherman, 1995), copy hosted by UC Santa Barbara",
+   "dcterms:title": "A new look at motivated inference: Are self-serving theories of success a product of motivational forces?",
+   "schema:url": {
+    "@id": "https://labs.psych.ucsb.edu/sherman/david/sites/labs.psych.ucsb.edu.sherman.david/files/pubs/dunning_leuenberger_sherman_1995.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Frontiers in Human Neuroscience 9, 559 (Patterson, Operskalski & Barbey, 2015)",
+   "dcterms:title": "Motivated explanation",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2015.00559/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Chapter in Read & Miller (eds.), Connectionist Models of Social Reasoning and Social Behavior, Erlbaum (Thagard & Kunda, in press 1997), Cogprints archive at the University of Southampton",
+   "dcterms:title": "Making sense of people: Coherence mechanisms",
+   "schema:url": {
+    "@id": "https://web-archive.southampton.ac.uk/cogprints.org/669/1/Making_Sense.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "University of Waterloo, Department of Psychology",
+   "dcterms:title": "Ziva Kunda Memorial Lecture",
+   "schema:url": {
+    "@id": "https://uwaterloo.ca/psychology/node/590/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ziva-kunda/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychology Today, Hot Thought blog (Thagard, 2022)",
+   "dcterms:title": "Motivated reasoning: A brief history",
+   "schema:url": {
+    "@id": "https://www.psychologytoday.com:443/gb/blog/hot-thought/202205/motivated-reasoning-brief-history"
    }
   },
   {

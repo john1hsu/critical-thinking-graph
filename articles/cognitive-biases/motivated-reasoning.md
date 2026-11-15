@@ -15,6 +15,7 @@ related: [ct:confirmation-bias, ct:biased-assimilation, ct:myside-bias, ct:belie
 requires: [ct:cognitive-bias]
 relations:
   - {predicate: demonstratedBy, object: ct:kunda-1987-caffeine-study, source: s1, confidence: high}
+  - {predicate: introducedBy, object: ct:ziva-kunda, source: s1, confidence: high}
   - {predicate: supportedBy, object: ct:ditto-2019-partisan-bias-meta-analysis, source: s2, confidence: high}
   - {predicate: challengedBy, object: ct:tappin-pennycook-rand-2020-causal-inference-critique, source: s3, confidence: high}
   - {predicate: challengedBy, object: ct:tappin-pennycook-rand-2020-bayesian-updating-study, source: s4, confidence: medium}
@@ -45,6 +46,7 @@ sources:
     type: peer-reviewed
     accessed: 2026-11-13
 created: 2026-11-13
+modified: 2026-11-15
 ---
 
 # Motivated reasoning

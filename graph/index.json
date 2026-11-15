@@ -15751,6 +15751,12 @@
     "confidence": "high"
    },
    {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ziva-kunda",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
     "predicate": "cto:supportedBy",
     "object": "ct:ditto-2019-partisan-bias-meta-analysis",
     "source": "s2",
@@ -26020,6 +26026,83 @@
    "https://plato.stanford.edu/ENTRIES/paradox-zeno/",
    "https://iep.utm.edu/?p=33599",
    "https://britannica.com/print/article/656531"
+  ]
+ },
+ {
+  "id": "ct:ziva-kunda",
+  "title": "Ziva Kunda",
+  "aliases": [
+   "Z. Kunda"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/ziva-kunda.md",
+  "created": "2026-11-15",
+  "summary": "Social psychologist (died 2004), at Princeton and later the University of Waterloo, whose 1987 work on \"motivated inference\" and 1990 Psychological Bulletin review \"The case for motivated reasoning\" founded the modern cognitive account of how wanting a conclusion biases reasoning.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:motivated-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:kunda-1987-caffeine-study"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:social-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:biased-assimilation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:myside-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-dissonance"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-science",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:dunning-leuenberger-sherman-1995-motivated-inference-study",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:patterson-operskalski-barbey-2015-motivated-explanation-review",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://fbaum.unc.edu/teaching/articles/Psych-Bulletin-1990-Kunda.pdf",
+   "https://labs.psych.ucsb.edu/sherman/david/sites/labs.psych.ucsb.edu.sherman.david/files/pubs/dunning_leuenberger_sherman_1995.pdf",
+   "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2015.00559/pdf",
+   "https://web-archive.southampton.ac.uk/cogprints.org/669/1/Making_Sense.html",
+   "https://uwaterloo.ca/psychology/node/590/",
+   "https://www.psychologytoday.com:443/gb/blog/hot-thought/202205/motivated-reasoning-brief-history"
   ]
  }
 ]

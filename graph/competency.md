@@ -131,15 +131,15 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modal-scope-fallacy` | cto:FormalFallacy |
 | `ct:modus-tollens` | cto:ReasoningForm |
-| `ct:motivated-reasoning` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 | `ct:philosophy-of-language` | cto:Field |
 | `ct:philosophy-of-science` | cto:Field |
 | `ct:plain-language` | cto:Technique |
 | `ct:post-hoc-ergo-propter-hoc` | cto:InformalFallacy |
 | `ct:precising-definition` | cto:Technique |
+| `ct:preregistration` | cto:Technique |
 
-…and 18 more.
+…and 17 more.
 
 ## Orphan articles (gap)
 
