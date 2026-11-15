@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:ad-verecundiam` | cto:InformalFallacy |
 | `ct:anchoring-and-adjustment-heuristic` | cto:Heuristic |
 | `ct:myside-bias` | cto:CognitiveBias |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
@@ -50,7 +49,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 | `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 
-…and 29 more.
+…and 30 more.
 
 ## Heuristic -> bias -> remedy chains
 

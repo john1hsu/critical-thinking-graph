@@ -8877,6 +8877,91 @@
    ]
   },
   {
+   "@id": "ct:evaluating-expert-testimony",
+   "@type": "cto:Technique",
+   "cto:challengedBy": {
+    "@id": "ct:levy-2024-no-trespassing"
+   },
+   "cto:counteracts": {
+    "@id": "ct:ad-verecundiam"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/evidence-and-information-literacy/evaluating-expert-testimony.md",
+   "cto:influencedBy": {
+    "@id": "ct:john-hardwig"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:alvin-goldman"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:experts-which-ones-should-you-trust"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument-from-expert-opinion"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s5"
+    }
+   ],
+   "rdfs:label": "Evaluating expert testimony",
+   "skos:altLabel": [
+    "Goldman's five sources of evidence",
+    "choosing between disagreeing experts",
+    "judging which expert to trust",
+    "lay assessment of expert testimony"
+   ],
+   "skos:broader": {
+    "@id": "ct:source-evaluation"
+   },
+   "skos:definition": "A technique by which a non-expert decides how far to trust an expert, or which of two disagreeing experts to believe, by weighing indirect evidence they can check: the quality of each side's arguments, agreement among independent experts, credentials and peer appraisal, interests and biases, and track record.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Evaluating expert testimony",
+   "skos:related": [
+    {
+     "@id": "ct:ad-verecundiam"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:conflict-of-interest"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:prebunking"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:testimony"
+    }
+   ]
+  },
+  {
    "@id": "ct:evidence-based-medicine",
    "@type": "cto:Framework",
    "cto:amplifiedBy": {
@@ -36903,6 +36988,76 @@
    "dcterms:title": "Leonhard Euler's letters to a German Princess",
    "schema:url": {
     "@id": "https://mathshistory.st-andrews.ac.uk/Extras/Euler_letters"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Philosophy and Phenomenological Research 63(1), 85-110 (Alvin I. Goldman, 2001), CORE copy",
+   "dcterms:title": "Experts: Which Ones Should You Trust?",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/207789751.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "The Journal of Philosophy 82(7), 335-349 (John Hardwig, 1985)",
+   "dcterms:title": "Epistemic Dependence",
+   "schema:url": {
+    "@id": "https://letr.org.uk/references/storage/HTB884MF/Hardwig%20-%201985%20-%20Epistemic%20Dependence.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Erkenntnis (Neil Levy, 2024), Springer",
+   "dcterms:title": "No Trespassing! Abandoning the Novice/Expert Problem",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s10670-024-00794-8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Episteme 8(2), 144-164 (Elizabeth Anderson, 2011), Cambridge University Press abstract page",
+   "dcterms:title": "Democracy, Public Policy, and Lay Assessments of Scientific Testimony",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/product/C96369F581A9091635E522D4ED671DBE"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/evaluating-expert-testimony/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "PLOS ONE 12(5): e0175799 (Cook, Lewandowsky & Ecker, 2017), PubMed Central",
+   "dcterms:title": "Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5419564"
    }
   },
   {

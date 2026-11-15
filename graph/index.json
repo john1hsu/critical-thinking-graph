@@ -9499,6 +9499,99 @@
   ]
  },
  {
+  "id": "ct:evaluating-expert-testimony",
+  "title": "Evaluating expert testimony",
+  "aliases": [
+   "Goldman's five sources of evidence",
+   "choosing between disagreeing experts",
+   "lay assessment of expert testimony",
+   "judging which expert to trust"
+  ],
+  "type": "Technique",
+  "domain": "evidence-and-information-literacy",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/evidence-and-information-literacy/evaluating-expert-testimony.md",
+  "created": "2026-11-15",
+  "summary": "A technique by which a non-expert decides how far to trust an expert, or which of two disagreeing experts to believe, by weighing indirect evidence they can check: the quality of each side's arguments, agreement among independent experts, credentials and peer appraisal, interests and biases, and track record.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-verecundiam"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conflict-of-interest"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:testimony"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:alvin-goldman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:experts-which-ones-should-you-trust",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:ad-verecundiam",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:john-hardwig",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:levy-2024-no-trespassing",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://core.ac.uk/download/207789751.pdf",
+   "https://letr.org.uk/references/storage/HTB884MF/Hardwig%20-%201985%20-%20Epistemic%20Dependence.pdf",
+   "https://link.springer.com/article/10.1007/s10670-024-00794-8",
+   "https://www.cambridge.org/core/product/C96369F581A9091635E522D4ED671DBE",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5419564"
+  ]
+ },
+ {
   "id": "ct:evidence-based-medicine",
   "title": "Evidence-based medicine",
   "aliases": [
