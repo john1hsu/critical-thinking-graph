@@ -104,7 +104,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:self-affirmation` | contested | `ct:lyons-2022-self-affirmation-political-replications` |
 | `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 
-…and 64 more.
+…and 65 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

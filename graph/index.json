@@ -15193,6 +15193,89 @@
   ]
  },
  {
+  "id": "ct:media-literacy",
+  "title": "Media literacy",
+  "aliases": [
+   "media literacy education",
+   "critical media literacy"
+  ],
+  "type": "Concept",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/media-literacy.md",
+  "created": "2026-11-15",
+  "summary": "The ability to access, analyse, evaluate, create and act on messages in all forms of media, including asking who made a message, for what purpose, with what techniques and for which audience, rather than taking it at face value.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:information-literacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-education"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:aspen-media-literacy-conference-report",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:communication-studies",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:media-literacy-education",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:jeong-2012-media-literacy-interventions-meta-analysis",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:huang-2024-media-literacy-misinformation-meta-analysis",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://aura.american.edu/articles/report/Media_literacy_A_report_of_the_National_Leadership_Conference_on_Media_Literacy/23844537",
+   "https://Mediaeducationlab.com/sites/default/files/Seven_Great_Debates_0.pdf",
+   "https://pure.korea.ac.kr/en/publications/media-literacy-interventions-a-meta-analytic-review/",
+   "https://research.polyu.edu.hk/en/publications/media-literacy-interventions-improve-resilience-to-misinformation/",
+   "https://www.projectlooksharp.org/Resources%202/NAMLE-Principles-Final-2023.pdf"
+  ]
+ },
+ {
   "id": "ct:metacognition",
   "title": "Metacognition",
   "aliases": [

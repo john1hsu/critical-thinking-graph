@@ -6514,6 +6514,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2000/01/rdf-schema#label> "Media literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#altLabel> "critical media literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#altLabel> "media literacy education" .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#definition> "The ability to access, analyse, evaluate, create and act on messages in all forms of media, including asking who made a message, for what purpose, with what techniques and for which audience, rather than taking it at face value." .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Media literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/huang-2024-media-literacy-misinformation-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jeong-2012-media-literacy-interventions-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/media-literacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/aspen-media-literacy-conference-report> .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/communication-studies> .
 <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2000/01/rdf-schema#label> "Metacognition" .
@@ -14605,6 +14634,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/masked-man-fallacy/s5> <https://schema.org/url> <https://plato.stanford.edu/entries/insolubles/notes.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s1> <http://purl.org/dc/terms/publisher> "The Aspen Institute (Aufderheide; conference held 1992, report commonly cited as 1993), record in American University Research Archive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s1> <http://purl.org/dc/terms/title> "Media Literacy: A Report of the National Leadership Conference on Media Literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s1> <https://schema.org/url> <https://aura.american.edu/articles/report/Media_literacy_A_report_of_the_National_Leadership_Conference_on_Media_Literacy/23844537> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s2> <http://purl.org/dc/terms/publisher> "Journal of Communication 48(1) (Hobbs, 1998), author's copy at Media Education Lab" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s2> <http://purl.org/dc/terms/title> "The Seven Great Debates in the Media Literacy Movement" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s2> <https://schema.org/url> <https://Mediaeducationlab.com/sites/default/files/Seven_Great_Debates_0.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s3> <http://purl.org/dc/terms/publisher> "Journal of Communication 62(3), 454-472 (Jeong, Cho & Hwang, 2012), Korea University research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s3> <http://purl.org/dc/terms/title> "Media Literacy Interventions: A Meta-Analytic Review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s3> <https://schema.org/url> <https://pure.korea.ac.kr/en/publications/media-literacy-interventions-a-meta-analytic-review/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s4> <http://purl.org/dc/terms/publisher> "Communication Research 53(7), 899-926 (Huang, Jia & Yu, 2024), Hong Kong Polytechnic University research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s4> <http://purl.org/dc/terms/title> "Media Literacy Interventions Improve Resilience to Misinformation: A Meta-Analytic Investigation of Overall Effect and Moderating Factors" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s4> <https://schema.org/url> <https://research.polyu.edu.hk/en/publications/media-literacy-interventions-improve-resilience-to-misinformation/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s5> <http://purl.org/dc/terms/publisher> "National Association for Media Literacy Education (NAMLE), copy hosted by Project Look Sharp" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s5> <http://purl.org/dc/terms/title> "Core Principles of Media Literacy Education" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/media-literacy/s5> <https://schema.org/url> <https://www.projectlooksharp.org/Resources%202/NAMLE-Principles-Final-2023.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> <http://purl.org/dc/terms/publisher> "American Psychologist 34(10), 906-911 (Flavell, 1979), copy on a University of Georgia course page" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/metacognition/s1> <http://purl.org/dc/terms/title> "Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry" .
