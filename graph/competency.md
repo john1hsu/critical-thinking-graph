@@ -95,6 +95,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 | `ct:loss-aversion` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
+| `ct:mental-model-theory` | contested | `ct:the-psychology-of-proof` |
 | `ct:null-hypothesis-significance-testing` | contested | `ct:amrhein-2019-retire-statistical-significance` |
 | `ct:prospect-theory` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
 | `ct:recognition-heuristic` | contested | `ct:basehore-anderson-2016-recognition-tests` |
@@ -102,9 +103,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:reversal-test` | contested | `ct:nebel-2015-status-quo-conservatism-about-value` |
 | `ct:self-affirmation` | contested | `ct:hanselman-2017-self-affirmation-school-replication` |
 | `ct:self-affirmation` | contested | `ct:lyons-2022-self-affirmation-political-replications` |
-| `ct:structured-analytic-techniques` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 
-…and 65 more.
+…and 66 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

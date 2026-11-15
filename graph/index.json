@@ -15440,6 +15440,104 @@
   ]
  },
  {
+  "id": "ct:mental-model-theory",
+  "title": "Mental model theory",
+  "aliases": [
+   "mental models theory of reasoning",
+   "model theory of reasoning",
+   "theory of mental models"
+  ],
+  "type": "Framework",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/heuristics-and-dual-process/mental-model-theory.md",
+  "created": "2026-11-15",
+  "summary": "Philip Johnson-Laird's theory that people reason not by applying formal rules of inference but by imagining the possibilities consistent with the premises, reading conclusions off those mental models and searching for counterexamples; it predicts that problems needing more models are harder and that representing only what is true produces systematic errors.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:psychology-of-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-a-disjunct"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:peter-wason"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:philip-johnson-laird",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:mental-models-johnson-laird-1983",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:charles-sanders-peirce",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:johnson-laird-savary-1999-illusory-inferences",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:the-psychology-of-proof",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.modeltheory.org/papers/2010mms&human-reasoning.pdf",
+   "https://modeltheory.org/papers/1999illusory.pdf",
+   "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf",
+   "https://cep.ucsb.edu/wp-content/uploads/2023/05/Logical.pdf",
+   "https://www.modeltheory.org/?p=30"
+  ]
+ },
+ {
   "id": "ct:metacognition",
   "title": "Metacognition",
   "aliases": [

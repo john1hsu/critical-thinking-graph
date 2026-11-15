@@ -1309,6 +1309,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/heuristics-and-dual-process/mental-model-theory.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/heuristics-and-dual-process/psychology-of-reasoning.md" .
@@ -14052,6 +14060,72 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/heuristics-and-biases-program/s6> <https://schema.org/url> <https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/lecture/?related=1> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Mental model theory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "mental models theory of reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "model theory of reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "theory of mental models" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#definition> "Philip Johnson-Laird's theory that people reason not by applying formal rules of inference but by imagining the possibilities consistent with the premises, reading conclusions off those mental models and searching for counterexamples; it predicts that problems needing more models are harder and that representing only what is true produces systematic errors." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mental model theory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/the-psychology-of-proof> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/johnson-laird-savary-1999-illusory-inferences> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "heuristics-and-dual-process" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "contested" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/heuristics-and-dual-process/mental-model-theory.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/charles-sanders-peirce> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/philip-johnson-laird> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/mental-models-johnson-laird-1983> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1> <http://purl.org/dc/terms/publisher> "Proceedings of the National Academy of Sciences 107 (Johnson-Laird, 2010), author's copy on the Mental Models Global Laboratory site" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1> <http://purl.org/dc/terms/title> "Mental models and human reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1> <https://schema.org/url> <https://www.modeltheory.org/papers/2010mms&human-reasoning.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2> <http://purl.org/dc/terms/publisher> "Cognition 71(3), 191-229 (Johnson-Laird & Savary, 1999), author's copy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2> <http://purl.org/dc/terms/title> "Illusory inferences: A novel class of erroneous deductions" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2> <https://schema.org/url> <https://modeltheory.org/papers/1999illusory.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3> <http://purl.org/dc/terms/publisher> "Psychological Bulletin 138(3), 427-457 (Khemlani & Johnson-Laird, 2012), author's copy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3> <http://purl.org/dc/terms/title> "Theories of the syllogism: A meta-analysis" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3> <https://schema.org/url> <https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4> <http://purl.org/dc/terms/publisher> "Contemporary Psychology 41(5), 448-449 (Cosmides & Tooby, 1996), UCSB Center for Evolutionary Psychology" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4> <http://purl.org/dc/terms/title> "A logical design for the mind? (review of Rips, The Psychology of Proof)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4> <https://schema.org/url> <https://cep.ucsb.edu/wp-content/uploads/2023/05/Logical.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5> <http://purl.org/dc/terms/publisher> "The Mental Models Global Laboratory (research group of Johnson-Laird, Khemlani and colleagues)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5> <http://purl.org/dc/terms/title> "What are mental models?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5> <https://schema.org/url> <https://www.modeltheory.org/?p=30> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
@@ -23275,6 +23349,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/de-morgans-laws> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> .
@@ -23629,6 +23704,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
@@ -23964,6 +24040,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/minna-cheves-wilkins> .
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
@@ -24283,6 +24360,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/charles-sanders-peirce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/charles-sanders-peirce> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/antilogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/charles-sanders-peirce> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/charles-sanders-peirce> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/charles-sanders-peirce> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/charles-sanders-peirce> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/charles-sanders-peirce> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
@@ -24508,6 +24586,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
@@ -24986,6 +25065,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/minna-cheves-wilkins> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/organon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
@@ -25002,6 +25082,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/peter-geach> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> .
@@ -25205,6 +25286,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
@@ -26417,6 +26499,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/john-woods> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/johnson-laird-savary-1999-illusory-inferences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/johnson-laird-savary-1999-illusory-inferences> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/johnson-laird-savary-1999-illusory-inferences> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/joint-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-baron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-baron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -26836,11 +26921,20 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-models-johnson-laird-1983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-models-johnson-laird-1983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mental-models-johnson-laird-1983> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mertens-2022-nudging-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
   <https://github.com/john1hsu/critical-thinking-graph/id/meta-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/iain-chalmers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/meta-analysis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
@@ -26884,6 +26978,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> .
@@ -27288,6 +27383,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
@@ -27299,6 +27395,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/petty-cacioppo-goldman-1981-involvement-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/petty-cacioppo-goldman-1981-involvement-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/petty-cacioppo-schumann-1983-advertising-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philip-johnson-laird> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philip-johnson-laird> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/philip-johnson-laird> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/phillips-2017-fftrees-benchmark> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
@@ -27755,6 +27854,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -27789,6 +27890,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
@@ -28756,6 +28858,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/minna-cheves-wilkins> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
@@ -28840,6 +28943,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/the-psychology-of-proof> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-robust-beauty-of-improper-linear-models> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-theory-of-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/the-theory-of-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .

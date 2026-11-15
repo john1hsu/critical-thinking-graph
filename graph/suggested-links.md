@@ -7,14 +7,14 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 6.57 | `ct:argument` | `ct:aristotle` | `ct:amphiboly`, `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:aristotles-rhetoric`, `ct:begging-the-question` |
 | 6.41 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:deductive-reasoning`, `ct:denying-the-antecedent` |
 | 5.06 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy` |
-| 4.71 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises` |
+| 4.70 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises` |
 | 4.63 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:attribute-substitution`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology` |
 | 4.48 | `ct:categorical-proposition` | `ct:validity` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:carroll-diagram`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 4.15 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
 | 4.10 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-from-ignorance`, `ct:argumentation-schemes`, `ct:charles-hamblin` |
 | 4.09 | `ct:categorical-proposition` | `ct:method-of-counterexample` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises` |
 | 4.05 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
-| 4.01 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
+| 4.00 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
 | 3.96 | `ct:disjunctive-syllogism` | `ct:liar-paradox` | `ct:chrysippus`, `ct:paraconsistent-logic`, `ct:principle-of-explosion`, `ct:propositional-logic`, `ct:stoic-logic` |
 | 3.92 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory` |
 | 3.82 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major` |
@@ -25,7 +25,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.62 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
 | 3.58 | `ct:informal-fallacy` | `ct:presumption` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-evaluation`, `ct:argument-from-expert-opinion`, `ct:argument-from-ignorance` |
 | 3.57 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
-| 3.44 | `ct:categorical-syllogism` | `ct:formal-fallacy` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
+| 3.43 | `ct:categorical-syllogism` | `ct:formal-fallacy` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
 | 3.42 | `ct:formal-fallacy` | `ct:rules-of-the-categorical-syllogism` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms`, `ct:illicit-major` |
 | 3.26 | `ct:ad-hominem` | `ct:burden-of-proof` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-from-expert-opinion`, `ct:argument-from-ignorance`, `ct:argumentation-schemes` |
 | 3.26 | `ct:argument-from-expert-opinion` | `ct:argumentation-theory` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-from-consequences`, `ct:argumentation-schemes`, `ct:burden-of-proof` |

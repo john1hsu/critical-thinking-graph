@@ -14404,6 +14404,93 @@
    ]
   },
   {
+   "@id": "ct:mental-model-theory",
+   "@type": "cto:Framework",
+   "cto:challengedBy": {
+    "@id": "ct:the-psychology-of-proof"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:johnson-laird-savary-1999-illusory-inferences"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/heuristics-and-dual-process/mental-model-theory.md",
+   "cto:influencedBy": {
+    "@id": "ct:charles-sanders-peirce"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:philip-johnson-laird"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:mental-models-johnson-laird-1983"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:deductive-reasoning"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5"
+    }
+   ],
+   "rdfs:label": "Mental model theory",
+   "skos:altLabel": [
+    "mental models theory of reasoning",
+    "model theory of reasoning",
+    "theory of mental models"
+   ],
+   "skos:broader": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "skos:definition": "Philip Johnson-Laird's theory that people reason not by applying formal rules of inference but by imagining the possibilities consistent with the premises, reading conclusions off those mental models and searching for counterexamples; it predicts that problems needing more models are harder and that representing only what is true produces systematic errors.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Mental model theory",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-a-disjunct"
+    },
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:deductive-reasoning"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:peter-wason"
+    },
+    {
+     "@id": "ct:syllogism"
+    }
+   ]
+  },
+  {
    "@id": "ct:metacognition",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -41342,6 +41429,76 @@
    "dcterms:title": "Core Principles of Media Literacy Education",
    "schema:url": {
     "@id": "https://www.projectlooksharp.org/Resources%202/NAMLE-Principles-Final-2023.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Proceedings of the National Academy of Sciences 107 (Johnson-Laird, 2010), author's copy on the Mental Models Global Laboratory site",
+   "dcterms:title": "Mental models and human reasoning",
+   "schema:url": {
+    "@id": "https://www.modeltheory.org/papers/2010mms&human-reasoning.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Cognition 71(3), 191-229 (Johnson-Laird & Savary, 1999), author's copy",
+   "dcterms:title": "Illusory inferences: A novel class of erroneous deductions",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/1999illusory.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Psychological Bulletin 138(3), 427-457 (Khemlani & Johnson-Laird, 2012), author's copy",
+   "dcterms:title": "Theories of the syllogism: A meta-analysis",
+   "schema:url": {
+    "@id": "https://modeltheory.org/papers/ssk/ssk2012syllogisms-meta-analysis.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Contemporary Psychology 41(5), 448-449 (Cosmides & Tooby, 1996), UCSB Center for Evolutionary Psychology",
+   "dcterms:title": "A logical design for the mind? (review of Rips, The Psychology of Proof)",
+   "schema:url": {
+    "@id": "https://cep.ucsb.edu/wp-content/uploads/2023/05/Logical.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mental-model-theory/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "The Mental Models Global Laboratory (research group of Johnson-Laird, Khemlani and colleagues)",
+   "dcterms:title": "What are mental models?",
+   "schema:url": {
+    "@id": "https://www.modeltheory.org/?p=30"
    }
   },
   {
