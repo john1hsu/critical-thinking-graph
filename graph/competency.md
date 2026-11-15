@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:ad-verecundiam` | cto:InformalFallacy |
 | `ct:anchoring-and-adjustment-heuristic` | cto:Heuristic |
 
 ## Most useful remedies
@@ -163,5 +164,5 @@ _For each argumentation scheme, how many critical questions does it carry and wh
 |---|---|---|
 | `ct:argument-from-analogy` | 5 | `ct:faulty-analogy` |
 | `ct:argument-from-consequences` | 5 |  |
-| `ct:argument-from-expert-opinion` | 6 |  |
+| `ct:argument-from-expert-opinion` | 6 | `ct:ad-verecundiam` |
 

@@ -362,6 +362,111 @@
   ]
  },
  {
+  "id": "ct:ad-verecundiam",
+  "title": "Ad verecundiam",
+  "aliases": [
+   "appeal to authority",
+   "argumentum ad verecundiam",
+   "appeal to false authority",
+   "fallacious appeal to authority",
+   "appeal to unqualified authority",
+   "argument from authority"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/ad-verecundiam.md",
+  "created": "2026-11-15",
+  "summary": "The fallacy of treating an authority's say-so as settling a claim when the appeal does not warrant it: the source is not a relevant expert, the claim falls outside their field, experts disagree, or the authority's standing is used to discourage the critical questions a fair appeal must survive.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presumption"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:port-royal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:charles-hamblin"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "cto:misusesScheme",
+    "object": "ct:argument-from-expert-opinion",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-locke",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:richard-whately",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:epistemic-and-deontic-authority",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the person cited actually an expert, judged by training and track record, or only famous, senior or confident?",
+   "Does the claim fall inside the authority's field, or have they stepped outside it?",
+   "Do other qualified experts agree, or has one side of a live dispute been quoted as if it were the consensus?",
+   "Is the authority being cited for what they know, or for their power to give orders, and is that kind of authority what the claim needs?",
+   "Could the authority's statement be backed with evidence if someone asked, and is anyone being discouraged from asking?",
+   "Does the authority have a stake in the claim, such as payment, rank or reputation, that should lower our trust?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://rozenbergquarterly.com/issa-proceedings-2014-two-kinds-of-arguments-from-authority-in-the-ad-verecundiam-fallacy/?print=pdf",
+   "https://distantreader.org/stacks/journals/il/il-456.pdf",
+   "https://link.springer.com/article/10.1023/A:1007756117287"
+  ]
+ },
+ {
   "id": "ct:affect-heuristic",
   "title": "Affect heuristic",
   "aliases": [

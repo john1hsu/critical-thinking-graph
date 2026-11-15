@@ -13,6 +13,17 @@ flowchart TD
   o2["The comparison's numbers can be verified independently of who compiled them."] -. attacks .-> ra
 ```
 
+## Ad verecundiam (`ct:ad-verecundiam`)
+
+```mermaid
+flowchart TD
+  p1["Our chief financial officer is a highly respected executive who has run finance at three companies."] --> ra{{"fallacious"}}
+  p2["In the all-hands meeting she said the new office chairs will prevent back injuries."] --> ra{{"fallacious"}}
+  ra --> c["So the chairs will prevent back injuries, and there is no need for the ergonomics review the safety team asked for."]
+  o1["Her expertise is in finance; whether a chair prevents injury is a question for ergonomists and occupational-health evidence."] -. attacks .-> ra
+  o2["Her seniority gives her authority to approve budgets, not to settle a factual safety question or cancel a review."] -. attacks .-> ra
+```
+
 ## Affirmative conclusion from a negative premise (`ct:affirmative-conclusion-from-a-negative-premise`)
 
 ```mermaid

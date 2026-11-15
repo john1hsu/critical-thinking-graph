@@ -350,6 +350,98 @@
    ]
   },
   {
+   "@id": "ct:ad-verecundiam",
+   "@type": "cto:InformalFallacy",
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:epistemic-and-deontic-authority"
+   },
+   "cto:file": "articles/informal-fallacies/ad-verecundiam.md",
+   "cto:influencedBy": {
+    "@id": "ct:richard-whately"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:john-locke"
+   },
+   "cto:level": "introductory",
+   "cto:misusesScheme": {
+    "@id": "ct:argument-from-expert-opinion"
+   },
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-verecundiam/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-verecundiam/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-verecundiam/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-verecundiam/s4"
+    }
+   ],
+   "rdfs:label": "Ad verecundiam",
+   "skos:altLabel": [
+    "appeal to authority",
+    "appeal to false authority",
+    "appeal to unqualified authority",
+    "argument from authority",
+    "argumentum ad verecundiam",
+    "fallacious appeal to authority"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of treating an authority's say-so as settling a claim when the appeal does not warrant it: the source is not a relevant expert, the claim falls outside their field, experts disagree, or the authority's standing is used to discourage the critical questions a fair appeal must survive.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Ad verecundiam",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:port-royal-logic"
+    },
+    {
+     "@id": "ct:presumption"
+    },
+    {
+     "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
    "@id": "ct:affect-heuristic",
    "@type": "cto:Heuristic",
    "cto:demonstratedBy": {
@@ -24722,6 +24814,128 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-verecundiam"
+   },
+   "rdfs:label": "Is the person cited actually an expert, judged by training and track record, or only famous, senior or confident?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-verecundiam"
+   },
+   "rdfs:label": "Does the claim fall inside the authority's field, or have they stepped outside it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-verecundiam"
+   },
+   "rdfs:label": "Do other qualified experts agree, or has one side of a live dispute been quoted as if it were the consensus?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-verecundiam"
+   },
+   "rdfs:label": "Is the authority being cited for what they know, or for their power to give orders, and is that kind of authority what the claim needs?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-verecundiam"
+   },
+   "rdfs:label": "Could the authority's statement be backed with evidence if someone asked, and is anyone being discouraged from asking?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/6",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-verecundiam"
+   },
+   "rdfs:label": "Does the authority have a stake in the claim, such as payment, rank or reputation, that should lower our trust?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:ad-verecundiam"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the chairs will prevent back injuries, and there is no need for the ergonomics review the safety team asked for."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Her expertise is in finance; whether a chair prevents injury is a question for ergonomists and occupational-health evidence."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Her seniority gives her authority to approve budgets, not to settle a factual safety question or cancel a review."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Our chief financial officer is a highly respected executive who has run finance at three companies."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "In the all-hands meeting she said the new office chairs will prevent back injuries."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:argument-from-expert-opinion"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -29334,6 +29548,62 @@
    "dcterms:title": "Why there is no argumentum ad hominem fallacy",
    "schema:url": {
     "@id": "https://humanities.mcmaster.ca/%7Ehitchckd/adhominemissa.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-verecundiam/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hans Hansen, first published 2015; substantive revision 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-verecundiam/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2014 (Douglas Walton & Marcin Koszowy), Rozenberg Quarterly reprint",
+   "dcterms:title": "Two Kinds of Arguments from Authority in the Ad Verecundiam Fallacy",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-two-kinds-of-arguments-from-authority-in-the-ad-verecundiam-fallacy/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-verecundiam/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Informal Logic 26(3), 319-340 (Hans V. Hansen, 2006)",
+   "dcterms:title": "Whately on Arguments Involving Authority",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-456.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-verecundiam/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-15"
+   },
+   "dcterms:publisher": "Argumentation 12(2), 267-280 (Jean Goodwin, 1998), Springer abstract page",
+   "dcterms:title": "Forms of Authority and the Real Ad Verecundiam",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1023/A:1007756117287"
    }
   },
   {
