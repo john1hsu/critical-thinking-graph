@@ -9047,6 +9047,106 @@
   ]
  },
  {
+  "id": "ct:endowment-effect",
+  "title": "Endowment effect",
+  "aliases": [
+   "WTA-WTP gap",
+   "willingness-to-accept/willingness-to-pay disparity",
+   "ownership effect"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/cognitive-biases/endowment-effect.md",
+  "created": "2026-11-15",
+  "summary": "The tendency to value a good more highly simply because one owns it, seen when owners demand more to give it up than non-owners would pay to acquire the same good.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:status-quo-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behavioral-economics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reversal-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sunk-cost-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:loss-aversion"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:richard-thaler",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:kahneman-knetsch-thaler-1990-mug-experiments",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:loss-aversion",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:plott-zeiler-2005-wta-wtp-experiments",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:isoni-loomes-sugden-2011-wta-wtp-comment",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:tuncel-hammitt-2014-wtp-wta-meta-analysis",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:behavioral-economics",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_et_al_1990_Experimental_tests.pdf",
+   "https://econpapers.repec.org/RePEc:aea:aecrev:v:95:y:2005:i:3:p:530-545",
+   "https://econpapers.repec.org/RePEc:aea:aecrev:v:101:y:2011:i:2:p:991-1011",
+   "https://econpapers.repec.org/RePEc:eee:jeeman:v:68:y:2014:i:1:p:175-187",
+   "https://www.nber.org/papers/w19384"
+  ]
+ },
+ {
   "id": "ct:enthymeme",
   "title": "Enthymeme",
   "aliases": [

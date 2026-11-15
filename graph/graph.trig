@@ -184,6 +184,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/cognitive-biases/endowment-effect.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/cognitive-biases/framing-effect.md" .
@@ -4040,6 +4048,72 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/confirmation-bias/s5> <https://schema.org/url> <https://isps.yale.edu/research/publications/isps18-025> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2000/01/rdf-schema#label> "Endowment effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "WTA-WTP gap" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "ownership effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "willingness-to-accept/willingness-to-pay disparity" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#definition> "The tendency to value a good more highly simply because one owns it, seen when owners demand more to give it up than non-owners would pay to acquire the same good." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Endowment effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plott-zeiler-2005-wta-wtp-experiments> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-knetsch-thaler-1990-mug-experiments> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "contested" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/endowment-effect.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richard-thaler> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/isoni-loomes-sugden-2011-wta-wtp-comment> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/tuncel-hammitt-2014-wtp-wta-meta-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s1> <http://purl.org/dc/terms/publisher> "Journal of Political Economy 98(6), 1325-1348 (Kahneman, Knetsch & Thaler, 1990), MIT course reading copy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s1> <http://purl.org/dc/terms/title> "Experimental Tests of the Endowment Effect and the Coase Theorem" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s1> <https://schema.org/url> <https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_et_al_1990_Experimental_tests.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s2> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s2> <http://purl.org/dc/terms/publisher> "American Economic Review 95(3), 530-545 (Plott & Zeiler, 2005), RePEc/EconPapers record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s2> <http://purl.org/dc/terms/title> "The Willingness to Pay-Willingness to Accept Gap, the 'Endowment Effect,' Subject Misconceptions, and Experimental Procedures for Eliciting Valuations" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s2> <https://schema.org/url> <https://econpapers.repec.org/RePEc:aea:aecrev:v:95:y:2005:i:3:p:530-545> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s3> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s3> <http://purl.org/dc/terms/publisher> "American Economic Review 101(2), 991-1011 (Isoni, Loomes & Sugden, 2011), RePEc/EconPapers record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s3> <http://purl.org/dc/terms/title> "The Willingness to Pay-Willingness to Accept Gap, the 'Endowment Effect,' Subject Misconceptions, and Experimental Procedures for Eliciting Valuations: Comment" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s3> <https://schema.org/url> <https://econpapers.repec.org/RePEc:aea:aecrev:v:101:y:2011:i:2:p:991-1011> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s4> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s4> <http://purl.org/dc/terms/publisher> "Journal of Environmental Economics and Management 68(1), 175-187 (Tunçel & Hammitt, 2014), RePEc/EconPapers record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s4> <http://purl.org/dc/terms/title> "A New Meta-Analysis on the WTP/WTA Disparity" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s4> <https://schema.org/url> <https://econpapers.repec.org/RePEc:eee:jeeman:v:68:y:2014:i:1:p:175-187> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s5> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s5> <http://purl.org/dc/terms/publisher> "Annual Review of Economics 6, 555-579 (Ericson & Fuster, 2014), NBER Working Paper 19384 version" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s5> <http://purl.org/dc/terms/title> "The Endowment Effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/endowment-effect/s5> <https://schema.org/url> <https://www.nber.org/papers/w19384> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect#graph> {
@@ -24214,6 +24288,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/economics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cost-benefit-reasoning-training> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richard-thaler> .
@@ -24698,6 +24773,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
@@ -24714,6 +24790,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
@@ -24768,6 +24845,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
@@ -25559,11 +25637,13 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/emily-pronin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/emily-pronin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/emily-pronin> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversal-test> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richard-thaler> .
   <https://github.com/john1hsu/critical-thinking-graph/id/endoxa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotles-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/endoxa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/endoxa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
@@ -26645,6 +26725,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/isaac-watts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/isaac-watts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/isaac-watts> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/isoni-loomes-sugden-2011-wta-wtp-comment> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/j-anthony-blair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/j-anthony-blair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/j-anthony-blair> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
@@ -26749,6 +26830,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
@@ -26815,6 +26897,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/theaetetus> .
   <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/gettier-problem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-knetsch-thaler-1990-mug-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-knetsch-thaler-1990-mug-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-knetsch-thaler-1990-mug-experiments> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-tversky-1972-hospital-problem-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-tversky-1972-hospital-problem-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-tversky-1972-hospital-problem-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> .
@@ -27037,9 +27122,11 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/status-quo-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/love-ahiaga-dagbui-2018-cost-overrun-critique> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lucie-olbrechts-tyteca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lucie-olbrechts-tyteca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
@@ -27743,6 +27830,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/plato> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/plato> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/plato> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/plott-zeiler-2005-wta-wtp-experiments> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pohl-2011-recognition-heuristic-debate-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/recognition-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pohl-2011-recognition-heuristic-debate-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/political-philosophy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -28060,6 +28148,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
@@ -28107,6 +28196,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
@@ -29033,6 +29123,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> .
@@ -29312,6 +29403,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/tuncel-hammitt-2014-wtp-wta-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/endowment-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/turner-2008-antidepressant-selective-publication-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/turner-2008-antidepressant-selective-publication-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/turner-2008-antidepressant-selective-publication-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .

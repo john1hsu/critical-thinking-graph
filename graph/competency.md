@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:anchoring-and-adjustment-heuristic` | cto:Heuristic |
+| `ct:endowment-effect` | cto:CognitiveBias |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
 
@@ -84,6 +85,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:dual-process-theory` | contested | `ct:gerd-gigerenzer` |
 | `ct:dual-process-theory` | contested | `ct:keren-schul-2009-two-system-critique` |
 | `ct:ecological-rationality` | contested | `ct:hilbig-richter-2011-homo-heuristicus-outnumbered` |
+| `ct:endowment-effect` | contested | `ct:plott-zeiler-2005-wta-wtp-experiments` |
 | `ct:expected-utility-theory` | contested | `ct:allais-paradox` |
 | `ct:expected-utility-theory` | contested | `ct:prospect-theory` |
 | `ct:fast-and-frugal-heuristics` | contested | `ct:pohl-2011-recognition-heuristic-debate-review` |
@@ -102,9 +104,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:reversal-test` | contested | `ct:clarke-2016-reversal-test-critique` |
 | `ct:reversal-test` | contested | `ct:nebel-2015-status-quo-conservatism-about-value` |
 | `ct:self-affirmation` | contested | `ct:hanselman-2017-self-affirmation-school-replication` |
-| `ct:self-affirmation` | contested | `ct:lyons-2022-self-affirmation-political-replications` |
 
-…and 66 more.
+…and 67 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
