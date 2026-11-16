@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:unwarranted-contrast` | cto:FormalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -47,7 +45,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:rule-against-conventionalist-stratagems` | 2 | No true Scotsman, pseudoscience |
 | `ct:rules-of-immediate-inference` | 2 | Illicit contraposition, Illicit conversion |
 
-…and 40 more.
+…and 41 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -78,6 +76,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:anchoring-and-adjustment-heuristic` | contested | `ct:roseler-2025-insufficient-adjustment-test` |
 | `ct:argumentative-theory-of-reasoning` | contested | `ct:dogramaci-2020-function-of-reasoning` |
 | `ct:blooms-taxonomy` | contested | `ct:newton-2020-blooms-verb-list-study` |
+| `ct:cancellability-test` | contested | `ct:weiner-are-all-conversational-implicatures-cancellable` |
 | `ct:choice-architecture` | contested | `ct:maier-2022-nudging-publication-bias-reanalysis` |
 | `ct:conductive-argument` | contested | `ct:possin-2016-conductive-arguments-critique` |
 | `ct:dialectical-bootstrapping` | contested | `ct:gomilsek-2024-fermian-guesstimation-study` |
@@ -100,9 +99,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 | `ct:loss-aversion` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
 | `ct:mental-model-theory` | contested | `ct:the-psychology-of-proof` |
-| `ct:null-hypothesis-significance-testing` | contested | `ct:amrhein-2019-retire-statistical-significance` |
 
-…and 79 more.
+…and 80 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

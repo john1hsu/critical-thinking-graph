@@ -4065,6 +4065,82 @@
    ]
   },
   {
+   "@id": "ct:cancellability-test",
+   "@type": "cto:Technique",
+   "cto:challengedBy": {
+    "@id": "ct:weiner-are-all-conversational-implicatures-cancellable"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:logical-consequence"
+   },
+   "cto:detects": {
+    "@id": "ct:unwarranted-contrast"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/philosophy-of-reasoning/cancellability-test.md",
+   "cto:introducedBy": {
+    "@id": "ct:paul-grice"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:logical-consequence"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:pragmatics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cancellability-test/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cancellability-test/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cancellability-test/s3"
+    }
+   ],
+   "rdfs:label": "Cancellability test",
+   "skos:altLabel": [
+    "Gricean cancellability test",
+    "cancelability test",
+    "cancellation test",
+    "test of explicit cancellation"
+   ],
+   "skos:broader": {
+    "@id": "ct:conversational-implicature"
+   },
+   "skos:definition": "A diagnostic, from Paul Grice, for telling what a remark merely suggests from what it logically commits the speaker to: if the suggested content can be explicitly denied (\"some passed; indeed, all did\") or would be absent in some context, without contradiction, it is a conversational implicature, not an entailment.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Cancellability test",
+   "skos:related": [
+    {
+     "@id": "ct:logical-consequence"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:philosophy-of-language"
+    },
+    {
+     "@id": "ct:pragmatics"
+    },
+    {
+     "@id": "ct:unwarranted-contrast"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:carroll-diagram",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -36277,6 +36353,48 @@
    "dcterms:title": "Brier score",
    "schema:url": {
     "@id": "https://glossary.ametsoc.org/wiki/brier-score/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cancellability-test/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Wayne Davis)",
+   "dcterms:title": "Implicature (Summer 2014 edition)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2014/entries/implicature"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cancellability-test/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Michael Blome-Tillmann, author's copy on PhilArchive",
+   "dcterms:title": "Conversational implicature and the cancellability test (Analysis 68(2), 156–160, 2008)",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/BLOCIA-3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/cancellability-test/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Grzegorz Walczak, open-access copy via CORE",
+   "dcterms:title": "On explicatures, cancellability and cancellation (SpringerPlus 5:1115, 2016)",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/205910382.pdf"
    }
   },
   {

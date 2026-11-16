@@ -4362,6 +4362,93 @@
   ]
  },
  {
+  "id": "ct:cancellability-test",
+  "title": "Cancellability test",
+  "aliases": [
+   "cancelability test",
+   "cancellation test",
+   "Gricean cancellability test",
+   "test of explicit cancellation"
+  ],
+  "type": "Technique",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/philosophy-of-reasoning/cancellability-test.md",
+  "created": "2026-11-16",
+  "summary": "A diagnostic, from Paul Grice, for telling what a remark merely suggests from what it logically commits the speaker to: if the suggested content can be explicitly denied (\"some passed; indeed, all did\") or would be absent in some context, without contradiction, it is a conversational implicature, not an entailment.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:conversational-implicature"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:unwarranted-contrast"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragmatics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-consequence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:logical-consequence"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:unwarranted-contrast",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:paul-grice",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:pragmatics",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:weiner-are-all-conversational-implicatures-cancellable",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:logical-consequence",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/sum2014/entries/implicature",
+   "https://philarchive.org/archive/BLOCIA-3",
+   "https://core.ac.uk/download/205910382.pdf"
+  ]
+ },
+ {
   "id": "ct:carroll-diagram",
   "title": "Carroll diagram",
   "aliases": [
