@@ -9546,6 +9546,100 @@
   ]
  },
  {
+  "id": "ct:dunning-kruger-effect",
+  "title": "Dunning-Kruger effect",
+  "aliases": [
+   "Dunning–Kruger effect",
+   "unskilled and unaware effect",
+   "dual burden of incompetence"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "contested",
+  "file": "articles/cognitive-biases/dunning-kruger-effect.md",
+  "created": "2026-11-16",
+  "summary": "The finding that people who perform worst in a domain tend to overestimate their performance and relative standing the most, attributed by its discoverers to a \"dual burden\": the skills needed to do well are the same skills needed to recognise one's own errors.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:justin-kruger",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:david-dunning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:kruger-dunning-1999-unskilled-and-unaware-studies",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:metacognition",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:regression-to-the-mean",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:jansen-rafferty-griffiths-2021-rational-model-study",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:burson-larrick-klayman-2006-noise-plus-bias-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:gignac-zajenkowski-2020-dunning-kruger-artifact-critique",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.gwern.net/doc/psychology/1999-kruger.pdf",
+   "https://scholars.duke.edu/publication/782621",
+   "https://cocosci.princeton.edu/papers/DK_NHB_Final.pdf",
+   "https://pure.eur.nl/ws/portalfiles/portal/146015357/1-s2.0-S0160289622000988-main.pdf",
+   "https://digitalcommons.usf.edu/numeracy/vol9/iss1/art4/"
+  ]
+ },
+ {
   "id": "ct:ecological-rationality",
   "title": "Ecological rationality",
   "aliases": [

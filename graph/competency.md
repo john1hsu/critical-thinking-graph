@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:dunning-kruger-effect` | cto:CognitiveBias |
 | `ct:fallacy-of-ambiguity` | cto:InformalFallacy |
 
 ## Most useful remedies
@@ -86,6 +87,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:dual-process-theory` | contested | `ct:de-neys-2023-fast-and-slow-revision` |
 | `ct:dual-process-theory` | contested | `ct:gerd-gigerenzer` |
 | `ct:dual-process-theory` | contested | `ct:keren-schul-2009-two-system-critique` |
+| `ct:dunning-kruger-effect` | contested | `ct:burson-larrick-klayman-2006-noise-plus-bias-study` |
+| `ct:dunning-kruger-effect` | contested | `ct:gignac-zajenkowski-2020-dunning-kruger-artifact-critique` |
 | `ct:ecological-rationality` | contested | `ct:hilbig-richter-2011-homo-heuristicus-outnumbered` |
 | `ct:endowment-effect` | contested | `ct:plott-zeiler-2005-wta-wtp-experiments` |
 | `ct:expected-utility-theory` | contested | `ct:allais-paradox` |
@@ -99,10 +102,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
-| `ct:loss-aversion` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
-| `ct:mental-model-theory` | contested | `ct:the-psychology-of-proof` |
 
-…and 80 more.
+…and 82 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

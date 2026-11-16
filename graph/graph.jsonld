@@ -8906,6 +8906,93 @@
    ]
   },
   {
+   "@id": "ct:dunning-kruger-effect",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:burson-larrick-klayman-2006-noise-plus-bias-study"
+    },
+    {
+     "@id": "ct:gignac-zajenkowski-2020-dunning-kruger-artifact-critique"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:kruger-dunning-1999-unskilled-and-unaware-studies"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:metacognition"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    }
+   ],
+   "cto:file": "articles/cognitive-biases/dunning-kruger-effect.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:david-dunning"
+    },
+    {
+     "@id": "ct:justin-kruger"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:cognitive-bias"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:jansen-rafferty-griffiths-2021-rational-model-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s5"
+    }
+   ],
+   "rdfs:label": "Dunning-Kruger effect",
+   "skos:altLabel": [
+    "Dunning–Kruger effect",
+    "dual burden of incompetence",
+    "unskilled and unaware effect"
+   ],
+   "skos:broader": {
+    "@id": "ct:overconfidence-effect"
+   },
+   "skos:definition": "The finding that people who perform worst in a domain tend to overestimate their performance and relative standing the most, attributed by its discoverers to a \"dual burden\": the skills needed to do well are the same skills needed to recognise one's own errors.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Dunning-Kruger effect",
+   "skos:related": [
+    {
+     "@id": "ct:bias-blind-spot"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:metacognition"
+    }
+   ]
+  },
+  {
    "@id": "ct:ecological-rationality",
    "@type": "cto:Concept",
    "cto:challengedBy": {
@@ -40771,6 +40858,76 @@
    "dcterms:title": "The Bayesian Treatment of Auxiliary Hypotheses",
    "schema:url": {
     "@id": "https://dc2.philarchive.org/rec/STRTBT-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 77(6), 1121-1134 (Kruger & Dunning, 1999), copy at gwern.net",
+   "dcterms:title": "Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments",
+   "schema:url": {
+    "@id": "https://www.gwern.net/doc/psychology/1999-kruger.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 90(1), 60-77 (Burson, Larrick & Klayman, 2006), Duke Scholars record",
+   "dcterms:title": "Skilled or unskilled, but still unaware of it: how perceptions of difficulty drive miscalibration in relative comparisons",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/782621"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Nature Human Behaviour 5, 2021 (Jansen, Rafferty & Griffiths), author's copy at Princeton Computational Cognitive Science Lab",
+   "dcterms:title": "A rational model of the Dunning-Kruger effect supports insensitivity to evidence in low performers",
+   "schema:url": {
+    "@id": "https://cocosci.princeton.edu/papers/DK_NHB_Final.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Intelligence 96, 101717 (Dunkel, Nedelec & van der Linden, 2023), Erasmus University Rotterdam repository",
+   "dcterms:title": "Reevaluating the Dunning-Kruger effect: A response to and replication of Gignac and Zajenkowski (2020)",
+   "schema:url": {
+    "@id": "https://pure.eur.nl/ws/portalfiles/portal/146015357/1-s2.0-S0160289622000988-main.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dunning-kruger-effect/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Numeracy 9(1), Article 4 (Nuhfer, Cogan, Fleisher, Gaze & Wirth, 2016), University of South Florida Digital Commons",
+   "dcterms:title": "Random Number Simulations Reveal How Random Noise Affects the Measurements and Graphical Portrayals of Self-Assessed Competency",
+   "schema:url": {
+    "@id": "https://digitalcommons.usf.edu/numeracy/vol9/iss1/art4/"
    }
   },
   {
