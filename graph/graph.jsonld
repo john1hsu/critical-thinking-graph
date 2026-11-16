@@ -12160,6 +12160,97 @@
    ]
   },
   {
+   "@id": "ct:grade-approach",
+   "@type": "cto:Framework",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:evidence-based-medicine"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ],
+   "cto:counteracts": [
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:publication-bias"
+    }
+   ],
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/evidence-and-information-literacy/grade-approach.md",
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:randomized-controlled-trial"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ],
+   "cto:supportedBy": {
+    "@id": "ct:mustafa-2013-grade-reliability-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4"
+    }
+   ],
+   "rdfs:label": "GRADE approach",
+   "skos:altLabel": [
+    "GRADE certainty of evidence",
+    "GRADE system",
+    "GRADE",
+    "Grading of Recommendations Assessment Development and Evaluation"
+   ],
+   "skos:broader": {
+    "@id": "ct:evidence-based-medicine"
+   },
+   "skos:definition": "A transparent framework for rating how confident one can be in a body of evidence, outcome by outcome, on four levels (high, moderate, low, very low), and for making strong or conditional recommendations that weigh that certainty against benefits, harms, values and costs.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "GRADE approach",
+   "skos:related": [
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:gordon-guyatt"
+    },
+    {
+     "@id": "ct:hierarchy-of-evidence"
+    },
+    {
+     "@id": "ct:periodic-health-examination-report"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:risk-communication"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ]
+  },
+  {
    "@id": "ct:groupthink",
    "@type": "cto:Phenomenon",
    "cto:challengedBy": [
@@ -43628,6 +43719,62 @@
    "dcterms:title": "Debating the ICR's Duane Gish (with Eugenie Scott, Debates and the Globetrotters)",
    "schema:url": {
     "@id": "https://talkorigins.org/faqs/debating-creationists.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "GRADE Working Group (Schünemann, Brożek, Guyatt & Oxman, eds., updated 2013), GRADEpro GDT",
+   "dcterms:title": "GRADE Handbook: Handbook for grading the quality of evidence and the strength of recommendations using the GRADE approach",
+   "schema:url": {
+    "@id": "https://gdt.gradepro.org/app/handbook/handbook.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Cochrane Handbook for Systematic Reviews of Interventions v6.5 (Schünemann, Higgins, Vist, Glasziou, Akl, Skoetz & Guyatt, 2023)",
+   "dcterms:title": "Chapter 14: Completing 'Summary of findings' tables and grading the certainty of the evidence",
+   "schema:url": {
+    "@id": "https://www.cochrane.org/zh-hant/authors/handbooks-and-manuals/handbook/current/chapter-14"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Journal of Clinical Epidemiology 66(7), 736-742 (Mustafa, Santesso, Brozek et al., 2013), RTI International record",
+   "dcterms:title": "The GRADE approach is reproducible in assessing the quality of evidence of quantitative evidence syntheses",
+   "schema:url": {
+    "@id": "https://www.rti.org/publication/the-grade-approach-is-reproducible-in-assessing-the-quality-of-evidence-of-quantitative-evidence-syntheses"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "BMJ Best Practice, Learn EBM toolkit (Siemieniuk & Guyatt)",
+   "dcterms:title": "What is GRADE?",
+   "schema:url": {
+    "@id": "https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade"
    }
   },
   {

@@ -13068,6 +13068,102 @@
   ]
  },
  {
+  "id": "ct:grade-approach",
+  "title": "GRADE approach",
+  "aliases": [
+   "GRADE",
+   "Grading of Recommendations Assessment Development and Evaluation",
+   "GRADE system",
+   "GRADE certainty of evidence"
+  ],
+  "type": "Framework",
+  "domain": "evidence-and-information-literacy",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/evidence-and-information-literacy/grade-approach.md",
+  "created": "2026-11-16",
+  "summary": "A transparent framework for rating how confident one can be in a body of evidence, outcome by outcome, on four levels (high, moderate, low, very low), and for making strong or conditional recommendations that weigh that certainty against benefits, harms, values and costs.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:evidence-based-medicine"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hierarchy-of-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:periodic-health-examination-report"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gordon-guyatt"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:randomized-controlled-trial"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:publication-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:confounding",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:systematic-review",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:evidence-based-medicine",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:mustafa-2013-grade-reliability-study",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://gdt.gradepro.org/app/handbook/handbook.html",
+   "https://www.cochrane.org/zh-hant/authors/handbooks-and-manuals/handbook/current/chapter-14",
+   "https://www.rti.org/publication/the-grade-approach-is-reproducible-in-assessing-the-quality-of-evidence-of-quantitative-evidence-syntheses",
+   "https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade"
+  ]
+ },
+ {
   "id": "ct:groupthink",
   "title": "Groupthink",
   "aliases": [

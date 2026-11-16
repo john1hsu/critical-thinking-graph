@@ -38,14 +38,14 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
 | `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |
+| `ct:grade-approach` | 2 | Confounding, Publication bias |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
 | `ct:power-analysis` | 2 | Law of small numbers, Replication crisis |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
-| `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
 
-…and 44 more.
+…and 45 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -140,15 +140,15 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:formal-modeling` | cto:Method |
+| `ct:grade-approach` | cto:Framework |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
 | `ct:inverse-fallacy` | cto:ProbabilisticFallacy |
 | `ct:legal-reasoning` | cto:Field |
-| `ct:logical-consistency` | cto:Concept |
 
-…and 36 more.
+…and 37 more.
 
 ## Orphan articles (gap)
 

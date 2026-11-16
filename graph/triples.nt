@@ -5676,6 +5676,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/eugenie-scott> .
 <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2000/01/rdf-schema#label> "GRADE approach" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#altLabel> "GRADE certainty of evidence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#altLabel> "GRADE system" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#altLabel> "GRADE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#altLabel> "Grading of Recommendations Assessment Development and Evaluation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#definition> "A transparent framework for rating how confident one can be in a body of evidence, outcome by outcome, on four levels (high, moderate, low, very low), and for making strong or conditional recommendations that weigh that certainty against benefits, harms, values and costs." .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#prefLabel> "GRADE approach" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gordon-guyatt> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/grade-approach.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mustafa-2013-grade-reliability-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2000/01/rdf-schema#label> "Groupthink" .
@@ -15422,6 +15455,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <https://schema.org/url> <https://talkorigins.org/faqs/debating-creationists.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> <http://purl.org/dc/terms/publisher> "GRADE Working Group (Schünemann, Brożek, Guyatt & Oxman, eds., updated 2013), GRADEpro GDT" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> <http://purl.org/dc/terms/title> "GRADE Handbook: Handbook for grading the quality of evidence and the strength of recommendations using the GRADE approach" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> <https://schema.org/url> <https://gdt.gradepro.org/app/handbook/handbook.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s2> <http://purl.org/dc/terms/publisher> "Cochrane Handbook for Systematic Reviews of Interventions v6.5 (Schünemann, Higgins, Vist, Glasziou, Akl, Skoetz & Guyatt, 2023)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s2> <http://purl.org/dc/terms/title> "Chapter 14: Completing 'Summary of findings' tables and grading the certainty of the evidence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s2> <https://schema.org/url> <https://www.cochrane.org/zh-hant/authors/handbooks-and-manuals/handbook/current/chapter-14> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s3> <http://purl.org/dc/terms/publisher> "Journal of Clinical Epidemiology 66(7), 736-742 (Mustafa, Santesso, Brozek et al., 2013), RTI International record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s3> <http://purl.org/dc/terms/title> "The GRADE approach is reproducible in assessing the quality of evidence of quantitative evidence syntheses" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s3> <https://schema.org/url> <https://www.rti.org/publication/the-grade-approach-is-reproducible-in-assessing-the-quality-of-evidence-of-quantitative-evidence-syntheses> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> <http://purl.org/dc/terms/publisher> "BMJ Best Practice, Learn EBM toolkit (Siemieniuk & Guyatt)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> <http://purl.org/dc/terms/title> "What is GRADE?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> <https://schema.org/url> <https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/publisher> "Emerging Leadership Journeys 4(1), Regent University School of Global Leadership & Entrepreneurship (Rose, 2011)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/title> "Diverse Perspectives on the Groupthink Theory: A Literary Review" .
