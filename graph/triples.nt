@@ -18929,6 +18929,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s5> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/bounded-rationality/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Nick Leonard, first published 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> <http://purl.org/dc/terms/title> "Epistemological Problems of Testimony" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/testimony-episprob/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s2> <http://purl.org/dc/terms/title> "Epistemology of Testimony" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s2> <https://schema.org/url> <https://iep.utm.edu/page/ep-testi/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s3> <http://purl.org/dc/terms/publisher> "Harris, Koenig, Corriveau and Jaswal, Annual Review of Psychology 69, 251-273 (2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s3> <http://purl.org/dc/terms/title> "Cognitive Foundations of Learning from Testimony" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s3> <https://schema.org/url> <https://experts.umn.edu/en/publications/cognitive-foundations-of-learning-from-testimony/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s4> <http://purl.org/dc/terms/publisher> "Sperber, Clément, Heintz, Mascaro, Mercier, Origgi and Wilson, Mind and Language 25(4), 359-393 (2010)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s4> <http://purl.org/dc/terms/title> "Epistemic vigilance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s4> <https://schema.org/url> <https://research.ceu.edu/en/publications/epistemic-vigilance/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1> <http://purl.org/dc/terms/publisher> "Springer (van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij & Wagemans, 2014)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/the-new-rhetoric/s1> <http://purl.org/dc/terms/title> "The New Rhetoric (chapter 5), in Handbook of Argumentation Theory" .
@@ -20187,6 +20211,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gigerenzer-brighton-2009-homo-heuristicus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2000/01/rdf-schema#label> "Testimony" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#altLabel> "epistemology of testimony" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#altLabel> "knowledge from testimony" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#altLabel> "testimonial justification" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#altLabel> "testimonial knowledge" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#definition> "Testimony is the source of belief we draw on whenever we accept something because someone told us; its epistemology asks when such beliefs are justified or count as knowledge, chiefly whether hearers need independent reasons to trust a speaker (reductionism) or are entitled to believe by default unless something counts against it (anti-reductionism)." .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#prefLabel> "Testimony" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/evaluating-expert-testimony> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/thomas-reid> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/epistemic-vigilance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/testimony.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/developmental-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/testimony> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> <http://www.w3.org/2000/01/rdf-schema#label> "The New Rhetoric" .

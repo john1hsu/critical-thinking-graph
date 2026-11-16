@@ -26240,6 +26240,90 @@
   ]
  },
  {
+  "id": "ct:testimony",
+  "title": "Testimony",
+  "aliases": [
+   "epistemology of testimony",
+   "testimonial knowledge",
+   "testimonial justification",
+   "knowledge from testimony"
+  ],
+  "type": "Concept",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/testimony.md",
+  "created": "2026-11-16",
+  "summary": "Testimony is the source of belief we draw on whenever we accept something because someone told us; its epistemology asks when such beliefs are justified or count as knowledge, chiefly whether hearers need independent reasons to trust a speaker (reductionism) or are entitled to believe by default unless something counts against it (anti-reductionism).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:evaluating-expert-testimony"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:justified-true-belief"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:david-hume"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:thomas-reid"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophical-skepticism"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:justified-true-belief"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:developmental-psychology",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:epistemic-vigilance",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/testimony-episprob/",
+   "https://iep.utm.edu/page/ep-testi/",
+   "https://experts.umn.edu/en/publications/cognitive-foundations-of-learning-from-testimony/",
+   "https://research.ceu.edu/en/publications/epistemic-vigilance/"
+  ]
+ },
+ {
   "id": "ct:the-new-rhetoric",
   "title": "The New Rhetoric",
   "aliases": [

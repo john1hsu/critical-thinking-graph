@@ -24563,6 +24563,87 @@
    ]
   },
   {
+   "@id": "ct:testimony",
+   "@type": "cto:Concept",
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:epistemic-vigilance"
+   },
+   "cto:file": "articles/philosophy-of-reasoning/testimony.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:justified-true-belief"
+   },
+   "cto:studiedIn": [
+    {
+     "@id": "ct:developmental-psychology"
+    },
+    {
+     "@id": "ct:epistemology"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s4"
+    }
+   ],
+   "rdfs:label": "Testimony",
+   "skos:altLabel": [
+    "epistemology of testimony",
+    "knowledge from testimony",
+    "testimonial justification",
+    "testimonial knowledge"
+   ],
+   "skos:broader": {
+    "@id": "ct:epistemology"
+   },
+   "skos:definition": "Testimony is the source of belief we draw on whenever we accept something because someone told us; its epistemology asks when such beliefs are justified or count as knowledge, chiefly whether hearers need independent reasons to trust a speaker (reductionism) or are entitled to believe by default unless something counts against it (anti-reductionism).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Testimony",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:david-hume"
+    },
+    {
+     "@id": "ct:evaluating-expert-testimony"
+    },
+    {
+     "@id": "ct:justified-true-belief"
+    },
+    {
+     "@id": "ct:philosophical-skepticism"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:source-evaluation"
+    },
+    {
+     "@id": "ct:thomas-reid"
+    }
+   ]
+  },
+  {
    "@id": "ct:the-new-rhetoric",
    "@type": "cto:Work",
    "cto:authoredBy": [
@@ -51347,6 +51428,62 @@
    "dcterms:title": "Bounded Rationality",
    "schema:url": {
     "@id": "https://plato.stanford.edu/ENTRIES/bounded-rationality/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Nick Leonard, first published 2021)",
+   "dcterms:title": "Epistemological Problems of Testimony",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/testimony-episprob/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Epistemology of Testimony",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/page/ep-testi/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Harris, Koenig, Corriveau and Jaswal, Annual Review of Psychology 69, 251-273 (2018)",
+   "dcterms:title": "Cognitive Foundations of Learning from Testimony",
+   "schema:url": {
+    "@id": "https://experts.umn.edu/en/publications/cognitive-foundations-of-learning-from-testimony/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Sperber, Clément, Heintz, Mascaro, Mercier, Origgi and Wilson, Mind and Language 25(4), 359-393 (2010)",
+   "dcterms:title": "Epistemic vigilance",
+   "schema:url": {
+    "@id": "https://research.ceu.edu/en/publications/epistemic-vigilance/"
    }
   },
   {

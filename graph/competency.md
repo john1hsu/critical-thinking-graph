@@ -154,7 +154,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 | `ct:philosophy-of-language` | cto:Field |
 
-…and 24 more.
+…and 25 more.
 
 ## Orphan articles (gap)
 
