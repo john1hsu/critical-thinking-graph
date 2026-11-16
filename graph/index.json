@@ -11238,6 +11238,129 @@
   ]
  },
  {
+  "id": "ct:fallacy-of-ambiguity",
+  "title": "Fallacy of ambiguity",
+  "aliases": [
+   "fallacies of ambiguity",
+   "ambiguity fallacies",
+   "fallacies dependent on language",
+   "fallacies in dictione",
+   "verbal fallacies",
+   "language-dependent fallacies"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/fallacy-of-ambiguity.md",
+  "created": "2026-11-16",
+  "summary": "The family of informal fallacies in which an argument looks good only because a word, phrase, grammatical structure or emphasis allows two readings, one making the premises acceptable and another needed for the conclusion; equivocation, amphiboly and accent are its core members.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amphiboly"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-composition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-division"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-accent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypostatization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-four-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distributive-collective-distinction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:charles-hamblin"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:sophistical-refutations",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:ambiguity",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:sophistical-refutations",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Which word, phrase or sentence in the argument could be read in more than one way, and does the argument rely on it?",
+   "If one precise reading is fixed and used in every premise and in the conclusion, are all the premises still true?",
+   "Does the conclusion follow only if two different readings are quietly treated as one?",
+   "Would stating the claim with different stress, punctuation or word order change what it asserts?",
+   "Is there a single sensible reading under which the arguer's case holds, so that the charge of ambiguity would be uncharitable?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://iep.utm.edu/fallacy/",
+   "https://read.aupress.ca/read/24c4c0bd-f19f-4b14-8080-258a1e169ca6/section/f8c8bad3-17e2-4cfd-b50b-6b6880d40052",
+   "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html",
+   "https://icar.cnrs.fr/dicoplantin/fallacies-ii-aristotles-foundational-lis/"
+  ]
+ },
+ {
   "id": "ct:fallacy-of-composition",
   "title": "Fallacy of composition",
   "aliases": [

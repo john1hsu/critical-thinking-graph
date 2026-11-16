@@ -308,6 +308,17 @@ flowchart TD
   o2["The conclusion is weaker than the premise, so it cannot be used to argue back to a single reviewer."] -. attacks .-> ra
 ```
 
+## Fallacy of ambiguity (`ct:fallacy-of-ambiguity`)
+
+```mermaid
+flowchart TD
+  p1["The staff handbook lets employees take a reasonable amount of unpaid leave."] --> ra{{"fallacious"}}
+  p2["After a six-month product launch, it is entirely reasonable to want a month off."] --> ra{{"fallacious"}}
+  ra --> c["So the handbook entitles me to a month of unpaid leave."]
+  o1["In the handbook, 'reasonable' means within limits the employer judges workable; in the second premise it means understandable or justified from the employee's side."] -. attacks .-> ra
+  o2["Fix either sense throughout and one premise fails or the conclusion no longer follows."] -. attacks .-> ra
+```
+
 ## Fallacy of composition (`ct:fallacy-of-composition`)
 
 ```mermaid

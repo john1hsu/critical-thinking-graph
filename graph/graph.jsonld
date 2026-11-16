@@ -10470,6 +10470,116 @@
    ]
   },
   {
+   "@id": "ct:fallacy-of-ambiguity",
+   "@type": "cto:InformalFallacy",
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:ambiguity"
+   },
+   "cto:file": "articles/informal-fallacies/fallacy-of-ambiguity.md",
+   "cto:influencedBy": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:argument"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s5"
+    }
+   ],
+   "rdfs:label": "Fallacy of ambiguity",
+   "skos:altLabel": [
+    "ambiguity fallacies",
+    "fallacies dependent on language",
+    "fallacies in dictione",
+    "fallacies of ambiguity",
+    "language-dependent fallacies",
+    "verbal fallacies"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The family of informal fallacies in which an argument looks good only because a word, phrase, grammatical structure or emphasis allows two readings, one making the premises acceptable and another needed for the conclusion; equivocation, amphiboly and accent are its core members.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Fallacy of ambiguity",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:amphiboly"
+    },
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:distributive-collective-distinction"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:fallacy-of-accent"
+    },
+    {
+     "@id": "ct:fallacy-of-composition"
+    },
+    {
+     "@id": "ct:fallacy-of-division"
+    },
+    {
+     "@id": "ct:fallacy-of-four-terms"
+    },
+    {
+     "@id": "ct:hypostatization"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:vagueness"
+    }
+   ]
+  },
+  {
    "@id": "ct:fallacy-of-composition",
    "@type": "cto:InformalFallacy",
    "cto:appliedIn": {
@@ -30581,6 +30691,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "rdfs:label": "Which word, phrase or sentence in the argument could be read in more than one way, and does the argument rely on it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "rdfs:label": "If one precise reading is fixed and used in every premise and in the conclusion, are all the premises still true?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "rdfs:label": "Does the conclusion follow only if two different readings are quietly treated as one?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "rdfs:label": "Would stating the claim with different stress, punctuation or word order change what it asserts?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "rdfs:label": "Is there a single sensible reading under which the arguer's case holds, so that the charge of ambiguity would be uncharitable?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the handbook entitles me to a month of unpaid leave."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "In the handbook, 'reasonable' means within limits the employer judges workable; in the second premise it means understandable or justified from the employee's side."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Fix either sense throughout and one premise fails or the conclusion no longer follows."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The staff handbook lets employees take a reasonable amount of unpaid leave."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "After a six-month product launch, it is entirely reasonable to want a month off."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -41782,6 +42003,76 @@
    "dcterms:title": "Abduction",
    "schema:url": {
     "@id": "https://plato.stanford.edu/ENTRIES/abduction/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Dowden)",
+   "dcterms:title": "Fallacy",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/fallacy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "AU Press, Athabasca University (open textbook)",
+   "dcterms:title": "Chapter 14: Fallacies of Ambiguity, in Critical Thinking, Logic, and Argument",
+   "schema:url": {
+    "@id": "https://read.aupress.ca/read/24c4c0bd-f19f-4b14-8080-258a1e169ca6/section/f8c8bad3-17e2-4cfd-b50b-6b6880d40052"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Aristotle, The Internet Classics Archive, MIT",
+   "dcterms:title": "On Sophistical Refutations (trans. W. A. Pickard-Cambridge)",
+   "schema:url": {
+    "@id": "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Christian Plantin, Dictionnaire de l'argumentation 2021, ICAR (CNRS)",
+   "dcterms:title": "Fallacies 2: Aristotle's Foundational List",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/fallacies-ii-aristotles-foundational-lis/"
    }
   },
   {

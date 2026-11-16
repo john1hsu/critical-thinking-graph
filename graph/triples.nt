@@ -4821,6 +4821,87 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/explanation> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which word, phrase or sentence in the argument could be read in more than one way, and does the argument rely on it?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "If one precise reading is fixed and used in every premise and in the conclusion, are all the premises still true?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Does the conclusion follow only if two different readings are quietly treated as one?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Would stating the claim with different stress, punctuation or word order change what it asserts?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is there a single sensible reading under which the arguer's case holds, so that the charge of ambiguity would be uncharitable?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So the handbook entitles me to a month of unpaid leave." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "In the handbook, 'reasonable' means within limits the employer judges workable; in the second premise it means understandable or justified from the employee's side." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Fix either sense throughout and one premise fails or the conclusion no longer follows." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The staff handbook lets employees take a reasonable amount of unpaid leave." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "After a six-month product launch, it is entirely reasonable to want a month off." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2000/01/rdf-schema#label> "Fallacy of ambiguity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#altLabel> "ambiguity fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacies dependent on language" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacies in dictione" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacies of ambiguity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#altLabel> "language-dependent fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#altLabel> "verbal fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#definition> "The family of informal fallacies in which an argument looks good only because a word, phrase, grammatical structure or emphasis allows two readings, one making the premises acceptable and another needed for the conclusion; equivocation, amphiboly and accent are its core members." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fallacy of ambiguity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/distributive-collective-distinction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hypostatization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/fallacy-of-ambiguity.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the property one that adds up or carries over from parts to whole, or does it depend on how the parts are arranged and interact?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition> .
@@ -14658,6 +14739,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/explanation/s4> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/abduction/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/fallacies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Dowden)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s2> <http://purl.org/dc/terms/title> "Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s2> <https://schema.org/url> <https://iep.utm.edu/fallacy/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s3> <http://purl.org/dc/terms/publisher> "AU Press, Athabasca University (open textbook)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s3> <http://purl.org/dc/terms/title> "Chapter 14: Fallacies of Ambiguity, in Critical Thinking, Logic, and Argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s3> <https://schema.org/url> <https://read.aupress.ca/read/24c4c0bd-f19f-4b14-8080-258a1e169ca6/section/f8c8bad3-17e2-4cfd-b50b-6b6880d40052> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s4> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive, MIT" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s4> <http://purl.org/dc/terms/title> "On Sophistical Refutations (trans. W. A. Pickard-Cambridge)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s4> <https://schema.org/url> <https://classics.mit.edu/Aristotle/sophist_refut.1.1.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s5> <http://purl.org/dc/terms/publisher> "Christian Plantin, Dictionnaire de l'argumentation 2021, ICAR (CNRS)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s5> <http://purl.org/dc/terms/title> "Fallacies 2: Aristotle's Foundational List" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s5> <https://schema.org/url> <https://icar.cnrs.fr/dicoplantin/fallacies-ii-aristotles-foundational-lis/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s1> <http://purl.org/dc/terms/title> "Fallacies" .
