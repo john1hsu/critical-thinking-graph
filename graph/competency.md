@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:fallacy-of-ambiguity` | cto:InformalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -28,6 +26,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:source-monitoring-framework` | 3 | Recognition heuristic, false-fame-effect, misinformation-effect |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Illicit minor, Undistributed middle |
+| `ct:argument-reconstruction` | 2 | Equivocation, Fallacy of ambiguity |
 | `ct:broad-bracketing` | 2 | Loss aversion, myopic-loss-aversion |
 | `ct:calibration-training` | 2 | Dunning-Kruger effect, Overconfidence effect |
 | `ct:carroll-diagram` | 2 | Affirmative conclusion from a negative premise, Undistributed middle |
@@ -45,9 +44,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:power-analysis` | 2 | Law of small numbers, Replication crisis |
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
-| `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
 
-…and 43 more.
+…and 44 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -121,6 +119,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 |---|---|
 | `ct:ad-hoc-hypothesis` | cto:Concept |
 | `ct:argument-evaluation` | cto:Concept |
+| `ct:argument-reconstruction` | cto:Technique |
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:calibration-training` | cto:Technique |
 | `ct:causal-inference` | cto:Field |
@@ -148,9 +147,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:inverse-fallacy` | cto:ProbabilisticFallacy |
 | `ct:legal-reasoning` | cto:Field |
 | `ct:logical-consistency` | cto:Concept |
-| `ct:logical-necessity-instructions` | cto:Technique |
 
-…and 35 more.
+…and 36 more.
 
 ## Orphan articles (gap)
 

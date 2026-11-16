@@ -2319,6 +2319,111 @@
   ]
  },
  {
+  "id": "ct:argument-reconstruction",
+  "title": "Argument reconstruction",
+  "aliases": [
+   "standardization",
+   "standardizing an argument",
+   "standardizing arguments",
+   "putting an argument in standard form",
+   "standard-form reconstruction",
+   "casting an argument",
+   "logical reconstruction of arguments"
+  ],
+  "type": "Technique",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/argument-reconstruction.md",
+  "created": "2026-11-16",
+  "summary": "The technique of restating an argument found in ordinary text or talk as an explicit list of numbered premises and a conclusion: cutting noise, clarifying vague or ambiguous wording so each term keeps one sense, supplying unstated premises charitably, and checking that the result is faithful to the arguer, so the argument can then be evaluated.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:enthymeme"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-four-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:fallacy-of-ambiguity",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:equivocation",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:argument-mapping",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:principle-of-charity",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/archives/fall2025/entries/logic-informal/",
+   "https://read.aupress.ca/read/24c4c0bd-f19f-4b14-8080-258a1e169ca6/section/28889b5a-c485-4292-aeea-48ff2b9c9674",
+   "https://read.aupress.ca/read/24c4c0bd-f19f-4b14-8080-258a1e169ca6/section/f8c8bad3-17e2-4cfd-b50b-6b6880d40052",
+   "https://human.libretexts.org/Courses/Lake_Tahoe_Community_College/PHI-104%3A_Critical_Thinking/01%3A_Reconstructing_and_Analyzing_Arguments/1.05%3A_Using_Your_Own_Paraphrases_of_Premises_and_Conclusions_to_Reconstruct_Arguments_in_Standard_Form",
+   "https://distantreader.org/stacks/journals/il/il-2260.pdf",
+   "https://oercollective.caul.edu.au/howtothinkcritically/?p=69"
+  ]
+ },
+ {
   "id": "ct:argumentation-schemes",
   "title": "Argumentation schemes",
   "aliases": [

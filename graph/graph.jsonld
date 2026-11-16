@@ -2151,6 +2151,105 @@
    ]
   },
   {
+   "@id": "ct:argument-reconstruction",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:argument-mapping"
+   },
+   "cto:detects": [
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:fallacy-of-ambiguity"
+    }
+   ],
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/argument-reconstruction.md",
+   "cto:influencedBy": {
+    "@id": "ct:principle-of-charity"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:informal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s6"
+    }
+   ],
+   "rdfs:label": "Argument reconstruction",
+   "skos:altLabel": [
+    "casting an argument",
+    "logical reconstruction of arguments",
+    "putting an argument in standard form",
+    "standard-form reconstruction",
+    "standardization",
+    "standardizing an argument",
+    "standardizing arguments"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-logic"
+   },
+   "skos:definition": "The technique of restating an argument found in ordinary text or talk as an explicit list of numbered premises and a conclusion: cutting noise, clarifying vague or ambiguous wording so each term keeps one sense, supplying unstated premises charitably, and checking that the result is faithful to the arguer, so the argument can then be evaluated.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Argument reconstruction",
+   "skos:related": [
+    {
+     "@id": "ct:argument-evaluation"
+    },
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:argumentation-schemes"
+    },
+    {
+     "@id": "ct:enthymeme"
+    },
+    {
+     "@id": "ct:fallacy-of-four-terms"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:argumentation-schemes",
    "@type": "cto:Framework",
    "cto:appliedIn": {
@@ -35409,6 +35508,90 @@
    "dcterms:title": "An evaluation of argument mapping as a method of enhancing critical thinking performance in e-learning environments",
    "schema:url": {
     "@id": "https://eprints.teachingandlearning.ie/id/eprint/4011/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Groarke, rev. 2021, Fall 2025 edition)",
+   "dcterms:title": "Informal Logic",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/fall2025/entries/logic-informal/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "AU Press, Athabasca University (open textbook)",
+   "dcterms:title": "Chapter 3: Standard Form and Validity, in Critical Thinking, Logic, and Argument",
+   "schema:url": {
+    "@id": "https://read.aupress.ca/read/24c4c0bd-f19f-4b14-8080-258a1e169ca6/section/28889b5a-c485-4292-aeea-48ff2b9c9674"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "AU Press, Athabasca University (open textbook)",
+   "dcterms:title": "Chapter 14: Fallacies of Ambiguity, in Critical Thinking, Logic, and Argument",
+   "schema:url": {
+    "@id": "https://read.aupress.ca/read/24c4c0bd-f19f-4b14-8080-258a1e169ca6/section/f8c8bad3-17e2-4cfd-b50b-6b6880d40052"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Matthew Van Cleave, Introduction to Logic and Critical Thinking (LibreTexts open textbook, CC BY)",
+   "dcterms:title": "Using Your Own Paraphrases of Premises and Conclusions to Reconstruct Arguments in Standard Form",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Courses/Lake_Tahoe_Community_College/PHI-104%3A_Critical_Thinking/01%3A_Reconstructing_and_Analyzing_Arguments/1.05%3A_Using_Your_Own_Paraphrases_of_Premises_and_Conclusions_to_Reconstruct_Arguments_in_Standard_Form"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Informal Logic 20(1), Teaching Supplement (Craig Walton, 2000)",
+   "dcterms:title": "Six Steps of Critical Thinking",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2260.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-reconstruction/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Gibbons & Kingsbury, CAUL OER Collective (open textbook, 2024)",
+   "dcterms:title": "Chapter 3: Reconstruction, in How to Think Critically",
+   "schema:url": {
+    "@id": "https://oercollective.caul.edu.au/howtothinkcritically/?p=69"
    }
   },
   {
