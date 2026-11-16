@@ -151,7 +151,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:myside-bias` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 
-…and 27 more.
+…and 28 more.
 
 ## Orphan articles (gap)
 

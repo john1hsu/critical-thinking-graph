@@ -17243,6 +17243,85 @@
    ]
   },
   {
+   "@id": "ct:overfitting",
+   "@type": "cto:Phenomenon",
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": {
+    "@id": "ct:bias-variance-tradeoff"
+   },
+   "cto:file": "articles/probabilistic-reasoning/overfitting.md",
+   "cto:level": "intermediate",
+   "cto:studiedIn": [
+    {
+     "@id": "ct:machine-learning"
+    },
+    {
+     "@id": "ct:statistics"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4"
+    }
+   ],
+   "rdfs:label": "Overfitting",
+   "skos:altLabel": [
+    "fitting the noise",
+    "overfit model"
+   ],
+   "skos:broader": {
+    "@id": "ct:statistical-reasoning"
+   },
+   "skos:definition": "Fitting a model, rule or explanation so closely to the data at hand that it captures sample-specific noise as if it were signal, so that it fits the past well but predicts new cases poorly.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Overfitting",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:ecological-rationality"
+    },
+    {
+     "@id": "ct:fast-and-frugal-heuristics"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:occams-razor"
+    },
+    {
+     "@id": "ct:p-hacking"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    },
+    {
+     "@id": "ct:take-the-best"
+    },
+    {
+     "@id": "ct:weighted-additive-rule"
+    }
+   ]
+  },
+  {
    "@id": "ct:paul-elder-critical-thinking-framework",
    "@type": "cto:Framework",
    "cto:appliedIn": [
@@ -45785,6 +45864,62 @@
    "dcterms:title": "A simple remedy for overprecision in judgment",
    "schema:url": {
     "@id": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science (Yarkoni & Westfall, 2017), author's copy",
+   "dcterms:title": "Choosing Prediction Over Explanation in Psychology: Lessons From Machine Learning",
+   "schema:url": {
+    "@id": "https://www.talyarkoni.org/pdf/Yarkoni_PPS_2017.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Topics in Cognitive Science 1, 107-143 (Gigerenzer & Brighton, 2009), UC Irvine course-reading copy",
+   "dcterms:title": "Homo Heuristicus: Why Biased Minds Make Better Inferences",
+   "schema:url": {
+    "@id": "https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "John D. Norton, University of Pittsburgh, Department of History and Philosophy of Science",
+   "dcterms:title": "Model Selection (chapter 7 of The Material Theory of Induction, draft)",
+   "schema:url": {
+    "@id": "https://sites.pitt.edu/%7Ejdnorton/papers/material_theory/material_theory_April_23_chapters/7.%20Model_Selection.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Penn State Eberly College of Science, Department of Statistics online course notes",
+   "dcterms:title": "Prediction error, overfitting and the bias-variance trade-off (STAT 857 lesson notes)",
+   "schema:url": {
+    "@id": "https://online.stat.psu.edu/stat857/node/160"
    }
   },
   {

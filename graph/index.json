@@ -18495,6 +18495,88 @@
   ]
  },
  {
+  "id": "ct:overfitting",
+  "title": "Overfitting",
+  "aliases": [
+   "overfit model",
+   "fitting the noise"
+  ],
+  "type": "Phenomenon",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/probabilistic-reasoning/overfitting.md",
+  "created": "2026-11-16",
+  "summary": "Fitting a model, rule or explanation so closely to the data at hand that it captures sample-specific noise as if it were signal, so that it fits the past well but predicts new cases poorly.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:occams-razor"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:take-the-best"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fast-and-frugal-heuristics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ecological-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:weighted-additive-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:p-hacking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:bias-variance-tradeoff",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:statistics",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:machine-learning",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.talyarkoni.org/pdf/Yarkoni_PPS_2017.pdf",
+   "https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf",
+   "https://sites.pitt.edu/%7Ejdnorton/papers/material_theory/material_theory_April_23_chapters/7.%20Model_Selection.pdf",
+   "https://online.stat.psu.edu/stat857/node/160"
+  ]
+ },
+ {
   "id": "ct:paul-elder-critical-thinking-framework",
   "title": "Paul–Elder critical thinking framework",
   "aliases": [

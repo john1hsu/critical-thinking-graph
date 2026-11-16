@@ -7975,6 +7975,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
 <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/overconfidence-effect.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2000/01/rdf-schema#label> "Overfitting" .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#altLabel> "fitting the noise" .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#altLabel> "overfit model" .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#definition> "Fitting a model, rule or explanation so closely to the data at hand that it captures sample-specific noise as if it were signal, so that it fits the past well but predicts new cases poorly." .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Overfitting" .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ecological-rationality> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/occams-razor> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bias-variance-tradeoff> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/overfitting.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/machine-learning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/statistics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/2000/01/rdf-schema#label> "Paul–Elder critical thinking framework" .
@@ -16460,6 +16489,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overconfidence-effect/s5> <https://schema.org/url> <https://www.cambridge.org/core/services/aop-cambridge-core/content/view/34DDFA0D8B602B6089A1B6BEEF22A486/S1930297500001637a.pdf/a-simple-remedy-for-overprecision-in-judgment.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s1> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science (Yarkoni & Westfall, 2017), author's copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s1> <http://purl.org/dc/terms/title> "Choosing Prediction Over Explanation in Psychology: Lessons From Machine Learning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s1> <https://schema.org/url> <https://www.talyarkoni.org/pdf/Yarkoni_PPS_2017.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s2> <http://purl.org/dc/terms/publisher> "Topics in Cognitive Science 1, 107-143 (Gigerenzer & Brighton, 2009), UC Irvine course-reading copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s2> <http://purl.org/dc/terms/title> "Homo Heuristicus: Why Biased Minds Make Better Inferences" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s2> <https://schema.org/url> <https://sites.socsci.uci.edu/~lpearl/courses/readings/GigerenzerBrighton2009_HomoHeuristicus.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s3> <http://purl.org/dc/terms/publisher> "John D. Norton, University of Pittsburgh, Department of History and Philosophy of Science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s3> <http://purl.org/dc/terms/title> "Model Selection (chapter 7 of The Material Theory of Induction, draft)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s3> <https://schema.org/url> <https://sites.pitt.edu/%7Ejdnorton/papers/material_theory/material_theory_April_23_chapters/7.%20Model_Selection.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> <http://purl.org/dc/terms/publisher> "Penn State Eberly College of Science, Department of Statistics online course notes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> <http://purl.org/dc/terms/title> "Prediction error, overfitting and the bias-variance trade-off (STAT 857 lesson notes)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> <https://schema.org/url> <https://online.stat.psu.edu/stat857/node/160> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s1> <http://purl.org/dc/terms/publisher> "Foundation for Critical Thinking (Paul & Elder, 2006); copy hosted by York University" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s1> <http://purl.org/dc/terms/title> "The Miniature Guide to Critical Thinking Concepts and Tools (4th ed.)" .
