@@ -5821,6 +5821,105 @@
   ]
  },
  {
+  "id": "ct:conductive-argument",
+  "title": "Conductive argument",
+  "aliases": [
+   "conduction",
+   "conductive reasoning",
+   "pro and con argument",
+   "balance-of-considerations argument"
+  ],
+  "type": "ReasoningMode",
+  "domain": "foundations",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/foundations/conductive-argument.md",
+  "created": "2026-11-16",
+  "summary": "An argument in which several separately relevant reasons about a single case, often weighed against acknowledged counter-considerations, converge to support a conclusion non-conclusively; proposed by Carl Wellman as a third type alongside deduction and induction.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:convergent-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:weighted-additive-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:value-based-practical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:carl-wellman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:deductive-reasoning",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inductive-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:applied-ethics",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:possin-2016-conductive-arguments-critique",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ecampusontario.pressbooks.pub/wsia062018/chapter/4/",
+   "https://assets.erudit.tech/fr/revues/informallogic/2019-v39-n1-informallogic04661/1060809ar.pdf",
+   "https://icar.cnrs.fr/dicoplantin/conductive-argument-e/",
+   "https://dc2.philarchive.org/rec/POSCAW-4",
+   "https://core.ac.uk/download/84725212.pdf"
+  ]
+ },
+ {
   "id": "ct:confirmation-bias",
   "title": "Confirmation bias",
   "aliases": [

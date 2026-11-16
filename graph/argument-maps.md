@@ -188,6 +188,18 @@ flowchart TD
   o2["The policy guarantees speed for urgent tickets; it says nothing about which tickets get fast answers."] -. attacks .-> ra
 ```
 
+## Conductive argument (`ct:conductive-argument`)
+
+```mermaid
+flowchart TD
+  p1["Vendor A's quote is about 20% cheaper than Vendor B's over three years."] --> ra{{"strong"}}
+  p2["Vendor A's tool already integrates with the ticketing system the team uses."] --> ra{{"strong"}}
+  p3["Counter-consideration: Vendor A's onboarding takes about six weeks longer than Vendor B's."] --> ra{{"strong"}}
+  p4["On balance, the lower cost and ready integration outweigh the slower start for a three-year contract."] --> ra{{"strong"}}
+  ra --> c["The team should choose Vendor A."]
+  o1["If the project has a hard deadline inside the next two months, the slower onboarding could outweigh the savings."] -. attacks .-> ra
+```
+
 ## Conjunction fallacy (`ct:conjunction-fallacy`)
 
 ```mermaid
