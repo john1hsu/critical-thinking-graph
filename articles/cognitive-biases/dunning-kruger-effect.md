@@ -12,7 +12,7 @@ summary: >-
 level: introductory
 evidenceStatus: contested
 broader: [ct:overconfidence-effect]
-related: [ct:calibration, ct:bias-blind-spot, ct:metacognition]
+related: [ct:calibration, ct:bias-blind-spot, ct:metacognition, ct:calibration-training]
 requires: [ct:cognitive-bias]
 relations:
   - {predicate: introducedBy, object: ct:justin-kruger, source: s1, confidence: high}

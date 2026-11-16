@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:dunning-kruger-effect` | cto:CognitiveBias |
 | `ct:fallacy-of-ambiguity` | cto:InformalFallacy |
 
 ## Most useful remedies
@@ -30,6 +29,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Illicit minor, Undistributed middle |
 | `ct:broad-bracketing` | 2 | Loss aversion, myopic-loss-aversion |
+| `ct:calibration-training` | 2 | Dunning-Kruger effect, Overconfidence effect |
 | `ct:carroll-diagram` | 2 | Affirmative conclusion from a negative premise, Undistributed middle |
 | `ct:causal-diagrams` | 2 | Confounding, Selection bias |
 | `ct:contingency-table` | 2 | Confusion of the inverse, causal-illusion |
@@ -46,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 | `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
 | `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
-| `ct:rule-against-conventionalist-stratagems` | 2 | No true Scotsman, pseudoscience |
 
-…and 42 more.
+…and 43 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -59,6 +58,7 @@ _For each heuristic, which biases can it produce and what counteracts them?_ —
 | `ct:anchoring-and-adjustment-heuristic` | `ct:anchoring-effect` | `ct:consider-the-opposite` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:anchoring-effect` | `ct:debiasing-training-games` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking` |
+| `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:calibration-training` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:consider-the-opposite` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:debiasing` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:premortem` |
@@ -103,7 +103,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 
-…and 82 more.
+…and 83 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -122,6 +122,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:ad-hoc-hypothesis` | cto:Concept |
 | `ct:argument-evaluation` | cto:Concept |
 | `ct:bright-line-rule` | cto:Principle |
+| `ct:calibration-training` | cto:Technique |
 | `ct:causal-inference` | cto:Field |
 | `ct:contingency-table` | cto:Technique |
 | `ct:correlation-versus-causation` | cto:Principle |
@@ -148,9 +149,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:legal-reasoning` | cto:Field |
 | `ct:logical-consistency` | cto:Concept |
 | `ct:logical-necessity-instructions` | cto:Technique |
-| `ct:modal-scope-fallacy` | cto:FormalFallacy |
 
-…and 34 more.
+…and 35 more.
 
 ## Orphan articles (gap)
 

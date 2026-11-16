@@ -4362,6 +4362,90 @@
   ]
  },
  {
+  "id": "ct:calibration-training",
+  "title": "Calibration training",
+  "aliases": [
+   "confidence calibration training",
+   "probability calibration training",
+   "training for calibration",
+   "calibration feedback training"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/calibration-training.md",
+  "created": "2026-11-16",
+  "summary": "A debiasing technique in which people repeatedly state their confidence in answers or forecasts, are scored against the outcomes, and receive feedback on the gap, so that their stated confidence comes to match how often they are actually right. It reliably trims overconfidence but improves knowledge or discrimination much less.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:brier-score"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hard-easy-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:overconfidence-effect",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:dunning-kruger-effect",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:lichtenstein-fischhoff-1980-training-for-calibration",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:stone-opel-2000-calibration-feedback-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:geopolitical-forecasting",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://openprairie.sdstate.edu/psych_pubs/5",
+   "https://www.stat.berkeley.edu/~aldous/157/Papers/moore_swift.pdf",
+   "https://home.csulb.edu/~cwallis/382/certainty/overconfidence/Training%20to%20Improve%20Calibration.pdf",
+   "https://apps.dtic.mil/sti/pdfs/ADA089619.pdf"
+  ]
+ },
+ {
   "id": "ct:cancellability-test",
   "title": "Cancellability test",
   "aliases": [
@@ -9576,6 +9660,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration-training"
    },
    {
     "predicate": "cto:requires",
