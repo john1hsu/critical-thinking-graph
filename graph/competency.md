@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
 
@@ -46,10 +45,10 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
 | `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
 | `ct:rule-against-conventionalist-stratagems` | 2 | No true Scotsman, pseudoscience |
+| `ct:rules-of-immediate-inference` | 2 | Illicit contraposition, Illicit conversion |
 | `ct:self-affirmation` | 2 | Biased assimilation, Motivated reasoning |
-| `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 
-…and 38 more.
+…and 39 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -151,7 +150,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:myside-bias` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 
-…and 28 more.
+…and 29 more.
 
 ## Orphan articles (gap)
 

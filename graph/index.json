@@ -23909,6 +23909,114 @@
   ]
  },
  {
+  "id": "ct:rules-of-immediate-inference",
+  "title": "Rules of immediate inference",
+  "aliases": [
+   "immediate-inference rules",
+   "conversion obversion and contraposition rules",
+   "table of immediate inferences"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/rules-of-immediate-inference.md",
+  "created": "2026-11-16",
+  "summary": "A checklist for one-premise inferences between categorical statements: conversion is valid for E and I, contraposition for A and O, obversion for all four forms, and the \"by limitation\" variants only when the subject class is non-empty. Any move outside the table, or one that distributes a term the premise left undistributed, is invalid.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:immediate-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-conversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:obversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-the-categorical-syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:euler-diagram"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:illicit-contraposition",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:illicit-conversion",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:distribution-of-terms",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:aristotle",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://phil240.tamu.edu/LectureNotes/5.3.pdf",
+   "https://bryan.stmcollege.ca/Immediate.html",
+   "https://people.stfx.ca/cbyrne/Byrne/SyllogisticLogic.pdf",
+   "https://philosophy.lander.edu/logic/further.html",
+   "https://condor.depaul.edu/mlarrabe/wk3a.htm",
+   "https://plato.stanford.edu/archives/spr2005/entries/square/",
+   "https://etc.usf.edu/lit2go/189/deductive-logic/3910/part-3-chapter-6/"
+  ]
+ },
+ {
   "id": "ct:rules-of-the-categorical-syllogism",
   "title": "Rules of the categorical syllogism",
   "aliases": [

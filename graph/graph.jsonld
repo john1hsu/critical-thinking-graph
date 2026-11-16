@@ -22338,6 +22338,112 @@
    ]
   },
   {
+   "@id": "ct:rules-of-immediate-inference",
+   "@type": "cto:Technique",
+   "cto:detects": [
+    {
+     "@id": "ct:illicit-contraposition"
+    },
+    {
+     "@id": "ct:illicit-conversion"
+    }
+   ],
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:explainedBy": {
+    "@id": "ct:distribution-of-terms"
+   },
+   "cto:file": "articles/formal-logic/rules-of-immediate-inference.md",
+   "cto:influencedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s7"
+    }
+   ],
+   "rdfs:label": "Rules of immediate inference",
+   "skos:altLabel": [
+    "conversion obversion and contraposition rules",
+    "immediate-inference rules",
+    "table of immediate inferences"
+   ],
+   "skos:broader": {
+    "@id": "ct:immediate-inference"
+   },
+   "skos:definition": "A checklist for one-premise inferences between categorical statements: conversion is valid for E and I, contraposition for A and O, obversion for all four forms, and the \"by limitation\" variants only when the subject class is non-empty. Any move outside the table, or one that distributes a term the premise left undistributed, is invalid.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Rules of immediate inference",
+   "skos:related": [
+    {
+     "@id": "ct:contraposition"
+    },
+    {
+     "@id": "ct:conversion"
+    },
+    {
+     "@id": "ct:euler-diagram"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:illicit-contraposition"
+    },
+    {
+     "@id": "ct:illicit-conversion"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:obversion"
+    },
+    {
+     "@id": "ct:rules-of-the-categorical-syllogism"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:rules-of-the-categorical-syllogism",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -50592,6 +50698,104 @@
    "dcterms:title": "The No-True-Scotsman Fallacy",
    "schema:url": {
     "@id": "https://fallacyfiles.org/scotsman.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "PHIL 240 Introduction to Logic, Texas A&M University",
+   "dcterms:title": "Lecture notes 5.3: Conversion, obversion and contraposition",
+   "schema:url": {
+    "@id": "https://phil240.tamu.edu/LectureNotes/5.3.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Bryan Wiebe, critical thinking course notes (stmcollege.ca)",
+   "dcterms:title": "Immediate Inference",
+   "schema:url": {
+    "@id": "https://bryan.stmcollege.ca/Immediate.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "C. Byrne, Department of Philosophy, St. Francis Xavier University",
+   "dcterms:title": "Syllogistic Logic",
+   "schema:url": {
+    "@id": "https://people.stfx.ca/cbyrne/Byrne/SyllogisticLogic.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "PHIL 103 Introduction to Logic, Lander University",
+   "dcterms:title": "Philosophy 103: Introduction to Logic (immediate inferences)",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/further.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Logic course handout after Copi and Cohen, DePaul University",
+   "dcterms:title": "Week 3A: Immediate inference (Chapter 5, cont.)",
+   "schema:url": {
+    "@id": "https://condor.depaul.edu/mlarrabe/wk3a.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Terence Parsons, Spring 2005 archive)",
+   "dcterms:title": "The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2005/entries/square/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-immediate-inference/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "George W. J. Stock (1888), Lit2Go, University of South Florida",
+   "dcterms:title": "Deductive Logic, Part III, Chapter VI: Of compound forms of immediate inference",
+   "schema:url": {
+    "@id": "https://etc.usf.edu/lit2go/189/deductive-logic/3910/part-3-chapter-6/"
    }
   },
   {
