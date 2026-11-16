@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:gish-gallop` | cto:InformalFallacy |
 | `ct:hot-hand-fallacy` | cto:ProbabilisticFallacy |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
@@ -51,7 +50,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:self-affirmation` | 2 | Biased assimilation, Motivated reasoning |
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 
-…and 35 more.
+…and 36 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -106,7 +105,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:prospect-theory` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
 | `ct:recognition-heuristic` | contested | `ct:basehore-anderson-2016-recognition-tests` |
 
-…and 72 more.
+…and 73 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -153,7 +152,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:myside-bias` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 
-…and 26 more.
+…and 27 more.
 
 ## Orphan articles (gap)
 

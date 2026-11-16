@@ -26355,6 +26355,79 @@
   ]
  },
  {
+  "id": "ct:technique-rebuttal",
+  "title": "Technique rebuttal",
+  "aliases": [
+   "technique-based rebuttal",
+   "technique-based correction",
+   "logic-based correction"
+  ],
+  "type": "Technique",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/technique-rebuttal.md",
+  "created": "2026-11-16",
+  "summary": "Answering a misleading or denialist argument after it has been made by exposing the rhetorical technique or reasoning flaw it relies on, such as cherry-picking or impossible expectations, rather than (or as well as) correcting the specific factual claims.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:brandolinis-law"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:misinformation-and-disinformation",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:gish-gallop",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:schmid-betsch-2019-rebutting-science-denialism",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:prebunking",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.nature.com/articles/s41562-019-0632-4",
+   "https://www.bps.org.uk/research-digest/researchers-conducted-six-studies-investigate-how-best-challenge-science-deniers",
+   "https://www.scientificamerican.com/article/how-to-debate-a-science-denier/",
+   "https://www.scientificamerican.com/article/trumps-weird-debate-strategies-come-from-creationist-tactics/",
+   "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/9230905a-6f50-4f7e-9a67-d5a07342d869/content",
+   "https://crankyuncle.com/which-counters-misinformation-better-facts-or-logic/",
+   "https://climatecommunication.gmu.edu/all/testing-logic-based-and-humor-based-corrections-for-science-health-and-political-misinformation-on-social-media/",
+   "https://www.geol.umd.edu/sgc/lectures/fallacies.html"
+  ]
+ },
+ {
   "id": "ct:testimony",
   "title": "Testimony",
   "aliases": [

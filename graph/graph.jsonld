@@ -24665,6 +24665,86 @@
    ]
   },
   {
+   "@id": "ct:technique-rebuttal",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:prebunking"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:gish-gallop"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:schmid-betsch-2019-rebutting-science-denialism"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/evidence-and-information-literacy/technique-rebuttal.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:informal-fallacy"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s7"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s8"
+    }
+   ],
+   "rdfs:label": "Technique rebuttal",
+   "skos:altLabel": [
+    "logic-based correction",
+    "technique-based correction",
+    "technique-based rebuttal"
+   ],
+   "skos:broader": {
+    "@id": "ct:debunking"
+   },
+   "skos:definition": "Answering a misleading or denialist argument after it has been made by exposing the rhetorical technique or reasoning flaw it relies on, such as cherry-picking or impossible expectations, rather than (or as well as) correcting the specific factual claims.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Technique rebuttal",
+   "skos:related": [
+    {
+     "@id": "ct:brandolinis-law"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:prebunking"
+    }
+   ]
+  },
+  {
    "@id": "ct:testimony",
    "@type": "cto:Concept",
    "cto:domain": "philosophy-of-reasoning",
@@ -51614,6 +51694,118 @@
    "dcterms:title": "Bounded Rationality",
    "schema:url": {
     "@id": "https://plato.stanford.edu/ENTRIES/bounded-rationality/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Nature Human Behaviour 3, 931–939 (Schmid & Betsch, 2019)",
+   "dcterms:title": "Effective strategies for rebutting science denialism in public discussions",
+   "schema:url": {
+    "@id": "https://www.nature.com/articles/s41562-019-0632-4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "British Psychological Society, Research Digest",
+   "dcterms:title": "Researchers conducted six studies to investigate how best to challenge science deniers",
+   "schema:url": {
+    "@id": "https://www.bps.org.uk/research-digest/researchers-conducted-six-studies-investigate-how-best-challenge-science-deniers"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Scientific American (2019)",
+   "dcterms:title": "How to Debate a Science Denier",
+   "schema:url": {
+    "@id": "https://www.scientificamerican.com/article/how-to-debate-a-science-denier/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Scientific American (opinion, 2024)",
+   "dcterms:title": "Trump's Weird Debate Strategies Come from Creationist Tactics",
+   "schema:url": {
+    "@id": "https://www.scientificamerican.com/article/trumps-weird-debate-strategies-come-from-creationist-tactics/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Scientific Reports 14, 27647 (Zanartu, Cook, Wagner & García, 2024)",
+   "dcterms:title": "A technocognitive approach to detecting fallacies in climate misinformation",
+   "schema:url": {
+    "@id": "https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/9230905a-6f50-4f7e-9a67-d5a07342d869/content"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Cranky Uncle (John Cook, 4 June 2020)",
+   "dcterms:title": "Which counters misinformation better: facts or logic?",
+   "schema:url": {
+    "@id": "https://crankyuncle.com/which-counters-misinformation-better-facts-or-logic/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "George Mason University Center for Climate Change Communication (2019)",
+   "dcterms:title": "Testing Logic-based and Humor-based Corrections for Science, Health, and Political Misinformation on Social Media",
+   "schema:url": {
+    "@id": "https://climatecommunication.gmu.edu/all/testing-logic-based-and-humor-based-corrections-for-science-health-and-political-misinformation-on-social-media/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s8",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Thomas R. Holtz Jr., Science and Global Change program, University of Maryland",
+   "dcterms:title": "CPSG100 First Year Colloquium I: Argumentation and Logical Fallacies",
+   "schema:url": {
+    "@id": "https://www.geol.umd.edu/sgc/lectures/fallacies.html"
    }
   },
   {

@@ -19003,6 +19003,54 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/take-the-best/s5> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/bounded-rationality/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s1> <http://purl.org/dc/terms/publisher> "Nature Human Behaviour 3, 931–939 (Schmid & Betsch, 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s1> <http://purl.org/dc/terms/title> "Effective strategies for rebutting science denialism in public discussions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s1> <https://schema.org/url> <https://www.nature.com/articles/s41562-019-0632-4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s2> <http://purl.org/dc/terms/publisher> "British Psychological Society, Research Digest" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s2> <http://purl.org/dc/terms/title> "Researchers conducted six studies to investigate how best to challenge science deniers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s2> <https://schema.org/url> <https://www.bps.org.uk/research-digest/researchers-conducted-six-studies-investigate-how-best-challenge-science-deniers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s3> <http://purl.org/dc/terms/publisher> "Scientific American (2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s3> <http://purl.org/dc/terms/title> "How to Debate a Science Denier" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s3> <https://schema.org/url> <https://www.scientificamerican.com/article/how-to-debate-a-science-denier/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s4> <http://purl.org/dc/terms/publisher> "Scientific American (opinion, 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s4> <http://purl.org/dc/terms/title> "Trump's Weird Debate Strategies Come from Creationist Tactics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s4> <https://schema.org/url> <https://www.scientificamerican.com/article/trumps-weird-debate-strategies-come-from-creationist-tactics/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s5> <http://purl.org/dc/terms/publisher> "Scientific Reports 14, 27647 (Zanartu, Cook, Wagner & García, 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s5> <http://purl.org/dc/terms/title> "A technocognitive approach to detecting fallacies in climate misinformation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s5> <https://schema.org/url> <https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/9230905a-6f50-4f7e-9a67-d5a07342d869/content> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s6> <http://purl.org/dc/terms/publisher> "Cranky Uncle (John Cook, 4 June 2020)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s6> <http://purl.org/dc/terms/title> "Which counters misinformation better: facts or logic?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s6> <https://schema.org/url> <https://crankyuncle.com/which-counters-misinformation-better-facts-or-logic/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s7> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s7> <http://purl.org/dc/terms/publisher> "George Mason University Center for Climate Change Communication (2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s7> <http://purl.org/dc/terms/title> "Testing Logic-based and Humor-based Corrections for Science, Health, and Political Misinformation on Social Media" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s7> <https://schema.org/url> <https://climatecommunication.gmu.edu/all/testing-logic-based-and-humor-based-corrections-for-science-health-and-political-misinformation-on-social-media/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s8> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s8> <http://purl.org/dc/terms/publisher> "Thomas R. Holtz Jr., Science and Global Change program, University of Maryland" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s8> <http://purl.org/dc/terms/title> "CPSG100 First Year Colloquium I: Argumentation and Logical Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s8> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s8> <https://schema.org/url> <https://www.geol.umd.edu/sgc/lectures/fallacies.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Nick Leonard, first published 2021)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/testimony/s1> <http://purl.org/dc/terms/title> "Epistemological Problems of Testimony" .
@@ -20285,6 +20333,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/gigerenzer-brighton-2009-homo-heuristicus> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2000/01/rdf-schema#label> "Technique rebuttal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#altLabel> "logic-based correction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#altLabel> "technique-based correction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#altLabel> "technique-based rebuttal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#definition> "Answering a misleading or denialist argument after it has been made by exposing the rhetorical technique or reasoning flaw it relies on, such as cherry-picking or impossible expectations, rather than (or as well as) correcting the specific factual claims." .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Technique rebuttal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/brandolinis-law> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/technique-rebuttal/s8> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/schmid-betsch-2019-rebutting-science-denialism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/technique-rebuttal.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/testimony> <http://www.w3.org/2000/01/rdf-schema#label> "Testimony" .
