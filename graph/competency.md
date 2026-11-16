@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:hot-hand-fallacy` | cto:ProbabilisticFallacy |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
@@ -50,7 +49,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:self-affirmation` | 2 | Biased assimilation, Motivated reasoning |
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 
-…and 36 more.
+…and 37 more.
 
 ## Heuristic -> bias -> remedy chains
 

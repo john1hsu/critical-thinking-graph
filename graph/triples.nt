@@ -9880,6 +9880,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
 <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2000/01/rdf-schema#label> "Runs test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Wald-Wolfowitz runs test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Wald–Wolfowitz test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#altLabel> "one-sample runs test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#altLabel> "runs test for randomness" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#definition> "A nonparametric significance test that counts the runs (unbroken stretches of the same outcome) in a two-valued sequence and compares the count with what a random process would produce, so that too few runs signals streakiness and too many signals alternation." .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#prefLabel> "Runs test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-process-control> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/hot-hand-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/runs-test.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-wald> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jacob-wolfowitz> .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/runs-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> <http://www.w3.org/2000/01/rdf-schema#label> "Sarah Lichtenstein" .
@@ -18114,6 +18146,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/rules-of-the-categorical-syllogism/s5> <https://schema.org/url> <https://mail.philosophypages.com/lg/e08b.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s1> <http://purl.org/dc/terms/publisher> "NIST/SEMATECH e-Handbook of Statistical Methods, National Institute of Standards and Technology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s1> <http://purl.org/dc/terms/title> "Runs Test for Detecting Non-randomness (section 1.3.5.13)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s1> <https://schema.org/url> <https://itl.nist.gov/div898/handbook/eda/section3/eda35d.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s2> <http://purl.org/dc/terms/publisher> "The SAGE Encyclopedia of Social Science Research Methods (Lewis-Beck, Bryman & Liao, eds.), SAGE Publications" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s2> <http://purl.org/dc/terms/title> "Wald-Wolfowitz Test" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s2> <https://schema.org/url> <https://sk.sagepub.com/ency/edvol/embed/socialscience/chpt/waldwolfowitz-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s3> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center, Random Bit Generation project" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s3> <http://purl.org/dc/terms/title> "Guide to the Statistical Tests (NIST SP 800-22 test suite)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s3> <https://schema.org/url> <https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software/guide-to-the-statistical-tests> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s4> <http://purl.org/dc/terms/publisher> "Psychonomic Bulletin & Review 2(2), 260-265 (Gilden & Gray Wilson, 1995), University of Colorado course-reading copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s4> <http://purl.org/dc/terms/title> "Streaks in skilled performance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s4> <https://schema.org/url> <https://home.cs.colorado.edu/~mozer/Teaching/syllabi/7782/readings/gilden%20wilson%20pbr.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s5> <http://purl.org/dc/terms/publisher> "Econometrica 86(6), 2019-2047 (Miller & Sanjurjo, 2018), arXiv author copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s5> <http://purl.org/dc/terms/title> "Surprised by the Hot Hand Fallacy? A Truth in the Law of Small Numbers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s5> <https://schema.org/url> <https://arxiv.org/pdf/1902.01265> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s6> <http://purl.org/dc/terms/publisher> "Applied Statistics in Healthcare Research (Montelpare et al., 2020), University of Prince Edward Island Robertson Library Pressbooks" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s6> <http://purl.org/dc/terms/title> "Computing the Z Statistic for the One Sample Runs Test (chapter 25)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/runs-test/s6> <https://schema.org/url> <https://pressbooks.library.upei.ca/montelpare/?p=594> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> <http://purl.org/dc/terms/publisher> "Decision Research, Eugene, Oregon" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sarah-lichtenstein/s1> <http://purl.org/dc/terms/title> "About Decision Research" .

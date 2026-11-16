@@ -23517,6 +23517,90 @@
   ]
  },
  {
+  "id": "ct:runs-test",
+  "title": "Runs test",
+  "aliases": [
+   "Wald-Wolfowitz runs test",
+   "Wald–Wolfowitz test",
+   "one-sample runs test",
+   "runs test for randomness"
+  ],
+  "type": "Method",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/runs-test.md",
+  "created": "2026-11-16",
+  "summary": "A nonparametric significance test that counts the runs (unbroken stretches of the same outcome) in a two-valued sequence and compares the count with what a random process would produce, so that too few runs signals streakiness and too many signals alternation.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hot-hand-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:law-of-small-numbers"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correcting-erroneous-perceptions-of-randomness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:power-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:hot-hand-fallacy",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:abraham-wald",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:jacob-wolfowitz",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:statistical-process-control",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://itl.nist.gov/div898/handbook/eda/section3/eda35d.htm",
+   "https://sk.sagepub.com/ency/edvol/embed/socialscience/chpt/waldwolfowitz-test",
+   "https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software/guide-to-the-statistical-tests",
+   "https://home.cs.colorado.edu/~mozer/Teaching/syllabi/7782/readings/gilden%20wilson%20pbr.pdf",
+   "https://arxiv.org/pdf/1902.01265",
+   "https://pressbooks.library.upei.ca/montelpare/?p=594"
+  ]
+ },
+ {
   "id": "ct:sarah-lichtenstein",
   "title": "Sarah Lichtenstein",
   "aliases": [

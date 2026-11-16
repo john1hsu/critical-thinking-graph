@@ -25,7 +25,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.54 | `ct:informal-fallacy` | `ct:presumption` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-evaluation`, `ct:argument-from-expert-opinion`, `ct:argument-from-ignorance` |
 | 3.54 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
 | 3.51 | `ct:square-of-opposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:formal-logic`, `ct:illicit-contraposition` |
-| 3.49 | `ct:conditional-probability` | `ct:judgment-and-decision-making` | `ct:base-rate-neglect`, `ct:cognitive-psychology`, `ct:conjunction-fallacy`, `ct:decision-analysis`, `ct:gamblers-fallacy` |
+| 3.47 | `ct:conditional-probability` | `ct:judgment-and-decision-making` | `ct:base-rate-neglect`, `ct:cognitive-psychology`, `ct:conjunction-fallacy`, `ct:decision-analysis`, `ct:gamblers-fallacy` |
 | 3.46 | `ct:method-of-counterexample` | `ct:square-of-opposition` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.43 | `ct:disjunctive-syllogism` | `ct:liar-paradox` | `ct:chrysippus`, `ct:paraconsistent-logic`, `ct:principle-of-explosion`, `ct:propositional-logic`, `ct:stoic-logic` |
 | 3.43 | `ct:categorical-syllogism` | `ct:formal-fallacy` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy`, `ct:fallacy-of-four-terms` |
