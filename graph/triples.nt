@@ -6150,6 +6150,81 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> .
 <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which event is the probability conditioned on, and is that the event we actually know has happened?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Is the quoted figure the chance of the evidence given the hypothesis, or the chance of the hypothesis given the evidence?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "How common is the hypothesis before any evidence comes in?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "How often does the same evidence turn up when the hypothesis is false?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "If we restate the numbers as counts out of a concrete group, what fraction of the positives are true positives?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So there is a 90% chance this supplier email is phishing." .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The 90% figure is P(alert | phishing), not P(phishing | alert); the answer also depends on how rare phishing is and how often clean mail trips the alert." .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "If 1 in 100 emails is phishing and 5% of clean emails trigger the alert, then of 1,000 emails about 9 phishing and about 50 clean ones are flagged, so only about 15% of alerts are phishing." .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "Our security vendor reports that 90% of phishing emails trigger its 'suspicious link' alert." .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "This email from a supplier triggered the alert." .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ProbabilisticFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2000/01/rdf-schema#label> "Confusion of the inverse" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "inverse fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "inverse probability error" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "transposed conditional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "transposing the conditional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#definition> "The error of treating a conditional probability P(A | B) as if it equalled its inverse P(B | A), for example reading the chance that a test is positive given a disease as the chance of the disease given a positive test." .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Confusion of the inverse" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/likelihood-ratio> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prosecutors-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/eddy-1982-mammography-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/villejoubert-mandel-2002-inverse-fallacy-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/inverse-fallacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/james-frederick-ferrier> <http://www.w3.org/2000/01/rdf-schema#label> "James Frederick Ferrier" .
@@ -14804,6 +14879,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s5> <https://schema.org/url> <https://cambridge.org/core/services/aop-cambridge-core/content/view/1530E9DAE8F42B2E8FC2B5FE374DB50F/S1930297500006628a.pdf/boosting-intelligence-analysts-judgment-accuracy-what-works-what-fails.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s1> <http://purl.org/dc/terms/publisher> "Memory & Cognition 30(2), 171-178 (Villejoubert & Mandel, 2002)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s1> <http://purl.org/dc/terms/title> "The inverse fallacy: An account of deviations from Bayes's theorem and the additivity principle" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s1> <https://schema.org/url> <https://link.springer.com/article/10.3758%2FBF03195278?LI=true> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s2> <http://purl.org/dc/terms/publisher> "Judgment under Uncertainty: Heuristics and Biases, ch. 18, pp. 249-267, Cambridge University Press (Eddy, 1982)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s2> <http://purl.org/dc/terms/title> "Probabilistic reasoning in clinical medicine: Problems and opportunities" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s2> <https://schema.org/url> <https://www.cambridge.org/core/books/abs/judgment-under-uncertainty/probabilistic-reasoning-in-clinical-medicine-problems-and-opportunities/661E12D1ECD669EDB5B410407A4BB570> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s3> <http://purl.org/dc/terms/publisher> "Experts in Science and Society, pp. 249-268, Kluwer (Hoffrage & Gigerenzer, 2004), Max Planck Society repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s3> <http://purl.org/dc/terms/title> "How to improve the diagnostic inferences of medical experts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s3> <https://schema.org/url> <https://pure.mpg.de/pubman/item/item_2101266_7/component/file_2563079/az0400101.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s4> <http://purl.org/dc/terms/publisher> "The American Statistician 70(2), 129-133 (Wasserstein & Lazar, 2016), UC Berkeley course copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s4> <http://purl.org/dc/terms/title> "The ASA's statement on p-values: Context, process, and purpose" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s4> <https://schema.org/url> <https://www.stat.berkeley.edu/%7Ealdous/Real_World/ASA_statement.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Jenny Keefe)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/james-frederick-ferrier/s1> <http://purl.org/dc/terms/title> "James Frederick Ferrier (1808-1864)" .

@@ -11,6 +11,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | `ct:gish-gallop` | cto:InformalFallacy |
 | `ct:hot-hand-fallacy` | cto:ProbabilisticFallacy |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
+| `ct:inverse-fallacy` | cto:ProbabilisticFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
 
@@ -143,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
+| `ct:inverse-fallacy` | cto:ProbabilisticFallacy |
 | `ct:legal-reasoning` | cto:Field |
 | `ct:logical-consistency` | cto:Concept |
 | `ct:logical-necessity-instructions` | cto:Technique |
@@ -151,9 +153,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:myside-bias` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 | `ct:philosophy-of-language` | cto:Field |
-| `ct:philosophy-of-science` | cto:Field |
 
-…and 23 more.
+…and 24 more.
 
 ## Orphan articles (gap)
 

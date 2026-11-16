@@ -430,6 +430,17 @@ flowchart TD
   o2["Rolling back the index and watching the timeouts is a test the inference recommends, not one it replaces."] -. attacks .-> ra
 ```
 
+## Confusion of the inverse (`ct:inverse-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["Our security vendor reports that 90% of phishing emails trigger its 'suspicious link' alert."] --> ra{{"fallacious"}}
+  p2["This email from a supplier triggered the alert."] --> ra{{"fallacious"}}
+  ra --> c["So there is a 90% chance this supplier email is phishing."]
+  o1["The 90% figure is P(alert | phishing), not P(phishing | alert); the answer also depends on how rare phishing is and how often clean mail trips the alert."] -. attacks .-> ra
+  o2["If 1 in 100 emails is phishing and 5% of clean emails trigger the alert, then of 1,000 emails about 9 phishing and about 50 clean ones are flagged, so only about 15% of alerts are phishing."] -. attacks .-> ra
+```
+
 ## Masked-man fallacy (`ct:masked-man-fallacy`)
 
 ```mermaid

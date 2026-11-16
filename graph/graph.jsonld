@@ -12973,6 +12973,101 @@
    ]
   },
   {
+   "@id": "ct:inverse-fallacy",
+   "@type": "cto:ProbabilisticFallacy",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    }
+   ],
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:eddy-1982-mammography-study"
+    },
+    {
+     "@id": "ct:villejoubert-mandel-2002-inverse-fallacy-study"
+    }
+   ],
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map"
+   },
+   "cto:file": "articles/probabilistic-reasoning/inverse-fallacy.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s4"
+    }
+   ],
+   "rdfs:label": "Confusion of the inverse",
+   "skos:altLabel": [
+    "inverse fallacy",
+    "inverse probability error",
+    "transposed conditional",
+    "transposing the conditional"
+   ],
+   "skos:broader": {
+    "@id": "ct:probabilistic-fallacy"
+   },
+   "skos:definition": "The error of treating a conditional probability P(A | B) as if it equalled its inverse P(B | A), for example reading the chance that a test is positive given a disease as the chance of the disease given a positive test.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Confusion of the inverse",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:illicit-conversion"
+    },
+    {
+     "@id": "ct:likelihood-ratio"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    },
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:prosecutors-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:james-frederick-ferrier",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -30073,6 +30168,120 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:inverse-fallacy"
+   },
+   "rdfs:label": "Which event is the probability conditioned on, and is that the event we actually know has happened?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:inverse-fallacy"
+   },
+   "rdfs:label": "Is the quoted figure the chance of the evidence given the hypothesis, or the chance of the hypothesis given the evidence?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:inverse-fallacy"
+   },
+   "rdfs:label": "How common is the hypothesis before any evidence comes in?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:inverse-fallacy"
+   },
+   "rdfs:label": "How often does the same evidence turn up when the hypothesis is false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:inverse-fallacy"
+   },
+   "rdfs:label": "If we restate the numbers as counts out of a concrete group, what fraction of the positives are true positives?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:inverse-fallacy"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So there is a 90% chance this supplier email is phishing."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The 90% figure is P(alert | phishing), not P(phishing | alert); the answer also depends on how rare phishing is and how often clean mail trips the alert."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "If 1 in 100 emails is phishing and 5% of clean emails trigger the alert, then of 1,000 emails about 9 phishing and about 50 clean ones are flagged, so only about 15% of alerts are phishing."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Our security vendor reports that 90% of phishing emails trigger its 'suspicious link' alert."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "This email from a supplier triggered the alert."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:bayesian-reasoning"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -41688,6 +41897,62 @@
    "dcterms:title": "Boosting intelligence analysts' judgment accuracy: What works, what fails?",
    "schema:url": {
     "@id": "https://cambridge.org/core/services/aop-cambridge-core/content/view/1530E9DAE8F42B2E8FC2B5FE374DB50F/S1930297500006628a.pdf/boosting-intelligence-analysts-judgment-accuracy-what-works-what-fails.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Memory & Cognition 30(2), 171-178 (Villejoubert & Mandel, 2002)",
+   "dcterms:title": "The inverse fallacy: An account of deviations from Bayes's theorem and the additivity principle",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.3758%2FBF03195278?LI=true"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Judgment under Uncertainty: Heuristics and Biases, ch. 18, pp. 249-267, Cambridge University Press (Eddy, 1982)",
+   "dcterms:title": "Probabilistic reasoning in clinical medicine: Problems and opportunities",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/abs/judgment-under-uncertainty/probabilistic-reasoning-in-clinical-medicine-problems-and-opportunities/661E12D1ECD669EDB5B410407A4BB570"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Experts in Science and Society, pp. 249-268, Kluwer (Hoffrage & Gigerenzer, 2004), Max Planck Society repository",
+   "dcterms:title": "How to improve the diagnostic inferences of medical experts",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2101266_7/component/file_2563079/az0400101.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/inverse-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "The American Statistician 70(2), 129-133 (Wasserstein & Lazar, 2016), UC Berkeley course copy",
+   "dcterms:title": "The ASA's statement on p-values: Context, process, and purpose",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/%7Ealdous/Real_World/ASA_statement.pdf"
    }
   },
   {

@@ -13943,6 +13943,112 @@
   ]
  },
  {
+  "id": "ct:inverse-fallacy",
+  "title": "Confusion of the inverse",
+  "aliases": [
+   "inverse fallacy",
+   "transposed conditional",
+   "transposing the conditional",
+   "inverse probability error"
+  ],
+  "type": "ProbabilisticFallacy",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/inverse-fallacy.md",
+  "created": "2026-11-16",
+  "summary": "The error of treating a conditional probability P(A | B) as if it equalled its inverse P(B | A), for example reading the chance that a test is positive given a disease as the chance of the disease given a positive test.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:probabilistic-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prosecutors-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:likelihood-ratio"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-conversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gerd-gigerenzer"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:base-rate-neglect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:villejoubert-mandel-2002-inverse-fallacy-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:eddy-1982-mammography-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:bayesian-reasoning",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Which event is the probability conditioned on, and is that the event we actually know has happened?",
+   "Is the quoted figure the chance of the evidence given the hypothesis, or the chance of the hypothesis given the evidence?",
+   "How common is the hypothesis before any evidence comes in?",
+   "How often does the same evidence turn up when the hypothesis is false?",
+   "If we restate the numbers as counts out of a concrete group, what fraction of the positives are true positives?"
+  ],
+  "source_urls": [
+   "https://link.springer.com/article/10.3758%2FBF03195278?LI=true",
+   "https://www.cambridge.org/core/books/abs/judgment-under-uncertainty/probabilistic-reasoning-in-clinical-medicine-problems-and-opportunities/661E12D1ECD669EDB5B410407A4BB570",
+   "https://pure.mpg.de/pubman/item/item_2101266_7/component/file_2563079/az0400101.pdf",
+   "https://www.stat.berkeley.edu/%7Ealdous/Real_World/ASA_statement.pdf"
+  ]
+ },
+ {
   "id": "ct:james-frederick-ferrier",
   "title": "James Frederick Ferrier",
   "aliases": [
