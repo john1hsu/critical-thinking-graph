@@ -9214,6 +9214,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2000/01/rdf-schema#label> "Processing fluency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#altLabel> "cognitive fluency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#altLabel> "fluency effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#altLabel> "metacognitive fluency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#definition> "The subjective ease or difficulty of processing information, a feeling that people use as a cue when they judge whether something is true, familiar, frequent, likeable or trustworthy, often without noticing where the ease came from." .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#prefLabel> "Processing fluency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ease-of-retrieval-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illusory-truth-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mere-exposure-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/recognition-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/meyer-2015-disfluent-fonts-replication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/reber-schwarz-1999-perceptual-fluency-truth-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "heuristics-and-dual-process" .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/heuristics-and-dual-process/processing-fluency.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/dechene-2010-truth-effect-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
 <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> <http://www.w3.org/2000/01/rdf-schema#label> "Propositional logic" .
@@ -17867,6 +17900,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2019/entries/goodman/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> <http://purl.org/dc/terms/publisher> "Trends in Cognitive Sciences 12(6), 237-241 (Oppenheimer, 2008), hosted copy at UNC Wilmington" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> <http://purl.org/dc/terms/title> "The secret life of fluency" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> <https://schema.org/url> <https://people.uncw.edu/tothj/Extra-Credit-Papers/Oppenheimer-The%20Secret%20Life%20of%20Fluency-TICS-2008.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s2> <http://purl.org/dc/terms/publisher> "Personality and Social Psychology Review 8(4), 364-382 (Reber, Schwarz & Winkielman, 2004), author's copy at UC San Diego" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s2> <http://purl.org/dc/terms/title> "Processing fluency and aesthetic pleasure: Is beauty in the perceiver's processing experience?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s2> <https://schema.org/url> <https://pages.ucsd.edu/~pwinkielman/reber-schwarz-winkielman-beauty-PSPR-2004.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s3> <http://purl.org/dc/terms/publisher> "Personality and Social Psychology Review 14(2), 238-257 (Dechêne, Stahl, Hansen & Wänke, 2010), record at University of Basel" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s3> <http://purl.org/dc/terms/title> "The truth about the truth: A meta-analytic review of the truth effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s3> <https://schema.org/url> <https://edoc.unibas.ch/10139> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s4> <http://purl.org/dc/terms/publisher> "Journal of Experimental Psychology General 144(2), e16-e30 (Meyer, Frederick et al., 2015), record at Georgia Southern University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s4> <http://purl.org/dc/terms/title> "Disfluent fonts don't help people solve math problems" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s4> <https://schema.org/url> <https://digitalcommons.georgiasouthern.edu/psych-facpubs/85> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s5> <http://purl.org/dc/terms/publisher> "Dædalus 135(2), American Academy of Arts & Sciences (Schwarz, 2006)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s5> <http://purl.org/dc/terms/title> "On judgments of truth & beauty" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s5> <https://schema.org/url> <https://www.amacad.org/publication/judgments-truth-beauty> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Kevin C. Klement)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/propositional-logic/s1> <http://purl.org/dc/terms/title> "Propositional Logic" .

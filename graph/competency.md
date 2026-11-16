@@ -103,7 +103,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:mental-model-theory` | contested | `ct:the-psychology-of-proof` |
 | `ct:null-hypothesis-significance-testing` | contested | `ct:amrhein-2019-retire-statistical-significance` |
 
-…and 78 more.
+…and 79 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -150,7 +150,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:myside-bias` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
 
-…and 30 more.
+…and 31 more.
 
 ## Orphan articles (gap)
 

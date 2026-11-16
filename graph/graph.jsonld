@@ -20309,6 +20309,93 @@
    ]
   },
   {
+   "@id": "ct:processing-fluency",
+   "@type": "cto:Phenomenon",
+   "cto:challengedBy": {
+    "@id": "ct:meyer-2015-disfluent-fonts-replication"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:reber-schwarz-1999-perceptual-fluency-truth-study"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/heuristics-and-dual-process/processing-fluency.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:metacognition"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:dechene-2010-truth-effect-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s5"
+    }
+   ],
+   "rdfs:label": "Processing fluency",
+   "skos:altLabel": [
+    "cognitive fluency",
+    "fluency effect",
+    "metacognitive fluency"
+   ],
+   "skos:broader": {
+    "@id": "ct:metacognition"
+   },
+   "skos:definition": "The subjective ease or difficulty of processing information, a feeling that people use as a cue when they judge whether something is true, familiar, frequent, likeable or trustworthy, often without noticing where the ease came from.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Processing fluency",
+   "skos:related": [
+    {
+     "@id": "ct:attribute-substitution"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:ease-of-retrieval-effect"
+    },
+    {
+     "@id": "ct:hindsight-bias"
+    },
+    {
+     "@id": "ct:illusory-truth-effect"
+    },
+    {
+     "@id": "ct:mere-exposure-effect"
+    },
+    {
+     "@id": "ct:recognition-heuristic"
+    },
+    {
+     "@id": "ct:source-monitoring-framework"
+    }
+   ]
+  },
+  {
    "@id": "ct:propositional-logic",
    "@type": "cto:Field",
    "cto:appliedIn": {
@@ -49187,6 +49274,76 @@
    "dcterms:title": "Nelson Goodman",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2019/entries/goodman/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Trends in Cognitive Sciences 12(6), 237-241 (Oppenheimer, 2008), hosted copy at UNC Wilmington",
+   "dcterms:title": "The secret life of fluency",
+   "schema:url": {
+    "@id": "https://people.uncw.edu/tothj/Extra-Credit-Papers/Oppenheimer-The%20Secret%20Life%20of%20Fluency-TICS-2008.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Review 8(4), 364-382 (Reber, Schwarz & Winkielman, 2004), author's copy at UC San Diego",
+   "dcterms:title": "Processing fluency and aesthetic pleasure: Is beauty in the perceiver's processing experience?",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~pwinkielman/reber-schwarz-winkielman-beauty-PSPR-2004.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Review 14(2), 238-257 (Dechêne, Stahl, Hansen & Wänke, 2010), record at University of Basel",
+   "dcterms:title": "The truth about the truth: A meta-analytic review of the truth effect",
+   "schema:url": {
+    "@id": "https://edoc.unibas.ch/10139"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology General 144(2), e16-e30 (Meyer, Frederick et al., 2015), record at Georgia Southern University",
+   "dcterms:title": "Disfluent fonts don't help people solve math problems",
+   "schema:url": {
+    "@id": "https://digitalcommons.georgiasouthern.edu/psych-facpubs/85"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Dædalus 135(2), American Academy of Arts & Sciences (Schwarz, 2006)",
+   "dcterms:title": "On judgments of truth & beauty",
+   "schema:url": {
+    "@id": "https://www.amacad.org/publication/judgments-truth-beauty"
    }
   },
   {

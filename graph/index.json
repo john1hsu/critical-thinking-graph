@@ -21740,6 +21740,100 @@
   ]
  },
  {
+  "id": "ct:processing-fluency",
+  "title": "Processing fluency",
+  "aliases": [
+   "cognitive fluency",
+   "metacognitive fluency",
+   "fluency effect"
+  ],
+  "type": "Phenomenon",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/heuristics-and-dual-process/processing-fluency.md",
+  "created": "2026-11-16",
+  "summary": "The subjective ease or difficulty of processing information, a feeling that people use as a cue when they judge whether something is true, familiar, frequent, likeable or trustworthy, often without noticing where the ease came from.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illusory-truth-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:recognition-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ease-of-retrieval-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:attribute-substitution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hindsight-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-monitoring-framework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mere-exposure-effect"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:reber-schwarz-1999-perceptual-fluency-truth-study",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:dechene-2010-truth-effect-meta-analysis",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:meyer-2015-disfluent-fonts-replication",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://people.uncw.edu/tothj/Extra-Credit-Papers/Oppenheimer-The%20Secret%20Life%20of%20Fluency-TICS-2008.pdf",
+   "https://pages.ucsd.edu/~pwinkielman/reber-schwarz-winkielman-beauty-PSPR-2004.pdf",
+   "https://edoc.unibas.ch/10139",
+   "https://digitalcommons.georgiasouthern.edu/psych-facpubs/85",
+   "https://www.amacad.org/publication/judgments-truth-beauty"
+  ]
+ },
+ {
   "id": "ct:propositional-logic",
   "title": "Propositional logic",
   "aliases": [
