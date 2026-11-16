@@ -11,7 +11,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | `ct:gish-gallop` | cto:InformalFallacy |
 | `ct:hot-hand-fallacy` | cto:ProbabilisticFallacy |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
-| `ct:inverse-fallacy` | cto:ProbabilisticFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
 
@@ -34,6 +33,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:broad-bracketing` | 2 | Loss aversion, myopic-loss-aversion |
 | `ct:carroll-diagram` | 2 | Affirmative conclusion from a negative premise, Undistributed middle |
 | `ct:causal-diagrams` | 2 | Confounding, Selection bias |
+| `ct:contingency-table` | 2 | Confusion of the inverse, causal-illusion |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
@@ -50,9 +50,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:rule-against-conventionalist-stratagems` | 2 | No true Scotsman, pseudoscience |
 | `ct:self-affirmation` | 2 | Biased assimilation, Motivated reasoning |
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
-| `ct:truth-table` | 2 | Affirming a disjunct, Affirming the consequent |
 
-…and 34 more.
+…and 35 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -107,7 +106,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:prospect-theory` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
 | `ct:recognition-heuristic` | contested | `ct:basehore-anderson-2016-recognition-tests` |
 
-…and 71 more.
+…and 72 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -127,6 +126,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:argument-evaluation` | cto:Concept |
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:causal-inference` | cto:Field |
+| `ct:contingency-table` | cto:Technique |
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:decision-theory` | cto:Field |
 | `ct:deepfake` | cto:Phenomenon |
@@ -152,9 +152,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:myside-bias` | cto:CognitiveBias |
 | `ct:necessary-and-sufficient-conditions` | cto:Concept |
-| `ct:philosophy-of-language` | cto:Field |
 
-…and 25 more.
+…and 26 more.
 
 ## Orphan articles (gap)
 

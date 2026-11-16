@@ -2700,6 +2700,43 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/charles-lord> .
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mark-lepper> .
 <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2000/01/rdf-schema#label> "Contingency table" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#altLabel> "2 × 2 table" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#altLabel> "fourfold table" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#altLabel> "two-by-two table" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#definition> "A table that cross-tabulates two yes/no variables so that all four combinations (and their totals) are visible at once, used to judge whether two things are associated and to read conditional probabilities in either direction without confusing one for its inverse." .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contingency table" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/carroll-diagram> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illusory-correlation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/truth-table> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jenkins-ward-1965-contingency-judgment-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/frequency-tree> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/causal-illusion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/contingency-table.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/binder-krauss-bruckmaier-2015-visualization-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> <http://www.w3.org/2000/01/rdf-schema#label> "Correcting erroneous perceptions of randomness" .
@@ -6204,6 +6241,7 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
 <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> .
 <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
 <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/likelihood-ratio> .
@@ -12407,6 +12445,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/consider-the-opposite/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/consider-the-opposite/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/consider-the-opposite/s5> <https://schema.org/url> <https://www.london.edu/faculty-and-research/academic-research/o/overcoming-the-inevitable-anchoring-effect--considering-the-opposi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s1> <http://purl.org/dc/terms/publisher> "Bruckmaier, Binder, Krauss & Kufner, Frontiers in Psychology 10:632 (2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s1> <http://purl.org/dc/terms/title> "An Eye-Tracking Study of Statistical Reasoning With Tree Diagrams and 2 × 2 Tables" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s1> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00632/pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s2> <http://purl.org/dc/terms/publisher> "Binder, Krauss & Bruckmaier, Frontiers in Psychology 6:1186 (2015)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s2> <http://purl.org/dc/terms/title> "Effects of visualizing statistical information – an empirical study on tree diagrams and 2 × 2 tables" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s2> <https://schema.org/url> <https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01186/pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s3> <http://purl.org/dc/terms/publisher> "Barreiro, Del Carpio, Rodríguez-Ferreiro & Barberia, Memory & Cognition 53, 2347–2363 (2025); University of Barcelona repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s3> <http://purl.org/dc/terms/title> "Presentation format influences the strength of causal illusions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s3> <https://schema.org/url> <https://diposit.ub.edu/items/1d41ae70-1740-4000-abcb-84a9cfb0d209/full> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s4> <http://purl.org/dc/terms/publisher> "Jenkins & Ward, Psychological Monographs: General and Applied 79(1), Whole No. 594 (1965)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s4> <http://purl.org/dc/terms/title> "Judgment of Contingency Between Responses and Outcomes" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s4> <https://schema.org/url> <https://pages.ucsd.edu/~mckenzie/Jenkins&Ward1965PsychMonographs.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s5> <http://purl.org/dc/terms/publisher> "Lipe, Center for Decision Research, University of Chicago (Office of Naval Research technical report, 1982)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s5> <http://purl.org/dc/terms/title> "A Cross-Study Analysis of Covariation Judgments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s5> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/ADA136989.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s6> <http://purl.org/dc/terms/publisher> "J. D. North, Complete Dictionary of Scientific Biography (2008), via MacTutor, University of St Andrews" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s6> <http://purl.org/dc/terms/title> "Yule, George Udny" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s6> <https://schema.org/url> <https://mathshistory.st-andrews.ac.uk/DSB/Yule.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s1> <http://purl.org/dc/terms/publisher> "Journal of Nervous and Mental Disease 189(11), 774-780 (Ladouceur et al., 2001), ACNP journal index record" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/correcting-erroneous-perceptions-of-randomness/s1> <http://purl.org/dc/terms/title> "Cognitive treatment of pathological gambling" .

@@ -6085,6 +6085,117 @@
   ]
  },
  {
+  "id": "ct:contingency-table",
+  "title": "Contingency table",
+  "aliases": [
+   "2 × 2 table",
+   "fourfold table",
+   "two-by-two table"
+  ],
+  "type": "Technique",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/probabilistic-reasoning/contingency-table.md",
+  "created": "2026-11-16",
+  "summary": "A table that cross-tabulates two yes/no variables so that all four combinations (and their totals) are visible at once, used to judge whether two things are associated and to read conditional probabilities in either direction without confusing one for its inverse.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inverse-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illusory-correlation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:simpsons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:carroll-diagram"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:inverse-fallacy",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:causal-illusion",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:binder-krauss-bruckmaier-2015-visualization-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:jenkins-ward-1965-contingency-judgment-study",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:frequency-tree",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:george-udny-yule",
+    "source": "s6",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00632/pdf",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01186/pdf",
+   "https://diposit.ub.edu/items/1d41ae70-1740-4000-abcb-84a9cfb0d209/full",
+   "https://pages.ucsd.edu/~mckenzie/Jenkins&Ward1965PsychMonographs.pdf",
+   "https://apps.dtic.mil/sti/pdfs/ADA136989.pdf",
+   "https://mathshistory.st-andrews.ac.uk/DSB/Yule.pdf"
+  ]
+ },
+ {
   "id": "ct:correcting-erroneous-perceptions-of-randomness",
   "title": "Correcting erroneous perceptions of randomness",
   "aliases": [
@@ -13982,6 +14093,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:contingency-table"
    },
    {
     "predicate": "skos:related",

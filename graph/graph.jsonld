@@ -5680,6 +5680,105 @@
    ]
   },
   {
+   "@id": "ct:contingency-table",
+   "@type": "cto:Technique",
+   "cto:challengedBy": {
+    "@id": "ct:jenkins-ward-1965-contingency-judgment-study"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:frequency-tree"
+   },
+   "cto:counteracts": {
+    "@id": "ct:causal-illusion"
+   },
+   "cto:detects": {
+    "@id": "ct:inverse-fallacy"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/probabilistic-reasoning/contingency-table.md",
+   "cto:formalizedBy": {
+    "@id": "ct:george-udny-yule"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:binder-krauss-bruckmaier-2015-visualization-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s6"
+    }
+   ],
+   "rdfs:label": "Contingency table",
+   "skos:altLabel": [
+    "2 × 2 table",
+    "fourfold table",
+    "two-by-two table"
+   ],
+   "skos:broader": {
+    "@id": "ct:statistical-reasoning"
+   },
+   "skos:definition": "A table that cross-tabulates two yes/no variables so that all four combinations (and their totals) are visible at once, used to judge whether two things are associated and to read conditional probabilities in either direction without confusing one for its inverse.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Contingency table",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:bayesian-reasoning"
+    },
+    {
+     "@id": "ct:carroll-diagram"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:illusory-correlation"
+    },
+    {
+     "@id": "ct:inverse-fallacy"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    },
+    {
+     "@id": "ct:simpsons-paradox"
+    },
+    {
+     "@id": "ct:truth-table"
+    }
+   ]
+  },
+  {
    "@id": "ct:correcting-erroneous-perceptions-of-randomness",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -13046,6 +13145,9 @@
     },
     {
      "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:contingency-table"
     },
     {
      "@id": "ct:gerd-gigerenzer"
@@ -36210,6 +36312,90 @@
    "dcterms:title": "Overcoming the inevitable anchoring effect (faculty publication record)",
    "schema:url": {
     "@id": "https://www.london.edu/faculty-and-research/academic-research/o/overcoming-the-inevitable-anchoring-effect--considering-the-opposi"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Bruckmaier, Binder, Krauss & Kufner, Frontiers in Psychology 10:632 (2019)",
+   "dcterms:title": "An Eye-Tracking Study of Statistical Reasoning With Tree Diagrams and 2 × 2 Tables",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00632/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Binder, Krauss & Bruckmaier, Frontiers in Psychology 6:1186 (2015)",
+   "dcterms:title": "Effects of visualizing statistical information – an empirical study on tree diagrams and 2 × 2 tables",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2015.01186/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Barreiro, Del Carpio, Rodríguez-Ferreiro & Barberia, Memory & Cognition 53, 2347–2363 (2025); University of Barcelona repository",
+   "dcterms:title": "Presentation format influences the strength of causal illusions",
+   "schema:url": {
+    "@id": "https://diposit.ub.edu/items/1d41ae70-1740-4000-abcb-84a9cfb0d209/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Jenkins & Ward, Psychological Monographs: General and Applied 79(1), Whole No. 594 (1965)",
+   "dcterms:title": "Judgment of Contingency Between Responses and Outcomes",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mckenzie/Jenkins&Ward1965PsychMonographs.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Lipe, Center for Decision Research, University of Chicago (Office of Naval Research technical report, 1982)",
+   "dcterms:title": "A Cross-Study Analysis of Covariation Judgments",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA136989.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/contingency-table/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "J. D. North, Complete Dictionary of Scientific Biography (2008), via MacTutor, University of St Andrews",
+   "dcterms:title": "Yule, George Udny",
+   "schema:url": {
+    "@id": "https://mathshistory.st-andrews.ac.uk/DSB/Yule.pdf"
    }
   },
   {

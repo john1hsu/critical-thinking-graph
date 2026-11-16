@@ -11,7 +11,7 @@ summary: >-
 level: intermediate
 evidenceStatus: normative
 broader: [ct:probabilistic-fallacy]
-related: [ct:conditional-probability, ct:prosecutors-fallacy, ct:base-rate-neglect, ct:bayesian-reasoning, ct:natural-frequencies, ct:null-hypothesis-significance-testing, ct:likelihood-ratio, ct:illicit-conversion, ct:gerd-gigerenzer]
+related: [ct:conditional-probability, ct:prosecutors-fallacy, ct:base-rate-neglect, ct:bayesian-reasoning, ct:natural-frequencies, ct:contingency-table, ct:null-hypothesis-significance-testing, ct:likelihood-ratio, ct:illicit-conversion, ct:gerd-gigerenzer]
 requires: [ct:conditional-probability]
 relations:
   - {predicate: contrastsWith, object: ct:base-rate-neglect, source: s1, confidence: high}
