@@ -308,6 +308,17 @@ flowchart TD
   o2["The conclusion is weaker than the premise, so it cannot be used to argue back to a single reviewer."] -. attacks .-> ra
 ```
 
+## Fallacy of composition (`ct:fallacy-of-composition`)
+
+```mermaid
+flowchart TD
+  p1["Each of the five engineers moved into the new platform team was the top performer in their previous team."] --> ra{{"fallacious"}}
+  p2["A team made up entirely of top performers has the qualities of a top-performing team."] --> ra{{"fallacious"}}
+  ra --> c["The new platform team will be the company's top-performing team."]
+  o1["Team performance depends on coordination, shared ownership and role coverage, which individual ratings do not measure."] -. attacks .-> ra
+  o2["Five people used to leading may compete for the same work while leaving support roles such as testing and documentation uncovered."] -. attacks .-> ra
+```
+
 ## Fallacy of four terms (`ct:fallacy-of-four-terms`)
 
 ```mermaid

@@ -11134,6 +11134,125 @@
   ]
  },
  {
+  "id": "ct:fallacy-of-composition",
+  "title": "Fallacy of composition",
+  "aliases": [
+   "composition fallacy",
+   "part-to-whole fallacy"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/fallacy-of-composition.md",
+  "created": "2026-11-16",
+  "summary": "The fallacy of inferring that a whole or group has a property because each of its parts or members has it, when the property does not in fact carry over from the parts to the whole.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fallacy-of-ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-division"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-accident"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amphiboly"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-whately"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:paradox-of-thrift"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:fallacy-of-division",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:fallacy-of-ambiguity",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:hasty-generalization",
+    "source": "s7",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:economics",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the property one that adds up or carries over from parts to whole, or does it depend on how the parts are arranged and interact?",
+   "Is the property absolute (true of a thing on its own) or relative (true only in comparison or in context), and does the relative version still apply to the whole?",
+   "Is the conclusion about the members taken one at a time (distributively) or about the group taken as a single unit (collectively)?",
+   "Could the parts' interactions, such as competition, crowding or offsetting effects, make the whole behave differently from any single part?",
+   "Is there independent evidence about the whole itself, rather than only about its parts?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://oasis.library.unlv.edu/philosophy_fac_articles/18/",
+   "https://distantreader.org/stacks/journals/il/il-3892.pdf",
+   "https://rozenbergquarterly.com/issa-proceedings-2014-ubiquity-ambiguity-and-metarationality-searching-for-the-fallacy-of-composition/",
+   "https://pressbooks.pub/introductiontoreasonandargument/?p=110",
+   "https://muddywatermacro.wustl.edu/keynesian-basics/interest-rates-aggregate-demand-the-paradox-of-thrift",
+   "https://read.aupress.ca/read/critical-thinking-logic-and-argument/section/79d847f7-75b3-474e-8e16-2465da141e85"
+  ]
+ },
+ {
   "id": "ct:fallacy-of-four-terms",
   "title": "Fallacy of four terms",
   "aliases": [

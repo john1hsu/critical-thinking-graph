@@ -10373,6 +10373,117 @@
    ]
   },
   {
+   "@id": "ct:fallacy-of-composition",
+   "@type": "cto:InformalFallacy",
+   "cto:appliedIn": {
+    "@id": "ct:economics"
+   },
+   "cto:confusedWith": {
+    "@id": "ct:fallacy-of-division"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:hasty-generalization"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map"
+   },
+   "cto:file": "articles/informal-fallacies/fallacy-of-composition.md",
+   "cto:instanceOf": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s7"
+    }
+   ],
+   "rdfs:label": "Fallacy of composition",
+   "skos:altLabel": [
+    "composition fallacy",
+    "part-to-whole fallacy"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:fallacy-of-ambiguity"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "skos:definition": "The fallacy of inferring that a whole or group has a property because each of its parts or members has it, when the property does not in fact carry over from the parts to the whole.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Fallacy of composition",
+   "skos:related": [
+    {
+     "@id": "ct:amphiboly"
+    },
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:fallacy-of-accident"
+    },
+    {
+     "@id": "ct:fallacy-of-division"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:paradox-of-thrift"
+    },
+    {
+     "@id": "ct:richard-whately"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    }
+   ]
+  },
+  {
    "@id": "ct:fallacy-of-four-terms",
    "@type": "cto:FormalFallacy",
    "cto:contrastsWith": {
@@ -30373,6 +30484,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-composition"
+   },
+   "rdfs:label": "Is the property one that adds up or carries over from parts to whole, or does it depend on how the parts are arranged and interact?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-composition"
+   },
+   "rdfs:label": "Is the property absolute (true of a thing on its own) or relative (true only in comparison or in context), and does the relative version still apply to the whole?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-composition"
+   },
+   "rdfs:label": "Is the conclusion about the members taken one at a time (distributively) or about the group taken as a single unit (collectively)?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-composition"
+   },
+   "rdfs:label": "Could the parts' interactions, such as competition, crowding or offsetting effects, make the whole behave differently from any single part?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-composition"
+   },
+   "rdfs:label": "Is there independent evidence about the whole itself, rather than only about its parts?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:fallacy-of-composition"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "The new platform team will be the company's top-performing team."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Team performance depends on coordination, shared ownership and role coverage, which individual ratings do not measure."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Five people used to leading may compete for the same work while leaving support roles such as testing and documentation uncovered."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Each of the five engineers moved into the new platform team was the top performer in their previous team."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "A team made up entirely of top performers has the qualities of a top-performing team."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -41393,6 +41615,104 @@
    "dcterms:title": "Abduction",
    "schema:url": {
     "@id": "https://plato.stanford.edu/ENTRIES/abduction/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Journal of Applied Logic 13(2) (Finocchiaro, 2015), doi:10.1016/j.jal.2015.01.003, UNLV repository record",
+   "dcterms:title": "The Fallacy of Composition: Guiding Concepts, Historical Cases, and Research Problems",
+   "schema:url": {
+    "@id": "https://oasis.library.unlv.edu/philosophy_fac_articles/18/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Informal Logic 33(2) (Finocchiaro, 2013), pp. 143-174",
+   "dcterms:title": "Debts, Oligarchies, and Holisms: Deconstructing the Fallacy of Composition",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-3892.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2014 (Finocchiaro), republished by Rozenberg Quarterly",
+   "dcterms:title": "Ubiquity, Ambiguity, and Metarationality: Searching for the Fallacy of Composition",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-ubiquity-ambiguity-and-metarationality-searching-for-the-fallacy-of-composition/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "An Introduction to Reason and Argument (Mack), Pressbooks",
+   "dcterms:title": "Chapter 6: Fallacies",
+   "schema:url": {
+    "@id": "https://pressbooks.pub/introductiontoreasonandargument/?p=110"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Muddy Water Macro, Washington University in St. Louis",
+   "dcterms:title": "Interest Rates, Aggregate Demand and the Paradox of Thrift",
+   "schema:url": {
+    "@id": "https://muddywatermacro.wustl.edu/keynesian-basics/interest-rates-aggregate-demand-the-paradox-of-thrift"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Critical Thinking, Logic, and Argument, AU Press (Athabasca University)",
+   "dcterms:title": "Chapter 21: Fallacy Round-Up",
+   "schema:url": {
+    "@id": "https://read.aupress.ca/read/critical-thinking-logic-and-argument/section/79d847f7-75b3-474e-8e16-2465da141e85"
    }
   },
   {
