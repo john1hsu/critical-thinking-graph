@@ -15317,6 +15317,114 @@
    ]
   },
   {
+   "@id": "ct:material-conditional",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:counterfactual-conditional"
+    },
+    {
+     "@id": "ct:strict-conditional"
+    }
+   ],
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/formal-logic/material-conditional.md",
+   "cto:formalizedBy": {
+    "@id": "ct:gottlob-frege"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:philo-the-dialectician"
+   },
+   "cto:level": "introductory",
+   "cto:partOf": {
+    "@id": "ct:propositional-logic"
+   },
+   "cto:requires": {
+    "@id": "ct:truth-table"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s5"
+    }
+   ],
+   "rdfs:label": "Material conditional",
+   "skos:altLabel": [
+    "Philonian conditional",
+    "horseshoe conditional",
+    "material implication",
+    "truth-functional conditional"
+   ],
+   "skos:broader": {
+    "@id": "ct:conditional-statement"
+   },
+   "skos:definition": "The truth-functional \"if P then Q\" of classical logic, written P → Q or P ⊃ Q, which is false only when P is true and Q is false and true in every other case. It is equivalent to \"not-P or Q\".",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Material conditional",
+   "skos:related": [
+    {
+     "@id": "ct:commutation-of-conditionals"
+    },
+    {
+     "@id": "ct:conditional-perfection"
+    },
+    {
+     "@id": "ct:conversational-implicature"
+    },
+    {
+     "@id": "ct:diodorus-cronus"
+    },
+    {
+     "@id": "ct:eliminating-counterexamples"
+    },
+    {
+     "@id": "ct:logical-consequence"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:necessary-and-sufficient-conditions"
+    },
+    {
+     "@id": "ct:sextus-empiricus"
+    },
+    {
+     "@id": "ct:stoic-logic"
+    },
+    {
+     "@id": "ct:truth-table"
+    },
+    {
+     "@id": "ct:wason-selection-task"
+    }
+   ]
+  },
+  {
    "@id": "ct:media-literacy",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -44579,6 +44687,76 @@
    "dcterms:title": "Notes to Insolubles",
    "schema:url": {
     "@id": "https://plato.stanford.edu/entries/insolubles/notes.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hans Rott, 2021)",
+   "dcterms:title": "The Logic of Conditionals",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/logic-conditionals/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Susanne Bobzien, 2004, rev. 2011; Summer 2021 archive)",
+   "dcterms:title": "Dialectical School",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2021/entries/dialectical-school/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "forall x: Calgary. An Introduction to Formal Logic (Magnus, Button et al.; Open Logic Project)",
+   "dcterms:title": "Truth-functional connectives (Chapter 10)",
+   "schema:url": {
+    "@id": "https://forallx.openlogicproject.org/html/Ch10.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "The Philosophical Review 88(4): 565-589 (Frank Jackson, 1979)",
+   "dcterms:title": "On Assertion and Indicative Conditionals",
+   "schema:url": {
+    "@id": "https://sites.unimi.it/zucchi/NuoviFile/jackson1979.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/material-conditional/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology: Learning, Memory, and Cognition 29(2): 321-335 (Evans, Handley & Over, 2003)",
+   "dcterms:title": "Conditionals and conditional probability",
+   "schema:url": {
+    "@id": "https://researchers.mq.edu.au/en/publications/conditionals-and-conditional-probability/"
    }
   },
   {

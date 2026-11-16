@@ -16445,6 +16445,131 @@
   ]
  },
  {
+  "id": "ct:material-conditional",
+  "title": "Material conditional",
+  "aliases": [
+   "material implication",
+   "truth-functional conditional",
+   "Philonian conditional",
+   "horseshoe conditional"
+  ],
+  "type": "Concept",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/material-conditional.md",
+  "created": "2026-11-16",
+  "summary": "The truth-functional \"if P then Q\" of classical logic, written P → Q or P ⊃ Q, which is false only when P is true and Q is false and true in every other case. It is equivalent to \"not-P or Q\".",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:conditional-statement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:commutation-of-conditionals"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:eliminating-counterexamples"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-consequence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stoic-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:diodorus-cronus"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sextus-empiricus"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conversational-implicature"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wason-selection-task"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-perfection"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:propositional-logic",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:philo-the-dialectician",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:gottlob-frege",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:strict-conditional",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:counterfactual-conditional",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:conditional-probability",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/logic-conditionals/",
+   "https://plato.stanford.edu/archives/sum2021/entries/dialectical-school/",
+   "https://forallx.openlogicproject.org/html/Ch10.html",
+   "https://sites.unimi.it/zucchi/NuoviFile/jackson1979.pdf",
+   "https://researchers.mq.edu.au/en/publications/conditionals-and-conditional-probability/"
+  ]
+ },
+ {
   "id": "ct:media-literacy",
   "title": "Media literacy",
   "aliases": [
