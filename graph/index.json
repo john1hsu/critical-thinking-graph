@@ -2544,6 +2544,117 @@
   ]
  },
  {
+  "id": "ct:argumentative-theory-of-reasoning",
+  "title": "Argumentative theory of reasoning",
+  "aliases": [
+   "argumentative hypothesis of reasoning"
+  ],
+  "type": "Framework",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/argumentation/argumentative-theory-of-reasoning.md",
+  "created": "2026-11-16",
+  "summary": "Hugo Mercier and Dan Sperber's hypothesis that the main function of human reasoning is social: to produce arguments that persuade others and to evaluate the arguments others offer, rather than to improve solitary belief and decision making.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:psychology-of-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:myside-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:motivated-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemic-vigilance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wason-selection-task"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-bias"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:hugo-mercier",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:dan-sperber",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:mercier-sperber-2011-why-do-humans-reason",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:trouche-2016-selective-laziness-study",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:mercier-2015-benefits-of-argumentation-study",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:dogramaci-2020-function-of-reasoning",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://eprints.lancs.ac.uk/id/eprint/52055/1/download2.pdf",
+   "https://libcat.library.tamu.edu/Record/in00003861402/Description",
+   "https://lup.lub.lu.se/record/8155578",
+   "https://research.ceu.edu/en/publications/experts-and-laymen-grossly-underestimate-the-benefits-of-argument/",
+   "https://www.cambridge.org/core/journals/episteme/article/what-is-the-function-of-reasoning-on-mercier-and-sperbers-argumentative-and-justificatory-theories/214AA03FC41B89E8861EF85EBFB8E03B",
+   "https://ejop.psychopen.eu/index.php/ejop/article/download/12041/12041.html?inline=1"
+  ]
+ },
+ {
   "id": "ct:aristotle",
   "title": "Aristotle",
   "aliases": [

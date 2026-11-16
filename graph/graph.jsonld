@@ -2359,6 +2359,103 @@
    ]
   },
   {
+   "@id": "ct:argumentative-theory-of-reasoning",
+   "@type": "cto:Framework",
+   "cto:challengedBy": {
+    "@id": "ct:dogramaci-2020-function-of-reasoning"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:trouche-2016-selective-laziness-study"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "contested",
+   "cto:file": "articles/argumentation/argumentative-theory-of-reasoning.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:dan-sperber"
+    },
+    {
+     "@id": "ct:hugo-mercier"
+    }
+   ],
+   "cto:introducedIn": {
+    "@id": "ct:mercier-sperber-2011-why-do-humans-reason"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:reasoning"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:mercier-2015-benefits-of-argumentation-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s6"
+    }
+   ],
+   "rdfs:label": "Argumentative theory of reasoning",
+   "skos:altLabel": "argumentative hypothesis of reasoning",
+   "skos:broader": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "skos:definition": "Hugo Mercier and Dan Sperber's hypothesis that the main function of human reasoning is social: to produce arguments that persuade others and to evaluate the arguments others offer, rather than to improve solitary belief and decision making.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Argumentative theory of reasoning",
+   "skos:related": [
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:belief-bias"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:epistemic-vigilance"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:motivated-reasoning"
+    },
+    {
+     "@id": "ct:myside-bias"
+    },
+    {
+     "@id": "ct:reasoning"
+    },
+    {
+     "@id": "ct:wason-selection-task"
+    }
+   ]
+  },
+  {
    "@id": "ct:aristotle",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -33648,6 +33745,90 @@
    "dcterms:title": "The New Rhetoric (chapter 5), in Handbook of Argumentation Theory",
    "schema:url": {
     "@id": "https://link.springer.com/rwe/10.1007/978-94-007-6883-3_5-1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Hugo Mercier and Dan Sperber, Behavioral and Brain Sciences 34(2), 57–111 (2011), author copy in Lancaster University ePrints",
+   "dcterms:title": "Why do humans reason? Arguments for an argumentative theory",
+   "schema:url": {
+    "@id": "https://eprints.lancs.ac.uk/id/eprint/52055/1/download2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Hugo Mercier and Dan Sperber, Harvard University Press (2017), Texas A&M University Libraries catalogue record",
+   "dcterms:title": "The Enigma of Reason",
+   "schema:url": {
+    "@id": "https://libcat.library.tamu.edu/Record/in00003861402/Description"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Emmanuel Trouche, Petter Johansson, Lars Hall and Hugo Mercier, Cognitive Science (2016; online 2015), doi 10.1111/cogs.12303, Lund University record",
+   "dcterms:title": "The Selective Laziness of Reasoning",
+   "schema:url": {
+    "@id": "https://lup.lub.lu.se/record/8155578"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Hugo Mercier, Emmanuel Trouche, Hiroshi Yama, Christophe Heintz and Vittorio Girotto, Thinking and Reasoning 21(3), 341–355 (2015), Central European University record",
+   "dcterms:title": "Experts and laymen grossly underestimate the benefits of argumentation for reasoning",
+   "schema:url": {
+    "@id": "https://research.ceu.edu/en/publications/experts-and-laymen-grossly-underestimate-the-benefits-of-argument/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Sinan Dogramaci, Episteme 17(3), 316–330 (2020), Cambridge University Press",
+   "dcterms:title": "What is the Function of Reasoning? On Mercier and Sperber's Argumentative and Justificatory Theories",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/episteme/article/what-is-the-function-of-reasoning-on-mercier-and-sperbers-argumentative-and-justificatory-theories/214AA03FC41B89E8861EF85EBFB8E03B"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argumentative-theory-of-reasoning/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Alba Massolo, Mariel Traversi and Matías Alfonso, Europe's Journal of Psychology 20(4), 317–327 (2024), doi 10.5964/ejop.12041",
+   "dcterms:title": "Belief Bias in Individual and Collective Reasoning",
+   "schema:url": {
+    "@id": "https://ejop.psychopen.eu/index.php/ejop/article/download/12041/12041.html?inline=1"
    }
   },
   {

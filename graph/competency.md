@@ -79,6 +79,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:analysis-of-competing-hypotheses` | contested | `ct:mandel-karvetski-dhami-2018-ach-trial` |
 | `ct:anchoring-and-adjustment-heuristic` | contested | `ct:roseler-2024-epley-gilovich-replication` |
 | `ct:anchoring-and-adjustment-heuristic` | contested | `ct:roseler-2025-insufficient-adjustment-test` |
+| `ct:argumentative-theory-of-reasoning` | contested | `ct:dogramaci-2020-function-of-reasoning` |
 | `ct:blooms-taxonomy` | contested | `ct:newton-2020-blooms-verb-list-study` |
 | `ct:choice-architecture` | contested | `ct:maier-2022-nudging-publication-bias-reanalysis` |
 | `ct:dialectical-bootstrapping` | contested | `ct:gomilsek-2024-fermian-guesstimation-study` |
@@ -103,9 +104,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:mental-model-theory` | contested | `ct:the-psychology-of-proof` |
 | `ct:null-hypothesis-significance-testing` | contested | `ct:amrhein-2019-retire-statistical-significance` |
 | `ct:prospect-theory` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
-| `ct:recognition-heuristic` | contested | `ct:basehore-anderson-2016-recognition-tests` |
 
-…and 73 more.
+…and 74 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
