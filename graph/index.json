@@ -11642,6 +11642,108 @@
   ]
  },
  {
+  "id": "ct:formal-modeling",
+  "title": "Formal modeling",
+  "aliases": [
+   "formal theory building",
+   "formalization of theories",
+   "mathematical and computational modeling",
+   "formal theory construction"
+  ],
+  "type": "Method",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/scientific-reasoning/formal-modeling.md",
+  "created": "2026-11-16",
+  "summary": "Restating a theory as an explicit mathematical, logical or computational model, so that its constructs, assumptions, scope and predictions are fixed in a precise language and can be derived, inspected and tested rather than left to verbal interpretation.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:vagueness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:operational-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hoc-hypothesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:formal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overfitting"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:strategic-ambiguity",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:motte-and-bailey",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:verbal-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:replication-crisis",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://spb.psychopen.eu/index.php/spb/article/download/9923/9923.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8273080",
+   "https://philarchive.org/rec/GUEHCM",
+   "https://media.nature.com/original/magazine-assets/d41586-019-03350-5/d41586-019-03350-5.pdf"
+  ]
+ },
+ {
   "id": "ct:framing-effect",
   "title": "Framing effect",
   "aliases": [

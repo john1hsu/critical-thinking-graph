@@ -10840,6 +10840,99 @@
    ]
   },
   {
+   "@id": "ct:formal-modeling",
+   "@type": "cto:Method",
+   "cto:contrastsWith": {
+    "@id": "ct:verbal-theory"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:motte-and-bailey"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:strategic-ambiguity"
+    }
+   ],
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/scientific-reasoning/formal-modeling.md",
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:hypothesis-testing"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s4"
+    }
+   ],
+   "rdfs:label": "Formal modeling",
+   "skos:altLabel": [
+    "formal theory building",
+    "formal theory construction",
+    "formalization of theories",
+    "mathematical and computational modeling"
+   ],
+   "skos:broader": {
+    "@id": "ct:scientific-method"
+   },
+   "skos:definition": "Restating a theory as an explicit mathematical, logical or computational model, so that its constructs, assumptions, scope and predictions are fixed in a precise language and can be derived, inspected and tested rather than left to verbal interpretation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "Formal modeling",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hoc-hypothesis"
+    },
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:formal-logic"
+    },
+    {
+     "@id": "ct:operational-definition"
+    },
+    {
+     "@id": "ct:overfitting"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    },
+    {
+     "@id": "ct:vagueness"
+    }
+   ]
+  },
+  {
    "@id": "ct:framing-effect",
    "@type": "cto:CognitiveBias",
    "cto:challengedBy": [
@@ -41574,6 +41667,62 @@
    "dcterms:title": "Formal logic",
    "schema:url": {
     "@id": "https://www.britannica.com/topic/formal-logic"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Social Psychological Bulletin 18, e9923 (Frankenhuis, Panchanathan & Smaldino, 2023)",
+   "dcterms:title": "Strategic Ambiguity in the Social Sciences",
+   "schema:url": {
+    "@id": "https://spb.psychopen.eu/index.php/spb/article/download/9923/9923.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science 16(4), 725-743 (Robinaugh, Haslbeck, Ryan, Fried & Waldorp, 2021), doi:10.1177/1745691620974697; PubMed Central",
+   "dcterms:title": "Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8273080"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science 16(4), 789-802 (Guest & Martin, 2021); PhilArchive record",
+   "dcterms:title": "How Computational Modeling Can Force Theory Building in Psychological Science",
+   "schema:url": {
+    "@id": "https://philarchive.org/rec/GUEHCM"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Nature 575, 9 (Smaldino, World View column, 7 November 2019)",
+   "dcterms:title": "Better methods can't make up for mediocre theory",
+   "schema:url": {
+    "@id": "https://media.nature.com/original/magazine-assets/d41586-019-03350-5/d41586-019-03350-5.pdf"
    }
   },
   {

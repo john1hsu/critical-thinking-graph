@@ -5033,6 +5033,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2000/01/rdf-schema#label> "Formal modeling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#altLabel> "formal theory building" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#altLabel> "formal theory construction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#altLabel> "formalization of theories" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#altLabel> "mathematical and computational modeling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#definition> "Restating a theory as an explicit mathematical, logical or computational model, so that its constructs, assumptions, scope and predictions are fixed in a precise language and can be derived, inspected and tested rather than left to verbal interpretation." .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formal modeling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/falsifiability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overfitting> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/verbal-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/motte-and-bailey> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/strategic-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/formal-modeling.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/formal-modeling> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
 <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> <http://www.w3.org/2000/01/rdf-schema#label> "Framing effect" .
@@ -14600,6 +14635,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-logic/s5> <https://schema.org/url> <https://www.britannica.com/topic/formal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s1> <http://purl.org/dc/terms/publisher> "Social Psychological Bulletin 18, e9923 (Frankenhuis, Panchanathan & Smaldino, 2023)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s1> <http://purl.org/dc/terms/title> "Strategic Ambiguity in the Social Sciences" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s1> <https://schema.org/url> <https://spb.psychopen.eu/index.php/spb/article/download/9923/9923.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s2> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 16(4), 725-743 (Robinaugh, Haslbeck, Ryan, Fried & Waldorp, 2021), doi:10.1177/1745691620974697; PubMed Central" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s2> <http://purl.org/dc/terms/title> "Invisible Hands and Fine Calipers: A Call to Use Formal Theory as a Toolkit for Theory Construction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC8273080> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s3> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 16(4), 789-802 (Guest & Martin, 2021); PhilArchive record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s3> <http://purl.org/dc/terms/title> "How Computational Modeling Can Force Theory Building in Psychological Science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s3> <https://schema.org/url> <https://philarchive.org/rec/GUEHCM> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s4> <http://purl.org/dc/terms/publisher> "Nature 575, 9 (Smaldino, World View column, 7 November 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s4> <http://purl.org/dc/terms/title> "Better methods can't make up for mediocre theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/formal-modeling/s4> <https://schema.org/url> <https://media.nature.com/original/magazine-assets/d41586-019-03350-5/d41586-019-03350-5.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://purl.org/dc/terms/publisher> "Science 211(4481), 453-458 (Tversky & Kahneman, 1981), PubMed record" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/framing-effect/s1> <http://purl.org/dc/terms/title> "The framing of decisions and the psychology of choice" .

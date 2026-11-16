@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
 
 ## Most useful remedies
@@ -20,6 +19,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:consider-the-opposite` | 4 | Anchoring effect, Biased assimilation, Hindsight bias, Overconfidence effect |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, Confirmation bias, Fundamental attribution error |
 | `ct:rules-of-the-categorical-syllogism` | 4 | Existential fallacy, Fallacy of four terms, Illicit major, Undistributed middle |
+| `ct:formal-modeling` | 3 | Motte-and-bailey, Replication crisis, strategic-ambiguity |
 | `ct:outside-view` | 3 | Base-rate neglect, Planning fallacy, Representativeness heuristic |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
@@ -46,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
 | `ct:rule-against-conventionalist-stratagems` | 2 | No true Scotsman, pseudoscience |
 | `ct:rules-of-immediate-inference` | 2 | Illicit contraposition, Illicit conversion |
-| `ct:self-affirmation` | 2 | Biased assimilation, Motivated reasoning |
 
-…and 39 more.
+…and 40 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -137,6 +136,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:explanation` | cto:Concept |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
+| `ct:formal-modeling` | cto:Method |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
@@ -148,9 +148,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:modal-scope-fallacy` | cto:FormalFallacy |
 | `ct:modus-tollens` | cto:ReasoningForm |
 | `ct:myside-bias` | cto:CognitiveBias |
-| `ct:necessary-and-sufficient-conditions` | cto:Concept |
 
-…and 31 more.
+…and 32 more.
 
 ## Orphan articles (gap)
 
