@@ -5630,6 +5630,111 @@
   ]
  },
  {
+  "id": "ct:commutation-of-conditionals",
+  "title": "Commutation of conditionals",
+  "aliases": [
+   "converting a conditional",
+   "conversion of a conditional",
+   "swapping a conditional"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/commutation-of-conditionals.md",
+  "created": "2026-11-16",
+  "summary": "The formal fallacy of inferring \"if q then p\" from \"if p then q\", swapping a conditional's antecedent and consequent as though the relation ran both ways. A conditional and its converse are not logically equivalent, so the premise can be true while the conclusion is false.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-conversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inverse-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-perfection"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:contraposition",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:affirming-the-consequent",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:biconditional",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:sophistical-refutations",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the conclusion simply reverse the if-clause and then-clause of a conditional that was given as a premise?",
+   "Is there a realistic case where the original conditional holds but the reversed one fails, because the consequent has some other cause?",
+   "Was the original statement meant as \"if and only if\", and if so, has that two-way claim been stated and supported?",
+   "Would the contrapositive (\"if not q then not p\"), rather than the converse, give the arguer what they actually need?"
+  ],
+  "source_urls": [
+   "https://classics.mit.edu/Aristotle/sophist_refut.1.1.html",
+   "https://plato.stanford.edu/ENTRiES/fallacies/",
+   "https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Delftse_Foundations_of_Computation/01%3A_Logic/1.01%3A_Propositional_Logic/1.1.07%3A_More_forms_of_implication",
+   "https://fallacyfiles.org/commcond.html",
+   "https://methexp.uni-koeln.de/files/Klauer-Stahl-Erdfelder-2007.pdf"
+  ]
+ },
+ {
   "id": "ct:conditional-probability",
   "title": "Conditional probability",
   "aliases": [

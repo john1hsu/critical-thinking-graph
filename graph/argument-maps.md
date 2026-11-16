@@ -178,6 +178,16 @@ flowchart TD
   o1["A strong track record does not rule out a one-off disruption next quarter."] -. attacks .-> ra
 ```
 
+## Commutation of conditionals (`ct:commutation-of-conditionals`)
+
+```mermaid
+flowchart TD
+  p1["If a support ticket is marked urgent, it is answered within an hour."] --> ra{{"invalid"}}
+  ra --> c["If a support ticket is answered within an hour, it was marked urgent."]
+  o1["Routine tickets are also answered within an hour whenever the queue is short."] -. attacks .-> ra
+  o2["The policy guarantees speed for urgent tickets; it says nothing about which tickets get fast answers."] -. attacks .-> ra
+```
+
 ## Conjunction fallacy (`ct:conjunction-fallacy`)
 
 ```mermaid
