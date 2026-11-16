@@ -8527,6 +8527,103 @@
    ]
   },
   {
+   "@id": "ct:distributive-collective-distinction",
+   "@type": "cto:Technique",
+   "cto:counteracts": [
+    {
+     "@id": "ct:fallacy-of-composition"
+    },
+    {
+     "@id": "ct:fallacy-of-division"
+    }
+   ],
+   "cto:detects": {
+    "@id": "ct:equivocation"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/distributive-collective-distinction.md",
+   "cto:formalizedBy": {
+    "@id": "ct:plural-logic"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:argument"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s5"
+    }
+   ],
+   "rdfs:label": "Distributive-collective distinction",
+   "skos:altLabel": [
+    "collective-distributive test",
+    "distributive and collective senses of a term",
+    "distributive vs collective predication"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument-evaluation"
+   },
+   "skos:definition": "An analytic check that asks whether a claim about a group applies to each member taken separately (distributive sense) or to the group taken as one unit (collective sense), used to expose arguments that slide from one sense to the other, as in the fallacies of composition and division.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Distributive-collective distinction",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:distribution-of-terms"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:fallacy-of-composition"
+    },
+    {
+     "@id": "ct:fallacy-of-division"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:precising-definition"
+    },
+    {
+     "@id": "ct:predicate-logic"
+    },
+    {
+     "@id": "ct:richard-whately"
+    }
+   ]
+  },
+  {
    "@id": "ct:douglas-walton",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -40173,6 +40270,76 @@
    "dcterms:title": "The Irrelevance of Distribution for the Syllogism",
    "schema:url": {
     "@id": "https://dc2.philarchive.org/rec/WALTIO-6"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/fallacies"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Linnebo)",
+   "dcterms:title": "Plural Quantification",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRiES/plural-quant/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Rozenberg Quarterly (Finocchiaro, ISSA 2014 conference paper)",
+   "dcterms:title": "ISSA Proceedings 2014 - Ubiquity, Ambiguity, and Metarationality: Searching for the Fallacy of Composition",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-ubiquity-ambiguity-and-metarationality-searching-for-the-fallacy-of-composition/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (Rescher and Schagrin)",
+   "dcterms:title": "Fallacy: Verbal fallacies",
+   "schema:url": {
+    "@id": "https://britannica.com/topic/fallacy/Verbal-fallacies"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/distributive-collective-distinction/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Palomar College, philosophy course materials",
+   "dcterms:title": "Distributive Fallacy",
+   "schema:url": {
+    "@id": "https://www.palomar.edu/users/bthompson/Distributive%20Fallacy.html"
    }
   },
   {

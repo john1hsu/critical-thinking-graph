@@ -9145,6 +9145,110 @@
   ]
  },
  {
+  "id": "ct:distributive-collective-distinction",
+  "title": "Distributive-collective distinction",
+  "aliases": [
+   "distributive vs collective predication",
+   "distributive and collective senses of a term",
+   "collective-distributive test"
+  ],
+  "type": "Technique",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/distributive-collective-distinction.md",
+  "created": "2026-11-16",
+  "summary": "An analytic check that asks whether a claim about a group applies to each member taken separately (distributive sense) or to the group taken as one unit (collective sense), used to expose arguments that slide from one sense to the other, as in the fallacies of composition and division.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-composition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-division"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distribution-of-terms"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:precising-definition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-whately"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:fallacy-of-composition",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:fallacy-of-division",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:equivocation",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:plural-logic",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/fallacies",
+   "https://plato.stanford.edu/ENTRiES/plural-quant/",
+   "https://rozenbergquarterly.com/issa-proceedings-2014-ubiquity-ambiguity-and-metarationality-searching-for-the-fallacy-of-composition/",
+   "https://britannica.com/topic/fallacy/Verbal-fallacies",
+   "https://www.palomar.edu/users/bthompson/Distributive%20Fallacy.html"
+  ]
+ },
+ {
   "id": "ct:douglas-walton",
   "title": "Douglas Walton",
   "aliases": [

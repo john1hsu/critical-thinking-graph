@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:fallacy-of-composition` | cto:InformalFallacy |
+_No results._
 
 ## Most useful remedies
 
@@ -19,6 +17,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:consider-the-opposite` | 4 | Anchoring effect, Biased assimilation, Hindsight bias, Overconfidence effect |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, Confirmation bias, Fundamental attribution error |
 | `ct:rules-of-the-categorical-syllogism` | 4 | Existential fallacy, Fallacy of four terms, Illicit major, Undistributed middle |
+| `ct:distributive-collective-distinction` | 3 | Equivocation, Fallacy of composition, fallacy-of-division |
 | `ct:formal-modeling` | 3 | Motte-and-bailey, Replication crisis, strategic-ambiguity |
 | `ct:outside-view` | 3 | Base-rate neglect, Planning fallacy, Representativeness heuristic |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
@@ -45,9 +44,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:random-sampling` | 2 | Hasty generalization, Selection bias |
 | `ct:randomized-controlled-trial` | 2 | Confounding, Selection bias |
 | `ct:rule-against-conventionalist-stratagems` | 2 | No true Scotsman, pseudoscience |
-| `ct:rules-of-immediate-inference` | 2 | Illicit contraposition, Illicit conversion |
 
-…and 41 more.
+…and 42 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -130,6 +128,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:denying-a-conjunct` | cto:FormalFallacy |
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
+| `ct:distributive-collective-distinction` | cto:Technique |
 | `ct:epidemiology` | cto:Field |
 | `ct:existential-import` | cto:Concept |
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
@@ -147,9 +146,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:logical-consistency` | cto:Concept |
 | `ct:logical-necessity-instructions` | cto:Technique |
 | `ct:modal-scope-fallacy` | cto:FormalFallacy |
-| `ct:modus-tollens` | cto:ReasoningForm |
 
-…and 33 more.
+…and 34 more.
 
 ## Orphan articles (gap)
 
