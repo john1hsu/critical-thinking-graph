@@ -9479,6 +9479,93 @@
   ]
  },
  {
+  "id": "ct:eliminating-counterexamples",
+  "title": "Eliminating counterexamples",
+  "aliases": [
+   "ECE framework",
+   "eliminating-counterexamples framework",
+   "counterexample-set reasoning"
+  ],
+  "type": "Technique",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/formal-logic/eliminating-counterexamples.md",
+  "created": "2026-11-16",
+  "summary": "A technique for judging a general conditional claim by describing the whole set of its possible counterexamples (cases that meet the condition but not the conclusion) and then arguing that those cases cannot exist or exhibiting one. Comparing counterexample sets shows that a claim and its contrapositive stand or fall together, while a claim and its converse do not.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:deductive-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:commutation-of-conditionals"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:commutation-of-conditionals",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:commutation-of-conditionals",
+    "source": "s1",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:mental-model-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:david-yopp",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:mathematics-education",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cadrek12.org/sites/default/files/Yopp%202020%20JMB.pdf",
+   "https://cadrek12.org/sites/default/files/Yopp%20et%20al%202020%20JMB.pdf",
+   "https://nctm.confex.com/nctm/2016RP/webprogram/Manuscript/Session42104/NCTM%20eliminate%20CEs%20paper.3.10.16.uploaded.pdf",
+   "https://forallx.openlogicproject.org/html/Ch15.html"
+  ]
+ },
+ {
   "id": "ct:endowment-effect",
   "title": "Endowment effect",
   "aliases": [

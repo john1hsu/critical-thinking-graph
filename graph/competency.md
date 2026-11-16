@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:commutation-of-conditionals` | cto:FormalFallacy |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:motte-and-bailey` | cto:InformalFallacy |
 | `ct:unwarranted-contrast` | cto:FormalFallacy |
@@ -50,7 +49,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:self-affirmation` | 2 | Biased assimilation, Motivated reasoning |
 | `ct:systematic-review` | 2 | Publication bias, Suppressed evidence |
 
-…and 37 more.
+…and 38 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -105,7 +104,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:null-hypothesis-significance-testing` | contested | `ct:amrhein-2019-retire-statistical-significance` |
 | `ct:prospect-theory` | contested | `ct:gal-rucker-2018-loss-of-loss-aversion` |
 
-…and 74 more.
+…and 75 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
