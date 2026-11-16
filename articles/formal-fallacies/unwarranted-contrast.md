@@ -13,13 +13,14 @@ summary: >-
 level: intermediate
 evidenceStatus: normative
 broader: [ct:formal-fallacy]
-related: [ct:square-of-opposition, ct:categorical-proposition, ct:existential-fallacy, ct:illicit-conversion, ct:venn-diagram-test, ct:method-of-counterexample, ct:quantifier-shift-fallacy]
+related: [ct:square-of-opposition, ct:categorical-proposition, ct:existential-fallacy, ct:illicit-conversion, ct:venn-diagram-test, ct:method-of-counterexample, ct:quantifier-shift-fallacy, ct:obversion]
 requires: [ct:categorical-proposition, ct:square-of-opposition, ct:validity]
 relations:
   - {predicate: explainedBy, object: ct:conversational-implicature, source: s1, confidence: high}
   - {predicate: contrastsWith, object: ct:existential-fallacy, source: s1, confidence: medium}
   - {predicate: introducedIn, object: ct:the-cambridge-dictionary-of-philosophy, source: s1, confidence: medium}
   - {predicate: studiedIn, object: ct:pragmatics, source: s4, confidence: medium}
+  - {predicate: invalidFormOf, object: ct:obversion, source: s2, confidence: low}
 criticalQuestions:
   - Does the premise say anything at all about the members of the class that lack the property, or is the "not" only suggested by the word "some"?
   - Could every member of the class have the property without making the premise false?
@@ -66,6 +67,7 @@ sources:
     type: academic
     accessed: 2026-11-15
 created: 2026-11-15
+modified: 2026-11-16
 ---
 
 # Unwarranted contrast
@@ -101,6 +103,7 @@ Although the fallacy itself is a matter of logic, psychologists have studied how
 - **Introduced in the *Cambridge Dictionary of Philosophy*.** W. Kent Wilson's entry on formal fallacy is the source the Fallacy Files cites for the name.[^s1]
 - **Studied in pragmatics.** Experimental pragmatics measures when and how people draw the scalar inference that the fallacy depends on.[^s4][^s5]
 - **Related to the square of opposition.** I and O are subcontraries, which can both be true, so neither follows from the other.[^s2]
+- **Invalid look-alike of obversion.** Obversion validly turns "some S are P" into "some S are not non-P" by changing the quality and complementing the predicate; unwarranted contrast changes the quality but drops the complement, landing on the independent subcontrary.[^s2]
 
 ## Sources
 

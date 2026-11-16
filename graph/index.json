@@ -19357,6 +19357,109 @@
   ]
  },
  {
+  "id": "ct:obversion",
+  "title": "Obversion",
+  "aliases": [
+   "permutation (logic)",
+   "aequipollence",
+   "infinitation",
+   "obverse inference"
+  ],
+  "type": "ReasoningForm",
+  "domain": "formal-logic",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-logic/obversion.md",
+  "created": "2026-11-16",
+  "summary": "The immediate inference that changes the quality of a categorical proposition (affirmative to negative or back) and replaces its predicate with the predicate's complement, as in \"All S are P\" to \"No S are non-P\". It is valid for all four standard forms, A, E, I and O, provided the complement is formed correctly.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:immediate-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-immediate-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conversion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:unwarranted-contrast"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:venn-diagram-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:john-buridan"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-whately"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:contraposition",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:law-of-excluded-middle",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:law-of-non-contradiction",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:formal-logic",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/square/",
+   "https://pimaopen.pressbooks.pub/intrologic/?p=833",
+   "https://etc.usf.edu/lit2go/37/logic-deductive-and-inductive/462/chapter-7/",
+   "https://philosophy.lander.edu/logic/further.html",
+   "https://www.acsu.buffalo.edu/~degray/CT13/Slides22.pdf"
+  ]
+ },
+ {
   "id": "ct:occams-razor",
   "title": "Occam's razor",
   "aliases": [
@@ -29509,6 +29612,10 @@
     "object": "ct:quantifier-shift-fallacy"
    },
    {
+    "predicate": "skos:related",
+    "object": "ct:obversion"
+   },
+   {
     "predicate": "cto:requires",
     "object": "ct:categorical-proposition"
    },
@@ -29543,6 +29650,12 @@
     "object": "ct:pragmatics",
     "source": "s4",
     "confidence": "medium"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:obversion",
+    "source": "s2",
+    "confidence": "low"
    }
   ],
   "criticalQuestions": [

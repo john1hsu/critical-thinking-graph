@@ -107,9 +107,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 _Which written formal fallacies have no invalidFormOf edge to the valid reasoning form they mimic?_ — `queries/05-invalid-lookalikes.rq`
 
-| fallacy |
-|---|
-| `ct:unwarranted-contrast` |
+_No results._
 
 ## Concepts with no recorded origin (gap)
 
@@ -148,7 +146,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:inverse-fallacy` | cto:ProbabilisticFallacy |
 | `ct:legal-reasoning` | cto:Field |
 
-…and 37 more.
+…and 38 more.
 
 ## Orphan articles (gap)
 

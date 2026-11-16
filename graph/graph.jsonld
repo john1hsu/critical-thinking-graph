@@ -18028,6 +18028,105 @@
    ]
   },
   {
+   "@id": "ct:obversion",
+   "@type": "cto:ReasoningForm",
+   "cto:domain": "formal-logic",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map"
+   },
+   "cto:explainedBy": [
+    {
+     "@id": "ct:law-of-excluded-middle"
+    },
+    {
+     "@id": "ct:law-of-non-contradiction"
+    }
+   ],
+   "cto:file": "articles/formal-logic/obversion.md",
+   "cto:level": "introductory",
+   "cto:partOf": {
+    "@id": "ct:contraposition"
+   },
+   "cto:requires": {
+    "@id": "ct:categorical-proposition"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:formal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s5"
+    }
+   ],
+   "rdfs:label": "Obversion",
+   "skos:altLabel": [
+    "aequipollence",
+    "infinitation",
+    "obverse inference",
+    "permutation (logic)"
+   ],
+   "skos:broader": {
+    "@id": "ct:immediate-inference"
+   },
+   "skos:definition": "The immediate inference that changes the quality of a categorical proposition (affirmative to negative or back) and replaces its predicate with the predicate's complement, as in \"All S are P\" to \"No S are non-P\". It is valid for all four standard forms, A, E, I and O, provided the complement is formed correctly.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-logic"
+   },
+   "skos:prefLabel": "Obversion",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:contraposition"
+    },
+    {
+     "@id": "ct:conversion"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:illicit-contraposition"
+    },
+    {
+     "@id": "ct:john-buridan"
+    },
+    {
+     "@id": "ct:richard-whately"
+    },
+    {
+     "@id": "ct:rules-of-immediate-inference"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:unwarranted-contrast"
+    },
+    {
+     "@id": "ct:venn-diagram-test"
+    }
+   ]
+  },
+  {
    "@id": "ct:occams-razor",
    "@type": "cto:Principle",
    "cto:appliedIn": {
@@ -27581,6 +27680,9 @@
    "cto:introducedIn": {
     "@id": "ct:the-cambridge-dictionary-of-philosophy"
    },
+   "cto:invalidFormOf": {
+    "@id": "ct:obversion"
+   },
    "cto:level": "intermediate",
    "cto:requires": [
     {
@@ -27599,6 +27701,10 @@
    "dcterms:created": {
     "@type": "xsd:date",
     "@value": "2026-11-15"
+   },
+   "dcterms:modified": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
    },
    "prov:wasDerivedFrom": [
     {
@@ -27643,6 +27749,9 @@
     },
     {
      "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:obversion"
     },
     {
      "@id": "ct:quantifier-shift-fallacy"
@@ -33262,6 +33371,52 @@
    ],
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:obversion"
+   },
+   "cto:verdict": "valid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "No parcels in today's outbound batch are unweighed (non-weighed) parcels."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The step holds only if 'unweighed' names everything that is not weighed; a contrary such as 'overweight' would not do."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "All parcels in today's outbound batch have been weighed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map/c"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map/p1"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map"
    }
   },
   {
@@ -48297,6 +48452,76 @@
    "dcterms:title": "Dissecting the risky-choice framing effect: Numeracy as an individual-difference factor in weighting risky and riskless options",
    "schema:url": {
     "@id": "https://scholarsbank.uoregon.edu//bitstreams/94935ed3-ca21-4369-bbe3-a45be53478de/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Ciola; earlier versions by Parsons; substantive revision 2025)",
+   "dcterms:title": "The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/square/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Kathy Eldred, Pima Community College Open Press (2024, CC BY-NC 4.0)",
+   "dcterms:title": "3.3 Operations on Categorical Propositions (An Introduction to Logic)",
+   "schema:url": {
+    "@id": "https://pimaopen.pressbooks.pub/intrologic/?p=833"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Carveth Read, via Lit2Go, University of South Florida",
+   "dcterms:title": "Logic: Deductive and Inductive, Chapter VII: Immediate Inferences (1914)",
+   "schema:url": {
+    "@id": "https://etc.usf.edu/lit2go/37/logic-deductive-and-inductive/462/chapter-7/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Lander University Philosophy Department",
+   "dcterms:title": "Further Immediate Inferences (Philosophy 103: Introduction to Logic)",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/further.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/obversion/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "David Emmanuel Gray, Carnegie Mellon University in Qatar",
+   "dcterms:title": "Lecture 22: Further Categorical Inferences (Introduction to Logical Reasoning)",
+   "schema:url": {
+    "@id": "https://www.acsu.buffalo.edu/~degray/CT13/Slides22.pdf"
    }
   },
   {

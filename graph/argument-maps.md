@@ -551,6 +551,15 @@ flowchart TD
   o2["The counterexample should lead to revising the generalization (most experienced engineers run tests), not to reclassifying the colleague."] -. attacks .-> ra
 ```
 
+## Obversion (`ct:obversion`)
+
+```mermaid
+flowchart TD
+  p1["All parcels in today's outbound batch have been weighed."] --> ra{{"valid"}}
+  ra --> c["No parcels in today's outbound batch are unweighed (non-weighed) parcels."]
+  o1["The step holds only if 'unweighed' names everything that is not weighed; a contrary such as 'overweight' would not do."] -. attacks .-> ra
+```
+
 ## Post hoc ergo propter hoc (`ct:post-hoc-ergo-propter-hoc`)
 
 ```mermaid
