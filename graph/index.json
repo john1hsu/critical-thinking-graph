@@ -18993,6 +18993,116 @@
   ]
  },
  {
+  "id": "ct:p-hacking",
+  "title": "P-hacking",
+  "aliases": [
+   "p hacking",
+   "data dredging for significance",
+   "significance chasing",
+   "selective inference to significance"
+  ],
+  "type": "Phenomenon",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/scientific-reasoning/p-hacking.md",
+  "created": "2026-11-16",
+  "summary": "The practice of collecting, selecting or analysing data in several ways until a non-significant result crosses the p < .05 threshold, then reporting only the version that \"worked\", which inflates false positives and effect sizes in the published record.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:questionable-research-practices"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:researcher-degrees-of-freedom"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:p-curve"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:harking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cherry-picking"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:questionable-research-practices",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:publication-bias",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:amplifies",
+    "object": "ct:replication-crisis",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:head-2015-extent-of-p-hacking-study",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:john-2012-questionable-research-practices-survey",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:hartgerink-2017-reanalysis-of-head-2015",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:fiedler-schwarz-2016-qrp-prevalence-critique",
+    "source": "s6",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4359000/",
+   "https://pages.ucsd.edu/~cmckenzie/Simonsohnetal2014JEPGeneral.pdf",
+   "https://www.cmu.edu/dietrich/sds/docs/loewenstein/MeasPrevalQuestTruthTelling.pdf",
+   "https://plato.stanford.edu/entries/scientific-reproducibility/",
+   "https://peerj.com/articles/3068",
+   "https://online225.psych.wisc.edu/wp-content/uploads/225-Master/225-UnitPages/Unit-10/Fiedler_SPPS_2015.pdf"
+  ]
+ },
+ {
   "id": "ct:paul-elder-critical-thinking-framework",
   "title": "Paul–Elder critical thinking framework",
   "aliases": [

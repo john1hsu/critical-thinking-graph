@@ -17696,6 +17696,105 @@
    ]
   },
   {
+   "@id": "ct:p-hacking",
+   "@type": "cto:Phenomenon",
+   "cto:amplifies": {
+    "@id": "ct:replication-crisis"
+   },
+   "cto:challengedBy": [
+    {
+     "@id": "ct:fiedler-schwarz-2016-qrp-prevalence-critique"
+    },
+    {
+     "@id": "ct:hartgerink-2017-reanalysis-of-head-2015"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:head-2015-extent-of-p-hacking-study"
+   },
+   "cto:domain": "scientific-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:publication-bias"
+   },
+   "cto:file": "articles/scientific-reasoning/p-hacking.md",
+   "cto:instanceOf": {
+    "@id": "ct:questionable-research-practices"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:null-hypothesis-significance-testing"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:john-2012-questionable-research-practices-survey"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s6"
+    }
+   ],
+   "rdfs:label": "P-hacking",
+   "skos:altLabel": [
+    "data dredging for significance",
+    "p hacking",
+    "selective inference to significance",
+    "significance chasing"
+   ],
+   "skos:broader": {
+    "@id": "ct:questionable-research-practices"
+   },
+   "skos:definition": "The practice of collecting, selecting or analysing data in several ways until a non-significant result crosses the p < .05 threshold, then reporting only the version that \"worked\", which inflates false positives and effect sizes in the published record.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning"
+   },
+   "skos:prefLabel": "P-hacking",
+   "skos:related": [
+    {
+     "@id": "ct:cherry-picking"
+    },
+    {
+     "@id": "ct:harking"
+    },
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:p-curve"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:researcher-degrees-of-freedom"
+    }
+   ]
+  },
+  {
    "@id": "ct:paul-elder-critical-thinking-framework",
    "@type": "cto:Framework",
    "cto:appliedIn": [
@@ -46834,6 +46933,90 @@
    "dcterms:title": "Prediction error, overfitting and the bias-variance trade-off (STAT 857 lesson notes)",
    "schema:url": {
     "@id": "https://online.stat.psu.edu/stat857/node/160"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "PLoS Biology 13(3), e1002106 (Head, Holman, Lanfear, Kahn & Jennions, 2015)",
+   "dcterms:title": "The Extent and Consequences of P-Hacking in Science",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4359000/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology: General 143(2), 534-547 (Simonsohn, Nelson & Simmons, 2014); copy hosted at UC San Diego",
+   "dcterms:title": "P-curve: A key to the file-drawer",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~cmckenzie/Simonsohnetal2014JEPGeneral.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Psychological Science 23(5), 524-532 (John, Loewenstein & Prelec, 2012); author copy, Carnegie Mellon University",
+   "dcterms:title": "Measuring the Prevalence of Questionable Research Practices With Incentives for Truth Telling",
+   "schema:url": {
+    "@id": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/MeasPrevalQuestTruthTelling.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Fiona Fidler & John Wilcox, 2018)",
+   "dcterms:title": "Reproducibility of Scientific Results",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/scientific-reproducibility/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "PeerJ 5, e3068 (C. H. J. Hartgerink, 2017)",
+   "dcterms:title": "Reanalyzing Head et al. (2015): investigating the robustness of widespread p-hacking",
+   "schema:url": {
+    "@id": "https://peerj.com/articles/3068"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-16"
+   },
+   "dcterms:publisher": "Social Psychological and Personality Science 7(1), 45-52 (Fiedler & Schwarz, 2016); course copy, University of Wisconsin-Madison",
+   "dcterms:title": "Questionable Research Practices Revisited",
+   "schema:url": {
+    "@id": "https://online225.psych.wisc.edu/wp-content/uploads/225-Master/225-UnitPages/Unit-10/Fiedler_SPPS_2015.pdf"
    }
   },
   {

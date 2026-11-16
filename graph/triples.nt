@@ -8203,6 +8203,43 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/machine-learning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/overfitting> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/statistics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2000/01/rdf-schema#label> "P-hacking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#altLabel> "data dredging for significance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#altLabel> "p hacking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#altLabel> "selective inference to significance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#altLabel> "significance chasing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/questionable-research-practices> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#definition> "The practice of collecting, selecting or analysing data in several ways until a non-significant result crosses the p < .05 threshold, then reporting only the version that \"worked\", which inflates false positives and effect sizes in the published record." .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/scientific-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#prefLabel> "P-hacking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cherry-picking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/harking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/p-curve> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifies> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/fiedler-schwarz-2016-qrp-prevalence-critique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hartgerink-2017-reanalysis-of-head-2015> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/head-2015-extent-of-p-hacking-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "scientific-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/scientific-reasoning/p-hacking.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/questionable-research-practices> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/p-hacking> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-2012-questionable-research-practices-survey> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/2000/01/rdf-schema#label> "Paul–Elder critical thinking framework" .
@@ -16864,6 +16901,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/overfitting/s4> <https://schema.org/url> <https://online.stat.psu.edu/stat857/node/160> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s1> <http://purl.org/dc/terms/publisher> "PLoS Biology 13(3), e1002106 (Head, Holman, Lanfear, Kahn & Jennions, 2015)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s1> <http://purl.org/dc/terms/title> "The Extent and Consequences of P-Hacking in Science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s1> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC4359000/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s2> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s2> <http://purl.org/dc/terms/publisher> "Journal of Experimental Psychology: General 143(2), 534-547 (Simonsohn, Nelson & Simmons, 2014); copy hosted at UC San Diego" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s2> <http://purl.org/dc/terms/title> "P-curve: A key to the file-drawer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s2> <https://schema.org/url> <https://pages.ucsd.edu/~cmckenzie/Simonsohnetal2014JEPGeneral.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s3> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s3> <http://purl.org/dc/terms/publisher> "Psychological Science 23(5), 524-532 (John, Loewenstein & Prelec, 2012); author copy, Carnegie Mellon University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s3> <http://purl.org/dc/terms/title> "Measuring the Prevalence of Questionable Research Practices With Incentives for Truth Telling" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s3> <https://schema.org/url> <https://www.cmu.edu/dietrich/sds/docs/loewenstein/MeasPrevalQuestTruthTelling.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s4> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Fiona Fidler & John Wilcox, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s4> <http://purl.org/dc/terms/title> "Reproducibility of Scientific Results" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/scientific-reproducibility/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s5> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s5> <http://purl.org/dc/terms/publisher> "PeerJ 5, e3068 (C. H. J. Hartgerink, 2017)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s5> <http://purl.org/dc/terms/title> "Reanalyzing Head et al. (2015): investigating the robustness of widespread p-hacking" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s5> <https://schema.org/url> <https://peerj.com/articles/3068> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s6> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s6> <http://purl.org/dc/terms/publisher> "Social Psychological and Personality Science 7(1), 45-52 (Fiedler & Schwarz, 2016); course copy, University of Wisconsin-Madison" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s6> <http://purl.org/dc/terms/title> "Questionable Research Practices Revisited" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/p-hacking/s6> <https://schema.org/url> <https://online225.psych.wisc.edu/wp-content/uploads/225-Master/225-UnitPages/Unit-10/Fiedler_SPPS_2015.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s1> <http://purl.org/dc/terms/publisher> "Foundation for Critical Thinking (Paul & Elder, 2006); copy hosted by York University" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s1> <http://purl.org/dc/terms/title> "The Miniature Guide to Critical Thinking Concepts and Tools (4th ed.)" .
