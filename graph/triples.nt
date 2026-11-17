@@ -8752,6 +8752,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/richard-paul> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2000/01/rdf-schema#label> "Peak-end rule" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "peak-end effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#altLabel> "peak-end heuristic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#definition> "The tendency to judge a past experience mainly by its most intense moment and by how it ended, roughly averaging the two, instead of summing or averaging every moment. Because length gets little weight, a longer episode with a milder ending can be remembered as better than a shorter one." .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peak-end rule" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affective-forecasting> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kahneman-1993-cold-water-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/redelmeier-katz-kahneman-2003-colonoscopy-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "heuristics-and-dual-process" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/heuristics-and-dual-process/peak-end-rule.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#produces> <https://github.com/john1hsu/critical-thinking-graph/id/duration-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/alaybek-2022-peak-end-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> <http://www.w3.org/2000/01/rdf-schema#label> "The Periodic Health Examination (1979 report)" .
@@ -17804,6 +17833,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/paul-elder-critical-thinking-framework/s6> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2766.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s1> <http://purl.org/dc/terms/publisher> "Psychological Science 4(6), 401-405 (Kahneman, Fredrickson, Schreiber & Redelmeier, 1993), copy hosted by the University of Zurich" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s1> <http://purl.org/dc/terms/title> "When More Pain Is Preferred to Less: Adding a Better End" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s1> <https://schema.org/url> <https://ius.uzh.ch/dam/jcr:5ae9adc9-61ec-4174-b37c-4b752f36c23b/Kahnemann%20et%20al.%20-%20When%20More%20Pain%20is%20Preferred%20to%20Less%20(1993).pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s2> <http://purl.org/dc/terms/publisher> "Pain 104(1-2), 187-194 (Redelmeier, Katz & Kahneman, 2003), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s2> <http://purl.org/dc/terms/title> "Memories of colonoscopy: a randomized trial" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s2> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/12855328/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s3> <http://purl.org/dc/terms/publisher> "Organizational Behavior and Human Decision Processes 170, 104149 (Alaybek, Dalal, Fyffe et al., 2022), RePEc/IDEAS record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s3> <http://purl.org/dc/terms/title> "All's well that ends (and peaks) well? A meta-analysis of the peak-end rule and duration neglect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s3> <https://schema.org/url> <https://ideas.repec.org/a/eee/jobhdp/v170y2022ics0749597822000334.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> <http://purl.org/dc/terms/publisher> "George Mason University, Industrial-Organizational Psychology program (Alaybek, 2020)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> <http://purl.org/dc/terms/title> "A Meta-analysis of the Peak-End Rule and its Boundary Conditions (dissertation defense)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> <https://schema.org/url> <https://io.gmu.edu/defenses/1259> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/periodic-health-examination-report/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/periodic-health-examination-report/s1> <http://purl.org/dc/terms/publisher> "Plastic and Reconstructive Surgery 128(1), 305-310 (Burns, Rohrich & Chung, 2011), PubMed Central" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/periodic-health-examination-report/s1> <http://purl.org/dc/terms/title> "The Levels of Evidence and their role in Evidence-Based Medicine" .

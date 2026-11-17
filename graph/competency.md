@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:peak-end-rule` | cto:Heuristic |
 
 ## Most useful remedies
 
@@ -61,6 +63,7 @@ _For each heuristic, which biases can it produce and what counteracts them?_ —
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:debiasing` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:premortem` |
 | `ct:availability-heuristic` | `ct:illusory-correlation` |  |
+| `ct:peak-end-rule` | `ct:duration-neglect` |  |
 | `ct:representativeness-heuristic` | `ct:illusion-of-validity` |  |
 | `ct:representativeness-heuristic` | `ct:insensitivity-to-sample-size` | `ct:statistical-reasoning-training` |
 

@@ -20312,6 +20312,94 @@
   ]
  },
  {
+  "id": "ct:peak-end-rule",
+  "title": "Peak-end rule",
+  "aliases": [
+   "peak-end effect",
+   "peak-end heuristic"
+  ],
+  "type": "Heuristic",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/heuristics-and-dual-process/peak-end-rule.md",
+  "created": "2026-11-17",
+  "summary": "The tendency to judge a past experience mainly by its most intense moment and by how it ended, roughly averaging the two, instead of summing or averaging every moment. Because length gets little weight, a longer episode with a milder ending can be remembered as better than a shorter one.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:attribute-substitution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affective-forecasting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prospect-theory"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:produces",
+    "object": "ct:duration-neglect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:kahneman-1993-cold-water-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:redelmeier-katz-kahneman-2003-colonoscopy-trial",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:alaybek-2022-peak-end-meta-analysis",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://ius.uzh.ch/dam/jcr:5ae9adc9-61ec-4174-b37c-4b752f36c23b/Kahnemann%20et%20al.%20-%20When%20More%20Pain%20is%20Preferred%20to%20Less%20(1993).pdf",
+   "https://pubmed.ncbi.nlm.nih.gov/12855328/",
+   "https://ideas.repec.org/a/eee/jobhdp/v170y2022ics0749597822000334.html",
+   "https://io.gmu.edu/defenses/1259"
+  ]
+ },
+ {
   "id": "ct:periodic-health-examination-report",
   "title": "The Periodic Health Examination (1979 report)",
   "aliases": [

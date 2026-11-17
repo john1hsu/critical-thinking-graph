@@ -18919,6 +18919,85 @@
    ]
   },
   {
+   "@id": "ct:peak-end-rule",
+   "@type": "cto:Heuristic",
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:kahneman-1993-cold-water-study"
+    },
+    {
+     "@id": "ct:redelmeier-katz-kahneman-2003-colonoscopy-trial"
+    }
+   ],
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/heuristics-and-dual-process/peak-end-rule.md",
+   "cto:introducedBy": {
+    "@id": "ct:daniel-kahneman"
+   },
+   "cto:level": "introductory",
+   "cto:produces": {
+    "@id": "ct:duration-neglect"
+   },
+   "cto:requires": {
+    "@id": "ct:heuristic"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:alaybek-2022-peak-end-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4"
+    }
+   ],
+   "rdfs:label": "Peak-end rule",
+   "skos:altLabel": [
+    "peak-end effect",
+    "peak-end heuristic"
+   ],
+   "skos:broader": {
+    "@id": "ct:heuristic"
+   },
+   "skos:definition": "The tendency to judge a past experience mainly by its most intense moment and by how it ended, roughly averaging the two, instead of summing or averaging every moment. Because length gets little weight, a longer episode with a milder ending can be remembered as better than a shorter one.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Peak-end rule",
+   "skos:related": [
+    {
+     "@id": "ct:affective-forecasting"
+    },
+    {
+     "@id": "ct:attribute-substitution"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:prospect-theory"
+    }
+   ]
+  },
+  {
    "@id": "ct:periodic-health-examination-report",
    "@type": "cto:Work",
    "cto:challengedBy": {
@@ -49246,6 +49325,62 @@
    "dcterms:title": "Teaching Critical Thinking in the 'Strong' Sense: A Focus on Self-Deception, World Views, and a Dialectical Mode of Analysis",
    "schema:url": {
     "@id": "https://distantreader.org/stacks/journals/il/il-2766.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Psychological Science 4(6), 401-405 (Kahneman, Fredrickson, Schreiber & Redelmeier, 1993), copy hosted by the University of Zurich",
+   "dcterms:title": "When More Pain Is Preferred to Less: Adding a Better End",
+   "schema:url": {
+    "@id": "https://ius.uzh.ch/dam/jcr:5ae9adc9-61ec-4174-b37c-4b752f36c23b/Kahnemann%20et%20al.%20-%20When%20More%20Pain%20is%20Preferred%20to%20Less%20(1993).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Pain 104(1-2), 187-194 (Redelmeier, Katz & Kahneman, 2003), PubMed record",
+   "dcterms:title": "Memories of colonoscopy: a randomized trial",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/12855328/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Organizational Behavior and Human Decision Processes 170, 104149 (Alaybek, Dalal, Fyffe et al., 2022), RePEc/IDEAS record",
+   "dcterms:title": "All's well that ends (and peaks) well? A meta-analysis of the peak-end rule and duration neglect",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/eee/jobhdp/v170y2022ics0749597822000334.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "George Mason University, Industrial-Organizational Psychology program (Alaybek, 2020)",
+   "dcterms:title": "A Meta-analysis of the Peak-End Rule and its Boundary Conditions (dissertation defense)",
+   "schema:url": {
+    "@id": "https://io.gmu.edu/defenses/1259"
    }
   },
   {
