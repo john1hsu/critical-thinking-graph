@@ -9295,6 +9295,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/alaybek-2022-peak-end-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2000/01/rdf-schema#label> "Peer review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#altLabel> "editorial peer review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#altLabel> "pre-publication peer review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#altLabel> "refereeing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#altLabel> "scholarly peer review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scholarly-communication> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#definition> "The practice of having a manuscript (or grant proposal) assessed by independent experts in the same field, who advise an editor on whether it should be published, revised or rejected; a widely used but imperfect quality filter for scholarly evidence." .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peer review" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jefferson-2007-editorial-peer-review-cochrane-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peters-ceci-1982-resubmission-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/schroter-2008-reviewer-error-detection-trial> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/peer-review.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bruce-2016-peer-review-interventions-meta-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
 <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> <http://www.w3.org/2000/01/rdf-schema#label> "The Periodic Health Examination (1979 report)" .
@@ -18799,6 +18832,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/peak-end-rule/s4> <https://schema.org/url> <https://io.gmu.edu/defenses/1259> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s1> <http://purl.org/dc/terms/publisher> "Cochrane Database of Systematic Reviews (Jefferson, Rudin, Brodney Folse & Davidoff, 2007), PubMed record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s1> <http://purl.org/dc/terms/title> "Editorial peer review for improving the quality of reports of biomedical studies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/17443635/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s2> <http://purl.org/dc/terms/publisher> "BMC Medicine 14:85 (Bruce, Chauvin, Trinquart, Ravaud & Boutron, 2016)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s2> <http://purl.org/dc/terms/title> "Impact of interventions to improve the quality of peer review of biomedical journals: a systematic review and meta-analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s2> <https://schema.org/url> <https://link.springer.com/10.1186/s12916-016-0631-5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s3> <http://purl.org/dc/terms/publisher> "Behavioral and Brain Sciences 5(2) (Peters & Ceci, 1982)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s3> <http://purl.org/dc/terms/title> "Peer-review practices of psychological journals: The fate of published articles, submitted again" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s3> <https://schema.org/url> <https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/peerreview-practices-of-psychological-journals-the-fate-of-published-articles-submitted-again/AFE650EB49A6B17992493DE5E49E4431> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s4> <http://purl.org/dc/terms/publisher> "Journal of the Royal Society of Medicine 101(10) (Schroter, Black, Evans, Godlee, Osorio & Smith, 2008), LSHTM Research Online" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s4> <http://purl.org/dc/terms/title> "What errors do peer reviewers detect, and does training improve their ability to detect them?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s4> <https://schema.org/url> <https://researchonline.lshtm.ac.uk/id/eprint/6900> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s5> <http://purl.org/dc/terms/publisher> "University of St Andrews, Publishing the Philosophical Transactions project (Fyfe, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s5> <http://purl.org/dc/terms/title> "What was the function of early peer review?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s5> <https://schema.org/url> <https://arts.st-andrews.ac.uk/philosophicaltransactions/what-was-the-function-of-early-peer-review/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/periodic-health-examination-report/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/periodic-health-examination-report/s1> <http://purl.org/dc/terms/publisher> "Plastic and Reconstructive Surgery 128(1), 305-310 (Burns, Rohrich & Chung, 2011), PubMed Central" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/periodic-health-examination-report/s1> <http://purl.org/dc/terms/title> "The Levels of Evidence and their role in Evidence-Based Medicine" .

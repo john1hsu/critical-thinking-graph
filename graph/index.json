@@ -21585,6 +21585,97 @@
   ]
  },
  {
+  "id": "ct:peer-review",
+  "title": "Peer review",
+  "aliases": [
+   "refereeing",
+   "editorial peer review",
+   "pre-publication peer review",
+   "scholarly peer review"
+  ],
+  "type": "Method",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/peer-review.md",
+  "created": "2026-11-17",
+  "summary": "The practice of having a manuscript (or grant proposal) assessed by independent experts in the same field, who advise an editor on whether it should be published, revised or rejected; a widely used but imperfect quality filter for scholarly evidence.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scholarly-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hierarchy-of-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:systematic-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:jefferson-2007-editorial-peer-review-cochrane-review",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:peters-ceci-1982-resubmission-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:schroter-2008-reviewer-error-detection-trial",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:bruce-2016-peer-review-interventions-meta-analysis",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/17443635/",
+   "https://link.springer.com/10.1186/s12916-016-0631-5",
+   "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/peerreview-practices-of-psychological-journals-the-fate-of-published-articles-submitted-again/AFE650EB49A6B17992493DE5E49E4431",
+   "https://researchonline.lshtm.ac.uk/id/eprint/6900",
+   "https://arts.st-andrews.ac.uk/philosophicaltransactions/what-was-the-function-of-early-peer-review/"
+  ]
+ },
+ {
   "id": "ct:periodic-health-examination-report",
   "title": "The Periodic Health Examination (1979 report)",
   "aliases": [

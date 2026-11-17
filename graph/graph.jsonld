@@ -20091,6 +20091,93 @@
    ]
   },
   {
+   "@id": "ct:peer-review",
+   "@type": "cto:Method",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:jefferson-2007-editorial-peer-review-cochrane-review"
+    },
+    {
+     "@id": "ct:peters-ceci-1982-resubmission-study"
+    },
+    {
+     "@id": "ct:schroter-2008-reviewer-error-detection-trial"
+    }
+   ],
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/evidence-and-information-literacy/peer-review.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:scientific-method"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:bruce-2016-peer-review-interventions-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s5"
+    }
+   ],
+   "rdfs:label": "Peer review",
+   "skos:altLabel": [
+    "editorial peer review",
+    "pre-publication peer review",
+    "refereeing",
+    "scholarly peer review"
+   ],
+   "skos:broader": {
+    "@id": "ct:scholarly-communication"
+   },
+   "skos:definition": "The practice of having a manuscript (or grant proposal) assessed by independent experts in the same field, who advise an editor on whether it should be published, revised or rejected; a widely used but imperfect quality filter for scholarly evidence.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Peer review",
+   "skos:related": [
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:hierarchy-of-evidence"
+    },
+    {
+     "@id": "ct:preregistration"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:source-evaluation"
+    },
+    {
+     "@id": "ct:systematic-review"
+    }
+   ]
+  },
+  {
    "@id": "ct:periodic-health-examination-report",
    "@type": "cto:Work",
    "cto:challengedBy": {
@@ -52177,6 +52264,76 @@
    "dcterms:title": "A Meta-analysis of the Peak-End Rule and its Boundary Conditions (dissertation defense)",
    "schema:url": {
     "@id": "https://io.gmu.edu/defenses/1259"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Cochrane Database of Systematic Reviews (Jefferson, Rudin, Brodney Folse & Davidoff, 2007), PubMed record",
+   "dcterms:title": "Editorial peer review for improving the quality of reports of biomedical studies",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/17443635/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "BMC Medicine 14:85 (Bruce, Chauvin, Trinquart, Ravaud & Boutron, 2016)",
+   "dcterms:title": "Impact of interventions to improve the quality of peer review of biomedical journals: a systematic review and meta-analysis",
+   "schema:url": {
+    "@id": "https://link.springer.com/10.1186/s12916-016-0631-5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Behavioral and Brain Sciences 5(2) (Peters & Ceci, 1982)",
+   "dcterms:title": "Peer-review practices of psychological journals: The fate of published articles, submitted again",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/peerreview-practices-of-psychological-journals-the-fate-of-published-articles-submitted-again/AFE650EB49A6B17992493DE5E49E4431"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Journal of the Royal Society of Medicine 101(10) (Schroter, Black, Evans, Godlee, Osorio & Smith, 2008), LSHTM Research Online",
+   "dcterms:title": "What errors do peer reviewers detect, and does training improve their ability to detect them?",
+   "schema:url": {
+    "@id": "https://researchonline.lshtm.ac.uk/id/eprint/6900"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/peer-review/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "University of St Andrews, Publishing the Philosophical Transactions project (Fyfe, 2018)",
+   "dcterms:title": "What was the function of early peer review?",
+   "schema:url": {
+    "@id": "https://arts.st-andrews.ac.uk/philosophicaltransactions/what-was-the-function-of-early-peer-review/"
    }
   },
   {
