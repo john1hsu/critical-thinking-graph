@@ -102,7 +102,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 
-…and 85 more.
+…and 86 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

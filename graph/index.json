@@ -6889,6 +6889,115 @@
   ]
  },
  {
+  "id": "ct:conversational-implicature",
+  "title": "Conversational implicature",
+  "aliases": [
+   "Gricean implicature",
+   "conversational implication",
+   "pragmatic implicature"
+  ],
+  "type": "Concept",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/philosophy-of-reasoning/conversational-implicature.md",
+  "created": "2026-11-17",
+  "summary": "Content a speaker conveys beyond what their words literally say, which a hearer works out by assuming the speaker is cooperating (Grice's maxims of quantity, quality, relation and manner). Unlike an entailment, it can be cancelled without contradiction, as when \"some passed\" is followed by \"indeed, all did\".",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:implicature"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cancellability-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-perfection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:unwarranted-contrast"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-a-disjunct"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:enthymeme"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectical-relevance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:scalar-implicature"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:logical-consequence"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:paul-grice",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:logic-and-conversation",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:cooperative-principle",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:logical-consequence",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:relevance-theory",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:pragmatics",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/grice/index.html",
+   "https://plato.stanford.edu/archives/sum2006/entries/implicature/",
+   "https://faculty.washington.edu/smcohen/453/GriceLogic.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5854163"
+  ]
+ },
+ {
   "id": "ct:correcting-erroneous-perceptions-of-randomness",
   "title": "Correcting erroneous perceptions of randomness",
   "aliases": [

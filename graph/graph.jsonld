@@ -6411,6 +6411,101 @@
    ]
   },
   {
+   "@id": "ct:conversational-implicature",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:logical-consequence"
+    },
+    {
+     "@id": "ct:relevance-theory"
+    }
+   ],
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:cooperative-principle"
+   },
+   "cto:file": "articles/philosophy-of-reasoning/conversational-implicature.md",
+   "cto:introducedBy": {
+    "@id": "ct:paul-grice"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:logic-and-conversation"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:logical-consequence"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:pragmatics"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conversational-implicature/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conversational-implicature/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conversational-implicature/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conversational-implicature/s4"
+    }
+   ],
+   "rdfs:label": "Conversational implicature",
+   "skos:altLabel": [
+    "Gricean implicature",
+    "conversational implication",
+    "pragmatic implicature"
+   ],
+   "skos:broader": {
+    "@id": "ct:implicature"
+   },
+   "skos:definition": "Content a speaker conveys beyond what their words literally say, which a hearer works out by assuming the speaker is cooperating (Grice's maxims of quantity, quality, relation and manner). Unlike an entailment, it can be cancelled without contradiction, as when \"some passed\" is followed by \"indeed, all did\".",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Conversational implicature",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-a-disjunct"
+    },
+    {
+     "@id": "ct:cancellability-test"
+    },
+    {
+     "@id": "ct:conditional-perfection"
+    },
+    {
+     "@id": "ct:dialectical-relevance"
+    },
+    {
+     "@id": "ct:enthymeme"
+    },
+    {
+     "@id": "ct:material-conditional"
+    },
+    {
+     "@id": "ct:philosophy-of-language"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:scalar-implicature"
+    },
+    {
+     "@id": "ct:unwarranted-contrast"
+    }
+   ]
+  },
+  {
    "@id": "ct:correcting-erroneous-perceptions-of-randomness",
    "@type": "cto:Technique",
    "cto:contrastsWith": {
@@ -39517,6 +39612,62 @@
    "dcterms:title": "Yule, George Udny",
    "schema:url": {
     "@id": "https://mathshistory.st-andrews.ac.uk/DSB/Yule.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conversational-implicature/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Richard Warner; first published 2005, revised 2026)",
+   "dcterms:title": "Paul Grice",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/grice/index.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conversational-implicature/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Wayne Davis)",
+   "dcterms:title": "Implicature (Summer 2006 edition)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2006/entries/implicature/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conversational-implicature/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "H. P. Grice, in Cole & Morgan (eds.), Syntax and Semantics 3; University of Washington course reading",
+   "dcterms:title": "Logic and Conversation (1975), course copy",
+   "schema:url": {
+    "@id": "https://faculty.washington.edu/smcohen/453/GriceLogic.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conversational-implicature/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Psychologica Belgica 54(4), 374-388 (Janssens, Fabry & Schaeken, 2014), PMC",
+   "dcterms:title": "'Some' Effects of Age, Task, Task Content and Working Memory on Scalar Implicature Processing",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5854163"
    }
   },
   {
