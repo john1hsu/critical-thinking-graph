@@ -28709,6 +28709,96 @@
   ]
  },
  {
+  "id": "ct:survivorship-bias",
+  "title": "Survivorship bias",
+  "aliases": [
+   "survivor bias",
+   "survivorship error"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/cognitive-biases/survivorship-bias.md",
+  "created": "2026-11-17",
+  "summary": "The error of drawing conclusions from the cases that made it through a selection process (the surviving firms, funds, products or people) while overlooking the cases that were filtered out, whose absence makes the survivors look more typical, skilful or causally instructive than they are.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:abraham-wald"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:regression-to-the-mean"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:publication-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:selection-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:feiler-tong-larrick-2013-censorship-bias-study",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:denrell-2003-undersampling-of-failure",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:finance",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.britannica.com/science/survivorship-bias",
+   "https://www.ams.org/samplings/feature-column/fc-2016-06",
+   "https://www.gsb.stanford.edu/faculty-research/publications/vicarious-learning-undersampling-failure-myths-management",
+   "https://scholars.duke.edu/publication/938357",
+   "https://ideas.repec.org/a/oup/rfinst/v5y1992i4p553-80.html",
+   "https://philippe-jehiel.enpc.fr/wp-content/uploads/sites/2/2024/05/wp_202324_.pdf"
+  ]
+ },
+ {
   "id": "ct:suspension-of-judgment",
   "title": "Suspension of judgment",
   "aliases": [

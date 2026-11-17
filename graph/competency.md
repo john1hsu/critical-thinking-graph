@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:argument-from-fallacy` | cto:FormalFallacy |
+| `ct:survivorship-bias` | cto:CognitiveBias |
 
 ## Most useful remedies
 
@@ -104,7 +105,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 
-…and 87 more.
+…and 88 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -151,7 +152,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
 
-…and 40 more.
+…and 41 more.
 
 ## Orphan articles (gap)
 

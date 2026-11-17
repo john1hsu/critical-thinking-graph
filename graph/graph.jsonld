@@ -26832,6 +26832,94 @@
    ]
   },
   {
+   "@id": "ct:survivorship-bias",
+   "@type": "cto:CognitiveBias",
+   "cto:demonstratedBy": {
+    "@id": "ct:feiler-tong-larrick-2013-censorship-bias-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/cognitive-biases/survivorship-bias.md",
+   "cto:instanceOf": {
+    "@id": "ct:selection-bias"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:selection-bias"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:finance"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:denrell-2003-undersampling-of-failure"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s6"
+    }
+   ],
+   "rdfs:label": "Survivorship bias",
+   "skos:altLabel": [
+    "survivor bias",
+    "survivorship error"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:cognitive-bias"
+    },
+    {
+     "@id": "ct:selection-bias"
+    }
+   ],
+   "skos:definition": "The error of drawing conclusions from the cases that made it through a selection process (the surviving firms, funds, products or people) while overlooking the cases that were filtered out, whose absence makes the survivors look more typical, skilful or causally instructive than they are.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Survivorship bias",
+   "skos:related": [
+    {
+     "@id": "ct:abraham-wald"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:publication-bias"
+    },
+    {
+     "@id": "ct:regression-to-the-mean"
+    }
+   ]
+  },
+  {
    "@id": "ct:suspension-of-judgment",
    "@type": "cto:Principle",
    "cto:counteracts": {
@@ -56429,6 +56517,90 @@
    "dcterms:title": "Chan A-W, Hròbjartsson A, Haahr M, Gøtzsche PC, Altman DG (2004)",
    "schema:url": {
     "@id": "https://www.jameslindlibrary.org/chan-a-w-hrobjartsson-a-haahr-m-gotzsche-pc-altman-dg-2004/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Survivorship bias",
+   "schema:url": {
+    "@id": "https://www.britannica.com/science/survivorship-bias"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "American Mathematical Society, Feature Column (Casselman, University of British Columbia, 2016)",
+   "dcterms:title": "The Legend of Abraham Wald",
+   "schema:url": {
+    "@id": "https://www.ams.org/samplings/feature-column/fc-2016-06"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Organization Science 14(3), 227-243 (Denrell, 2003), Stanford GSB publication record",
+   "dcterms:title": "Vicarious learning, undersampling of failure, and the myths of management",
+   "schema:url": {
+    "@id": "https://www.gsb.stanford.edu/faculty-research/publications/vicarious-learning-undersampling-failure-myths-management"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Management Science 59(3), 573-591 (Feiler, Tong & Larrick, 2013), doi:10.1287/mnsc.1120.1612, Duke Scholars record",
+   "dcterms:title": "Biased judgment in censored environments",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/938357"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Review of Financial Studies 5(4), 553-580 (Brown et al., 1992), IDEAS/RePEc record",
+   "dcterms:title": "Survivorship bias in performance studies",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/oup/rfinst/v5y1992i4p553-80.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "WZB Working Paper 2023-24 (Barron, Huck & Jehiel, 2023)",
+   "dcterms:title": "Everyday econometricians: Selection neglect and overoptimism when learning from others",
+   "schema:url": {
+    "@id": "https://philippe-jehiel.enpc.fr/wp-content/uploads/sites/2/2024/05/wp_202324_.pdf"
    }
   },
   {

@@ -20811,6 +20811,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/suppressed-evidence/s5> <https://schema.org/url> <https://www.jameslindlibrary.org/chan-a-w-hrobjartsson-a-haahr-m-gotzsche-pc-altman-dg-2004/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s1> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s1> <http://purl.org/dc/terms/title> "Survivorship bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s1> <https://schema.org/url> <https://www.britannica.com/science/survivorship-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s2> <http://purl.org/dc/terms/publisher> "American Mathematical Society, Feature Column (Casselman, University of British Columbia, 2016)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s2> <http://purl.org/dc/terms/title> "The Legend of Abraham Wald" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s2> <https://schema.org/url> <https://www.ams.org/samplings/feature-column/fc-2016-06> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s3> <http://purl.org/dc/terms/publisher> "Organization Science 14(3), 227-243 (Denrell, 2003), Stanford GSB publication record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s3> <http://purl.org/dc/terms/title> "Vicarious learning, undersampling of failure, and the myths of management" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s3> <https://schema.org/url> <https://www.gsb.stanford.edu/faculty-research/publications/vicarious-learning-undersampling-failure-myths-management> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s4> <http://purl.org/dc/terms/publisher> "Management Science 59(3), 573-591 (Feiler, Tong & Larrick, 2013), doi:10.1287/mnsc.1120.1612, Duke Scholars record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s4> <http://purl.org/dc/terms/title> "Biased judgment in censored environments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s4> <https://schema.org/url> <https://scholars.duke.edu/publication/938357> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s5> <http://purl.org/dc/terms/publisher> "Review of Financial Studies 5(4), 553-580 (Brown et al., 1992), IDEAS/RePEc record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s5> <http://purl.org/dc/terms/title> "Survivorship bias in performance studies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s5> <https://schema.org/url> <https://ideas.repec.org/a/oup/rfinst/v5y1992i4p553-80.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s6> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s6> <http://purl.org/dc/terms/publisher> "WZB Working Paper 2023-24 (Barron, Huck & Jehiel, 2023)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s6> <http://purl.org/dc/terms/title> "Everyday econometricians: Selection neglect and overoptimism when learning from others" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "preprint" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s6> <https://schema.org/url> <https://philippe-jehiel.enpc.fr/wp-content/uploads/sites/2/2024/05/wp_202324_.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> <http://purl.org/dc/terms/date> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> <http://purl.org/dc/terms/publisher> "Philosophical Studies 162(2), 165-181 (Friedman, 2013), author's copy" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/suspension-of-judgment/s1> <http://purl.org/dc/terms/title> "Suspended Judgment" .
@@ -22121,6 +22157,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/dwan-2013-outcome-reporting-bias-review> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2000/01/rdf-schema#label> "Survivorship bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "survivor bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#altLabel> "survivorship error" .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#definition> "The error of drawing conclusions from the cases that made it through a selection process (the surviving firms, funds, products or people) while overlooking the cases that were filtered out, whose absence makes the survivors look more typical, skilful or causally instructive than they are." .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#prefLabel> "Survivorship bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-wald> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/survivorship-bias/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/feiler-tong-larrick-2013-censorship-bias-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/survivorship-bias.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/finance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/denrell-2003-undersampling-of-failure> .
 <https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://purl.org/dc/terms/created> "2026-11-13"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
 <https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> <http://www.w3.org/2000/01/rdf-schema#label> "Suspension of judgment" .
