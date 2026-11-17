@@ -472,6 +472,16 @@ flowchart TD
   o2["A full-time accountant who never joined the team could lack the certificate while both premises stay true."] -. attacks .-> ra
 ```
 
+## Improper transposition (`ct:improper-transposition`)
+
+```mermaid
+flowchart TD
+  p1["If an expense claim is over 500 dollars, it needs a director's sign-off."] --> ra{{"invalid"}}
+  ra --> c["If an expense claim is not over 500 dollars, it does not need a director's sign-off."]
+  o1["The policy may also require a director's sign-off for any foreign travel claim, whatever its amount."] -. attacks .-> ra
+  o2["The rule names one condition that triggers sign-off; it does not say that it is the only one."] -. attacks .-> ra
+```
+
 ## Inductive reasoning (`ct:inductive-reasoning`)
 
 ```mermaid

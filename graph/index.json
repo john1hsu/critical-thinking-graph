@@ -15375,6 +15375,111 @@
   ]
  },
  {
+  "id": "ct:improper-transposition",
+  "title": "Improper transposition",
+  "aliases": [
+   "negating antecedent and consequent",
+   "fallacy of negating antecedent and consequent",
+   "inferring the inverse of a conditional"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/improper-transposition.md",
+  "created": "2026-11-17",
+  "summary": "The formal fallacy of inferring \"if not p, then not q\" from \"if p, then q\": both parts of a conditional are negated but left in place, producing its inverse. Valid transposition (contraposition) also swaps the parts; the inverse is not equivalent to the original, so the premise can be true while the conclusion is false.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:commutation-of-conditionals"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-perfection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:propositional-logic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:contraposition",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:denying-the-antecedent",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:commutation-of-conditionals",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:biconditional",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:conditional-perfection",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the conclusion keep the premise's if-clause and then-clause in the same order but put \"not\" in front of both?",
+   "Is there some other route, besides p, by which q could come about, so that \"if not p, then not q\" fails?",
+   "Did the speaker mean \"only if\" or \"if and only if\"? If so, has that stronger claim been stated and supported on its own?",
+   "Would the valid contrapositive, \"if not q, then not p\", give the arguer what they actually need?"
+  ],
+  "source_urls": [
+   "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/fallacies",
+   "https://fallacyfiles.org/imptrans.html",
+   "https://openstax.org/books/contemporary-mathematics/pages/2-5-equivalent-statements",
+   "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning_-_Writing_and_Proof_(Sundstrom)/2%3A_Logical_Reasoning/2.2%3A_Logically_Equivalent_Statements",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8660741"
+  ]
+ },
+ {
   "id": "ct:inductive-reasoning",
   "title": "Inductive reasoning",
   "aliases": [

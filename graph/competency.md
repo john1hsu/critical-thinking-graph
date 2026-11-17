@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:argument-from-fallacy` | cto:FormalFallacy |
+| `ct:improper-transposition` | cto:FormalFallacy |
 | `ct:survivorship-bias` | cto:CognitiveBias |
 
 ## Most useful remedies
@@ -152,7 +153,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 
-…and 43 more.
+…and 44 more.
 
 ## Orphan articles (gap)
 

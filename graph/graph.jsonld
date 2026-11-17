@@ -14287,6 +14287,103 @@
    ]
   },
   {
+   "@id": "ct:improper-transposition",
+   "@type": "cto:FormalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:biconditional"
+   },
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:commutation-of-conditionals"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    }
+   ],
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:conditional-perfection"
+   },
+   "cto:file": "articles/formal-fallacies/improper-transposition.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:contraposition"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:propositional-logic"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s5"
+    }
+   ],
+   "rdfs:label": "Improper transposition",
+   "skos:altLabel": [
+    "fallacy of negating antecedent and consequent",
+    "inferring the inverse of a conditional",
+    "negating antecedent and consequent"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The formal fallacy of inferring \"if not p, then not q\" from \"if p, then q\": both parts of a conditional are negated but left in place, producing its inverse. Valid transposition (contraposition) also swaps the parts; the inverse is not equivalent to the original, so the premise can be true while the conclusion is false.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Improper transposition",
+   "skos:related": [
+    {
+     "@id": "ct:commutation-of-conditionals"
+    },
+    {
+     "@id": "ct:conditional-perfection"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:illicit-contraposition"
+    },
+    {
+     "@id": "ct:material-conditional"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:necessary-and-sufficient-conditions"
+    },
+    {
+     "@id": "ct:truth-table"
+    }
+   ]
+  },
+  {
    "@id": "ct:inductive-reasoning",
    "@type": "cto:ReasoningMode",
    "cto:challengedBy": {
@@ -34004,6 +34101,102 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:improper-transposition"
+   },
+   "rdfs:label": "Does the conclusion keep the premise's if-clause and then-clause in the same order but put \"not\" in front of both?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:improper-transposition"
+   },
+   "rdfs:label": "Is there some other route, besides p, by which q could come about, so that \"if not p, then not q\" fails?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:improper-transposition"
+   },
+   "rdfs:label": "Did the speaker mean \"only if\" or \"if and only if\"? If so, has that stronger claim been stated and supported on its own?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:improper-transposition"
+   },
+   "rdfs:label": "Would the valid contrapositive, \"if not q, then not p\", give the arguer what they actually need?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:improper-transposition"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "If an expense claim is not over 500 dollars, it does not need a director's sign-off."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The policy may also require a director's sign-off for any foreign travel claim, whatever its amount."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The rule names one condition that triggers sign-off; it does not say that it is the only one."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If an expense claim is over 500 dollars, it needs a director's sign-off."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/c"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map/p1"
+   },
+   "aif:fulfilsScheme": {
+    "@id": "ct:contraposition"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -46931,6 +47124,76 @@
    "dcterms:title": "Distributive Terms, Truth, and the Port Royal Logic",
    "schema:url": {
     "@id": "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "J. L. Mackie, The Encyclopedia of Philosophy (Macmillan), via Encyclopedia.com",
+   "dcterms:title": "Fallacies (Encyclopedia of Philosophy, 1967)",
+   "schema:url": {
+    "@id": "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/fallacies"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "community",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "The Fallacy Files (Gary N. Curtis)",
+   "dcterms:title": "Improper Transposition",
+   "schema:url": {
+    "@id": "https://fallacyfiles.org/imptrans.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Contemporary Mathematics, OpenStax (Rice University)",
+   "dcterms:title": "2.5 Equivalent Statements",
+   "schema:url": {
+    "@id": "https://openstax.org/books/contemporary-mathematics/pages/2-5-equivalent-statements"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Ted Sundstrom, Mathematical Reasoning: Writing and Proof (Grand Valley State University), Mathematics LibreTexts",
+   "dcterms:title": "2.2: Logically Equivalent Statements",
+   "schema:url": {
+    "@id": "https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Mathematical_Reasoning_-_Writing_and_Proof_(Sundstrom)/2%3A_Logical_Reasoning/2.2%3A_Logically_Equivalent_Statements"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/improper-transposition/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Journal of Psycholinguistic Research 50(6), 1337-1368 (Liu & Barthel, 2021), PubMed Central",
+   "dcterms:title": "Semantics Processing of Conditional Connectives: German wenn 'if' Versus nur wenn 'only if'",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8660741"
    }
   },
   {
