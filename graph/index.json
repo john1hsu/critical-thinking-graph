@@ -2118,6 +2118,95 @@
   ]
  },
  {
+  "id": "ct:argument-from-fallacy",
+  "title": "Argument from fallacy",
+  "aliases": [
+   "fallacy fallacy",
+   "argumentum ad logicam",
+   "fallacist's fallacy",
+   "argument to logic"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/argument-from-fallacy.md",
+  "created": "2026-11-17",
+  "summary": "The invalid inference from \"the argument offered for P is fallacious\" to \"P is false\". A bad argument shows only that the conclusion has not been supported by that argument; the conclusion may still be true.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-ignorance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:soundness"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:ad-hominem",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:david-hackett-fischer",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:historians-fallacies",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the critic only show that the argument fails, or do they also give an independent reason to think the conclusion is false?",
+   "Are there other, better arguments or evidence for the same conclusion that the critique leaves untouched?",
+   "Was the alleged fallacy actually committed, or has the argument been misdiagnosed or uncharitably reconstructed?",
+   "Would it be enough to say \"not yet supported\" instead of \"false\"?"
+  ],
+  "source_urls": [
+   "https://philarchive.org/archive/ABETFF-2",
+   "https://philpapers.org/rec/COTAFF-3",
+   "https://iep.utm.edu/fallacy/",
+   "https://www.stat.berkeley.edu/~stark/SticiGui/Text/reasoning.htm"
+  ]
+ },
+ {
   "id": "ct:argument-from-ignorance",
   "title": "Argument from ignorance",
   "aliases": [

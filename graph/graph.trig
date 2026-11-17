@@ -853,6 +853,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-fallacies/argument-from-fallacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals> .
 <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-fallacies/commutation-of-conditionals.md" .
@@ -9918,6 +9925,101 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/affirming-the-consequent/s5> <https://schema.org/url> <https://modeltheory.org/papers/2019meta-conditionals.pdf> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the critic only show that the argument fails, or do they also give an independent reason to think the conclusion is false?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Are there other, better arguments or evidence for the same conclusion that the critique leaves untouched?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Was the alleged fallacy actually committed, or has the argument been misdiagnosed or uncharitably reconstructed?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Would it be enough to say \"not yet supported\" instead of \"false\"?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So the new scheduling tool will not cut overtime." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The flaw shows only that the vendor's evidence is too thin; the tool might still cut overtime, which a proper trial across several sites could reveal." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Rejecting the vendor's argument justifies suspending judgment, not accepting the opposite claim." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The vendor argued that the new scheduling tool will cut overtime, citing a single hand-picked pilot site." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Generalizing from one hand-picked site is a hasty generalization." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/c> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2000/01/rdf-schema#label> "Argument from fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "argument to logic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "argumentum ad logicam" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacist's fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#definition> "The invalid inference from \"the argument offered for P is fallacious\" to \"P is false\". A bad argument shows only that the conclusion has not been supported by that argument; the conclusion may still be true." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Argument from fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/argument-from-fallacy.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/david-hackett-fischer> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/historians-fallacies> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1> <http://purl.org/dc/terms/publisher> "Argumentation (Andrew Aberdein, 2023), author's copy on PhilArchive" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1> <http://purl.org/dc/terms/title> "The Fallacy Fallacy: From the Owl of Minerva to the Lark of Arete" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1> <https://schema.org/url> <https://philarchive.org/archive/ABETFF-2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2> <http://purl.org/dc/terms/publisher> "Christian Cotton, in Arp, Barbone & Bruce (eds.), Bad Arguments, Wiley, 2018 (record on PhilPapers)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2> <http://purl.org/dc/terms/title> "Argument from Fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2> <https://schema.org/url> <https://philpapers.org/rec/COTAFF-3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Bradley Dowden)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3> <http://purl.org/dc/terms/title> "Fallacies" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3> <https://schema.org/url> <https://iep.utm.edu/fallacy/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4> <http://purl.org/dc/terms/publisher> "Department of Statistics, University of California, Berkeley (SticiGui course text)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4> <http://purl.org/dc/terms/title> "SticiGui: Reasoning (chapter on logic and fallacies)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4> <https://schema.org/url> <https://www.stat.berkeley.edu/~stark/SticiGui/Text/reasoning.htm> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals#graph> {
@@ -26570,11 +26672,13 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/false-dilemma> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInstance> <https://github.com/john1hsu/critical-thinking-graph/id/tu-quoque> .
@@ -26830,6 +26934,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/distributive-collective-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/presumption> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-reconstruction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
@@ -26897,6 +27002,16 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <https://github.com/john1hsu/critical-thinking-graph/ontology#misusedAs> <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/evaluating-expert-testimony> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -26907,6 +27022,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/suspension-of-judgment> .
@@ -26960,6 +27076,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-reconstruction> .
@@ -27554,6 +27671,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
   <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
   <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> .
   <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
@@ -28430,6 +28548,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/david-dunning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-dunning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-dunning> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/dunning-kruger-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/david-hackett-fischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/david-hackett-fischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/david-hackett-fischer> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
@@ -28726,6 +28847,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals> .
   <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct> .
@@ -29285,6 +29407,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/amphiboly> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
@@ -29418,6 +29541,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
@@ -29436,6 +29560,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/denying-a-conjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
@@ -29843,6 +29968,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/historians-fallacies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/historians-fallacies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/historians-fallacies> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/historic-doubts-relative-to-napoleon-buonaparte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/historic-doubts-relative-to-napoleon-buonaparte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/historic-doubts-relative-to-napoleon-buonaparte> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
@@ -30158,6 +30286,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
@@ -32718,6 +32847,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
@@ -32726,6 +32856,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
@@ -33389,6 +33520,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-a-disjunct> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/antilogism> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/cancellability-test> .

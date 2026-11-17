@@ -1969,6 +1969,90 @@
    ]
   },
   {
+   "@id": "ct:argument-from-fallacy",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:ad-hominem"
+   },
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map"
+   },
+   "cto:file": "articles/formal-fallacies/argument-from-fallacy.md",
+   "cto:introducedBy": {
+    "@id": "ct:david-hackett-fischer"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:historians-fallacies"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:soundness"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4"
+    }
+   ],
+   "rdfs:label": "Argument from fallacy",
+   "skos:altLabel": [
+    "argument to logic",
+    "argumentum ad logicam",
+    "fallacist's fallacy",
+    "fallacy fallacy"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The invalid inference from \"the argument offered for P is fallacious\" to \"P is false\". A bad argument shows only that the conclusion has not been supported by that argument; the conclusion may still be true.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Argument from fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:argument-evaluation"
+    },
+    {
+     "@id": "ct:argument-from-ignorance"
+    },
+    {
+     "@id": "ct:burden-of-proof"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:soundness"
+    }
+   ]
+  },
+  {
    "@id": "ct:argument-from-ignorance",
    "@type": "cto:InformalFallacy",
    "cto:contrastsWith": {
@@ -29848,6 +29932,109 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-fallacy"
+   },
+   "rdfs:label": "Does the critic only show that the argument fails, or do they also give an independent reason to think the conclusion is false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-fallacy"
+   },
+   "rdfs:label": "Are there other, better arguments or evidence for the same conclusion that the critique leaves untouched?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-fallacy"
+   },
+   "rdfs:label": "Was the alleged fallacy actually committed, or has the argument been misdiagnosed or uncharitably reconstructed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:argument-from-fallacy"
+   },
+   "rdfs:label": "Would it be enough to say \"not yet supported\" instead of \"false\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:argument-from-fallacy"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the new scheduling tool will not cut overtime."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The flaw shows only that the vendor's evidence is too thin; the tool might still cut overtime, which a proper trial across several sites could reveal."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Rejecting the vendor's argument justifies suspending judgment, not accepting the opposite claim."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The vendor argued that the new scheduling tool will cut overtime, citing a single hand-picked pilot site."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Generalizing from one hand-picked site is a hasty generalization."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -35944,6 +36131,62 @@
    "dcterms:title": "Fallacies",
    "schema:url": {
     "@id": "https://iep.utm.edu/fallacy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Argumentation (Andrew Aberdein, 2023), author's copy on PhilArchive",
+   "dcterms:title": "The Fallacy Fallacy: From the Owl of Minerva to the Lark of Arete",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/ABETFF-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Christian Cotton, in Arp, Barbone & Bruce (eds.), Bad Arguments, Wiley, 2018 (record on PhilPapers)",
+   "dcterms:title": "Argument from Fallacy",
+   "schema:url": {
+    "@id": "https://philpapers.org/rec/COTAFF-3"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Bradley Dowden)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/fallacy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/argument-from-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Department of Statistics, University of California, Berkeley (SticiGui course text)",
+   "dcterms:title": "SticiGui: Reasoning (chapter on logic and fallacies)",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/~stark/SticiGui/Text/reasoning.htm"
    }
   },
   {

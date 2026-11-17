@@ -6,7 +6,9 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-_No results._
+| node | type |
+|---|---|
+| `ct:argument-from-fallacy` | cto:FormalFallacy |
 
 ## Most useful remedies
 
@@ -108,7 +110,9 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 
 _Which written formal fallacies have no invalidFormOf edge to the valid reasoning form they mimic?_ — `queries/05-invalid-lookalikes.rq`
 
-_No results._
+| fallacy |
+|---|
+| `ct:argument-from-fallacy` |
 
 ## Concepts with no recorded origin (gap)
 

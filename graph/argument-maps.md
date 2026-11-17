@@ -101,6 +101,17 @@ flowchart TD
   o2["A second engineer's report flags rot at one bearing end, so experts do not yet agree."] -. attacks .-> ra
 ```
 
+## Argument from fallacy (`ct:argument-from-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["The vendor argued that the new scheduling tool will cut overtime, citing a single hand-picked pilot site."] --> ra{{"invalid"}}
+  p2["Generalizing from one hand-picked site is a hasty generalization."] --> ra{{"invalid"}}
+  ra --> c["So the new scheduling tool will not cut overtime."]
+  o1["The flaw shows only that the vendor's evidence is too thin; the tool might still cut overtime, which a proper trial across several sites could reveal."] -. attacks .-> ra
+  o2["Rejecting the vendor's argument justifies suspending judgment, not accepting the opposite claim."] -. attacks .-> ra
+```
+
 ## Argument from ignorance (`ct:argument-from-ignorance`)
 
 ```mermaid
