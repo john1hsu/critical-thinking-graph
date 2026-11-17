@@ -32480,6 +32480,99 @@
   ]
  },
  {
+  "id": "ct:wisdom-of-crowds",
+  "title": "Wisdom of crowds",
+  "aliases": [
+   "wisdom of the crowd",
+   "crowd wisdom",
+   "wisdom-of-crowd effect",
+   "vox populi effect"
+  ],
+  "type": "Phenomenon",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/decision-making/wisdom-of-crowds.md",
+  "created": "2026-11-17",
+  "summary": "The finding that the average (or median) of many independent individual estimates is often more accurate than most of the individuals who made them, because their errors partly cancel out; the effect weakens when judges share information, think alike or are swayed by one another.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectical-bootstrapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:geopolitical-forecasting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-larrick"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:francis-galton",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:mannes-2014-wisdom-of-select-crowds-study",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:lorenz-2011-social-influence-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:forecasting",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://galton.org/cgi-bin/searchImages/search/essays/pages/galton-1907-vox-populi_1.htm",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3107299",
+   "https://econpapers.repec.org/RePEc:inm:ormnsc:v:52:y:2006:i:1:p:111-127",
+   "https://scholars.duke.edu/individual/pub1040384",
+   "https://www.publishersweekly.com/978-0-385-50386-0"
+  ]
+ },
+ {
   "id": "ct:zeno-of-elea",
   "title": "Zeno of Elea",
   "aliases": [

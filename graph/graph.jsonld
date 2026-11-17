@@ -30371,6 +30371,91 @@
    ]
   },
   {
+   "@id": "ct:wisdom-of-crowds",
+   "@type": "cto:Phenomenon",
+   "cto:appliedIn": {
+    "@id": "ct:forecasting"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:lorenz-2011-social-influence-study"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/decision-making/wisdom-of-crowds.md",
+   "cto:introducedBy": {
+    "@id": "ct:francis-galton"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:mannes-2014-wisdom-of-select-crowds-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5"
+    }
+   ],
+   "rdfs:label": "Wisdom of crowds",
+   "skos:altLabel": [
+    "crowd wisdom",
+    "vox populi effect",
+    "wisdom of the crowd",
+    "wisdom-of-crowd effect"
+   ],
+   "skos:broader": {
+    "@id": "ct:group-decision-making"
+   },
+   "skos:definition": "The finding that the average (or median) of many independent individual estimates is often more accurate than most of the individuals who made them, because their errors partly cancel out; the effect weakens when judges share information, think alike or are swayed by one another.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Wisdom of crowds",
+   "skos:related": [
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:delphi-method"
+    },
+    {
+     "@id": "ct:dialectical-bootstrapping"
+    },
+    {
+     "@id": "ct:geopolitical-forecasting"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:richard-larrick"
+    }
+   ]
+  },
+  {
    "@id": "ct:zeno-of-elea",
    "@type": "cto:Person",
    "cto:domain": "history-and-thinkers",
@@ -60801,6 +60886,76 @@
    "dcterms:title": "William Whewell",
    "schema:url": {
     "@id": "https://www.britannica.com/biography/William-Whewell"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Nature 75, 450-451 (Galton, 7 March 1907), page scan on galton.org",
+   "dcterms:title": "Vox Populi",
+   "schema:url": {
+    "@id": "https://galton.org/cgi-bin/searchImages/search/essays/pages/galton-1907-vox-populi_1.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Proceedings of the National Academy of Sciences 108(22), 9020-9025 (Lorenz, Rauhut, Schweitzer & Helbing, 2011), PubMed Central",
+   "dcterms:title": "How social influence can undermine the wisdom of crowd effect",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3107299"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Management Science 52(1), 111-127 (Larrick & Soll, 2006), record on RePEc/EconPapers",
+   "dcterms:title": "Intuitions About Combining Opinions: Misappreciation of the Averaging Principle",
+   "schema:url": {
+    "@id": "https://econpapers.repec.org/RePEc:inm:ormnsc:v:52:y:2006:i:1:p:111-127"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 107(2), 276-299 (Mannes, Soll & Larrick, 2014), Duke Scholars record",
+   "dcterms:title": "The wisdom of select crowds",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/individual/pub1040384"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Publishers Weekly review of Surowiecki, Doubleday, 2004",
+   "dcterms:title": "The Wisdom of Crowds: Why the Many Are Smarter Than the Few (review)",
+   "schema:url": {
+    "@id": "https://www.publishersweekly.com/978-0-385-50386-0"
    }
   },
   {

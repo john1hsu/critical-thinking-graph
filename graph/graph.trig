@@ -715,6 +715,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+<https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/decision-making/wisdom-of-crowds.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/evidence-and-information-literacy/conflict-of-interest.md" .
@@ -8862,6 +8870,72 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/the-robust-beauty-of-improper-linear-models> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1> <http://purl.org/dc/terms/publisher> "Nature 75, 450-451 (Galton, 7 March 1907), page scan on galton.org" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1> <http://purl.org/dc/terms/title> "Vox Populi" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1> <https://schema.org/url> <https://galton.org/cgi-bin/searchImages/search/essays/pages/galton-1907-vox-populi_1.htm> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2> <http://purl.org/dc/terms/publisher> "Proceedings of the National Academy of Sciences 108(22), 9020-9025 (Lorenz, Rauhut, Schweitzer & Helbing, 2011), PubMed Central" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2> <http://purl.org/dc/terms/title> "How social influence can undermine the wisdom of crowd effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC3107299> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3> <http://purl.org/dc/terms/publisher> "Management Science 52(1), 111-127 (Larrick & Soll, 2006), record on RePEc/EconPapers" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3> <http://purl.org/dc/terms/title> "Intuitions About Combining Opinions: Misappreciation of the Averaging Principle" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3> <https://schema.org/url> <https://econpapers.repec.org/RePEc:inm:ormnsc:v:52:y:2006:i:1:p:111-127> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 107(2), 276-299 (Mannes, Soll & Larrick, 2014), Duke Scholars record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4> <http://purl.org/dc/terms/title> "The wisdom of select crowds" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4> <https://schema.org/url> <https://scholars.duke.edu/individual/pub1040384> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5> <http://purl.org/dc/terms/publisher> "Publishers Weekly review of Surowiecki, Doubleday, 2004" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5> <http://purl.org/dc/terms/title> "The Wisdom of Crowds: Why the Many Are Smarter Than the Few (review)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5> <https://schema.org/url> <https://www.publishersweekly.com/978-0-385-50386-0> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2000/01/rdf-schema#label> "Wisdom of crowds" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#altLabel> "crowd wisdom" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#altLabel> "vox populi effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#altLabel> "wisdom of the crowd" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#altLabel> "wisdom-of-crowd effect" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#definition> "The finding that the average (or median) of many independent individual estimates is often more accurate than most of the individuals who made them, because their errors partly cancel out; the effect weakens when judges share information, think alike or are swayed by one another." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wisdom of crowds" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/wisdom-of-crowds/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/lorenz-2011-social-influence-study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/wisdom-of-crowds.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/francis-galton> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mannes-2014-wisdom-of-select-crowds-study> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest#graph> {
@@ -29196,6 +29270,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/calibration-training> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
@@ -30366,6 +30441,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/expert-elicitation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
@@ -31251,6 +31327,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/francis-galton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/francis-galton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/francis-galton> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/francis-galton> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/franco-2014-tess-file-drawer-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/franco-2014-tess-file-drawer-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/franco-2014-tess-file-drawer-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
@@ -31418,8 +31495,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/gross-latham-2007-information-literacy-self-estimates-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
   <https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifiedBy> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -31428,6 +31507,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentative-theory-of-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/guess-coppock-2020-backlash-experiments> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
@@ -32292,6 +32372,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-under-uncertainty-heuristics-and-biases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-under-uncertainty-heuristics-and-biases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-under-uncertainty-heuristics-and-biases> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-and-adjustment-heuristic> .
@@ -32593,6 +32674,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/lord-ross-lepper-1979-capital-punishment-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lord-ross-lepper-1979-capital-punishment-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lord-ross-lepper-1979-capital-punishment-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/lorenz-2011-social-influence-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
@@ -32644,6 +32726,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/mandel-tetlock-2018-correcting-judgment-correctives> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mandel-tetlock-2018-correcting-judgment-correctives> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mandel-tetlock-2018-correcting-judgment-correctives> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/tradecraft-primer> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mannes-2014-wisdom-of-select-crowds-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
@@ -33201,6 +33284,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifiedBy> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/calibration-training> .
@@ -35685,9 +35769,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/wineburg-2022-lateral-reading-classroom-experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wineburg-2022-lateral-reading-classroom-experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wineburg-2022-lateral-reading-classroom-experiment> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-larrick> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/words-of-estimative-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .
