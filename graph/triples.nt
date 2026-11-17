@@ -2677,6 +2677,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2000/01/rdf-schema#label> "Conditional perfection" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#altLabel> "biconditional reading of conditionals" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#altLabel> "conditional strengthening" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#altLabel> "perfection of conditionals" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/conversational-implicature> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#definition> "The tendency of listeners to hear a conditional \"if P, then Q\" as also conveying \"if not P, then not Q\", so that it is understood as the stronger \"Q if and only if P\". Described by Geis and Zwicky in 1971, it is treated as a defeasible pragmatic inference, not something the conditional logically entails." .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conditional perfection" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cancellability-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/denying-the-antecedent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/material-conditional> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/exhaustification> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/scalar-implicature> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/conditional-perfection.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/arnold-zwicky> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/material-conditional> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2000/01/rdf-schema#label> "Conditional probability" .
@@ -13258,6 +13292,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/commutation-of-conditionals/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/commutation-of-conditionals/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/commutation-of-conditionals/s5> <https://schema.org/url> <https://methexp.uni-koeln.de/files/Klauer-Stahl-Erdfelder-2007.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s1> <http://purl.org/dc/terms/publisher> "Kai von Fintel, MIT (manuscript, September 2001), author's copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s1> <http://purl.org/dc/terms/title> "Conditional Strengthening: A Case Study in Implicature" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s1> <https://schema.org/url> <https://web.mit.edu/fintel/fintel-2001-condstrength.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 35(1), 88-134 (David Godden & Frank Zenker, 2015), Lund University Publications record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s2> <http://purl.org/dc/terms/title> "Denying Antecedents and Affirming Consequents: The State of the Art" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s2> <https://schema.org/url> <https://www.lunduniversity.lu.se/lup/publication/5eab0ec9-546b-4399-8129-5c043a272ee0> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s3> <http://purl.org/dc/terms/publisher> "Journal of Semantics (Ebru Evcen, Alan Bale & David Barner), accepted manuscript, author's copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s3> <http://purl.org/dc/terms/title> "Conditional inference and access to alternatives: The role of QUD and speaker knowledge in conditional perfection" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s3> <https://schema.org/url> <https://ebruevcen.github.io/files/EvcenBaleBarner_inpress.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s4> <http://purl.org/dc/terms/publisher> "Journal of Psycholinguistic Research 50(6), 1337-1368 (Mingya Liu & Mathias Barthel, 2021), doi:10.1007/s10936-021-09812-0" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s4> <http://purl.org/dc/terms/title> "Semantics Processing of Conditional Connectives: German wenn 'if' Versus nur wenn 'only if'" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s4> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC8660741> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s5> <http://purl.org/dc/terms/publisher> "Frontiers in Psychology 13, 894396 (Juliane Schwab & Mingya Liu, 2022), doi:10.3389/fpsyg.2022.894396" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s5> <http://purl.org/dc/terms/title> "Processing attenuating NPIs in indicative and counterfactual conditionals" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s5> <https://schema.org/url> <https://www.frontiersin.org/articles/10.3389/fpsyg.2022.894396/pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> <http://purl.org/dc/terms/publisher> "Chelsea Publishing, New York (Kolmogorov, trans. ed. Morrison, 1950), Internet Archive scan" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s1> <http://purl.org/dc/terms/title> "Foundations of the Theory of Probability (English translation of Grundbegriffe der Wahrscheinlichkeitsrechnung, 1933)" .

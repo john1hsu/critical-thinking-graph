@@ -6011,6 +6011,108 @@
   ]
  },
  {
+  "id": "ct:conditional-perfection",
+  "title": "Conditional perfection",
+  "aliases": [
+   "conditional strengthening",
+   "perfection of conditionals",
+   "biconditional reading of conditionals"
+  ],
+  "type": "Phenomenon",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/philosophy-of-reasoning/conditional-perfection.md",
+  "created": "2026-11-17",
+  "summary": "The tendency of listeners to hear a conditional \"if P, then Q\" as also conveying \"if not P, then not Q\", so that it is understood as the stronger \"Q if and only if P\". Described by Geis and Zwicky in 1971, it is treated as a defeasible pragmatic inference, not something the conditional logically entails.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:conversational-implicature"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:necessary-and-sufficient-conditions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:commutation-of-conditionals"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cancellability-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-ponens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:enthymeme"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:arnold-zwicky",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:scalar-implicature",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:exhaustification",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:material-conditional",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:pragmatics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://web.mit.edu/fintel/fintel-2001-condstrength.pdf",
+   "https://www.lunduniversity.lu.se/lup/publication/5eab0ec9-546b-4399-8129-5c043a272ee0",
+   "https://ebruevcen.github.io/files/EvcenBaleBarner_inpress.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8660741",
+   "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.894396/pdf"
+  ]
+ },
+ {
   "id": "ct:conditional-probability",
   "title": "Conditional probability",
   "aliases": [

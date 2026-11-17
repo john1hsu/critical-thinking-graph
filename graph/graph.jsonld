@@ -5609,6 +5609,100 @@
    ]
   },
   {
+   "@id": "ct:conditional-perfection",
+   "@type": "cto:Phenomenon",
+   "cto:contrastsWith": {
+    "@id": "ct:material-conditional"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:exhaustification"
+    },
+    {
+     "@id": "ct:scalar-implicature"
+    }
+   ],
+   "cto:file": "articles/philosophy-of-reasoning/conditional-perfection.md",
+   "cto:introducedBy": {
+    "@id": "ct:arnold-zwicky"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:material-conditional"
+   },
+   "cto:studiedIn": [
+    {
+     "@id": "ct:pragmatics"
+    },
+    {
+     "@id": "ct:psychology-of-reasoning"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s5"
+    }
+   ],
+   "rdfs:label": "Conditional perfection",
+   "skos:altLabel": [
+    "biconditional reading of conditionals",
+    "conditional strengthening",
+    "perfection of conditionals"
+   ],
+   "skos:broader": {
+    "@id": "ct:conversational-implicature"
+   },
+   "skos:definition": "The tendency of listeners to hear a conditional \"if P, then Q\" as also conveying \"if not P, then not Q\", so that it is understood as the stronger \"Q if and only if P\". Described by Geis and Zwicky in 1971, it is treated as a defeasible pragmatic inference, not something the conditional logically entails.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Conditional perfection",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:cancellability-test"
+    },
+    {
+     "@id": "ct:commutation-of-conditionals"
+    },
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:enthymeme"
+    },
+    {
+     "@id": "ct:modus-ponens"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:necessary-and-sufficient-conditions"
+    }
+   ]
+  },
+  {
    "@id": "ct:conditional-probability",
    "@type": "cto:Concept",
    "cto:challengedBy": {
@@ -38624,6 +38718,76 @@
    "dcterms:title": "The Abstract Selection Task: New Data and an Almost Comprehensive Model",
    "schema:url": {
     "@id": "https://methexp.uni-koeln.de/files/Klauer-Stahl-Erdfelder-2007.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Kai von Fintel, MIT (manuscript, September 2001), author's copy",
+   "dcterms:title": "Conditional Strengthening: A Case Study in Implicature",
+   "schema:url": {
+    "@id": "https://web.mit.edu/fintel/fintel-2001-condstrength.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Informal Logic 35(1), 88-134 (David Godden & Frank Zenker, 2015), Lund University Publications record",
+   "dcterms:title": "Denying Antecedents and Affirming Consequents: The State of the Art",
+   "schema:url": {
+    "@id": "https://www.lunduniversity.lu.se/lup/publication/5eab0ec9-546b-4399-8129-5c043a272ee0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Journal of Semantics (Ebru Evcen, Alan Bale & David Barner), accepted manuscript, author's copy",
+   "dcterms:title": "Conditional inference and access to alternatives: The role of QUD and speaker knowledge in conditional perfection",
+   "schema:url": {
+    "@id": "https://ebruevcen.github.io/files/EvcenBaleBarner_inpress.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Journal of Psycholinguistic Research 50(6), 1337-1368 (Mingya Liu & Mathias Barthel, 2021), doi:10.1007/s10936-021-09812-0",
+   "dcterms:title": "Semantics Processing of Conditional Connectives: German wenn 'if' Versus nur wenn 'only if'",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8660741"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-perfection/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 13, 894396 (Juliane Schwab & Mingya Liu, 2022), doi:10.3389/fpsyg.2022.894396",
+   "dcterms:title": "Processing attenuating NPIs in indicative and counterfactual conditionals",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.894396/pdf"
    }
   },
   {
