@@ -19773,6 +19773,86 @@
    ]
   },
   {
+   "@id": "ct:philosophy",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:critical-thinking-education"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/philosophy.md",
+   "cto:influencedBy": {
+    "@id": "ct:ludwig-wittgenstein"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:pythagoras"
+   },
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:metaphilosophy"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s5"
+    }
+   ],
+   "rdfs:label": "Philosophy",
+   "skos:altLabel": [
+    "love of wisdom",
+    "philosophia"
+   ],
+   "skos:broader": {
+    "@id": "ct:humanities"
+   },
+   "skos:definition": "The discipline that examines fundamental questions about reality, knowledge, value, reason and meaning by careful argument rather than by experiment or appeal to authority; logic, epistemology, ethics and metaphysics are among its core branches.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Philosophy",
+   "skos:related": [
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:experimental-philosophy"
+    },
+    {
+     "@id": "ct:logic"
+    },
+    {
+     "@id": "ct:philosophy-of-language"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    },
+    {
+     "@id": "ct:plato"
+    },
+    {
+     "@id": "ct:socratic-method"
+    }
+   ]
+  },
+  {
    "@id": "ct:philosophy-of-language",
    "@type": "cto:Field",
    "cto:appliedIn": {
@@ -50847,6 +50927,76 @@
    "dcterms:title": "Philosophy of science: Eliminativism and falsification",
    "schema:url": {
     "@id": "https://britannica.com/topic/philosophy-of-science/Eliminativism-and-falsification"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Philosophy",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/philosophy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Nicholas Joll, rev. 2017)",
+   "dcterms:title": "Contemporary Metaphilosophy",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/con-meta/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Diogenes Laertius, Loeb Classical Library (1925), LacusCurtius edition, University of Chicago",
+   "dcterms:title": "Lives of the Eminent Philosophers, Book VIII: Pythagoras",
+   "schema:url": {
+    "@id": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diogenes_Laertius/Lives_of_the_Eminent_Philosophers/8/Pythagoras*.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Education Endowment Foundation (Gorard, Siddiqui & See, Durham University, 2015)",
+   "dcterms:title": "Philosophy for Children: Evaluation report and executive summary",
+   "schema:url": {
+    "@id": "https://dera.ioe.ac.uk//32011/1/EEF_Project_Report_PhilosophyForChildren.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "International Journal of Contemporary Educational Research 12(1), 26-38 (Kilby, 2025)",
+   "dcterms:title": "Philosophy for/with Children: A Meta-Analysis",
+   "schema:url": {
+    "@id": "https://rune.une.edu.au/entities/publication/b715c45f-a90f-4176-ab6f-8f1d56e0e2cd"
    }
   },
   {

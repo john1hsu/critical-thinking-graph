@@ -9165,6 +9165,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/thomas-kuhn> .
 <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2000/01/rdf-schema#label> "Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#altLabel> "love of wisdom" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#altLabel> "philosophia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/humanities> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#definition> "The discipline that examines fundamental questions about reality, knowledge, value, reason and meaning by careful argument rather than by experiment or appeal to authority; logic, epistemology, ethics and metaphysics are among its core branches." .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/experimental-philosophy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/philosophy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ludwig-wittgenstein> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/pythagoras> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philosophy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/metaphilosophy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> <http://www.w3.org/2000/01/rdf-schema#label> "Plain language" .
@@ -18381,6 +18411,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy-of-science/s5> <https://schema.org/url> <https://britannica.com/topic/philosophy-of-science/Eliminativism-and-falsification> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s1> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s1> <http://purl.org/dc/terms/title> "Philosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s1> <https://schema.org/url> <https://www.britannica.com/topic/philosophy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Nicholas Joll, rev. 2017)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s2> <http://purl.org/dc/terms/title> "Contemporary Metaphilosophy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s2> <https://schema.org/url> <https://iep.utm.edu/con-meta/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s3> <http://purl.org/dc/terms/publisher> "Diogenes Laertius, Loeb Classical Library (1925), LacusCurtius edition, University of Chicago" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s3> <http://purl.org/dc/terms/title> "Lives of the Eminent Philosophers, Book VIII: Pythagoras" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s3> <https://schema.org/url> <https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diogenes_Laertius/Lives_of_the_Eminent_Philosophers/8/Pythagoras*.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s4> <http://purl.org/dc/terms/publisher> "Education Endowment Foundation (Gorard, Siddiqui & See, Durham University, 2015)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s4> <http://purl.org/dc/terms/title> "Philosophy for Children: Evaluation report and executive summary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s4> <https://schema.org/url> <https://dera.ioe.ac.uk//32011/1/EEF_Project_Report_PhilosophyForChildren.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s5> <http://purl.org/dc/terms/publisher> "International Journal of Contemporary Educational Research 12(1), 26-38 (Kilby, 2025)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s5> <http://purl.org/dc/terms/title> "Philosophy for/with Children: A Meta-Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philosophy/s5> <https://schema.org/url> <https://rune.une.edu.au/entities/publication/b715c45f-a90f-4176-ab6f-8f1d56e0e2cd> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/publisher> "Plain Language Action and Information Network (PLAIN), U.S. federal government; copy hosted by the Federal Acquisition Institute" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/plain-language/s1> <http://purl.org/dc/terms/title> "Federal Plain Language Guidelines (March 2011, Revision 1 May 2011)" .

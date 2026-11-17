@@ -21220,6 +21220,91 @@
   ]
  },
  {
+  "id": "ct:philosophy",
+  "title": "Philosophy",
+  "aliases": [
+   "love of wisdom",
+   "philosophia"
+  ],
+  "type": "Field",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/philosophy.md",
+  "created": "2026-11-17",
+  "summary": "The discipline that examines fundamental questions about reality, knowledge, value, reason and meaning by careful argument rather than by experiment or appeal to authority; logic, epistemology, ethics and metaphysics are among its core branches.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:humanities"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-science"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-language"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:socratic-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:plato"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:experimental-philosophy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-education"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:metaphilosophy",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:pythagoras",
+    "source": "s3",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:critical-thinking-education",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:ludwig-wittgenstein",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.britannica.com/topic/philosophy",
+   "https://iep.utm.edu/con-meta/",
+   "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diogenes_Laertius/Lives_of_the_Eminent_Philosophers/8/Pythagoras*.html",
+   "https://dera.ioe.ac.uk//32011/1/EEF_Project_Report_PhilosophyForChildren.pdf",
+   "https://rune.une.edu.au/entities/publication/b715c45f-a90f-4176-ab6f-8f1d56e0e2cd"
+  ]
+ },
+ {
   "id": "ct:philosophy-of-language",
   "title": "Philosophy of language",
   "aliases": [
