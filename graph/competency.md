@@ -105,7 +105,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 
-…and 89 more.
+…and 90 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -152,7 +152,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 
-…and 42 more.
+…and 43 more.
 
 ## Orphan articles (gap)
 

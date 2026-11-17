@@ -26140,6 +26140,108 @@
    ]
   },
   {
+   "@id": "ct:statistical-literacy",
+   "@type": "cto:Concept",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:official-statistics"
+    },
+    {
+     "@id": "ct:risk-communication"
+    }
+   ],
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/evidence-and-information-literacy/statistical-literacy.md",
+   "cto:formalizedBy": {
+    "@id": "ct:iddo-gal"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:numeracy"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:statistics-education"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s5"
+    }
+   ],
+   "rdfs:label": "Statistical literacy",
+   "skos:altLabel": [
+    "statistically literate citizenship",
+    "statistics literacy"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:critical-thinking"
+    },
+    {
+     "@id": "ct:information-literacy"
+    }
+   ],
+   "skos:definition": "The ability and readiness to interpret, critically evaluate and communicate about the statistical information, data-based claims and risk messages that people meet as consumers of data in news, health care, workplaces and public life; it combines reading skills, statistical, mathematical and context knowledge, critical questioning and a disposition to use them.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Statistical literacy",
+   "skos:related": [
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:gerd-gigerenzer"
+    },
+    {
+     "@id": "ct:media-literacy"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    },
+    {
+     "@id": "ct:natural-frequencies"
+    },
+    {
+     "@id": "ct:numeracy"
+    },
+    {
+     "@id": "ct:risk-literacy"
+    },
+    {
+     "@id": "ct:selection-bias"
+    },
+    {
+     "@id": "ct:statistical-reasoning"
+    }
+   ]
+  },
+  {
    "@id": "ct:statistical-reasoning",
    "@type": "cto:ReasoningMode",
    "cto:contrastsWith": [
@@ -56132,6 +56234,76 @@
    "dcterms:title": "Stasis Theory for Teamwork",
    "schema:url": {
     "@id": "https://owl.purdue.edu/owl/general_writing/the_writing_process/stasis_theory/stasis_for_teamwork.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "International Statistical Review 70(1), 1-25 (Gal, 2002), author copy hosted by the International Association for Statistical Education, University of Auckland",
+   "dcterms:title": "Adults' statistical literacy: Meanings, components, responsibilities",
+   "schema:url": {
+    "@id": "https://www.stat.auckland.ac.nz/~iase/publications/isr/02.Gal.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Psychological Science in the Public Interest 8(2), 53-96 (Gigerenzer, Gaissmaier, Kurz-Milcke, Schwartz & Woloshin, 2008), course copy at the University of California, Berkeley",
+   "dcterms:title": "Helping doctors and patients make sense of health statistics",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/~aldous/157/Papers/health_stats.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "StatLit project (Schield)",
+   "dcterms:title": "History of statistical literacy",
+   "schema:url": {
+    "@id": "https://www.statlit.org/StatLitHistory.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Office for Statistics Regulation, UK Statistics Authority (2023)",
+   "dcterms:title": "Statistical Literacy: Research - definitions and components",
+   "schema:url": {
+    "@id": "https://osr.statisticsauthority.gov.uk/publications/statistical-literacy-research/pages/3/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistical-literacy/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Office for Statistics Regulation, UK Statistics Authority (2023)",
+   "dcterms:title": "Statistical Literacy: Research - introduction",
+   "schema:url": {
+    "@id": "https://osr.statisticsauthority.gov.uk/publications/statistical-literacy-research/pages/2/"
    }
   },
   {

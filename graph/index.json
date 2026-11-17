@@ -27973,6 +27973,115 @@
   ]
  },
  {
+  "id": "ct:statistical-literacy",
+  "title": "Statistical literacy",
+  "aliases": [
+   "statistics literacy",
+   "statistically literate citizenship"
+  ],
+  "type": "Concept",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/statistical-literacy.md",
+  "created": "2026-11-17",
+  "summary": "The ability and readiness to interpret, critically evaluate and communicate about the statistical information, data-based claims and risk messages that people meet as consumers of data in news, health care, workplaces and public life; it combines reading skills, statistical, mathematical and context knowledge, critical questioning and a disposition to use them.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:information-literacy"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:natural-frequencies"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gerd-gigerenzer"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:media-literacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:risk-literacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:iddo-gal",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:statistics-education",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:risk-communication",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:official-statistics",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.stat.auckland.ac.nz/~iase/publications/isr/02.Gal.pdf",
+   "https://www.stat.berkeley.edu/~aldous/157/Papers/health_stats.pdf",
+   "https://www.statlit.org/StatLitHistory.htm",
+   "https://osr.statisticsauthority.gov.uk/publications/statistical-literacy-research/pages/3/",
+   "https://osr.statisticsauthority.gov.uk/publications/statistical-literacy-research/pages/2/"
+  ]
+ },
+ {
   "id": "ct:statistical-reasoning",
   "title": "Statistical reasoning",
   "aliases": [
