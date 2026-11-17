@@ -2225,6 +2225,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/philosophy-of-reasoning/educational-assessment.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/philosophy-of-reasoning/epistemology.md" .
@@ -22747,6 +22754,64 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/delphi-report-on-critical-thinking/s5> <https://schema.org/url> <https://courses.ems.psu.edu/geog882/node/2118> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2000/01/rdf-schema#label> "Educational assessment" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "assessing critical thinking" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "assessment of learning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "critical thinking assessment" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/education> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#definition> "The design, use and evaluation of tests, tasks and observations that gather evidence about what learners know and can do, either to certify attainment (summative) or to feed back into teaching and learning (formative); for critical thinking it covers measuring reasoning skills and dispositions." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Educational assessment" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/self-report-measurement> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/watson-glaser-critical-thinking-appraisal> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/educational-assessment.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/robert-ennis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/psychometrics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/black-wiliam-1998-assessment-and-classroom-learning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hitchcock, 2022)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1> <http://purl.org/dc/terms/title> "Critical Thinking, Supplement: Assessment" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/critical-thinking/assessment.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2> <http://purl.org/dc/terms/publisher> "Assessment in Education: Principles, Policy & Practice 5(1), 7-74 (Black & Wiliam, 1998); copy hosted by the University of Glasgow" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2> <http://purl.org/dc/terms/title> "Assessment and Classroom Learning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2> <https://schema.org/url> <https://www.gla.ac.uk/t4/learningandteaching/files/PGCTHE/BlackandWiliam1998.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3> <http://purl.org/dc/terms/publisher> "ETS Research Report RR-14-10 (Liu, Frankel & Roohr, 2014)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3> <http://purl.org/dc/terms/title> "Assessing Critical Thinking in Higher Education: Current State and Directions for Next-Generation Assessment" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3> <https://schema.org/url> <https://www.ets.org/research/policy_research_reports/publications/report/2014/jsjg.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4> <http://purl.org/dc/terms/publisher> "Informal Logic 18(2-3), 165-182 (Ennis, 1996)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4> <http://purl.org/dc/terms/title> "Critical Thinking Dispositions: Their Nature and Assessability" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2378.pdf> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
@@ -27541,6 +27606,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/distributive-collective-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/duhem-quine-thesis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/elaboration-likelihood-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/eliminating-counterexamples> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> .
@@ -28032,6 +28098,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/biconditional> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/commutation-of-conditionals> .
   <https://github.com/john1hsu/critical-thinking-graph/id/binder-krauss-bruckmaier-2015-visualization-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bishop-feltz-conway-critical-thinking-class-field-experiment> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/cost-benefit-reasoning-training> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/black-wiliam-1998-assessment-and-classroom-learning> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/blaise-pascal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/blaise-pascal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/blaise-pascal> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
@@ -28626,6 +28693,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> .
@@ -28964,6 +29032,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/assumption> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/croson-sundali-2005-roulette-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/croson-sundali-2005-roulette-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/croson-sundali-2005-roulette-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> .
@@ -29286,6 +29355,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-dewey> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> .
   <https://github.com/john1hsu/critical-thinking-graph/id/democritus> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> .
@@ -29522,8 +29592,12 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/edmund-gettier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/edmund-gettier> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> .
   <https://github.com/john1hsu/critical-thinking-graph/id/edmund-gettier> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/gettier-problem> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/education> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/education> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/education> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/educational-taxonomy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/educational-taxonomy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/edward-glaser> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-dewey> .
@@ -31560,6 +31634,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
   <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dunning-kruger-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> .
@@ -32690,6 +32765,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/value-focused-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/psychometrics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/psychometrics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/psychometrics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
   <https://github.com/john1hsu/critical-thinking-graph/id/public-health> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/public-health> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/public-relations> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
@@ -33145,6 +33223,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/robert-ennis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/assumption> .
   <https://github.com/john1hsu/critical-thinking-graph/id/robert-ennis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/robert-ennis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/robert-ennis> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/robert-ladouceur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/robert-ladouceur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/robert-ladouceur> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> .
@@ -33330,6 +33409,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/self-report-measurement> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/self-report-measurement> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/self-report-measurement> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sellier-2019-debiasing-transfer-field-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sellier-2019-debiasing-transfer-field-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sellier-2019-debiasing-transfer-field-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
@@ -33921,6 +34001,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> .
   <https://github.com/john1hsu/critical-thinking-graph/id/thomas-bayes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -34321,6 +34402,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/wason-selection-task> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/material-conditional> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wason-selection-task> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
   <https://github.com/john1hsu/critical-thinking-graph/id/waste-avoidance> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/watson-glaser-critical-thinking-appraisal> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/educational-assessment> .
   <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .

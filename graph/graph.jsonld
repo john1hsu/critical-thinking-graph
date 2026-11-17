@@ -9711,6 +9711,87 @@
    ]
   },
   {
+   "@id": "ct:educational-assessment",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:critical-thinking-education"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/philosophy-of-reasoning/educational-assessment.md",
+   "cto:influencedBy": {
+    "@id": "ct:robert-ennis"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:critical-thinking"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:psychometrics"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:black-wiliam-1998-assessment-and-classroom-learning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4"
+    }
+   ],
+   "rdfs:label": "Educational assessment",
+   "skos:altLabel": [
+    "assessing critical thinking",
+    "assessment of learning",
+    "critical thinking assessment"
+   ],
+   "skos:broader": {
+    "@id": "ct:education"
+   },
+   "skos:definition": "The design, use and evaluation of tests, tasks and observations that gather evidence about what learners know and can do, either to certify attainment (summative) or to feed back into teaching and learning (formative); for critical thinking it covers measuring reasoning skills and dispositions.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Educational assessment",
+   "skos:related": [
+    {
+     "@id": "ct:blooms-taxonomy"
+    },
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:critical-thinking-education"
+    },
+    {
+     "@id": "ct:delphi-report-on-critical-thinking"
+    },
+    {
+     "@id": "ct:metacognition"
+    },
+    {
+     "@id": "ct:self-report-measurement"
+    },
+    {
+     "@id": "ct:thinking-dispositions"
+    },
+    {
+     "@id": "ct:watson-glaser-critical-thinking-appraisal"
+    }
+   ]
+  },
+  {
    "@id": "ct:elaboration-likelihood-model",
    "@type": "cto:Framework",
    "cto:challengedBy": [
@@ -42835,6 +42916,62 @@
    "dcterms:title": "Homo heuristicus outnumbered: Comment on Gigerenzer and Brighton (2009)",
    "schema:url": {
     "@id": "https://www.psychologie.uni-wuerzburg.de/fileadmin/06020400/user_upload/Richter/hilbig_richter_inpress.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hitchcock, 2022)",
+   "dcterms:title": "Critical Thinking, Supplement: Assessment",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/critical-thinking/assessment.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Assessment in Education: Principles, Policy & Practice 5(1), 7-74 (Black & Wiliam, 1998); copy hosted by the University of Glasgow",
+   "dcterms:title": "Assessment and Classroom Learning",
+   "schema:url": {
+    "@id": "https://www.gla.ac.uk/t4/learningandteaching/files/PGCTHE/BlackandWiliam1998.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "ETS Research Report RR-14-10 (Liu, Frankel & Roohr, 2014)",
+   "dcterms:title": "Assessing Critical Thinking in Higher Education: Current State and Directions for Next-Generation Assessment",
+   "schema:url": {
+    "@id": "https://www.ets.org/research/policy_research_reports/publications/report/2014/jsjg.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/educational-assessment/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Informal Logic 18(2-3), 165-182 (Ennis, 1996)",
+   "dcterms:title": "Critical Thinking Dispositions: Their Nature and Assessability",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2378.pdf"
    }
   },
   {

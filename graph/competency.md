@@ -105,7 +105,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 
-…and 88 more.
+…and 89 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -137,6 +137,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:disjunctive-syllogism` | cto:ReasoningForm |
 | `ct:distribution-of-terms` | cto:Concept |
 | `ct:distributive-collective-distinction` | cto:Technique |
+| `ct:educational-assessment` | cto:Field |
 | `ct:epidemiology` | cto:Field |
 | `ct:existential-import` | cto:Concept |
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
@@ -150,9 +151,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
-| `ct:illicit-minor` | cto:FormalFallacy |
 
-…and 41 more.
+…and 42 more.
 
 ## Orphan articles (gap)
 

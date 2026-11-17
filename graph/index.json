@@ -10427,6 +10427,95 @@
   ]
  },
  {
+  "id": "ct:educational-assessment",
+  "title": "Educational assessment",
+  "aliases": [
+   "assessment of learning",
+   "critical thinking assessment",
+   "assessing critical thinking"
+  ],
+  "type": "Field",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/philosophy-of-reasoning/educational-assessment.md",
+  "created": "2026-11-17",
+  "summary": "The design, use and evaluation of tests, tasks and observations that gather evidence about what learners know and can do, either to certify attainment (summative) or to feed back into teaching and learning (formative); for critical thinking it covers measuring reasoning skills and dispositions.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:education"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking-education"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:thinking-dispositions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-report-on-critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:blooms-taxonomy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:self-report-measurement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:watson-glaser-critical-thinking-appraisal"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:critical-thinking"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:critical-thinking-education",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:black-wiliam-1998-assessment-and-classroom-learning",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychometrics",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:robert-ennis",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/critical-thinking/assessment.html",
+   "https://www.gla.ac.uk/t4/learningandteaching/files/PGCTHE/BlackandWiliam1998.pdf",
+   "https://www.ets.org/research/policy_research_reports/publications/report/2014/jsjg.html",
+   "https://distantreader.org/stacks/journals/il/il-2378.pdf"
+  ]
+ },
+ {
   "id": "ct:elaboration-likelihood-model",
   "title": "Elaboration likelihood model",
   "aliases": [
