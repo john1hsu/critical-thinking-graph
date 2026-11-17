@@ -2800,6 +2800,96 @@
    ]
   },
   {
+   "@id": "ct:assumption",
+   "@type": "cto:Concept",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:presumption"
+    },
+    {
+     "@id": "ct:presupposition"
+    }
+   ],
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/assumption.md",
+   "cto:level": "introductory",
+   "cto:partOf": {
+    "@id": "ct:paul-elder-critical-thinking-framework"
+   },
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:informal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s6"
+    }
+   ],
+   "rdfs:label": "Assumption",
+   "skos:altLabel": [
+    "assumption of an argument",
+    "implicit assumption",
+    "taken-for-granted claim",
+    "unstated assumption"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument-evaluation"
+   },
+   "skos:definition": "A proposition that reasoning takes for granted rather than argues for, often without stating it; spotting the assumptions an argument needs or an arguer actually used, and asking whether they hold, is a core critical-thinking skill.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Assumption",
+   "skos:related": [
+    {
+     "@id": "ct:begging-the-question"
+    },
+    {
+     "@id": "ct:cogency"
+    },
+    {
+     "@id": "ct:critical-thinking"
+    },
+    {
+     "@id": "ct:enthymeme"
+    },
+    {
+     "@id": "ct:key-assumptions-check"
+    },
+    {
+     "@id": "ct:presumption"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:robert-ennis"
+    }
+   ]
+  },
+  {
    "@id": "ct:attribute-substitution",
    "@type": "cto:Framework",
    "cto:challengedBy": {
@@ -36831,6 +36921,90 @@
    "dcterms:title": "Arguments by Analogy (and What We Can Learn about Them from Aristotle)",
    "schema:url": {
     "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-arguments-by-analogy-and-what-we-can-learn-about-them-from-aristotle/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (David Hitchcock, rev. 2022)",
+   "dcterms:title": "Critical Thinking",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/critical-thinking/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Robert H. Ennis, University of Illinois College of Education (rev. 2011)",
+   "dcterms:title": "The Nature of Critical Thinking: An Outline of Critical Thinking Dispositions and Abilities",
+   "schema:url": {
+    "@id": "https://education.illinois.edu/docs/default-source/faculty-documents/robert-ennis/thenatureofcriticalthinking_51711_000.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Gilbert Plumer, Argumentation 31, 469-484 (2017), Springer",
+   "dcterms:title": "Presumptions, Assumptions, and Presuppositions of Ordinary Arguments",
+   "schema:url": {
+    "@id": "https://link.springer.com/10.1007/s10503-016-9419-1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "David Hitchcock, Argumentation Library vol. 30, Springer (2017); first published in Informal Logic 7 (1985)",
+   "dcterms:title": "Enthymematic Arguments, ch. 4 of On Reasoning and Argument",
+   "schema:url": {
+    "@id": "https://link.springer.com/chapter/10.1007/978-3-319-53562-3_4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "US Government, Central Intelligence Agency (March 2009)",
+   "dcterms:title": "A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis",
+   "schema:url": {
+    "@id": "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/assumption/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Richard Paul and Linda Elder, Foundation for Critical Thinking (2014)",
+   "dcterms:title": "The Miniature Guide to Critical Thinking Concepts and Tools (7th ed.)",
+   "schema:url": {
+    "@id": "https://community.criticalthinking.org/content/thinkers_guides/34/MiniatureGuidetoCriticalThinkingConcepts_Tools.pdf"
    }
   },
   {

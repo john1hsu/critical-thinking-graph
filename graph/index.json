@@ -3021,6 +3021,98 @@
   ]
  },
  {
+  "id": "ct:assumption",
+  "title": "Assumption",
+  "aliases": [
+   "unstated assumption",
+   "implicit assumption",
+   "taken-for-granted claim",
+   "assumption of an argument"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/assumption.md",
+  "created": "2026-11-17",
+  "summary": "A proposition that reasoning takes for granted rather than argues for, often without stating it; spotting the assumptions an argument needs or an arguer actually used, and asking whether they hold, is a core critical-thinking skill.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:enthymeme"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presumption"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:key-assumptions-check"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:begging-the-question"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:critical-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cogency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:robert-ennis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:presumption",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:presupposition",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:partOf",
+    "object": "ct:paul-elder-critical-thinking-framework",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/critical-thinking/",
+   "https://education.illinois.edu/docs/default-source/faculty-documents/robert-ennis/thenatureofcriticalthinking_51711_000.pdf",
+   "https://link.springer.com/10.1007/s10503-016-9419-1",
+   "https://link.springer.com/chapter/10.1007/978-3-319-53562-3_4",
+   "https://www.cia.gov/resources/csi/static/955180a45afe3f5013772c313b16face/Tradecraft-Primer-apr09.pdf",
+   "https://community.criticalthinking.org/content/thinkers_guides/34/MiniatureGuidetoCriticalThinkingConcepts_Tools.pdf"
+  ]
+ },
+ {
   "id": "ct:attribute-substitution",
   "title": "Attribute substitution",
   "aliases": [

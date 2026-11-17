@@ -123,6 +123,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:ad-hoc-hypothesis` | cto:Concept |
 | `ct:argument-evaluation` | cto:Concept |
 | `ct:argument-reconstruction` | cto:Technique |
+| `ct:assumption` | cto:Concept |
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:calibration-training` | cto:Technique |
 | `ct:causal-inference` | cto:Field |
@@ -149,9 +150,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
 | `ct:inverse-fallacy` | cto:ProbabilisticFallacy |
-| `ct:legal-reasoning` | cto:Field |
 
-…and 38 more.
+…and 39 more.
 
 ## Orphan articles (gap)
 
