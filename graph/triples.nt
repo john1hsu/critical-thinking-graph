@@ -9588,6 +9588,44 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/van-eemeren-garssen-meuffels-2002-freedom-rule-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2000/01/rdf-schema#label> "Pragmatics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#altLabel> "linguistic pragmatics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#altLabel> "study of context-dependent meaning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#altLabel> "study of language use" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/linguistics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#definition> "The study of language in use: how context, speaker intentions and shared conversational norms determine what an utterance communicates, including reference fixing, implicature, presupposition and speech acts, beyond the conventional meaning of the words." .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pragmatics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-reconstruction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cancellability-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-perfection> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conversational-implicature> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/presupposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/relevance-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/scalar-implicature> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/semantics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/pragmatics.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/paul-grice> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/charles-morris> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/foundations-of-the-theory-of-signs> .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> <http://purl.org/dc/terms/created> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> <http://www.w3.org/2000/01/rdf-schema#label> "Prebunking" .
@@ -18832,6 +18870,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/pragma-dialectics/s6> <https://schema.org/url> <https://dare.uva.nl/id/8fc3dc22-61ef-4862-a0b2-7bb1d27ebdb2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Kepa Korta and John Perry, substantive revision 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s1> <http://purl.org/dc/terms/title> "Pragmatics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRiES/pragmatics/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s2> <http://purl.org/dc/terms/publisher> "The International Encyclopedia of Communication Theory and Philosophy, Wiley (Gunter Senft, 2016), Max Planck Institute for Psycholinguistics repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s2> <http://purl.org/dc/terms/title> "Pragmatics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s2> <https://schema.org/url> <https://pure.mpg.de/pubman/item/item_2352919_6/component/file_2381942/PRAGMATICSwbiect165.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s3> <http://purl.org/dc/terms/publisher> "Psychologica Belgica 54(4), 374-388 (Janssens, Fabry and Schaeken, 2014), PubMed Central" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s3> <http://purl.org/dc/terms/title> "'Some' effects of age, task, task content and working memory on scalar implicature processing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s3> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC5854163> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s4> <http://purl.org/dc/terms/publisher> "Informal Logic 36(2), 159-191 (Scott Jacobs, 2016)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s4> <http://purl.org/dc/terms/title> "Employing and exploiting the presumptions of communication in argumentation: An application of normative pragmatics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s4> <https://schema.org/url> <https://www.doi.org/10.22329/IL.V36I2.4661> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s1> <http://purl.org/dc/terms/date> "2026-11-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s1> <http://purl.org/dc/terms/publisher> "Science Advances 8(34) (Roozenbeek, van der Linden, Goldberg, Rathje & Lewandowsky, 2022), PubMed Central" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s1> <http://purl.org/dc/terms/title> "Psychological inoculation improves resilience against misinformation on social media" .

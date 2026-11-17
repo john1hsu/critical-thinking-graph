@@ -20961,6 +20961,110 @@
    ]
   },
   {
+   "@id": "ct:pragmatics",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:semantics"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/pragmatics.md",
+   "cto:influencedBy": {
+    "@id": "ct:paul-grice"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:charles-morris"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:foundations-of-the-theory-of-signs"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:philosophy-of-language"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s4"
+    }
+   ],
+   "rdfs:label": "Pragmatics",
+   "skos:altLabel": [
+    "linguistic pragmatics",
+    "study of context-dependent meaning",
+    "study of language use"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:linguistics"
+    },
+    {
+     "@id": "ct:philosophy-of-language"
+    }
+   ],
+   "skos:definition": "The study of language in use: how context, speaker intentions and shared conversational norms determine what an utterance communicates, including reference fixing, implicature, presupposition and speech acts, beyond the conventional meaning of the words.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Pragmatics",
+   "skos:related": [
+    {
+     "@id": "ct:ambiguity"
+    },
+    {
+     "@id": "ct:argument-reconstruction"
+    },
+    {
+     "@id": "ct:cancellability-test"
+    },
+    {
+     "@id": "ct:conditional-perfection"
+    },
+    {
+     "@id": "ct:conversational-implicature"
+    },
+    {
+     "@id": "ct:enthymeme"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:presupposition"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    },
+    {
+     "@id": "ct:relevance-theory"
+    },
+    {
+     "@id": "ct:scalar-implicature"
+    },
+    {
+     "@id": "ct:unwarranted-contrast"
+    }
+   ]
+  },
+  {
    "@id": "ct:prebunking",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -52020,6 +52124,62 @@
    "dcterms:title": "A pragma-dialectical response to objectivist epistemic challenges",
    "schema:url": {
     "@id": "https://dare.uva.nl/id/8fc3dc22-61ef-4862-a0b2-7bb1d27ebdb2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Kepa Korta and John Perry, substantive revision 2024)",
+   "dcterms:title": "Pragmatics",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRiES/pragmatics/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "The International Encyclopedia of Communication Theory and Philosophy, Wiley (Gunter Senft, 2016), Max Planck Institute for Psycholinguistics repository",
+   "dcterms:title": "Pragmatics",
+   "schema:url": {
+    "@id": "https://pure.mpg.de/pubman/item/item_2352919_6/component/file_2381942/PRAGMATICSwbiect165.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Psychologica Belgica 54(4), 374-388 (Janssens, Fabry and Schaeken, 2014), PubMed Central",
+   "dcterms:title": "'Some' effects of age, task, task content and working memory on scalar implicature processing",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5854163"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/pragmatics/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Informal Logic 36(2), 159-191 (Scott Jacobs, 2016)",
+   "dcterms:title": "Employing and exploiting the presumptions of communication in argumentation: An application of normative pragmatics",
+   "schema:url": {
+    "@id": "https://www.doi.org/10.22329/IL.V36I2.4661"
    }
   },
   {

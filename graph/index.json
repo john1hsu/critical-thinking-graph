@@ -22462,6 +22462,125 @@
   ]
  },
  {
+  "id": "ct:pragmatics",
+  "title": "Pragmatics",
+  "aliases": [
+   "linguistic pragmatics",
+   "study of language use",
+   "study of context-dependent meaning"
+  ],
+  "type": "Field",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/pragmatics.md",
+  "created": "2026-11-17",
+  "summary": "The study of language in use: how context, speaker intentions and shared conversational norms determine what an utterance communicates, including reference fixing, implicature, presupposition and speech acts, beyond the conventional meaning of the words.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy-of-language"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:linguistics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conversational-implicature"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cancellability-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-perfection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:unwarranted-contrast"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presupposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:relevance-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:scalar-implicature"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:enthymeme"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-reconstruction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:philosophy-of-language"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:charles-morris",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:foundations-of-the-theory-of-signs",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:paul-grice",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:semantics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRiES/pragmatics/",
+   "https://pure.mpg.de/pubman/item/item_2352919_6/component/file_2381942/PRAGMATICSwbiect165.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5854163",
+   "https://www.doi.org/10.22329/IL.V36I2.4661"
+  ]
+ },
+ {
   "id": "ct:prebunking",
   "title": "Prebunking",
   "aliases": [
