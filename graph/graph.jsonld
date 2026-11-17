@@ -6585,6 +6585,90 @@
    ]
   },
   {
+   "@id": "ct:convergent-argument",
+   "@type": "cto:Concept",
+   "cto:confusedWith": {
+    "@id": "ct:multiple-argumentation"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:linked-argument"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/convergent-argument.md",
+   "cto:formalizedBy": {
+    "@id": "ct:aspic-plus"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:monroe-beardsley"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:practical-logic"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:informal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s5"
+    }
+   ],
+   "rdfs:label": "Convergent argument",
+   "skos:altLabel": [
+    "convergent reasoning structure",
+    "convergent support",
+    "independent-reasons argument"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument"
+   },
+   "skos:definition": "An argument structure in which two or more reasons each give independent support to the same conclusion, so that losing one reason weakens but does not cancel the others; it is contrasted with a linked argument, whose premises support the conclusion only jointly.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Convergent argument",
+   "skos:related": [
+    {
+     "@id": "ct:argument-evaluation"
+    },
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:argument-reconstruction"
+    },
+    {
+     "@id": "ct:conductive-argument"
+    },
+    {
+     "@id": "ct:monroe-beardsley"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    }
+   ]
+  },
+  {
    "@id": "ct:conversational-implicature",
    "@type": "cto:Concept",
    "cto:contrastsWith": [
@@ -41162,6 +41246,76 @@
    "dcterms:title": "Yule, George Udny",
    "schema:url": {
     "@id": "https://mathshistory.st-andrews.ac.uk/DSB/Yule.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2014 (David Hitchcock, McMaster University), reprinted by Rozenberg Quarterly",
+   "dcterms:title": "The Linked-Convergent Distinction",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-the-linked-convergent-distinction/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "ISSA Proceedings 1998 (James B. Freeman, Hunter College CUNY), reprinted by Rozenberg Quarterly",
+   "dcterms:title": "Argument Structure and Disciplinary Perspective",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-1998-argument-structure-and-disciplinary-perspective/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Informal Logic 27(1), 5-25 (G. C. Goddu, 2007)",
+   "dcterms:title": "Walton on Argument Structure",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-462.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2006 (G. C. Goddu, University of Richmond), reprinted by Rozenberg Quarterly",
+   "dcterms:title": "Against Making the Linked-Convergent Distinction",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2006-against-making-the-linked-convergent-distinction/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/convergent-argument/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Workshop on Computational Models of Natural Argument, CMNA 12 (Bin Wei and Henry Prakken)",
+   "dcterms:title": "Defining the Structure of Arguments with AI Models of Argumentation",
+   "schema:url": {
+    "@id": "https://cmna.csc.liv.ac.uk/CMNA12/paper_16.pdf"
    }
   },
   {

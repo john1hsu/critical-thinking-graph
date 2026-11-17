@@ -7070,6 +7070,100 @@
   ]
  },
  {
+  "id": "ct:convergent-argument",
+  "title": "Convergent argument",
+  "aliases": [
+   "convergent support",
+   "convergent reasoning structure",
+   "independent-reasons argument"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/convergent-argument.md",
+  "created": "2026-11-17",
+  "summary": "An argument structure in which two or more reasons each give independent support to the same conclusion, so that losing one reason weakens but does not cancel the others; it is contrasted with a linked argument, whose premises support the conclusion only jointly.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conductive-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-reconstruction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:monroe-beardsley"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:monroe-beardsley",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:practical-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:linked-argument",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:multiple-argumentation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:aspic-plus",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://rozenbergquarterly.com/issa-proceedings-2014-the-linked-convergent-distinction/?print=pdf",
+   "https://rozenbergquarterly.com/issa-proceedings-1998-argument-structure-and-disciplinary-perspective/?print=pdf",
+   "https://distantreader.org/stacks/journals/il/il-462.pdf",
+   "https://rozenbergquarterly.com/issa-proceedings-2006-against-making-the-linked-convergent-distinction/?print=pdf",
+   "https://cmna.csc.liv.ac.uk/CMNA12/paper_16.pdf"
+  ]
+ },
+ {
   "id": "ct:conversational-implicature",
   "title": "Conversational implicature",
   "aliases": [
