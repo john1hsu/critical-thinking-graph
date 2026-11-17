@@ -5958,6 +5958,106 @@
    ]
   },
   {
+   "@id": "ct:conditional-reasoning-training",
+   "@type": "cto:Technique",
+   "cto:appliedIn": {
+    "@id": "ct:mathematics-education"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:cheng-1986-deductive-reasoning-training-study"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:improper-transposition"
+    }
+   ],
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:explainedBy": {
+    "@id": "ct:mental-model-theory"
+   },
+   "cto:file": "articles/debiasing-and-metacognition/conditional-reasoning-training.md",
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:material-conditional"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "cto:supportedBy": {
+    "@id": "ct:klauer-2000-propositional-reasoning-training-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s6"
+    }
+   ],
+   "rdfs:label": "Conditional reasoning training",
+   "skos:altLabel": [
+    "conditional logic instruction",
+    "logic training for conditionals",
+    "training propositional reasoning"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "Instruction that teaches what an \"if p, then q\" statement does and does not license (modus ponens and the contrapositive follow; the converse and the inverse do not), aimed at reducing fallacious conditional inferences. Bare rule teaching transfers poorly; rules tied to truth conditions or worked examples do better, and the gains are partial.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Conditional reasoning training",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:contraposition"
+    },
+    {
+     "@id": "ct:eliminating-counterexamples"
+    },
+    {
+     "@id": "ct:logical-necessity-instructions"
+    },
+    {
+     "@id": "ct:material-conditional"
+    },
+    {
+     "@id": "ct:statistical-reasoning-training"
+    },
+    {
+     "@id": "ct:truth-table"
+    },
+    {
+     "@id": "ct:wason-selection-task"
+    }
+   ]
+  },
+  {
    "@id": "ct:conductive-argument",
    "@type": "cto:ReasoningMode",
    "cto:appliedIn": {
@@ -40840,6 +40940,90 @@
    "dcterms:title": "The inverse fallacy: An account of deviations from Bayes's theorem and the additivity principle",
    "schema:url": {
     "@id": "https://eprints.kingston.ac.uk/6308"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Cognitive Psychology 18(3), 293-328 (Cheng, Holyoak, Nisbett & Oliver, 1986), University of Michigan Deep Blue",
+   "dcterms:title": "Pragmatic versus syntactic approaches to training deductive reasoning",
+   "schema:url": {
+    "@id": "https://deepblue.lib.umich.edu/items/249f6d6c-c52f-4b50-9db5-3ecd3096160a/full"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Quarterly Journal of Experimental Psychology 53A(3), 868-895 (Klauer and colleagues, 2000), Taylor & Francis abstract",
+   "dcterms:title": "Training propositional reasoning",
+   "schema:url": {
+    "@id": "https://informahealthcare.com/doi/abs/10.1080/713755911"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Nina Attridge, PhD thesis, Loughborough University (2013), CORE repository copy",
+   "dcterms:title": "Advanced Mathematics and Deductive Reasoning Skills: Testing the Theory of Formal Discipline",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/288381715.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Educational Studies in Mathematics 67(3), 187-204 (Inglis & Simpson, 2008), Loughborough repository preprint via CORE",
+   "dcterms:title": "Conditional inference and advanced mathematical study",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/288388639.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "PLOS ONE 8(7) (Attridge & Inglis, 2013), Loughborough University repository",
+   "dcterms:title": "Advanced mathematical study and the development of conditional reasoning skills",
+   "schema:url": {
+    "@id": "https://repository.lboro.ac.uk/articles/journal_contribution/Advanced_mathematical_study_and_the_development_of_conditional_reasoning_skills/9369845"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-reasoning-training/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "A. Elgammal, Department of Computer Science, Rutgers University",
+   "dcterms:title": "Implication (CS205 Discrete Structures lecture slides)",
+   "schema:url": {
+    "@id": "https://people.cs.rutgers.edu/~elgammal/classes/cs205/implication.pdf"
    }
   },
   {

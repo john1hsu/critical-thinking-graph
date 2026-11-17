@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:improper-transposition` | cto:FormalFallacy |
 | `ct:survivorship-bias` | cto:CognitiveBias |
 
 ## Most useful remedies
@@ -34,6 +33,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:calibration-training` | 2 | Dunning-Kruger effect, Overconfidence effect |
 | `ct:carroll-diagram` | 2 | Affirmative conclusion from a negative premise, Undistributed middle |
 | `ct:causal-diagrams` | 2 | Confounding, Selection bias |
+| `ct:conditional-reasoning-training` | 2 | Denying the antecedent, Improper transposition |
 | `ct:contingency-table` | 2 | Confusion of the inverse, causal-illusion |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
@@ -46,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
-| `ct:power-analysis` | 2 | Law of small numbers, Replication crisis |
 
-…and 47 more.
+…and 48 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -105,7 +104,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 92 more.
+…and 93 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -128,6 +127,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:bright-line-rule` | cto:Principle |
 | `ct:calibration-training` | cto:Technique |
 | `ct:causal-inference` | cto:Field |
+| `ct:conditional-reasoning-training` | cto:Technique |
 | `ct:contingency-table` | cto:Technique |
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:decision-theory` | cto:Field |
@@ -150,9 +150,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:grade-approach` | cto:Framework |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
-| `ct:illicit-major` | cto:FormalFallacy |
 
-…and 44 more.
+…and 45 more.
 
 ## Orphan articles (gap)
 

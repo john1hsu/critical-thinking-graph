@@ -6380,6 +6380,113 @@
   ]
  },
  {
+  "id": "ct:conditional-reasoning-training",
+  "title": "Conditional reasoning training",
+  "aliases": [
+   "logic training for conditionals",
+   "conditional logic instruction",
+   "training propositional reasoning"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/conditional-reasoning-training.md",
+  "created": "2026-11-17",
+  "summary": "Instruction that teaches what an \"if p, then q\" statement does and does not license (modus ponens and the contrapositive follow; the converse and the inverse do not), aimed at reducing fallacious conditional inferences. Bare rule teaching transfers poorly; rules tied to truth conditions or worked examples do better, and the gains are partial.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-necessity-instructions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:eliminating-counterexamples"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:truth-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wason-selection-task"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:denying-the-antecedent",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:improper-transposition",
+    "source": "s6",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:klauer-2000-propositional-reasoning-training-study",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:cheng-1986-deductive-reasoning-training-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:mental-model-theory",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:mathematics-education",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://deepblue.lib.umich.edu/items/249f6d6c-c52f-4b50-9db5-3ecd3096160a/full",
+   "https://informahealthcare.com/doi/abs/10.1080/713755911",
+   "https://core.ac.uk/download/288381715.pdf",
+   "https://core.ac.uk/download/288388639.pdf",
+   "https://repository.lboro.ac.uk/articles/journal_contribution/Advanced_mathematical_study_and_the_development_of_conditional_reasoning_skills/9369845",
+   "https://people.cs.rutgers.edu/~elgammal/classes/cs205/implication.pdf"
+  ]
+ },
+ {
   "id": "ct:conductive-argument",
   "title": "Conductive argument",
   "aliases": [
