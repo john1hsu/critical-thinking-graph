@@ -32104,6 +32104,126 @@
   ]
  },
  {
+  "id": "ct:wason-selection-task",
+  "title": "Wason selection task",
+  "aliases": [
+   "four-card selection task",
+   "Wason four-card problem",
+   "Wason card task"
+  ],
+  "type": "Study",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/heuristics-and-dual-process/wason-selection-task.md",
+  "created": "2026-11-17",
+  "summary": "Peter Wason's four-card experiment (1966, 1968) in which people choose which cards to turn over to test a rule of the form \"if p then q\". Most choose p and q, or p alone, rather than the logically required p and not-q, although some rule contents, such as permissions and social exchanges, sharply improve performance.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:psychology-of-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:peter-wason"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:contraposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:matching-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:jonathan-st-b-t-evans"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-reasoning-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logical-necessity-instructions"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wason-1960-rule-discovery-study"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentative-theory-of-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:material-conditional"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:peter-wason",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:psychology-of-reasoning",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:mental-model-theory",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:social-contract-theory",
+    "source": "s3",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:optimal-data-selection-model",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://reasoninglab.psych.ucla.edu/wp-content/uploads/sites/273/2021/04/kroger_cheng_holyoak_1993.pdf",
+   "https://pages.ucsd.edu/~mckenzie/OaksfordChaterPsychReview1994.pdf",
+   "https://cep.ucsb.edu/wp-content/uploads/2023/05/socexcog89.pdf",
+   "https://escholarship.org/uc/item/3rv0k45d",
+   "https://link.springer.com/article/10.1007/s42113-020-00077-9"
+  ]
+ },
+ {
   "id": "ct:weighted-additive-rule",
   "title": "Weighted additive rule",
   "aliases": [

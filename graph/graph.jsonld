@@ -30019,6 +30019,115 @@
    ]
   },
   {
+   "@id": "ct:wason-selection-task",
+   "@type": "cto:Study",
+   "cto:challengedBy": {
+    "@id": "ct:optimal-data-selection-model"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:mental-model-theory"
+    },
+    {
+     "@id": "ct:social-contract-theory"
+    }
+   ],
+   "cto:file": "articles/heuristics-and-dual-process/wason-selection-task.md",
+   "cto:introducedBy": {
+    "@id": "ct:peter-wason"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:material-conditional"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s5"
+    }
+   ],
+   "rdfs:label": "Wason selection task",
+   "skos:altLabel": [
+    "Wason card task",
+    "Wason four-card problem",
+    "four-card selection task"
+   ],
+   "skos:broader": {
+    "@id": "ct:psychology-of-reasoning"
+   },
+   "skos:definition": "Peter Wason's four-card experiment (1966, 1968) in which people choose which cards to turn over to test a rule of the form \"if p then q\". Most choose p and q, or p alone, rather than the logically required p and not-q, although some rule contents, such as permissions and social exchanges, sharply improve performance.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Wason selection task",
+   "skos:related": [
+    {
+     "@id": "ct:argumentative-theory-of-reasoning"
+    },
+    {
+     "@id": "ct:conditional-reasoning-training"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:contraposition"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:jonathan-st-b-t-evans"
+    },
+    {
+     "@id": "ct:logical-necessity-instructions"
+    },
+    {
+     "@id": "ct:matching-bias"
+    },
+    {
+     "@id": "ct:material-conditional"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:peter-wason"
+    },
+    {
+     "@id": "ct:wason-1960-rule-discovery-study"
+    }
+   ]
+  },
+  {
    "@id": "ct:weighted-additive-rule",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -60412,6 +60521,76 @@
    "dcterms:title": "Fallacy and argumentational vice",
    "schema:url": {
     "@id": "https://core.ac.uk/download/72769393.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Quarterly Journal of Experimental Psychology 46A(4), 615-635 (Kroger, Cheng & Holyoak, 1993), copy hosted by the UCLA Reasoning Lab",
+   "dcterms:title": "Evoking the permission schema: The impact of explicit negation and a violation-checking context",
+   "schema:url": {
+    "@id": "https://reasoninglab.psych.ucla.edu/wp-content/uploads/sites/273/2021/04/kroger_cheng_holyoak_1993.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Psychological Review 101(4), 608-631 (Oaksford & Chater, 1994), copy hosted by UC San Diego",
+   "dcterms:title": "A rational analysis of the selection task as optimal data selection",
+   "schema:url": {
+    "@id": "https://pages.ucsd.edu/~mckenzie/OaksfordChaterPsychReview1994.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Cognition 31, 187-276 (Cosmides, 1989), copy hosted by the UCSB Center for Evolutionary Psychology",
+   "dcterms:title": "The logic of social exchange: Has natural selection shaped how humans reason? Studies with the Wason selection task",
+   "schema:url": {
+    "@id": "https://cep.ucsb.edu/wp-content/uploads/2023/05/socexcog89.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Proceedings of the 39th Annual Meeting of the Cognitive Science Society (Ragni, Kola & Johnson-Laird, 2017), eScholarship, University of California",
+   "dcterms:title": "The Wason selection task: A meta-analysis",
+   "schema:url": {
+    "@id": "https://escholarship.org/uc/item/3rv0k45d"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/wason-selection-task/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Computational Brain & Behavior 3, 354-361 (Ragni & Johnson-Laird, 2020)",
+   "dcterms:title": "Explanation or modeling: A reply to Kellen and Klauer",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s42113-020-00077-9"
    }
   },
   {
