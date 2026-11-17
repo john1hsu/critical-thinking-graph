@@ -14569,6 +14569,99 @@
    ]
   },
   {
+   "@id": "ct:illusory-truth-effect",
+   "@type": "cto:CognitiveBias",
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:hasher-goldstein-toppino-1977-study"
+    },
+    {
+     "@id": "ct:pennycook-cannon-rand-2018-fake-news-exposure-study"
+    }
+   ],
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": {
+    "@id": "ct:processing-fluency"
+   },
+   "cto:file": "articles/cognitive-biases/illusory-truth-effect.md",
+   "cto:introducedBy": {
+    "@id": "ct:lynn-hasher"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:processing-fluency"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:dechene-2010-truth-effect-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s6"
+    }
+   ],
+   "rdfs:label": "Illusory truth effect",
+   "skos:altLabel": [
+    "illusion of truth",
+    "reiteration effect",
+    "repetition-induced truth effect",
+    "truth effect"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to judge a statement as more likely to be true after having encountered it before, so that mere repetition raises its believability whether or not the statement is actually true.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Illusory truth effect",
+   "skos:related": [
+    {
+     "@id": "ct:continued-influence-effect"
+    },
+    {
+     "@id": "ct:ease-of-retrieval-effect"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:mere-exposure-effect"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    },
+    {
+     "@id": "ct:prebunking"
+    },
+    {
+     "@id": "ct:processing-fluency"
+    },
+    {
+     "@id": "ct:source-monitoring-framework"
+    }
+   ]
+  },
+  {
    "@id": "ct:improper-transposition",
    "@type": "cto:FormalFallacy",
    "cto:confusedWith": {
@@ -47744,6 +47837,90 @@
    "dcterms:title": "Distributive Terms, Truth, and the Port Royal Logic",
    "schema:url": {
     "@id": "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Review 14(2), 238-257 (Dechêne, Stahl, Hansen & Wänke, 2010), edoc University of Basel",
+   "dcterms:title": "The truth about the truth: A meta-analytic review of the truth effect",
+   "schema:url": {
+    "@id": "https://edoc.unibas.ch/10139"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology General 144(5), 993-1002 (Fazio, Brashier, Payne & Marsh, 2015), PubMed",
+   "dcterms:title": "Knowledge does not protect against illusory truth",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/26301795/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology General 147(12), 1865-1880 (Pennycook, Cannon & Rand, 2018), author's copy",
+   "dcterms:title": "Prior exposure increases perceived accuracy of fake news",
+   "schema:url": {
+    "@id": "https://static1.squarespace.com/static/51ed234ae4b0867e2385d879/t/5c0b718d352f539a3059adb9/1544253851708/2018+Pennycook+-+JEPG.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Cognitive Research Principles and Implications 6, article 38 (Hassan & Barber, 2021), Springer",
+   "dcterms:title": "The effects of repetition frequency on the illusory truth effect",
+   "schema:url": {
+    "@id": "https://link.springer.com/content/pdf/10.1186/s41235-021-00301-5.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Cognitive Research Principles and Implications 5, article 55 (Calvillo & Smelter, 2020), Springer",
+   "dcterms:title": "An initial accuracy focus reduces the effect of prior exposure on perceived accuracy of news headlines",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1186/s41235-020-00257-y"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illusory-truth-effect/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Psychonomic Bulletin & Review 29(3), 1065-1088 (Henderson, Westwood & Simons, 2022), PubMed Central",
+   "dcterms:title": "A reproducible systematic map of research on the illusory truth effect",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9166874"
    }
   },
   {

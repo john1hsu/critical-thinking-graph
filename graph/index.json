@@ -15682,6 +15682,104 @@
   ]
  },
  {
+  "id": "ct:illusory-truth-effect",
+  "title": "Illusory truth effect",
+  "aliases": [
+   "truth effect",
+   "repetition-induced truth effect",
+   "illusion of truth",
+   "reiteration effect"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/illusory-truth-effect.md",
+  "created": "2026-11-17",
+  "summary": "The tendency to judge a statement as more likely to be true after having encountered it before, so that mere repetition raises its believability whether or not the statement is actually true.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:processing-fluency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-monitoring-framework"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mere-exposure-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ease-of-retrieval-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:continued-influence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:processing-fluency"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:processing-fluency",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:dechene-2010-truth-effect-meta-analysis",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:hasher-goldstein-toppino-1977-study",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:lynn-hasher",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:pennycook-cannon-rand-2018-fake-news-exposure-study",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://edoc.unibas.ch/10139",
+   "https://pubmed.ncbi.nlm.nih.gov/26301795/",
+   "https://static1.squarespace.com/static/51ed234ae4b0867e2385d879/t/5c0b718d352f539a3059adb9/1544253851708/2018+Pennycook+-+JEPG.pdf",
+   "https://link.springer.com/content/pdf/10.1186/s41235-021-00301-5.pdf",
+   "https://link.springer.com/article/10.1186/s41235-020-00257-y",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9166874"
+  ]
+ },
+ {
   "id": "ct:improper-transposition",
   "title": "Improper transposition",
   "aliases": [

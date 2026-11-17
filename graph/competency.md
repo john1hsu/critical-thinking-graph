@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:illusory-truth-effect` | cto:CognitiveBias |
 | `ct:survivorship-bias` | cto:CognitiveBias |
 
 ## Most useful remedies
