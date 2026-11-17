@@ -6943,6 +6943,82 @@
    ]
   },
   {
+   "@id": "ct:day-reconstruction-method",
+   "@type": "cto:Method",
+   "cto:contrastsWith": {
+    "@id": "ct:experience-sampling-method"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:duration-neglect"
+    },
+    {
+     "@id": "ct:peak-end-rule"
+    }
+   ],
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/day-reconstruction-method.md",
+   "cto:introducedBy": {
+    "@id": "ct:daniel-kahneman"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:peak-end-rule"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:behavioral-economics"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:dockray-2010-drm-ema-comparison"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4"
+    }
+   ],
+   "rdfs:label": "Day reconstruction method",
+   "skos:altLabel": [
+    "DRM",
+    "day reconstruction method (DRM)"
+   ],
+   "skos:broader": {
+    "@id": "ct:self-report-measurement"
+   },
+   "skos:definition": "A survey method in which people rebuild the previous day as a sequence of episodes and then rate what they did, with whom, and how they felt in each one, so that experienced well-being is measured episode by episode instead of through a single retrospective summary that memory distorts.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Day reconstruction method",
+   "skos:related": [
+    {
+     "@id": "ct:affective-forecasting"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:peak-end-rule"
+    }
+   ]
+  },
+  {
    "@id": "ct:de-morgans-laws",
    "@type": "cto:Principle",
    "cto:detects": {
@@ -39917,6 +39993,62 @@
    "dcterms:title": "'I am certain psychology will see many more train wrecks'",
    "schema:url": {
     "@id": "https://bps.org.uk/psychologist/i-am-certain-psychology-will-see-many-more-train-wrecks"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Science 306(5702), 1776-1780 (Kahneman, Krueger, Schkade, Schwarz & Stone, 2004), copy hosted at the University of Vermont",
+   "dcterms:title": "A Survey Method for Characterizing Daily Life Experience: The Day Reconstruction Method",
+   "schema:url": {
+    "@id": "https://pdodds.w3.uvm.edu/files/papers/others/2004/kahneman2004a.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Journal of Economic Perspectives 20(1), 3-24 (Kahneman & Krueger, 2006), Princeton Open Access Repository",
+   "dcterms:title": "Developments in the Measurement of Subjective Well-Being",
+   "schema:url": {
+    "@id": "https://oar.princeton.edu/rt4ds/file/6371/Kahneman-2006-Developments+in+the+measurement.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Social Indicators Research 99(2), 269-283 (Dockray, Grant, Stone, Kahneman, Wardle & Steptoe, 2010), University College Cork research portal",
+   "dcterms:title": "A Comparison of Affect Ratings Obtained with Ecological Momentary Assessment and the Day Reconstruction Method",
+   "schema:url": {
+    "@id": "https://research.ucc.ie/en/publications/a-comparison-of-affect-ratings-obtained-with-ecological-momentary/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Quality of Life Research 25(3), 497-506 (Schneider & Stone, 2016), PubMed Central",
+   "dcterms:title": "Ambulatory and diary methods can facilitate the measurement of patient reported outcomes",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4689672"
    }
   },
   {

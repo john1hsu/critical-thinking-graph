@@ -7451,6 +7451,90 @@
   ]
  },
  {
+  "id": "ct:day-reconstruction-method",
+  "title": "Day reconstruction method",
+  "aliases": [
+   "DRM",
+   "day reconstruction method (DRM)"
+  ],
+  "type": "Method",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/day-reconstruction-method.md",
+  "created": "2026-11-17",
+  "summary": "A survey method in which people rebuild the previous day as a sequence of episodes and then rate what they did, with whom, and how they felt in each one, so that experienced well-being is measured episode by episode instead of through a single retrospective summary that memory distorts.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:self-report-measurement"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:peak-end-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affective-forecasting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:peak-end-rule"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:peak-end-rule",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:duration-neglect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:experience-sampling-method",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:dockray-2010-drm-ema-comparison",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:behavioral-economics",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pdodds.w3.uvm.edu/files/papers/others/2004/kahneman2004a.pdf",
+   "https://oar.princeton.edu/rt4ds/file/6371/Kahneman-2006-Developments+in+the+measurement.pdf",
+   "https://research.ucc.ie/en/publications/a-comparison-of-affect-ratings-obtained-with-ecological-momentary/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4689672"
+  ]
+ },
+ {
   "id": "ct:de-morgans-laws",
   "title": "De Morgan's laws",
   "aliases": [

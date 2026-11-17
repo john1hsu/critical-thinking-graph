@@ -525,6 +525,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/choice-architecture/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/choice-architecture/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/choice-architecture/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/decision-making/day-reconstruction-method.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
 <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/decision-making/decision-analysis.md" .
@@ -7096,6 +7103,61 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/choice-architecture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/choice-architecture/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/choice-architecture/s4> <https://schema.org/url> <https://ideas.repec.org/a/cup/bpubpo/v3y2019i02p159-186_00.html> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2000/01/rdf-schema#label> "Day reconstruction method" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#altLabel> "DRM" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#altLabel> "day reconstruction method (DRM)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/self-report-measurement> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#definition> "A survey method in which people rebuild the previous day as a sequence of episodes and then rate what they did, with whom, and how they felt in each one, so that experienced well-being is measured episode by episode instead of through a single retrospective summary that memory distorts." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#prefLabel> "Day reconstruction method" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affective-forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/experience-sampling-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/duration-neglect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/day-reconstruction-method.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/dockray-2010-drm-ema-comparison> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1> <http://purl.org/dc/terms/publisher> "Science 306(5702), 1776-1780 (Kahneman, Krueger, Schkade, Schwarz & Stone, 2004), copy hosted at the University of Vermont" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1> <http://purl.org/dc/terms/title> "A Survey Method for Characterizing Daily Life Experience: The Day Reconstruction Method" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s1> <https://schema.org/url> <https://pdodds.w3.uvm.edu/files/papers/others/2004/kahneman2004a.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2> <http://purl.org/dc/terms/publisher> "Journal of Economic Perspectives 20(1), 3-24 (Kahneman & Krueger, 2006), Princeton Open Access Repository" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2> <http://purl.org/dc/terms/title> "Developments in the Measurement of Subjective Well-Being" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s2> <https://schema.org/url> <https://oar.princeton.edu/rt4ds/file/6371/Kahneman-2006-Developments+in+the+measurement.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3> <http://purl.org/dc/terms/publisher> "Social Indicators Research 99(2), 269-283 (Dockray, Grant, Stone, Kahneman, Wardle & Steptoe, 2010), University College Cork research portal" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3> <http://purl.org/dc/terms/title> "A Comparison of Affect Ratings Obtained with Ecological Momentary Assessment and the Day Reconstruction Method" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s3> <https://schema.org/url> <https://research.ucc.ie/en/publications/a-comparison-of-affect-ratings-obtained-with-ecological-momentary/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4> <http://purl.org/dc/terms/publisher> "Quality of Life Research 25(3), 497-506 (Schneider & Stone, 2016), PubMed Central" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4> <http://purl.org/dc/terms/title> "Ambulatory and diary methods can facilitate the measurement of patient reported outcomes" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/day-reconstruction-method/s4> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC4689672> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis#graph> {
@@ -26470,6 +26532,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/affect-heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/risk-communication> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affect-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affect-heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/affective-forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affective-forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affective-forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reversible-and-irreversible-decisions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -28261,6 +28324,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gerd-gigerenzer> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/richard-thaler> .
@@ -28271,6 +28335,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> .
@@ -28299,6 +28364,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/david-yopp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-yopp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/david-yopp> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/eliminating-counterexamples> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/self-report-measurement> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/de-interpretatione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/de-interpretatione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/de-interpretatione> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
@@ -28688,6 +28757,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/distributive-collective-distinction> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ditto-2019-partisan-bias-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ditto-2019-partisan-bias-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/dockray-2010-drm-ema-comparison> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dogmatism> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dogmatism> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/pyrrho> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dogramaci-2020-function-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/argumentative-theory-of-reasoning> .
@@ -28755,6 +28825,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/duration-neglect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/duration-neglect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/duration-neglect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/duration-neglect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/duration-neglect> <https://github.com/john1hsu/critical-thinking-graph/ontology#producedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> .
   <https://github.com/john1hsu/critical-thinking-graph/id/dwan-2013-outcome-reporting-bias-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ease-of-retrieval-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> .
@@ -29047,6 +29118,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/risk-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/experience-sampling-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/experimental-economics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/experimental-philosophy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/experimental-philosophy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -29624,6 +29696,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/take-the-best> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/herbert-simon> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/heuristics-and-biases-program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -30274,6 +30347,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/choice-architecture> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/kenneth-arrow> .
@@ -31193,6 +31267,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/percy-williams-bridgman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/percy-williams-bridgman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/percy-williams-bridgman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/operational-definition> .
@@ -32425,6 +32502,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/self-report-measurement> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/self-report-measurement> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/day-reconstruction-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sellier-2019-debiasing-transfer-field-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sellier-2019-debiasing-transfer-field-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sellier-2019-debiasing-transfer-field-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .

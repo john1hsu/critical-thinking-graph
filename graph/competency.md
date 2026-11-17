@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:peak-end-rule` | cto:Heuristic |
+_No results._
 
 ## Most useful remedies
 
@@ -36,6 +34,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:contingency-table` | 2 | Confusion of the inverse, causal-illusion |
 | `ct:correcting-erroneous-perceptions-of-randomness` | 2 | Gambler's fallacy, illusion-of-control |
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
+| `ct:day-reconstruction-method` | 2 | Peak-end rule, duration-neglect |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
@@ -45,9 +44,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
 | `ct:power-analysis` | 2 | Law of small numbers, Replication crisis |
-| `ct:premortem` | 2 | Groupthink, Overconfidence effect |
 
-…and 45 more.
+…and 46 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -63,7 +61,7 @@ _For each heuristic, which biases can it produce and what counteracts them?_ —
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:debiasing` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:premortem` |
 | `ct:availability-heuristic` | `ct:illusory-correlation` |  |
-| `ct:peak-end-rule` | `ct:duration-neglect` |  |
+| `ct:peak-end-rule` | `ct:duration-neglect` | `ct:day-reconstruction-method` |
 | `ct:representativeness-heuristic` | `ct:illusion-of-validity` |  |
 | `ct:representativeness-heuristic` | `ct:insensitivity-to-sample-size` | `ct:statistical-reasoning-training` |
 
@@ -104,7 +102,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 
-…and 84 more.
+…and 85 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
