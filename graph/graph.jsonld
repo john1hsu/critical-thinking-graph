@@ -95,6 +95,88 @@
    ]
   },
   {
+   "@id": "ct:accuracy-prompts",
+   "@type": "cto:Technique",
+   "cto:challengedBy": {
+    "@id": "ct:roozenbeek-freeman-van-der-linden-2021-accuracy-nudge-replication"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:illusory-truth-effect"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    }
+   ],
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:brashier-eliseev-marsh-2020-accuracy-focus-study"
+    },
+    {
+     "@id": "ct:pennycook-2021-accuracy-prompt-field-experiment"
+    }
+   ],
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/accuracy-prompts.md",
+   "cto:level": "introductory",
+   "cto:supportedBy": {
+    "@id": "ct:pennycook-rand-2022-accuracy-prompt-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s5"
+    }
+   ],
+   "rdfs:label": "Accuracy prompts",
+   "skos:altLabel": [
+    "accuracy focus",
+    "accuracy nudge",
+    "accuracy-nudge intervention"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A light-touch intervention that shifts attention to whether a claim is true, for example by asking people to rate or check a statement's accuracy when they first meet it, which blunts the boost that repetition gives to known falsehoods and modestly improves the quality of news people choose to share.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Accuracy prompts",
+   "skos:related": [
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:deliberate-reflection"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:prebunking"
+    },
+    {
+     "@id": "ct:processing-fluency"
+    }
+   ]
+  },
+  {
    "@id": "ct:actively-open-minded-thinking",
    "@type": "cto:Disposition",
    "cto:appliedIn": {
@@ -36540,6 +36622,76 @@
    "dcterms:title": "History of statistics: 18th century",
    "schema:url": {
     "@id": "https://web.universiteitleiden.nl/fsw/verduin/stathist/sh_18.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Cognition 194, 104054 (Brashier, Eliseev & Marsh, 2020), Duke Scholars",
+   "dcterms:title": "An initial accuracy focus prevents illusory truth",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/1406070"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Nature (Pennycook, Epstein, Mosleh et al., 2021), MIT Media Lab",
+   "dcterms:title": "Shifting attention to accuracy can reduce misinformation online",
+   "schema:url": {
+    "@id": "https://www.media.mit.edu/publications/shifting-attention-to-accuracy-can-reduce-misinformation-online"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Nature Communications 13 (Pennycook & Rand, 2022), DSpace@MIT",
+   "dcterms:title": "Accuracy prompts are a replicable and generalizable approach for reducing the spread of misinformation",
+   "schema:url": {
+    "@id": "https://dspace.mit.edu/handle/1721.1/144231"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Psychological Science 32(7), 1169-1178 (Roozenbeek, Freeman & van der Linden, 2021), Vrije Universiteit Amsterdam research portal",
+   "dcterms:title": "How accurate are accuracy-nudge interventions? A preregistered direct replication of Pennycook et al. (2020)",
+   "schema:url": {
+    "@id": "https://research.vu.nl/en/publications/how-accurate-are-accuracy-nudge-interventions-a-preregistered-dir/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/accuracy-prompts/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "British Psychological Society Research Digest",
+   "dcterms:title": "When false claims are repeated, we start to believe they are true",
+   "schema:url": {
+    "@id": "https://www.bps.org.uk/research-digest/when-false-claims-are-repeated-we-start-believe-they-are-true"
    }
   },
   {

@@ -86,6 +86,92 @@
   ]
  },
  {
+  "id": "ct:accuracy-prompts",
+  "title": "Accuracy prompts",
+  "aliases": [
+   "accuracy nudge",
+   "accuracy focus",
+   "accuracy-nudge intervention"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/accuracy-prompts.md",
+  "created": "2026-11-17",
+  "summary": "A light-touch intervention that shifts attention to whether a claim is true, for example by asking people to rate or check a statement's accuracy when they first meet it, which blunts the boost that repetition gives to known falsehoods and modestly improves the quality of news people choose to share.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:deliberate-reflection"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:processing-fluency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:illusory-truth-effect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:misinformation-and-disinformation",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:brashier-eliseev-marsh-2020-accuracy-focus-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:pennycook-2021-accuracy-prompt-field-experiment",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:pennycook-rand-2022-accuracy-prompt-meta-analysis",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:roozenbeek-freeman-van-der-linden-2021-accuracy-nudge-replication",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://scholars.duke.edu/publication/1406070",
+   "https://www.media.mit.edu/publications/shifting-attention-to-accuracy-can-reduce-misinformation-online",
+   "https://dspace.mit.edu/handle/1721.1/144231",
+   "https://research.vu.nl/en/publications/how-accurate-are-accuracy-nudge-interventions-a-preregistered-dir/",
+   "https://www.bps.org.uk/research-digest/when-false-claims-are-repeated-we-start-believe-they-are-true"
+  ]
+ },
+ {
   "id": "ct:actively-open-minded-thinking",
   "title": "Actively open-minded thinking",
   "aliases": [

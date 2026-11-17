@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:illusory-truth-effect` | cto:CognitiveBias |
 | `ct:survivorship-bias` | cto:CognitiveBias |
 
 ## Most useful remedies
@@ -29,6 +28,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:source-monitoring-framework` | 3 | Recognition heuristic, false-fame-effect, misinformation-effect |
 | `ct:statistical-reasoning-training` | 3 | Conjunction fallacy, Insensitivity to sample size, Representativeness heuristic |
 | `ct:venn-diagram-test` | 3 | Illicit major, Illicit minor, Undistributed middle |
+| `ct:accuracy-prompts` | 2 | Illusory truth effect, Misinformation and disinformation |
 | `ct:argument-reconstruction` | 2 | Equivocation, Fallacy of ambiguity |
 | `ct:broad-bracketing` | 2 | Loss aversion, myopic-loss-aversion |
 | `ct:calibration-training` | 2 | Dunning-Kruger effect, Overconfidence effect |
@@ -46,9 +46,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:grade-approach` | 2 | Confounding, Publication bias |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
-| `ct:numeracy` | 2 | Affect heuristic, Framing effect |
 
-…and 48 more.
+…and 49 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -105,7 +104,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 96 more.
+…and 97 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -121,6 +120,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
+| `ct:accuracy-prompts` | cto:Technique |
 | `ct:ad-hoc-hypothesis` | cto:Concept |
 | `ct:argument-evaluation` | cto:Concept |
 | `ct:argument-reconstruction` | cto:Technique |
@@ -150,9 +150,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:geopolitical-forecasting` | cto:Field |
 | `ct:grade-approach` | cto:Framework |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
-| `ct:illicit-conversion` | cto:FormalFallacy |
 
-…and 46 more.
+…and 47 more.
 
 ## Orphan articles (gap)
 
