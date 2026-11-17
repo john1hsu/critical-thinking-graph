@@ -694,3 +694,15 @@ flowchart TD
   o2["The auditors may have checked only a sample and said 'some' because they could not speak for the rest."] -. attacks .-> ra
 ```
 
+## Value-based practical reasoning (`ct:value-based-practical-reasoning`)
+
+```mermaid
+flowchart TD
+  p1["Our team is split across three time zones, and the weekly status meeting falls at 7 a.m. or 9 p.m. for half of us."] --> ra{{"strong"}}
+  p2["Replacing the meeting with a written update thread would let everyone contribute during their own working hours."] --> ra{{"strong"}}
+  p3["Letting everyone contribute in working hours treats all team members fairly."] --> ra{{"strong"}}
+  ra --> c["We should replace the weekly status meeting with a written update thread."]
+  o1["Rotating the meeting time would also share the burden fairly while keeping live discussion (an alternative that promotes the same value)."] -. attacks .-> ra
+  o2["Dropping all live contact may weaken team cohesion, a value some members rank above convenience (a side effect demoting another value)."] -. attacks .-> ra
+```
+

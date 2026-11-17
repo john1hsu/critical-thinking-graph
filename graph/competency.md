@@ -168,4 +168,5 @@ _For each argumentation scheme, how many critical questions does it carry and wh
 | `ct:argument-from-analogy` | 5 | `ct:faulty-analogy` |
 | `ct:argument-from-consequences` | 5 |  |
 | `ct:argument-from-expert-opinion` | 6 | `ct:ad-verecundiam` |
+| `ct:value-based-practical-reasoning` | 7 |  |
 

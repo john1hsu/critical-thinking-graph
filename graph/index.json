@@ -30516,6 +30516,101 @@
   ]
  },
  {
+  "id": "ct:value-based-practical-reasoning",
+  "title": "Value-based practical reasoning",
+  "aliases": [
+   "VBPR",
+   "practical reasoning from values",
+   "AS1 practical reasoning scheme",
+   "Atkinson-Bench-Capon practical reasoning scheme"
+  ],
+  "type": "ArgumentScheme",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/value-based-practical-reasoning.md",
+  "created": "2026-11-17",
+  "summary": "An argumentation scheme for deciding what to do: in the current circumstances, an action should be performed because it will bring about new circumstances that realise a goal and promote a value. Developed by Katie Atkinson, Trevor Bench-Capon and Peter McBurney from Walton's practical reasoning scheme, it separates consequences, goals and values so a proposal can be challenged on facts, on alternatives, on side effects, or on which values matter most.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-consequences"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conductive-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:value-focused-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:legal-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:the-new-rhetoric"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:katie-atkinson",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:douglas-walton",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:value-based-argumentation-frameworks",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:instrumental-practical-reasoning",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Are the circumstances really as the proposer describes them?",
+   "Will the action actually bring about the promised new circumstances, and do those circumstances realise the goal?",
+   "Is there another action that would realise the same goal or promote the same value at lower cost?",
+   "Does the action have side effects that demote this value or some other value the audience cares about?",
+   "Does the goal really promote the stated value, and is that value one the audience accepts?",
+   "Is the action possible for this agent at all?",
+   "Would a different ranking of the competing values lead a reasonable audience to a different decision?"
+  ],
+  "source_urls": [
+   "https://cgi.csc.liv.ac.uk/~katie/synthese06.pdf",
+   "https://cgi.csc.liv.ac.uk/~tbc/publications/jcl03.pdf",
+   "https://philarchive.org/archive/MACPRA-13"
+  ]
+ },
+ {
   "id": "ct:value-focused-thinking",
   "title": "Value-focused thinking",
   "aliases": [
