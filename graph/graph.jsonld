@@ -11478,6 +11478,106 @@
    ]
   },
   {
+   "@id": "ct:fallacy-of-division",
+   "@type": "cto:InformalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:fallacy-of-composition"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map"
+   },
+   "cto:file": "articles/informal-fallacies/fallacy-of-division.md",
+   "cto:instanceOf": {
+    "@id": "ct:fallacy-of-ambiguity"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s5"
+    }
+   ],
+   "rdfs:label": "Fallacy of division",
+   "skos:altLabel": [
+    "division fallacy",
+    "fallacy of division (whole to parts)",
+    "whole-to-part fallacy"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:fallacy-of-ambiguity"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "skos:definition": "The fallacy of inferring that each part or member of a whole or group has a property because the whole or group has it, when the property belongs to the whole only collectively and does not carry down to its parts.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Fallacy of division",
+   "skos:related": [
+    {
+     "@id": "ct:aristotle"
+    },
+    {
+     "@id": "ct:distributive-collective-distinction"
+    },
+    {
+     "@id": "ct:ecological-fallacy"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:fallacy-of-accident"
+    },
+    {
+     "@id": "ct:fallacy-of-composition"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:richard-whately"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    }
+   ]
+  },
+  {
    "@id": "ct:fallacy-of-four-terms",
    "@type": "cto:FormalFallacy",
    "cto:contrastsWith": {
@@ -32630,6 +32730,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-division"
+   },
+   "rdfs:label": "Is the property true of the group taken as a single unit (collectively), or of every member taken one at a time (distributively)?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-division"
+   },
+   "rdfs:label": "Does the property arise from how the parts are combined or how many there are, so that no single part could have it on its own?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-division"
+   },
+   "rdfs:label": "Is there direct evidence about the particular part or member, rather than only about the whole it belongs to?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-division"
+   },
+   "rdfs:label": "Could the whole have the property because of some members only, while others contribute nothing to it or even work against it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-division"
+   },
+   "rdfs:label": "Is a key term, such as \"balanced\", \"important\" or \"successful\", being used in a different sense for the parts than for the whole?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:fallacy-of-division"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "Each sales representative in the division beat their individual revenue target."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The division total can exceed target because two or three large accounts closed, while several representatives still fell short."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Beating a division target is a fact about summed revenue; it says nothing about how that sum was spread across people."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The regional sales division beat its annual revenue target by 12 percent."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Each sales representative works in the regional sales division."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -44522,6 +44733,76 @@
    "dcterms:title": "Chapter 21: Fallacy Round-Up",
    "schema:url": {
     "@id": "https://read.aupress.ca/read/critical-thinking-logic-and-argument/section/79d847f7-75b3-474e-8e16-2465da141e85"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, substantive revision 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Christian Plantin, Dictionnaire de l'argumentation 2021, ICAR (CNRS / Université Lyon 2)",
+   "dcterms:title": "Composition and Division",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/composition-and-division-e/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Trudy Govier, OSSA 4 Conference Archive (2001), University of Windsor, via CORE",
+   "dcterms:title": "Collective Responsibility and the Fallacies of Composition and Division",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/72768211.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Fallacies tutorial, Palomar College faculty pages",
+   "dcterms:title": "Distributive Fallacy - Division",
+   "schema:url": {
+    "@id": "https://www.palomar.edu/users/bthompson/Division.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "David A. Freedman, Technical Report 549, Department of Statistics, UC Berkeley (1999); International Encyclopedia of the Social & Behavioral Sciences",
+   "dcterms:title": "Ecological Inference and the Ecological Fallacy",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/~census/549.pdf"
    }
   },
   {

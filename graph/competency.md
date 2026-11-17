@@ -20,7 +20,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:consider-the-opposite` | 4 | Anchoring effect, Biased assimilation, Hindsight bias, Overconfidence effect |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, Confirmation bias, Fundamental attribution error |
 | `ct:rules-of-the-categorical-syllogism` | 4 | Existential fallacy, Fallacy of four terms, Illicit major, Undistributed middle |
-| `ct:distributive-collective-distinction` | 3 | Equivocation, Fallacy of composition, fallacy-of-division |
+| `ct:distributive-collective-distinction` | 3 | Equivocation, Fallacy of composition, Fallacy of division |
 | `ct:formal-modeling` | 3 | Motte-and-bailey, Replication crisis, strategic-ambiguity |
 | `ct:outside-view` | 3 | Base-rate neglect, Planning fallacy, Representativeness heuristic |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |

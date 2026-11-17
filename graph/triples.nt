@@ -5311,6 +5311,81 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the property true of the group taken as a single unit (collectively), or of every member taken one at a time (distributively)?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does the property arise from how the parts are combined or how many there are, so that no single part could have it on its own?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is there direct evidence about the particular part or member, rather than only about the whole it belongs to?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Could the whole have the property because of some members only, while others contribute nothing to it or even work against it?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is a key term, such as \"balanced\", \"important\" or \"successful\", being used in a different sense for the parts than for the whole?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "Each sales representative in the division beat their individual revenue target." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The division total can exceed target because two or three large accounts closed, while several representatives still fell short." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Beating a division target is a fact about summed revenue; it says nothing about how that sum was spread across people." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The regional sales division beat its annual revenue target by 12 percent." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Each sales representative works in the regional sales division." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2000/01/rdf-schema#label> "Fallacy of division" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#altLabel> "division fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of division (whole to parts)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#altLabel> "whole-to-part fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of inferring that each part or member of a whole or group has a property because the whole or group has it, when the property belongs to the whole only collectively and does not carry down to its parts." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fallacy of division" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/distributive-collective-distinction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ecological-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/fallacy-of-division.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does each key word or phrase mean exactly the same thing in both places it appears?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-four-terms> .
@@ -15612,6 +15687,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-composition/s7> <https://schema.org/url> <https://read.aupress.ca/read/critical-thinking-logic-and-argument/section/79d847f7-75b3-474e-8e16-2465da141e85> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, substantive revision 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s1> <https://schema.org/url> <https://plato.stanford.edu/entries/fallacies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s2> <http://purl.org/dc/terms/publisher> "Christian Plantin, Dictionnaire de l'argumentation 2021, ICAR (CNRS / Université Lyon 2)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s2> <http://purl.org/dc/terms/title> "Composition and Division" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s2> <https://schema.org/url> <https://icar.cnrs.fr/dicoplantin/composition-and-division-e/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s3> <http://purl.org/dc/terms/publisher> "Trudy Govier, OSSA 4 Conference Archive (2001), University of Windsor, via CORE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s3> <http://purl.org/dc/terms/title> "Collective Responsibility and the Fallacies of Composition and Division" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s3> <https://schema.org/url> <https://core.ac.uk/download/72768211.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s4> <http://purl.org/dc/terms/publisher> "Fallacies tutorial, Palomar College faculty pages" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s4> <http://purl.org/dc/terms/title> "Distributive Fallacy - Division" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s4> <https://schema.org/url> <https://www.palomar.edu/users/bthompson/Division.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s5> <http://purl.org/dc/terms/publisher> "David A. Freedman, Technical Report 549, Department of Statistics, UC Berkeley (1999); International Encyclopedia of the Social & Behavioral Sciences" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s5> <http://purl.org/dc/terms/title> "Ecological Inference and the Ecological Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-division/s5> <https://schema.org/url> <https://www.stat.berkeley.edu/~census/549.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://purl.org/dc/terms/publisher> "The Fallacy Files (Gary N. Curtis)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-four-terms/s1> <http://purl.org/dc/terms/title> "The Four Term Fallacy" .

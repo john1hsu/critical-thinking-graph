@@ -341,6 +341,17 @@ flowchart TD
   o2["Five people used to leading may compete for the same work while leaving support roles such as testing and documentation uncovered."] -. attacks .-> ra
 ```
 
+## Fallacy of division (`ct:fallacy-of-division`)
+
+```mermaid
+flowchart TD
+  p1["The regional sales division beat its annual revenue target by 12 percent."] --> ra{{"fallacious"}}
+  p2["Each sales representative works in the regional sales division."] --> ra{{"fallacious"}}
+  ra --> c["Each sales representative in the division beat their individual revenue target."]
+  o1["The division total can exceed target because two or three large accounts closed, while several representatives still fell short."] -. attacks .-> ra
+  o2["Beating a division target is a fact about summed revenue; it says nothing about how that sum was spread across people."] -. attacks .-> ra
+```
+
 ## Fallacy of four terms (`ct:fallacy-of-four-terms`)
 
 ```mermaid

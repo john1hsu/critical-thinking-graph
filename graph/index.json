@@ -12332,6 +12332,114 @@
   ]
  },
  {
+  "id": "ct:fallacy-of-division",
+  "title": "Fallacy of division",
+  "aliases": [
+   "division fallacy",
+   "whole-to-part fallacy",
+   "fallacy of division (whole to parts)"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/fallacy-of-division.md",
+  "created": "2026-11-17",
+  "summary": "The fallacy of inferring that each part or member of a whole or group has a property because the whole or group has it, when the property belongs to the whole only collectively and does not carry down to its parts.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fallacy-of-ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-composition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:distributive-collective-distinction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-accident"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ecological-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sophistical-refutations"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:aristotle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-whately"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:fallacy-of-composition",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:fallacy-of-ambiguity",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:sophistical-refutations",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the property true of the group taken as a single unit (collectively), or of every member taken one at a time (distributively)?",
+   "Does the property arise from how the parts are combined or how many there are, so that no single part could have it on its own?",
+   "Is there direct evidence about the particular part or member, rather than only about the whole it belongs to?",
+   "Could the whole have the property because of some members only, while others contribute nothing to it or even work against it?",
+   "Is a key term, such as \"balanced\", \"important\" or \"successful\", being used in a different sense for the parts than for the whole?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://icar.cnrs.fr/dicoplantin/composition-and-division-e/",
+   "https://core.ac.uk/download/72768211.pdf",
+   "https://www.palomar.edu/users/bthompson/Division.html",
+   "https://www.stat.berkeley.edu/~census/549.pdf"
+  ]
+ },
+ {
   "id": "ct:fallacy-of-four-terms",
   "title": "Fallacy of four terms",
   "aliases": [
