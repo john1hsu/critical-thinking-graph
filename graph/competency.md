@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:argument-from-fallacy` | cto:FormalFallacy |
 | `ct:improper-transposition` | cto:FormalFallacy |
 | `ct:survivorship-bias` | cto:CognitiveBias |
 
@@ -49,7 +48,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:numeracy` | 2 | Affect heuristic, Framing effect |
 | `ct:power-analysis` | 2 | Law of small numbers, Replication crisis |
 
-…and 46 more.
+…and 47 more.
 
 ## Heuristic -> bias -> remedy chains
 

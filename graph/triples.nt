@@ -21954,6 +21954,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/venn-diagram-test/s6> <https://schema.org/url> <https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s1> <http://purl.org/dc/terms/publisher> "Argumentation 24(2): 165-179 (Andrew Aberdein, 2010), author's copy on PhilArchive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s1> <http://purl.org/dc/terms/title> "Virtue in argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s1> <https://schema.org/url> <https://philarchive.org/archive/ABEVIA> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s2> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 33(1): 22-32 (Tracy Bowell & Justine Kingsbury, 2013), via CORE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s2> <http://purl.org/dc/terms/title> "Virtue and Argument: Taking Character into Account" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s2> <https://schema.org/url> <https://core.ac.uk/download/29201218.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s3> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s3> <http://purl.org/dc/terms/publisher> "Topoi (José Ángel Gascón, doi:10.1007/s11245-015-9321-8), author's copy at Universidad de Murcia repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s3> <http://purl.org/dc/terms/title> "Virtue and arguers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s3> <https://schema.org/url> <https://digitum.um.es/digitum/bitstream/10201/138483/1/Topoi2016.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s4> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s4> <http://purl.org/dc/terms/publisher> "Argumentation 37(2): 269-280 (Andrew Aberdein, 2023), author's copy on PhilArchive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s4> <http://purl.org/dc/terms/title> "The Fallacy Fallacy: From the Owl of Minerva to the Lark of Arete" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s4> <https://schema.org/url> <https://philarchive.org/archive/ABETFF-2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s5> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s5> <http://purl.org/dc/terms/publisher> "Andrew Aberdein, OSSA 10 conference paper, in Mohammed & Lewiński (eds.), Virtues of Argumentation, 2013, via CORE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s5> <http://purl.org/dc/terms/title> "Fallacy and argumentational vice" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s5> <https://schema.org/url> <https://core.ac.uk/download/72769393.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> <http://purl.org/dc/terms/date> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> <http://purl.org/dc/terms/publisher> "Founders Online, U.S. National Archives (The Papers of Benjamin Franklin, vol. 19)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/weighted-additive-rule/s1> <http://purl.org/dc/terms/title> "Benjamin Franklin to Joseph Priestley, 19 September 1772" .
@@ -23555,6 +23585,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2000/01/rdf-schema#label> "Virtue argumentation theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "VAT" .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "argumentational virtue theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#altLabel> "virtue theory of argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#definition> "An approach to argumentation that makes the arguer, not only the argument, an object of appraisal, describing good arguing in terms of argumentational virtues such as willingness to listen and to modify one's position, and explaining bad arguing, including many fallacies, in terms of the corresponding vices." .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Virtue argumentation theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/virtue-argumentation-theory.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/virtue-epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/andrew-aberdein> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-cohen> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://purl.org/dc/terms/created> "2026-11-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
 <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2000/01/rdf-schema#label> "Weighted additive rule" .

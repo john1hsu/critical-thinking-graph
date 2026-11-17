@@ -31500,6 +31500,114 @@
   ]
  },
  {
+  "id": "ct:virtue-argumentation-theory",
+  "title": "Virtue argumentation theory",
+  "aliases": [
+   "virtue theory of argumentation",
+   "argumentational virtue theory",
+   "VAT"
+  ],
+  "type": "Framework",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/virtue-argumentation-theory.md",
+  "created": "2026-11-17",
+  "summary": "An approach to argumentation that makes the arguer, not only the argument, an object of appraisal, describing good arguing in terms of argumentational virtues such as willingness to listen and to modify one's position, and explaining bad arguing, including many fallacies, in terms of the corresponding vices.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:steelmanning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cogency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:paul-elder-critical-thinking-framework"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:argument-from-fallacy",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:virtue-epistemology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:andrew-aberdein",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-cohen",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:pragma-dialectics",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://philarchive.org/archive/ABEVIA",
+   "https://core.ac.uk/download/29201218.pdf",
+   "https://digitum.um.es/digitum/bitstream/10201/138483/1/Topoi2016.pdf",
+   "https://philarchive.org/archive/ABETFF-2",
+   "https://core.ac.uk/download/72769393.pdf"
+  ]
+ },
+ {
   "id": "ct:weighted-additive-rule",
   "title": "Weighted additive rule",
   "aliases": [

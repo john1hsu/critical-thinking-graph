@@ -29457,6 +29457,106 @@
    ]
   },
   {
+   "@id": "ct:virtue-argumentation-theory",
+   "@type": "cto:Framework",
+   "cto:contrastsWith": {
+    "@id": "ct:pragma-dialectics"
+   },
+   "cto:counteracts": {
+    "@id": "ct:argument-from-fallacy"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/virtue-argumentation-theory.md",
+   "cto:influencedBy": {
+    "@id": "ct:virtue-epistemology"
+   },
+   "cto:introducedBy": [
+    {
+     "@id": "ct:andrew-aberdein"
+    },
+    {
+     "@id": "ct:daniel-cohen"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:argumentation-theory"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s5"
+    }
+   ],
+   "rdfs:label": "Virtue argumentation theory",
+   "skos:altLabel": [
+    "VAT",
+    "argumentational virtue theory",
+    "virtue theory of argumentation"
+   ],
+   "skos:broader": {
+    "@id": "ct:argumentation-theory"
+   },
+   "skos:definition": "An approach to argumentation that makes the arguer, not only the argument, an object of appraisal, describing good arguing in terms of argumentational virtues such as willingness to listen and to modify one's position, and explaining bad arguing, including many fallacies, in terms of the corresponding vices.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Virtue argumentation theory",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:argument-evaluation"
+    },
+    {
+     "@id": "ct:argument-from-fallacy"
+    },
+    {
+     "@id": "ct:cogency"
+    },
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:paul-elder-critical-thinking-framework"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:steelmanning"
+    }
+   ]
+  },
+  {
    "@id": "ct:weighted-additive-rule",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -59388,6 +59488,76 @@
    "dcterms:title": "How Diagrams Can Support Syllogistic Reasoning: An Experimental Study",
    "schema:url": {
     "@id": "https://research.brighton.ac.uk/en/publications/how-diagrams-can-support-syllogistic-reasoning-an-experimental-st/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Argumentation 24(2): 165-179 (Andrew Aberdein, 2010), author's copy on PhilArchive",
+   "dcterms:title": "Virtue in argument",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/ABEVIA"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Informal Logic 33(1): 22-32 (Tracy Bowell & Justine Kingsbury, 2013), via CORE",
+   "dcterms:title": "Virtue and Argument: Taking Character into Account",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/29201218.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Topoi (José Ángel Gascón, doi:10.1007/s11245-015-9321-8), author's copy at Universidad de Murcia repository",
+   "dcterms:title": "Virtue and arguers",
+   "schema:url": {
+    "@id": "https://digitum.um.es/digitum/bitstream/10201/138483/1/Topoi2016.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Argumentation 37(2): 269-280 (Andrew Aberdein, 2023), author's copy on PhilArchive",
+   "dcterms:title": "The Fallacy Fallacy: From the Owl of Minerva to the Lark of Arete",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/ABETFF-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/virtue-argumentation-theory/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Andrew Aberdein, OSSA 10 conference paper, in Mohammed & Lewiński (eds.), Virtues of Argumentation, 2013, via CORE",
+   "dcterms:title": "Fallacy and argumentational vice",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/72769393.pdf"
    }
   },
   {
