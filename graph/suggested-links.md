@@ -26,6 +26,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.65 | `ct:argument-mapping` | `ct:informal-fallacy` | `ct:argument`, `ct:argument-evaluation`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:begging-the-question` |
 | 3.60 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
 | 3.60 | `ct:ad-hominem` | `ct:burden-of-proof` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-from-expert-opinion`, `ct:argument-from-fallacy`, `ct:argument-from-ignorance` |
-| 3.52 | `ct:daniel-kahneman` | `ct:heuristic` | `ct:anchoring-and-adjustment-heuristic`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias` |
+| 3.51 | `ct:daniel-kahneman` | `ct:heuristic` | `ct:anchoring-and-adjustment-heuristic`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias` |
 | 3.51 | `ct:equivocation` | `ct:informal-logic` | `ct:argument`, `ct:argument-reconstruction`, `ct:argumentation-theory`, `ct:definition`, `ct:distributive-collective-distinction` |
 | 3.45 | `ct:informal-fallacy` | `ct:presumption` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-evaluation`, `ct:argument-from-expert-opinion`, `ct:argument-from-ignorance` |

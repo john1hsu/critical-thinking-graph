@@ -13242,6 +13242,110 @@
   ]
  },
  {
+  "id": "ct:geopolitical-forecasting",
+  "title": "Geopolitical forecasting",
+  "aliases": [
+   "political forecasting",
+   "forecasting tournaments",
+   "probabilistic geopolitical forecasting"
+  ],
+  "type": "Field",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/geopolitical-forecasting.md",
+  "created": "2026-11-17",
+  "summary": "The practice, and the research programme around it, of making explicit, numerical probability forecasts about future political, economic and security events, then scoring them against what actually happens so that forecasting skill can be measured, trained and aggregated.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:forecasting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:intelligence-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:outside-view"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:brier-score"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:chang-2016-forecasting-training-study"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hindsight-bias"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:expert-political-judgment",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:philip-tetlock",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:mellers-2014-forecasting-tournament-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:intelligence-analysis",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://escholarship.org/content/qt4rg4n9vr/qt4rg4n9vr_noSplash_4ff67e56b3dac616e0163b75090705e6.pdf",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---forecasting-tournaments-tools-for-increasing-transparency-and-improving-debate.pdf",
+   "https://press.princeton.edu/node/60674",
+   "https://www.iarpa.gov/research-programs/ace",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Long-range-subjective-probability.pdf"
+  ]
+ },
+ {
   "id": "ct:george-udny-yule",
   "title": "George Udny Yule",
   "aliases": [

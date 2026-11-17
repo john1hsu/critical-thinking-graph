@@ -104,7 +104,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
 | `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 
-…and 86 more.
+…and 87 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -144,14 +144,14 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:formal-modeling` | cto:Method |
+| `ct:geopolitical-forecasting` | cto:Field |
 | `ct:grade-approach` | cto:Framework |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
-| `ct:inverse-fallacy` | cto:ProbabilisticFallacy |
 
-…and 39 more.
+…and 40 more.
 
 ## Orphan articles (gap)
 

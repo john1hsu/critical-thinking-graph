@@ -12312,6 +12312,101 @@
    ]
   },
   {
+   "@id": "ct:geopolitical-forecasting",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:intelligence-analysis"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:mellers-2014-forecasting-tournament-study"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/geopolitical-forecasting.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:expert-political-judgment"
+    },
+    {
+     "@id": "ct:philip-tetlock"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:calibration"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s5"
+    }
+   ],
+   "rdfs:label": "Geopolitical forecasting",
+   "skos:altLabel": [
+    "forecasting tournaments",
+    "political forecasting",
+    "probabilistic geopolitical forecasting"
+   ],
+   "skos:broader": {
+    "@id": "ct:forecasting"
+   },
+   "skos:definition": "The practice, and the research programme around it, of making explicit, numerical probability forecasts about future political, economic and security events, then scoring them against what actually happens so that forecasting skill can be measured, trained and aggregated.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Geopolitical forecasting",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:brier-score"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:calibration-training"
+    },
+    {
+     "@id": "ct:chang-2016-forecasting-training-study"
+    },
+    {
+     "@id": "ct:hindsight-bias"
+    },
+    {
+     "@id": "ct:intelligence-analysis"
+    },
+    {
+     "@id": "ct:outside-view"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:george-udny-yule",
    "@type": "cto:Person",
    "cto:authored": {
@@ -44551,6 +44646,76 @@
    "dcterms:title": "Data from Investigating Variation in Replicability: A 'Many Labs' Replication Project",
    "schema:url": {
     "@id": "https://core.ac.uk/download/420823721.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Psychological Science (Mellers, Ungar, Baron, Ramos, Gurcay, Fincher, Scott, Moore, Atanasov, Swift, Murray, Stone & Tetlock, 2014), eScholarship, University of California",
+   "dcterms:title": "Psychological Strategies for Winning a Geopolitical Forecasting Tournament",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt4rg4n9vr/qt4rg4n9vr_noSplash_4ff67e56b3dac616e0163b75090705e6.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Current Directions in Psychological Science 23(4), 290-295 (Tetlock, Mellers, Rohrbaugh & Chen, 2014), Wharton School, University of Pennsylvania",
+   "dcterms:title": "Forecasting Tournaments: Tools for Increasing Transparency and Improving the Quality of Debate",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---forecasting-tournaments-tools-for-increasing-transparency-and-improving-debate.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Philip E. Tetlock, Princeton University Press (2005; new edition 2017)",
+   "dcterms:title": "Expert Political Judgment: How Good Is It? How Can We Know? (New Edition)",
+   "schema:url": {
+    "@id": "https://press.princeton.edu/node/60674"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Intelligence Advanced Research Projects Activity (IARPA), Office of the Director of National Intelligence",
+   "dcterms:title": "ACE: Aggregative Contingent Estimation",
+   "schema:url": {
+    "@id": "https://www.iarpa.gov/research-programs/ace"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-17"
+   },
+   "dcterms:publisher": "Futures and Foresight Science, accepted manuscript (Tetlock, Karvetski, Satopää & Chen), Wharton School, University of Pennsylvania",
+   "dcterms:title": "Long-Range Subjective-Probability Forecasts of Slow-Motion Variables in World Politics: Exploring Limits on Expert Judgment",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Long-range-subjective-probability.pdf"
    }
   },
   {
