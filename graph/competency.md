@@ -91,6 +91,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:dual-process-theory` | contested | `ct:keren-schul-2009-two-system-critique` |
 | `ct:dunning-kruger-effect` | contested | `ct:burson-larrick-klayman-2006-noise-plus-bias-study` |
 | `ct:dunning-kruger-effect` | contested | `ct:gignac-zajenkowski-2020-dunning-kruger-artifact-critique` |
+| `ct:ease-of-retrieval-effect` | contested | `ct:groncki-2021-eyewitness-ease-of-retrieval-studies` |
+| `ct:ease-of-retrieval-effect` | contested | `ct:yeager-2019-national-sample-replications` |
 | `ct:ecological-rationality` | contested | `ct:hilbig-richter-2011-homo-heuristicus-outnumbered` |
 | `ct:endowment-effect` | contested | `ct:plott-zeiler-2005-wta-wtp-experiments` |
 | `ct:expected-utility-theory` | contested | `ct:allais-paradox` |
@@ -102,10 +104,8 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:hot-hand-fallacy` | contested | `ct:miller-sanjurjo-2018-streak-selection-bias-study` |
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
-| `ct:key-assumptions-check` | contested | `ct:mandel-tetlock-2018-correcting-judgment-correctives` |
-| `ct:law-of-small-numbers` | contested | `ct:benjamin-2019-errors-in-probabilistic-reasoning` |
 
-…and 90 more.
+…and 92 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

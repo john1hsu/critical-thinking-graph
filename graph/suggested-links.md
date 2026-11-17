@@ -11,7 +11,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.77 | `ct:categorical-proposition` | `ct:validity` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:carroll-diagram`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 4.75 | `ct:categorical-proposition` | `ct:method-of-counterexample` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises` |
 | 4.65 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises` |
-| 4.55 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:attribute-substitution`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology` |
+| 4.54 | `ct:dual-process-theory` | `ct:judgment-and-decision-making` | `ct:affect-heuristic`, `ct:attribute-substitution`, `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:cognitive-psychology` |
 | 4.45 | `ct:method-of-counterexample` | `ct:propositional-logic` | `ct:affirming-the-consequent`, `ct:commutation-of-conditionals`, `ct:deductive-reasoning`, `ct:denying-a-conjunct`, `ct:formal-logic` |
 | 4.35 | `ct:illicit-conversion` | `ct:venn-diagram-test` | `ct:categorical-proposition`, `ct:distribution-of-terms`, `ct:euler-diagram`, `ct:existential-import`, `ct:formal-fallacy` |
 | 4.34 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-from-ignorance`, `ct:argumentation-schemes`, `ct:charles-hamblin` |
@@ -26,6 +26,6 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.62 | `ct:argument-mapping` | `ct:informal-fallacy` | `ct:argument`, `ct:argument-evaluation`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:begging-the-question` |
 | 3.60 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
 | 3.56 | `ct:ad-hominem` | `ct:burden-of-proof` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-from-expert-opinion`, `ct:argument-from-fallacy`, `ct:argument-from-ignorance` |
-| 3.51 | `ct:daniel-kahneman` | `ct:heuristic` | `ct:anchoring-and-adjustment-heuristic`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias` |
+| 3.50 | `ct:daniel-kahneman` | `ct:heuristic` | `ct:anchoring-and-adjustment-heuristic`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias` |
 | 3.49 | `ct:argumentation-theory` | `ct:fallacy-of-ambiguity` | `ct:amphiboly`, `ct:argument`, `ct:aristotle`, `ct:charles-hamblin`, `ct:distributive-collective-distinction` |
 | 3.48 | `ct:argument-evaluation` | `ct:pragma-dialectics` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:conductive-argument` |
