@@ -13239,6 +13239,79 @@
    ]
   },
   {
+   "@id": "ct:gordon-pennycook",
+   "@type": "cto:Person",
+   "cto:challengedBy": {
+    "@id": "ct:batailler-2022-fake-news-signal-detection-reanalysis"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/gordon-pennycook.md",
+   "cto:introduced": [
+    {
+     "@id": "ct:accuracy-prompts"
+    },
+    {
+     "@id": "ct:bullshit-receptivity"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:studiedIn": {
+    "@id": "ct:cognitive-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s5"
+    }
+   ],
+   "rdfs:label": "Gordon Pennycook",
+   "skos:altLabel": [
+    "G. Pennycook",
+    "Gord Pennycook"
+   ],
+   "skos:definition": "Canadian cognitive psychologist, now at Cornell University, who studies why people believe what they believe. With colleagues he introduced the bullshit receptivity scale (2015), argued that susceptibility to fake news reflects too little reasoning more than partisan motivated reasoning, and introduced accuracy prompts as a scalable intervention against sharing misinformation.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Gordon Pennycook",
+   "skos:related": [
+    {
+     "@id": "ct:cognitive-reflection-test"
+    },
+    {
+     "@id": "ct:dual-process-theory"
+    },
+    {
+     "@id": "ct:illusory-truth-effect"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    },
+    {
+     "@id": "ct:motivated-reasoning"
+    }
+   ]
+  },
+  {
    "@id": "ct:grade-approach",
    "@type": "cto:Framework",
    "cto:appliedIn": [
@@ -47834,6 +47907,76 @@
    "dcterms:title": "Debating the ICR's Duane Gish (with Eugenie Scott, Debates and the Globetrotters)",
    "schema:url": {
     "@id": "https://talkorigins.org/faqs/debating-creationists.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Cornell University, Department of Psychology",
+   "dcterms:title": "New Faculty: Gordon Pennycook",
+   "schema:url": {
+    "@id": "https://psychology.cornell.edu/news/new-faculty-gordon-pennycook"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Psychological Science (Pennycook, McPhetres, Zhang, Lu & Rand, 2020), doi:10.1177/0956797620939054, DSpace@MIT",
+   "dcterms:title": "Fighting COVID-19 Misinformation on Social Media: Experimental Evidence for a Scalable Accuracy-Nudge Intervention",
+   "schema:url": {
+    "@id": "https://dspace.mit.edu/handle/1721.1/126080"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 10(6), 549-563 (Pennycook, Cheyne, Barr, Koehler & Fugelsang, 2015)",
+   "dcterms:title": "On the reception and detection of pseudo-profound bullshit",
+   "schema:url": {
+    "@id": "https://dlab.sauder.ubc.ca/sjdm/journal/15/15923a/jdm15923a.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Cognition 188, 39-50 (Pennycook & Rand, 2019), course copy hosted by Università di Trieste",
+   "dcterms:title": "Lazy, not biased: Susceptibility to partisan fake news is better explained by lack of reasoning than by motivated reasoning",
+   "schema:url": {
+    "@id": "https://moodle2.units.it/pluginfile.php/585423/mod_resource/content/0/Pennycook%20%20Rand%20%282019%29.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Perspectives on Psychological Science 17(1) (Batailler, Brannon, Teas & Gawronski, 2022), NSF Public Access Repository",
+   "dcterms:title": "A Signal Detection Approach to Understanding the Identification of Fake News",
+   "schema:url": {
+    "@id": "https://par.nsf.gov/servlets/purl/10320694"
    }
   },
   {

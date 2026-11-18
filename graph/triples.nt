@@ -6150,6 +6150,33 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/eugenie-scott> .
 <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2000/01/rdf-schema#label> "Gordon Pennycook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#altLabel> "G. Pennycook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#altLabel> "Gord Pennycook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#definition> "Canadian cognitive psychologist, now at Cornell University, who studies why people believe what they believe. With colleagues he introduced the bullshit receptivity scale (2015), argued that susceptibility to fake news reflects too little reasoning more than partisan motivated reasoning, and introduced accuracy prompts as a scalable intervention against sharing misinformation." .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gordon Pennycook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illusory-truth-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/batailler-2022-fake-news-signal-detection-reanalysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/gordon-pennycook.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/accuracy-prompts> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/bullshit-receptivity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
 <https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <http://www.w3.org/2000/01/rdf-schema#label> "GRADE approach" .
@@ -16808,6 +16835,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gish-gallop/s5> <https://schema.org/url> <https://talkorigins.org/faqs/debating-creationists.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s1> <http://purl.org/dc/terms/publisher> "Cornell University, Department of Psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s1> <http://purl.org/dc/terms/title> "New Faculty: Gordon Pennycook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s1> <https://schema.org/url> <https://psychology.cornell.edu/news/new-faculty-gordon-pennycook> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s2> <http://purl.org/dc/terms/publisher> "Psychological Science (Pennycook, McPhetres, Zhang, Lu & Rand, 2020), doi:10.1177/0956797620939054, DSpace@MIT" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s2> <http://purl.org/dc/terms/title> "Fighting COVID-19 Misinformation on Social Media: Experimental Evidence for a Scalable Accuracy-Nudge Intervention" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s2> <https://schema.org/url> <https://dspace.mit.edu/handle/1721.1/126080> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s3> <http://purl.org/dc/terms/publisher> "Judgment and Decision Making 10(6), 549-563 (Pennycook, Cheyne, Barr, Koehler & Fugelsang, 2015)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s3> <http://purl.org/dc/terms/title> "On the reception and detection of pseudo-profound bullshit" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s3> <https://schema.org/url> <https://dlab.sauder.ubc.ca/sjdm/journal/15/15923a/jdm15923a.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s4> <http://purl.org/dc/terms/publisher> "Cognition 188, 39-50 (Pennycook & Rand, 2019), course copy hosted by Università di Trieste" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s4> <http://purl.org/dc/terms/title> "Lazy, not biased: Susceptibility to partisan fake news is better explained by lack of reasoning than by motivated reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s4> <https://schema.org/url> <https://moodle2.units.it/pluginfile.php/585423/mod_resource/content/0/Pennycook%20%20Rand%20%282019%29.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s5> <http://purl.org/dc/terms/publisher> "Perspectives on Psychological Science 17(1) (Batailler, Brannon, Teas & Gawronski, 2022), NSF Public Access Repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s5> <http://purl.org/dc/terms/title> "A Signal Detection Approach to Understanding the Identification of Fake News" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/gordon-pennycook/s5> <https://schema.org/url> <https://par.nsf.gov/servlets/purl/10320694> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> <http://purl.org/dc/terms/publisher> "GRADE Working Group (Schünemann, Brożek, Guyatt & Oxman, eds., updated 2013), GRADEpro GDT" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s1> <http://purl.org/dc/terms/title> "GRADE Handbook: Handbook for grading the quality of evidence and the strength of recommendations using the GRADE approach" .

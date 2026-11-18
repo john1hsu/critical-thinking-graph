@@ -14238,6 +14238,79 @@
   ]
  },
  {
+  "id": "ct:gordon-pennycook",
+  "title": "Gordon Pennycook",
+  "aliases": [
+   "Gord Pennycook",
+   "G. Pennycook"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/gordon-pennycook.md",
+  "created": "2026-11-18",
+  "summary": "Canadian cognitive psychologist, now at Cornell University, who studies why people believe what they believe. With colleagues he introduced the bullshit receptivity scale (2015), argued that susceptibility to fake news reflects too little reasoning more than partisan motivated reasoning, and introduced accuracy prompts as a scalable intervention against sharing misinformation.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-reflection-test"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dual-process-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:motivated-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illusory-truth-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:accuracy-prompts",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:bullshit-receptivity",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:cognitive-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:batailler-2022-fake-news-signal-detection-reanalysis",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://psychology.cornell.edu/news/new-faculty-gordon-pennycook",
+   "https://dspace.mit.edu/handle/1721.1/126080",
+   "https://dlab.sauder.ubc.ca/sjdm/journal/15/15923a/jdm15923a.html",
+   "https://moodle2.units.it/pluginfile.php/585423/mod_resource/content/0/Pennycook%20%20Rand%20%282019%29.pdf",
+   "https://par.nsf.gov/servlets/purl/10320694"
+  ]
+ },
+ {
   "id": "ct:grade-approach",
   "title": "GRADE approach",
   "aliases": [
