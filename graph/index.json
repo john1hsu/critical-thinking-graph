@@ -14788,6 +14788,89 @@
   ]
  },
  {
+  "id": "ct:halo-effect",
+  "title": "Halo effect",
+  "aliases": [
+   "halo error",
+   "halo bias",
+   "attractiveness halo"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/cognitive-biases/halo-effect.md",
+  "created": "2026-11-18",
+  "summary": "The tendency for an overall impression of a person (or product or organisation) to colour judgments of their specific, logically separate qualities, so that one salient good or bad feature spreads to the rest.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:introspection-illusion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fundamental-attribution-error"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affect-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-nisbett"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:social-psychology"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:edward-thorndike",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:nisbett-wilson-1977-halo-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:batres-shiramizu-2023-attractiveness-halo-study",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:murphy-jako-anhalt-1993-halo-error-critique",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:performance-appraisal",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.Gwern.net/doc/psychology/personality/1920-thorndike.pdf",
+   "https://dc2.philarchive.org/rec/NISTHE-2",
+   "https://pure.ul.ie/en/publications/nature-and-consequences-of-halo-error-a-critical-analysis/",
+   "https://link.springer.com/article/10.1007/s12144-022-03575-0"
+  ]
+ },
+ {
   "id": "ct:hasty-generalization",
   "title": "Hasty generalization",
   "aliases": [

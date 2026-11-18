@@ -6384,6 +6384,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/victims-of-groupthink> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2000/01/rdf-schema#label> "Halo effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "attractiveness halo" .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "halo bias" .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#altLabel> "halo error" .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#definition> "The tendency for an overall impression of a person (or product or organisation) to colour judgments of their specific, logically separate qualities, so that one salient good or bad feature spreads to the rest." .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Halo effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affect-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/introspection-illusion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-nisbett> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/performance-appraisal> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/murphy-jako-anhalt-1993-halo-error-critique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/nisbett-wilson-1977-halo-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/halo-effect.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/edward-thorndike> .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/batres-shiramizu-2023-attractiveness-halo-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "How many cases is the conclusion based on, and is that enough for a claim this broad?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
@@ -17257,6 +17286,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s5> <https://schema.org/url> <https://econpapers.repec.org/RePEc:eee:jobhdp:v:73:y:1998:i:2-3:p:236-271> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s1> <http://purl.org/dc/terms/publisher> "Journal of Applied Psychology 4(1), 25-29 (Thorndike, 1920), copy hosted by gwern.net" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s1> <http://purl.org/dc/terms/title> "A constant error in psychological ratings" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s1> <https://schema.org/url> <https://www.Gwern.net/doc/psychology/personality/1920-thorndike.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s2> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 35(4), 250-256 (Nisbett & Wilson, 1977), PhilArchive record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s2> <http://purl.org/dc/terms/title> "The halo effect: Evidence for unconscious alteration of judgments" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s2> <https://schema.org/url> <https://dc2.philarchive.org/rec/NISTHE-2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s3> <http://purl.org/dc/terms/publisher> "Journal of Applied Psychology 78(2), 218-225 (Murphy, Jako & Anhalt, 1993), University of Limerick research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s3> <http://purl.org/dc/terms/title> "Nature and Consequences of Halo Error: A Critical Analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s3> <https://schema.org/url> <https://pure.ul.ie/en/publications/nature-and-consequences-of-halo-error-a-critical-analysis/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s4> <http://purl.org/dc/terms/publisher> "Current Psychology 42, 25515-25519 (Batres & Shiramizu, 2023), Springer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s4> <http://purl.org/dc/terms/title> "Examining the \"attractiveness halo effect\" across cultures" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/halo-effect/s4> <https://schema.org/url> <https://link.springer.com/article/10.1007/s12144-022-03575-0> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/hasty-generalization/s1> <http://purl.org/dc/terms/title> "Fallacies" .
