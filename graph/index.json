@@ -27851,6 +27851,107 @@
   ]
  },
  {
+  "id": "ct:selective-accessibility-model",
+  "title": "Selective accessibility model",
+  "aliases": [
+   "selective accessibility theory of anchoring",
+   "SAM of anchoring",
+   "Strack-Mussweiler anchoring model"
+  ],
+  "type": "Framework",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "contested",
+  "file": "articles/heuristics-and-dual-process/selective-accessibility-model.md",
+  "created": "2026-11-18",
+  "summary": "Strack and Mussweiler's account of the anchoring effect: when people judge whether a target is higher or lower than an anchor, they test the hypothesis that the target equals the anchor, which makes anchor-consistent knowledge more accessible and pulls the later estimate toward the anchor.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:accessibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-and-adjustment-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:positive-test-strategy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:many-labs-1-replication-project"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:fritz-strack",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:thomas-mussweiler",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:semantic-priming",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:strack-mussweiler-1997-anchoring-studies",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:bahnik-strack-2016-information-overlap-studies",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:harris-2019-selective-accessibility-replication",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:numeric-priming",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://core.ac.uk/works/100778014",
+   "https://www.london.edu/faculty-and-research/academic-research/h/hypothesisconsistent-testing-and-semantic-priming-in-the--anchorin",
+   "https://opus.bibliothek.uni-wuerzburg.de/files/16928/Bahnik_Judgement_and_Decision_Making.pdf",
+   "https://discovery.ucl.ac.uk/10074759/1/HarrisEtAl_2019_anchoring.pdf",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.00225/pdf",
+   "https://www.london.edu/faculty-and-research/academic-research/o/overcoming-the-inevitable-anchoring-effect--considering-the-opposi"
+  ]
+ },
+ {
   "id": "ct:self-affirmation",
   "title": "Self-affirmation",
   "aliases": [

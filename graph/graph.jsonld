@@ -26011,6 +26011,98 @@
    ]
   },
   {
+   "@id": "ct:selective-accessibility-model",
+   "@type": "cto:Framework",
+   "cto:challengedBy": {
+    "@id": "ct:harris-2019-selective-accessibility-replication"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:numeric-priming"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:strack-mussweiler-1997-anchoring-studies"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "contested",
+   "cto:explainedBy": {
+    "@id": "ct:semantic-priming"
+   },
+   "cto:file": "articles/heuristics-and-dual-process/selective-accessibility-model.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:fritz-strack"
+    },
+    {
+     "@id": "ct:thomas-mussweiler"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:anchoring-effect"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:bahnik-strack-2016-information-overlap-studies"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s6"
+    }
+   ],
+   "rdfs:label": "Selective accessibility model",
+   "skos:altLabel": [
+    "SAM of anchoring",
+    "Strack-Mussweiler anchoring model",
+    "selective accessibility theory of anchoring"
+   ],
+   "skos:broader": {
+    "@id": "ct:accessibility"
+   },
+   "skos:definition": "Strack and Mussweiler's account of the anchoring effect: when people judge whether a target is higher or lower than an anchor, they test the hypothesis that the target equals the anchor, which makes anchor-consistent knowledge more accessible and pulls the later estimate toward the anchor.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Selective accessibility model",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-and-adjustment-heuristic"
+    },
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:many-labs-1-replication-project"
+    },
+    {
+     "@id": "ct:positive-test-strategy"
+    }
+   ]
+  },
+  {
    "@id": "ct:self-affirmation",
    "@type": "cto:Technique",
    "cto:appliedIn": {
@@ -57807,6 +57899,90 @@
    "dcterms:title": "Limitations of the application of fourfold table analysis to hospital data",
    "schema:url": {
     "@id": "https://pubmed.ncbi.nlm.nih.gov/21001024/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 73(3), 437-446 (Strack & Mussweiler, 1997), CORE record",
+   "dcterms:title": "Explaining the enigmatic anchoring effect: Mechanisms of selective accessibility",
+   "schema:url": {
+    "@id": "https://core.ac.uk/works/100778014"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Experimental Social Psychology 35, 136-164 (Mussweiler & Strack, 1999), London Business School record",
+   "dcterms:title": "Hypothesis-consistent testing and semantic priming in the anchoring paradigm: A selective accessibility model",
+   "schema:url": {
+    "@id": "https://www.london.edu/faculty-and-research/academic-research/h/hypothesisconsistent-testing-and-semantic-priming-in-the--anchorin"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Judgment and Decision Making 11(1), 92-98 (Bahník & Strack, 2016), University of Würzburg repository",
+   "dcterms:title": "Overlap of accessible information undermines the anchoring effect",
+   "schema:url": {
+    "@id": "https://opus.bibliothek.uni-wuerzburg.de/files/16928/Bahnik_Judgement_and_Decision_Making.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology: General 148(9), e30-e50 (Harris et al., 2019), UCL Discovery accepted manuscript",
+   "dcterms:title": "Failures to replicate a key result of the selective accessibility theory of anchoring",
+   "schema:url": {
+    "@id": "https://discovery.ucl.ac.uk/10074759/1/HarrisEtAl_2019_anchoring.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 7, 225 (Langeborg & Eriksson, 2016)",
+   "dcterms:title": "Anchoring in numeric judgments of visual stimuli",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.00225/pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/selective-accessibility-model/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Bulletin (Mussweiler, Strack & Pfeiffer, 2000), London Business School record",
+   "dcterms:title": "Overcoming the inevitable anchoring effect: Considering the opposite compensates for selective accessibility",
+   "schema:url": {
+    "@id": "https://www.london.edu/faculty-and-research/academic-research/o/overcoming-the-inevitable-anchoring-effect--considering-the-opposi"
    }
   },
   {
