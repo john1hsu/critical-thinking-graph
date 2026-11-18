@@ -12731,6 +12731,108 @@
    ]
   },
   {
+   "@id": "ct:forecasting",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:strategic-decision-making"
+   },
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:grove-2000-clinical-versus-mechanical-prediction-meta-analysis"
+    },
+    {
+     "@id": "ct:makridakis-2018-m4-competition"
+    }
+   ],
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/forecasting.md",
+   "cto:influencedBy": {
+    "@id": "ct:j-scott-armstrong"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:probability-theory"
+   },
+   "cto:studiedIn": [
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:statistics"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s5"
+    }
+   ],
+   "rdfs:label": "Forecasting",
+   "skos:altLabel": [
+    "forecasting methods",
+    "forecasting science",
+    "judgmental and statistical forecasting"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:statistics"
+    }
+   ],
+   "skos:definition": "The practice, and the body of research around it, of predicting future quantities and events as accurately as the available information allows, using statistical models, structured human judgment or both, and of checking those predictions against what actually happens.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Forecasting",
+   "skos:related": [
+    {
+     "@id": "ct:brier-score"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:delphi-method"
+    },
+    {
+     "@id": "ct:geopolitical-forecasting"
+    },
+    {
+     "@id": "ct:outside-view"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:planning-fallacy"
+    },
+    {
+     "@id": "ct:the-robust-beauty-of-improper-linear-models"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:formal-fallacy",
    "@type": "cto:Concept",
    "cto:challengedBy": {
@@ -48504,6 +48606,76 @@
    "dcterms:title": "Towards competitive instead of biased testing of heuristics: A reply to Hilbig and Richter (2011)",
    "schema:url": {
     "@id": "https://pure.mpg.de/pubman/item/item_2098985_1/component/file_2098984/HB_Towards_2011.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Business Research 68(8), 1717-1731 (Armstrong, Green & Graefe, 2015), Wharton School, University of Pennsylvania",
+   "dcterms:title": "Golden Rule of Forecasting: Be Conservative",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/10/Golden-Rule-of-Forcasting_Be-Conservative_2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Rob J Hyndman & George Athanasopoulos, OTexts (2018)",
+   "dcterms:title": "Forecasting: Principles and Practice (2nd ed.), section 1.2: Forecasting, planning and goals",
+   "schema:url": {
+    "@id": "https://otexts.com/fpp2/planning.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "International Journal of Forecasting 34(4), 802-808 (Makridakis, Spiliotis & Assimakopoulos, 2018), University of Nicosia research portal",
+   "dcterms:title": "The M4 Competition: Results, findings, conclusion and way forward",
+   "schema:url": {
+    "@id": "https://pure.unic.ac.cy/en/publications/the-m4-competition-results-findings-conclusion-and-way-forward/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Psychological Assessment 12(1), 19-30 (Grove, Zald, Lebow, Snitz & Nelson, 2000), University of Minnesota Experts",
+   "dcterms:title": "Clinical versus mechanical prediction: A meta-analysis",
+   "schema:url": {
+    "@id": "https://experts.umn.edu/en/publications/clinical-versus-mechanical-prediction-a-meta-analysis/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Current Directions in Psychological Science 23(4), 290-295 (Tetlock, Mellers, Rohrbaugh & Chen, 2014), Wharton School, University of Pennsylvania",
+   "dcterms:title": "Forecasting Tournaments: Tools for Increasing Transparency and Improving the Quality of Debate",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---forecasting-tournaments-tools-for-increasing-transparency-and-improving-debate.pdf"
    }
   },
   {

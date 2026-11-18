@@ -13687,6 +13687,116 @@
   ]
  },
  {
+  "id": "ct:forecasting",
+  "title": "Forecasting",
+  "aliases": [
+   "forecasting science",
+   "forecasting methods",
+   "judgmental and statistical forecasting"
+  ],
+  "type": "Field",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/forecasting.md",
+  "created": "2026-11-18",
+  "summary": "The practice, and the body of research around it, of predicting future quantities and events as accurately as the available information allows, using statistical models, structured human judgment or both, and of checking those predictions against what actually happens.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:geopolitical-forecasting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:brier-score"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:outside-view"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:planning-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:the-robust-beauty-of-improper-linear-models"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:statistics",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:j-scott-armstrong",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:makridakis-2018-m4-competition",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:grove-2000-clinical-versus-mechanical-prediction-meta-analysis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:strategic-decision-making",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/10/Golden-Rule-of-Forcasting_Be-Conservative_2.pdf",
+   "https://otexts.com/fpp2/planning.html",
+   "https://pure.unic.ac.cy/en/publications/the-m4-competition-results-findings-conclusion-and-way-forward/",
+   "https://experts.umn.edu/en/publications/clinical-versus-mechanical-prediction-a-meta-analysis/",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---forecasting-tournaments-tools-for-increasing-transparency-and-improving-debate.pdf"
+  ]
+ },
+ {
   "id": "ct:formal-fallacy",
   "title": "Formal fallacy",
   "aliases": [

@@ -5932,6 +5932,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fast-and-frugal-heuristics> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/phillips-2017-fftrees-benchmark> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2000/01/rdf-schema#label> "Forecasting" .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#altLabel> "forecasting methods" .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#altLabel> "forecasting science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#altLabel> "judgmental and statistical forecasting" .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/statistics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#definition> "The practice, and the body of research around it, of predicting future quantities and events as accurately as the available information allows, using statistical models, structured human judgment or both, and of checking those predictions against what actually happens." .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forecasting" .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/the-robust-beauty-of-improper-linear-models> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/strategic-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/grove-2000-clinical-versus-mechanical-prediction-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/makridakis-2018-m4-competition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/forecasting.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/j-scott-armstrong> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/statistics> .
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2000/01/rdf-schema#label> "Formal fallacy" .
@@ -17003,6 +17039,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fast-and-frugal-heuristics/s6> <https://schema.org/url> <https://pure.mpg.de/pubman/item/item_2098985_1/component/file_2098984/HB_Towards_2011.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s1> <http://purl.org/dc/terms/publisher> "Journal of Business Research 68(8), 1717-1731 (Armstrong, Green & Graefe, 2015), Wharton School, University of Pennsylvania" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s1> <http://purl.org/dc/terms/title> "Golden Rule of Forecasting: Be Conservative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s1> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2016/10/Golden-Rule-of-Forcasting_Be-Conservative_2.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s2> <http://purl.org/dc/terms/publisher> "Rob J Hyndman & George Athanasopoulos, OTexts (2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s2> <http://purl.org/dc/terms/title> "Forecasting: Principles and Practice (2nd ed.), section 1.2: Forecasting, planning and goals" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s2> <https://schema.org/url> <https://otexts.com/fpp2/planning.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s3> <http://purl.org/dc/terms/publisher> "International Journal of Forecasting 34(4), 802-808 (Makridakis, Spiliotis & Assimakopoulos, 2018), University of Nicosia research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s3> <http://purl.org/dc/terms/title> "The M4 Competition: Results, findings, conclusion and way forward" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s3> <https://schema.org/url> <https://pure.unic.ac.cy/en/publications/the-m4-competition-results-findings-conclusion-and-way-forward/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s4> <http://purl.org/dc/terms/publisher> "Psychological Assessment 12(1), 19-30 (Grove, Zald, Lebow, Snitz & Nelson, 2000), University of Minnesota Experts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s4> <http://purl.org/dc/terms/title> "Clinical versus mechanical prediction: A meta-analysis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s4> <https://schema.org/url> <https://experts.umn.edu/en/publications/clinical-versus-mechanical-prediction-a-meta-analysis/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s5> <http://purl.org/dc/terms/publisher> "Current Directions in Psychological Science 23(4), 290-295 (Tetlock, Mellers, Rohrbaugh & Chen, 2014), Wharton School, University of Pennsylvania" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s5> <http://purl.org/dc/terms/title> "Forecasting Tournaments: Tools for Increasing Transparency and Improving the Quality of Debate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/forecasting/s5> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---forecasting-tournaments-tools-for-increasing-transparency-and-improving-debate.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s1> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica (Rescher & Schagrin)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/formal-fallacy/s1> <http://purl.org/dc/terms/title> "Fallacy" .

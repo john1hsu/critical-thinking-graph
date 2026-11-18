@@ -104,7 +104,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 101 more.
+…and 102 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -143,6 +143,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:explanation` | cto:Concept |
 | `ct:fallacy-of-composition` | cto:InformalFallacy |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
+| `ct:forecasting` | cto:Field |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:formal-modeling` | cto:Method |
 | `ct:grade-approach` | cto:Framework |
@@ -150,9 +151,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
-| `ct:improper-transposition` | cto:FormalFallacy |
 
-…and 44 more.
+…and 45 more.
 
 ## Orphan articles (gap)
 
