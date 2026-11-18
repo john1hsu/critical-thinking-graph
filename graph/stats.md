@@ -1,10 +1,10 @@
 # Graph statistics
 
-- Articles (nodes written): **365**
-- Frontier nodes (referenced, unwritten): **868**
-- Asserted edges: **5084** (typed + evidenced: **1834**)
-- Asserted triples: **25015**; inferred by OWL-RL: **8092**
-- Citations: **1818**
+- Articles (nodes written): **366**
+- Frontier nodes (referenced, unwritten): **869**
+- Asserted edges: **5095** (typed + evidenced: **1839**)
+- Asserted triples: **25080**; inferred by OWL-RL: **8106**
+- Citations: **1824**
 - Critical questions: **234**; argument maps: **67**
 - Weakly connected components: **1**
 - Communities (Louvain): **8**; max k-core: **9**
@@ -15,32 +15,32 @@ PageRank = authority; betweenness = bridges between areas.
 
 | Node | PageRank | Betweenness | Written |
 |---|---|---|---|
-| `ct:validity` | 0.0093 | 0.0330 | yes |
-| `ct:argument` | 0.0086 | 0.0686 | yes |
-| `ct:deductive-reasoning` | 0.0082 | 0.0240 | yes |
-| `ct:aristotle` | 0.0070 | 0.0175 | yes |
-| `ct:judgment-and-decision-making` | 0.0067 | 0.0970 | yes |
-| `ct:method-of-counterexample` | 0.0059 | 0.0309 | yes |
-| `ct:cognitive-psychology` | 0.0054 | 0.0592 | yes |
-| `ct:argumentation-theory` | 0.0049 | 0.0179 | yes |
-| `ct:heuristics-and-biases-program` | 0.0049 | 0.0107 | yes |
-| `ct:modus-ponens` | 0.0045 | 0.0068 | yes |
+| `ct:validity` | 0.0093 | 0.0329 | yes |
+| `ct:argument` | 0.0085 | 0.0685 | yes |
+| `ct:deductive-reasoning` | 0.0082 | 0.0239 | yes |
+| `ct:aristotle` | 0.0070 | 0.0174 | yes |
+| `ct:judgment-and-decision-making` | 0.0067 | 0.0967 | yes |
+| `ct:method-of-counterexample` | 0.0059 | 0.0308 | yes |
+| `ct:cognitive-psychology` | 0.0054 | 0.0591 | yes |
+| `ct:argumentation-theory` | 0.0048 | 0.0178 | yes |
+| `ct:heuristics-and-biases-program` | 0.0048 | 0.0106 | yes |
 | `ct:inductive-reasoning` | 0.0045 | 0.0262 | yes |
+| `ct:modus-ponens` | 0.0045 | 0.0067 | yes |
 | `ct:affirming-the-consequent` | 0.0045 | 0.0031 | yes |
-| `ct:informal-fallacy` | 0.0044 | 0.0521 | yes |
-| `ct:syllogism` | 0.0041 | 0.0141 | yes |
-| `ct:daniel-kahneman` | 0.0036 | 0.0085 | yes |
+| `ct:informal-fallacy` | 0.0044 | 0.0518 | yes |
+| `ct:syllogism` | 0.0041 | 0.0140 | yes |
+| `ct:daniel-kahneman` | 0.0036 | 0.0084 | yes |
 
 ## Communities
 
-1. `ct:a-behavioral-model-of-rational-choice`, `ct:abraham-de-moivre`, `ct:abraham-wald`, `ct:affect-heuristic`, `ct:affective-forecasting`, `ct:agnoli-krantz-1989-conjunction-training-study`, `ct:alaybek-2022-peak-end-meta-analysis`, `ct:algorithm`, `ct:allais-paradox`, `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:anchoring-effect` …
-2. `ct:abstract-argumentation-frameworks`, `ct:ad-baculum`, `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:alan-turing`, `ct:ambiguity`, `ct:amphiboly`, `ct:analogical-reasoning`, `ct:andrew-aberdein`, `ct:antony-flew`, `ct:appeal-to-consequences`, `ct:argument` …
-3. `ct:a-system-of-logic`, `ct:a-treatise-of-human-nature`, `ct:ad-hoc-hypothesis`, `ct:against-method`, `ct:akaike-information-criterion`, `ct:amrhein-2019-retire-statistical-significance`, `ct:an-introduction-to-the-theory-of-statistics`, `ct:archie-cochrane`, `ct:argument-from-correlation-to-cause`, `ct:associational-inference`, `ct:austin-bradford-hill`, `ct:bad-lot-objection` …
-4. `ct:a-counterexample-to-modus-ponens`, `ct:a-counterexample-to-modus-tollens`, `ct:affirmative-conclusion-from-a-negative-premise`, `ct:affirming-a-disjunct`, `ct:affirming-the-consequent`, `ct:alfred-tarski`, `ct:ambiguous-middle-term`, `ct:antilogism`, `ct:antoine-arnauld`, `ct:argument-from-fallacy`, `ct:aristotle`, `ct:arnold-zwicky` …
-5. `ct:accessibility`, `ct:actively-open-minded-thinking`, `ct:actor-observer-asymmetry`, `ct:analysis-of-competing-hypotheses`, `ct:argumentative-theory-of-reasoning`, `ct:artner-girven-bruce-2016-rand-sat-assessment`, `ct:authentic-dissent`, `ct:bahnik-strack-2016-information-overlap-studies`, `ct:bandwagon-effect`, `ct:baron-jost-2019-false-equivalence-critique`, `ct:belief-bias`, `ct:belief-perseverance` …
+1. `ct:a-behavioral-model-of-rational-choice`, `ct:abraham-wald`, `ct:actor-observer-asymmetry`, `ct:affect-heuristic`, `ct:affective-forecasting`, `ct:agnoli-krantz-1989-conjunction-training-study`, `ct:alaybek-2022-peak-end-meta-analysis`, `ct:algorithm`, `ct:allais-paradox`, `ct:amos-tversky`, `ct:anchoring-and-adjustment-heuristic`, `ct:anchoring-effect` …
+2. `ct:a-counterexample-to-modus-ponens`, `ct:a-counterexample-to-modus-tollens`, `ct:affirmative-conclusion-from-a-negative-premise`, `ct:affirming-a-disjunct`, `ct:affirming-the-consequent`, `ct:alfred-tarski`, `ct:ambiguous-middle-term`, `ct:antilogism`, `ct:antoine-arnauld`, `ct:aristotle`, `ct:arnold-zwicky`, `ct:augustus-de-morgan` …
+3. `ct:abstract-argumentation-frameworks`, `ct:ad-baculum`, `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:alan-turing`, `ct:ambiguity`, `ct:amphiboly`, `ct:analogical-reasoning`, `ct:andrew-aberdein`, `ct:anecdotal-bias`, `ct:antony-flew`, `ct:appeal-to-consequences` …
+4. `ct:accessibility`, `ct:actively-open-minded-thinking`, `ct:analysis-of-competing-hypotheses`, `ct:argumentative-theory-of-reasoning`, `ct:artner-girven-bruce-2016-rand-sat-assessment`, `ct:authentic-dissent`, `ct:bahnik-strack-2016-information-overlap-studies`, `ct:bandwagon-effect`, `ct:baron-jost-2019-false-equivalence-critique`, `ct:belief-perseverance`, `ct:bias-blind-spot`, `ct:biased-assimilation` …
+5. `ct:ad-hoc-hypothesis`, `ct:against-method`, `ct:akaike-information-criterion`, `ct:archie-cochrane`, `ct:bad-lot-objection`, `ct:behaviorism`, `ct:bias-variance-tradeoff`, `ct:bruce-2016-peer-review-interventions-meta-analysis`, `ct:button-2013-power-failure-analysis`, `ct:carl-gustav-hempel`, `ct:chan-2004-selective-outcome-reporting-study`, `ct:cherry-picking` …
 6. `ct:accuracy-prompts`, `ct:altay-2023-misinformation-on-misinformation`, `ct:alvin-goldman`, `ct:aspen-media-literacy-conference-report`, `ct:barthold-georg-niebuhr`, `ct:batailler-2022-fake-news-signal-detection-reanalysis`, `ct:brandolinis-law`, `ct:brashier-eliseev-marsh-2020-accuracy-focus-study`, `ct:breakstone-2021-online-course-lateral-reading-study`, `ct:brodsky-2021-civics-course-fact-checking-study`, `ct:bullshit-receptivity`, `ct:cain-loewenstein-moore-2005-coin-jar-experiment` …
-7. `ct:abrami-2015-critical-thinking-instruction-meta-analysis`, `ct:behaviorism`, `ct:benjamin-bloom`, `ct:black-wiliam-1998-assessment-and-classroom-learning`, `ct:blooms-taxonomy`, `ct:california-critical-thinking-disposition-inventory`, `ct:california-critical-thinking-skills-test`, `ct:clinical-diagnostic-reasoning`, `ct:cognition`, `ct:cognitive-ability`, `ct:cognitive-psychology`, `ct:cognitive-science` …
-8. `ct:agnoiology`, `ct:anaxarchus`, `ct:classical-infallibilism`, `ct:david-hume`, `ct:democritus`, `ct:developmental-psychology`, `ct:dogmatism`, `ct:edmund-gettier`, `ct:epistemic-regress-problem`, `ct:epistemology`, `ct:evidentialism`, `ct:experimental-philosophy` …
+7. `ct:a-system-of-logic`, `ct:abraham-de-moivre`, `ct:amrhein-2019-retire-statistical-significance`, `ct:an-introduction-to-the-theory-of-statistics`, `ct:andrey-kolmogorov`, `ct:argument-from-correlation-to-cause`, `ct:associational-inference`, `ct:austin-bradford-hill`, `ct:bayesian-reasoning`, `ct:bergman-moore-1991-mistrial-by-likelihood-ratio`, `ct:berksons-paradox`, `ct:berlin-numeracy-test` …
+8. `ct:a-treatise-of-human-nature`, `ct:abrami-2015-critical-thinking-instruction-meta-analysis`, `ct:agnoiology`, `ct:anaxarchus`, `ct:benjamin-bloom`, `ct:black-wiliam-1998-assessment-and-classroom-learning`, `ct:blooms-taxonomy`, `ct:california-critical-thinking-disposition-inventory`, `ct:california-critical-thinking-skills-test`, `ct:classical-infallibilism`, `ct:cognitive-ability`, `ct:critical-thinking` …
 
 ## By type
 
@@ -54,7 +54,7 @@ PageRank = authority; betweenness = bridges between areas.
 - Heuristic: 8
 - InformalFallacy: 21
 - Method: 20
-- Person: 43
+- Person: 44
 - Phenomenon: 16
 - Principle: 9
 - ProbabilisticFallacy: 6
@@ -75,7 +75,7 @@ PageRank = authority; betweenness = bridges between areas.
 - formal-logic: 30
 - foundations: 22
 - heuristics-and-dual-process: 24
-- history-and-thinkers: 57
+- history-and-thinkers: 58
 - informal-fallacies: 21
 - philosophy-of-reasoning: 25
 - probabilistic-reasoning: 23
@@ -84,13 +84,13 @@ PageRank = authority; betweenness = bridges between areas.
 ## By level
 
 - advanced: 1
-- intermediate: 152
+- intermediate: 153
 - introductory: 212
 
 ## By evidence status
 
 - contested: 31
-- historical: 67
+- historical: 68
 - mixed: 76
 - normative: 165
 - robust: 26
@@ -110,4 +110,4 @@ PageRank = authority; betweenness = bridges between areas.
 - philosophy-of-reasoning: 25
 - scientific-reasoning: 27
 - formal-logic: 30
-- history-and-thinkers: 57
+- history-and-thinkers: 58

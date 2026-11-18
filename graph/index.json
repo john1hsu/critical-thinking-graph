@@ -17734,6 +17734,86 @@
   ]
  },
  {
+  "id": "ct:karl-pearson",
+  "title": "Karl Pearson",
+  "aliases": [
+   "Carl Pearson",
+   "K. Pearson"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/karl-pearson.md",
+  "created": "2026-11-18",
+  "summary": "English mathematician (1857-1936) and a founder of modern mathematical statistics. At University College London he developed correlation methods and the chi-squared test (1900), named contingency and the contingency table (1904), co-founded Biometrika, and argued in The Grammar of Science that science describes regularities rather than explaining causes. He was also a leading advocate of eugenics.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:contingency-table"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:george-udny-yule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:causal-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-science"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:contingency-table",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:chi-squared-test",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:the-grammar-of-science",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:francis-galton",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:ronald-fisher",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://mathshistory.st-andrews.ac.uk/Biographies/Pearson/",
+   "https://ia800207.us.archive.org/16/items/cu31924003064833/cu31924003064833.pdf",
+   "https://arxiv.org/pdf/0808.4032",
+   "https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/pearsons-wrong-turning-against-statistical-measures-of-causal-efficacy/F3878AA09495AFFDE6CBAA2347D9868B",
+   "https://www.britannica.com/print/article/448102",
+   "https://blog.soton.ac.uk/karlpearson/biographical-sketch/"
+  ]
+ },
+ {
   "id": "ct:karl-popper",
   "title": "Karl Popper",
   "aliases": [

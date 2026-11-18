@@ -16499,6 +16499,85 @@
    ]
   },
   {
+   "@id": "ct:karl-pearson",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:the-grammar-of-science"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:ronald-fisher"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/karl-pearson.md",
+   "cto:influencedBy": {
+    "@id": "ct:francis-galton"
+   },
+   "cto:introduced": [
+    {
+     "@id": "ct:chi-squared-test"
+    },
+    {
+     "@id": "ct:contingency-table"
+    }
+   ],
+   "cto:level": "intermediate",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s6"
+    }
+   ],
+   "rdfs:label": "Karl Pearson",
+   "skos:altLabel": [
+    "Carl Pearson",
+    "K. Pearson"
+   ],
+   "skos:definition": "English mathematician (1857-1936) and a founder of modern mathematical statistics. At University College London he developed correlation methods and the chi-squared test (1900), named contingency and the contingency table (1904), co-founded Biometrika, and argued in The Grammar of Science that science describes regularities rather than explaining causes. He was also a leading advocate of eugenics.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Karl Pearson",
+   "skos:related": [
+    {
+     "@id": "ct:causal-inference"
+    },
+    {
+     "@id": "ct:contingency-table"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:george-udny-yule"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    },
+    {
+     "@id": "ct:statistical-reasoning"
+    }
+   ]
+  },
+  {
    "@id": "ct:karl-popper",
    "@type": "cto:Person",
    "cto:challengedBy": [
@@ -50767,6 +50846,90 @@
    "dcterms:title": "Is Justified True Belief Knowledge?",
    "schema:url": {
     "@id": "https://courses.grainger.illinois.edu/PHYS419/sp2021/Gettier.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "MacTutor History of Mathematics, University of St Andrews (J. J. O'Connor and E. F. Robertson, 2003)",
+   "dcterms:title": "Karl Pearson",
+   "schema:url": {
+    "@id": "https://mathshistory.st-andrews.ac.uk/Biographies/Pearson/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Drapers' Company Research Memoirs, Biometric Series I (Karl Pearson, Dulau and Co., 1904), scan on Internet Archive",
+   "dcterms:title": "Mathematical Contributions to the Theory of Evolution. XIII. On the Theory of Contingency and its Relation to Association and Normal Correlation",
+   "schema:url": {
+    "@id": "https://ia800207.us.archive.org/16/items/cu31924003064833/cu31924003064833.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Statistical Science 23(2), 261-271 (Stephen M. Stigler, 2008), author's copy on arXiv",
+   "dcterms:title": "Karl Pearson's Theoretical Errors and the Advances They Inspired",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/0808.4032"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Philosophy of Science 72(5), 900-912 (Robert Northcott, 2005), Cambridge University Press",
+   "dcterms:title": "Pearson's Wrong Turning: Against Statistical Measures of Causal Efficacy",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/pearsons-wrong-turning-against-statistical-measures-of-causal-efficacy/F3878AA09495AFFDE6CBAA2347D9868B"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Karl Pearson",
+   "schema:url": {
+    "@id": "https://www.britannica.com/print/article/448102"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "University of Southampton",
+   "dcterms:title": "Karl Pearson: A Reader's Guide - Biographical sketch",
+   "schema:url": {
+    "@id": "https://blog.soton.ac.uk/karlpearson/biographical-sketch/"
    }
   },
   {

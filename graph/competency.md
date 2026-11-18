@@ -126,7 +126,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:calibration-training` | cto:Technique |
 | `ct:causal-inference` | cto:Field |
 | `ct:conditional-reasoning-training` | cto:Technique |
-| `ct:contingency-table` | cto:Technique |
 | `ct:correlation-versus-causation` | cto:Principle |
 | `ct:decision-theory` | cto:Field |
 | `ct:deepfake` | cto:Phenomenon |
@@ -149,8 +148,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
+| `ct:illicit-minor` | cto:FormalFallacy |
 
-…and 46 more.
+…and 45 more.
 
 ## Orphan articles (gap)
 

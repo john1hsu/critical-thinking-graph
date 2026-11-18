@@ -7744,6 +7744,35 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
 <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2000/01/rdf-schema#label> "Karl Pearson" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#altLabel> "Carl Pearson" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#altLabel> "K. Pearson" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#definition> "English mathematician (1857-1936) and a founder of modern mathematical statistics. At University College London he developed correlation methods and the chi-squared test (1900), named contingency and the contingency table (1904), co-founded Biometrika, and argued in The Grammar of Science that science describes regularities rather than explaining causes. He was also a leading advocate of eugenics." .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#prefLabel> "Karl Pearson" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/the-grammar-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ronald-fisher> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/karl-pearson.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/francis-galton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/chi-squared-test> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> .
+<https://github.com/john1hsu/critical-thinking-graph/id/karl-pearson> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/karl-popper> <http://www.w3.org/2000/01/rdf-schema#label> "Karl Popper" .
@@ -18010,6 +18039,42 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/justified-true-belief/s4> <https://schema.org/url> <https://courses.grainger.illinois.edu/PHYS419/sp2021/Gettier.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s1> <http://purl.org/dc/terms/publisher> "MacTutor History of Mathematics, University of St Andrews (J. J. O'Connor and E. F. Robertson, 2003)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s1> <http://purl.org/dc/terms/title> "Karl Pearson" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s1> <https://schema.org/url> <https://mathshistory.st-andrews.ac.uk/Biographies/Pearson/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s2> <http://purl.org/dc/terms/publisher> "Drapers' Company Research Memoirs, Biometric Series I (Karl Pearson, Dulau and Co., 1904), scan on Internet Archive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s2> <http://purl.org/dc/terms/title> "Mathematical Contributions to the Theory of Evolution. XIII. On the Theory of Contingency and its Relation to Association and Normal Correlation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s2> <https://schema.org/url> <https://ia800207.us.archive.org/16/items/cu31924003064833/cu31924003064833.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s3> <http://purl.org/dc/terms/publisher> "Statistical Science 23(2), 261-271 (Stephen M. Stigler, 2008), author's copy on arXiv" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s3> <http://purl.org/dc/terms/title> "Karl Pearson's Theoretical Errors and the Advances They Inspired" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s3> <https://schema.org/url> <https://arxiv.org/pdf/0808.4032> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s4> <http://purl.org/dc/terms/publisher> "Philosophy of Science 72(5), 900-912 (Robert Northcott, 2005), Cambridge University Press" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s4> <http://purl.org/dc/terms/title> "Pearson's Wrong Turning: Against Statistical Measures of Causal Efficacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s4> <https://schema.org/url> <https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/pearsons-wrong-turning-against-statistical-measures-of-causal-efficacy/F3878AA09495AFFDE6CBAA2347D9868B> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s5> <http://purl.org/dc/terms/title> "Karl Pearson" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s5> <https://schema.org/url> <https://www.britannica.com/print/article/448102> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s6> <http://purl.org/dc/terms/publisher> "University of Southampton" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s6> <http://purl.org/dc/terms/title> "Karl Pearson: A Reader's Guide - Biographical sketch" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/karl-pearson/s6> <https://schema.org/url> <https://blog.soton.ac.uk/karlpearson/biographical-sketch/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Thornton, rev. 2022)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/karl-popper/s1> <http://purl.org/dc/terms/title> "Karl Popper (Fall 2024 archive edition)" .
