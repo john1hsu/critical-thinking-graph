@@ -2610,6 +2610,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/probabilistic-reasoning/condorcet-jury-theorem.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/probabilistic-reasoning/conjunction-fallacy.md" .
@@ -26380,6 +26387,64 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/conditional-probability/s5> <https://schema.org/url> <https://eprints.kingston.ac.uk/6308> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2000/01/rdf-schema#label> "Condorcet jury theorem" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#altLabel> "CJT" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#altLabel> "Condorcet's jury theorem" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#altLabel> "jury theorem" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#definition> "The result that if each member of a group is more likely than not to be right on a yes-or-no question, and their judgments are independent, then the chance that the majority is right grows with group size and tends toward certainty. Its premises double as a test of when popularity is evidence and when it is not." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#prefLabel> "Condorcet jury theorem" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/kenneth-arrow> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemic-democracy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/condorcet-jury-theorem.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/marquis-de-condorcet> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/social-epistemology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Kai Spiekermann, first published 2021)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1> <http://purl.org/dc/terms/title> "Jury Theorems" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/jury-theorems/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 39(2), 147-167 (Don Dedrick, 2019), PhilArchive record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2> <http://purl.org/dc/terms/title> "Is an Appeal to Popularity a Fallacy of Popularity?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2> <https://schema.org/url> <https://dc2.philarchive.org/rec/DEDIAA-4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3> <http://purl.org/dc/terms/publisher> "Mind 122(487), 655-685 (Franz Dietrich & Kai Spiekermann, 2013), PhilArchive author copy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3> <http://purl.org/dc/terms/title> "Independent Opinions? On the Causal Foundations of Belief Formation and Jury Theorems" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3> <https://schema.org/url> <https://philarchive.org/archive/DIEIO> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4> <http://purl.org/dc/terms/publisher> "Franz Dietrich & Kai Spiekermann, Munich Personal RePEc Archive, 2012 working paper" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4> <http://purl.org/dc/terms/title> "Epistemic Democracy with Defensible Premises (MPRA Paper No. 40135)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "preprint" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4> <https://schema.org/url> <https://core.ac.uk/download/213937818.pdf> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conjunction-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the detailed version of the claim really more likely than the shorter claim it contains?" .
@@ -29596,6 +29661,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -29936,6 +30003,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-analogy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-consequences> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-schemes> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conflict-of-interest> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
@@ -30410,6 +30478,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bandwagon-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#exploitedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> .
   <https://github.com/john1hsu/critical-thinking-graph/id/barnes-2018-ad-hominem-attacks-on-scientists-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -31320,6 +31389,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lemperts-modeling-relevance> .
@@ -31335,6 +31405,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/calibration-training> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
@@ -31371,6 +31442,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-statement> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-statement> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/material-conditional> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-statement> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/necessary-and-sufficient-conditions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
@@ -33092,6 +33167,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentative-theory-of-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
@@ -34084,6 +34160,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/katie-atkinson> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/value-based-practical-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/keith-stanovich> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/jonathan-st-b-t-evans> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kenneth-arrow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/kenneth-arrow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/keren-schul-2009-two-system-critique> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/dual-process-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -34422,6 +34499,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/mark-lepper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mark-lepper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mark-lepper> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/marquis-de-condorcet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/marquis-de-condorcet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/marquis-de-condorcet> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -34457,6 +34537,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/material-conditional> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/matthew-rabin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -35588,8 +35669,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mathematics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
@@ -36621,6 +36704,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/social-choice-and-individual-values> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/kenneth-arrow> .
   <https://github.com/john1hsu/critical-thinking-graph/id/social-contingency-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> .
   <https://github.com/john1hsu/critical-thinking-graph/id/social-contract-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/wason-selection-task> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/social-epistemology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/social-epistemology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/social-epistemology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
   <https://github.com/john1hsu/critical-thinking-graph/id/social-identity-maintenance-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
   <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -37692,7 +37778,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/words-of-estimative-probability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/vagueness> .

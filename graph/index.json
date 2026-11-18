@@ -6954,6 +6954,97 @@
   ]
  },
  {
+  "id": "ct:condorcet-jury-theorem",
+  "title": "Condorcet jury theorem",
+  "aliases": [
+   "Condorcet's jury theorem",
+   "CJT",
+   "jury theorem"
+  ],
+  "type": "Principle",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/condorcet-jury-theorem.md",
+  "created": "2026-11-18",
+  "summary": "The result that if each member of a group is more likely than not to be right on a yes-or-no question, and their judgments are independent, then the chance that the majority is right grows with group size and tends toward certainty. Its premises double as a test of when popularity is evidence and when it is not.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-populum"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bandwagon-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:kenneth-arrow"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:ad-populum",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:marquis-de-condorcet",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explains",
+    "object": "ct:wisdom-of-crowds",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:epistemic-democracy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-epistemology",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/jury-theorems/",
+   "https://dc2.philarchive.org/rec/DEDIAA-4",
+   "https://philarchive.org/archive/DIEIO",
+   "https://core.ac.uk/download/213937818.pdf"
+  ]
+ },
+ {
   "id": "ct:conductive-argument",
   "title": "Conductive argument",
   "aliases": [

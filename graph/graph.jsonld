@@ -6502,6 +6502,87 @@
    ]
   },
   {
+   "@id": "ct:condorcet-jury-theorem",
+   "@type": "cto:Principle",
+   "cto:appliedIn": {
+    "@id": "ct:epistemic-democracy"
+   },
+   "cto:detects": {
+    "@id": "ct:ad-populum"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:explains": {
+    "@id": "ct:wisdom-of-crowds"
+   },
+   "cto:file": "articles/probabilistic-reasoning/condorcet-jury-theorem.md",
+   "cto:introducedBy": {
+    "@id": "ct:marquis-de-condorcet"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:social-epistemology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4"
+    }
+   ],
+   "rdfs:label": "Condorcet jury theorem",
+   "skos:altLabel": [
+    "CJT",
+    "Condorcet's jury theorem",
+    "jury theorem"
+   ],
+   "skos:broader": {
+    "@id": "ct:probability-theory"
+   },
+   "skos:definition": "The result that if each member of a group is more likely than not to be right on a yes-or-no question, and their judgments are independent, then the chance that the majority is right grows with group size and tends toward certainty. Its premises double as a test of when popularity is evidence and when it is not.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Condorcet jury theorem",
+   "skos:related": [
+    {
+     "@id": "ct:ad-populum"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:bandwagon-effect"
+    },
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:kenneth-arrow"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:conductive-argument",
    "@type": "cto:ReasoningMode",
    "cto:appliedIn": {
@@ -43523,6 +43604,62 @@
    "dcterms:title": "Implication (CS205 Discrete Structures lecture slides)",
    "schema:url": {
     "@id": "https://people.cs.rutgers.edu/~elgammal/classes/cs205/implication.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Kai Spiekermann, first published 2021)",
+   "dcterms:title": "Jury Theorems",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/jury-theorems/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Informal Logic 39(2), 147-167 (Don Dedrick, 2019), PhilArchive record",
+   "dcterms:title": "Is an Appeal to Popularity a Fallacy of Popularity?",
+   "schema:url": {
+    "@id": "https://dc2.philarchive.org/rec/DEDIAA-4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Mind 122(487), 655-685 (Franz Dietrich & Kai Spiekermann, 2013), PhilArchive author copy",
+   "dcterms:title": "Independent Opinions? On the Causal Foundations of Belief Formation and Jury Theorems",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/DIEIO"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/condorcet-jury-theorem/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Franz Dietrich & Kai Spiekermann, Munich Personal RePEc Archive, 2012 working paper",
+   "dcterms:title": "Epistemic Democracy with Defensible Premises (MPRA Paper No. 40135)",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/213937818.pdf"
    }
   },
   {
