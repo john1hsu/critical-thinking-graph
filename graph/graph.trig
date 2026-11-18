@@ -859,6 +859,14 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/prebunking#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/evidence-and-information-literacy/predatory-publishing.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
 <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/evidence-and-information-literacy/primary-and-secondary-sources.md" .
@@ -10176,6 +10184,70 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/prebunking/s6> <https://schema.org/url> <https://eprints.soton.ac.uk/475360/2/2023_JEPG_Accepted_Manuscript.pdf> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2000/01/rdf-schema#label> "Predatory publishing" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#altLabel> "predatory journals" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#altLabel> "predatory open access" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#altLabel> "predatory publishers" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#altLabel> "pseudo-journals" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/scholarly-communication> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#definition> "The practice of journals and publishers that put their own revenue ahead of scholarship, using false or misleading claims, opaque fees, sham editorial standards and aggressive solicitation, so that papers enter the scholarly record looking peer reviewed without having been meaningfully vetted." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Predatory publishing" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sorokowski-2017-fake-editor-sting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/predatory-publishing.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/jeffrey-beall> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1> <http://purl.org/dc/terms/publisher> "Nature (Grudniewicz et al., 2019)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1> <http://purl.org/dc/terms/title> "Predatory journals: no definition, no defence" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1> <https://schema.org/url> <https://media.nature.com/original/magazine-assets/d41586-019-03759-y/d41586-019-03759-y.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2> <http://purl.org/dc/terms/publisher> "F1000Research 7:1001 (Cobey et al., 2018), University of Ottawa Research repository" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2> <http://purl.org/dc/terms/title> "What is a predatory journal? A scoping review" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2> <https://schema.org/url> <https://ruor.uottawa.ca/bitstreams/62e53f47-55ec-40b0-b030-8292412d732a/download> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3> <http://purl.org/dc/terms/publisher> "Nature (Sorokowski et al., 2017), author copy hosted by the University of Warwick" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3> <http://purl.org/dc/terms/title> "Predatory journals recruit fake editor" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3> <https://schema.org/url> <https://warwick.ac.uk/fac/sci/lifesci/research/der/workshop/sorokowski_et_al._2017.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4> <http://purl.org/dc/terms/publisher> "U.S. Federal Trade Commission, Legal Library" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4> <http://purl.org/dc/terms/title> "FTC v. OMICS Group Inc. (case page)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4> <https://schema.org/url> <https://www.ftc.gov/node/31719> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5> <http://purl.org/dc/terms/publisher> "University of Melbourne Library, Researcher Library blog" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5> <http://purl.org/dc/terms/title> "Think.Check.Submit – a checklist for choosing trusted journals" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5> <https://schema.org/url> <https://blogs.unimelb.edu.au/researcher-library/?p=1355> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources#graph> {
@@ -29537,6 +29609,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/evaluating-expert-testimony> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-expert-opinion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/evaluating-expert-testimony> .
@@ -30075,6 +30148,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/presumption> .
@@ -31852,6 +31926,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/posterior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/preregistration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
@@ -33199,6 +33274,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
@@ -33549,6 +33625,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
@@ -33787,6 +33864,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/james-w-carey> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jansen-rafferty-griffiths-2021-rational-model-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/dunning-kruger-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jefferson-2007-editorial-peer-review-cochrane-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/jeffrey-beall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/jeffrey-beall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/jeffrey-beall> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jenkins-ward-1965-contingency-judgment-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jeong-2012-media-literacy-interventions-meta-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jeong-2012-media-literacy-interventions-meta-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
@@ -34067,6 +34147,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/law-of-excluded-middle> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/obversion> .
@@ -34530,6 +34611,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> .
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> .
@@ -34992,6 +35074,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scholarly-communication> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
@@ -35340,6 +35425,13 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/plain-language> .
   <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rule-against-conventionalist-stratagems> .
   <https://github.com/john1hsu/critical-thinking-graph/id/precising-definition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scholarly-communication> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/topics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -36293,7 +36385,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/schmid-betsch-2019-rebutting-science-denialism> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> .
   <https://github.com/john1hsu/critical-thinking-graph/id/schmucker-2014-non-publication-cohort-review> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scholarly-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/scholarly-communication> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scholarly-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/scholarly-communication> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/schroter-2008-reviewer-error-detection-trial> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
   <https://github.com/john1hsu/critical-thinking-graph/id/schwarz-1991-assertiveness-recall-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/schwarz-1991-assertiveness-recall-experiments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
@@ -36407,6 +36501,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/the-logic-of-scientific-discovery> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasPart> <https://github.com/john1hsu/critical-thinking-graph/id/hypothesis-testing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/scope-neglect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/attribute-substitution> .
   <https://github.com/john1hsu/critical-thinking-graph/id/seda-2025-hindsight-bias-replication> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
@@ -36579,6 +36674,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/zeno-of-elea> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/sorites-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sorokowski-2017-fake-editor-sting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sorokowski-2017-fake-editor-sting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/sorokowski-2017-fake-editor-sting> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness-theorem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness-theorem> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/soundness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -36612,6 +36710,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/leopold-von-ranke> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/william-j-mcguire> .
@@ -36642,6 +36741,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/peer-review> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predatory-publishing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source-monitoring-framework> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .

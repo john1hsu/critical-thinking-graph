@@ -24639,6 +24639,87 @@
   ]
  },
  {
+  "id": "ct:predatory-publishing",
+  "title": "Predatory publishing",
+  "aliases": [
+   "predatory journals",
+   "predatory publishers",
+   "predatory open access",
+   "pseudo-journals"
+  ],
+  "type": "Phenomenon",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/evidence-and-information-literacy/predatory-publishing.md",
+  "created": "2026-11-18",
+  "summary": "The practice of journals and publishers that put their own revenue ahead of scholarship, using false or misleading claims, opaque fees, sham editorial standards and aggressive solicitation, so that papers enter the scholarly record looking peer reviewed without having been meaningfully vetted.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:scholarly-communication"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:peer-review"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:lateral-reading"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-verecundiam"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hierarchy-of-evidence"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:peer-review"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:jeffrey-beall",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:sorokowski-2017-fake-editor-sting",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:peer-review",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://media.nature.com/original/magazine-assets/d41586-019-03759-y/d41586-019-03759-y.pdf",
+   "https://ruor.uottawa.ca/bitstreams/62e53f47-55ec-40b0-b030-8292412d732a/download",
+   "https://warwick.ac.uk/fac/sci/lifesci/research/der/workshop/sorokowski_et_al._2017.pdf",
+   "https://www.ftc.gov/node/31719",
+   "https://blogs.unimelb.edu.au/researcher-library/?p=1355"
+  ]
+ },
+ {
   "id": "ct:predicate-logic",
   "title": "Predicate logic",
   "aliases": [

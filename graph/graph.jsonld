@@ -23004,6 +23004,85 @@
    ]
   },
   {
+   "@id": "ct:predatory-publishing",
+   "@type": "cto:Phenomenon",
+   "cto:contrastsWith": {
+    "@id": "ct:peer-review"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:sorokowski-2017-fake-editor-sting"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/evidence-and-information-literacy/predatory-publishing.md",
+   "cto:introducedBy": {
+    "@id": "ct:jeffrey-beall"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:peer-review"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5"
+    }
+   ],
+   "rdfs:label": "Predatory publishing",
+   "skos:altLabel": [
+    "predatory journals",
+    "predatory open access",
+    "predatory publishers",
+    "pseudo-journals"
+   ],
+   "skos:broader": {
+    "@id": "ct:scholarly-communication"
+   },
+   "skos:definition": "The practice of journals and publishers that put their own revenue ahead of scholarship, using false or misleading claims, opaque fees, sham editorial standards and aggressive solicitation, so that papers enter the scholarly record looking peer reviewed without having been meaningfully vetted.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Predatory publishing",
+   "skos:related": [
+    {
+     "@id": "ct:ad-verecundiam"
+    },
+    {
+     "@id": "ct:hierarchy-of-evidence"
+    },
+    {
+     "@id": "ct:lateral-reading"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    },
+    {
+     "@id": "ct:peer-review"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:source-evaluation"
+    }
+   ]
+  },
+  {
    "@id": "ct:predicate-logic",
    "@type": "cto:Field",
    "cto:contrastsWith": {
@@ -56618,6 +56697,76 @@
    "dcterms:title": "2.6: Defining Terms: Types and Purposes of Definitions",
    "schema:url": {
     "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Critical_Reasoning_and_Writing_(Levin_et_al.)/02%3A_Language_-_Meaning_and_Definition/2.06%3A_Defining_Terms-_Types_and_Purposes_of_Definitions"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Nature (Grudniewicz et al., 2019)",
+   "dcterms:title": "Predatory journals: no definition, no defence",
+   "schema:url": {
+    "@id": "https://media.nature.com/original/magazine-assets/d41586-019-03759-y/d41586-019-03759-y.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "F1000Research 7:1001 (Cobey et al., 2018), University of Ottawa Research repository",
+   "dcterms:title": "What is a predatory journal? A scoping review",
+   "schema:url": {
+    "@id": "https://ruor.uottawa.ca/bitstreams/62e53f47-55ec-40b0-b030-8292412d732a/download"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Nature (Sorokowski et al., 2017), author copy hosted by the University of Warwick",
+   "dcterms:title": "Predatory journals recruit fake editor",
+   "schema:url": {
+    "@id": "https://warwick.ac.uk/fac/sci/lifesci/research/der/workshop/sorokowski_et_al._2017.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "government",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "U.S. Federal Trade Commission, Legal Library",
+   "dcterms:title": "FTC v. OMICS Group Inc. (case page)",
+   "schema:url": {
+    "@id": "https://www.ftc.gov/node/31719"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/predatory-publishing/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "University of Melbourne Library, Researcher Library blog",
+   "dcterms:title": "Think.Check.Submit – a checklist for choosing trusted journals",
+   "schema:url": {
+    "@id": "https://blogs.unimelb.edu.au/researcher-library/?p=1355"
    }
   },
   {
