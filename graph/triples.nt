@@ -8943,6 +8943,78 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-about-thinking> .
 <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "If every premise were true, how much more likely would the conclusion be than it was before you heard them?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "What unstated premise would be needed to connect these reasons to the conclusion, and is that premise plausible?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Can you describe a realistic case in which all the premises are true and the conclusion is false?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does a more specific fallacy (such as undistributed middle or affirming the consequent) describe the gap better than the general label?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is this really an argument, or a bare assertion or demand with no reasons offered at all?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So their platform will keep our customer data secure." .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Marketing polish and quick sales replies say nothing about encryption, access control or breach history; a security review or third-party audit report is what bears on the conclusion." .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "All three vendors could have responsive sales staff and still differ sharply in how they protect data." .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "The new CRM vendor has the most polished website of the three we reviewed." .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Their sales representative answered every email within an hour." .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2000/01/rdf-schema#label> "Non sequitur" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of non sequitur" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#altLabel> "it does not follow" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#definition> "The catch-all fallacy of drawing a conclusion that does not follow from the reasons given: the premises are so weak or so irrelevant that, even if they are true, they give no real support. The label is normally kept for cases that no more specific fallacy name fits." .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#prefLabel> "Non sequitur" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/affirming-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/undistributed-middle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-the-consequent> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/non-argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/non-sequitur.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <http://purl.org/dc/terms/created> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Method> .
 <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> <http://www.w3.org/2000/01/rdf-schema#label> "Null-hypothesis significance testing" .
@@ -18579,6 +18651,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/no-true-scotsman/s4> <https://schema.org/url> <https://fallacyfiles.org/scotsman.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Bradley Dowden)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s1> <https://schema.org/url> <https://iep.utm.edu/fallacy/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hans Hansen)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s2> <http://purl.org/dc/terms/title> "Fallacies (Summer 2019 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s2> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2019/entries/fallacies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s3> <http://purl.org/dc/terms/publisher> "Bradley H. Dowden, California State University Sacramento (Humanities LibreTexts open textbook)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s3> <http://purl.org/dc/terms/title> "8.9: Non Sequitur, in Logical Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s3> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.09%3A_Non_Sequitur> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s4> <http://purl.org/dc/terms/publisher> "Lee C. Archie, Philosophy Department, Lander University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s4> <http://purl.org/dc/terms/title> "Ignoratio Elenchi and Non Sequitur (Introduction to Logic)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s4> <https://schema.org/url> <https://philosophy.lander.edu/logic/ignoratio.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s5> <http://purl.org/dc/terms/title> "Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s5> <https://schema.org/url> <https://www.britannica.com/topic/fallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s1> <http://purl.org/dc/terms/publisher> "Oliver and Boyd (Fisher, 1925), Classics in the History of Psychology, York University" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/null-hypothesis-significance-testing/s1> <http://purl.org/dc/terms/title> "Statistical Methods for Research Workers, Chapter III: Distributions" .

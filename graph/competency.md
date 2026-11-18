@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:non-sequitur` | cto:FormalFallacy |
 | `ct:survivorship-bias` | cto:CognitiveBias |
 
 ## Most useful remedies
@@ -113,6 +114,7 @@ _Which written formal fallacies have no invalidFormOf edge to the valid reasonin
 | fallacy |
 |---|
 | `ct:argument-from-fallacy` |
+| `ct:non-sequitur` |
 
 ## Concepts with no recorded origin (gap)
 
@@ -151,7 +153,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:grade-approach` | cto:Framework |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 
-…and 47 more.
+…and 48 more.
 
 ## Orphan articles (gap)
 

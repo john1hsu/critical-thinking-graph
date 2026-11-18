@@ -583,6 +583,17 @@ flowchart TD
   o2["The counterexample should lead to revising the generalization (most experienced engineers run tests), not to reclassifying the colleague."] -. attacks .-> ra
 ```
 
+## Non sequitur (`ct:non-sequitur`)
+
+```mermaid
+flowchart TD
+  p1["The new CRM vendor has the most polished website of the three we reviewed."] --> ra{{"invalid"}}
+  p2["Their sales representative answered every email within an hour."] --> ra{{"invalid"}}
+  ra --> c["So their platform will keep our customer data secure."]
+  o1["Marketing polish and quick sales replies say nothing about encryption, access control or breach history; a security review or third-party audit report is what bears on the conclusion."] -. attacks .-> ra
+  o2["All three vendors could have responsive sales staff and still differ sharply in how they protect data."] -. attacks .-> ra
+```
+
 ## Obversion (`ct:obversion`)
 
 ```mermaid

@@ -20607,6 +20607,103 @@
   ]
  },
  {
+  "id": "ct:non-sequitur",
+  "title": "Non sequitur",
+  "aliases": [
+   "it does not follow",
+   "fallacy of non sequitur"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/non-sequitur.md",
+  "created": "2026-11-18",
+  "summary": "The catch-all fallacy of drawing a conclusion that does not follow from the reasons given: the premises are so weak or so irrelevant that, even if they are true, they give no real support. The label is normally kept for cases that no more specific fallacy name fits.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:undistributed-middle"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:red-herring"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:affirming-the-consequent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-fallacy"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:ignoratio-elenchi",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:non-argument",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:fallacy-of-the-consequent",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "If every premise were true, how much more likely would the conclusion be than it was before you heard them?",
+   "What unstated premise would be needed to connect these reasons to the conclusion, and is that premise plausible?",
+   "Can you describe a realistic case in which all the premises are true and the conclusion is false?",
+   "Does a more specific fallacy (such as undistributed middle or affirming the consequent) describe the gap better than the general label?",
+   "Is this really an argument, or a bare assertion or demand with no reasons offered at all?"
+  ],
+  "source_urls": [
+   "https://iep.utm.edu/fallacy/",
+   "https://plato.stanford.edu/archives/sum2019/entries/fallacies/",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.09%3A_Non_Sequitur",
+   "https://philosophy.lander.edu/logic/ignoratio.html",
+   "https://www.britannica.com/topic/fallacy"
+  ]
+ },
+ {
   "id": "ct:null-hypothesis-significance-testing",
   "title": "Null-hypothesis significance testing",
   "aliases": [

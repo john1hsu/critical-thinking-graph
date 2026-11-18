@@ -19181,6 +19181,99 @@
    ]
   },
   {
+   "@id": "ct:non-sequitur",
+   "@type": "cto:FormalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:fallacy-of-the-consequent"
+   },
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:non-argument"
+    }
+   ],
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map"
+   },
+   "cto:file": "articles/formal-fallacies/non-sequitur.md",
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s5"
+    }
+   ],
+   "rdfs:label": "Non sequitur",
+   "skos:altLabel": [
+    "fallacy of non sequitur",
+    "it does not follow"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The catch-all fallacy of drawing a conclusion that does not follow from the reasons given: the premises are so weak or so irrelevant that, even if they are true, they give no real support. The label is normally kept for cases that no more specific fallacy name fits.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Non sequitur",
+   "skos:related": [
+    {
+     "@id": "ct:affirming-the-consequent"
+    },
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:argument-from-fallacy"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:red-herring"
+    },
+    {
+     "@id": "ct:undistributed-middle"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:null-hypothesis-significance-testing",
    "@type": "cto:Method",
    "cto:challengedBy": {
@@ -35941,6 +36034,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:non-sequitur"
+   },
+   "rdfs:label": "If every premise were true, how much more likely would the conclusion be than it was before you heard them?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:non-sequitur"
+   },
+   "rdfs:label": "What unstated premise would be needed to connect these reasons to the conclusion, and is that premise plausible?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:non-sequitur"
+   },
+   "rdfs:label": "Can you describe a realistic case in which all the premises are true and the conclusion is false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:non-sequitur"
+   },
+   "rdfs:label": "Does a more specific fallacy (such as undistributed middle or affirming the consequent) describe the gap better than the general label?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:non-sequitur"
+   },
+   "rdfs:label": "Is this really an argument, or a bare assertion or demand with no reasons offered at all?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:non-sequitur"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So their platform will keep our customer data secure."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Marketing polish and quick sales replies say nothing about encryption, access control or breach history; a security review or third-party audit report is what bears on the conclusion."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "All three vendors could have responsive sales staff and still differ sharply in how they protect data."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The new CRM vendor has the most polished website of the three we reviewed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Their sales representative answered every email within an hour."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/obversion/map",
    "@type": "aif:ArgumentNetwork",
    "cto:illustrates": {
@@ -51887,6 +52091,76 @@
    "dcterms:title": "The No-True-Scotsman Fallacy",
    "schema:url": {
     "@id": "https://fallacyfiles.org/scotsman.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Bradley Dowden)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/fallacy/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hans Hansen)",
+   "dcterms:title": "Fallacies (Summer 2019 edition)",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2019/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Bradley H. Dowden, California State University Sacramento (Humanities LibreTexts open textbook)",
+   "dcterms:title": "8.9: Non Sequitur, in Logical Reasoning",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.09%3A_Non_Sequitur"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Lee C. Archie, Philosophy Department, Lander University",
+   "dcterms:title": "Ignoratio Elenchi and Non Sequitur (Introduction to Logic)",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/ignoratio.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/non-sequitur/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Fallacy",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/fallacy"
    }
   },
   {
