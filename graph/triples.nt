@@ -10833,6 +10833,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> .
 <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/deductive-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2000/01/rdf-schema#label> "Psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "psychological science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#altLabel> "science of mind and behavior" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#definition> "The scientific discipline that studies mental processes and behavior in humans and other animals; for critical thinking it is the empirical science of how people actually perceive, remember, judge and reason, as opposed to logic's account of how they ought to." .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/behaviorism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/psychology-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/open-science-collaboration-2015-reproducibility-project> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "heuristics-and-dual-process" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/heuristics-and-dual-process/psychology.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/wilhelm-wundt> .
+<https://github.com/john1hsu/critical-thinking-graph/id/psychology> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://purl.org/dc/terms/created> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/publication-bias> <http://www.w3.org/2000/01/rdf-schema#label> "Publication bias" .
@@ -20536,6 +20566,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/psychology-of-reasoning/s5> <https://schema.org/url> <https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/precis-of-bayesian-rationality-the-probabilistic-approach-to-human-reasoning/164A7469C0C255528A77C61CE3C9C771> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Alan Kim, rev. 2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s1> <http://purl.org/dc/terms/title> "Wilhelm Maximilian Wundt" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/wilhelm-wundt/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s2> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Martin Kusch, rev. 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s2> <http://purl.org/dc/terms/title> "Psychologism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s2> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/psychologism/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s3> <http://purl.org/dc/terms/publisher> "Science 349(6251), aac4716 (Open Science Collaboration, 2015), Utrecht University repository copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s3> <http://purl.org/dc/terms/title> "Estimating the reproducibility of psychological science" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s3> <https://schema.org/url> <https://dspace.library.uu.nl/bitstream/1874/329878/1/aac4716.full.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s4> <http://purl.org/dc/terms/publisher> "Psychology, H5P Edition (Spielman, Dumper, Jenkins, Lacombe, Lovett and Perlmutter; OpenStax-based, BCcampus Open Textbook, 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s4> <http://purl.org/dc/terms/title> "History of Psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s4> <https://schema.org/url> <https://opentextbc.ca/h5ppsychology/chapter/history-of-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s5> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s5> <http://purl.org/dc/terms/title> "Psychology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s5> <https://schema.org/url> <https://www.britannica.com/science/psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s1> <http://purl.org/dc/terms/publisher> "Catalogue of Bias, Centre for Evidence-Based Medicine, University of Oxford (DeVito & Goldacre, 2019)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/publication-bias/s1> <http://purl.org/dc/terms/title> "Publication bias" .

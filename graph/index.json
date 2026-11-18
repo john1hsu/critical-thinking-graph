@@ -25527,6 +25527,91 @@
   ]
  },
  {
+  "id": "ct:psychology",
+  "title": "Psychology",
+  "aliases": [
+   "psychological science",
+   "science of mind and behavior"
+  ],
+  "type": "Field",
+  "domain": "heuristics-and-dual-process",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/heuristics-and-dual-process/psychology.md",
+  "created": "2026-11-18",
+  "summary": "The scientific discipline that studies mental processes and behavior in humans and other animals; for critical thinking it is the empirical science of how people actually perceive, remember, judge and reason, as opposed to logic's account of how they ought to.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:science"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:social-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:psychology-of-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-science"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:behaviorism"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:wilhelm-wundt",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:philosophy",
+    "source": "s5",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:open-science-collaboration-2015-reproducibility-project",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/wilhelm-wundt/",
+   "https://plato.stanford.edu/ENTRIES/psychologism/",
+   "https://dspace.library.uu.nl/bitstream/1874/329878/1/aac4716.full.pdf",
+   "https://opentextbc.ca/h5ppsychology/chapter/history-of-psychology",
+   "https://www.britannica.com/science/psychology"
+  ]
+ },
+ {
   "id": "ct:psychology-of-reasoning",
   "title": "Psychology of reasoning",
   "aliases": [

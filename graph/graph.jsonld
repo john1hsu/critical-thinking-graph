@@ -23826,6 +23826,86 @@
    ]
   },
   {
+   "@id": "ct:psychology",
+   "@type": "cto:Field",
+   "cto:challengedBy": {
+    "@id": "ct:open-science-collaboration-2015-reproducibility-project"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:logic"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/heuristics-and-dual-process/psychology.md",
+   "cto:influencedBy": {
+    "@id": "ct:philosophy"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:wilhelm-wundt"
+   },
+   "cto:level": "introductory",
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s5"
+    }
+   ],
+   "rdfs:label": "Psychology",
+   "skos:altLabel": [
+    "psychological science",
+    "science of mind and behavior"
+   ],
+   "skos:broader": {
+    "@id": "ct:science"
+   },
+   "skos:definition": "The scientific discipline that studies mental processes and behavior in humans and other animals; for critical thinking it is the empirical science of how people actually perceive, remember, judge and reason, as opposed to logic's account of how they ought to.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Psychology",
+   "skos:related": [
+    {
+     "@id": "ct:behaviorism"
+    },
+    {
+     "@id": "ct:cognitive-psychology"
+    },
+    {
+     "@id": "ct:cognitive-science"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:philosophy"
+    },
+    {
+     "@id": "ct:psychology-of-reasoning"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:social-psychology"
+    }
+   ]
+  },
+  {
    "@id": "ct:psychology-of-reasoning",
    "@type": "cto:Field",
    "cto:contrastsWith": {
@@ -56651,6 +56731,76 @@
    "dcterms:title": "Précis of Bayesian Rationality: The probabilistic approach to human reasoning",
    "schema:url": {
     "@id": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/precis-of-bayesian-rationality-the-probabilistic-approach-to-human-reasoning/164A7469C0C255528A77C61CE3C9C771"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Alan Kim, rev. 2022)",
+   "dcterms:title": "Wilhelm Maximilian Wundt",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/wilhelm-wundt/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Martin Kusch, rev. 2024)",
+   "dcterms:title": "Psychologism",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/psychologism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Science 349(6251), aac4716 (Open Science Collaboration, 2015), Utrecht University repository copy",
+   "dcterms:title": "Estimating the reproducibility of psychological science",
+   "schema:url": {
+    "@id": "https://dspace.library.uu.nl/bitstream/1874/329878/1/aac4716.full.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Psychology, H5P Edition (Spielman, Dumper, Jenkins, Lacombe, Lovett and Perlmutter; OpenStax-based, BCcampus Open Textbook, 2021)",
+   "dcterms:title": "History of Psychology",
+   "schema:url": {
+    "@id": "https://opentextbc.ca/h5ppsychology/chapter/history-of-psychology"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/psychology/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica",
+   "dcterms:title": "Psychology",
+   "schema:url": {
+    "@id": "https://www.britannica.com/science/psychology"
    }
   },
   {
