@@ -102,7 +102,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 99 more.
+…and 100 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

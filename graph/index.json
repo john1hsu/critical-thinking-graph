@@ -3107,6 +3107,103 @@
   ]
  },
  {
+  "id": "ct:artificial-intelligence",
+  "title": "Artificial intelligence",
+  "aliases": [
+   "AI",
+   "machine intelligence"
+  ],
+  "type": "Field",
+  "domain": "philosophy-of-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/philosophy-of-reasoning/artificial-intelligence.md",
+  "created": "2026-11-18",
+  "summary": "The field that designs and studies computational agents that perceive their environment and act, often by reasoning, learning and deciding under uncertainty. For critical thinking it matters both as a source of formal models of reasoning (nonmonotonic logic, argumentation frameworks, probabilistic inference) and as a producer of claims that need evaluating.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:computer-science"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argumentation-schemes"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:abstract-argumentation-frameworks"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:herbert-simon"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bounded-rationality"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:predicate-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bayesian-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:reasoning"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:john-mccarthy",
+    "source": "s5",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:alan-turing",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:formal-logic",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/artificial-intelligence/",
+   "https://plato.stanford.edu/ENTRIES/logic-ai/",
+   "https://www.cs.princeton.edu/courses/archive/fall23/cos109/turingpaper.pdf",
+   "https://aima.cs.berkeley.edu/preface.html",
+   "https://www.raysolomonoff.com/dartmouth/dartray.pdf"
+  ]
+ },
+ {
   "id": "ct:assumption",
   "title": "Assumption",
   "aliases": [
