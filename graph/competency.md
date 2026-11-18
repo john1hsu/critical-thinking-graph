@@ -143,14 +143,14 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:formal-modeling` | cto:Method |
-| `ct:geopolitical-forecasting` | cto:Field |
 | `ct:grade-approach` | cto:Framework |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
+| `ct:improper-transposition` | cto:FormalFallacy |
 
-…and 45 more.
+…and 44 more.
 
 ## Orphan articles (gap)
 

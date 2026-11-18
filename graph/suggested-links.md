@@ -19,13 +19,13 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.04 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
 | 3.99 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 3.95 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
+| 3.79 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
 | 3.78 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
 | 3.73 | `ct:method-of-counterexample` | `ct:square-of-opposition` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.72 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major` |
 | 3.71 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:existential-fallacy` |
-| 3.58 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
 | 3.58 | `ct:argument-mapping` | `ct:informal-fallacy` | `ct:argument`, `ct:argument-evaluation`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:begging-the-question` |
+| 3.58 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
 | 3.53 | `ct:ad-hominem` | `ct:burden-of-proof` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-from-expert-opinion`, `ct:argument-from-fallacy`, `ct:argument-from-ignorance` |
 | 3.49 | `ct:argumentation-theory` | `ct:fallacy-of-ambiguity` | `ct:amphiboly`, `ct:argument`, `ct:aristotle`, `ct:charles-hamblin`, `ct:distributive-collective-distinction` |
 | 3.49 | `ct:daniel-kahneman` | `ct:heuristic` | `ct:anchoring-and-adjustment-heuristic`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias` |
-| 3.46 | `ct:argument-evaluation` | `ct:pragma-dialectics` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:conductive-argument` |

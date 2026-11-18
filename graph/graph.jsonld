@@ -21178,6 +21178,101 @@
    ]
   },
   {
+   "@id": "ct:philip-tetlock",
+   "@type": "cto:Person",
+   "cto:authored": {
+    "@id": "ct:expert-political-judgment"
+   },
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/philip-tetlock.md",
+   "cto:introduced": [
+    {
+     "@id": "ct:geopolitical-forecasting"
+    },
+    {
+     "@id": "ct:sacred-value-protection-model"
+    },
+    {
+     "@id": "ct:social-contingency-model"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s6"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s7"
+    }
+   ],
+   "rdfs:label": "Philip Tetlock",
+   "skos:altLabel": [
+    "P. E. Tetlock",
+    "Philip E. Tetlock",
+    "Philip Eyrikson Tetlock"
+   ],
+   "skos:definition": "Canadian-born psychologist and political scientist (Yale PhD 1979), now Annenberg University Professor at the University of Pennsylvania, whose two-decade study Expert Political Judgment (2005) and the Good Judgment Project (from 2011) founded the scientific study of geopolitical forecasting accuracy. He also developed the social contingency model of accountability and the sacred-value-protection model.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "Philip Tetlock",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:base-rate-neglect"
+    },
+    {
+     "@id": "ct:brier-score"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:hindsight-bias"
+    },
+    {
+     "@id": "ct:intelligence-analysis"
+    },
+    {
+     "@id": "ct:mellers-2014-forecasting-tournament-study"
+    },
+    {
+     "@id": "ct:outside-view"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:philosophical-skepticism",
    "@type": "cto:Concept",
    "cto:contrastsWith": [
@@ -54612,6 +54707,104 @@
    "dcterms:title": "Semantics as a foundation for psychology: A case study of Wason's selection task",
    "schema:url": {
     "@id": "https://www.phil.uu.nl/ozsl/articles/Lambalgen04.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "School of Arts and Sciences, University of Pennsylvania",
+   "dcterms:title": "Annenberg University Professor: Philip Tetlock (biography)",
+   "schema:url": {
+    "@id": "https://www.sas.upenn.edu/tetlock/bio"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Current Directions in Psychological Science 23(4), 290-295 (Tetlock, Mellers, Rohrbaugh & Chen, 2014), Wharton School, University of Pennsylvania",
+   "dcterms:title": "Forecasting Tournaments: Tools for Increasing Transparency and Improving the Quality of Debate",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---forecasting-tournaments-tools-for-increasing-transparency-and-improving-debate.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "International Journal of Forecasting 23(2), 339-342 (Tschoegl & Armstrong, 2007), via CORE",
+   "dcterms:title": "Review of Philip E. Tetlock, Expert Political Judgment: How Good Is It? How Can We Know?",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/76362768.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 57(4), 632-640 (Tetlock, Skitka & Boettger, 1989), via CORE",
+   "dcterms:title": "Social and Cognitive Strategies for Coping With Accountability: Conformity, Complexity, and Bolstering",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/284985383.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Tetlock & Mellers, ch. 11 in Intelligence Analysis: Behavioral and Social Scientific Foundations, National Research Council, National Academies Press (2011)",
+   "dcterms:title": "Structuring Accountability Systems in Organizations: Key Trade-Offs and Critical Unknowns",
+   "schema:url": {
+    "@id": "https://www.nationalacademies.org/read/13062/chapter/16"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 78(5), 853-870 (Tetlock, Kristel, Elson, Green & Lerner, 2000), via CORE",
+   "dcterms:title": "The Psychology of the Unthinkable: Taboo Trade-Offs, Forbidden Base Rates, and Heretical Counterfactuals",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/191922501.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s7",
+   "@type": "cto:Source",
+   "cto:sourceType": "institutional",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Association for Psychological Science, Minds at Work (2015)",
+   "dcterms:title": "Superforecasters: The Art of Accurate Predictions",
+   "schema:url": {
+    "@id": "https://www.psychologicalscience.org/news/minds-business/superforecasters-the-art-of-accurate-predictions.html"
    }
   },
   {

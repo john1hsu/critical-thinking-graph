@@ -22706,6 +22706,104 @@
   ]
  },
  {
+  "id": "ct:philip-tetlock",
+  "title": "Philip Tetlock",
+  "aliases": [
+   "Philip E. Tetlock",
+   "Philip Eyrikson Tetlock",
+   "P. E. Tetlock"
+  ],
+  "type": "Person",
+  "domain": "history-and-thinkers",
+  "level": "introductory",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/philip-tetlock.md",
+  "created": "2026-11-18",
+  "summary": "Canadian-born psychologist and political scientist (Yale PhD 1979), now Annenberg University Professor at the University of Pennsylvania, whose two-decade study Expert Political Judgment (2005) and the Good Judgment Project (from 2011) founded the scientific study of geopolitical forecasting accuracy. He also developed the social contingency model of accountability and the sacred-value-protection model.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hindsight-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:intelligence-analysis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:base-rate-neglect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:brier-score"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:mellers-2014-forecasting-tournament-study"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:outside-view"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:geopolitical-forecasting",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:authored",
+    "object": "ct:expert-political-judgment",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:social-contingency-model",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introduced",
+    "object": "ct:sacred-value-protection-model",
+    "source": "s6",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.sas.upenn.edu/tetlock/bio",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---forecasting-tournaments-tools-for-increasing-transparency-and-improving-debate.pdf",
+   "https://core.ac.uk/download/76362768.pdf",
+   "https://core.ac.uk/download/284985383.pdf",
+   "https://www.nationalacademies.org/read/13062/chapter/16",
+   "https://core.ac.uk/download/191922501.pdf",
+   "https://www.psychologicalscience.org/news/minds-business/superforecasters-the-art-of-accurate-predictions.html"
+  ]
+ },
+ {
   "id": "ct:philosophical-skepticism",
   "title": "Philosophical skepticism",
   "aliases": [

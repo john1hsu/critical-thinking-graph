@@ -9737,6 +9737,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/willard-van-orman-quine> .
 <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/peter-wason> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2000/01/rdf-schema#label> "Philip Tetlock" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#altLabel> "P. E. Tetlock" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#altLabel> "Philip E. Tetlock" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#altLabel> "Philip Eyrikson Tetlock" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#definition> "Canadian-born psychologist and political scientist (Yale PhD 1979), now Annenberg University Professor at the University of Pennsylvania, whose two-decade study Expert Political Judgment (2005) and the Good Judgment Project (from 2011) founded the scientific study of geopolitical forecasting accuracy. He also developed the social contingency model of accountability and the sacred-value-protection model." .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#prefLabel> "Philip Tetlock" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hindsight-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mellers-2014-forecasting-tournament-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <https://github.com/john1hsu/critical-thinking-graph/ontology#authored> <https://github.com/john1hsu/critical-thinking-graph/id/expert-political-judgment> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "history-and-thinkers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "historical" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/history-and-thinkers/philip-tetlock.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/sacred-value-protection-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/social-contingency-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> <http://purl.org/dc/terms/created> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
 <https://github.com/john1hsu/critical-thinking-graph/id/philosophical-skepticism> <http://www.w3.org/2000/01/rdf-schema#label> "Philosophical skepticism" .
@@ -19653,6 +19688,48 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/peter-wason/s5> <https://schema.org/url> <https://www.phil.uu.nl/ozsl/articles/Lambalgen04.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s1> <http://purl.org/dc/terms/publisher> "School of Arts and Sciences, University of Pennsylvania" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s1> <http://purl.org/dc/terms/title> "Annenberg University Professor: Philip Tetlock (biography)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s1> <https://schema.org/url> <https://www.sas.upenn.edu/tetlock/bio> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s2> <http://purl.org/dc/terms/publisher> "Current Directions in Psychological Science 23(4), 290-295 (Tetlock, Mellers, Rohrbaugh & Chen, 2014), Wharton School, University of Pennsylvania" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s2> <http://purl.org/dc/terms/title> "Forecasting Tournaments: Tools for Increasing Transparency and Improving the Quality of Debate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s2> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2014---forecasting-tournaments-tools-for-increasing-transparency-and-improving-debate.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s3> <http://purl.org/dc/terms/publisher> "International Journal of Forecasting 23(2), 339-342 (Tschoegl & Armstrong, 2007), via CORE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s3> <http://purl.org/dc/terms/title> "Review of Philip E. Tetlock, Expert Political Judgment: How Good Is It? How Can We Know?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s3> <https://schema.org/url> <https://core.ac.uk/download/76362768.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s4> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 57(4), 632-640 (Tetlock, Skitka & Boettger, 1989), via CORE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s4> <http://purl.org/dc/terms/title> "Social and Cognitive Strategies for Coping With Accountability: Conformity, Complexity, and Bolstering" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s4> <https://schema.org/url> <https://core.ac.uk/download/284985383.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s5> <http://purl.org/dc/terms/publisher> "Tetlock & Mellers, ch. 11 in Intelligence Analysis: Behavioral and Social Scientific Foundations, National Research Council, National Academies Press (2011)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s5> <http://purl.org/dc/terms/title> "Structuring Accountability Systems in Organizations: Key Trade-Offs and Critical Unknowns" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s5> <https://schema.org/url> <https://www.nationalacademies.org/read/13062/chapter/16> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s6> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 78(5), 853-870 (Tetlock, Kristel, Elson, Green & Lerner, 2000), via CORE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s6> <http://purl.org/dc/terms/title> "The Psychology of the Unthinkable: Taboo Trade-Offs, Forbidden Base Rates, and Heretical Counterfactuals" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s6> <https://schema.org/url> <https://core.ac.uk/download/191922501.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s7> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s7> <http://purl.org/dc/terms/publisher> "Association for Psychological Science, Minds at Work (2015)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s7> <http://purl.org/dc/terms/title> "Superforecasters: The Art of Accurate Predictions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s7> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/philip-tetlock/s7> <https://schema.org/url> <https://www.psychologicalscience.org/news/minds-business/superforecasters-the-art-of-accurate-predictions.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s1> <http://purl.org/dc/terms/date> "2026-11-10"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Peter Klein; first published 2001, substantive revision 11 January 2026; Spring 2026 edition)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/philosophical-skepticism/s1> <http://purl.org/dc/terms/title> "Skepticism" .
