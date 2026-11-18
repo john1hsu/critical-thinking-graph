@@ -330,6 +330,17 @@ flowchart TD
   o2["The conclusion is weaker than the premise, so it cannot be used to argue back to a single reviewer."] -. attacks .-> ra
 ```
 
+## Fallacies of relevance (`ct:fallacies-of-relevance`)
+
+```mermaid
+flowchart TD
+  p1["The proposal to move the team to a four-day sprint cycle came from the newest analyst."] --> ra{{"fallacious"}}
+  p2["She has been with the company for only three months."] --> ra{{"fallacious"}}
+  ra --> c["So the four-day sprint proposal will not work for us."]
+  o1["How long the proposer has worked here does not bear on whether shorter sprints would improve delivery; the evidence for the plan is never examined."] -. attacks .-> ra
+  o2["Relevant premises would concern cycle times, review load or the results of a trial run."] -. attacks .-> ra
+```
+
 ## Fallacy of ambiguity (`ct:fallacy-of-ambiguity`)
 
 ```mermaid

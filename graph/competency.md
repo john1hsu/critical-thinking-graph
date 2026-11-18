@@ -8,6 +8,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
+| `ct:fallacies-of-relevance` | cto:InformalFallacy |
 | `ct:halo-effect` | cto:CognitiveBias |
 | `ct:probabilistic-modus-tollens` | cto:FormalFallacy |
 
@@ -143,6 +144,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:existential-import` | cto:Concept |
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
 | `ct:explanation` | cto:Concept |
+| `ct:fallacies-of-relevance` | cto:InformalFallacy |
 | `ct:fallacy-of-composition` | cto:InformalFallacy |
 | `ct:fallacy-of-four-terms` | cto:FormalFallacy |
 | `ct:forecasting` | cto:Field |
@@ -151,9 +153,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:grade-approach` | cto:Framework |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
-| `ct:illicit-major` | cto:FormalFallacy |
 
-…and 48 more.
+…and 49 more.
 
 ## Orphan articles (gap)
 

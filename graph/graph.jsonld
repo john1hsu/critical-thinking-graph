@@ -12151,6 +12151,125 @@
    ]
   },
   {
+   "@id": "ct:fallacies-of-relevance",
+   "@type": "cto:InformalFallacy",
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:dialectical-relevance"
+   },
+   "cto:file": "articles/informal-fallacies/fallacies-of-relevance.md",
+   "cto:influencedBy": [
+    {
+     "@id": "ct:richard-whately"
+    },
+    {
+     "@id": "ct:sophistical-refutations"
+    }
+   ],
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "cto:studiedIn": [
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:informal-logic"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s5"
+    }
+   ],
+   "rdfs:label": "Fallacies of relevance",
+   "skos:altLabel": [
+    "fallacies of irrelevance",
+    "fallacies of irrelevant support",
+    "fallacy of relevance",
+    "irrelevant-premise fallacies",
+    "relevance fallacies"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The family of informal fallacies whose premises, true or not, have no real bearing on the conclusion they are offered to support, though they seem to because of emotion, association or a change of subject; ad hominem, ad populum, appeal to force, straw man and red herring are standard members.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Fallacies of relevance",
+   "skos:related": [
+    {
+     "@id": "ct:ad-baculum"
+    },
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:ad-populum"
+    },
+    {
+     "@id": "ct:appeal-to-pity"
+    },
+    {
+     "@id": "ct:dialectical-relevance"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:fallacy-of-accident"
+    },
+    {
+     "@id": "ct:fallacy-of-ambiguity"
+    },
+    {
+     "@id": "ct:genetic-fallacy"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:irving-copi"
+    },
+    {
+     "@id": "ct:red-herring"
+    },
+    {
+     "@id": "ct:rsa-criteria"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:fallacy-of-ambiguity",
    "@type": "cto:InformalFallacy",
    "cto:domain": "informal-fallacies",
@@ -35464,6 +35583,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacies-of-relevance"
+   },
+   "rdfs:label": "If every premise were granted as true, would that make the conclusion any more likely, or only make it feel more welcome?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacies-of-relevance"
+   },
+   "rdfs:label": "Is the reason offered about the claim itself, or about the person making it, how popular it is, where it came from, or what happens to those who reject it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacies-of-relevance"
+   },
+   "rdfs:label": "Is the conclusion actually argued for the same claim that is in dispute, or a different one that is easier to support?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacies-of-relevance"
+   },
+   "rdfs:label": "Has the discussion quietly moved to a new topic, and if so, who moved it and does the original question still stand unanswered?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacies-of-relevance"
+   },
+   "rdfs:label": "Could the apparently irrelevant consideration be relevant in this context, for example a witness's record when the issue is whether to trust their testimony?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:fallacies-of-relevance"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the four-day sprint proposal will not work for us."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "How long the proposer has worked here does not bear on whether shorter sprints would improve delivery; the evidence for the plan is never examined."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Relevant premises would concern cycle times, review load or the results of a trial run."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The proposal to move the team to a four-day sprint cycle came from the newest analyst."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "She has been with the company for only three months."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -48548,6 +48778,76 @@
    "dcterms:title": "Abduction",
    "schema:url": {
     "@id": "https://plato.stanford.edu/ENTRIES/abduction/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Douglas Walton, Informal Logic 24(1), 2004, pp. 71-103",
+   "dcterms:title": "Classification of Fallacies of Relevance",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2133.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Douglas N. Walton, Argumentation 6(2), 1992, pp. 237-250",
+   "dcterms:title": "Which of the fallacies are fallacies of relevance?",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/BF00154328"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Rebeka Ferreira, open textbook (Pressbooks, 2023)",
+   "dcterms:title": "§2 Fallacies of Irrelevant and Inadequate Support, in How to Think For Yourself",
+   "schema:url": {
+    "@id": "https://openwa.pressbooks.pub/howtothinkforyourself/chapter/%C2%A72-fallacies-of-irrelevant-and-inadequate-support/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "University of Colorado Boulder",
+   "dcterms:title": "3.2 Fallacies of Relevance (course notes, PHIL 1440)",
+   "schema:url": {
+    "@id": "https://rintintin.colorado.edu/~vancecd/phil1440/irrelevance.pdf"
    }
   },
   {

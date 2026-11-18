@@ -13052,6 +13052,138 @@
   ]
  },
  {
+  "id": "ct:fallacies-of-relevance",
+  "title": "Fallacies of relevance",
+  "aliases": [
+   "fallacy of relevance",
+   "relevance fallacies",
+   "fallacies of irrelevance",
+   "irrelevant-premise fallacies",
+   "fallacies of irrelevant support"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/fallacies-of-relevance.md",
+  "created": "2026-11-18",
+  "summary": "The family of informal fallacies whose premises, true or not, have no real bearing on the conclusion they are offered to support, though they seem to because of emotion, association or a change of subject; ad hominem, ad populum, appeal to force, straw man and red herring are standard members.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:red-herring"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-populum"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-baculum"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:appeal-to-pity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:genetic-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-accident"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectical-relevance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rsa-criteria"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-ambiguity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:irving-copi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:richard-whately",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:sophistical-refutations",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:dialectical-relevance",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "If every premise were granted as true, would that make the conclusion any more likely, or only make it feel more welcome?",
+   "Is the reason offered about the claim itself, or about the person making it, how popular it is, where it came from, or what happens to those who reject it?",
+   "Is the conclusion actually argued for the same claim that is in dispute, or a different one that is easier to support?",
+   "Has the discussion quietly moved to a new topic, and if so, who moved it and does the original question still stand unanswered?",
+   "Could the apparently irrelevant consideration be relevant in this context, for example a witness's record when the issue is whether to trust their testimony?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://distantreader.org/stacks/journals/il/il-2133.pdf",
+   "https://link.springer.com/article/10.1007/BF00154328",
+   "https://openwa.pressbooks.pub/howtothinkforyourself/chapter/%C2%A72-fallacies-of-irrelevant-and-inadequate-support/",
+   "https://rintintin.colorado.edu/~vancecd/phil1440/irrelevance.pdf"
+  ]
+ },
+ {
   "id": "ct:fallacy-of-ambiguity",
   "title": "Fallacy of ambiguity",
   "aliases": [
