@@ -4229,6 +4229,98 @@
   ]
  },
  {
+  "id": "ct:belief-perseverance",
+  "title": "Belief perseverance",
+  "aliases": [
+   "perseverance effect",
+   "impression perseverance",
+   "perseverance of discredited beliefs"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/belief-perseverance.md",
+  "created": "2026-11-18",
+  "summary": "The tendency to go on holding a belief or impression after the evidence that originally produced it has been shown to be false, so that a full retraction leaves the judgment only partly corrected.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confirmation-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:biased-assimilation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:continued-influence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:evidence"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:ross-lepper-hubbard-1975-debriefing-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:lee-ross",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:wegner-coulton-wenzlaff-1985-denial-transparency-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:chan-2017-debunking-meta-analysis",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:greene-2024-false-memory-debriefing-study",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://bibbase.org/network/publication/ross-lepper-hubbard-perseveranceinselfperceptionandsocialperceptionbiasedattributionalprocessesinthedebriefingparadigm-1975",
+   "https://dtg.sites.fas.harvard.edu/DANWEGNER/pub/Wegner,Coulton,&Wenzlaff%201985.pdf",
+   "https://www.annenbergpublicpolicycenter.org/publication/debunking-a-meta-analysis-of-the-psychological-efficacy-of-messages-countering-misinformation/",
+   "https://core.ac.uk/download/492596514.pdf",
+   "https://link.springer.com/article/10.3758/s13421-024-01524-9"
+  ]
+ },
+ {
   "id": "ct:berksons-paradox",
   "title": "Berkson's paradox",
   "aliases": [

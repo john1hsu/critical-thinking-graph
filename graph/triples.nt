@@ -2063,6 +2063,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
 <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/belief-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/trippas-2018-belief-bias-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2000/01/rdf-schema#label> "Belief perseverance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#altLabel> "impression perseverance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#altLabel> "perseverance effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#altLabel> "perseverance of discredited beliefs" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#definition> "The tendency to go on holding a belief or impression after the evidence that originally produced it has been shown to be false, so that a full retraction leaves the judgment only partly corrected." .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#prefLabel> "Belief perseverance" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/continued-influence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/evidence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/greene-2024-false-memory-debriefing-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ross-lepper-hubbard-1975-debriefing-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "cognitive-biases" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/cognitive-biases/belief-perseverance.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/lee-ross> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/chan-2017-debunking-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/wegner-coulton-wenzlaff-1985-denial-transparency-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2000/01/rdf-schema#label> "Berkson's paradox" .
@@ -14249,6 +14281,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/belief-bias/s6> <https://schema.org/url> <https://ejop.psychopen.eu/index.php/ejop/article/view/1794> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s1> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 32(5), 880-892 (Ross, Lepper & Hubbard, 1975), BibBase record with abstract" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s1> <http://purl.org/dc/terms/title> "Perseverance in self-perception and social perception: Biased attributional processes in the debriefing paradigm" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s1> <https://schema.org/url> <https://bibbase.org/network/publication/ross-lepper-hubbard-perseveranceinselfperceptionandsocialperceptionbiasedattributionalprocessesinthedebriefingparadigm-1975> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s2> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 49(2), 338-346 (Wegner, Coulton & Wenzlaff, 1985), author copy hosted by Harvard University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s2> <http://purl.org/dc/terms/title> "The transparency of denial: Briefing in the debriefing paradigm" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s2> <https://schema.org/url> <https://dtg.sites.fas.harvard.edu/DANWEGNER/pub/Wegner,Coulton,&Wenzlaff%201985.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s3> <http://purl.org/dc/terms/publisher> "Psychological Science (Chan, Jones, Hall Jamieson & Albarracín, 2017), Annenberg Public Policy Center, University of Pennsylvania" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s3> <http://purl.org/dc/terms/title> "Debunking: A meta-analysis of the psychological efficacy of messages countering misinformation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s3> <https://schema.org/url> <https://www.annenbergpublicpolicycenter.org/publication/debunking-a-meta-analysis-of-the-psychological-efficacy-of-messages-countering-misinformation/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s4> <http://purl.org/dc/terms/publisher> "Nature Reviews Psychology 1, 13-29 (Ecker et al., 2022), author accepted manuscript via CORE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s4> <http://purl.org/dc/terms/title> "The psychological drivers of misinformation belief and its resistance to correction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s4> <https://schema.org/url> <https://core.ac.uk/download/492596514.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s5> <http://purl.org/dc/terms/publisher> "Memory & Cognition 52, 1079-1092 (Greene et al., 2024), Springer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s5> <http://purl.org/dc/terms/title> "Unringing the bell: Successful debriefing following a rich false memory study" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s5> <https://schema.org/url> <https://link.springer.com/article/10.3758/s13421-024-01524-9> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> <http://purl.org/dc/terms/publisher> "Biometrics 2(3), 47-53 (Berkson, 1946), PubMed record 21001024" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> <http://purl.org/dc/terms/title> "Limitations of the application of fourfold table analysis to hospital data" .

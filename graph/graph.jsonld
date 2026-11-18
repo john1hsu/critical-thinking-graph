@@ -3948,6 +3948,92 @@
    ]
   },
   {
+   "@id": "ct:belief-perseverance",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": {
+    "@id": "ct:greene-2024-false-memory-debriefing-study"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:ross-lepper-hubbard-1975-debriefing-study"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/cognitive-biases/belief-perseverance.md",
+   "cto:introducedBy": {
+    "@id": "ct:lee-ross"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:cognitive-bias"
+   },
+   "cto:supportedBy": [
+    {
+     "@id": "ct:chan-2017-debunking-meta-analysis"
+    },
+    {
+     "@id": "ct:wegner-coulton-wenzlaff-1985-denial-transparency-study"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s5"
+    }
+   ],
+   "rdfs:label": "Belief perseverance",
+   "skos:altLabel": [
+    "impression perseverance",
+    "perseverance effect",
+    "perseverance of discredited beliefs"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to go on holding a belief or impression after the evidence that originally produced it has been shown to be false, so that a full retraction leaves the judgment only partly corrected.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "Belief perseverance",
+   "skos:related": [
+    {
+     "@id": "ct:biased-assimilation"
+    },
+    {
+     "@id": "ct:confirmation-bias"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:continued-influence-effect"
+    },
+    {
+     "@id": "ct:debunking"
+    },
+    {
+     "@id": "ct:evidence"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    }
+   ]
+  },
+  {
    "@id": "ct:berksons-paradox",
    "@type": "cto:Phenomenon",
    "cto:appliedIn": [
@@ -42268,6 +42354,76 @@
    "dcterms:title": "How to Get Rid of the Belief Bias: Boosting Analytical Thinking via Pragmatics",
    "schema:url": {
     "@id": "https://ejop.psychopen.eu/index.php/ejop/article/view/1794"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 32(5), 880-892 (Ross, Lepper & Hubbard, 1975), BibBase record with abstract",
+   "dcterms:title": "Perseverance in self-perception and social perception: Biased attributional processes in the debriefing paradigm",
+   "schema:url": {
+    "@id": "https://bibbase.org/network/publication/ross-lepper-hubbard-perseveranceinselfperceptionandsocialperceptionbiasedattributionalprocessesinthedebriefingparadigm-1975"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 49(2), 338-346 (Wegner, Coulton & Wenzlaff, 1985), author copy hosted by Harvard University",
+   "dcterms:title": "The transparency of denial: Briefing in the debriefing paradigm",
+   "schema:url": {
+    "@id": "https://dtg.sites.fas.harvard.edu/DANWEGNER/pub/Wegner,Coulton,&Wenzlaff%201985.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Psychological Science (Chan, Jones, Hall Jamieson & Albarracín, 2017), Annenberg Public Policy Center, University of Pennsylvania",
+   "dcterms:title": "Debunking: A meta-analysis of the psychological efficacy of messages countering misinformation",
+   "schema:url": {
+    "@id": "https://www.annenbergpublicpolicycenter.org/publication/debunking-a-meta-analysis-of-the-psychological-efficacy-of-messages-countering-misinformation/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Nature Reviews Psychology 1, 13-29 (Ecker et al., 2022), author accepted manuscript via CORE",
+   "dcterms:title": "The psychological drivers of misinformation belief and its resistance to correction",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/492596514.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/belief-perseverance/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Memory & Cognition 52, 1079-1092 (Greene et al., 2024), Springer",
+   "dcterms:title": "Unringing the bell: Successful debriefing following a rich false memory study",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.3758/s13421-024-01524-9"
    }
   },
   {
