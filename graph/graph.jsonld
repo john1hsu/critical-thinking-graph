@@ -29195,6 +29195,89 @@
    ]
   },
   {
+   "@id": "ct:the-logic-of-scientific-discovery",
+   "@type": "cto:Work",
+   "cto:authoredBy": {
+    "@id": "ct:karl-popper"
+   },
+   "cto:challengedBy": [
+    {
+     "@id": "ct:imre-lakatos"
+    },
+    {
+     "@id": "ct:thomas-kuhn"
+    }
+   ],
+   "cto:domain": "history-and-thinkers",
+   "cto:evidenceStatus": "historical",
+   "cto:file": "articles/history-and-thinkers/the-logic-of-scientific-discovery.md",
+   "cto:introduces": {
+    "@id": "ct:ad-hoc-hypothesis"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:falsifiability"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:philosophy-of-science"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-logic-of-scientific-discovery/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-logic-of-scientific-discovery/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-logic-of-scientific-discovery/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-logic-of-scientific-discovery/s4"
+    }
+   ],
+   "rdfs:label": "The Logic of Scientific Discovery",
+   "skos:altLabel": [
+    "LScD",
+    "Logik der Forschung",
+    "Popper's Logic of Scientific Discovery"
+   ],
+   "skos:definition": "Karl Popper's first book on scientific method, published in Vienna as Logik der Forschung (1934, with a 1935 imprint) and in English in 1959. It argues that science advances by bold conjectures and attempted refutations rather than induction, makes falsifiability the mark of empirical theories, and sets methodological rules against ad hoc rescues of refuted theories.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/history-and-thinkers"
+   },
+   "skos:prefLabel": "The Logic of Scientific Discovery",
+   "skos:related": [
+    {
+     "@id": "ct:duhem-quine-thesis"
+    },
+    {
+     "@id": "ct:falsifiability"
+    },
+    {
+     "@id": "ct:karl-popper"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    },
+    {
+     "@id": "ct:problem-of-induction"
+    },
+    {
+     "@id": "ct:rule-against-conventionalist-stratagems"
+    },
+    {
+     "@id": "ct:scientific-method"
+    }
+   ]
+  },
+  {
    "@id": "ct:the-new-rhetoric",
    "@type": "cto:Work",
    "cto:authoredBy": [
@@ -60831,6 +60914,62 @@
    "dcterms:title": "Epistemic vigilance",
    "schema:url": {
     "@id": "https://research.ceu.edu/en/publications/epistemic-vigilance/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-logic-of-scientific-discovery/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy (Brendan Shea)",
+   "dcterms:title": "Karl Popper: Philosophy of Science",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/pop-sci/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-logic-of-scientific-discovery/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Stephen Thornton), Spring 2016 archived edition",
+   "dcterms:title": "Karl Popper",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/Spr2016/entries/popper/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-logic-of-scientific-discovery/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Karl Popper, excerpt hosted as a course reading, California State University, Long Beach",
+   "dcterms:title": "Falsifiability (The Logic of Scientific Discovery, chapter 4, sections 19-24)",
+   "schema:url": {
+    "@id": "https://home.csulb.edu/~cwallis/382/readings/382/Popper.Falsifiability.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/the-logic-of-scientific-discovery/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "David Merritt, Studies in History and Philosophy of Modern Physics 57 (2017), author's copy on arXiv",
+   "dcterms:title": "Cosmology and convention",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/1703.02389"
    }
   },
   {

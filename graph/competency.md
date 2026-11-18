@@ -119,7 +119,6 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 
 | node | type |
 |---|---|
-| `ct:ad-hoc-hypothesis` | cto:Concept |
 | `ct:argument-evaluation` | cto:Concept |
 | `ct:argument-reconstruction` | cto:Technique |
 | `ct:assumption` | cto:Concept |
@@ -149,8 +148,9 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:grade-approach` | cto:Framework |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
+| `ct:illicit-major` | cto:FormalFallacy |
 
-…and 47 more.
+…and 46 more.
 
 ## Orphan articles (gap)
 

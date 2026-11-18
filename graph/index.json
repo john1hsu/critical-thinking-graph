@@ -31219,6 +31219,97 @@
   ]
  },
  {
+  "id": "ct:the-logic-of-scientific-discovery",
+  "title": "The Logic of Scientific Discovery",
+  "aliases": [
+   "Logik der Forschung",
+   "Popper's Logic of Scientific Discovery",
+   "LScD"
+  ],
+  "type": "Work",
+  "domain": "history-and-thinkers",
+  "level": "intermediate",
+  "evidenceStatus": "historical",
+  "file": "articles/history-and-thinkers/the-logic-of-scientific-discovery.md",
+  "created": "2026-11-18",
+  "summary": "Karl Popper's first book on scientific method, published in Vienna as Logik der Forschung (1934, with a 1935 imprint) and in English in 1959. It argues that science advances by bold conjectures and attempted refutations rather than induction, makes falsifiability the mark of empirical theories, and sets methodological rules against ad hoc rescues of refuted theories.",
+  "edges": [
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-popper"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rule-against-conventionalist-stratagems"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:problem-of-induction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philosophy-of-science"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:duhem-quine-thesis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:scientific-method"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:falsifiability"
+   },
+   {
+    "predicate": "cto:authoredBy",
+    "object": "ct:karl-popper",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introduces",
+    "object": "ct:ad-hoc-hypothesis",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:imre-lakatos",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:thomas-kuhn",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:philosophy-of-science",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://iep.utm.edu/pop-sci/",
+   "https://plato.stanford.edu/archives/Spr2016/entries/popper/",
+   "https://home.csulb.edu/~cwallis/382/readings/382/Popper.Falsifiability.pdf",
+   "https://arxiv.org/pdf/1703.02389"
+  ]
+ },
+ {
   "id": "ct:the-new-rhetoric",
   "title": "The New Rhetoric",
   "aliases": [
