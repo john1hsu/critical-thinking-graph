@@ -18740,6 +18740,86 @@
   ]
  },
  {
+  "id": "ct:many-labs-1-replication-project",
+  "title": "Many Labs 1 replication project",
+  "aliases": [
+   "Many Labs 1",
+   "Many Labs replication project",
+   "Klein et al. 2014 Many Labs study"
+  ],
+  "type": "Study",
+  "domain": "scientific-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/scientific-reasoning/many-labs-1-replication-project.md",
+  "created": "2026-11-18",
+  "summary": "A 2014 crowdsourced replication study, led by Richard Klein, Kate Ratliff, Michelangelo Vianello and Brian Nosek, that ran 13 classic psychology effects through one standardized protocol in 36 samples (6,344 participants). Ten effects replicated, one weakly, and flag and currency priming did not; effect sizes varied far more by effect than by site.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:gamblers-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sunk-cost-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:preregistration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:open-science-collaboration-2015-reproducibility-project"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:many-labs-3-replication-project"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:many-labs-2-replication-project",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://research.unipd.it/bitstream/11577/2688304/1/ManyLabs.2014.SP.fulltext.pdf",
+   "https://psychology.unt.edu/system/files/Many%20labs%202.pdf",
+   "https://www.bitss.org/education/mooc-parent-page/week-4-replication-and-open-data/approaches-to-the-replication-of-research/a-replication-example-the-many-labs-project/"
+  ]
+ },
+ {
   "id": "ct:masked-man-fallacy",
   "title": "Masked-man fallacy",
   "aliases": [

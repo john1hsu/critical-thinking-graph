@@ -16,7 +16,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.35 | `ct:illicit-conversion` | `ct:venn-diagram-test` | `ct:categorical-proposition`, `ct:distribution-of-terms`, `ct:euler-diagram`, `ct:existential-import`, `ct:formal-fallacy` |
 | 4.34 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-from-ignorance`, `ct:argumentation-schemes`, `ct:charles-hamblin` |
 | 4.09 | `ct:aristotle` | `ct:informal-fallacy` | `ct:amphiboly`, `ct:argument-from-consequences`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:equivocation` |
-| 4.06 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
+| 4.05 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
 | 3.99 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 3.96 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
 | 3.80 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
