@@ -26965,6 +26965,117 @@
   ]
  },
  {
+  "id": "ct:rsa-criteria",
+  "title": "RSA criteria",
+  "aliases": [
+   "RSA triangle",
+   "ARS criteria",
+   "RAS criteria",
+   "relevance sufficiency acceptability",
+   "acceptability relevance and sufficiency"
+  ],
+  "type": "Framework",
+  "domain": "argumentation",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/rsa-criteria.md",
+  "created": "2026-11-18",
+  "summary": "Johnson and Blair's three standards for a good argument, introduced in Logical Self-Defense (1977): each premise must be acceptable, each must be relevant to the conclusion, and together the premises must be sufficient to support it. A failure of any one marks a flawed or fallacious argument.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cogency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:non-sequitur"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:conductive-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:ralph-h-johnson",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:j-anthony-blair",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:logical-self-defense",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:non-sequitur",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:hasty-generalization",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:validity",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://distantreader.org/stacks/journals/il/il-4120.pdf",
+   "https://distantreader.org/stacks/journals/il/il-2265.pdf",
+   "https://philarchive.org/archive/GODAPA-5",
+   "https://rozenbergquarterly.com/?p=7190",
+   "https://distantreader.org/stacks/journals/il/il-3493.pdf",
+   "https://rd.springer.com/referenceworkentry/10.1007/978-90-481-9473-5_7"
+  ]
+ },
+ {
   "id": "ct:rule-against-conventionalist-stratagems",
   "title": "Rule against conventionalist stratagems",
   "aliases": [

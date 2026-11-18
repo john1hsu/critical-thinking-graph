@@ -144,6 +144,15 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/argumentation/rsa-criteria.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/argumentation/stasis-theory.md" .
@@ -4206,6 +4215,83 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/principle-of-charity/s5> <https://schema.org/url> <https://www.csus.edu/indiv/m/mayesgr/phl4/Because/StrawMan.htm> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2000/01/rdf-schema#label> "RSA criteria" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#altLabel> "ARS criteria" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#altLabel> "RAS criteria" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#altLabel> "RSA triangle" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#altLabel> "acceptability relevance and sufficiency" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#altLabel> "relevance sufficiency acceptability" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#definition> "Johnson and Blair's three standards for a good argument, introduced in Logical Self-Defense (1977): each premise must be acceptable, each must be relevant to the conclusion, and together the premises must be sufficient to support it. A failure of any one marks a flawed or fallacious argument." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#prefLabel> "RSA criteria" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/rsa-criteria.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/j-anthony-blair> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ralph-h-johnson> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/logical-self-defense> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1> <http://purl.org/dc/terms/publisher> "David Hitchcock, Informal Logic 34(1), 2014, pp. 94-123" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1> <http://purl.org/dc/terms/title> "Review of Groundwork in the Theory of Argumentation: Selected Papers of J. Anthony Blair" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-4120.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2> <http://purl.org/dc/terms/publisher> "David Hitchcock, Informal Logic 20(2), 2000, pp. 129-138" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2> <http://purl.org/dc/terms/title> "The Significance of Informal Logic for Philosophy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2265.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3> <http://purl.org/dc/terms/publisher> "David Godden and Frank Zenker, Synthese (2016), author's copy on PhilArchive" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3> <http://purl.org/dc/terms/title> "A probabilistic analysis of argument cogency" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3> <https://schema.org/url> <https://philarchive.org/archive/GODAPA-5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4> <http://purl.org/dc/terms/publisher> "Takuzo Konishi, ISSA Proceedings 2010 (Rozenberg Quarterly)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4> <http://purl.org/dc/terms/title> "Logically Defending for Publication: An Analysis of the Review Process of Logical Self-Defense" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4> <https://schema.org/url> <https://rozenbergquarterly.com/?p=7190> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5> <http://purl.org/dc/terms/publisher> "David Botting, Informal Logic 33(1), 2013, pp. 1-21" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5> <http://purl.org/dc/terms/title> "The Irrelevance of Relevance" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-3493.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6> <http://purl.org/dc/terms/publisher> "van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij and Wagemans, Springer, 2014" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6> <http://purl.org/dc/terms/title> "Informal Logic (chapter 7 of the Handbook of Argumentation Theory)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6> <https://schema.org/url> <https://rd.springer.com/referenceworkentry/10.1007/978-90-481-9473-5_7> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory#graph> {
@@ -28673,12 +28759,14 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/distributive-collective-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/presumption> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/assumption> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/distributive-collective-distinction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/presumption> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/steelmanning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-reconstruction> .
@@ -28963,6 +29051,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/rule-against-conventionalist-stratagems> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/runs-test> .
@@ -29766,6 +29855,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cogency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cogency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/assumption> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cogency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cogency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cogency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cogency> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/soundness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
@@ -29846,6 +29936,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rule-against-conventionalist-stratagems> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/runs-test> .
@@ -30115,6 +30206,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confirmation-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
@@ -30367,6 +30459,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> .
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/presumption> .
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/primary-and-secondary-sources> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/sift-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
   <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/source-evaluation> .
@@ -31827,11 +31920,13 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overfitting> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hayward-2024-problem-of-disinformation> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> .
   <https://github.com/john1hsu/critical-thinking-graph/id/head-2015-extent-of-p-hacking-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -32116,6 +32211,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/begging-the-question> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ignoratio-elenchi> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
@@ -32390,6 +32486,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/port-royal-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/the-new-rhetoric> .
   <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> .
@@ -32482,6 +32579,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/j-anthony-blair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/j-anthony-blair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/j-anthony-blair> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/j-anthony-blair> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jaakko-hintikka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jaakko-hintikka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jaakko-hintikka> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
@@ -32948,6 +33046,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/logical-self-defense> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logical-self-defense> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logical-self-defense> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/logical-self-defense> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lord-ross-lepper-1979-capital-punishment-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lord-ross-lepper-1979-capital-punishment-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/lord-ross-lepper-1979-capital-punishment-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
@@ -33454,6 +33553,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nonmonotonic-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nonresponse-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nonsense-correlation> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
@@ -34407,6 +34508,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/ralph-h-johnson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ralph-h-johnson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ralph-h-johnson> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/ralph-h-johnson> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ralph-hertwig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ralph-hertwig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ralph-hertwig> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
@@ -34555,6 +34657,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/replication-crisis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rule-against-conventionalist-stratagems> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/runs-test> .
@@ -34833,6 +34936,12 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/roth-2015-sunk-cost-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/cost-benefit-reasoning-training> .
   <https://github.com/john1hsu/critical-thinking-graph/id/roth-2015-sunk-cost-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/sunk-cost-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/roy-christenfeld-2007-memory-bias-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rudolf-carnap> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/possible-worlds-semantics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/ruggeri-2020-prospect-theory-replication> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/prospect-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rule-against-conventionalist-stratagems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -35659,6 +35768,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stephen-toulmin> .
   <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
@@ -35842,10 +35952,12 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prior-analytics> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/propositional-logic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stoic-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/truth-tree> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/venn-diagram-test> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/rsa-criteria> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/alfred-tarski> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hoc-hypothesis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/affirmative-conclusion-from-a-negative-premise> .

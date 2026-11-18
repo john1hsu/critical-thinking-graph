@@ -25163,6 +25163,108 @@
    ]
   },
   {
+   "@id": "ct:rsa-criteria",
+   "@type": "cto:Framework",
+   "cto:contrastsWith": {
+    "@id": "ct:validity"
+   },
+   "cto:detects": [
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:non-sequitur"
+    }
+   ],
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/rsa-criteria.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:j-anthony-blair"
+    },
+    {
+     "@id": "ct:ralph-h-johnson"
+    }
+   ],
+   "cto:introducedIn": {
+    "@id": "ct:logical-self-defense"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:informal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6"
+    }
+   ],
+   "rdfs:label": "RSA criteria",
+   "skos:altLabel": [
+    "ARS criteria",
+    "RAS criteria",
+    "RSA triangle",
+    "acceptability relevance and sufficiency",
+    "relevance sufficiency acceptability"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument-evaluation"
+   },
+   "skos:definition": "Johnson and Blair's three standards for a good argument, introduced in Logical Self-Defense (1977): each premise must be acceptable, each must be relevant to the conclusion, and together the premises must be sufficient to support it. A failure of any one marks a flawed or fallacious argument.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "RSA criteria",
+   "skos:related": [
+    {
+     "@id": "ct:cogency"
+    },
+    {
+     "@id": "ct:conductive-argument"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:non-sequitur"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ]
+  },
+  {
    "@id": "ct:rule-against-conventionalist-stratagems",
    "@type": "cto:Principle",
    "cto:challengedBy": {
@@ -56977,6 +57079,90 @@
    "dcterms:title": "Risk and uncertainty communication",
    "schema:url": {
     "@id": "https://www.repository.cam.ac.uk/handle/1810/260626"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "David Hitchcock, Informal Logic 34(1), 2014, pp. 94-123",
+   "dcterms:title": "Review of Groundwork in the Theory of Argumentation: Selected Papers of J. Anthony Blair",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-4120.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "David Hitchcock, Informal Logic 20(2), 2000, pp. 129-138",
+   "dcterms:title": "The Significance of Informal Logic for Philosophy",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2265.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "David Godden and Frank Zenker, Synthese (2016), author's copy on PhilArchive",
+   "dcterms:title": "A probabilistic analysis of argument cogency",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/GODAPA-5"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Takuzo Konishi, ISSA Proceedings 2010 (Rozenberg Quarterly)",
+   "dcterms:title": "Logically Defending for Publication: An Analysis of the Review Process of Logical Self-Defense",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/?p=7190"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "David Botting, Informal Logic 33(1), 2013, pp. 1-21",
+   "dcterms:title": "The Irrelevance of Relevance",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-3493.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/rsa-criteria/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "van Eemeren, Garssen, Krabbe, Snoeck Henkemans, Verheij and Wagemans, Springer, 2014",
+   "dcterms:title": "Informal Logic (chapter 7 of the Handbook of Argumentation Theory)",
+   "schema:url": {
+    "@id": "https://rd.springer.com/referenceworkentry/10.1007/978-90-481-9473-5_7"
    }
   },
   {

@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:non-sequitur` | cto:FormalFallacy |
 | `ct:survivorship-bias` | cto:CognitiveBias |
 
 ## Most useful remedies
@@ -48,7 +47,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
 | `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 
-…and 49 more.
+…and 50 more.
 
 ## Heuristic -> bias -> remedy chains
 
