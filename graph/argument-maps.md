@@ -626,6 +626,17 @@ flowchart TD
   o3["No comparison with teams still on the old tool, or with previous Aprils, was made."] -. attacks .-> ra
 ```
 
+## Probabilistic modus tollens (`ct:probabilistic-modus-tollens`)
+
+```mermaid
+flowchart TD
+  p1["If a support ticket comes from a paying customer, it very probably does not come from our single largest account."] --> ra{{"invalid"}}
+  p2["This ticket comes from our single largest account."] --> ra{{"invalid"}}
+  ra --> c["This ticket probably does not come from a paying customer."]
+  o1["The largest account is itself a paying customer, so the conclusion is certainly false even though both premises are true."] -. attacks .-> ra
+  o2["The first premise is true only because there are thousands of customers; rarity under the hypothesis says nothing about rarity under the alternatives."] -. attacks .-> ra
+```
+
 ## Prosecutor's fallacy (`ct:prosecutors-fallacy`)
 
 ```mermaid

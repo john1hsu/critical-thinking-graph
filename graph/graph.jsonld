@@ -23989,6 +23989,100 @@
    ]
   },
   {
+   "@id": "ct:probabilistic-modus-tollens",
+   "@type": "cto:FormalFallacy",
+   "cto:confusedWith": {
+    "@id": "ct:reductio-ad-absurdum"
+   },
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:inverse-fallacy"
+    },
+    {
+     "@id": "ct:likelihood-ratio"
+    }
+   ],
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map"
+   },
+   "cto:file": "articles/formal-fallacies/probabilistic-modus-tollens.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:modus-tollens"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:conditional-probability"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probabilistic-modus-tollens/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probabilistic-modus-tollens/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probabilistic-modus-tollens/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probabilistic-modus-tollens/s4"
+    }
+   ],
+   "rdfs:label": "Probabilistic modus tollens",
+   "skos:altLabel": [
+    "illusion of attaining improbability",
+    "illusion of probabilistic proof by contradiction",
+    "probabilistic proof by contradiction"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The invalid inference from \"if H, then E is very improbable\" and \"E occurred\" to \"H is probably false\". It copies the shape of modus tollens, but once the conditional is only probabilistic the conclusion no longer follows, and it underlies a common misreading of significance tests.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Probabilistic modus tollens",
+   "skos:related": [
+    {
+     "@id": "ct:denying-the-antecedent"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:inverse-fallacy"
+    },
+    {
+     "@id": "ct:jacob-cohen"
+    },
+    {
+     "@id": "ct:likelihood-ratio"
+    },
+    {
+     "@id": "ct:modus-tollens"
+    },
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:probabilistic-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:probability-theory",
    "@type": "cto:Field",
    "cto:appliedIn": {
@@ -37897,6 +37991,112 @@
    ],
    "aif:partOf": {
     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/post-hoc-ergo-propter-hoc/map"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:probabilistic-modus-tollens"
+   },
+   "rdfs:label": "Does the hypothesis actually rule out the observation, or does it only make it unlikely?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:probabilistic-modus-tollens"
+   },
+   "rdfs:label": "How probable would the same observation be under the most plausible rival hypothesis?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:probabilistic-modus-tollens"
+   },
+   "rdfs:label": "How plausible was the hypothesis before the observation, and has that prior been ignored?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:probabilistic-modus-tollens"
+   },
+   "rdfs:label": "Is a probability of the data given the hypothesis being reported as if it were the probability of the hypothesis given the data?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:probabilistic-modus-tollens"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "This ticket probably does not come from a paying customer."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The largest account is itself a paying customer, so the conclusion is certainly false even though both premises are true."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The first premise is true only because there are thousands of customers; rarity under the hypothesis says nothing about rarity under the alternatives."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "If a support ticket comes from a paying customer, it very probably does not come from our single largest account."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "This ticket comes from our single largest account."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map/p2"
+    }
+   ],
+   "aif:fulfilsScheme": {
+    "@id": "ct:modus-tollens"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/probabilistic-modus-tollens/map"
    }
   },
   {
@@ -57678,6 +57878,62 @@
    "dcterms:title": "Probability, statistics, and the likelihood ratio for non-experts: 4.16 Probabilities for propositions (prosecutor's fallacy)",
    "schema:url": {
     "@id": "https://lrcfs-ap2.dundee.ac.uk/lr_book/prosecutor-fallacy.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probabilistic-modus-tollens/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "American Psychologist 49(12), 997-1003 (Cohen, 1994)",
+   "dcterms:title": "The Earth is round (p < .05)",
+   "schema:url": {
+    "@id": "https://www.stat.cmu.edu/~brian/nynke/726-2007/726-402%20papers%20and%20projects/Cohen_AmerPsych_1994.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probabilistic-modus-tollens/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Theory & Psychology 5(1), 75-98 (Falk & Greenbaum, 1995), Hebrew University research portal",
+   "dcterms:title": "Significance tests die hard: The amazing persistence of a probabilistic misconception",
+   "schema:url": {
+    "@id": "https://cris.huji.ac.il/en/publications/significance-tests-die-hard-the-amazing-persistence-of-a-probabil/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probabilistic-modus-tollens/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "International Journal for Philosophy of Religion 52(2), 65-80 (Sober, 2002), author's copy hosted by the University of Illinois",
+   "dcterms:title": "Intelligent design and probability reasoning",
+   "schema:url": {
+    "@id": "https://courses.physics.illinois.edu/phys419/sp2011/lectures/Sober-Intelligent%20Design-27.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/probabilistic-modus-tollens/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Frontiers in Psychology 8, 1434 (Perezgonzalez, 2017)",
+   "dcterms:title": "Commentary: The need for Bayesian hypothesis testing in psychological science",
+   "schema:url": {
+    "@id": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.01434/full"
    }
   },
   {

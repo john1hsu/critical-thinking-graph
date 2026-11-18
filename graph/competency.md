@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:halo-effect` | cto:CognitiveBias |
+| `ct:probabilistic-modus-tollens` | cto:FormalFallacy |
 
 ## Most useful remedies
 
@@ -152,7 +153,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-major` | cto:FormalFallacy |
 | `ct:illicit-minor` | cto:FormalFallacy |
 
-…and 45 more.
+…and 46 more.
 
 ## Orphan articles (gap)
 

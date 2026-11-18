@@ -25694,6 +25694,108 @@
   ]
  },
  {
+  "id": "ct:probabilistic-modus-tollens",
+  "title": "Probabilistic modus tollens",
+  "aliases": [
+   "illusion of probabilistic proof by contradiction",
+   "illusion of attaining improbability",
+   "probabilistic proof by contradiction"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/probabilistic-modus-tollens.md",
+  "created": "2026-11-18",
+  "summary": "The invalid inference from \"if H, then E is very improbable\" and \"E occurred\" to \"H is probably false\". It copies the shape of modus tollens, but once the conditional is only probabilistic the conclusion no longer follows, and it underlies a common misreading of significance tests.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inverse-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:likelihood-ratio"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:probabilistic-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:denying-the-antecedent"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:jacob-cohen"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:modus-tollens"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:modus-tollens",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:reductio-ad-absurdum",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inverse-fallacy",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:likelihood-ratio",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the hypothesis actually rule out the observation, or does it only make it unlikely?",
+   "How probable would the same observation be under the most plausible rival hypothesis?",
+   "How plausible was the hypothesis before the observation, and has that prior been ignored?",
+   "Is a probability of the data given the hypothesis being reported as if it were the probability of the hypothesis given the data?"
+  ],
+  "source_urls": [
+   "https://www.stat.cmu.edu/~brian/nynke/726-2007/726-402%20papers%20and%20projects/Cohen_AmerPsych_1994.pdf",
+   "https://cris.huji.ac.il/en/publications/significance-tests-die-hard-the-amazing-persistence-of-a-probabil/",
+   "https://courses.physics.illinois.edu/phys419/sp2011/lectures/Sober-Intelligent%20Design-27.pdf",
+   "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.01434/full"
+  ]
+ },
+ {
   "id": "ct:probability-theory",
   "title": "Probability theory",
   "aliases": [
