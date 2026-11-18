@@ -13,6 +13,17 @@ flowchart TD
   o2["The comparison's numbers can be verified independently of who compiled them."] -. attacks .-> ra
 ```
 
+## Ad populum (`ct:ad-populum`)
+
+```mermaid
+flowchart TD
+  p1["Almost every team in the company has moved its project tracking to the new tool."] --> ra{{"fallacious"}}
+  p2["Nobody else is still using spreadsheets for this."] --> ra{{"fallacious"}}
+  ra --> c["So the new tool must be the best choice for our team's workflow, and we don't need to trial it first."]
+  o1["Other teams may have adopted it because it was the default or because a manager mandated it, not because they compared options."] -. attacks .-> ra
+  o2["Their workflows may differ from ours; whether it suits our work is a question a short trial can answer directly."] -. attacks .-> ra
+```
+
 ## Ad verecundiam (`ct:ad-verecundiam`)
 
 ```mermaid

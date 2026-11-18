@@ -432,6 +432,100 @@
    ]
   },
   {
+   "@id": "ct:ad-populum",
+   "@type": "cto:InformalFallacy",
+   "cto:contrastsWith": {
+    "@id": "ct:ad-verecundiam"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map"
+   },
+   "cto:exploits": {
+    "@id": "ct:bandwagon-effect"
+   },
+   "cto:file": "articles/informal-fallacies/ad-populum.md",
+   "cto:introducedBy": {
+    "@id": "ct:isaac-watts"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s6"
+    }
+   ],
+   "rdfs:label": "Ad populum",
+   "skos:altLabel": [
+    "appeal to common belief",
+    "appeal to popular opinion",
+    "appeal to popularity",
+    "appeal to the majority",
+    "appeal to the people",
+    "argumentum ad populum",
+    "bandwagon fallacy"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of treating the fact that many people, or most people, believe or do something as settling that it is true or right, when the popularity of the view gives little or no evidence for it in the case at hand.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Ad populum",
+   "skos:related": [
+    {
+     "@id": "ct:ad-verecundiam"
+    },
+    {
+     "@id": "ct:argument-from-expert-opinion"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:ignoratio-elenchi"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:presumption"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:ad-verecundiam",
    "@type": "cto:InformalFallacy",
    "cto:domain": "informal-fallacies",
@@ -31911,6 +32005,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-populum"
+   },
+   "rdfs:label": "Do most members of the group really hold this view, or is \"everyone\" an exaggeration or a badly measured poll?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-populum"
+   },
+   "rdfs:label": "Is the group in any special position to know whether the claim is true, or are they simply many?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-populum"
+   },
+   "rdfs:label": "Did the people in the group reach their view independently, or did they copy one another or one original source?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-populum"
+   },
+   "rdfs:label": "Is there other relevant evidence that the claim is false, and has popularity been used to avoid looking at it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:ad-populum"
+   },
+   "rdfs:label": "Is the question one that agreement actually settles, such as a convention, a vote or the meaning of a word, or is it a factual matter that agreement cannot make true?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:ad-populum"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the new tool must be the best choice for our team's workflow, and we don't need to trial it first."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Other teams may have adopted it because it was the default or because a manager mandated it, not because they compared options."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Their workflows may differ from ours; whether it suits our work is a question a short trial can answer directly."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Almost every team in the company has moved its project tracking to the new tool."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Nobody else is still using spreadsheets for this."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-populum/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/ad-verecundiam/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -38131,6 +38336,90 @@
    "dcterms:title": "Why there is no argumentum ad hominem fallacy",
    "schema:url": {
     "@id": "https://humanities.mcmaster.ca/%7Ehitchckd/adhominemissa.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hans Hansen, first published 2015; substantive revision 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Cambridge University Press (Douglas Walton, 2007), pp. 198-227",
+   "dcterms:title": "Arguments Based on Popular Opinion (ch. 6 of Media Argumentation: Dialectic, Persuasion and Rhetoric)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/media-argumentation/arguments-based-on-popular-opinion/C05340C2C7C778CCFE7D73091F321EFB"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Penn State University Press (Douglas Walton, 1998), publisher page",
+   "dcterms:title": "Appeal to Popular Opinion",
+   "schema:url": {
+    "@id": "https://www.psupress.org/books/titles/0-271-01818-6.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Argumentation in Context 9(3), 342-367 (Henrike Jansen, 2020), Leiden University repository",
+   "dcterms:title": "\"The people want it\": analysis and evaluation of the populist argument in the context of deliberation",
+   "schema:url": {
+    "@id": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3239684/view"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Thinking & Reasoning (Jos Hornikx, Adam J. L. Harris & Jordy Boekema, 2017), CORE open-access copy",
+   "dcterms:title": "How many laypeople holding a popular opinion are needed to counter an expert opinion?",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/111037698.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/ad-populum/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Lander University Philosophy (Lee C. Archie)",
+   "dcterms:title": "Argumentum ad Populum (Introduction to Logic)",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/popular.html"
    }
   },
   {

@@ -448,6 +448,107 @@
   ]
  },
  {
+  "id": "ct:ad-populum",
+  "title": "Ad populum",
+  "aliases": [
+   "argumentum ad populum",
+   "appeal to popularity",
+   "appeal to the people",
+   "appeal to the majority",
+   "appeal to popular opinion",
+   "bandwagon fallacy",
+   "appeal to common belief"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/ad-populum.md",
+  "created": "2026-11-18",
+  "summary": "The fallacy of treating the fact that many people, or most people, believe or do something as settling that it is true or right, when the popularity of the view gives little or no evidence for it in the case at hand.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-verecundiam"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-expert-opinion"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:presumption"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ignoratio-elenchi"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:ad-verecundiam",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:exploits",
+    "object": "ct:bandwagon-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:isaac-watts",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Do most members of the group really hold this view, or is \"everyone\" an exaggeration or a badly measured poll?",
+   "Is the group in any special position to know whether the claim is true, or are they simply many?",
+   "Did the people in the group reach their view independently, or did they copy one another or one original source?",
+   "Is there other relevant evidence that the claim is false, and has popularity been used to avoid looking at it?",
+   "Is the question one that agreement actually settles, such as a convention, a vote or the meaning of a word, or is it a factual matter that agreement cannot make true?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/fallacies/",
+   "https://www.cambridge.org/core/books/media-argumentation/arguments-based-on-popular-opinion/C05340C2C7C778CCFE7D73091F321EFB",
+   "https://www.psupress.org/books/titles/0-271-01818-6.html",
+   "https://scholarlypublications.universiteitleiden.nl/access/item%3A3239684/view",
+   "https://core.ac.uk/download/111037698.pdf",
+   "https://philosophy.lander.edu/logic/popular.html"
+  ]
+ },
+ {
   "id": "ct:ad-verecundiam",
   "title": "Ad verecundiam",
   "aliases": [
