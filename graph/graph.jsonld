@@ -16980,6 +16980,93 @@
    ]
   },
   {
+   "@id": "ct:linked-argument",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:argument-mapping"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:convergent-argument"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/linked-argument.md",
+   "cto:introducedBy": {
+    "@id": "ct:stephen-thomas"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:informal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s5"
+    }
+   ],
+   "rdfs:label": "Linked argument",
+   "skos:altLabel": [
+    "coordinate argumentation",
+    "dependent premises",
+    "dependent reasons",
+    "linked argumentation",
+    "linked premises",
+    "linked support"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument"
+   },
+   "skos:definition": "An argument structure in which two or more premises support the conclusion only in combination, each filling a gap the others leave, so that a single unacceptable premise can defeat the whole inference.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Linked argument",
+   "skos:related": [
+    {
+     "@id": "ct:argument-evaluation"
+    },
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:argument-reconstruction"
+    },
+    {
+     "@id": "ct:convergent-argument"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:enthymeme"
+    },
+    {
+     "@id": "ct:syllogism"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:logic",
    "@type": "cto:Field",
    "cto:domain": "philosophy-of-reasoning",
@@ -50549,6 +50636,76 @@
    "dcterms:title": "What is the best way to present likelihood ratios? A review of past research and recommendations for future research",
    "schema:url": {
     "@id": "https://research.aston.ac.uk/en/publications/what-is-the-best-way-to-present-likelihood-ratios-a-review-of-pas/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Informal Logic 35(1), 1-31 (David Hitchcock, 2015)",
+   "dcterms:title": "Freeman's Syntactic Criterion for Linkage",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-4234.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Informal Logic 13(3) (Robert J. Yanal, 1991)",
+   "dcterms:title": "Dependent and Independent Reasons",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2563.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Informal Logic 16(3) (Mark Vorobej, 1994)",
+   "dcterms:title": "The TRUE Test of Linkage",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2454.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "University of Toronto Press (Douglas Walton, 1996), Project MUSE book page",
+   "dcterms:title": "Argument Structure: A Pragmatic Theory",
+   "schema:url": {
+    "@id": "https://muse.jhu.edu/book/108197"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Dictionary of Argumentation, ICAR laboratory, CNRS / Université Lyon 2 (Christian Plantin, 2021)",
+   "dcterms:title": "Linked Argumentation",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/linked-argumentation-e/"
    }
   },
   {

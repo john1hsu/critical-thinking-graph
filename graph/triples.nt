@@ -7925,6 +7925,41 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/likelihood-ratio> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/likelihood-ratio.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/likelihood-ratio> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/likelihood-ratio> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2000/01/rdf-schema#label> "Linked argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "coordinate argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "dependent premises" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "dependent reasons" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "linked argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "linked premises" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "linked support" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#definition> "An argument structure in which two or more premises support the conclusion only in combination, each filling a gap the others leave, so that a single unacceptable premise can defeat the whole inference." .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#prefLabel> "Linked argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-reconstruction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/convergent-argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/enthymeme> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/syllogism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/toulmin-model> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/convergent-argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/foundations/linked-argument.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stephen-thomas> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://purl.org/dc/terms/created> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
 <https://github.com/john1hsu/critical-thinking-graph/id/logic> <http://www.w3.org/2000/01/rdf-schema#label> "Logic" .
@@ -17979,6 +18014,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/likelihood-ratio/s5> <https://schema.org/url> <https://research.aston.ac.uk/en/publications/what-is-the-best-way-to-present-likelihood-ratios-a-review-of-pas/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s1> <http://purl.org/dc/terms/publisher> "Informal Logic 35(1), 1-31 (David Hitchcock, 2015)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s1> <http://purl.org/dc/terms/title> "Freeman's Syntactic Criterion for Linkage" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s1> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-4234.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 13(3) (Robert J. Yanal, 1991)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s2> <http://purl.org/dc/terms/title> "Dependent and Independent Reasons" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2563.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s3> <http://purl.org/dc/terms/publisher> "Informal Logic 16(3) (Mark Vorobej, 1994)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s3> <http://purl.org/dc/terms/title> "The TRUE Test of Linkage" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s3> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2454.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s4> <http://purl.org/dc/terms/publisher> "University of Toronto Press (Douglas Walton, 1996), Project MUSE book page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s4> <http://purl.org/dc/terms/title> "Argument Structure: A Pragmatic Theory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s4> <https://schema.org/url> <https://muse.jhu.edu/book/108197> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s5> <http://purl.org/dc/terms/publisher> "Dictionary of Argumentation, ICAR laboratory, CNRS / Université Lyon 2 (Christian Plantin, 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s5> <http://purl.org/dc/terms/title> "Linked Argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/linked-argument/s5> <https://schema.org/url> <https://icar.cnrs.fr/dicoplantin/linked-argumentation-e/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Matthew McKeon, Michigan State University)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/logic/s1> <http://purl.org/dc/terms/title> "Logical Consequence" .

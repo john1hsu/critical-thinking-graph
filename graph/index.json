@@ -18261,6 +18261,99 @@
   ]
  },
  {
+  "id": "ct:linked-argument",
+  "title": "Linked argument",
+  "aliases": [
+   "linked premises",
+   "linked support",
+   "dependent premises",
+   "dependent reasons",
+   "coordinate argumentation",
+   "linked argumentation"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/linked-argument.md",
+  "created": "2026-11-18",
+  "summary": "An argument structure in which two or more premises support the conclusion only in combination, each filling a gap the others leave, so that a single unacceptable premise can defeat the whole inference.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:convergent-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-reconstruction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:syllogism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:enthymeme"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:toulmin-model"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:stephen-thomas",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:convergent-argument",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:argument-mapping",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://distantreader.org/stacks/journals/il/il-4234.pdf",
+   "https://distantreader.org/stacks/journals/il/il-2563.pdf",
+   "https://distantreader.org/stacks/journals/il/il-2454.pdf",
+   "https://muse.jhu.edu/book/108197",
+   "https://icar.cnrs.fr/dicoplantin/linked-argumentation-e/"
+  ]
+ },
+ {
   "id": "ct:logic",
   "title": "Logic",
   "aliases": [
