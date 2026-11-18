@@ -4651,6 +4651,105 @@
   ]
  },
  {
+  "id": "ct:brier-score",
+  "title": "Brier score",
+  "aliases": [
+   "Brier scoring rule",
+   "quadratic scoring rule",
+   "quadratic probability score"
+  ],
+  "type": "Concept",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/brier-score.md",
+  "created": "2026-11-18",
+  "summary": "A strictly proper scoring rule for probability forecasts: the mean squared difference between each forecast probability and the outcome coded 1 if the event happened and 0 if not. Zero is perfect and lower is better, so it rewards forecasters who are both well calibrated and discriminating.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:forecasting"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:proper-scoring-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:forecast-resolution"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:geopolitical-forecasting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:calibration-training"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:philip-tetlock"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:sarah-lichtenstein"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:proper-scoring-rule",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:glenn-brier",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:logarithmic-scoring-rule",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:weather-forecasting",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:geopolitical-forecasting",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://library.virginia.edu/data/articles/a-brief-on-brier-scores",
+   "https://apps.dtic.mil/sti/pdfs/ADA454828.pdf",
+   "https://ore.exeter.ac.uk/rest/bitstreams/141507/retrieve",
+   "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2015---the-psychology-of-intelligence-analysis.pdf"
+  ]
+ },
+ {
   "id": "ct:bright-line-rule",
   "title": "Bright-line rule",
   "aliases": [

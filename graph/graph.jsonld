@@ -4349,6 +4349,97 @@
    ]
   },
   {
+   "@id": "ct:brier-score",
+   "@type": "cto:Concept",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:geopolitical-forecasting"
+    },
+    {
+     "@id": "ct:weather-forecasting"
+    }
+   ],
+   "cto:contrastsWith": {
+    "@id": "ct:logarithmic-scoring-rule"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/probabilistic-reasoning/brier-score.md",
+   "cto:instanceOf": {
+    "@id": "ct:proper-scoring-rule"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:glenn-brier"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:probability-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4"
+    }
+   ],
+   "rdfs:label": "Brier score",
+   "skos:altLabel": [
+    "Brier scoring rule",
+    "quadratic probability score",
+    "quadratic scoring rule"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:forecasting"
+    },
+    {
+     "@id": "ct:proper-scoring-rule"
+    }
+   ],
+   "skos:definition": "A strictly proper scoring rule for probability forecasts: the mean squared difference between each forecast probability and the outcome coded 1 if the event happened and 0 if not. Zero is perfect and lower is better, so it rewards forecasters who are both well calibrated and discriminating.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Brier score",
+   "skos:related": [
+    {
+     "@id": "ct:actively-open-minded-thinking"
+    },
+    {
+     "@id": "ct:calibration"
+    },
+    {
+     "@id": "ct:calibration-training"
+    },
+    {
+     "@id": "ct:forecast-resolution"
+    },
+    {
+     "@id": "ct:geopolitical-forecasting"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    },
+    {
+     "@id": "ct:philip-tetlock"
+    },
+    {
+     "@id": "ct:sarah-lichtenstein"
+    }
+   ]
+  },
+  {
    "@id": "ct:bright-line-rule",
    "@type": "cto:Principle",
    "cto:appliedIn": {
@@ -41659,6 +41750,62 @@
    "dcterms:title": "Bounded rationality",
    "schema:url": {
     "@id": "https://britannica.com/topic/bounded-rationality"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "University of Virginia Library StatLab (Goldstein-Greenwood, 2021)",
+   "dcterms:title": "A Brief on Brier Scores",
+   "schema:url": {
+    "@id": "https://library.virginia.edu/data/articles/a-brief-on-brier-scores"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Gneiting & Raftery, Department of Statistics, University of Washington, 2005 (DTIC ADA454828); published in JASA 2007",
+   "dcterms:title": "Strictly Proper Scoring Rules, Prediction, and Estimation (Technical Report 463R)",
+   "schema:url": {
+    "@id": "https://apps.dtic.mil/sti/pdfs/ADA454828.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Quarterly Journal of the Royal Meteorological Society (Siegert), University of Exeter repository copy",
+   "dcterms:title": "Simplifying and generalising Murphy's Brier score decomposition",
+   "schema:url": {
+    "@id": "https://ore.exeter.ac.uk/rest/bitstreams/141507/retrieve"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Journal of Experimental Psychology: Applied 21(1) (Mellers, Stone, Atanasov et al., 2015), Wharton author copy",
+   "dcterms:title": "The Psychology of Intelligence Analysis: Drivers of Prediction Accuracy in World Politics",
+   "schema:url": {
+    "@id": "https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2015---the-psychology-of-intelligence-analysis.pdf"
    }
   },
   {

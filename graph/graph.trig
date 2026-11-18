@@ -2580,6 +2580,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/brier-score#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/brier-score#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
+<https://github.com/john1hsu/critical-thinking-graph/id/brier-score#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/probabilistic-reasoning/brier-score.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/brier-score#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/brier-score#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/brier-score#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/brier-score#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/calibration#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/calibration#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
 <https://github.com/john1hsu/critical-thinking-graph/id/calibration#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/probabilistic-reasoning/calibration.md" .
@@ -26116,6 +26123,66 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> <https://schema.org/url> <https://mixtape.scunning.com/03-directed_acyclical_graphs> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/brier-score#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2000/01/rdf-schema#label> "Brier score" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#altLabel> "Brier scoring rule" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#altLabel> "quadratic probability score" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#altLabel> "quadratic scoring rule" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/proper-scoring-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#definition> "A strictly proper scoring rule for probability forecasts: the mean squared difference between each forecast probability and the outcome coded 1 if the event happened and 0 if not. Zero is perfect and lower is better, so it rewards forecasters who are both well calibrated and discriminating." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#prefLabel> "Brier score" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration-training> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/forecast-resolution> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/weather-forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/logarithmic-scoring-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/brier-score.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/proper-scoring-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/glenn-brier> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1> <http://purl.org/dc/terms/publisher> "University of Virginia Library StatLab (Goldstein-Greenwood, 2021)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1> <http://purl.org/dc/terms/title> "A Brief on Brier Scores" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s1> <https://schema.org/url> <https://library.virginia.edu/data/articles/a-brief-on-brier-scores> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2> <http://purl.org/dc/terms/publisher> "Gneiting & Raftery, Department of Statistics, University of Washington, 2005 (DTIC ADA454828); published in JASA 2007" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2> <http://purl.org/dc/terms/title> "Strictly Proper Scoring Rules, Prediction, and Estimation (Technical Report 463R)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s2> <https://schema.org/url> <https://apps.dtic.mil/sti/pdfs/ADA454828.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3> <http://purl.org/dc/terms/publisher> "Quarterly Journal of the Royal Meteorological Society (Siegert), University of Exeter repository copy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3> <http://purl.org/dc/terms/title> "Simplifying and generalising Murphy's Brier score decomposition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s3> <https://schema.org/url> <https://ore.exeter.ac.uk/rest/bitstreams/141507/retrieve> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4> <http://purl.org/dc/terms/publisher> "Journal of Experimental Psychology: Applied 21(1) (Mellers, Stone, Atanasov et al., 2015), Wharton author copy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4> <http://purl.org/dc/terms/title> "The Psychology of Intelligence Analysis: Drivers of Prediction Accuracy in World Politics" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/brier-score/s4> <https://schema.org/url> <https://faculty.wharton.upenn.edu/wp-content/uploads/2015/07/2015---the-psychology-of-intelligence-analysis.pdf> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/calibration#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -29392,6 +29459,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-reflection-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
@@ -30531,10 +30599,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/breakstone-2021-online-course-lateral-reading-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/breakstone-2021-online-course-lateral-reading-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/breakstone-2021-online-course-lateral-reading-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/lateral-reading> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration-training> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/sarah-lichtenstein> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/proper-scoring-rule> .
   <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -30610,6 +30677,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-and-adjustment-heuristic> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/calibration-training> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
@@ -32636,8 +32704,11 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fong-krantz-nisbett-1986-statistical-training-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fong-krantz-nisbett-1986-statistical-training-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fong-krantz-nisbett-1986-statistical-training-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/forecast-resolution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/forecast-resolution> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
   <https://github.com/john1hsu/critical-thinking-graph/id/foreign-language-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-dialectic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> .
@@ -32895,6 +32966,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/technique-rebuttal> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/glenn-brier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/glenn-brier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/glenn-brier> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gneezy-potters-1997-evaluation-periods> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/broad-bracketing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/goal-framing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/gomilsek-2024-fermian-guesstimation-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
@@ -34092,6 +34166,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/list-2003-sportscard-market-experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/list-2003-sportscard-market-experiment> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> .
   <https://github.com/john1hsu/critical-thinking-graph/id/list-2011-exogenous-market-experience> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/trading-experience> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/logarithmic-scoring-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logic-and-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logic-and-conversation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/logic-and-conversation> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/conversational-implicature> .
@@ -34832,6 +34907,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/science> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/dunning-kruger-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/dunning-kruger-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
@@ -35426,6 +35502,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/behavioral-economics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/decision-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/decision-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/probability-theory> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
@@ -35455,6 +35532,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/pronin-lin-ross-2002-bias-blind-spot-studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pronin-lin-ross-2002-bias-blind-spot-studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/pronin-lin-ross-2002-bias-blind-spot-studies> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/bias-blind-spot> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/proper-scoring-rule> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/proper-scoring-rule> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/proper-scoring-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInstance> <https://github.com/john1hsu/critical-thinking-graph/id/brier-score> .
   <https://github.com/john1hsu/critical-thinking-graph/id/proposition> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/proposition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/proposition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/distribution-of-terms> .
