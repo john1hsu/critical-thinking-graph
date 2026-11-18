@@ -6,9 +6,7 @@ SPARQL queries in `queries/` run over the asserted graph, the OWL-RL inferences 
 
 _Which written biases, heuristics or fallacies have nothing in the graph that counteracts or detects them?_ — `queries/01-biases-without-remedy.rq`
 
-| node | type |
-|---|---|
-| `ct:survivorship-bias` | cto:CognitiveBias |
+_No results._
 
 ## Most useful remedies
 
@@ -44,10 +42,10 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
 | `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |
 | `ct:grade-approach` | 2 | Confounding, Publication bias |
+| `ct:heckman-correction` | 2 | Selection bias, Survivorship bias |
 | `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
-| `ct:mills-methods` | 2 | Post hoc ergo propter hoc, false-cause |
 
-…and 50 more.
+…and 51 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -104,7 +102,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 98 more.
+…and 99 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

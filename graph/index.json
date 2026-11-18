@@ -14538,6 +14538,93 @@
   ]
  },
  {
+  "id": "ct:heckman-correction",
+  "title": "Heckman correction",
+  "aliases": [
+   "Heckman two-step estimator",
+   "Heckit",
+   "Heckman selection model"
+  ],
+  "type": "Method",
+  "domain": "scientific-reasoning",
+  "level": "advanced",
+  "evidenceStatus": "mixed",
+  "file": "articles/scientific-reasoning/heckman-correction.md",
+  "created": "2026-11-18",
+  "summary": "A two-step statistical method for estimating a relationship from a non-randomly selected sample: first model the probability that a case is observed at all, then add a correction term (the inverse Mills ratio) to the outcome regression so the estimate accounts for who was filtered out.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:causal-inference"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:survivorship-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:random-sampling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:causal-diagrams"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:selection-bias",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:survivorship-bias",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:james-heckman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:puhani-2000-heckman-correction-critique",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:criminology",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.econometricsociety.org/publications/econometrica/1979/01/01/sample-selection-bias-specification-error",
+   "https://pages.stern.nyu.edu/~wgreene/Econometrics/Econometrics-I-19.pdf",
+   "https://ideas.repec.org/a/bla/jecsur/v14y2000i1p53-68.html",
+   "https://ccjs.umd.edu/sites/ccjs.umd.edu/files/pubs/HeckmanCorrection.pdf"
+  ]
+ },
+ {
   "id": "ct:herbert-simon",
   "title": "Herbert Simon",
   "aliases": [
