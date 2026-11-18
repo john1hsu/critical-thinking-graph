@@ -3763,6 +3763,92 @@
    ]
   },
   {
+   "@id": "ct:berksons-paradox",
+   "@type": "cto:Phenomenon",
+   "cto:appliedIn": [
+    {
+     "@id": "ct:causal-inference"
+    },
+    {
+     "@id": "ct:epidemiology"
+    }
+   ],
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/probabilistic-reasoning/berksons-paradox.md",
+   "cto:formalizedBy": {
+    "@id": "ct:causal-diagrams"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:joseph-berkson"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:conditional-probability"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6"
+    }
+   ],
+   "rdfs:label": "Berkson's paradox",
+   "skos:altLabel": [
+    "Berkson's bias",
+    "Berkson's fallacy",
+    "Berkson's selection bias",
+    "admission rate bias"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:selection-bias"
+    },
+    {
+     "@id": "ct:statistical-paradox"
+    }
+   ],
+   "skos:definition": "A spurious association between two traits that are independent in the population, which appears when the sample is selected on the basis of either trait (for example, only people admitted to hospital), because selection on a common effect of both links them inside the sample.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Berkson's paradox",
+   "skos:related": [
+    {
+     "@id": "ct:confounding"
+    },
+    {
+     "@id": "ct:correlation-versus-causation"
+    },
+    {
+     "@id": "ct:random-sampling"
+    },
+    {
+     "@id": "ct:simpsons-paradox"
+    },
+    {
+     "@id": "ct:survivorship-bias"
+    }
+   ]
+  },
+  {
    "@id": "ct:bias-blind-spot",
    "@type": "cto:CognitiveBias",
    "cto:demonstratedBy": {
@@ -40361,6 +40447,90 @@
    "dcterms:title": "How to Get Rid of the Belief Bias: Boosting Analytical Thinking via Pragmatics",
    "schema:url": {
     "@id": "https://ejop.psychopen.eu/index.php/ejop/article/view/1794"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Biometrics 2(3), 47-53 (Berkson, 1946), PubMed record 21001024",
+   "dcterms:title": "Limitations of the application of fourfold table analysis to hospital data",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/21001024/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "International Journal of Epidemiology 43(2), 515-521 (Snoep, Morabia, Hernández-Díaz, Hernán & Vandenbroucke, 2014), PubMed Central",
+   "dcterms:title": "Commentary: A structural approach to Berkson's fallacy and a guide to a history of opinions about it",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3997377"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Epidemiology 15(5), 615-625 (Hernán, Hernández-Díaz & Robins, 2004), PubMed record 15308962",
+   "dcterms:title": "A structural approach to selection bias",
+   "schema:url": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/15308962/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Catalogue of Bias, Centre for Evidence-Based Medicine, University of Oxford (Spencer, Aronson, Nunan & Heneghan)",
+   "dcterms:title": "Admission rate bias",
+   "schema:url": {
+    "@id": "https://catalogofbias.org/biases/admission-rate-bias/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Nature Communications 11, 2020 (Griffith, Morris, Tudball, ... Davies & Hemani), doi:10.1038/s41467-020-19478-2, RePEc/IDEAS record",
+   "dcterms:title": "Collider bias undermines our understanding of COVID-19 disease risk and severity",
+   "schema:url": {
+    "@id": "https://ideas.repec.org/a/nat/natcom/v11y2020i1d10.1038_s41467-020-19478-2.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Cunningham, Causal Inference - The Mixtape, online edition",
+   "dcterms:title": "Directed Acyclic Graphs (chapter 3 of Causal Inference: The Mixtape)",
+   "schema:url": {
+    "@id": "https://mixtape.scunning.com/03-directed_acyclical_graphs"
    }
   },
   {

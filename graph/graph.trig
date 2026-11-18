@@ -2513,6 +2513,15 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/probabilistic-reasoning/berksons-paradox.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> .
 <https://github.com/john1hsu/critical-thinking-graph/id/calibration#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/calibration#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
 <https://github.com/john1hsu/critical-thinking-graph/id/calibration#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/probabilistic-reasoning/calibration.md" .
@@ -25471,6 +25480,77 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/bayesian-reasoning/s5> <https://schema.org/url> <https://www.york.ac.uk/depts/maths/histstat/essay.htm> .
 }
 
+<https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2000/01/rdf-schema#label> "Berkson's paradox" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "Berkson's bias" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "Berkson's fallacy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "Berkson's selection bias" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#altLabel> "admission rate bias" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#definition> "A spurious association between two traits that are independent in the population, which appears when the sample is selected on the basis of either trait (for example, only people admitted to hospital), because selection on a common effect of both links them inside the sample." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#prefLabel> "Berkson's paradox" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "probabilistic-reasoning" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/probabilistic-reasoning/berksons-paradox.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/joseph-berkson> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> <http://purl.org/dc/terms/publisher> "Biometrics 2(3), 47-53 (Berkson, 1946), PubMed record 21001024" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> <http://purl.org/dc/terms/title> "Limitations of the application of fourfold table analysis to hospital data" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s1> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/21001024/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2> <http://purl.org/dc/terms/publisher> "International Journal of Epidemiology 43(2), 515-521 (Snoep, Morabia, Hernández-Díaz, Hernán & Vandenbroucke, 2014), PubMed Central" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2> <http://purl.org/dc/terms/title> "Commentary: A structural approach to Berkson's fallacy and a guide to a history of opinions about it" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC3997377> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3> <http://purl.org/dc/terms/publisher> "Epidemiology 15(5), 615-625 (Hernán, Hernández-Díaz & Robins, 2004), PubMed record 15308962" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3> <http://purl.org/dc/terms/title> "A structural approach to selection bias" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s3> <https://schema.org/url> <https://pubmed.ncbi.nlm.nih.gov/15308962/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4> <http://purl.org/dc/terms/publisher> "Catalogue of Bias, Centre for Evidence-Based Medicine, University of Oxford (Spencer, Aronson, Nunan & Heneghan)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4> <http://purl.org/dc/terms/title> "Admission rate bias" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s4> <https://schema.org/url> <https://catalogofbias.org/biases/admission-rate-bias/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5> <http://purl.org/dc/terms/publisher> "Nature Communications 11, 2020 (Griffith, Morris, Tudball, ... Davies & Hemani), doi:10.1038/s41467-020-19478-2, RePEc/IDEAS record" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5> <http://purl.org/dc/terms/title> "Collider bias undermines our understanding of COVID-19 disease risk and severity" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s5> <https://schema.org/url> <https://ideas.repec.org/a/nat/natcom/v11y2020i1d10.1038_s41467-020-19478-2.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> <http://purl.org/dc/terms/publisher> "Cunningham, Causal Inference - The Mixtape, online edition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> <http://purl.org/dc/terms/title> "Directed Acyclic Graphs (chapter 3 of Causal Inference: The Mixtape)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/berksons-paradox/s6> <https://schema.org/url> <https://mixtape.scunning.com/03-directed_acyclical_graphs> .
+}
+
 <https://github.com/john1hsu/critical-thinking-graph/id/calibration#graph> {
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://purl.org/dc/terms/created> "2026-11-08"^^<http://www.w3.org/2001/XMLSchema#date> .
   <https://github.com/john1hsu/critical-thinking-graph/id/calibration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -29744,9 +29824,17 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/benjamin-franklin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/benjamin-franklin> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bergman-moore-1991-mistrial-by-likelihood-ratio> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/lemperts-modeling-relevance> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
   <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
-  <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
   <https://github.com/john1hsu/critical-thinking-graph/id/berlin-numeracy-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/bertrand-russell> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-language> .
@@ -30052,6 +30140,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heckman-correction> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizes> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
@@ -30068,6 +30157,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/heckman-correction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
   <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/heckman-correction> .
@@ -30179,6 +30269,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/assumption> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognition> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/carroll-diagram> .
@@ -30475,6 +30566,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/abraham-de-moivre> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/base-rate-neglect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/calibration-training> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/calibration> .
   <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
@@ -30567,6 +30659,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/epidemiology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/confounding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/george-udny-yule> .
@@ -30705,6 +30798,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/confounding> .
   <https://github.com/john1hsu/critical-thinking-graph/id/correlation-versus-causation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> .
@@ -32671,6 +32765,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/causal-inference> .
   <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cogency> .
@@ -32995,6 +33090,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/jones-harris-1967-attitude-attribution-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jones-harris-1967-attitude-attribution-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/jones-harris-1967-attitude-attribution-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstrates> <https://github.com/john1hsu/critical-thinking-graph/id/fundamental-attribution-error> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/joseph-berkson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/joseph-berkson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/joseph-berkson> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/joseph-p-simmons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/joseph-p-simmons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
   <https://github.com/john1hsu/critical-thinking-graph/id/joseph-p-simmons> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
@@ -34869,6 +34967,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/scientific-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heckman-correction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/power-analysis> .
   <https://github.com/john1hsu/critical-thinking-graph/id/random-sampling> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
@@ -34946,6 +35045,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/assumption> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/availability-heuristic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/carroll-diagram> .
   <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
@@ -35441,7 +35541,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/austin-bradford-hill> .
   <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/causal-diagrams> .
@@ -35702,7 +35804,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/information-literacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/statistical-paradox> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-paradox> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/statistical-paradox> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-paradox> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/simpsons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning-training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -35736,6 +35840,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/regression-to-the-mean> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/researcher-degrees-of-freedom> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/contingency-table> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/heckman-correction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/null-hypothesis-significance-testing> .
@@ -35918,6 +36023,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-reasoning> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/berksons-paradox> .
   <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/heckman-correction> .
   <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/selection-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/survivorship-bias> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/heckman-correction> .

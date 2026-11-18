@@ -4031,6 +4031,90 @@
   ]
  },
  {
+  "id": "ct:berksons-paradox",
+  "title": "Berkson's paradox",
+  "aliases": [
+   "Berkson's bias",
+   "Berkson's fallacy",
+   "admission rate bias",
+   "Berkson's selection bias"
+  ],
+  "type": "Phenomenon",
+  "domain": "probabilistic-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/probabilistic-reasoning/berksons-paradox.md",
+  "created": "2026-11-18",
+  "summary": "A spurious association between two traits that are independent in the population, which appears when the sample is selected on the basis of either trait (for example, only people admitted to hospital), because selection on a common effect of both links them inside the sample.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:selection-bias"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:statistical-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:simpsons-paradox"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:confounding"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:survivorship-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:correlation-versus-causation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:random-sampling"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:conditional-probability"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:joseph-berkson",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:causal-diagrams",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:epidemiology",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:causal-inference",
+    "source": "s5",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pubmed.ncbi.nlm.nih.gov/21001024/",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC3997377",
+   "https://pubmed.ncbi.nlm.nih.gov/15308962/",
+   "https://catalogofbias.org/biases/admission-rate-bias/",
+   "https://ideas.repec.org/a/nat/natcom/v11y2020i1d10.1038_s41467-020-19478-2.html",
+   "https://mixtape.scunning.com/03-directed_acyclical_graphs"
+  ]
+ },
+ {
   "id": "ct:bias-blind-spot",
   "title": "Bias blind spot",
   "aliases": [
