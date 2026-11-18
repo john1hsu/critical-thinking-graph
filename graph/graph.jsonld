@@ -28995,6 +28995,95 @@
    ]
   },
   {
+   "@id": "ct:statistics",
+   "@type": "cto:Field",
+   "cto:appliedIn": {
+    "@id": "ct:scientific-method"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:statistical-reasoning"
+   },
+   "cto:domain": "probabilistic-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/probabilistic-reasoning/statistics.md",
+   "cto:formalizedBy": {
+    "@id": "ct:probability-theory"
+   },
+   "cto:influencedBy": {
+    "@id": "ct:ronald-fisher"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:probability-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistics/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistics/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistics/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistics/s4"
+    }
+   ],
+   "rdfs:label": "Statistics",
+   "skos:altLabel": [
+    "statistical science",
+    "the discipline of statistics"
+   ],
+   "skos:broader": {
+    "@id": "ct:mathematics"
+   },
+   "skos:definition": "The science of collecting, analysing, presenting and interpreting data: describing what a body of data shows and drawing inferences from samples to the populations or processes that produced them, with probability used to measure how far those inferences can be trusted.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/probabilistic-reasoning"
+   },
+   "skos:prefLabel": "Statistics",
+   "skos:related": [
+    {
+     "@id": "ct:forecasting"
+    },
+    {
+     "@id": "ct:hypothesis-testing"
+    },
+    {
+     "@id": "ct:karl-pearson"
+    },
+    {
+     "@id": "ct:null-hypothesis-significance-testing"
+    },
+    {
+     "@id": "ct:overfitting"
+    },
+    {
+     "@id": "ct:p-hacking"
+    },
+    {
+     "@id": "ct:probability-theory"
+    },
+    {
+     "@id": "ct:random-sampling"
+    },
+    {
+     "@id": "ct:replication-crisis"
+    },
+    {
+     "@id": "ct:statistical-literacy"
+    },
+    {
+     "@id": "ct:statistical-reasoning"
+    }
+   ]
+  },
+  {
    "@id": "ct:status-quo-bias",
    "@type": "cto:CognitiveBias",
    "cto:contrastsWith": {
@@ -61955,6 +62044,62 @@
    "dcterms:title": "Informal Conceptions of Probability",
    "schema:url": {
     "@id": "https://srri.umass.edu/sites/srri/files/Konold1989/index.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistics/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Encyclopaedia Britannica (The Editors of Encyclopaedia Britannica)",
+   "dcterms:title": "Statistics",
+   "schema:url": {
+    "@id": "https://www.britannica.com/science/statistics"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistics/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "Oliver and Boyd (R. A. Fisher, 1925), Classics in the History of Psychology, York University",
+   "dcterms:title": "Statistical Methods for Research Workers, Chapter 1: Introductory",
+   "schema:url": {
+    "@id": "https://psychclassics.yorku.ca/Fisher/Methods/chap1.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistics/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "International Statistical Review 67(3), 223-265 (Wild & Pfannkuch, 1999), University of Auckland IASE copy",
+   "dcterms:title": "Statistical Thinking in Empirical Enquiry",
+   "schema:url": {
+    "@id": "https://www.stat.auckland.ac.nz/~iase/publications/isr/99.Wild.Pfannkuch.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/statistics/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-18"
+   },
+   "dcterms:publisher": "The American Statistician 70(2), 129-133 (Wasserstein & Lazar, 2016), doi:10.1080/00031305.2016.1154108, UC Berkeley course copy",
+   "dcterms:title": "The ASA's Statement on p-Values: Context, Process, and Purpose",
+   "schema:url": {
+    "@id": "https://www.stat.berkeley.edu/%7Ealdous/Real_World/ASA_statement.pdf"
    }
   },
   {

@@ -31030,6 +31030,106 @@
   ]
  },
  {
+  "id": "ct:statistics",
+  "title": "Statistics",
+  "aliases": [
+   "statistical science",
+   "the discipline of statistics"
+  ],
+  "type": "Field",
+  "domain": "probabilistic-reasoning",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/probabilistic-reasoning/statistics.md",
+  "created": "2026-11-18",
+  "summary": "The science of collecting, analysing, presenting and interpreting data: describing what a body of data shows and drawing inferences from samples to the populations or processes that produced them, with probability used to measure how far those inferences can be trusted.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:mathematics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-literacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:null-hypothesis-significance-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hypothesis-testing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:random-sampling"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:p-hacking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:replication-crisis"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:karl-pearson"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:forecasting"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overfitting"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:probability-theory"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:probability-theory",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:ronald-fisher",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:scientific-method",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:statistical-reasoning",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.britannica.com/science/statistics",
+   "https://psychclassics.yorku.ca/Fisher/Methods/chap1.htm",
+   "https://www.stat.auckland.ac.nz/~iase/publications/isr/99.Wild.Pfannkuch.pdf",
+   "https://www.stat.berkeley.edu/%7Ealdous/Real_World/ASA_statement.pdf"
+  ]
+ },
+ {
   "id": "ct:status-quo-bias",
   "title": "Status quo bias",
   "aliases": [

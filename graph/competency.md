@@ -153,7 +153,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
 
-…and 47 more.
+…and 48 more.
 
 ## Orphan articles (gap)
 
