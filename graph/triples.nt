@@ -5167,6 +5167,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
 <https://github.com/john1hsu/critical-thinking-graph/id/evidence-based-medicine> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-medicine> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://purl.org/dc/terms/created> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#altLabel> "epistemic evidence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#altLabel> "evidence for a claim" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#altLabel> "evidential support" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#definition> "Whatever makes a claim more or less reasonable to believe: the observations, facts, testimony or other information that bear on whether a hypothesis is true, and to which a rational thinker proportions belief." .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#prefLabel> "Evidence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-from-ignorance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/burden-of-proof> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/evidentialism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hierarchy-of-evidence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/likelihood-ratio> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/testimony> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/analysis-of-competing-hypotheses> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/foundations/evidence.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/bayesian-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/david-hume> .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/evidence> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Are both premises negative, so that each one only says which things are excluded from the middle class?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/exclusive-premises> .
@@ -16696,6 +16729,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/evidence-based-medicine/s5> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/medicine/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s1> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Thomas Kelly, rev. 2014)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s1> <http://purl.org/dc/terms/title> "Evidence" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRiES/evidence/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s2> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s2> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Daniel M. Mittag)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s2> <http://purl.org/dc/terms/title> "Evidentialism" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s2> <https://schema.org/url> <https://iep.utm.edu/evidentialism/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s3> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s3> <http://purl.org/dc/terms/publisher> "David Hume (1748), Hume Texts Online (ed. Amyas Merivale and Peter Millican)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s3> <http://purl.org/dc/terms/title> "An Enquiry concerning Human Understanding, Section 10: Of Miracles" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s3> <https://schema.org/url> <https://davidhume.org/texts/e/10> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s4> <http://purl.org/dc/terms/date> "2026-11-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s4> <http://purl.org/dc/terms/publisher> "Richards J. Heuer Jr., CIA Center for the Study of Intelligence (1999)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s4> <http://purl.org/dc/terms/title> "Psychology of Intelligence Analysis (chapters 8 and 10)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/evidence/s4> <https://schema.org/url> <https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Internet Classics Archive, MIT" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/exclusive-premises/s1> <http://purl.org/dc/terms/title> "Prior Analytics, Book I (trans. A. J. Jenkinson)" .

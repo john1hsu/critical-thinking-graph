@@ -12222,6 +12222,103 @@
   ]
  },
  {
+  "id": "ct:evidence",
+  "title": "Evidence",
+  "aliases": [
+   "evidential support",
+   "epistemic evidence",
+   "evidence for a claim"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/evidence.md",
+  "created": "2026-11-18",
+  "summary": "Whatever makes a claim more or less reasonable to believe: the observations, facts, testimony or other information that bear on whether a hypothesis is true, and to which a rational thinker proportions belief.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:evidentialism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:testimony"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hierarchy-of-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:burden-of-proof"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:likelihood-ratio"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-from-ignorance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-perseverance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:david-hume"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:bayesian-reasoning",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:analysis-of-competing-hypotheses",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:david-hume",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRiES/evidence/",
+   "https://iep.utm.edu/evidentialism/",
+   "https://davidhume.org/texts/e/10",
+   "https://www.cia.gov/resources/csi/static/Pyschology-of-Intelligence-Analysis.pdf"
+  ]
+ },
+ {
   "id": "ct:evidence-based-medicine",
   "title": "Evidence-based medicine",
   "aliases": [

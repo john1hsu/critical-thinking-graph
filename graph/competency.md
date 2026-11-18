@@ -139,6 +139,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:distributive-collective-distinction` | cto:Technique |
 | `ct:educational-assessment` | cto:Field |
 | `ct:epidemiology` | cto:Field |
+| `ct:evidence` | cto:Concept |
 | `ct:existential-import` | cto:Concept |
 | `ct:exists-forall-to-forall-exists-inference` | cto:ReasoningForm |
 | `ct:explanation` | cto:Concept |
@@ -151,9 +152,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 | `ct:illicit-major` | cto:FormalFallacy |
-| `ct:illicit-minor` | cto:FormalFallacy |
 
-…and 46 more.
+…and 47 more.
 
 ## Orphan articles (gap)
 
