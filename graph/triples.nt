@@ -11287,6 +11287,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/problem-of-induction> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/philosophy-of-science> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2000/01/rdf-schema#label> "Process debriefing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#altLabel> "perseverance-process debriefing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#altLabel> "process debriefing procedure" .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#definition> "A correction procedure that, beyond retracting false information, explains to people how impressions formed from that information tend to persist after it is discredited, so that they can undo the leftover belief themselves." .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Process debriefing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/continued-influence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/miketta-friese-2019-ego-threat-debriefing-studies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ross-lepper-hubbard-1975-debriefing-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/process-debriefing.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/lee-ross> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/process-debriefing> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/greenspan-loftus-2022-enhanced-debriefing-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://purl.org/dc/terms/created> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/processing-fluency> <http://www.w3.org/2000/01/rdf-schema#label> "Processing fluency" .
@@ -21527,6 +21557,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/problem-of-induction/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/spr2019/entries/goodman/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s1> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 32(5), 880-892 (Ross, Lepper & Hubbard, 1975), BibBase record with abstract" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s1> <http://purl.org/dc/terms/title> "Perseverance in self-perception and social perception: Biased attributional processes in the debriefing paradigm" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s1> <https://schema.org/url> <https://bibbase.org/network/publication/ross-lepper-hubbard-perseveranceinselfperceptionandsocialperceptionbiasedattributionalprocessesinthedebriefingparadigm-1975> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s2> <http://purl.org/dc/terms/publisher> "Doctoral dissertation, Saarland University (Miketta, 2018)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s2> <http://purl.org/dc/terms/title> "The Perseverance of Adverse Experimental Effects After Post-Experimental Debriefings and Interventions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s2> <https://schema.org/url> <https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/27117/3/Dissertation_Stefanie-Miketta.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s3> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 117(2), 282-309 (Miketta & Friese, 2019), Saarland University repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s3> <http://purl.org/dc/terms/title> "Debriefed but still troubled? About the (in)effectiveness of postexperimental debriefings after ego threat" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s3> <https://schema.org/url> <https://publikationen.sulb.uni-saarland.de/handle/20.500.11880/29799?locale=en> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s4> <http://purl.org/dc/terms/publisher> "Memory & Cognition 50(4), 696-709 (Greenspan & Loftus, 2022), University of Mississippi eGrove" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s4> <http://purl.org/dc/terms/title> "What happens after debriefing? The effectiveness and benefits of postexperimental debriefing" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s4> <https://schema.org/url> <https://egrove.olemiss.edu/crimlegal_facpubs/7> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s5> <http://purl.org/dc/terms/publisher> "Memory & Cognition 52, 1079-1092 (Greene et al., 2024), Springer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s5> <http://purl.org/dc/terms/title> "Unringing the bell: Successful debriefing following a rich false memory study" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s5> <https://schema.org/url> <https://link.springer.com/article/10.3758/s13421-024-01524-9> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> <http://purl.org/dc/terms/publisher> "Trends in Cognitive Sciences 12(6), 237-241 (Oppenheimer, 2008), hosted copy at UNC Wilmington" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/processing-fluency/s1> <http://purl.org/dc/terms/title> "The secret life of fluency" .

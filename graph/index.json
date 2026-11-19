@@ -26596,6 +26596,95 @@
   ]
  },
  {
+  "id": "ct:process-debriefing",
+  "title": "Process debriefing",
+  "aliases": [
+   "process debriefing procedure",
+   "perseverance-process debriefing"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/process-debriefing.md",
+  "created": "2026-11-19",
+  "summary": "A correction procedure that, beyond retracting false information, explains to people how impressions formed from that information tend to persist after it is discredited, so that they can undo the leftover belief themselves.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-perseverance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:continued-influence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:belief-perseverance"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:belief-perseverance",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:lee-ross",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:ross-lepper-hubbard-1975-debriefing-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:misinformation-effect",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:greenspan-loftus-2022-enhanced-debriefing-study",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:miketta-friese-2019-ego-threat-debriefing-studies",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://bibbase.org/network/publication/ross-lepper-hubbard-perseveranceinselfperceptionandsocialperceptionbiasedattributionalprocessesinthedebriefingparadigm-1975",
+   "https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/27117/3/Dissertation_Stefanie-Miketta.pdf",
+   "https://publikationen.sulb.uni-saarland.de/handle/20.500.11880/29799?locale=en",
+   "https://egrove.olemiss.edu/crimlegal_facpubs/7",
+   "https://link.springer.com/article/10.3758/s13421-024-01524-9"
+  ]
+ },
+ {
   "id": "ct:processing-fluency",
   "title": "Processing fluency",
   "aliases": [

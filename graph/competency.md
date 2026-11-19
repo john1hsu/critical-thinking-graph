@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:belief-perseverance` | cto:CognitiveBias |
 | `ct:fallacies-of-relevance` | cto:InformalFallacy |
 | `ct:fallacy-of-accident` | cto:InformalFallacy |
 | `ct:halo-effect` | cto:CognitiveBias |
@@ -51,7 +50,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:heckman-correction` | 2 | Selection bias, Survivorship bias |
 | `ct:intellectual-humility` | 2 | Myside bias, Overconfidence effect |
 
-…and 53 more.
+…and 54 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -109,7 +108,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 103 more.
+…and 104 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

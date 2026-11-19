@@ -24818,6 +24818,88 @@
    ]
   },
   {
+   "@id": "ct:process-debriefing",
+   "@type": "cto:Technique",
+   "cto:challengedBy": {
+    "@id": "ct:miketta-friese-2019-ego-threat-debriefing-studies"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:belief-perseverance"
+    },
+    {
+     "@id": "ct:misinformation-effect"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:ross-lepper-hubbard-1975-debriefing-study"
+   },
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/process-debriefing.md",
+   "cto:introducedBy": {
+    "@id": "ct:lee-ross"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:belief-perseverance"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:greenspan-loftus-2022-enhanced-debriefing-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s5"
+    }
+   ],
+   "rdfs:label": "Process debriefing",
+   "skos:altLabel": [
+    "perseverance-process debriefing",
+    "process debriefing procedure"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A correction procedure that, beyond retracting false information, explains to people how impressions formed from that information tend to persist after it is discredited, so that they can undo the leftover belief themselves.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Process debriefing",
+   "skos:related": [
+    {
+     "@id": "ct:belief-perseverance"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:continued-influence-effect"
+    },
+    {
+     "@id": "ct:debunking"
+    },
+    {
+     "@id": "ct:prebunking"
+    }
+   ]
+  },
+  {
    "@id": "ct:processing-fluency",
    "@type": "cto:Phenomenon",
    "cto:challengedBy": {
@@ -59318,6 +59400,76 @@
    "dcterms:title": "Nelson Goodman",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/spr2019/entries/goodman/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 32(5), 880-892 (Ross, Lepper & Hubbard, 1975), BibBase record with abstract",
+   "dcterms:title": "Perseverance in self-perception and social perception: Biased attributional processes in the debriefing paradigm",
+   "schema:url": {
+    "@id": "https://bibbase.org/network/publication/ross-lepper-hubbard-perseveranceinselfperceptionandsocialperceptionbiasedattributionalprocessesinthedebriefingparadigm-1975"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Doctoral dissertation, Saarland University (Miketta, 2018)",
+   "dcterms:title": "The Perseverance of Adverse Experimental Effects After Post-Experimental Debriefings and Interventions",
+   "schema:url": {
+    "@id": "https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/27117/3/Dissertation_Stefanie-Miketta.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 117(2), 282-309 (Miketta & Friese, 2019), Saarland University repository",
+   "dcterms:title": "Debriefed but still troubled? About the (in)effectiveness of postexperimental debriefings after ego threat",
+   "schema:url": {
+    "@id": "https://publikationen.sulb.uni-saarland.de/handle/20.500.11880/29799?locale=en"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Memory & Cognition 50(4), 696-709 (Greenspan & Loftus, 2022), University of Mississippi eGrove",
+   "dcterms:title": "What happens after debriefing? The effectiveness and benefits of postexperimental debriefing",
+   "schema:url": {
+    "@id": "https://egrove.olemiss.edu/crimlegal_facpubs/7"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/process-debriefing/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Memory & Cognition 52, 1079-1092 (Greene et al., 2024), Springer",
+   "dcterms:title": "Unringing the bell: Successful debriefing following a rich false memory study",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.3758/s13421-024-01524-9"
    }
   },
   {

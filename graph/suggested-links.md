@@ -17,7 +17,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.41 | `ct:method-of-counterexample` | `ct:propositional-logic` | `ct:affirming-the-consequent`, `ct:commutation-of-conditionals`, `ct:deductive-reasoning`, `ct:denying-a-conjunct`, `ct:formal-logic` |
 | 4.34 | `ct:illicit-conversion` | `ct:venn-diagram-test` | `ct:categorical-proposition`, `ct:distribution-of-terms`, `ct:euler-diagram`, `ct:existential-import`, `ct:formal-fallacy` |
 | 4.16 | `ct:argument` | `ct:hasty-generalization` | `ct:ad-populum`, `ct:argument-from-analogy`, `ct:defeasible-reasoning`, `ct:fallacy-of-accident`, `ct:fallacy-of-composition` |
-| 4.11 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
+| 4.10 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
 | 4.03 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
 | 3.99 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 3.95 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
@@ -25,7 +25,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 3.73 | `ct:method-of-counterexample` | `ct:square-of-opposition` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 3.72 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
 | 3.72 | `ct:antilogism` | `ct:existential-fallacy` | `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises`, `ct:existential-import`, `ct:illicit-major` |
-| 3.71 | `ct:cognitive-bias` | `ct:consider-the-opposite` | `ct:anchoring-effect`, `ct:availability-heuristic`, `ct:belief-perseverance`, `ct:biased-assimilation`, `ct:confirmation-bias` |
 | 3.71 | `ct:square-of-opposition` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:existential-fallacy` |
 | 3.71 | `ct:informal-fallacy` | `ct:presumption` | `ct:ad-populum`, `ct:ad-verecundiam`, `ct:argument`, `ct:argument-evaluation`, `ct:argument-from-expert-opinion` |
+| 3.70 | `ct:cognitive-bias` | `ct:consider-the-opposite` | `ct:anchoring-effect`, `ct:availability-heuristic`, `ct:belief-perseverance`, `ct:biased-assimilation`, `ct:confirmation-bias` |
 | 3.58 | `ct:gerd-gigerenzer` | `ct:heuristic` | `ct:bounded-rationality`, `ct:cognitive-bias`, `ct:dual-process-theory`, `ct:ecological-rationality`, `ct:fast-and-frugal-heuristics` |
