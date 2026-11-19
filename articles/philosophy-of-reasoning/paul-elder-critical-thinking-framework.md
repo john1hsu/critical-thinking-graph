@@ -13,7 +13,7 @@ summary: >-
 level: introductory
 evidenceStatus: normative
 broader: [ct:critical-thinking]
-related: [ct:socratic-method, ct:delphi-report-on-critical-thinking, ct:thinking-dispositions, ct:critical-thinking-education, ct:metacognition]
+related: [ct:socratic-method, ct:delphi-report-on-critical-thinking, ct:thinking-dispositions, ct:critical-thinking-education, ct:metacognition, ct:intellectual-humility]
 requires: [ct:argument]
 relations:
   - {predicate: introducedBy, object: ct:richard-paul, source: s2, confidence: high}

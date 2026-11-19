@@ -7871,6 +7871,38 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-under-uncertainty-heuristics-and-biases> .
 <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/representativeness-heuristic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Disposition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2000/01/rdf-schema#label> "Intellectual humility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#altLabel> "IH" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#altLabel> "epistemic humility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/virtue-epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#definition> "An intellectual virtue and measurable trait: being properly attentive to, and owning, the limits of one's knowledge and the possibility that one's beliefs are wrong, without sliding into either intellectual arrogance or self-effacing servility." .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#prefLabel> "Intellectual humility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/actively-open-minded-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/belief-perseverance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/need-for-cognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/virtue-argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/dogmatism> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/leary-2017-intellectual-humility-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/porter-schumann-2018-opposing-view-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "debiasing-and-metacognition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/debiasing-and-metacognition/intellectual-humility.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
 <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> <http://www.w3.org/2000/01/rdf-schema#label> "Intelligence analysis" .
@@ -9993,6 +10025,7 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paul–Elder critical thinking framework" .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/critical-thinking-education> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> .
+<https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/metacognition> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> .
 <https://github.com/john1hsu/critical-thinking-graph/id/paul-elder-critical-thinking-framework> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/thinking-dispositions> .
@@ -18605,6 +18638,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/insensitivity-to-sample-size/s5> <https://schema.org/url> <https://rr.peercommunityin.org/articles/rec?id=410> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s1> <http://purl.org/dc/terms/publisher> "Philosophy and Phenomenological Research (Whitcomb, Battaly, Baehr & Howard-Snyder, 2015; author's copy on PhilArchive)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s1> <http://purl.org/dc/terms/title> "Intellectual Humility: Owning Our Limitations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s1> <https://schema.org/url> <https://philarchive.org/archive/WHIIHO-3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s2> <http://purl.org/dc/terms/publisher> "Nature Reviews Psychology 1(9), 524-536 (Porter, Elnakouri, Meyers, Shibayama, Jayawickreme & Grossmann, 2022), PubMed Central" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s2> <http://purl.org/dc/terms/title> "Predictors and consequences of intellectual humility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s2> <https://schema.org/url> <https://pmc.ncbi.nlm.nih.gov/articles/PMC9244574> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s3> <http://purl.org/dc/terms/publisher> "Personality and Social Psychology Bulletin 43(6) (Leary, Diebels, Davisson, Jongman-Sereno, Isherwood, Raimi, Deffler & Hoyle, 2017), DukeSpace repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s3> <http://purl.org/dc/terms/title> "Cognitive and Interpersonal Features of Intellectual Humility" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s3> <https://schema.org/url> <https://dukespace.lib.duke.edu/server/api/core/bitstreams/c55d87f1-2f28-408d-9f2c-efbc4da85990/content> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s4> <http://purl.org/dc/terms/publisher> "Self and Identity 17(2), 139-162 (Porter & Schumann, 2018), Rowan University research portal" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s4> <http://purl.org/dc/terms/title> "Intellectual humility and openness to the opposing view" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/intellectual-humility/s4> <https://schema.org/url> <https://www.researchwithrowan.com/en/publications/intellectual-humility-and-openness-to-the-opposing-view/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> <http://purl.org/dc/terms/publisher> "Richards J. Heuer, Jr. (1999), Center for the Study of Intelligence, Central Intelligence Agency" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/intelligence-analysis/s1> <http://purl.org/dc/terms/title> "Psychology of Intelligence Analysis" .

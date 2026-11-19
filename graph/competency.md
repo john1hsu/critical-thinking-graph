@@ -49,9 +49,9 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |
 | `ct:grade-approach` | 2 | Confounding, Publication bias |
 | `ct:heckman-correction` | 2 | Selection bias, Survivorship bias |
-| `ct:method-of-counterexample` | 2 | Affirming the consequent, Denying the antecedent |
+| `ct:intellectual-humility` | 2 | Myside bias, Overconfidence effect |
 
-…and 52 more.
+…and 53 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -65,6 +65,7 @@ _For each heuristic, which biases can it produce and what counteracts them?_ —
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:calibration-training` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:consider-the-opposite` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:debiasing` |
+| `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:intellectual-humility` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:premortem` |
 | `ct:availability-heuristic` | `ct:illusory-correlation` |  |
 | `ct:peak-end-rule` | `ct:duration-neglect` | `ct:day-reconstruction-method` |
@@ -108,7 +109,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 102 more.
+…and 103 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -156,7 +157,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 
-…and 49 more.
+…and 50 more.
 
 ## Orphan articles (gap)
 

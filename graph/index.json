@@ -17909,6 +17909,108 @@
   ]
  },
  {
+  "id": "ct:intellectual-humility",
+  "title": "Intellectual humility",
+  "aliases": [
+   "epistemic humility",
+   "IH"
+  ],
+  "type": "Disposition",
+  "domain": "debiasing-and-metacognition",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/intellectual-humility.md",
+  "created": "2026-11-19",
+  "summary": "An intellectual virtue and measurable trait: being properly attentive to, and owning, the limits of one's knowledge and the possibility that one's beliefs are wrong, without sliding into either intellectual arrogance or self-effacing servility.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:thinking-dispositions"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:virtue-epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:actively-open-minded-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:need-for-cognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-perseverance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:virtue-argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:paul-elder-critical-thinking-framework"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:metacognition"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:myside-bias",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:overconfidence-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:dogmatism",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:leary-2017-intellectual-humility-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:porter-schumann-2018-opposing-view-study",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:epistemology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://philarchive.org/archive/WHIIHO-3",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9244574",
+   "https://dukespace.lib.duke.edu/server/api/core/bitstreams/c55d87f1-2f28-408d-9f2c-efbc4da85990/content",
+   "https://www.researchwithrowan.com/en/publications/intellectual-humility-and-openness-to-the-opposing-view/"
+  ]
+ },
+ {
   "id": "ct:intelligence-analysis",
   "title": "Intelligence analysis",
   "aliases": [
@@ -23138,6 +23240,10 @@
    {
     "predicate": "skos:related",
     "object": "ct:metacognition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:intellectual-humility"
    },
    {
     "predicate": "cto:requires",
