@@ -8401,6 +8401,89 @@
    ]
   },
   {
+   "@id": "ct:debunking",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:prebunking"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:continued-influence-effect"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:chan-2017-debunking-meta-analysis"
+   },
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/evidence-and-information-literacy/debunking.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:misinformation-and-disinformation"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/debunking/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/debunking/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/debunking/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/debunking/s4"
+    }
+   ],
+   "rdfs:label": "Debunking",
+   "skos:altLabel": [
+    "correcting misinformation",
+    "misinformation correction",
+    "refutation of misinformation"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "Correcting a false or misleading claim after people have already met it, by pairing the claim with a refutation that explains why it is wrong and, ideally, supplies a plausible factual alternative to fill the gap it leaves.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Debunking",
+   "skos:related": [
+    {
+     "@id": "ct:belief-perseverance"
+    },
+    {
+     "@id": "ct:illusory-truth-effect"
+    },
+    {
+     "@id": "ct:misinformation-and-disinformation"
+    },
+    {
+     "@id": "ct:motivated-reasoning"
+    },
+    {
+     "@id": "ct:prebunking"
+    },
+    {
+     "@id": "ct:processing-fluency"
+    },
+    {
+     "@id": "ct:source-credibility"
+    },
+    {
+     "@id": "ct:technique-rebuttal"
+    }
+   ]
+  },
+  {
    "@id": "ct:decision-analysis",
    "@type": "cto:Method",
    "cto:challengedBy": {
@@ -46982,6 +47065,62 @@
    "dcterms:title": "Systematic review and meta-analysis of educational approaches to reduce cognitive biases among students",
    "schema:url": {
     "@id": "https://figshare.le.ac.uk/articles/journal_contribution/Systematic_review_and_meta-analysis_of_educational_approaches_to_reduce_cognitive_biases_among_students/30208108"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/debunking/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Nature Reviews Psychology 1, 13–29 (Ecker, Lewandowsky, Cook, Schmid, Fazio, Brashier, Kendeou, Vraga & Amazeen, 2022), CORE open-access copy",
+   "dcterms:title": "The psychological drivers of misinformation belief and its resistance to correction",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/492596514.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/debunking/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Annenberg Public Policy Center, University of Pennsylvania, summarising Chan, Jones, Hall Jamieson & Albarracín (2017), Psychological Science",
+   "dcterms:title": "Debunking: A Meta-Analysis of the Psychological Efficacy of Messages Countering Misinformation (press release)",
+   "schema:url": {
+    "@id": "https://www.annenbergpublicpolicycenter.org/?p=60910"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/debunking/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Journal of Applied Research in Memory and Cognition 9, 286–299 (Swire-Thompson, DeGutis & Lazer, 2020), Boston University author copy",
+   "dcterms:title": "Searching for the Backfire Effect: Measurement and Design Considerations",
+   "schema:url": {
+    "@id": "https://www.bu.edu/ballab/pubs/swire-thompson2020.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/debunking/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Lewandowsky, Cook & Ecker (2020), Climate Social Science Network",
+   "dcterms:title": "Under the Hood of The Debunking Handbook 2020: A consensus-based handbook of recommendations for correcting or preventing misinformation",
+   "schema:url": {
+    "@id": "https://cssn.org/wp-content/uploads/2020/10/DB2020paper-1.pdf"
    }
   },
   {

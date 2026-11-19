@@ -19,7 +19,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.30 | `ct:illicit-conversion` | `ct:venn-diagram-test` | `ct:categorical-proposition`, `ct:distribution-of-terms`, `ct:euler-diagram`, `ct:existential-import`, `ct:formal-fallacy` |
 | 4.16 | `ct:argument` | `ct:hasty-generalization` | `ct:ad-populum`, `ct:argument-from-analogy`, `ct:defeasible-reasoning`, `ct:fallacy-of-accident`, `ct:fallacy-of-composition` |
 | 4.11 | `ct:method-of-counterexample` | `ct:square-of-opposition` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:existential-fallacy`, `ct:formal-logic` |
-| 4.09 | `ct:cognitive-bias` | `ct:consider-the-opposite` | `ct:anchoring-effect`, `ct:availability-heuristic`, `ct:belief-perseverance`, `ct:biased-assimilation`, `ct:confirmation-bias` |
+| 4.08 | `ct:cognitive-bias` | `ct:consider-the-opposite` | `ct:anchoring-effect`, `ct:availability-heuristic`, `ct:belief-perseverance`, `ct:biased-assimilation`, `ct:confirmation-bias` |
 | 4.06 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
 | 4.03 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
 | 3.98 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |

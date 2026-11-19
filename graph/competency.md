@@ -45,12 +45,12 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
 | `ct:day-reconstruction-method` | 2 | Peak-end rule, duration-neglect |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
+| `ct:debunking` | 2 | Misinformation and disinformation, continued-influence-effect |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
 | `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |
-| `ct:grade-approach` | 2 | Confounding, Publication bias |
 
-…and 56 more.
+…and 57 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -109,7 +109,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 105 more.
+…and 106 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -134,6 +134,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:causal-inference` | cto:Field |
 | `ct:conditional-reasoning-training` | cto:Technique |
 | `ct:correlation-versus-causation` | cto:Principle |
+| `ct:debunking` | cto:Technique |
 | `ct:decision-theory` | cto:Field |
 | `ct:deepfake` | cto:Phenomenon |
 | `ct:definition` | cto:Concept |
@@ -155,9 +156,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:formal-modeling` | cto:Method |
 | `ct:grade-approach` | cto:Framework |
 | `ct:illicit-contraposition` | cto:FormalFallacy |
-| `ct:illicit-conversion` | cto:FormalFallacy |
 
-…and 52 more.
+…and 53 more.
 
 ## Orphan articles (gap)
 

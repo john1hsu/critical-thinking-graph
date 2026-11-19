@@ -9016,6 +9016,95 @@
   ]
  },
  {
+  "id": "ct:debunking",
+  "title": "Debunking",
+  "aliases": [
+   "misinformation correction",
+   "correcting misinformation",
+   "refutation of misinformation"
+  ],
+  "type": "Technique",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/evidence-and-information-literacy/debunking.md",
+  "created": "2026-11-19",
+  "summary": "Correcting a false or misleading claim after people have already met it, by pairing the claim with a refutation that explains why it is wrong and, ideally, supplies a plausible factual alternative to fill the gap it leaves.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:technique-rebuttal"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-perseverance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illusory-truth-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:processing-fluency"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:motivated-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:misinformation-and-disinformation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:continued-influence-effect",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:chan-2017-debunking-meta-analysis",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:prebunking",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://core.ac.uk/download/492596514.pdf",
+   "https://www.annenbergpublicpolicycenter.org/?p=60910",
+   "https://www.bu.edu/ballab/pubs/swire-thompson2020.pdf",
+   "https://cssn.org/wp-content/uploads/2020/10/DB2020paper-1.pdf"
+  ]
+ },
+ {
   "id": "ct:decision-analysis",
   "title": "Decision analysis",
   "aliases": [
