@@ -711,6 +711,13 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s2> .
 <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s3> .
 <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/decision-making/mediating-assessments-protocol.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/decision-making/premortem.md" .
@@ -9077,6 +9084,68 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/key-assumptions-check/s4> <https://schema.org/url> <https://frontiersin.org/article/10.3389/fpsyg.2018.02640/full> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Technique> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2000/01/rdf-schema#label> "Mediating assessments protocol" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "Kahneman-Lovallo-Sibony protocol" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "MAP" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "mediating assessments" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "mediating-assessments protocol" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#definition> "A structured decision procedure from Kahneman, Lovallo and Sibony (2019) that breaks a complex judgment into a few attributes defined in advance, has each one assessed separately and on the facts, and holds back the overall, intuitive verdict until every assessment is in, to curb halo effects, premature coherence and noise." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mediating assessments protocol" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/noise-in-judgment> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/mediating-assessments-protocol.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/a-structured-approach-to-strategic-decisions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/kuncel-2013-mechanical-versus-holistic-meta-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1> <http://purl.org/dc/terms/publisher> "MIT Sloan Management Review 60(3), 67-73 (Daniel Kahneman, Dan Lovallo & Olivier Sibony, Spring 2019)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1> <http://purl.org/dc/terms/title> "A Structured Approach to Strategic Decisions" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1> <https://schema.org/url> <https://sloanreview.mit.edu/article/a-structured-approach-to-strategic-decisions/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2> <http://purl.org/dc/terms/publisher> "Sydney Business Insights, University of Sydney Business School (12 May 2019; interview with Dan Lovallo)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2> <http://purl.org/dc/terms/title> "Making better decisions every time" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2> <https://schema.org/url> <https://sbi.sydney.edu.au/making-better-decisions-every-time/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3> <http://purl.org/dc/terms/publisher> "Journal of Applied Psychology 98(6), 1060-1072 (Kuncel, Klieger, Connelly & Ones, 2013); University of Minnesota course reading copy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3> <http://purl.org/dc/terms/title> "Mechanical versus clinical data combination in selection and admissions decisions: A meta-analysis" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3> <https://schema.org/url> <https://goal-lab.psych.umn.edu/orgpsych/readings/12.%20Judgment%20&%20Decision%20Making/Kuncel,%20Klieger,%20Connelly%20&%20Ones%20(2013).pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4> <http://purl.org/dc/terms/publisher> "McKinsey Quarterly (Tim Koller, Dan Lovallo & Phil Rosenzweig, 6 November 2019)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4> <http://purl.org/dc/terms/title> "Bias Busters: Avoiding snap judgments" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "news" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4> <https://schema.org/url> <https://mckinsey.de/capabilities/strategy-and-corporate-finance/our-insights/bias-busters-avoiding-snap-judgments> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/premortem#graph> {
@@ -30517,6 +30586,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/a-behavioral-model-of-rational-choice> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/bounded-rationality> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-counterexample-to-modus-ponens> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/modus-ponens> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-counterexample-to-modus-tollens> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/modus-tollens> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/a-structured-approach-to-strategic-decisions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/a-structured-approach-to-strategic-decisions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/a-structured-approach-to-strategic-decisions> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-system-of-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-system-of-logic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/a-system-of-logic> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduces> <https://github.com/john1hsu/critical-thinking-graph/id/mills-methods> .
@@ -30845,6 +30917,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/selective-accessibility-model> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/anchoring-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
@@ -32296,6 +32369,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
@@ -32771,6 +32845,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/insensitivity-to-sample-size> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/peak-end-rule> .
   <https://github.com/john1hsu/critical-thinking-graph/id/daniel-kahneman> <https://github.com/john1hsu/critical-thinking-graph/ontology#introduced> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
@@ -32862,6 +32937,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
@@ -32888,6 +32964,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/prebunking> .
@@ -33079,6 +33156,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/expert-elicitation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/delphi-report-on-critical-thinking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/blooms-taxonomy> .
@@ -34249,6 +34327,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argumentative-theory-of-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pope-sixtus-v> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
@@ -34273,6 +34352,8 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
   <https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/science> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/halo-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hamblins-fallacies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hamblins-fallacies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Work> .
   <https://github.com/john1hsu/critical-thinking-graph/id/hamblins-fallacies> <https://github.com/john1hsu/critical-thinking-graph/ontology#authoredBy> <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> .
@@ -35185,6 +35266,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/natural-frequencies> .
@@ -35214,6 +35296,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/gordon-pennycook> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/kenneth-arrow> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
@@ -35322,6 +35405,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/kuhberger-1998-framing-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kuhn-lao-1996-polarization-study> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/biased-assimilation> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kumkale-2010-source-credibility-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/kuncel-2013-mechanical-versus-holistic-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kunda-1987-caffeine-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kunda-1987-caffeine-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/kunda-1987-caffeine-study> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ziva-kunda> .
@@ -35703,6 +35787,13 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> .
   <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/science> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mellers-2014-forecasting-tournament-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mellers-2014-forecasting-tournament-study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Study> .
   <https://github.com/john1hsu/critical-thinking-graph/id/mellers-2014-forecasting-tournament-study> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> .
@@ -36093,6 +36184,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rule-against-conventionalist-stratagems> .
   <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/rule-against-conventionalist-stratagems> .
   <https://github.com/john1hsu/critical-thinking-graph/id/noam-chomsky> <https://github.com/john1hsu/critical-thinking-graph/ontology#influenced> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/noise-in-judgment> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/nominal-group-technique> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/non-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur> .
   <https://github.com/john1hsu/critical-thinking-graph/id/non-sequitur/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
@@ -36229,6 +36321,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-bootstrapping> .
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> .
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> .
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
@@ -36263,6 +36356,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/consider-the-opposite> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/intellectual-humility> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/premortem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#exploitedBy> <https://github.com/john1hsu/critical-thinking-graph/id/deepfake> .
   <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/baruch-fischhoff> .
@@ -36731,6 +36825,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/deliberate-reflection> .
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/key-assumptions-check> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/outside-view> .
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/overconfidence-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/premortem> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
@@ -37050,6 +37145,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/psychology> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
@@ -37743,6 +37839,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/science> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/law-of-small-numbers> .
   <https://github.com/john1hsu/critical-thinking-graph/id/science> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/logical-necessity-instructions> .
   <https://github.com/john1hsu/critical-thinking-graph/id/science> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/loss-aversion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/science> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/science> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/mental-model-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/science> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/science> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
@@ -38284,6 +38381,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/debiasing-training-games> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
   <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/intelligence-analysis> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/structured-analytic-techniques> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ReasoningForm> .
@@ -38988,6 +39086,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/psychology> .
   <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/science> .
   <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conductive-argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/weighted-additive-rule> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/weiner-are-all-conversational-implicatures-cancellable> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/cancellability-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/weingarten-hutchinson-2018-ease-of-retrieval-meta-analysis> <https://github.com/john1hsu/critical-thinking-graph/ontology#supports> <https://github.com/john1hsu/critical-thinking-graph/id/ease-of-retrieval-effect> .
   <https://github.com/john1hsu/critical-thinking-graph/id/what-conditional-probability-could-not-be> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
@@ -39040,6 +39139,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-populum> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/forecasting> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/mediating-assessments-protocol> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/philip-tetlock> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
   <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> <https://github.com/john1hsu/critical-thinking-graph/ontology#explains> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .

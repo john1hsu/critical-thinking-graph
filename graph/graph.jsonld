@@ -19301,6 +19301,99 @@
    ]
   },
   {
+   "@id": "ct:mediating-assessments-protocol",
+   "@type": "cto:Technique",
+   "cto:contrastsWith": {
+    "@id": "ct:weighted-additive-rule"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:halo-effect"
+    },
+    {
+     "@id": "ct:noise-in-judgment"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    }
+   ],
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/mediating-assessments-protocol.md",
+   "cto:introducedBy": {
+    "@id": "ct:daniel-kahneman"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:a-structured-approach-to-strategic-decisions"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:halo-effect"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:kuncel-2013-mechanical-versus-holistic-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4"
+    }
+   ],
+   "rdfs:label": "Mediating assessments protocol",
+   "skos:altLabel": [
+    "Kahneman-Lovallo-Sibony protocol",
+    "MAP",
+    "mediating assessments",
+    "mediating-assessments protocol"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "A structured decision procedure from Kahneman, Lovallo and Sibony (2019) that breaks a complex judgment into a few attributes defined in advance, has each one assessed separately and on the facts, and holds back the overall, intuitive verdict until every assessment is in, to curb halo effects, premature coherence and noise.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Mediating assessments protocol",
+   "skos:related": [
+    {
+     "@id": "ct:anchoring-effect"
+    },
+    {
+     "@id": "ct:delphi-method"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:judgment-and-decision-making"
+    },
+    {
+     "@id": "ct:outside-view"
+    },
+    {
+     "@id": "ct:premortem"
+    },
+    {
+     "@id": "ct:structured-analytic-techniques"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:mental-model-theory",
    "@type": "cto:Framework",
    "cto:challengedBy": {
@@ -55067,6 +55160,62 @@
    "dcterms:title": "Core Principles of Media Literacy Education",
    "schema:url": {
     "@id": "https://www.projectlooksharp.org/Resources%202/NAMLE-Principles-Final-2023.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "MIT Sloan Management Review 60(3), 67-73 (Daniel Kahneman, Dan Lovallo & Olivier Sibony, Spring 2019)",
+   "dcterms:title": "A Structured Approach to Strategic Decisions",
+   "schema:url": {
+    "@id": "https://sloanreview.mit.edu/article/a-structured-approach-to-strategic-decisions/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Sydney Business Insights, University of Sydney Business School (12 May 2019; interview with Dan Lovallo)",
+   "dcterms:title": "Making better decisions every time",
+   "schema:url": {
+    "@id": "https://sbi.sydney.edu.au/making-better-decisions-every-time/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Journal of Applied Psychology 98(6), 1060-1072 (Kuncel, Klieger, Connelly & Ones, 2013); University of Minnesota course reading copy",
+   "dcterms:title": "Mechanical versus clinical data combination in selection and admissions decisions: A meta-analysis",
+   "schema:url": {
+    "@id": "https://goal-lab.psych.umn.edu/orgpsych/readings/12.%20Judgment%20&%20Decision%20Making/Kuncel,%20Klieger,%20Connelly%20&%20Ones%20(2013).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/mediating-assessments-protocol/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "news",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "McKinsey Quarterly (Tim Koller, Dan Lovallo & Phil Rosenzweig, 6 November 2019)",
+   "dcterms:title": "Bias Busters: Avoiding snap judgments",
+   "schema:url": {
+    "@id": "https://mckinsey.de/capabilities/strategy-and-corporate-finance/our-insights/bias-busters-avoiding-snap-judgments"
    }
   },
   {

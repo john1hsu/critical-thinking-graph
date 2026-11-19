@@ -10,7 +10,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 |---|---|
 | `ct:fallacies-of-relevance` | cto:InformalFallacy |
 | `ct:fallacy-of-accident` | cto:InformalFallacy |
-| `ct:halo-effect` | cto:CognitiveBias |
 | `ct:illicit-subalternation` | cto:FormalFallacy |
 | `ct:probabilistic-modus-tollens` | cto:FormalFallacy |
 
@@ -25,6 +24,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:rules-of-the-categorical-syllogism` | 4 | Existential fallacy, Fallacy of four terms, Illicit major, Undistributed middle |
 | `ct:distributive-collective-distinction` | 3 | Equivocation, Fallacy of composition, Fallacy of division |
 | `ct:formal-modeling` | 3 | Motte-and-bailey, Replication crisis, strategic-ambiguity |
+| `ct:mediating-assessments-protocol` | 3 | Halo effect, Overconfidence effect, noise-in-judgment |
 | `ct:outside-view` | 3 | Base-rate neglect, Planning fallacy, Representativeness heuristic |
 | `ct:pragma-dialectics` | 3 | Ad hominem, Straw man fallacy, Tu quoque |
 | `ct:prebunking` | 3 | Ad hominem, False dilemma, Misinformation and disinformation |
@@ -49,9 +49,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |
 | `ct:grade-approach` | 2 | Confounding, Publication bias |
 | `ct:heckman-correction` | 2 | Selection bias, Survivorship bias |
-| `ct:intellectual-humility` | 2 | Myside bias, Overconfidence effect |
 
-…and 54 more.
+…and 55 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -66,6 +65,7 @@ _For each heuristic, which biases can it produce and what counteracts them?_ —
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:consider-the-opposite` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:debiasing` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:intellectual-humility` |
+| `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:mediating-assessments-protocol` |
 | `ct:anchoring-and-adjustment-heuristic` | `ct:overconfidence-effect` | `ct:premortem` |
 | `ct:availability-heuristic` | `ct:illusory-correlation` |  |
 | `ct:peak-end-rule` | `ct:duration-neglect` | `ct:day-reconstruction-method` |
@@ -109,7 +109,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 104 more.
+…and 105 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

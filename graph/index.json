@@ -20743,6 +20743,114 @@
   ]
  },
  {
+  "id": "ct:mediating-assessments-protocol",
+  "title": "Mediating assessments protocol",
+  "aliases": [
+   "MAP",
+   "mediating assessments",
+   "mediating-assessments protocol",
+   "Kahneman-Lovallo-Sibony protocol"
+  ],
+  "type": "Technique",
+  "domain": "decision-making",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/mediating-assessments-protocol.md",
+  "created": "2026-11-19",
+  "summary": "A structured decision procedure from Kahneman, Lovallo and Sibony (2019) that breaks a complex judgment into a few attributes defined in advance, has each one assessed separately and on the facts, and holds back the overall, intuitive verdict until every assessment is in, to curb halo effects, premature coherence and noise.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:structured-analytic-techniques"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:outside-view"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:anchoring-effect"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:halo-effect"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:a-structured-approach-to-strategic-decisions",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:halo-effect",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:noise-in-judgment",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:overconfidence-effect",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:kuncel-2013-mechanical-versus-holistic-meta-analysis",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:weighted-additive-rule",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://sloanreview.mit.edu/article/a-structured-approach-to-strategic-decisions/",
+   "https://sbi.sydney.edu.au/making-better-decisions-every-time/",
+   "https://goal-lab.psych.umn.edu/orgpsych/readings/12.%20Judgment%20&%20Decision%20Making/Kuncel,%20Klieger,%20Connelly%20&%20Ones%20(2013).pdf",
+   "https://mckinsey.de/capabilities/strategy-and-corporate-finance/our-insights/bias-busters-avoiding-snap-judgments"
+  ]
+ },
+ {
   "id": "ct:mental-model-theory",
   "title": "Mental model theory",
   "aliases": [
