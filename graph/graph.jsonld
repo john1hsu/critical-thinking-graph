@@ -19689,6 +19689,91 @@
    ]
   },
   {
+   "@id": "ct:misleading-graph",
+   "@type": "cto:Phenomenon",
+   "cto:demonstratedBy": [
+    {
+     "@id": "ct:correll-2020-truncated-y-axis-study"
+    },
+    {
+     "@id": "ct:yang-2021-truncated-bar-graph-study"
+    }
+   ],
+   "cto:domain": "evidence-and-information-literacy",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/evidence-and-information-literacy/misleading-graph.md",
+   "cto:formalizedBy": {
+    "@id": "ct:edward-tufte"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:numeracy"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:information-visualization"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:lo-2022-misinformative-visualizations-study"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s5"
+    }
+   ],
+   "rdfs:label": "Misleading graph",
+   "skos:altLabel": [
+    "chart distortion",
+    "deceptive visualization",
+    "distorted chart",
+    "misinformative visualization",
+    "misleading data visualization"
+   ],
+   "skos:broader": {
+    "@id": "ct:misinformation-and-disinformation"
+   },
+   "skos:definition": "A chart or data graphic whose design choices, such as a truncated axis, area or 3-D encodings, a dual axis or a selectively chosen data window, leave viewers with an impression of the data that the underlying numbers do not support, whether the distortion is deliberate or accidental.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy"
+   },
+   "skos:prefLabel": "Misleading graph",
+   "skos:related": [
+    {
+     "@id": "ct:framing-effect"
+    },
+    {
+     "@id": "ct:how-to-lie-with-statistics"
+    },
+    {
+     "@id": "ct:media-literacy"
+    },
+    {
+     "@id": "ct:numeracy"
+    },
+    {
+     "@id": "ct:statistical-literacy"
+    },
+    {
+     "@id": "ct:suppressed-evidence"
+    }
+   ]
+  },
+  {
    "@id": "ct:modal-scope-fallacy",
    "@type": "cto:FormalFallacy",
    "cto:domain": "formal-fallacies",
@@ -55047,6 +55132,76 @@
    "dcterms:title": "Misinformation on Misinformation: Conceptual and Methodological Challenges",
    "schema:url": {
     "@id": "https://acerbialberto.com/publication/2023_misinfo_on_misinfo/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Proceedings of ACM CHI 2020 (Correll, Bertini & Franconeri), Tableau Research publication page",
+   "dcterms:title": "Truncating the Y-Axis: Threat or Menace?",
+   "schema:url": {
+    "@id": "https://www.tableau.com/research/publications/truncating-y-axis-threat-or-menace"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Journal of Applied Research in Memory and Cognition 10(2), 298-311 (Yang, Vargas Restrepo, Stanley & Marsh, 2021), Duke University Scholars record",
+   "dcterms:title": "Truncating bar graphs persistently misleads viewers",
+   "schema:url": {
+    "@id": "https://scholars.duke.edu/publication/1474486"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Computer Graphics Forum 41(3), EuroVis 2022 (Lo, Gupta, Shigyo, Wu, Bertini & Qu)",
+   "dcterms:title": "Misinformed by Visualization: What Do We Learn From Misinformative Visualizations?",
+   "schema:url": {
+    "@id": "https://diglib.eg.org/bitstream/handle/10.1111/cgf14559/v41i3pp515-525.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Georgia Institute of Technology (John Stasko, 2013)",
+   "dcterms:title": "Tufte's principles of graphical integrity (CS 7450 Information Visualization lecture notes)",
+   "schema:url": {
+    "@id": "https://faculty.cc.gatech.edu/~stasko/7450/13/Notes/tufte.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Statistical Science 20(3) (Steele, 2005), University of Pennsylvania repository",
+   "dcterms:title": "Darrell Huff and Fifty Years of How to Lie with Statistics",
+   "schema:url": {
+    "@id": "https://repository.upenn.edu/handle/20.500.14332/47737"
    }
   },
   {

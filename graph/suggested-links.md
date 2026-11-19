@@ -18,7 +18,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.34 | `ct:illicit-conversion` | `ct:venn-diagram-test` | `ct:categorical-proposition`, `ct:distribution-of-terms`, `ct:euler-diagram`, `ct:existential-import`, `ct:formal-fallacy` |
 | 4.16 | `ct:argument` | `ct:hasty-generalization` | `ct:ad-populum`, `ct:argument-from-analogy`, `ct:defeasible-reasoning`, `ct:fallacy-of-accident`, `ct:fallacy-of-composition` |
 | 4.11 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
-| 4.04 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
+| 4.03 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
 | 3.99 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 3.95 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
 | 3.81 | `ct:argumentation-theory` | `ct:fallacy-of-ambiguity` | `ct:amphiboly`, `ct:argument`, `ct:aristotle`, `ct:charles-hamblin`, `ct:distributive-collective-distinction` |

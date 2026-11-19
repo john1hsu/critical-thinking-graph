@@ -9090,6 +9090,39 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/information-disorder-report> .
 <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/cognitive-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2000/01/rdf-schema#label> "Misleading graph" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#altLabel> "chart distortion" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#altLabel> "deceptive visualization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#altLabel> "distorted chart" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#altLabel> "misinformative visualization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#altLabel> "misleading data visualization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/misinformation-and-disinformation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#definition> "A chart or data graphic whose design choices, such as a truncated axis, area or 3-D encodings, a dual axis or a selectively chosen data window, leave viewers with an impression of the data that the underlying numbers do not support, whether the distortion is deliberate or accidental." .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/evidence-and-information-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#prefLabel> "Misleading graph" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/framing-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/how-to-lie-with-statistics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/media-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/statistical-literacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/suppressed-evidence> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/correll-2020-truncated-y-axis-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/yang-2021-truncated-bar-graph-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "evidence-and-information-literacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/evidence-and-information-literacy/misleading-graph.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/edward-tufte> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/numeracy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/information-visualization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/misleading-graph> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/lo-2022-misinformative-visualizations-study> .
 <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the \"must\" or \"cannot\" govern the whole if-then claim, or only the part after \"then\"?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
@@ -19700,6 +19733,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/misinformation-and-disinformation/s4> <https://schema.org/url> <https://acerbialberto.com/publication/2023_misinfo_on_misinfo/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s1> <http://purl.org/dc/terms/publisher> "Proceedings of ACM CHI 2020 (Correll, Bertini & Franconeri), Tableau Research publication page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s1> <http://purl.org/dc/terms/title> "Truncating the Y-Axis: Threat or Menace?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s1> <https://schema.org/url> <https://www.tableau.com/research/publications/truncating-y-axis-threat-or-menace> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s2> <http://purl.org/dc/terms/publisher> "Journal of Applied Research in Memory and Cognition 10(2), 298-311 (Yang, Vargas Restrepo, Stanley & Marsh, 2021), Duke University Scholars record" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s2> <http://purl.org/dc/terms/title> "Truncating bar graphs persistently misleads viewers" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s2> <https://schema.org/url> <https://scholars.duke.edu/publication/1474486> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s3> <http://purl.org/dc/terms/publisher> "Computer Graphics Forum 41(3), EuroVis 2022 (Lo, Gupta, Shigyo, Wu, Bertini & Qu)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s3> <http://purl.org/dc/terms/title> "Misinformed by Visualization: What Do We Learn From Misinformative Visualizations?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s3> <https://schema.org/url> <https://diglib.eg.org/bitstream/handle/10.1111/cgf14559/v41i3pp515-525.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s4> <http://purl.org/dc/terms/publisher> "Georgia Institute of Technology (John Stasko, 2013)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s4> <http://purl.org/dc/terms/title> "Tufte's principles of graphical integrity (CS 7450 Information Visualization lecture notes)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s4> <https://schema.org/url> <https://faculty.cc.gatech.edu/~stasko/7450/13/Notes/tufte.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s5> <http://purl.org/dc/terms/publisher> "Statistical Science 20(3) (Steele, 2005), University of Pennsylvania repository" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s5> <http://purl.org/dc/terms/title> "Darrell Huff and Fifty Years of How to Lie with Statistics" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/misleading-graph/s5> <https://schema.org/url> <https://repository.upenn.edu/handle/20.500.14332/47737> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-12"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy (Norman Swartz)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/modal-scope-fallacy/s1> <http://purl.org/dc/terms/title> "Foreknowledge and Free Will" .

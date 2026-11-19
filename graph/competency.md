@@ -157,7 +157,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 
-…and 50 more.
+…and 51 more.
 
 ## Orphan articles (gap)
 

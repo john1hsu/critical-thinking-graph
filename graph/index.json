@@ -21159,6 +21159,96 @@
   ]
  },
  {
+  "id": "ct:misleading-graph",
+  "title": "Misleading graph",
+  "aliases": [
+   "deceptive visualization",
+   "misleading data visualization",
+   "misinformative visualization",
+   "distorted chart",
+   "chart distortion"
+  ],
+  "type": "Phenomenon",
+  "domain": "evidence-and-information-literacy",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/evidence-and-information-literacy/misleading-graph.md",
+  "created": "2026-11-19",
+  "summary": "A chart or data graphic whose design choices, such as a truncated axis, area or 3-D encodings, a dual axis or a selectively chosen data window, leave viewers with an impression of the data that the underlying numbers do not support, whether the distortion is deliberate or accidental.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:statistical-literacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:suppressed-evidence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:framing-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:media-literacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:how-to-lie-with-statistics"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:numeracy"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:correll-2020-truncated-y-axis-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:yang-2021-truncated-bar-graph-study",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:lo-2022-misinformative-visualizations-study",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:edward-tufte",
+    "source": "s4",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:information-visualization",
+    "source": "s1",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.tableau.com/research/publications/truncating-y-axis-threat-or-menace",
+   "https://scholars.duke.edu/publication/1474486",
+   "https://diglib.eg.org/bitstream/handle/10.1111/cgf14559/v41i3pp515-525.pdf",
+   "https://faculty.cc.gatech.edu/~stasko/7450/13/Notes/tufte.pdf",
+   "https://repository.upenn.edu/handle/20.500.14332/47737"
+  ]
+ },
+ {
   "id": "ct:modal-scope-fallacy",
   "title": "Modal scope fallacy",
   "aliases": [
