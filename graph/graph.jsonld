@@ -16179,6 +16179,102 @@
    ]
   },
   {
+   "@id": "ct:illicit-subcontrary",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:existential-fallacy"
+    },
+    {
+     "@id": "ct:illicit-subalternation"
+    },
+    {
+     "@id": "ct:unwarranted-contrast"
+    }
+   ],
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map"
+   },
+   "cto:file": "articles/formal-fallacies/illicit-subcontrary.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:subcontrariety"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6"
+    }
+   ],
+   "rdfs:label": "Illicit subcontrary",
+   "skos:altLabel": [
+    "fallacy of illicit subcontrary",
+    "invalid subcontrary inference"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The square-of-opposition fallacy of treating the subcontrary I and O propositions as if they excluded each other: inferring that \"Some S are not P\" is false because \"Some S are P\" is true, or the reverse. Subcontraries cannot both be false but can both be true, so a true one settles nothing.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Illicit subcontrary",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:illicit-subalternation"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:rules-of-immediate-inference"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:unwarranted-contrast"
+    }
+   ]
+  },
+  {
    "@id": "ct:illusory-truth-effect",
    "@type": "cto:CognitiveBias",
    "cto:demonstratedBy": [
@@ -38389,6 +38485,102 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-subcontrary"
+   },
+   "rdfs:label": "Does the argument move from one \"some\" statement being true to its opposite-quality \"some\" statement being false?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-subcontrary"
+   },
+   "rdfs:label": "Could some members of the class have the property while other members lack it, making both statements true at once?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-subcontrary"
+   },
+   "rdfs:label": "Is the arguer treating \"some\" as if it meant \"only some\" or \"not all\", rather than \"at least one\"?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-subcontrary"
+   },
+   "rdfs:label": "Is there separate evidence about the members not covered by the premise, or does the conclusion rest on the premise alone?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:illicit-subcontrary"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So it is false that some of the pilot offices reported no login errors."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "I and O statements can both be true; knowing that some offices had errors says nothing about whether others had none."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Three offices with errors and five without would make the premise true and the conclusion false."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Some of the pilot offices reported login errors after the update."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/c"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/p1"
+   },
+   "aif:fulfilsScheme": {
+    "@id": "ct:subcontrariety"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -53085,6 +53277,90 @@
    "dcterms:title": "Week 2-B: The Traditional Square of Opposition",
    "schema:url": {
     "@id": "https://condor.depaul.edu/mlarrabe/logic/wk2b.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "PHIL 1440 course notes, University of Colorado Boulder",
+   "dcterms:title": "4.5 The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://rintintin.colorado.edu/~vancecd/phil1440/square.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University",
+   "dcterms:title": "The Square of Opposition",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/square.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Square of Opposition",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/?p=2332"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Parsons, Fall 2006 archive)",
+   "dcterms:title": "The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/fall2006/entries/square/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "David Emmanuel Gray, Northwestern University in Qatar / Carnegie Mellon University in Qatar",
+   "dcterms:title": "The Square of Opposition (Introduction to Logical Reasoning, lecture slides)",
+   "schema:url": {
+    "@id": "https://www.acsu.buffalo.edu/~degray/I2LR12-fall/Slides21.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Kathy Eldred, open textbook (Pima Community College Pressbooks, 2024)",
+   "dcterms:title": "An Introduction to Logic: The Square of Opposition",
+   "schema:url": {
+    "@id": "https://pimaopen.pressbooks.pub/intrologic/?p=818"
    }
   },
   {

@@ -515,6 +515,16 @@ flowchart TD
   o2["The bin could hold one laptop with a cracked screen and nine returned for battery faults, which keeps the premise true and makes the conclusion false."] -. attacks .-> ra
 ```
 
+## Illicit subcontrary (`ct:illicit-subcontrary`)
+
+```mermaid
+flowchart TD
+  p1["Some of the pilot offices reported login errors after the update."] --> ra{{"invalid"}}
+  ra --> c["So it is false that some of the pilot offices reported no login errors."]
+  o1["I and O statements can both be true; knowing that some offices had errors says nothing about whether others had none."] -. attacks .-> ra
+  o2["Three offices with errors and five without would make the premise true and the conclusion false."] -. attacks .-> ra
+```
+
 ## Improper transposition (`ct:improper-transposition`)
 
 ```mermaid

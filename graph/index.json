@@ -17410,6 +17410,105 @@
   ]
  },
  {
+  "id": "ct:illicit-subcontrary",
+  "title": "Illicit subcontrary",
+  "aliases": [
+   "fallacy of illicit subcontrary",
+   "invalid subcontrary inference"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/illicit-subcontrary.md",
+  "created": "2026-11-19",
+  "summary": "The square-of-opposition fallacy of treating the subcontrary I and O propositions as if they excluded each other: inferring that \"Some S are not P\" is false because \"Some S are P\" is true, or the reverse. Subcontraries cannot both be false but can both be true, so a true one settles nothing.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-immediate-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illicit-subalternation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:unwarranted-contrast"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:subcontrariety",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:illicit-subalternation",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:unwarranted-contrast",
+    "source": "s6",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:existential-fallacy",
+    "source": "s1",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the argument move from one \"some\" statement being true to its opposite-quality \"some\" statement being false?",
+   "Could some members of the class have the property while other members lack it, making both statements true at once?",
+   "Is the arguer treating \"some\" as if it meant \"only some\" or \"not all\", rather than \"at least one\"?",
+   "Is there separate evidence about the members not covered by the premise, or does the conclusion rest on the premise alone?"
+  ],
+  "source_urls": [
+   "https://rintintin.colorado.edu/~vancecd/phil1440/square.pdf",
+   "https://philosophy.lander.edu/logic/square.html",
+   "https://iep.utm.edu/?p=2332",
+   "https://plato.stanford.edu/archives/fall2006/entries/square/",
+   "https://www.acsu.buffalo.edu/~degray/I2LR12-fall/Slides21.pdf",
+   "https://pimaopen.pressbooks.pub/intrologic/?p=818"
+  ]
+ },
+ {
   "id": "ct:illusory-truth-effect",
   "title": "Illusory truth effect",
   "aliases": [

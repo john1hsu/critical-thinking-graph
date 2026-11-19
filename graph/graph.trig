@@ -1133,6 +1133,15 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s4> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s5> .
 <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s6> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-fallacies/illicit-subcontrary.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6> .
 <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition#graph> <http://purl.org/dc/terms/subject> <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition> .
 <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition#graph> <http://purl.org/dc/terms/source> "https://github.com/john1hsu/critical-thinking-graph/blob/main/articles/formal-fallacies/improper-transposition.md" .
@@ -13149,6 +13158,113 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
   <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s6> <https://schema.org/url> <https://condor.depaul.edu/mlarrabe/logic/wk2b.htm> .
+}
+
+<https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary#graph> {
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Does the argument move from one \"some\" statement being true to its opposite-quality \"some\" statement being false?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Could some members of the class have the property while other members lack it, making both statements true at once?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is the arguer treating \"some\" as if it meant \"only some\" or \"not all\", rather than \"at least one\"?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Is there separate evidence about the members not covered by the premise, or does the conclusion rest on the premise alone?" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So it is false that some of the pilot offices reported no login errors." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "I and O statements can both be true; knowing that some offices had errors says nothing about whether others had none." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Three offices with errors and five without would make the premise true and the conclusion false." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "Some of the pilot offices reported login errors after the update." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/c> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/p1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra> <http://www.arg.dundee.ac.uk/aif#fulfilsScheme> <https://github.com/john1hsu/critical-thinking-graph/id/subcontrariety> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "invalid" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#FormalFallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2000/01/rdf-schema#label> "Illicit subcontrary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of illicit subcontrary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#altLabel> "invalid subcontrary inference" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#definition> "The square-of-opposition fallacy of treating the subcontrary I and O propositions as if they excluded each other: inferring that \"Some S are not P\" is false because \"Some S are P\" is true, or the reverse. Subcontraries cannot both be false but can both be true, so a true one settles nothing." .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#prefLabel> "Illicit subcontrary" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-immediate-inference> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "formal-fallacies" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/map> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/formal-fallacies/illicit-subcontrary.md" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#invalidFormOf> <https://github.com/john1hsu/critical-thinking-graph/id/subcontrariety> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/validity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1> <http://purl.org/dc/terms/publisher> "PHIL 1440 course notes, University of Colorado Boulder" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1> <http://purl.org/dc/terms/title> "4.5 The Traditional Square of Opposition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s1> <https://schema.org/url> <https://rintintin.colorado.edu/~vancecd/phil1440/square.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2> <http://purl.org/dc/terms/publisher> "Philosophy 103: Introduction to Logic, Lander University" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2> <http://purl.org/dc/terms/title> "The Square of Opposition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s2> <https://schema.org/url> <https://philosophy.lander.edu/logic/square.html> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3> <http://purl.org/dc/terms/publisher> "Internet Encyclopedia of Philosophy" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3> <http://purl.org/dc/terms/title> "Square of Opposition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s3> <https://schema.org/url> <https://iep.utm.edu/?p=2332> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Parsons, Fall 2006 archive)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4> <http://purl.org/dc/terms/title> "The Traditional Square of Opposition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/fall2006/entries/square/> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5> <http://purl.org/dc/terms/publisher> "David Emmanuel Gray, Northwestern University in Qatar / Carnegie Mellon University in Qatar" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5> <http://purl.org/dc/terms/title> "The Square of Opposition (Introduction to Logical Reasoning, lecture slides)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s5> <https://schema.org/url> <https://www.acsu.buffalo.edu/~degray/I2LR12-fall/Slides21.pdf> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6> <http://purl.org/dc/terms/publisher> "Kathy Eldred, open textbook (Pima Community College Pressbooks, 2024)" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6> <http://purl.org/dc/terms/title> "An Introduction to Logic: The Square of Opposition" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+  <https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subcontrary/s6> <https://schema.org/url> <https://pimaopen.pressbooks.pub/intrologic/?p=818> .
 }
 
 <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition#graph> {
@@ -31503,6 +31619,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/inductive-reasoning> .
   <https://github.com/john1hsu/critical-thinking-graph/id/argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
@@ -32244,6 +32361,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/obversion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/predicate-logic> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
@@ -32262,6 +32380,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/obversion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-immediate-inference> .
   <https://github.com/john1hsu/critical-thinking-graph/id/categorical-proposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
@@ -33997,6 +34116,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
@@ -34011,6 +34131,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/obversion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-immediate-inference> .
@@ -34216,6 +34337,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/inverse-fallacy> .
@@ -34371,6 +34493,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrower> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
@@ -34394,6 +34517,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/masked-man-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> <http://www.w3.org/2004/02/skos/core#narrowerTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/modal-scope-fallacy> .
@@ -35136,7 +35260,19 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/formal-fallacy> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illusion-of-control> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteractedBy> <https://github.com/john1hsu/critical-thinking-graph/id/correcting-erroneous-perceptions-of-randomness> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illusion-of-validity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CognitiveBias> .
   <https://github.com/john1hsu/critical-thinking-graph/id/illusion-of-validity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
@@ -36240,6 +36376,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/justified-true-belief> .
   <https://github.com/john1hsu/critical-thinking-graph/id/method-of-counterexample> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consequence> .
@@ -38094,6 +38231,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-immediate-inference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-immediate-inference> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/immediate-inference> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-immediate-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-immediate-inference> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-the-categorical-syllogism> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <https://github.com/john1hsu/critical-thinking-graph/id/categorical-syllogism> .
@@ -38560,6 +38698,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-contraposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-conversion> .
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/john-venn> .
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/logical-consistency> .
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/obversion> .
@@ -38567,6 +38706,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/rules-of-immediate-inference> .
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/square-of-opposition> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> .
   <https://github.com/john1hsu/critical-thinking-graph/id/st-petersburg-paradox> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/expected-utility-theory> .
   <https://github.com/john1hsu/critical-thinking-graph/id/st-petersburg-paradox> <https://github.com/john1hsu/critical-thinking-graph/ontology#challenges> <https://github.com/john1hsu/critical-thinking-graph/id/expected-value> .
@@ -38778,6 +38918,10 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/existential-import> .
   <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/existential-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/subalternation> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInvalidCounterpart> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/subcontrariety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/subcontrariety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/subcontrariety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ReasoningForm> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/subcontrariety> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasInvalidCounterpart> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/substitution-of-identicals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
   <https://github.com/john1hsu/critical-thinking-graph/id/substitution-of-identicals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Entity> .
   <https://github.com/john1hsu/critical-thinking-graph/id/substitution-of-identicals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#ReasoningForm> .
@@ -39216,7 +39360,9 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cancellability-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/conversational-implicature> .
   <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragmatics> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#detectedBy> <https://github.com/john1hsu/critical-thinking-graph/id/cancellability-test> .
   <https://github.com/john1hsu/critical-thinking-graph/id/unwarranted-contrast> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
   <https://github.com/john1hsu/critical-thinking-graph/id/us-preventive-services-task-force> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/periodic-health-examination-report> .
@@ -39308,6 +39454,7 @@
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-major> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-minor> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation> .
+  <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/illicit-subcontrary> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
   <https://github.com/john1hsu/critical-thinking-graph/id/validity> <https://github.com/john1hsu/critical-thinking-graph/ontology#prerequisiteOf> <https://github.com/john1hsu/critical-thinking-graph/id/liar-paradox> .
