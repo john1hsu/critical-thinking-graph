@@ -15813,6 +15813,99 @@
    ]
   },
   {
+   "@id": "ct:illicit-subalternation",
+   "@type": "cto:FormalFallacy",
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:existential-fallacy"
+    },
+    {
+     "@id": "ct:illicit-major"
+    }
+   ],
+   "cto:domain": "formal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map"
+   },
+   "cto:file": "articles/formal-fallacies/illicit-subalternation.md",
+   "cto:invalidFormOf": {
+    "@id": "ct:subalternation"
+   },
+   "cto:level": "introductory",
+   "cto:requires": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:validity"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s6"
+    }
+   ],
+   "rdfs:label": "Illicit subalternation",
+   "skos:altLabel": [
+    "fallacy of illicit subalternation",
+    "invalid subalternation"
+   ],
+   "skos:broader": {
+    "@id": "ct:formal-fallacy"
+   },
+   "skos:definition": "The square-of-opposition fallacy of running subalternation in the wrong direction: inferring a universal (A or E) is true because its particular (I or O) is true, or inferring a particular is false because its universal is false. Subalternation only carries truth down and falsity up.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/formal-fallacies"
+   },
+   "skos:prefLabel": "Illicit subalternation",
+   "skos:related": [
+    {
+     "@id": "ct:categorical-proposition"
+    },
+    {
+     "@id": "ct:existential-import"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:rules-of-immediate-inference"
+    },
+    {
+     "@id": "ct:square-of-opposition"
+    },
+    {
+     "@id": "ct:unwarranted-contrast"
+    }
+   ]
+  },
+  {
    "@id": "ct:illusory-truth-effect",
    "@type": "cto:CognitiveBias",
    "cto:demonstratedBy": [
@@ -37746,6 +37839,102 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-subalternation"
+   },
+   "rdfs:label": "Does the conclusion claim something about every member of a class when the premise only reports some members?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-subalternation"
+   },
+   "rdfs:label": "Does the argument move from \"not all\" to \"none\", treating the falsity of a universal as the falsity of its particular?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-subalternation"
+   },
+   "rdfs:label": "Can you describe a case where the premise holds and the conclusion fails, such as a class where some but not all members have the property?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:illicit-subalternation"
+   },
+   "rdfs:label": "Is there independent evidence for the universal claim, or is the particular case doing all the work?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:illicit-subalternation"
+   },
+   "cto:verdict": "invalid"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So all of the laptops in the returns bin have cracked screens."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Subalternation runs from the universal to the particular; a true particular leaves the universal undetermined."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The bin could hold one laptop with a cracked screen and nine returned for battery faults, which keeps the premise true and makes the conclusion false."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Some of the laptops in the returns bin have cracked screens."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/c"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map/p1"
+   },
+   "aif:fulfilsScheme": {
+    "@id": "ct:subalternation"
+   },
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/illicit-subalternation/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/improper-transposition/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -52162,6 +52351,90 @@
    "dcterms:title": "Distributive Terms, Truth, and the Port Royal Logic",
    "schema:url": {
     "@id": "https://homepages.uc.edu/~martinj/Papers/Distributive%20Terms,%20Truth%20and%20The%20Port%20Royal%20Logic%20-%20HPL%20(web%20version).pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "PHIL 1440 course notes, University of Colorado Boulder",
+   "dcterms:title": "4.5 The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://rintintin.colorado.edu/~vancecd/phil1440/square.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University",
+   "dcterms:title": "The Square of Opposition",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/square.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Internet Encyclopedia of Philosophy",
+   "dcterms:title": "Square of Opposition",
+   "schema:url": {
+    "@id": "https://iep.utm.edu/sqr-opp/?no_redirect=true"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Parsons, Spring 2012 archive)",
+   "dcterms:title": "The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/spr2012/entries/square/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Philosophy 103: Introduction to Logic, Lander University",
+   "dcterms:title": "Illicit Major and Illicit Minor",
+   "schema:url": {
+    "@id": "https://philosophy.lander.edu/logic/illicit_fall.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/illicit-subalternation/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Introductory logic course notes (Copi/Cohen sec. 5.4), DePaul University",
+   "dcterms:title": "Week 2-B: The Traditional Square of Opposition",
+   "schema:url": {
+    "@id": "https://condor.depaul.edu/mlarrabe/logic/wk2b.htm"
    }
   },
   {

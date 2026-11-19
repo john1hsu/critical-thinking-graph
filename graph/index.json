@@ -17020,6 +17020,99 @@
   ]
  },
  {
+  "id": "ct:illicit-subalternation",
+  "title": "Illicit subalternation",
+  "aliases": [
+   "fallacy of illicit subalternation",
+   "invalid subalternation"
+  ],
+  "type": "FormalFallacy",
+  "domain": "formal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/formal-fallacies/illicit-subalternation.md",
+  "created": "2026-11-19",
+  "summary": "The square-of-opposition fallacy of running subalternation in the wrong direction: inferring a universal (A or E) is true because its particular (I or O) is true, or inferring a particular is false because its universal is false. Subalternation only carries truth down and falsity up.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:formal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:existential-import"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:rules-of-immediate-inference"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:unwarranted-contrast"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:method-of-counterexample"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:square-of-opposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:categorical-proposition"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:validity"
+   },
+   {
+    "predicate": "cto:invalidFormOf",
+    "object": "ct:subalternation",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:existential-fallacy",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:illicit-major",
+    "source": "s5",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [
+   "Does the conclusion claim something about every member of a class when the premise only reports some members?",
+   "Does the argument move from \"not all\" to \"none\", treating the falsity of a universal as the falsity of its particular?",
+   "Can you describe a case where the premise holds and the conclusion fails, such as a class where some but not all members have the property?",
+   "Is there independent evidence for the universal claim, or is the particular case doing all the work?"
+  ],
+  "source_urls": [
+   "https://rintintin.colorado.edu/~vancecd/phil1440/square.pdf",
+   "https://philosophy.lander.edu/logic/square.html",
+   "https://iep.utm.edu/sqr-opp/?no_redirect=true",
+   "https://plato.stanford.edu/archives/spr2012/entries/square/",
+   "https://philosophy.lander.edu/logic/illicit_fall.html",
+   "https://condor.depaul.edu/mlarrabe/logic/wk2b.htm"
+  ]
+ },
+ {
   "id": "ct:illusory-truth-effect",
   "title": "Illusory truth effect",
   "aliases": [

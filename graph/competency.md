@@ -11,6 +11,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | `ct:fallacies-of-relevance` | cto:InformalFallacy |
 | `ct:fallacy-of-accident` | cto:InformalFallacy |
 | `ct:halo-effect` | cto:CognitiveBias |
+| `ct:illicit-subalternation` | cto:FormalFallacy |
 | `ct:probabilistic-modus-tollens` | cto:FormalFallacy |
 
 ## Most useful remedies
@@ -156,7 +157,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:illicit-contraposition` | cto:FormalFallacy |
 | `ct:illicit-conversion` | cto:FormalFallacy |
 
-…and 51 more.
+…and 52 more.
 
 ## Orphan articles (gap)
 

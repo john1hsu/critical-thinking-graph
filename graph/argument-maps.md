@@ -505,6 +505,16 @@ flowchart TD
   o2["A full-time accountant who never joined the team could lack the certificate while both premises stay true."] -. attacks .-> ra
 ```
 
+## Illicit subalternation (`ct:illicit-subalternation`)
+
+```mermaid
+flowchart TD
+  p1["Some of the laptops in the returns bin have cracked screens."] --> ra{{"invalid"}}
+  ra --> c["So all of the laptops in the returns bin have cracked screens."]
+  o1["Subalternation runs from the universal to the particular; a true particular leaves the universal undetermined."] -. attacks .-> ra
+  o2["The bin could hold one laptop with a cracked screen and nine returned for battery faults, which keeps the premise true and makes the conclusion false."] -. attacks .-> ra
+```
+
 ## Improper transposition (`ct:improper-transposition`)
 
 ```mermaid
