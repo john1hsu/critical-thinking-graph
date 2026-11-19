@@ -13276,6 +13276,112 @@
   ]
  },
  {
+  "id": "ct:fallacy-of-accident",
+  "title": "Fallacy of accident",
+  "aliases": [
+   "accident fallacy",
+   "fallacia accidentis",
+   "sweeping generalization",
+   "a dicto simpliciter ad dictum secundum quid",
+   "neglecting qualifications"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/fallacy-of-accident.md",
+  "created": "2026-11-19",
+  "summary": "The fallacy of applying a generally sound rule or generalization to a particular case whose unusual circumstances fall outside the conditions the rule was meant to cover, as if the rule held without exception.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-composition"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-division"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:no-true-scotsman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:equivocation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:richard-whately"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacies-of-relevance"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:sophistical-refutations",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:fallacies-of-relevance",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the general rule stated as an exceptionless universal, or is it really a \"usually\" or \"as a rule\" claim?",
+   "What purpose or typical situation was the rule designed for, and does this case share it?",
+   "Is there something unusual about this case that the rule's authors did not have in mind?",
+   "Does a key term mean the same thing in the rule as it does in the conclusion about this case?",
+   "Would applying the rule here defeat the very goal the rule exists to serve?"
+  ],
+  "source_urls": [
+   "https://plato.stanford.edu/ENTRIES/fallacies/",
+   "https://philosophy.lander.Edu/logic/accident.html",
+   "https://link.springer.com/article/10.1007/s10503-022-09568-4",
+   "https://www.britannica.com/topic/applied-logic/Nonverbal-fallacies",
+   "https://www.palomar.edu/users/bthompson/Dicto%20Simpliciter.html"
+  ]
+ },
+ {
   "id": "ct:fallacy-of-ambiguity",
   "title": "Fallacy of ambiguity",
   "aliases": [

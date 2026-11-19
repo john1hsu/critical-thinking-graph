@@ -10,6 +10,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 |---|---|
 | `ct:belief-perseverance` | cto:CognitiveBias |
 | `ct:fallacies-of-relevance` | cto:InformalFallacy |
+| `ct:fallacy-of-accident` | cto:InformalFallacy |
 | `ct:halo-effect` | cto:CognitiveBias |
 | `ct:probabilistic-modus-tollens` | cto:FormalFallacy |
 

@@ -341,6 +341,17 @@ flowchart TD
   o2["Relevant premises would concern cycle times, review load or the results of a trial run."] -. attacks .-> ra
 ```
 
+## Fallacy of accident (`ct:fallacy-of-accident`)
+
+```mermaid
+flowchart TD
+  p1["Company policy says all expense claims must include an itemised paper receipt."] --> ra{{"fallacious"}}
+  p2["The engineer's taxi in the foreign city was paid in cash, and the driver issued no receipt."] --> ra{{"fallacious"}}
+  ra --> c["So the engineer's taxi fare cannot be reimbursed."]
+  o1["The receipt rule exists to prevent fraud and was written for normal purchases where receipts are available; it did not anticipate cases where no receipt can be obtained."] -. attacks .-> ra
+  o2["Policies of this kind usually allow a signed statement or card record in exceptional cases, so treating the rule as absolute ignores its implicit qualifications."] -. attacks .-> ra
+```
+
 ## Fallacy of ambiguity (`ct:fallacy-of-ambiguity`)
 
 ```mermaid

@@ -5639,6 +5639,82 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the general rule stated as an exceptionless universal, or is it really a \"usually\" or \"as a rule\" claim?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "What purpose or typical situation was the rule designed for, and does this case share it?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Is there something unusual about this case that the rule's authors did not have in mind?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "Does a key term mean the same thing in the rule as it does in the conclusion about this case?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Would applying the rule here defeat the very goal the rule exists to serve?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So the engineer's taxi fare cannot be reimbursed." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "The receipt rule exists to prevent fraud and was written for normal purchases where receipts are available; it did not anticipate cases where no receipt can be obtained." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "Policies of this kind usually allow a signed statement or card record in exceptional cases, so treating the rule as absolute ignores its implicit qualifications." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "Company policy says all expense claims must include an itemised paper receipt." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "The engineer's taxi in the foreign city was paid in cash, and the driver issued no receipt." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2000/01/rdf-schema#label> "Fallacy of accident" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#altLabel> "a dicto simpliciter ad dictum secundum quid" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#altLabel> "accident fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacia accidentis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#altLabel> "neglecting qualifications" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#altLabel> "sweeping generalization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of applying a generally sound rule or generalization to a particular case whose unusual circumstances fall outside the conditions the rule was meant to cover, as if the rule held without exception." .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fallacy of accident" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-composition> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-division> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/no-true-scotsman> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/richard-whately> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s5> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/fallacy-of-accident.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which word, phrase or sentence in the argument could be read in more than one way, and does the argument rely on it?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity> .
@@ -17131,6 +17207,36 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacies-of-relevance/s5> <https://schema.org/url> <https://rintintin.colorado.edu/~vancecd/phil1440/irrelevance.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, substantive revision 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s1> <http://purl.org/dc/terms/title> "Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s1> <https://schema.org/url> <https://plato.stanford.edu/ENTRIES/fallacies/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s2> <http://purl.org/dc/terms/publisher> "Lee C. Archie, Introduction to Logic, Lander University" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s2> <http://purl.org/dc/terms/title> "The Fallacy of Accident" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s2> <https://schema.org/url> <https://philosophy.lander.Edu/logic/accident.html> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s3> <http://purl.org/dc/terms/publisher> "Fabrizio Macagno, Argumentation 36(3), 317-343 (2022), Springer" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s3> <http://purl.org/dc/terms/title> "Secundum Quid and the Pragmatics of Arguments. The Challenges of the Dialectical Tradition" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s3> <https://schema.org/url> <https://link.springer.com/article/10.1007/s10503-022-09568-4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s4> <http://purl.org/dc/terms/publisher> "Jaakko J. Hintikka, Encyclopaedia Britannica" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s4> <http://purl.org/dc/terms/title> "Applied logic: Nonverbal fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s4> <https://schema.org/url> <https://www.britannica.com/topic/applied-logic/Nonverbal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s5> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s5> <http://purl.org/dc/terms/publisher> "Fallacies tutorial, Palomar College faculty pages" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s5> <http://purl.org/dc/terms/title> "Dicto Simpliciter" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s5> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s5> <https://schema.org/url> <https://www.palomar.edu/users/bthompson/Dicto%20Simpliciter.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> <http://purl.org/dc/terms/date> "2026-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-ambiguity/s1> <http://purl.org/dc/terms/title> "Fallacies" .

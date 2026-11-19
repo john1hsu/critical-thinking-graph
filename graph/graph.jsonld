@@ -12356,6 +12356,101 @@
    ]
   },
   {
+   "@id": "ct:fallacy-of-accident",
+   "@type": "cto:InformalFallacy",
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map"
+   },
+   "cto:file": "articles/informal-fallacies/fallacy-of-accident.md",
+   "cto:instanceOf": {
+    "@id": "ct:fallacies-of-relevance"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s5"
+    }
+   ],
+   "rdfs:label": "Fallacy of accident",
+   "skos:altLabel": [
+    "a dicto simpliciter ad dictum secundum quid",
+    "accident fallacy",
+    "fallacia accidentis",
+    "neglecting qualifications",
+    "sweeping generalization"
+   ],
+   "skos:broader": {
+    "@id": "ct:informal-fallacy"
+   },
+   "skos:definition": "The fallacy of applying a generally sound rule or generalization to a particular case whose unusual circumstances fall outside the conditions the rule was meant to cover, as if the rule held without exception.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Fallacy of accident",
+   "skos:related": [
+    {
+     "@id": "ct:defeasible-reasoning"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:equivocation"
+    },
+    {
+     "@id": "ct:fallacies-of-relevance"
+    },
+    {
+     "@id": "ct:fallacy-of-composition"
+    },
+    {
+     "@id": "ct:fallacy-of-division"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:no-true-scotsman"
+    },
+    {
+     "@id": "ct:richard-whately"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    }
+   ]
+  },
+  {
    "@id": "ct:fallacy-of-ambiguity",
    "@type": "cto:InformalFallacy",
    "cto:domain": "informal-fallacies",
@@ -35780,6 +35875,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-accident"
+   },
+   "rdfs:label": "Is the general rule stated as an exceptionless universal, or is it really a \"usually\" or \"as a rule\" claim?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-accident"
+   },
+   "rdfs:label": "What purpose or typical situation was the rule designed for, and does this case share it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-accident"
+   },
+   "rdfs:label": "Is there something unusual about this case that the rule's authors did not have in mind?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-accident"
+   },
+   "rdfs:label": "Does a key term mean the same thing in the rule as it does in the conclusion about this case?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:fallacy-of-accident"
+   },
+   "rdfs:label": "Would applying the rule here defeat the very goal the rule exists to serve?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:fallacy-of-accident"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the engineer's taxi fare cannot be reimbursed."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "The receipt rule exists to prevent fraud and was written for normal purchases where receipts are available; it did not anticipate cases where no receipt can be obtained."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Policies of this kind usually allow a signed statement or card record in exceptional cases, so treating the rule as absolute ignores its implicit qualifications."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Company policy says all expense claims must include an itemised paper receipt."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The engineer's taxi in the foreign city was paid in cash, and the driver issued no receipt."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-ambiguity/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -49004,6 +49210,76 @@
    "dcterms:title": "3.2 Fallacies of Relevance (course notes, PHIL 1440)",
    "schema:url": {
     "@id": "https://rintintin.colorado.edu/~vancecd/phil1440/irrelevance.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Hansen, substantive revision 2024)",
+   "dcterms:title": "Fallacies",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/ENTRIES/fallacies/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Lee C. Archie, Introduction to Logic, Lander University",
+   "dcterms:title": "The Fallacy of Accident",
+   "schema:url": {
+    "@id": "https://philosophy.lander.Edu/logic/accident.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Fabrizio Macagno, Argumentation 36(3), 317-343 (2022), Springer",
+   "dcterms:title": "Secundum Quid and the Pragmatics of Arguments. The Challenges of the Dialectical Tradition",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s10503-022-09568-4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Jaakko J. Hintikka, Encyclopaedia Britannica",
+   "dcterms:title": "Applied logic: Nonverbal fallacies",
+   "schema:url": {
+    "@id": "https://www.britannica.com/topic/applied-logic/Nonverbal-fallacies"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/fallacy-of-accident/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Fallacies tutorial, Palomar College faculty pages",
+   "dcterms:title": "Dicto Simpliciter",
+   "schema:url": {
+    "@id": "https://www.palomar.edu/users/bthompson/Dicto%20Simpliciter.html"
    }
   },
   {
