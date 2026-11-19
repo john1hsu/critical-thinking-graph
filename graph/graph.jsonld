@@ -12966,6 +12966,88 @@
    ]
   },
   {
+   "@id": "ct:false-consensus-effect",
+   "@type": "cto:CognitiveBias",
+   "cto:challengedBy": [
+    {
+     "@id": "ct:engelmann-strobel-2000-false-consensus-incentives-study"
+    },
+    {
+     "@id": "ct:galesic-olsson-rieskamp-2013-false-consensus-study"
+    }
+   ],
+   "cto:demonstratedBy": {
+    "@id": "ct:ross-greene-house-1977-false-consensus-studies"
+   },
+   "cto:domain": "cognitive-biases",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": {
+    "@id": "ct:availability-heuristic"
+   },
+   "cto:file": "articles/cognitive-biases/false-consensus-effect.md",
+   "cto:introducedBy": {
+    "@id": "ct:lee-ross"
+   },
+   "cto:level": "introductory",
+   "cto:supportedBy": {
+    "@id": "ct:many-labs-2-replication-project"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s4"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s5"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s6"
+    }
+   ],
+   "rdfs:label": "False consensus effect",
+   "skos:altLabel": [
+    "false consensus bias",
+    "false-consensus bias"
+   ],
+   "skos:broader": {
+    "@id": "ct:cognitive-bias"
+   },
+   "skos:definition": "The tendency to overestimate how many other people share one's own beliefs, preferences and behaviours, so that people who make a choice judge it more common than people who make the opposite choice do.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/cognitive-biases"
+   },
+   "skos:prefLabel": "False consensus effect",
+   "skos:related": [
+    {
+     "@id": "ct:bias-blind-spot"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:naive-realism"
+    },
+    {
+     "@id": "ct:overconfidence-effect"
+    }
+   ]
+  },
+  {
    "@id": "ct:false-dilemma",
    "@type": "cto:InformalFallacy",
    "cto:appliedIn": {
@@ -50386,6 +50468,90 @@
    "dcterms:title": "Medieval Theories of the Syllogism",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/sum2025/entries/medieval-syllogism/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Open Social Psychology, ed. Rima-Maria Rahal (Zubrod, Berkessel & Kolozsvári), FORRT open textbook",
+   "dcterms:title": "False Consensus Effect (chapter in Open Social Psychology)",
+   "schema:url": {
+    "@id": "https://forrt.org/open-social-psychology/chapter16.html"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Advances in Methods and Practices in Psychological Science (Klein et al., 2018), copy hosted by University of North Texas",
+   "dcterms:title": "Many Labs 2: Investigating Variation in Replicability Across Samples and Settings",
+   "schema:url": {
+    "@id": "https://psychology.unt.edu/system/files/Many%20labs%202.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Experimental Economics 3(3), 241-260 (Engelmann & Strobel, 2000), Cambridge Core",
+   "dcterms:title": "The False Consensus Effect Disappears if Representative Information and Monetary Incentives Are Given",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/journals/experimental-economics/article/false-consensus-effect-disappears-if-representative-information-and-monetary-incentives-are-given/F5A6ECD267C1572F14A66F9C4EF2413F"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Proceedings of the Annual Meeting of the Cognitive Science Society 35 (Galesic, Olsson & Rieskamp, 2013), eScholarship (University of California)",
+   "dcterms:title": "False Consensus About False Consensus",
+   "schema:url": {
+    "@id": "https://escholarship.org/content/qt2t1036d4/qt2t1036d4.pdf?t=os5zwb"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s5",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Current Psychology 21(4), 293-318 (Bauman & Geher, 2002), SpringerLink",
+   "dcterms:title": "We think you agree: The detrimental impact of the false consensus effect on behavior",
+   "schema:url": {
+    "@id": "https://link.springer.com/article/10.1007/s12144-002-1020-0"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/false-consensus-effect/s6",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "University of Heidelberg, Alfred-Weber-Institute working paper (Vanberg)",
+   "dcterms:title": "A short note on the rationality of the false consensus effect",
+   "schema:url": {
+    "@id": "https://www.uni-heidelberg.de/md/awi/professuren/fiwi/falseconsensus.pdf"
    }
   },
   {

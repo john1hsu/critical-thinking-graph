@@ -13943,6 +13943,92 @@
   ]
  },
  {
+  "id": "ct:false-consensus-effect",
+  "title": "False consensus effect",
+  "aliases": [
+   "false-consensus bias",
+   "false consensus bias"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/false-consensus-effect.md",
+  "created": "2026-11-19",
+  "summary": "The tendency to overestimate how many other people share one's own beliefs, preferences and behaviours, so that people who make a choice judge it more common than people who make the opposite choice do.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bias-blind-spot"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:naive-realism"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:overconfidence-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:consider-the-opposite"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:lee-ross",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:ross-greene-house-1977-false-consensus-studies",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:many-labs-2-replication-project",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:availability-heuristic",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:engelmann-strobel-2000-false-consensus-incentives-study",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:galesic-olsson-rieskamp-2013-false-consensus-study",
+    "source": "s4",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://forrt.org/open-social-psychology/chapter16.html",
+   "https://psychology.unt.edu/system/files/Many%20labs%202.pdf",
+   "https://www.cambridge.org/core/journals/experimental-economics/article/false-consensus-effect-disappears-if-representative-information-and-monetary-incentives-are-given/F5A6ECD267C1572F14A66F9C4EF2413F",
+   "https://escholarship.org/content/qt2t1036d4/qt2t1036d4.pdf?t=os5zwb",
+   "https://link.springer.com/article/10.1007/s12144-002-1020-0",
+   "https://www.uni-heidelberg.de/md/awi/professuren/fiwi/falseconsensus.pdf"
+  ]
+ },
+ {
   "id": "ct:false-dilemma",
   "title": "False dilemma",
   "aliases": [

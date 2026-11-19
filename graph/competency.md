@@ -9,6 +9,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | node | type |
 |---|---|
 | `ct:fallacy-of-accident` | cto:InformalFallacy |
+| `ct:false-consensus-effect` | cto:CognitiveBias |
 | `ct:illicit-subalternation` | cto:FormalFallacy |
 | `ct:probabilistic-modus-tollens` | cto:FormalFallacy |
 
