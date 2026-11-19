@@ -30456,6 +30456,105 @@
   ]
  },
  {
+  "id": "ct:serial-argument",
+  "title": "Serial argument",
+  "aliases": [
+   "serial argumentation",
+   "subordinate argumentation",
+   "subordinative argumentation",
+   "chain of reasoning",
+   "sub-argument structure"
+  ],
+  "type": "Concept",
+  "domain": "foundations",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/foundations/serial-argument.md",
+  "created": "2026-11-19",
+  "summary": "An argument structure in which a conclusion supported by one set of premises becomes a premise for a further conclusion, so that the reasoning runs in a chain of sub-arguments toward a final conclusion.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:linked-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:convergent-argument"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-reconstruction"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-evaluation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:slippery-slope"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:monroe-beardsley",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:practical-logic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:convergent-argument",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:linked-argument",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:informal-logic",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:argument-mapping",
+    "source": "s2",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://rozenbergquarterly.com/issa-proceedings-2014-the-linked-convergent-distinction/?print=pdf",
+   "https://distantreader.org/stacks/journals/il/il-462.pdf",
+   "https://core.ac.uk/download/72768605.pdf",
+   "https://icar.cnrs.fr/dicoplantin/serial-argumentation-e/"
+  ]
+ },
+ {
   "id": "ct:sherman-kent",
   "title": "Sherman Kent",
   "aliases": [

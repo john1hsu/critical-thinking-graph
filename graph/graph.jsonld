@@ -28428,6 +28428,94 @@
    ]
   },
   {
+   "@id": "ct:serial-argument",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:argument-mapping"
+   },
+   "cto:contrastsWith": [
+    {
+     "@id": "ct:convergent-argument"
+    },
+    {
+     "@id": "ct:linked-argument"
+    }
+   ],
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/serial-argument.md",
+   "cto:introducedBy": {
+    "@id": "ct:monroe-beardsley"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:practical-logic"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:informal-logic"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s4"
+    }
+   ],
+   "rdfs:label": "Serial argument",
+   "skos:altLabel": [
+    "chain of reasoning",
+    "serial argumentation",
+    "sub-argument structure",
+    "subordinate argumentation",
+    "subordinative argumentation"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument"
+   },
+   "skos:definition": "An argument structure in which a conclusion supported by one set of premises becomes a premise for a further conclusion, so that the reasoning runs in a chain of sub-arguments toward a final conclusion.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Serial argument",
+   "skos:related": [
+    {
+     "@id": "ct:argument-evaluation"
+    },
+    {
+     "@id": "ct:argument-reconstruction"
+    },
+    {
+     "@id": "ct:convergent-argument"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:linked-argument"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:slippery-slope"
+    }
+   ]
+  },
+  {
    "@id": "ct:sherman-kent",
    "@type": "cto:Person",
    "cto:authored": {
@@ -62688,6 +62776,62 @@
    "dcterms:title": "New evidence on self-affirmation effects and theorized sources of heterogeneity from large-scale replications",
    "schema:url": {
     "@id": "https://profiles.wustl.edu/en/publications/new-evidence-on-self-affirmation-effects-and-theorized-sources-of/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "ISSA Proceedings 2014 (David Hitchcock, McMaster University), reprinted by Rozenberg Quarterly",
+   "dcterms:title": "The Linked-Convergent Distinction",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-the-linked-convergent-distinction/?print=pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Informal Logic 27(1), 5-25 (G. C. Goddu, 2007)",
+   "dcterms:title": "Walton on Argument Structure",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-462.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "OSSA Conference Archive 83, University of Windsor (A. Francisca Snoeck Henkemans, 2003)",
+   "dcterms:title": "Indicators of Complex Argumentation",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/72768605.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Dictionary of Argumentation, ICAR laboratory, CNRS / Université Lyon 2 (Christian Plantin, 2021)",
+   "dcterms:title": "Serial Argumentation",
+   "schema:url": {
+    "@id": "https://icar.cnrs.fr/dicoplantin/serial-argumentation-e/"
    }
   },
   {

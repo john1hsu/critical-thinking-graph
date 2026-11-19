@@ -12787,6 +12787,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
 <https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/motivated-reasoning> .
 <https://github.com/john1hsu/critical-thinking-graph/id/self-affirmation> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/epton-2015-self-affirmation-health-meta-analysis> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2000/01/rdf-schema#label> "Serial argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "chain of reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "serial argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "sub-argument structure" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "subordinate argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#altLabel> "subordinative argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#definition> "An argument structure in which a conclusion supported by one set of premises becomes a premise for a further conclusion, so that the reasoning runs in a chain of sub-arguments toward a final conclusion." .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#prefLabel> "Serial argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-evaluation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/argument-reconstruction> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/convergent-argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/slippery-slope> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argument-mapping> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/convergent-argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#contrastsWith> <https://github.com/john1hsu/critical-thinking-graph/id/linked-argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "foundations" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/foundations/serial-argument.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/monroe-beardsley> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/practical-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/serial-argument> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://purl.org/dc/terms/created> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Person> .
 <https://github.com/john1hsu/critical-thinking-graph/id/sherman-kent> <http://www.w3.org/2000/01/rdf-schema#label> "Sherman Kent" .
@@ -22939,6 +22973,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/self-affirmation/s4> <https://schema.org/url> <https://profiles.wustl.edu/en/publications/new-evidence-on-self-affirmation-effects-and-theorized-sources-of/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s1> <http://purl.org/dc/terms/publisher> "ISSA Proceedings 2014 (David Hitchcock, McMaster University), reprinted by Rozenberg Quarterly" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s1> <http://purl.org/dc/terms/title> "The Linked-Convergent Distinction" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s1> <https://schema.org/url> <https://rozenbergquarterly.com/issa-proceedings-2014-the-linked-convergent-distinction/?print=pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 27(1), 5-25 (G. C. Goddu, 2007)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s2> <http://purl.org/dc/terms/title> "Walton on Argument Structure" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-462.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s3> <http://purl.org/dc/terms/publisher> "OSSA Conference Archive 83, University of Windsor (A. Francisca Snoeck Henkemans, 2003)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s3> <http://purl.org/dc/terms/title> "Indicators of Complex Argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s3> <https://schema.org/url> <https://core.ac.uk/download/72768605.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s4> <http://purl.org/dc/terms/publisher> "Dictionary of Argumentation, ICAR laboratory, CNRS / Université Lyon 2 (Christian Plantin, 2021)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s4> <http://purl.org/dc/terms/title> "Serial Argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/serial-argument/s4> <https://schema.org/url> <https://icar.cnrs.fr/dicoplantin/serial-argumentation-e/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/date> "2026-11-07"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/publisher> "Jack Davis (November 2002), Sherman Kent Center for Intelligence Analysis Occasional Papers 1(5), Central Intelligence Agency" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/sherman-kent/s1> <http://purl.org/dc/terms/title> "Sherman Kent and the Profession of Intelligence Analysis" .
