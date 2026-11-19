@@ -4474,6 +4474,44 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
 <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://purl.org/dc/terms/created> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Framework> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2000/01/rdf-schema#label> "Dialogue types" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Walton-Krabbe dialogue typology" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#altLabel> "models of dialogue" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#altLabel> "new dialectic dialogue types" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#altLabel> "types of dialogue" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#definition> "Douglas Walton and Erik Krabbe's typology of normative models of conversation (persuasion, inquiry, negotiation, information-seeking, deliberation and eristic), each defined by its starting situation and goal, against which the relevance of a move, and whether a shift between types is legitimate or fallacious, can be judged." .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dialogue types" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/dialectical-relevance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/informal-logic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/pragma-dialectics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/socratic-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/ad-baculum> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#detects> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "argumentation" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/argumentation/dialogue-types.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/sophistical-refutations> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/douglas-walton> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/erik-krabbe> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/commitment-in-dialogue> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/dialectic> .
+<https://github.com/john1hsu/critical-thinking-graph/id/dialogue-types> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/argumentation-theory> .
 <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "The printer is failing because of the print driver." .
 <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
 <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/disjunctive-syllogism/map/ra> .
@@ -16553,6 +16591,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/dialectical-relevance/s4> <https://schema.org/url> <https://plato.stanford.edu/entries/logic-informal/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s1> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s1> <http://purl.org/dc/terms/publisher> "Douglas Walton & Fabrizio Macagno, Anthropology & Philosophy 8(1-2), 2007" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s1> <http://purl.org/dc/terms/title> "Types of Dialogue, Dialectical Relevance and Textual Congruity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s1> <https://schema.org/url> <https://philarchive.org/archive/WALTOD-2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s2> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s2> <http://purl.org/dc/terms/publisher> "Douglas Walton, Informal Logic 14(2&3), 1993, pp. 94-103" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s2> <http://purl.org/dc/terms/title> "Commitment, Types of Dialogue, and Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2532.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s3> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s3> <http://purl.org/dc/terms/publisher> "Douglas N. Walton & Erik C. W. Krabbe, SUNY Press, publisher page" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s3> <http://purl.org/dc/terms/title> "Commitment in Dialogue: Basic Concepts of Interpersonal Reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s3> <https://schema.org/url> <https://sunypress.edu/Books/C/Commitment-in-Dialogue> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s4> <http://purl.org/dc/terms/date> "2026-11-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s4> <http://purl.org/dc/terms/publisher> "Ioana A. Cionea & Dale Hample, ISSA Proceedings 2014 (Rozenberg Quarterly)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s4> <http://purl.org/dc/terms/title> "Dialogue Types and Argumentative Behaviors" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s4> <https://schema.org/url> <https://rozenbergquarterly.com/issa-proceedings-2014-dialogue-types-and-argumentative-behaviors/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1> <http://purl.org/dc/terms/date> "2026-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Susanne Bobzien, Winter 2021 edition)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/disjunctive-syllogism/s1> <http://purl.org/dc/terms/title> "Ancient Logic" .

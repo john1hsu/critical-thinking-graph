@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:fallacies-of-relevance` | cto:InformalFallacy |
 | `ct:fallacy-of-accident` | cto:InformalFallacy |
 | `ct:illicit-subalternation` | cto:FormalFallacy |
 | `ct:probabilistic-modus-tollens` | cto:FormalFallacy |
@@ -22,6 +21,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:consider-the-opposite` | 4 | Anchoring effect, Biased assimilation, Hindsight bias, Overconfidence effect |
 | `ct:debiasing-training-games` | 4 | Anchoring effect, Bias blind spot, Confirmation bias, Fundamental attribution error |
 | `ct:rules-of-the-categorical-syllogism` | 4 | Existential fallacy, Fallacy of four terms, Illicit major, Undistributed middle |
+| `ct:dialogue-types` | 3 | Ad hominem, Fallacies of relevance, ad-baculum |
 | `ct:distributive-collective-distinction` | 3 | Equivocation, Fallacy of composition, Fallacy of division |
 | `ct:formal-modeling` | 3 | Motte-and-bailey, Replication crisis, strategic-ambiguity |
 | `ct:mediating-assessments-protocol` | 3 | Halo effect, Overconfidence effect, noise-in-judgment |
@@ -48,9 +48,8 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
 | `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |
 | `ct:grade-approach` | 2 | Confounding, Publication bias |
-| `ct:heckman-correction` | 2 | Selection bias, Survivorship bias |
 
-…and 55 more.
+…and 56 more.
 
 ## Heuristic -> bias -> remedy chains
 

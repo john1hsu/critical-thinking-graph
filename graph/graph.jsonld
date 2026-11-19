@@ -9762,6 +9762,114 @@
    ]
   },
   {
+   "@id": "ct:dialogue-types",
+   "@type": "cto:Framework",
+   "cto:detects": [
+    {
+     "@id": "ct:ad-baculum"
+    },
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:fallacies-of-relevance"
+    }
+   ],
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/dialogue-types.md",
+   "cto:influencedBy": {
+    "@id": "ct:sophistical-refutations"
+   },
+   "cto:introducedBy": [
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:erik-krabbe"
+    }
+   ],
+   "cto:introducedIn": {
+    "@id": "ct:commitment-in-dialogue"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:argument"
+    },
+    {
+     "@id": "ct:dialectic"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:argumentation-theory"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s4"
+    }
+   ],
+   "rdfs:label": "Dialogue types",
+   "skos:altLabel": [
+    "Walton-Krabbe dialogue typology",
+    "models of dialogue",
+    "new dialectic dialogue types",
+    "types of dialogue"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:dialectic"
+    }
+   ],
+   "skos:definition": "Douglas Walton and Erik Krabbe's typology of normative models of conversation (persuasion, inquiry, negotiation, information-seeking, deliberation and eristic), each defined by its starting situation and goal, against which the relevance of a move, and whether a shift between types is legitimate or fallacious, can be judged.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Dialogue types",
+   "skos:related": [
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:dialectical-relevance"
+    },
+    {
+     "@id": "ct:douglas-walton"
+    },
+    {
+     "@id": "ct:fallacies-of-relevance"
+    },
+    {
+     "@id": "ct:informal-logic"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:red-herring"
+    },
+    {
+     "@id": "ct:socratic-method"
+    }
+   ]
+  },
+  {
    "@id": "ct:disjunctive-syllogism",
    "@type": "cto:ReasoningForm",
    "cto:challengedBy": [
@@ -47768,6 +47876,62 @@
    "dcterms:title": "Informal Logic",
    "schema:url": {
     "@id": "https://plato.stanford.edu/entries/logic-informal/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Douglas Walton & Fabrizio Macagno, Anthropology & Philosophy 8(1-2), 2007",
+   "dcterms:title": "Types of Dialogue, Dialectical Relevance and Textual Congruity",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/WALTOD-2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Douglas Walton, Informal Logic 14(2&3), 1993, pp. 94-103",
+   "dcterms:title": "Commitment, Types of Dialogue, and Fallacies",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-2532.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Douglas N. Walton & Erik C. W. Krabbe, SUNY Press, publisher page",
+   "dcterms:title": "Commitment in Dialogue: Basic Concepts of Interpersonal Reasoning",
+   "schema:url": {
+    "@id": "https://sunypress.edu/Books/C/Commitment-in-Dialogue"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/dialogue-types/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Ioana A. Cionea & Dale Hample, ISSA Proceedings 2014 (Rozenberg Quarterly)",
+   "dcterms:title": "Dialogue Types and Argumentative Behaviors",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/issa-proceedings-2014-dialogue-types-and-argumentative-behaviors/"
    }
   },
   {

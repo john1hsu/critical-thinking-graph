@@ -10478,6 +10478,128 @@
   ]
  },
  {
+  "id": "ct:dialogue-types",
+  "title": "Dialogue types",
+  "aliases": [
+   "types of dialogue",
+   "Walton-Krabbe dialogue typology",
+   "models of dialogue",
+   "new dialectic dialogue types"
+  ],
+  "type": "Framework",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/dialogue-types.md",
+  "created": "2026-11-19",
+  "summary": "Douglas Walton and Erik Krabbe's typology of normative models of conversation (persuasion, inquiry, negotiation, information-seeking, deliberation and eristic), each defined by its starting situation and goal, against which the relevance of a move, and whether a shift between types is legitimate or fallacious, can be judged.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectical-relevance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacies-of-relevance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:pragma-dialectics"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:douglas-walton"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:charles-hamblin"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:informal-logic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:red-herring"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:socratic-method"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:fallacies-of-relevance",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:ad-hominem",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:detects",
+    "object": "ct:ad-baculum",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:douglas-walton",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:erik-krabbe",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:commitment-in-dialogue",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:sophistical-refutations",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:argumentation-theory",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://philarchive.org/archive/WALTOD-2",
+   "https://distantreader.org/stacks/journals/il/il-2532.pdf",
+   "https://sunypress.edu/Books/C/Commitment-in-Dialogue",
+   "https://rozenbergquarterly.com/issa-proceedings-2014-dialogue-types-and-argumentative-behaviors/"
+  ]
+ },
+ {
   "id": "ct:disjunctive-syllogism",
   "title": "Disjunctive syllogism",
   "aliases": [
