@@ -7738,6 +7738,90 @@
    ]
   },
   {
+   "@id": "ct:counterargument",
+   "@type": "cto:Concept",
+   "cto:appliedIn": {
+    "@id": "ct:argumentative-writing"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:myside-bias"
+   },
+   "cto:domain": "foundations",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/foundations/counterargument.md",
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "cto:studiedIn": [
+    {
+     "@id": "ct:argumentation-theory"
+    },
+    {
+     "@id": "ct:psychology-of-reasoning"
+    }
+   ],
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/counterargument/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/counterargument/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/counterargument/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/counterargument/s4"
+    }
+   ],
+   "rdfs:label": "Counterargument",
+   "skos:altLabel": [
+    "counter-argument",
+    "objection",
+    "opposing argument",
+    "other-side argument"
+   ],
+   "skos:broader": {
+    "@id": "ct:argument"
+   },
+   "skos:definition": "An argument or consideration offered against a claim or against the argument for it, by contesting the conclusion directly, a premise, or the step from premises to conclusion; anticipating and answering counterarguments is a core part of building and evaluating arguments.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/foundations"
+   },
+   "skos:prefLabel": "Counterargument",
+   "skos:related": [
+    {
+     "@id": "ct:argument-evaluation"
+    },
+    {
+     "@id": "ct:consider-the-opposite"
+    },
+    {
+     "@id": "ct:defeasible-reasoning"
+    },
+    {
+     "@id": "ct:dialectic"
+    },
+    {
+     "@id": "ct:method-of-counterexample"
+    },
+    {
+     "@id": "ct:pragma-dialectics"
+    },
+    {
+     "@id": "ct:steelmanning"
+    },
+    {
+     "@id": "ct:toulmin-model"
+    }
+   ]
+  },
+  {
    "@id": "ct:critical-thinking",
    "@type": "cto:Concept",
    "cto:appliedIn": {
@@ -46697,6 +46781,62 @@
    "dcterms:title": "Teaching the use of cost-benefit reasoning in everyday life (record and abstract)",
    "schema:url": {
     "@id": "https://scholars.duke.edu/individual/pub893241"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/counterargument/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Robert Koons, first published 2005, substantive revision 2025)",
+   "dcterms:title": "Defeasible Reasoning",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/reasoning-defeasible/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/counterargument/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Christopher R. Wolfe and M. Anne Britt, Thinking & Reasoning (author copy)",
+   "dcterms:title": "The locus of the myside bias in written argumentation (Thinking & Reasoning 14(1), 2008, 1-27)",
+   "schema:url": {
+    "@id": "https://iphils.uj.edu.pl/~a.trybus/classes/logic/cs/16.Wolfe.Locus.Of.Myside.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/counterargument/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Deanna Kuhn, Cambridge University Press",
+   "dcterms:title": "Counterarguments (chapter 5 of The Skills of Argument, 1991, pp. 117-144)",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/skills-of-argument/counterarguments/11ECBD49902FEA29D60F5C6C7990DBB4"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/counterargument/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-19"
+   },
+   "dcterms:publisher": "Bilal Amjarso (University of Amsterdam), Proceedings of the 6th Conference of the International Society for the Study of Argumentation (ISSA 2006), via Rozenberg Quarterly",
+   "dcterms:title": "Addressing Anticipated Countermoves as a Form of Strategic Manoeuvring",
+   "schema:url": {
+    "@id": "https://rozenbergquarterly.com/?p=8236"
    }
   },
   {

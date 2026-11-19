@@ -135,6 +135,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:causal-inference` | cto:Field |
 | `ct:conditional-reasoning-training` | cto:Technique |
 | `ct:correlation-versus-causation` | cto:Principle |
+| `ct:counterargument` | cto:Concept |
 | `ct:debunking` | cto:Technique |
 | `ct:decision-theory` | cto:Field |
 | `ct:deepfake` | cto:Phenomenon |
@@ -156,9 +157,8 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:formal-fallacy` | cto:Concept |
 | `ct:formal-modeling` | cto:Method |
 | `ct:grade-approach` | cto:Framework |
-| `ct:illicit-contraposition` | cto:FormalFallacy |
 
-…and 54 more.
+…and 55 more.
 
 ## Orphan articles (gap)
 
