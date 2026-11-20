@@ -7827,6 +7827,91 @@
   ]
  },
  {
+  "id": "ct:continued-influence-effect",
+  "title": "Continued influence effect",
+  "aliases": [
+   "continued influence of misinformation",
+   "CIE",
+   "continued influence of retracted information"
+  ],
+  "type": "CognitiveBias",
+  "domain": "cognitive-biases",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/cognitive-biases/continued-influence-effect.md",
+  "created": "2026-11-20",
+  "summary": "The tendency for misinformation to keep shaping people's inferences and explanations after it has been clearly corrected or retracted, even when they remember and accept the correction.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:cognitive-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:belief-perseverance"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:prebunking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:illusory-truth-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:process-debriefing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-monitoring-framework"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:misinformation-and-disinformation"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:johnson-seifert-1994-continued-influence-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:colleen-seifert",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:walter-tukachinsky-continued-influence-meta-analysis",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:illusory-truth-effect",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://bibbase.org/network/publication/johnson-seifert-sourcesofthecontinuedinfluenceeffectwhenmisinformationinmemoryaffectslaterinferences-1994",
+   "https://dornsife.usc.edu/norbert-schwarz/wp-content/uploads/sites/231/2023/11/12_pspi_lewandowsky_et_al_misinformation.pdf",
+   "https://www.classes.cs.uchicago.edu/archive/2020/spring/33231-1/readings/Ecker2010_Article_ExplicitWarningsReduceButDoNot.pdf",
+   "https://digitalcommons.chapman.edu/comm_articles/61"
+  ]
+ },
+ {
   "id": "ct:convergent-argument",
   "title": "Convergent argument",
   "aliases": [

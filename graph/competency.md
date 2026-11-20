@@ -46,7 +46,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:cost-benefit-reasoning-training` | 2 | Sunk cost fallacy, opportunity-cost-neglect |
 | `ct:day-reconstruction-method` | 2 | Peak-end rule, duration-neglect |
 | `ct:debiasing` | 2 | Confirmation bias, Overconfidence effect |
-| `ct:debunking` | 2 | Misinformation and disinformation, continued-influence-effect |
+| `ct:debunking` | 2 | Continued influence effect, Misinformation and disinformation |
 | `ct:deliberate-reflection` | 2 | Availability heuristic, salient-distracting-features |
 | `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
 | `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |

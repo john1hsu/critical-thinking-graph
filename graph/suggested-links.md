@@ -14,7 +14,7 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.90 | `ct:ad-hominem` | `ct:argumentation-theory` | `ct:ad-verecundiam`, `ct:argument`, `ct:argument-from-ignorance`, `ct:argumentation-schemes`, `ct:charles-hamblin` |
 | 4.62 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises` |
 | 4.49 | `ct:method-of-counterexample` | `ct:square-of-opposition` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:existential-fallacy`, `ct:formal-logic` |
-| 4.45 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
+| 4.44 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
 | 4.42 | `ct:aristotle` | `ct:informal-fallacy` | `ct:amphiboly`, `ct:argument-from-consequences`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:equivocation` |
 | 4.41 | `ct:method-of-counterexample` | `ct:propositional-logic` | `ct:affirming-the-consequent`, `ct:commutation-of-conditionals`, `ct:deductive-reasoning`, `ct:denying-a-conjunct`, `ct:formal-logic` |
 | 4.26 | `ct:illicit-conversion` | `ct:venn-diagram-test` | `ct:categorical-proposition`, `ct:distribution-of-terms`, `ct:euler-diagram`, `ct:existential-import`, `ct:formal-fallacy` |
