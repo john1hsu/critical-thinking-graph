@@ -31229,6 +31229,108 @@
   ]
  },
  {
+  "id": "ct:simulation-heuristic",
+  "title": "Simulation heuristic",
+  "aliases": [
+   "mental simulation heuristic"
+  ],
+  "type": "Heuristic",
+  "domain": "heuristics-and-dual-process",
+  "level": "intermediate",
+  "evidenceStatus": "robust",
+  "file": "articles/heuristics-and-dual-process/simulation-heuristic.md",
+  "created": "2026-11-21",
+  "summary": "The tendency to judge how likely an outcome is, or how close it came to happening, by how easily one can mentally construct a scenario that leads to it or undoes it. Outcomes that are easy to imagine otherwise feel nearer, more probable and more emotionally charged.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:counterfactual-thinking"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:norm-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hindsight-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:premortem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:heuristics-and-biases-program"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:daniel-kahneman"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:amos-tversky"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:heuristic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:daniel-kahneman",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:amos-tversky",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:judgment-under-uncertainty",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:availability-heuristic",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:kutscher-feldman-2019-exceptionality-replication",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:judgment-and-decision-making",
+    "source": "s2",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.cambridge.org/core/books/judgment-under-uncertainty/simulation-heuristic/9C6ED91A6429A8443641641DC41A52FE",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2408534",
+   "https://philarchive.org/archive/KUTTIO-2"
+  ]
+ },
+ {
   "id": "ct:slippery-slope",
   "title": "Slippery slope",
   "aliases": [

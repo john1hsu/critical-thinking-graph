@@ -29151,6 +29151,93 @@
    ]
   },
   {
+   "@id": "ct:simulation-heuristic",
+   "@type": "cto:Heuristic",
+   "cto:contrastsWith": {
+    "@id": "ct:availability-heuristic"
+   },
+   "cto:domain": "heuristics-and-dual-process",
+   "cto:evidenceStatus": "robust",
+   "cto:file": "articles/heuristics-and-dual-process/simulation-heuristic.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    }
+   ],
+   "cto:introducedIn": {
+    "@id": "ct:judgment-under-uncertainty"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": [
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:heuristic"
+    }
+   ],
+   "cto:studiedIn": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:kutscher-feldman-2019-exceptionality-replication"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/simulation-heuristic/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/simulation-heuristic/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/simulation-heuristic/s3"
+    }
+   ],
+   "rdfs:label": "Simulation heuristic",
+   "skos:altLabel": "mental simulation heuristic",
+   "skos:broader": {
+    "@id": "ct:heuristic"
+   },
+   "skos:definition": "The tendency to judge how likely an outcome is, or how close it came to happening, by how easily one can mentally construct a scenario that leads to it or undoes it. Outcomes that are easy to imagine otherwise feel nearer, more probable and more emotionally charged.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/heuristics-and-dual-process"
+   },
+   "skos:prefLabel": "Simulation heuristic",
+   "skos:related": [
+    {
+     "@id": "ct:amos-tversky"
+    },
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:counterfactual-thinking"
+    },
+    {
+     "@id": "ct:daniel-kahneman"
+    },
+    {
+     "@id": "ct:heuristics-and-biases-program"
+    },
+    {
+     "@id": "ct:hindsight-bias"
+    },
+    {
+     "@id": "ct:norm-theory"
+    },
+    {
+     "@id": "ct:premortem"
+    }
+   ]
+  },
+  {
    "@id": "ct:slippery-slope",
    "@type": "cto:InformalFallacy",
    "cto:domain": "informal-fallacies",
@@ -63869,6 +63956,48 @@
    "dcterms:title": "Simpson's Paradox in Clinical Research: A Cautionary Tale",
    "schema:url": {
     "@id": "https://www.mdpi.com/2077-0383/12/4/1633"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/simulation-heuristic/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "dcterms:publisher": "Kahneman & Tversky, in Kahneman, Slovic & Tversky (eds.), Judgment under Uncertainty: Heuristics and Biases, ch. 14, pp. 201-208, Cambridge University Press, 1982 (doi:10.1017/CBO9780511809477.015)",
+   "dcterms:title": "The simulation heuristic",
+   "schema:url": {
+    "@id": "https://www.cambridge.org/core/books/judgment-under-uncertainty/simulation-heuristic/9C6ED91A6429A8443641641DC41A52FE"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/simulation-heuristic/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "dcterms:publisher": "Personality and Social Psychology Review 12(2), 168-192 (Epstude & Roese, 2008), PMC author manuscript",
+   "dcterms:title": "The Functional Theory of Counterfactual Thinking",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2408534"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/simulation-heuristic/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-21"
+   },
+   "dcterms:publisher": "Cognition and Emotion 33(5), 901-914 (Kutscher & Feldman, 2019; doi:10.1080/02699931.2018.1504747), PhilArchive copy",
+   "dcterms:title": "The impact of past behaviour normality on regret: replication and extension of three experiments of the exceptionality effect",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/KUTTIO-2"
    }
   },
   {

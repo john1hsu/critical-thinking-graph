@@ -13,6 +13,7 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 | `ct:illicit-subalternation` | cto:FormalFallacy |
 | `ct:illicit-subcontrary` | cto:FormalFallacy |
 | `ct:probabilistic-modus-tollens` | cto:FormalFallacy |
+| `ct:simulation-heuristic` | cto:Heuristic |
 
 ## Most useful remedies
 
