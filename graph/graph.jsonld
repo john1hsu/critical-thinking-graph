@@ -11544,6 +11544,85 @@
    ]
   },
   {
+   "@id": "ct:equity-epieikeia",
+   "@type": "cto:Principle",
+   "cto:appliedIn": {
+    "@id": "ct:legal-reasoning"
+   },
+   "cto:counteracts": {
+    "@id": "ct:fallacy-of-accident"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/equity-epieikeia.md",
+   "cto:introducedBy": {
+    "@id": "ct:aristotle"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:nicomachean-ethics"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:defeasible-reasoning"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:jurisprudence"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s4"
+    }
+   ],
+   "rdfs:label": "Equity (epieikeia)",
+   "skos:altLabel": [
+    "Aristotelian equity",
+    "correction of the law",
+    "epieikeia",
+    "epikeia",
+    "spirit of the law over the letter"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:defeasible-reasoning"
+    },
+    {
+     "@id": "ct:legal-reasoning"
+    }
+   ],
+   "skos:definition": "The principle, first set out by Aristotle, that because general rules are framed for the usual case, a rule should be corrected in a particular case it fails to fit, by deciding as the rule-maker would have decided had they foreseen that case.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Equity (epieikeia)",
+   "skos:related": [
+    {
+     "@id": "ct:bright-line-rule"
+    },
+    {
+     "@id": "ct:fallacy-of-accident"
+    },
+    {
+     "@id": "ct:hasty-generalization"
+    },
+    {
+     "@id": "ct:principle-of-charity"
+    }
+   ]
+  },
+  {
    "@id": "ct:equivocation",
    "@type": "cto:InformalFallacy",
    "cto:contrastsWith": {
@@ -49886,6 +49965,62 @@
    "dcterms:title": "The Problem With Percy: Epistemology, Understanding and Critical Thinking",
    "schema:url": {
     "@id": "https://distantreader.org/stacks/journals/il/il-2325.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Aristotle, The Nicomachean Ethics, Toronto Metropolitan University Pressbooks (2022)",
+   "dcterms:title": "Nicomachean Ethics, Book V, Chapter 10: Of equity",
+   "schema:url": {
+    "@id": "https://pressbooks.library.torontomu.ca/nicomacheanethics/chapter/10-of-equity/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Thomas Aquinas, trans. Fathers of the English Dominican Province (1920), New Advent",
+   "dcterms:title": "Summa Theologiae II-II, Question 120: Of epikeia or equity",
+   "schema:url": {
+    "@id": "https://www.newadvent.org/summa/3120.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Allan Beever, Legal Theory 10(1), 33-50 (2004), Cambridge University Press; Durham Research Online copy",
+   "dcterms:title": "Aristotle on Equity, Law, and Justice",
+   "schema:url": {
+    "@id": "https://durham-repository.worktribe.com/file/1552548/1/Published%20Journal%20Article"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-22"
+   },
+   "dcterms:publisher": "Lee C. Archie, Introduction to Logic, Lander University (rev. 2024)",
+   "dcterms:title": "The Fallacy of Accident: Fallacia Accidentis",
+   "schema:url": {
+    "@id": "https://philosophy.lander.Edu/logic/accident.html"
    }
   },
   {

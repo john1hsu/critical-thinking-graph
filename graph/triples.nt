@@ -5158,6 +5158,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/epistemology.md" .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#influencedBy> <https://github.com/john1hsu/critical-thinking-graph/id/plato> .
 <https://github.com/john1hsu/critical-thinking-graph/id/epistemology> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://purl.org/dc/terms/created> "2026-11-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Principle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2000/01/rdf-schema#label> "Equity (epieikeia)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#altLabel> "Aristotelian equity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#altLabel> "correction of the law" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#altLabel> "epieikeia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#altLabel> "epikeia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#altLabel> "spirit of the law over the letter" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#definition> "The principle, first set out by Aristotle, that because general rules are framed for the usual case, a rule should be corrected in a particular case it fails to fit, by deciding as the rule-maker would have decided had they foreseen that case." .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Equity (epieikeia)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/bright-line-rule> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/hasty-generalization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/principle-of-charity> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#appliedIn> <https://github.com/john1hsu/critical-thinking-graph/id/legal-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#counteracts> <https://github.com/john1hsu/critical-thinking-graph/id/fallacy-of-accident> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "philosophy-of-reasoning" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/philosophy-of-reasoning/equity-epieikeia.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/aristotle> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedIn> <https://github.com/john1hsu/critical-thinking-graph/id/nicomachean-ethics> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "intermediate" .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/defeasible-reasoning> .
+<https://github.com/john1hsu/critical-thinking-graph/id/equity-epieikeia> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/jurisprudence> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Which key term appears more than once, and can it be replaced by the same precise paraphrase every time it occurs?" .
 <https://github.com/john1hsu/critical-thinking-graph/id/equivocation/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/equivocation> .
@@ -17411,6 +17442,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/epistemology/s3> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-2325.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s1> <http://purl.org/dc/terms/date> "2026-11-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s1> <http://purl.org/dc/terms/publisher> "Aristotle, The Nicomachean Ethics, Toronto Metropolitan University Pressbooks (2022)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s1> <http://purl.org/dc/terms/title> "Nicomachean Ethics, Book V, Chapter 10: Of equity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s1> <https://schema.org/url> <https://pressbooks.library.torontomu.ca/nicomacheanethics/chapter/10-of-equity/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s2> <http://purl.org/dc/terms/date> "2026-11-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s2> <http://purl.org/dc/terms/publisher> "Thomas Aquinas, trans. Fathers of the English Dominican Province (1920), New Advent" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s2> <http://purl.org/dc/terms/title> "Summa Theologiae II-II, Question 120: Of epikeia or equity" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s2> <https://schema.org/url> <https://www.newadvent.org/summa/3120.htm> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s3> <http://purl.org/dc/terms/date> "2026-11-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s3> <http://purl.org/dc/terms/publisher> "Allan Beever, Legal Theory 10(1), 33-50 (2004), Cambridge University Press; Durham Research Online copy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s3> <http://purl.org/dc/terms/title> "Aristotle on Equity, Law, and Justice" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s3> <https://schema.org/url> <https://durham-repository.worktribe.com/file/1552548/1/Published%20Journal%20Article> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s4> <http://purl.org/dc/terms/date> "2026-11-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s4> <http://purl.org/dc/terms/publisher> "Lee C. Archie, Introduction to Logic, Lander University (rev. 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s4> <http://purl.org/dc/terms/title> "The Fallacy of Accident: Fallacia Accidentis" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/equity-epieikeia/s4> <https://schema.org/url> <https://philosophy.lander.Edu/logic/accident.html> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> <http://purl.org/dc/terms/date> "2026-11-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Hansen, rev. 2024)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/equivocation/s1> <http://purl.org/dc/terms/title> "Fallacies" .

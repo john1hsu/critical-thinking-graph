@@ -4,9 +4,9 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 
 | Score | Node A | Node B | Shared neighbours |
 |---|---|---|---|
-| 8.20 | `ct:argument` | `ct:aristotle` | `ct:amphiboly`, `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:aristotles-rhetoric`, `ct:begging-the-question` |
+| 8.19 | `ct:argument` | `ct:aristotle` | `ct:amphiboly`, `ct:argument-from-analogy`, `ct:argumentation-theory`, `ct:aristotles-rhetoric`, `ct:begging-the-question` |
 | 6.92 | `ct:aristotle` | `ct:validity` | `ct:affirming-the-consequent`, `ct:begging-the-question`, `ct:categorical-syllogism`, `ct:commutation-of-conditionals`, `ct:deductive-reasoning` |
-| 5.54 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory` |
+| 5.53 | `ct:argument` | `ct:richard-whately` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argument-from-expert-opinion`, `ct:argument-mapping`, `ct:argumentation-theory` |
 | 5.53 | `ct:categorical-proposition` | `ct:validity` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:carroll-diagram`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 5.50 | `ct:categorical-proposition` | `ct:method-of-counterexample` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises` |
 | 4.92 | `ct:formal-fallacy` | `ct:syllogism` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:affirming-a-disjunct`, `ct:cognitive-psychology`, `ct:exclusive-premises`, `ct:existential-fallacy` |
@@ -15,17 +15,17 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.62 | `ct:categorical-syllogism` | `ct:method-of-counterexample` | `ct:affirmative-conclusion-from-a-negative-premise`, `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:exclusive-premises` |
 | 4.49 | `ct:method-of-counterexample` | `ct:square-of-opposition` | `ct:antilogism`, `ct:aristotle`, `ct:euler-diagram`, `ct:existential-fallacy`, `ct:formal-logic` |
 | 4.44 | `ct:judgment-and-decision-making` | `ct:overconfidence-effect` | `ct:actively-open-minded-thinking`, `ct:baruch-fischhoff`, `ct:calibration`, `ct:cognitive-bias`, `ct:debiasing` |
-| 4.42 | `ct:aristotle` | `ct:informal-fallacy` | `ct:amphiboly`, `ct:argument-from-consequences`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:equivocation` |
 | 4.41 | `ct:method-of-counterexample` | `ct:propositional-logic` | `ct:affirming-the-consequent`, `ct:commutation-of-conditionals`, `ct:deductive-reasoning`, `ct:denying-a-conjunct`, `ct:formal-logic` |
+| 4.41 | `ct:aristotle` | `ct:informal-fallacy` | `ct:amphiboly`, `ct:argument-from-consequences`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:equivocation` |
 | 4.26 | `ct:illicit-conversion` | `ct:venn-diagram-test` | `ct:categorical-proposition`, `ct:distribution-of-terms`, `ct:euler-diagram`, `ct:existential-import`, `ct:formal-fallacy` |
 | 4.21 | `ct:square-of-opposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:formal-logic`, `ct:illicit-contraposition` |
 | 4.20 | `ct:argument-evaluation` | `ct:pragma-dialectics` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:conductive-argument` |
-| 4.15 | `ct:argument` | `ct:hasty-generalization` | `ct:ad-populum`, `ct:argument-from-analogy`, `ct:defeasible-reasoning`, `ct:fallacy-of-accident`, `ct:fallacy-of-composition` |
+| 4.14 | `ct:argument` | `ct:hasty-generalization` | `ct:ad-populum`, `ct:argument-from-analogy`, `ct:defeasible-reasoning`, `ct:fallacy-of-accident`, `ct:fallacy-of-composition` |
 | 4.06 | `ct:cognitive-bias` | `ct:consider-the-opposite` | `ct:anchoring-effect`, `ct:availability-heuristic`, `ct:belief-perseverance`, `ct:biased-assimilation`, `ct:confirmation-bias` |
 | 4.06 | `ct:argument` | `ct:charles-hamblin` | `ct:ad-hominem`, `ct:ad-verecundiam`, `ct:argumentation-theory`, `ct:begging-the-question`, `ct:burden-of-proof` |
 | 4.02 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
 | 3.97 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 3.94 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
 | 3.87 | `ct:daniel-kahneman` | `ct:heuristic` | `ct:anchoring-and-adjustment-heuristic`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias` |
-| 3.79 | `ct:argumentation-theory` | `ct:fallacy-of-ambiguity` | `ct:amphiboly`, `ct:argument`, `ct:aristotle`, `ct:charles-hamblin`, `ct:distributive-collective-distinction` |
-| 3.76 | `ct:argumentation-theory` | `ct:defeasible-reasoning` | `ct:argument`, `ct:argument-from-consequences`, `ct:argumentation-schemes`, `ct:artificial-intelligence`, `ct:burden-of-proof` |
+| 3.78 | `ct:argumentation-theory` | `ct:fallacy-of-ambiguity` | `ct:amphiboly`, `ct:argument`, `ct:aristotle`, `ct:charles-hamblin`, `ct:distributive-collective-distinction` |
+| 3.74 | `ct:argumentation-theory` | `ct:defeasible-reasoning` | `ct:argument`, `ct:argument-from-consequences`, `ct:argumentation-schemes`, `ct:artificial-intelligence`, `ct:burden-of-proof` |

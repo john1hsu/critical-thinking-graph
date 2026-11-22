@@ -12402,6 +12402,91 @@
   ]
  },
  {
+  "id": "ct:equity-epieikeia",
+  "title": "Equity (epieikeia)",
+  "aliases": [
+   "epieikeia",
+   "epikeia",
+   "Aristotelian equity",
+   "correction of the law",
+   "spirit of the law over the letter"
+  ],
+  "type": "Principle",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/equity-epieikeia.md",
+  "created": "2026-11-22",
+  "summary": "The principle, first set out by Aristotle, that because general rules are framed for the usual case, a rule should be corrected in a particular case it fails to fit, by deciding as the rule-maker would have decided had they foreseen that case.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:legal-reasoning"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fallacy-of-accident"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:bright-line-rule"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:principle-of-charity"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:hasty-generalization"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:aristotle",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:nicomachean-ethics",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:fallacy-of-accident",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:jurisprudence",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:legal-reasoning",
+    "source": "s3",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://pressbooks.library.torontomu.ca/nicomacheanethics/chapter/10-of-equity/",
+   "https://www.newadvent.org/summa/3120.htm",
+   "https://durham-repository.worktribe.com/file/1552548/1/Published%20Journal%20Article",
+   "https://philosophy.lander.Edu/logic/accident.html"
+  ]
+ },
+ {
   "id": "ct:equivocation",
   "title": "Equivocation",
   "aliases": [
