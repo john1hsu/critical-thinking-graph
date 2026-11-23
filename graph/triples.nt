@@ -6867,6 +6867,37 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/randomized-controlled-trial> .
 <https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/systematic-review> .
 <https://github.com/john1hsu/critical-thinking-graph/id/grade-approach> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/mustafa-2013-grade-reliability-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://purl.org/dc/terms/created> "2026-11-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Concept> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2000/01/rdf-schema#label> "Group decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#altLabel> "collective decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#altLabel> "small-group decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#altLabel> "team decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#definition> "The process by which several people jointly reach a choice or judgment by pooling information and preferences through discussion, voting or structured aggregation; depending on how it is organised, the group can outperform its members (process gains) or do worse than they would alone (process losses)." .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#prefLabel> "Group decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/nominal-group-technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/stasis-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stasser-titus-1985-hidden-profile-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "mixed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/group-decision-making.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#formalizedBy> <https://github.com/john1hsu/critical-thinking-graph/id/condorcet-jury-theorem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#hasPart> <https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2000/01/rdf-schema#label> "Groupthink" .
@@ -18552,6 +18583,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "institutional" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/grade-approach/s4> <https://schema.org/url> <https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s1> <http://purl.org/dc/terms/date> "2026-11-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s1> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 48(6), 1467-1478 (Stasser & Titus, 1985), author copy hosted by the University of Münster" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s1> <http://purl.org/dc/terms/title> "Pooling of unshared information in group decision making: Biased information sampling during discussion" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "primary" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s1> <https://schema.org/url> <https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/stasser_titus_unsharedinfogroupdisc_jpsp1985.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s2> <http://purl.org/dc/terms/date> "2026-11-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s2> <http://purl.org/dc/terms/publisher> "Annual Review of Psychology 55 (Kerr & Tindale, 2004)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s2> <http://purl.org/dc/terms/title> "Group performance and decision making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s2> <https://schema.org/url> <https://www.annualreviews.org/doi/10.1146/annurev.psych.55.090902.142009> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s3> <http://purl.org/dc/terms/date> "2026-11-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s3> <http://purl.org/dc/terms/publisher> "Principles of Social Psychology, BCcampus Open Education open textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s3> <http://purl.org/dc/terms/title> "Group Decision Making (ch. 10, Working Groups: Performance and Decision Making)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s3> <https://schema.org/url> <https://opentextbc.ca/socialpsychology/chapter/group-decision-making/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> <http://purl.org/dc/terms/date> "2026-11-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> <http://purl.org/dc/terms/publisher> "Stanford Encyclopedia of Philosophy (Dietrich & Spiekermann, first published 2021; Summer 2026 edition)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> <http://purl.org/dc/terms/title> "Jury Theorems" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2026/entries/jury-theorems/> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/publisher> "Emerging Leadership Journeys 4(1), Regent University School of Global Leadership & Entrepreneurship (Rose, 2011)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/title> "Diverse Perspectives on the Groupthink Theory: A Literary Review" .

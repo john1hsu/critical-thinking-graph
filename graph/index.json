@@ -15973,6 +15973,95 @@
   ]
  },
  {
+  "id": "ct:group-decision-making",
+  "title": "Group decision making",
+  "aliases": [
+   "collective decision making",
+   "small-group decision making",
+   "team decision making"
+  ],
+  "type": "Concept",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "mixed",
+  "file": "articles/decision-making/group-decision-making.md",
+  "created": "2026-11-23",
+  "summary": "The process by which several people jointly reach a choice or judgment by pooling information and preferences through discussion, voting or structured aggregation; depending on how it is organised, the group can outperform its members (process gains) or do worse than they would alone (process losses).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:condorcet-jury-theorem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:stasis-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:group-polarization"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:nominal-group-technique"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:judgment-and-decision-making"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:stasser-titus-1985-hidden-profile-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:formalizedBy",
+    "object": "ct:condorcet-jury-theorem",
+    "source": "s4",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:hasPart",
+    "object": "ct:group-polarization",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/stasser_titus_unsharedinfogroupdisc_jpsp1985.pdf",
+   "https://www.annualreviews.org/doi/10.1146/annurev.psych.55.090902.142009",
+   "https://opentextbc.ca/socialpsychology/chapter/group-decision-making/",
+   "https://plato.stanford.edu/archives/sum2026/entries/jury-theorems/"
+  ]
+ },
+ {
   "id": "ct:groupthink",
   "title": "Groupthink",
   "aliases": [

@@ -110,7 +110,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 106 more.
+…and 107 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 
@@ -158,7 +158,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:formal-modeling` | cto:Method |
 | `ct:grade-approach` | cto:Framework |
 
-…and 55 more.
+…and 56 more.
 
 ## Orphan articles (gap)
 

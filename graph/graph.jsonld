@@ -14849,6 +14849,87 @@
    ]
   },
   {
+   "@id": "ct:group-decision-making",
+   "@type": "cto:Concept",
+   "cto:demonstratedBy": {
+    "@id": "ct:stasser-titus-1985-hidden-profile-study"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/decision-making/group-decision-making.md",
+   "cto:formalizedBy": {
+    "@id": "ct:condorcet-jury-theorem"
+   },
+   "cto:hasPart": {
+    "@id": "ct:group-polarization"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "cto:studiedIn": {
+    "@id": "ct:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4"
+    }
+   ],
+   "rdfs:label": "Group decision making",
+   "skos:altLabel": [
+    "collective decision making",
+    "small-group decision making",
+    "team decision making"
+   ],
+   "skos:broader": {
+    "@id": "ct:judgment-and-decision-making"
+   },
+   "skos:definition": "The process by which several people jointly reach a choice or judgment by pooling information and preferences through discussion, voting or structured aggregation; depending on how it is organised, the group can outperform its members (process gains) or do worse than they would alone (process losses).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Group decision making",
+   "skos:related": [
+    {
+     "@id": "ct:condorcet-jury-theorem"
+    },
+    {
+     "@id": "ct:delphi-method"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:group-polarization"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:nominal-group-technique"
+    },
+    {
+     "@id": "ct:stasis-theory"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:groupthink",
    "@type": "cto:Phenomenon",
    "cto:challengedBy": [
@@ -52555,6 +52636,62 @@
    "dcterms:title": "What is GRADE?",
    "schema:url": {
     "@id": "https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 48(6), 1467-1478 (Stasser & Titus, 1985), author copy hosted by the University of Münster",
+   "dcterms:title": "Pooling of unshared information in group decision making: Biased information sampling during discussion",
+   "schema:url": {
+    "@id": "https://www.uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/stasser_titus_unsharedinfogroupdisc_jpsp1985.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "dcterms:publisher": "Annual Review of Psychology 55 (Kerr & Tindale, 2004)",
+   "dcterms:title": "Group performance and decision making",
+   "schema:url": {
+    "@id": "https://www.annualreviews.org/doi/10.1146/annurev.psych.55.090902.142009"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "dcterms:publisher": "Principles of Social Psychology, BCcampus Open Education open textbook",
+   "dcterms:title": "Group Decision Making (ch. 10, Working Groups: Performance and Decision Making)",
+   "schema:url": {
+    "@id": "https://opentextbc.ca/socialpsychology/chapter/group-decision-making/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-23"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Dietrich & Spiekermann, first published 2021; Summer 2026 edition)",
+   "dcterms:title": "Jury Theorems",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/archives/sum2026/entries/jury-theorems/"
    }
   },
   {
