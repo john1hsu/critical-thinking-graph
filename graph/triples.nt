@@ -6621,6 +6621,76 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/conditional-probability> .
 <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/gamblers-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#supportedBy> <https://github.com/john1hsu/critical-thinking-graph/id/many-labs-1-replication-project> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/1> <http://www.w3.org/2000/01/rdf-schema#label> "Is the origin being cited actually connected to whether the claim is true, or only to how someone first came to think of it?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/1> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/2> <http://www.w3.org/2000/01/rdf-schema#label> "Does the claim have independent evidence or arguments that the story about its source leaves untouched?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/2> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/3> <http://www.w3.org/2000/01/rdf-schema#label> "Was the process that produced the belief reliable or unreliable in a way that has been shown, rather than assumed?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/3> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/4> <http://www.w3.org/2000/01/rdf-schema#label> "If the origin casts doubt, does it show the claim is false, or only that one reason for believing it is weak?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/4> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#CriticalQuestion> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/5> <http://www.w3.org/2000/01/rdf-schema#label> "Is the same origin being used to praise ideas we like and dismiss ideas we dislike?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/5> <https://github.com/john1hsu/critical-thinking-graph/ontology#questionFor> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/c> <http://www.arg.dundee.ac.uk/aif#claimText> "So the four-day sprint proposal is a bad idea and need not be considered." .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ca1> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ca1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ca2> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ca2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#CA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o1> <http://www.arg.dundee.ac.uk/aif#claimText> "Whether shorter sprints would help the team depends on its workload, deadlines and track record, not on where the idea was first heard." .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o2> <http://www.arg.dundee.ac.uk/aif#claimText> "The podcast's reliability matters only if the proposal rests on the podcast's say-so; it can be tested on its own merits in a trial sprint." .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p1> <http://www.arg.dundee.ac.uk/aif#claimText> "A colleague's proposal to switch the team to a four-day sprint came from a productivity podcast she listens to on her commute." .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p2> <http://www.arg.dundee.ac.uk/aif#claimText> "Podcasts are not a serious source of management advice." .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#I-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Conclusion> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/c> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#Premise> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra> <http://www.arg.dundee.ac.uk/aif#partOf> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#RA-node> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.arg.dundee.ac.uk/aif#ArgumentNetwork> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#illustrates> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map> <https://github.com/john1hsu/critical-thinking-graph/ontology#verdict> "fallacious" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://purl.org/dc/terms/created> "2026-11-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#InformalFallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2000/01/rdf-schema#label> "Genetic fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of origin" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "fallacy of origins" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#altLabel> "genetic reasoning fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/informal-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#definition> "The fallacy of judging a claim, idea or proposal true or false, good or bad, on the basis of where it came from or how it arose, rather than on the evidence and reasons that bear on it now." .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Genetic fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/charles-hamblin> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/inference-to-the-best-explanation> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/red-herring> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/source-credibility> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#challengedBy> <https://github.com/john1hsu/critical-thinking-graph/id/ward-2010-value-of-genetic-fallacies> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#confusedWith> <https://github.com/john1hsu/critical-thinking-graph/id/ad-hominem> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "informal-fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "normative" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#example> <https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/context-of-discovery-and-context-of-justification> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/informal-fallacies/genetic-fallacy.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#instanceOf> <https://github.com/john1hsu/critical-thinking-graph/id/fallacies-of-relevance> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#introducedBy> <https://github.com/john1hsu/critical-thinking-graph/id/morris-cohen> .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/argument> .
 <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> <http://purl.org/dc/terms/created> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Field> .
 <https://github.com/john1hsu/critical-thinking-graph/id/geopolitical-forecasting> <http://www.w3.org/2000/01/rdf-schema#label> "Geopolitical forecasting" .
@@ -18385,6 +18455,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/gamblers-fallacy/s8> <https://schema.org/url> <https://core.ac.uk/download/420823721.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s1> <http://purl.org/dc/terms/date> "2026-11-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s1> <http://purl.org/dc/terms/publisher> "Argumentation 16(4), 383-400 (Klement, 2002); author's copy on PhilArchive" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s1> <http://purl.org/dc/terms/title> "When Is Genetic Reasoning Not Fallacious?" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s1> <https://schema.org/url> <https://philarchive.org/archive/KLEWIG> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s2> <http://purl.org/dc/terms/date> "2026-11-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s2> <http://purl.org/dc/terms/publisher> "Informal Logic 30(1), 1-33 (Ward, 2010)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s2> <http://purl.org/dc/terms/title> "The Value of Genetic Fallacies" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s2> <https://schema.org/url> <https://distantreader.org/stacks/journals/il/il-1237.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s3> <http://purl.org/dc/terms/date> "2026-11-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s3> <http://purl.org/dc/terms/publisher> "Logical Reasoning (Dowden), Humanities LibreTexts" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s3> <http://purl.org/dc/terms/title> "8.8: Genetic Fallacy" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s3> <https://schema.org/url> <https://human.libretexts.org/Bookshelves/Philosophy/Book%3A_Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.08%3A_Genetic_Fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s4> <http://purl.org/dc/terms/date> "2026-11-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s4> <http://purl.org/dc/terms/publisher> "Migration: A Philosophical Toolkit, University of Groningen open textbooks (Erol, 2024)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s4> <http://purl.org/dc/terms/title> "Genetic Fallacy and Its Application to an Anti-Immigrant Argument" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s4> <https://schema.org/url> <https://opentextbooks.rug.nl/philosophymigration/?p=164> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s1> <http://purl.org/dc/terms/date> "2026-11-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s1> <http://purl.org/dc/terms/publisher> "Psychological Science (Mellers, Ungar, Baron, Ramos, Gurcay, Fincher, Scott, Moore, Atanasov, Swift, Murray, Stone & Tetlock, 2014), eScholarship, University of California" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/geopolitical-forecasting/s1> <http://purl.org/dc/terms/title> "Psychological Strategies for Winning a Geopolitical Forecasting Tournament" .

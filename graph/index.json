@@ -15398,6 +15398,99 @@
   ]
  },
  {
+  "id": "ct:genetic-fallacy",
+  "title": "Genetic fallacy",
+  "aliases": [
+   "fallacy of origins",
+   "fallacy of origin",
+   "genetic reasoning fallacy"
+  ],
+  "type": "InformalFallacy",
+  "domain": "informal-fallacies",
+  "level": "introductory",
+  "evidenceStatus": "normative",
+  "file": "articles/informal-fallacies/genetic-fallacy.md",
+  "created": "2026-11-24",
+  "summary": "The fallacy of judging a claim, idea or proposal true or false, good or bad, on the basis of where it came from or how it arose, rather than on the evidence and reasons that bear on it now.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:fallacies-of-relevance"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:informal-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:ad-hominem"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:source-credibility"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:inference-to-the-best-explanation"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:charles-hamblin"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:red-herring"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:instanceOf",
+    "object": "ct:fallacies-of-relevance",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:confusedWith",
+    "object": "ct:ad-hominem",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:context-of-discovery-and-context-of-justification",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:ward-2010-value-of-genetic-fallacies",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:morris-cohen",
+    "source": "s4",
+    "confidence": "low"
+   }
+  ],
+  "criticalQuestions": [
+   "Is the origin being cited actually connected to whether the claim is true, or only to how someone first came to think of it?",
+   "Does the claim have independent evidence or arguments that the story about its source leaves untouched?",
+   "Was the process that produced the belief reliable or unreliable in a way that has been shown, rather than assumed?",
+   "If the origin casts doubt, does it show the claim is false, or only that one reason for believing it is weak?",
+   "Is the same origin being used to praise ideas we like and dismiss ideas we dislike?"
+  ],
+  "source_urls": [
+   "https://philarchive.org/archive/KLEWIG",
+   "https://distantreader.org/stacks/journals/il/il-1237.pdf",
+   "https://human.libretexts.org/Bookshelves/Philosophy/Book%3A_Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.08%3A_Genetic_Fallacy",
+   "https://opentextbooks.rug.nl/philosophymigration/?p=164"
+  ]
+ },
+ {
   "id": "ct:geopolitical-forecasting",
   "title": "Geopolitical forecasting",
   "aliases": [

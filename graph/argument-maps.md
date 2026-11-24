@@ -417,6 +417,17 @@ flowchart TD
   o1["If each check is independent, the chance the next one fails is still about one in ten; seven passes do not create a debt that the next shipment must repay."] -. attacks .-> ra
 ```
 
+## Genetic fallacy (`ct:genetic-fallacy`)
+
+```mermaid
+flowchart TD
+  p1["A colleague's proposal to switch the team to a four-day sprint came from a productivity podcast she listens to on her commute."] --> ra{{"fallacious"}}
+  p2["Podcasts are not a serious source of management advice."] --> ra{{"fallacious"}}
+  ra --> c["So the four-day sprint proposal is a bad idea and need not be considered."]
+  o1["Whether shorter sprints would help the team depends on its workload, deadlines and track record, not on where the idea was first heard."] -. attacks .-> ra
+  o2["The podcast's reliability matters only if the proposal rests on the podcast's say-so; it can be tested on its own merits in a trial sprint."] -. attacks .-> ra
+```
+
 ## Gish gallop (`ct:gish-gallop`)
 
 ```mermaid

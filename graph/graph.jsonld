@@ -14303,6 +14303,89 @@
    ]
   },
   {
+   "@id": "ct:genetic-fallacy",
+   "@type": "cto:InformalFallacy",
+   "cto:challengedBy": {
+    "@id": "ct:ward-2010-value-of-genetic-fallacies"
+   },
+   "cto:confusedWith": {
+    "@id": "ct:ad-hominem"
+   },
+   "cto:domain": "informal-fallacies",
+   "cto:evidenceStatus": "normative",
+   "cto:example": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map"
+   },
+   "cto:explainedBy": {
+    "@id": "ct:context-of-discovery-and-context-of-justification"
+   },
+   "cto:file": "articles/informal-fallacies/genetic-fallacy.md",
+   "cto:instanceOf": {
+    "@id": "ct:fallacies-of-relevance"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:morris-cohen"
+   },
+   "cto:level": "introductory",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s4"
+    }
+   ],
+   "rdfs:label": "Genetic fallacy",
+   "skos:altLabel": [
+    "fallacy of origin",
+    "fallacy of origins",
+    "genetic reasoning fallacy"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:fallacies-of-relevance"
+    },
+    {
+     "@id": "ct:informal-fallacy"
+    }
+   ],
+   "skos:definition": "The fallacy of judging a claim, idea or proposal true or false, good or bad, on the basis of where it came from or how it arose, rather than on the evidence and reasons that bear on it now.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/informal-fallacies"
+   },
+   "skos:prefLabel": "Genetic fallacy",
+   "skos:related": [
+    {
+     "@id": "ct:ad-hominem"
+    },
+    {
+     "@id": "ct:charles-hamblin"
+    },
+    {
+     "@id": "ct:inference-to-the-best-explanation"
+    },
+    {
+     "@id": "ct:red-herring"
+    },
+    {
+     "@id": "ct:source-credibility"
+    }
+   ]
+  },
+  {
    "@id": "ct:geopolitical-forecasting",
    "@type": "cto:Field",
    "cto:appliedIn": {
@@ -37935,6 +38018,117 @@
    }
   },
   {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/1",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:genetic-fallacy"
+   },
+   "rdfs:label": "Is the origin being cited actually connected to whether the claim is true, or only to how someone first came to think of it?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/2",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:genetic-fallacy"
+   },
+   "rdfs:label": "Does the claim have independent evidence or arguments that the story about its source leaves untouched?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/3",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:genetic-fallacy"
+   },
+   "rdfs:label": "Was the process that produced the belief reliable or unreliable in a way that has been shown, rather than assumed?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/4",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:genetic-fallacy"
+   },
+   "rdfs:label": "If the origin casts doubt, does it show the claim is false, or only that one reason for believing it is weak?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/cq/5",
+   "@type": "cto:CriticalQuestion",
+   "cto:questionFor": {
+    "@id": "ct:genetic-fallacy"
+   },
+   "rdfs:label": "Is the same origin being used to praise ideas we like and dismiss ideas we dislike?"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map",
+   "@type": "aif:ArgumentNetwork",
+   "cto:illustrates": {
+    "@id": "ct:genetic-fallacy"
+   },
+   "cto:verdict": "fallacious"
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/c",
+   "@type": "aif:I-node",
+   "aif:claimText": "So the four-day sprint proposal is a bad idea and need not be considered."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ca1",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o1"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ca2",
+   "@type": "aif:CA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra"
+   },
+   "aif:Premise": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o1",
+   "@type": "aif:I-node",
+   "aif:claimText": "Whether shorter sprints would help the team depends on its workload, deadlines and track record, not on where the idea was first heard."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/o2",
+   "@type": "aif:I-node",
+   "aif:claimText": "The podcast's reliability matters only if the proposal rests on the podcast's say-so; it can be tested on its own merits in a trial sprint."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p1",
+   "@type": "aif:I-node",
+   "aif:claimText": "A colleague's proposal to switch the team to a four-day sprint came from a productivity podcast she listens to on her commute."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p2",
+   "@type": "aif:I-node",
+   "aif:claimText": "Podcasts are not a serious source of management advice."
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/ra",
+   "@type": "aif:RA-node",
+   "aif:Conclusion": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/c"
+   },
+   "aif:Premise": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map/p2"
+    }
+   ],
+   "aif:partOf": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/genetic-fallacy/map"
+   }
+  },
+  {
    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/gish-gallop/cq/1",
    "@type": "cto:CriticalQuestion",
    "cto:questionFor": {
@@ -52174,6 +52368,62 @@
    "dcterms:title": "Data from Investigating Variation in Replicability: A 'Many Labs' Replication Project",
    "schema:url": {
     "@id": "https://core.ac.uk/download/420823721.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "dcterms:publisher": "Argumentation 16(4), 383-400 (Klement, 2002); author's copy on PhilArchive",
+   "dcterms:title": "When Is Genetic Reasoning Not Fallacious?",
+   "schema:url": {
+    "@id": "https://philarchive.org/archive/KLEWIG"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "dcterms:publisher": "Informal Logic 30(1), 1-33 (Ward, 2010)",
+   "dcterms:title": "The Value of Genetic Fallacies",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-1237.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "dcterms:publisher": "Logical Reasoning (Dowden), Humanities LibreTexts",
+   "dcterms:title": "8.8: Genetic Fallacy",
+   "schema:url": {
+    "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Book%3A_Logical_Reasoning_(Dowden)/08%3A_Detecting_Fallacies/8.08%3A_Genetic_Fallacy"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/genetic-fallacy/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-24"
+   },
+   "dcterms:publisher": "Migration: A Philosophical Toolkit, University of Groningen open textbooks (Erol, 2024)",
+   "dcterms:title": "Genetic Fallacy and Its Application to an Anti-Immigrant Argument",
+   "schema:url": {
+    "@id": "https://opentextbooks.rug.nl/philosophymigration/?p=164"
    }
   },
   {
