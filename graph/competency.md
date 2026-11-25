@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:false-consensus-effect` | cto:CognitiveBias |
 | `ct:genetic-fallacy` | cto:InformalFallacy |
 | `ct:illicit-subalternation` | cto:FormalFallacy |
 | `ct:illicit-subcontrary` | cto:FormalFallacy |
@@ -52,7 +51,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
 | `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |
 
-…and 58 more.
+…and 59 more.
 
 ## Heuristic -> bias -> remedy chains
 
@@ -111,7 +110,7 @@ _Which empirical claims in the graph are disputed, and by what?_ — `queries/04
 | `ct:insensitivity-to-sample-size` | contested | `ct:sedlmeier-gigerenzer-1997-sample-size-intuitions-review` |
 | `ct:justified-true-belief` | contested | `ct:gettier-problem` |
 
-…and 107 more.
+…and 108 more.
 
 ## Formal fallacies not linked to the valid form they imitate (gap)
 

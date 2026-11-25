@@ -22,10 +22,10 @@ Pairs of written nodes that share many neighbours but are not yet connected (Ada
 | 4.21 | `ct:square-of-opposition` | `ct:validity` | `ct:antilogism`, `ct:categorical-syllogism`, `ct:existential-fallacy`, `ct:formal-logic`, `ct:illicit-contraposition` |
 | 4.20 | `ct:argument-evaluation` | `ct:pragma-dialectics` | `ct:argument`, `ct:argumentation-schemes`, `ct:argumentation-theory`, `ct:burden-of-proof`, `ct:conductive-argument` |
 | 4.14 | `ct:argument` | `ct:hasty-generalization` | `ct:ad-populum`, `ct:argument-from-analogy`, `ct:defeasible-reasoning`, `ct:fallacy-of-accident`, `ct:fallacy-of-composition` |
-| 4.06 | `ct:cognitive-bias` | `ct:consider-the-opposite` | `ct:anchoring-effect`, `ct:availability-heuristic`, `ct:belief-perseverance`, `ct:biased-assimilation`, `ct:confirmation-bias` |
+| 4.04 | `ct:cognitive-bias` | `ct:consider-the-opposite` | `ct:anchoring-effect`, `ct:availability-heuristic`, `ct:belief-perseverance`, `ct:biased-assimilation`, `ct:confirmation-bias` |
 | 4.02 | `ct:framing-effect` | `ct:judgment-and-decision-making` | `ct:amos-tversky`, `ct:choice-architecture`, `ct:cognitive-bias`, `ct:cognitive-reflection-test`, `ct:daniel-kahneman` |
 | 3.97 | `ct:distribution-of-terms` | `ct:syllogism` | `ct:antilogism`, `ct:aristotle`, `ct:categorical-proposition`, `ct:categorical-syllogism`, `ct:exclusive-premises` |
 | 3.94 | `ct:herbert-simon` | `ct:judgment-and-decision-making` | `ct:behavioral-economics`, `ct:bounded-rationality`, `ct:cognitive-psychology`, `ct:daniel-kahneman`, `ct:ecological-rationality` |
-| 3.87 | `ct:daniel-kahneman` | `ct:heuristic` | `ct:anchoring-and-adjustment-heuristic`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias` |
+| 3.86 | `ct:daniel-kahneman` | `ct:heuristic` | `ct:anchoring-and-adjustment-heuristic`, `ct:attribute-substitution`, `ct:availability-heuristic`, `ct:bounded-rationality`, `ct:cognitive-bias` |
 | 3.78 | `ct:argumentation-theory` | `ct:fallacy-of-ambiguity` | `ct:amphiboly`, `ct:argument`, `ct:aristotle`, `ct:charles-hamblin`, `ct:distributive-collective-distinction` |
 | 3.74 | `ct:argumentation-theory` | `ct:defeasible-reasoning` | `ct:argument`, `ct:argument-from-consequences`, `ct:argumentation-schemes`, `ct:artificial-intelligence`, `ct:burden-of-proof` |

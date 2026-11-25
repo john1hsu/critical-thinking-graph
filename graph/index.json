@@ -31679,6 +31679,91 @@
   ]
  },
  {
+  "id": "ct:social-norms-approach",
+  "title": "Social norms approach",
+  "aliases": [
+   "social norms marketing",
+   "social norms intervention",
+   "normative feedback intervention"
+  ],
+  "type": "Technique",
+  "domain": "debiasing-and-metacognition",
+  "level": "intermediate",
+  "evidenceStatus": "mixed",
+  "file": "articles/debiasing-and-metacognition/social-norms-approach.md",
+  "created": "2026-11-25",
+  "summary": "An intervention that corrects people's mistaken beliefs about what their peers actually think and do by collecting accurate survey data on the group's real norms and communicating it back to the group.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:debiasing"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:false-consensus-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:social-psychology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:fundamental-attribution-error"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:availability-heuristic"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:false-consensus-effect"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:h-wesley-perkins",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:alan-berkowitz",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:false-consensus-effect",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:pluralistic-ignorance",
+    "source": "s1",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:supportedBy",
+    "object": "ct:borsari-carey-2003-norms-meta-analysis",
+    "source": "s3",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:foxcroft-2015-cochrane-social-norms-review",
+    "source": "s4",
+    "confidence": "high"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://care.berkeley.edu/wp-content/uploads/2019/07/Overview-of-the-Social-Norms-Approach.pdf",
+   "https://www.collegedrinkingprevention.gov/media/journal/164-perkins2.pdf",
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC2431131",
+   "https://www.cochrane.org/evidence/CD006748_social-norms-interventions-are-not-effective-enough-their-own-reduce-alcohol-use-or-misuse-among"
+  ]
+ },
+ {
   "id": "ct:social-psychology",
   "title": "Social psychology",
   "aliases": [

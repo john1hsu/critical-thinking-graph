@@ -29557,6 +29557,85 @@
    ]
   },
   {
+   "@id": "ct:social-norms-approach",
+   "@type": "cto:Technique",
+   "cto:challengedBy": {
+    "@id": "ct:foxcroft-2015-cochrane-social-norms-review"
+   },
+   "cto:counteracts": [
+    {
+     "@id": "ct:false-consensus-effect"
+    },
+    {
+     "@id": "ct:pluralistic-ignorance"
+    }
+   ],
+   "cto:domain": "debiasing-and-metacognition",
+   "cto:evidenceStatus": "mixed",
+   "cto:file": "articles/debiasing-and-metacognition/social-norms-approach.md",
+   "cto:introducedBy": [
+    {
+     "@id": "ct:alan-berkowitz"
+    },
+    {
+     "@id": "ct:h-wesley-perkins"
+    }
+   ],
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:false-consensus-effect"
+   },
+   "cto:supportedBy": {
+    "@id": "ct:borsari-carey-2003-norms-meta-analysis"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-norms-approach/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-norms-approach/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-norms-approach/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-norms-approach/s4"
+    }
+   ],
+   "rdfs:label": "Social norms approach",
+   "skos:altLabel": [
+    "normative feedback intervention",
+    "social norms intervention",
+    "social norms marketing"
+   ],
+   "skos:broader": {
+    "@id": "ct:debiasing"
+   },
+   "skos:definition": "An intervention that corrects people's mistaken beliefs about what their peers actually think and do by collecting accurate survey data on the group's real norms and communicating it back to the group.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/debiasing-and-metacognition"
+   },
+   "skos:prefLabel": "Social norms approach",
+   "skos:related": [
+    {
+     "@id": "ct:availability-heuristic"
+    },
+    {
+     "@id": "ct:false-consensus-effect"
+    },
+    {
+     "@id": "ct:fundamental-attribution-error"
+    },
+    {
+     "@id": "ct:social-psychology"
+    }
+   ]
+  },
+  {
    "@id": "ct:social-psychology",
    "@type": "cto:Field",
    "cto:challengedBy": {
@@ -64576,6 +64655,62 @@
    "dcterms:title": "2.6: Slippery Slope Arguments",
    "schema:url": {
     "@id": "https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Decoding_Deception_(Daly_and_Jarrette)/02%3A_Common_Fallacies_(and_How_to_Find_Them)/2.06%3A_Slippery_Slope_Arguments"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-norms-approach/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "University of California, Berkeley, PATH to Care Center (care.berkeley.edu)",
+   "dcterms:title": "Overview of the Social Norms Approach",
+   "schema:url": {
+    "@id": "https://care.berkeley.edu/wp-content/uploads/2019/07/Overview-of-the-Social-Norms-Approach.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-norms-approach/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "Journal of Studies on Alcohol, Supplement 14, 164-172 (Perkins, 2002), hosted by NIAAA collegedrinkingprevention.gov",
+   "dcterms:title": "Social Norms and the Prevention of Alcohol Misuse in Collegiate Contexts",
+   "schema:url": {
+    "@id": "https://www.collegedrinkingprevention.gov/media/journal/164-perkins2.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-norms-approach/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "Journal of Studies on Alcohol 64(3), 331-341 (Borsari & Carey, 2003), PubMed Central",
+   "dcterms:title": "Descriptive and Injunctive Norms in College Drinking: A Meta-Analytic Integration",
+   "schema:url": {
+    "@id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2431131"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/social-norms-approach/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-25"
+   },
+   "dcterms:publisher": "Cochrane Database of Systematic Reviews CD006748 (Foxcroft, Moreira, Almeida Santimano & Smith, 2015), Cochrane",
+   "dcterms:title": "Social norms interventions are not effective enough on their own to reduce alcohol use or misuse among university or college students",
+   "schema:url": {
+    "@id": "https://www.cochrane.org/evidence/CD006748_social-norms-interventions-are-not-effective-enough-their-own-reduce-alcohol-use-or-misuse-among"
    }
   },
   {
