@@ -15013,6 +15013,96 @@
    ]
   },
   {
+   "@id": "ct:group-polarization",
+   "@type": "cto:Phenomenon",
+   "cto:amplifies": {
+    "@id": "ct:planning-fallacy"
+   },
+   "cto:demonstratedBy": {
+    "@id": "ct:stoner-1961-risky-shift-study"
+   },
+   "cto:domain": "decision-making",
+   "cto:evidenceStatus": "robust",
+   "cto:explainedBy": [
+    {
+     "@id": "ct:persuasive-arguments-theory"
+    },
+    {
+     "@id": "ct:repeated-attitude-expression"
+    },
+    {
+     "@id": "ct:social-comparison-theory"
+    }
+   ],
+   "cto:file": "articles/decision-making/group-polarization.md",
+   "cto:level": "introductory",
+   "cto:studiedIn": {
+    "@id": "ct:social-psychology"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s4"
+    }
+   ],
+   "rdfs:label": "Group polarization",
+   "skos:altLabel": [
+    "choice shift",
+    "group polarization effect",
+    "group-induced polarization",
+    "law of group polarization"
+   ],
+   "skos:broader": {
+    "@id": "ct:group-decision-making"
+   },
+   "skos:definition": "The tendency of a group of like-minded people, after discussing an issue, to end up with a position more extreme in the direction they already leaned than the average of their pre-discussion views; first observed as the \"risky shift\" and later found to run toward caution as well.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making"
+   },
+   "skos:prefLabel": "Group polarization",
+   "skos:related": [
+    {
+     "@id": "ct:cass-sunstein"
+    },
+    {
+     "@id": "ct:delphi-method"
+    },
+    {
+     "@id": "ct:devils-advocacy"
+    },
+    {
+     "@id": "ct:false-consensus-effect"
+    },
+    {
+     "@id": "ct:groupthink"
+    },
+    {
+     "@id": "ct:myside-bias"
+    },
+    {
+     "@id": "ct:nominal-group-technique"
+    },
+    {
+     "@id": "ct:straw-man-fallacy"
+    },
+    {
+     "@id": "ct:wisdom-of-crowds"
+    }
+   ]
+  },
+  {
    "@id": "ct:groupthink",
    "@type": "cto:Phenomenon",
    "cto:challengedBy": [
@@ -53021,6 +53111,62 @@
    "dcterms:title": "Jury Theorems",
    "schema:url": {
     "@id": "https://plato.stanford.edu/archives/sum2026/entries/jury-theorems/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "EBSCO Research Starters (Gould & Walker, 2019)",
+   "dcterms:title": "Group Polarization",
+   "schema:url": {
+    "@id": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/group-polarization"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "Journal of Personality and Social Psychology 68(6), 1014-1029 (Brauer, Judd & Gliner, 1995), author's copy, University of Wisconsin-Madison",
+   "dcterms:title": "The Effects of Repeated Expressions on Attitude Polarization During Group Discussions",
+   "schema:url": {
+    "@id": "https://psych.wisc.edu/Brauer/BrauerLab/wp-content/uploads/2014/04/Brauer-et-al-1995-JPSP-Attitude-Polarization.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "Chicago Booth Review, University of Chicago Booth School of Business (Hastie & Sunstein, 2015; excerpt from Wiser)",
+   "dcterms:title": "Polarization: One Reason Groups Fail",
+   "schema:url": {
+    "@id": "https://www.chicagobooth.edu/review/one-reason-groups-fail-polarization"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "academic",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-26"
+   },
+   "dcterms:publisher": "John M. Olin Program in Law and Economics Working Paper No. 91, University of Chicago Law School (Sunstein, 1999), Harvard DASH copy via CORE",
+   "dcterms:title": "The Law of Group Polarization",
+   "schema:url": {
+    "@id": "https://core.ac.uk/download/28949882.pdf"
    }
   },
   {

@@ -158,7 +158,7 @@ _Which written concepts have no introducedBy / introducedIn edge (who named it, 
 | `ct:formal-modeling` | cto:Method |
 | `ct:grade-approach` | cto:Framework |
 
-…and 56 more.
+…and 57 more.
 
 ## Orphan articles (gap)
 

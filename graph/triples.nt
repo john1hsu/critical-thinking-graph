@@ -6968,6 +6968,40 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
 <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#requires> <https://github.com/john1hsu/critical-thinking-graph/id/judgment-and-decision-making> .
 <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://purl.org/dc/terms/created> "2026-11-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2000/01/rdf-schema#label> "Group polarization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#altLabel> "choice shift" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#altLabel> "group polarization effect" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#altLabel> "group-induced polarization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#altLabel> "law of group polarization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/critical-thinking-graph/id/group-decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#definition> "The tendency of a group of like-minded people, after discussing an issue, to end up with a position more extreme in the direction they already leaned than the average of their pre-discussion views; first observed as the \"risky shift\" and later found to run toward caution as well." .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#inScheme> <https://github.com/john1hsu/critical-thinking-graph/id/scheme/decision-making> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Group polarization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/cass-sunstein> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/delphi-method> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/devils-advocacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/false-consensus-effect> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/myside-bias> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/nominal-group-technique> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/straw-man-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/critical-thinking-graph/id/wisdom-of-crowds> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s1> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s2> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s3> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s4> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#amplifies> <https://github.com/john1hsu/critical-thinking-graph/id/planning-fallacy> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#demonstratedBy> <https://github.com/john1hsu/critical-thinking-graph/id/stoner-1961-risky-shift-study> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#domain> "decision-making" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#evidenceStatus> "robust" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/persuasive-arguments-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/repeated-attitude-expression> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#explainedBy> <https://github.com/john1hsu/critical-thinking-graph/id/social-comparison-theory> .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#file> "articles/decision-making/group-polarization.md" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#level> "introductory" .
+<https://github.com/john1hsu/critical-thinking-graph/id/group-polarization> <https://github.com/john1hsu/critical-thinking-graph/ontology#studiedIn> <https://github.com/john1hsu/critical-thinking-graph/id/social-psychology> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://purl.org/dc/terms/created> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Phenomenon> .
 <https://github.com/john1hsu/critical-thinking-graph/id/groupthink> <http://www.w3.org/2000/01/rdf-schema#label> "Groupthink" .
@@ -18730,6 +18764,30 @@
 <https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "scholarly-encyclopedia" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/group-decision-making/s4> <https://schema.org/url> <https://plato.stanford.edu/archives/sum2026/entries/jury-theorems/> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s1> <http://purl.org/dc/terms/date> "2026-11-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s1> <http://purl.org/dc/terms/publisher> "EBSCO Research Starters (Gould & Walker, 2019)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s1> <http://purl.org/dc/terms/title> "Group Polarization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s1> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "encyclopedia" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s1> <https://schema.org/url> <https://www.ebsco.com/research-starters/social-sciences-and-humanities/group-polarization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s2> <http://purl.org/dc/terms/date> "2026-11-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s2> <http://purl.org/dc/terms/publisher> "Journal of Personality and Social Psychology 68(6), 1014-1029 (Brauer, Judd & Gliner, 1995), author's copy, University of Wisconsin-Madison" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s2> <http://purl.org/dc/terms/title> "The Effects of Repeated Expressions on Attitude Polarization During Group Discussions" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s2> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s2> <https://schema.org/url> <https://psych.wisc.edu/Brauer/BrauerLab/wp-content/uploads/2014/04/Brauer-et-al-1995-JPSP-Attitude-Polarization.pdf> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s3> <http://purl.org/dc/terms/date> "2026-11-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s3> <http://purl.org/dc/terms/publisher> "Chicago Booth Review, University of Chicago Booth School of Business (Hastie & Sunstein, 2015; excerpt from Wiser)" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s3> <http://purl.org/dc/terms/title> "Polarization: One Reason Groups Fail" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s3> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s3> <https://schema.org/url> <https://www.chicagobooth.edu/review/one-reason-groups-fail-polarization> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s4> <http://purl.org/dc/terms/date> "2026-11-26"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s4> <http://purl.org/dc/terms/publisher> "John M. Olin Program in Law and Economics Working Paper No. 91, University of Chicago Law School (Sunstein, 1999), Harvard DASH copy via CORE" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s4> <http://purl.org/dc/terms/title> "The Law of Group Polarization" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/critical-thinking-graph/ontology#Source> .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s4> <https://github.com/john1hsu/critical-thinking-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/critical-thinking-graph/id/source/group-polarization/s4> <https://schema.org/url> <https://core.ac.uk/download/28949882.pdf> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/date> "2026-11-05"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/publisher> "Emerging Leadership Journeys 4(1), Regent University School of Global Leadership & Entrepreneurship (Rose, 2011)" .
 <https://github.com/john1hsu/critical-thinking-graph/id/source/groupthink/s1> <http://purl.org/dc/terms/title> "Diverse Perspectives on the Groupthink Theory: A Literary Review" .

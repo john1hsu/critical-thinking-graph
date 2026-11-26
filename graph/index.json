@@ -16155,6 +16155,108 @@
   ]
  },
  {
+  "id": "ct:group-polarization",
+  "title": "Group polarization",
+  "aliases": [
+   "group polarization effect",
+   "group-induced polarization",
+   "law of group polarization",
+   "choice shift"
+  ],
+  "type": "Phenomenon",
+  "domain": "decision-making",
+  "level": "introductory",
+  "evidenceStatus": "robust",
+  "file": "articles/decision-making/group-polarization.md",
+  "created": "2026-11-26",
+  "summary": "The tendency of a group of like-minded people, after discussing an issue, to end up with a position more extreme in the direction they already leaned than the average of their pre-discussion views; first observed as the \"risky shift\" and later found to run toward caution as well.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:group-decision-making"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:groupthink"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:false-consensus-effect"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:myside-bias"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:straw-man-fallacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:devils-advocacy"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:wisdom-of-crowds"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:nominal-group-technique"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:delphi-method"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:cass-sunstein"
+   },
+   {
+    "predicate": "cto:studiedIn",
+    "object": "ct:social-psychology",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:demonstratedBy",
+    "object": "ct:stoner-1961-risky-shift-study",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:persuasive-arguments-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:social-comparison-theory",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:explainedBy",
+    "object": "ct:repeated-attitude-expression",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:amplifies",
+    "object": "ct:planning-fallacy",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://www.ebsco.com/research-starters/social-sciences-and-humanities/group-polarization",
+   "https://psych.wisc.edu/Brauer/BrauerLab/wp-content/uploads/2014/04/Brauer-et-al-1995-JPSP-Attitude-Polarization.pdf",
+   "https://www.chicagobooth.edu/review/one-reason-groups-fail-polarization",
+   "https://core.ac.uk/download/28949882.pdf"
+  ]
+ },
+ {
   "id": "ct:groupthink",
   "title": "Groupthink",
   "aliases": [
