@@ -95,6 +95,81 @@
    ]
   },
   {
+   "@id": "ct:abstract-argumentation-frameworks",
+   "@type": "cto:Framework",
+   "cto:appliedIn": {
+    "@id": "ct:artificial-intelligence"
+   },
+   "cto:challengedBy": {
+    "@id": "ct:polberg-hunter-2017-empirical-evaluation-of-abstract-argumentation"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:aspic-plus"
+   },
+   "cto:domain": "argumentation",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/argumentation/abstract-argumentation-frameworks.md",
+   "cto:introducedBy": {
+    "@id": "ct:phan-minh-dung"
+   },
+   "cto:introducedIn": {
+    "@id": "ct:on-the-acceptability-of-arguments"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:argument"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abstract-argumentation-frameworks/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abstract-argumentation-frameworks/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abstract-argumentation-frameworks/s3"
+    }
+   ],
+   "rdfs:label": "Abstract argumentation frameworks",
+   "skos:altLabel": [
+    "Dung argumentation framework",
+    "Dung's abstract argumentation",
+    "argumentation framework (AF)"
+   ],
+   "skos:broader": {
+    "@id": "ct:argumentation-theory"
+   },
+   "skos:definition": "A formal model, introduced by Phan Minh Dung in 1995, that treats arguments as bare nodes connected by an attack relation and defines which sets of arguments can be rationally accepted together (grounded, preferred, stable and complete semantics).",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/argumentation"
+   },
+   "skos:prefLabel": "Abstract argumentation frameworks",
+   "skos:related": [
+    {
+     "@id": "ct:argument-mapping"
+    },
+    {
+     "@id": "ct:artificial-intelligence"
+    },
+    {
+     "@id": "ct:convergent-argument"
+    },
+    {
+     "@id": "ct:defeasible-reasoning"
+    },
+    {
+     "@id": "ct:dialectic"
+    },
+    {
+     "@id": "ct:legal-reasoning"
+    }
+   ]
+  },
+  {
    "@id": "ct:accuracy-prompts",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -41253,6 +41328,48 @@
    "dcterms:title": "History of statistics: 18th century",
    "schema:url": {
     "@id": "https://web.universiteitleiden.nl/fsw/verduin/stathist/sh_18.htm"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abstract-argumentation-frameworks/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "primary",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "dcterms:publisher": "Artificial Intelligence 77, 321-357 (Dung, 1995)",
+   "dcterms:title": "On the acceptability of arguments and its fundamental role in nonmonotonic reasoning, logic programming and n-person games",
+   "schema:url": {
+    "@id": "https://cse-robotics.engr.tamu.edu/dshell/cs631/papers/dung95acceptability.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abstract-argumentation-frameworks/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "textbook",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "dcterms:publisher": "Springer Undergraduate Texts in Philosophy (Prakken, 2018), Utrecht University repository",
+   "dcterms:title": "Argument (chapter 2 of Introduction to Formal Philosophy)",
+   "schema:url": {
+    "@id": "https://dspace.library.uu.nl/bitstream/handle/1874/388302/978-3-319-77434-3_2_1_.pdf?sequence=2"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/abstract-argumentation-frameworks/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "preprint",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-27"
+   },
+   "dcterms:publisher": "arXiv (Polberg and Hunter, University College London, 2017)",
+   "dcterms:title": "Empirical Evaluation of Abstract Argumentation: Supporting the Need for Bipolar and Probabilistic Approaches",
+   "schema:url": {
+    "@id": "https://arxiv.org/pdf/1707.09324"
    }
   },
   {

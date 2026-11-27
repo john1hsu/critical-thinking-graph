@@ -86,6 +86,92 @@
   ]
  },
  {
+  "id": "ct:abstract-argumentation-frameworks",
+  "title": "Abstract argumentation frameworks",
+  "aliases": [
+   "Dung argumentation framework",
+   "Dung's abstract argumentation",
+   "argumentation framework (AF)"
+  ],
+  "type": "Framework",
+  "domain": "argumentation",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/argumentation/abstract-argumentation-frameworks.md",
+  "created": "2026-11-27",
+  "summary": "A formal model, introduced by Phan Minh Dung in 1995, that treats arguments as bare nodes connected by an attack relation and defines which sets of arguments can be rationally accepted together (grounded, preferred, stable and complete semantics).",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:argumentation-theory"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:defeasible-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:artificial-intelligence"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:legal-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:dialectic"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:argument-mapping"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:convergent-argument"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:argument"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:phan-minh-dung",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedIn",
+    "object": "ct:on-the-acceptability-of-arguments",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:appliedIn",
+    "object": "ct:artificial-intelligence",
+    "source": "s1",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:aspic-plus",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:polberg-hunter-2017-empirical-evaluation-of-abstract-argumentation",
+    "source": "s3",
+    "confidence": "medium"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://cse-robotics.engr.tamu.edu/dshell/cs631/papers/dung95acceptability.pdf",
+   "https://dspace.library.uu.nl/bitstream/handle/1874/388302/978-3-319-77434-3_2_1_.pdf?sequence=2",
+   "https://arxiv.org/pdf/1707.09324"
+  ]
+ },
+ {
   "id": "ct:accuracy-prompts",
   "title": "Accuracy prompts",
   "aliases": [
