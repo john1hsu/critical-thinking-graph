@@ -7272,6 +7272,80 @@
    ]
   },
   {
+   "@id": "ct:context-of-discovery-and-context-of-justification",
+   "@type": "cto:Principle",
+   "cto:challengedBy": {
+    "@id": "ct:thomas-kuhn"
+   },
+   "cto:contrastsWith": {
+    "@id": "ct:inference-to-the-best-explanation"
+   },
+   "cto:counteracts": {
+    "@id": "ct:genetic-fallacy"
+   },
+   "cto:domain": "philosophy-of-reasoning",
+   "cto:evidenceStatus": "normative",
+   "cto:file": "articles/philosophy-of-reasoning/context-of-discovery-and-context-of-justification.md",
+   "cto:influencedBy": {
+    "@id": "ct:karl-popper"
+   },
+   "cto:introducedBy": {
+    "@id": "ct:hans-reichenbach"
+   },
+   "cto:level": "intermediate",
+   "cto:requires": {
+    "@id": "ct:evidence"
+   },
+   "dcterms:created": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "prov:wasDerivedFrom": [
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/context-of-discovery-and-context-of-justification/s1"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/context-of-discovery-and-context-of-justification/s2"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/context-of-discovery-and-context-of-justification/s3"
+    },
+    {
+     "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/context-of-discovery-and-context-of-justification/s4"
+    }
+   ],
+   "rdfs:label": "Context of discovery and context of justification",
+   "skos:altLabel": [
+    "DJ distinction",
+    "context distinction",
+    "discovery/justification distinction"
+   ],
+   "skos:broader": [
+    {
+     "@id": "ct:epistemology"
+    },
+    {
+     "@id": "ct:philosophy-of-science"
+    }
+   ],
+   "skos:definition": "The principle, associated with Hans Reichenbach, that how a hypothesis or belief was first arrived at is a separate question from whether, and how well, it is supported by evidence and argument.",
+   "skos:inScheme": {
+    "@id": "https://github.com/john1hsu/critical-thinking-graph/id/scheme/philosophy-of-reasoning"
+   },
+   "skos:prefLabel": "Context of discovery and context of justification",
+   "skos:related": [
+    {
+     "@id": "ct:debunking"
+    },
+    {
+     "@id": "ct:psychology-of-reasoning"
+    },
+    {
+     "@id": "ct:the-logic-of-scientific-discovery"
+    }
+   ]
+  },
+  {
    "@id": "ct:contingency-table",
    "@type": "cto:Technique",
    "cto:challengedBy": {
@@ -47138,6 +47212,62 @@
    "dcterms:title": "Overcoming the inevitable anchoring effect (faculty publication record)",
    "schema:url": {
     "@id": "https://www.london.edu/faculty-and-research/academic-research/o/overcoming-the-inevitable-anchoring-effect--considering-the-opposi"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/context-of-discovery-and-context-of-justification/s1",
+   "@type": "cto:Source",
+   "cto:sourceType": "scholarly-encyclopedia",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "Stanford Encyclopedia of Philosophy (Schickore, first published 2014, substantive revision 2022)",
+   "dcterms:title": "Scientific Discovery",
+   "schema:url": {
+    "@id": "https://plato.stanford.edu/entries/scientific-discovery/"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/context-of-discovery-and-context-of-justification/s2",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "Informal Logic 30(1), 1-33 (Ward, 2010)",
+   "dcterms:title": "The Value of Genetic Fallacies",
+   "schema:url": {
+    "@id": "https://distantreader.org/stacks/journals/il/il-1237.pdf"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/context-of-discovery-and-context-of-justification/s3",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "In Schickore & Steinle (eds.), Revisiting Discovery and Justification, Springer, 2006, pp. 119-131 (Hoyningen-Huene)",
+   "dcterms:title": "Context of Discovery versus Context of Justification and Thomas Kuhn",
+   "schema:url": {
+    "@id": "https://link.springer.com/doi/10.1007/1-4020-4251-5_8"
+   }
+  },
+  {
+   "@id": "https://github.com/john1hsu/critical-thinking-graph/id/source/context-of-discovery-and-context-of-justification/s4",
+   "@type": "cto:Source",
+   "cto:sourceType": "peer-reviewed",
+   "dcterms:date": {
+    "@type": "xsd:date",
+    "@value": "2026-11-28"
+   },
+   "dcterms:publisher": "International Studies in the Philosophy of Science 31(2), 151-176 (Aufrecht); author's copy on PhilArchive",
+   "dcterms:title": "Reichenbach Falls—And Rises? Reconstructing the Discovery/Justification Distinction",
+   "schema:url": {
+    "@id": "https://philarchive.org/rec/AUFRFR"
    }
   },
   {

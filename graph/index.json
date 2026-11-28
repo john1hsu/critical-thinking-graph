@@ -7802,6 +7802,85 @@
   ]
  },
  {
+  "id": "ct:context-of-discovery-and-context-of-justification",
+  "title": "Context of discovery and context of justification",
+  "aliases": [
+   "discovery/justification distinction",
+   "DJ distinction",
+   "context distinction"
+  ],
+  "type": "Principle",
+  "domain": "philosophy-of-reasoning",
+  "level": "intermediate",
+  "evidenceStatus": "normative",
+  "file": "articles/philosophy-of-reasoning/context-of-discovery-and-context-of-justification.md",
+  "created": "2026-11-28",
+  "summary": "The principle, associated with Hans Reichenbach, that how a hypothesis or belief was first arrived at is a separate question from whether, and how well, it is supported by evidence and argument.",
+  "edges": [
+   {
+    "predicate": "skos:broader",
+    "object": "ct:philosophy-of-science"
+   },
+   {
+    "predicate": "skos:broader",
+    "object": "ct:epistemology"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:the-logic-of-scientific-discovery"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:psychology-of-reasoning"
+   },
+   {
+    "predicate": "skos:related",
+    "object": "ct:debunking"
+   },
+   {
+    "predicate": "cto:requires",
+    "object": "ct:evidence"
+   },
+   {
+    "predicate": "cto:counteracts",
+    "object": "ct:genetic-fallacy",
+    "source": "s2",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:introducedBy",
+    "object": "ct:hans-reichenbach",
+    "source": "s2",
+    "confidence": "medium"
+   },
+   {
+    "predicate": "cto:influencedBy",
+    "object": "ct:karl-popper",
+    "source": "s4",
+    "confidence": "low"
+   },
+   {
+    "predicate": "cto:challengedBy",
+    "object": "ct:thomas-kuhn",
+    "source": "s3",
+    "confidence": "high"
+   },
+   {
+    "predicate": "cto:contrastsWith",
+    "object": "ct:inference-to-the-best-explanation",
+    "source": "s1",
+    "confidence": "low"
+   }
+  ],
+  "criticalQuestions": [],
+  "source_urls": [
+   "https://plato.stanford.edu/entries/scientific-discovery/",
+   "https://distantreader.org/stacks/journals/il/il-1237.pdf",
+   "https://link.springer.com/doi/10.1007/1-4020-4251-5_8",
+   "https://philarchive.org/rec/AUFRFR"
+  ]
+ },
+ {
   "id": "ct:contingency-table",
   "title": "Contingency table",
   "aliases": [

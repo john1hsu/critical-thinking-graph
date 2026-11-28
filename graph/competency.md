@@ -8,7 +8,6 @@ _Which written biases, heuristics or fallacies have nothing in the graph that co
 
 | node | type |
 |---|---|
-| `ct:genetic-fallacy` | cto:InformalFallacy |
 | `ct:illicit-subalternation` | cto:FormalFallacy |
 | `ct:illicit-subcontrary` | cto:FormalFallacy |
 | `ct:probabilistic-modus-tollens` | cto:FormalFallacy |
@@ -51,7 +50,7 @@ _Which techniques, principles and dispositions counteract or detect the most fai
 | `ct:delphi-method` | 2 | Groupthink, bandwagon-effect |
 | `ct:dialectical-relevance` | 2 | Ignoratio elenchi, Red herring |
 
-…and 59 more.
+…and 60 more.
 
 ## Heuristic -> bias -> remedy chains
 
